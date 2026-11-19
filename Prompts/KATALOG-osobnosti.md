@@ -1,0 +1,165 @@
+# KATALOG osobností — zadání a výchozí seznam
+
+Příloha k `PLAN-astro-app.md` (oddíl 4.3). Stav: návrh, 2026-11-19.
+
+## 1. Účel
+
+Katalog známých lidí s datem, časem a místem narození, aby šel jejich horoskop
+otevřít jedním ťuknutím a ptát se na události z jejich života („co se dělo na
+nebi v den bitvy u Waterloo“).
+
+## 2. Záznam
+
+`content/people/<id>.json`:
+
+```json
+{"id": "napoleon-bonaparte", "name": "Napoleon Bonaparte",
+ "categories": ["history", "politics", "military"], "living": false,
+ "wikidata": "Q517",
+ "birth": {"date": "1769-08-15", "calendar": "gregorian", "time": "11:30",
+           "time_basis": "lmt", "place": "Ajaccio", "lat": 41.92, "lon": 8.74},
+ "reliability": "A",
+ "source": {"note": "…", "url": "…"},
+ "events": [{"date": "1815-06-18", "label": "bitva u Waterloo", "source": "…"}]}
+```
+
+Spolehlivost času podle Roddenové stupnice:
+
+| Stupeň | Význam | V appce |
+|---|---|---|
+| AA | rodný list nebo matrika | „potvrzeno“ |
+| A | z paměti osoby, rodiny, oficiální oznámení | „potvrzeno“ |
+| B | životopis | s upozorněním |
+| C | nejistý, bez původu | s výrazným upozorněním |
+| DD | protichůdné údaje | nezařazovat |
+| X | jen datum, čas neznámý | horoskop bez domů |
+
+Bez ověřeného zdroje se záznam do `content/people/` nedostane.
+
+## 3. Zdroje
+
+| Zdroj | Co dává | Omezení |
+|---|---|---|
+| Zveřejněné rodné listy, matriky, oficiální oznámení | čas stupně AA nebo A | ruční dohledání po jednom |
+| Open Gauquelin Database (opengauquelin.org) | 25 872 osob, z toho 24 542 s časem; narození 1572–1959; 25 zemí; 4 384 sportovců | licence Creative Commons (přesnou verzi ověřit na stránce About); sami většinu časů hodnotí „k ověření“ → brát jako stupeň B; žádné současné osobnosti |
+| Astro-Databank (astro.com) | největší sbírka s Roddenovým hodnocením, i současníci | blokuje automatický přístup; výslovná licence k datům nenalezena; hromadné převzetí naráží na právo pořizovatele databáze → jen ruční nahlédnutí k jednotlivým záznamům, nebo písemné svolení Astrodienstu |
+| Wikidata (CC0) | data narození a úmrtí, místa, souřadnice, události | časy narození neobsahuje |
+
+Česká specifika: český rodný list čas narození neuvádí, takže u českých osobností
+bývá veřejně doložený čas vzácný. Počítej s tím, že velká část vyjde jako X.
+
+Země, kde rodný list nebo matrika čas uvádí (snáz dohledatelné): Francie, Itálie,
+Německo, Rakousko, Švýcarsko, Belgie, Nizozemsko, Skotsko, většina států USA,
+Brazílie, Argentina. Anglie a Wales čas neuvádějí.
+
+## 4. Postup sestavení (`tools/people/`)
+
+1. Výchozí seznam jmen podle kategorií (oddíl 5) → doplnit z Wikidat datum, místo,
+   souřadnice, identifikátor a události.
+2. Spárovat s Open Gauquelin Database (jméno + datum).
+3. Fronta k ručnímu ověření: ke každému času dohledat zdroj a stupeň.
+4. Validátor: schéma, existence zdroje, kalendář (juliánský před zavedením
+   gregoriánského v dané zemi), časová základna (místní střední čas před zavedením
+   pásmového).
+5. Cíl první verze: 150–300 osob, v každé kategorii aspoň 15.
+
+## 5. Výchozí seznam kandidátů
+
+**Časy v tabulkách jsou z paměti jazykového modelu a nejsou ověřené.** Slouží jen
+jako vodítko, co hledat. Data narození jsou spolehlivější, i ta ale ověřit.
+Otazník znamená, že čas neznám.
+
+### Historie
+
+| Jméno | Narození | Čas (neověřeno) | Údajný původ času |
+|---|---|---|---|
+| Napoleon Bonaparte | 15. 8. 1769, Ajaccio | 11:30 | rodinná tradice |
+| Johann Wolfgang Goethe | 28. 8. 1749, Frankfurt | 12:00 | vlastní životopis |
+| Wolfgang Amadeus Mozart | 27. 1. 1756, Salzburg | 20:00 | otcův dopis |
+| Isaac Newton | 25. 12. 1642 (jul.), Woolsthorpe | krátce po půlnoci | tradice |
+| Karel IV. | 14. 5. 1316 (jul.), Praha | ? | kroniky |
+| T. G. Masaryk | 7. 3. 1850, Hodonín | ? | |
+| Sigmund Freud | 6. 5. 1856, Příbor | 18:30 | rodinný záznam |
+| Carl Gustav Jung | 26. 7. 1875, Kesswil | kolem 19:30 | více verzí |
+| Albert Einstein | 14. 3. 1879, Ulm | 11:30 | rodný list |
+| Mahátma Gándhí | 2. 10. 1869, Porbandar | ? | sporné |
+| Winston Churchill | 30. 11. 1874, Blenheim | 1:30 | otcův dopis |
+| Adolf Hitler | 20. 4. 1889, Braunau | 18:30 | matrika |
+| John F. Kennedy | 29. 5. 1917, Brookline | 15:00 | matka |
+| Alžběta II. | 21. 4. 1926, Londýn | 2:40 | oficiální oznámení |
+| Václav Havel | 5. 10. 1936, Praha | ? | |
+
+### Politici současnosti
+
+| Jméno | Narození | Čas (neověřeno) | Údajný původ času |
+|---|---|---|---|
+| Barack Obama | 4. 8. 1961, Honolulu | 19:24 | zveřejněný rodný list |
+| Donald Trump | 14. 6. 1946, New York | 10:54 | zveřejněný rodný list |
+| Joe Biden | 20. 11. 1942, Scranton | 8:30 | ? |
+| Emmanuel Macron | 21. 12. 1977, Amiens | 10:40 | rodný list |
+| Angela Merkelová | 17. 7. 1954, Hamburk | 18:00 | ? |
+| Karel III. | 14. 11. 1948, Londýn | 21:14 | oficiální oznámení |
+| Vladimir Putin | 7. 10. 1952, Leningrad | 9:30 | sporné |
+| Volodymyr Zelenskyj | 25. 1. 1978, Kryvyj Rih | ? | |
+| Petr Pavel | 1. 11. 1961, Planá | ? | |
+
+### Herci a celebrity
+
+| Jméno | Narození | Čas (neověřeno) | Údajný původ času |
+|---|---|---|---|
+| Marilyn Monroe | 1. 6. 1926, Los Angeles | 9:30 | rodný list |
+| Audrey Hepburnová | 4. 5. 1929, Brusel | 3:00 | rodný list |
+| Elvis Presley | 8. 1. 1935, Tupelo | 4:35 | rodný list |
+| John Lennon | 9. 10. 1940, Liverpool | 18:30 | rodina |
+| Arnold Schwarzenegger | 30. 7. 1947, Thal | 4:10 | rodný list |
+| Steve Jobs | 24. 2. 1955, San Francisco | 19:15 | rodný list |
+| Madonna | 16. 8. 1958, Bay City | 7:05 | rodný list |
+| princezna Diana | 1. 7. 1961, Sandringham | 19:45 | matka |
+| Brad Pitt | 18. 12. 1963, Shawnee | 6:31 | rodný list |
+| Leonardo DiCaprio | 11. 11. 1974, Los Angeles | 2:47 | rodný list |
+| Angelina Jolie | 4. 6. 1975, Los Angeles | 9:09 | rodný list |
+| Taylor Swift | 13. 12. 1989, West Reading | ? | sporné |
+| Miloš Forman | 18. 2. 1932, Čáslav | ? | |
+| Karel Gott | 14. 7. 1939, Plzeň | ? | |
+
+### Fotbalisté
+
+| Jméno | Narození | Čas (neověřeno) | Údajný původ času |
+|---|---|---|---|
+| Pelé | 23. 10. 1940, Três Corações | 3:00 | ? |
+| Diego Maradona | 30. 10. 1960, Lanús | 7:05 | rodný list |
+| Zinédine Zidane | 23. 6. 1972, Marseille | 3:00 | rodný list |
+| David Beckham | 2. 5. 1975, Londýn | 6:17 | životopis |
+| Cristiano Ronaldo | 5. 2. 1985, Funchal | 5:25 | ověřit, existuje víc verzí |
+| Lionel Messi | 24. 6. 1987, Rosario | 6:05 | rodný list |
+| Kylian Mbappé | 20. 12. 1998, Paříž | ? | francouzský rodný list čas uvádí |
+| Josef Masopust | 9. 2. 1931, Střimice | ? | |
+| Pavel Nedvěd | 30. 8. 1972, Cheb | ? | |
+
+### Hokejisté
+
+U hokejistů si žádný doložený čas nevybavuji; všechny je třeba dohledat.
+
+| Jméno | Narození |
+|---|---|
+| Wayne Gretzky | 26. 1. 1961, Brantford |
+| Mario Lemieux | 5. 10. 1965, Montréal |
+| Dominik Hašek | 29. 1. 1965, Pardubice |
+| Jaromír Jágr | 15. 2. 1972, Kladno |
+| Alexandr Ovečkin | 17. 9. 1985, Moskva |
+
+### Ostatní sportovci
+
+| Jméno | Narození | Čas (neověřeno) | Údajný původ času |
+|---|---|---|---|
+| Emil Zátopek | 19. 9. 1922, Kopřivnice | ? | |
+| Muhammad Ali | 17. 1. 1942, Louisville | 18:35 | rodný list |
+| Martina Navrátilová | 18. 10. 1956, Praha | 16:40 | ověřit |
+| Michael Jordan | 17. 2. 1963, New York | 13:40 | rodný list |
+| Michael Schumacher | 3. 1. 1969, Hürth | 13:43 | rodný list |
+| Tiger Woods | 30. 12. 1975, Cypress | 22:50 | rodný list |
+| Roger Federer | 8. 8. 1981, Basilej | 8:40 | ? |
+| Serena Williamsová | 26. 9. 1981, Saginaw | 20:28 | ? |
+| Usain Bolt | 21. 8. 1986, Sherwood Content | ? | |
+| Novak Djoković | 22. 5. 1987, Bělehrad | 23:25 | ověřit |
+| Ester Ledecká | 23. 3. 1995, Praha | ? | |

@@ -1,0 +1,12 @@
+#!/bin/bash
+# Repo gate: analyze + tests of every package. Run before push.
+set -euo pipefail
+root=$(cd "$(dirname "$0")/.." && pwd)
+cd "$root/packages/astro_core" && dart analyze --fatal-infos && dart test
+if [ -d "$root/tools/content" ] && [ -f "$root/tools/content/pubspec.yaml" ]; then
+  cd "$root/tools/content" && dart analyze --fatal-infos && dart test
+fi
+if [ -d "$root/app" ]; then
+  cd "$root/app" && flutter analyze --fatal-infos && flutter test
+fi
+echo "gate OK"
