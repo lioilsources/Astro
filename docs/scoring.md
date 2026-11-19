@@ -36,3 +36,42 @@ u moderních je volba sporná, zvoleno: Uran ve Štíru, Neptun v Raku, Pluto ve
 
 Aspekt se sbíhá (`applying`), když se odchylka od přesného úhlu zmenšuje.
 Úhly mají v nativním horoskopu rychlost 0.
+
+## Tranzity (`TransitEngine`)
+
+Hledání: polohy tranzitující planety se spočítají po krocích (Měsíc 1 h; Slunce,
+Merkur, Venuše 12 h; Mars 1 den; ostatní 2 dny) a mezi nimi se interpolují
+(`LongitudeTrack`, Lagrange 4. řádu). Vstup do orbu a výstup z něj se dohledá
+bisekcí na minutu, přesný okamžik na sekundu. Hledá se i před a za zvoleným
+obdobím (pomalé planety 400 dní), aby šlo říct, kdy dlouhý tranzit začal.
+
+- **Pobyt v orbu** = jedna událost. Když se planeta v orbu otočí, má událost víc
+  přesných okamžiků a zastávku (`station`).
+- **Průchody**: přesné okamžiky téže konfigurace bližší než mezera série (Měsíc 2,
+  Slunce 30, Merkur a Venuše 90, Mars 150, Jupiter 200, ostatní 300 dní) tvoří
+  sérii a číslují se 1., 2., 3. `passTotal` je null, když série sahá za spočítaný
+  rozsah.
+- **Fáze**: přesný, dokud je odchylka do 0,2° (u Měsíce asi ±20 min, u Saturnu
+  asi ±2 dny); před nejbližším přesným okamžikem blíží se, po něm odeznívá.
+
+### Síla 0–100 (`strengthAt`)
+
+| Složka | Body |
+|---|---|
+| těsnost: 35 × (1 − odchylka / orb) | 0–35 |
+| pomalost tranzitující planety | Pluto 25, Neptun 23, Uran 21, Saturn 18, Jupiter 14, Mars 10, Slunce 7, Venuše 6, Merkur 5, Měsíc 2 |
+| cíl je Slunce, Měsíc, ASC nebo MC | +15 |
+| konjunkce, kvadrát, opozice | +5 |
+| zastávka do 10 dní | +10 |
+| další tranzit (mimo Měsíc) na týž bod ve stejnou chvíli | +5 za každý, nejvýš +10 |
+
+Akutní = síla ≥ 70.
+
+### Napětí dne (`tensionAt`, `tensionSeries`)
+
+Součet za konjunkce, kvadráty a opozice tranzitujících planet (bez Měsíce) v orbu
+v poledne UT: 35 × těsnost + pomalost + 15 u osobního bodu. Pro percentil dne
+přes celý život se počítá pro každý den; stopy s hrubším krokem (Slunce 4,
+Merkur 2, Venuše 4, Mars 8, ostatní 8–10 dní) dávají proti přímému výpočtu
+odchylku do 6 bodů. 80 let trvá na Macu asi 7 s, v appce běží v isolate a výsledek
+se ukládá.
