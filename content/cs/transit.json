@@ -1,0 +1,97 @@
+[
+ {
+  "key": "transit/saturn/sun/conjunction",
+  "title": "Tranzitující Saturn konjunkce natální Slunce",
+  "keywords": [
+   "zrání",
+   "účtování",
+   "odpovědnost"
+  ],
+  "themes": [
+   "work",
+   "growth",
+   "health"
+  ],
+  "text": "Saturn přechází přes tvoje Slunce. Je to období účtování a zrání, které se vrací zhruba jednou za 29 let. Život testuje, co máš postavené: co je pevné, zůstane a dostane větší váhu, co je jen fasáda, se rozpadne. Práce a odpovědnosti přibývá, uznání přichází pomalu. Je to doba pro rozhodnutí na léta, pro řemeslo a pro jasné hranice.",
+  "shadow": "Ve stínu je únava a pocit, že všechno je těžké a nikdo nepomůže. Sebevědomí klesá, přicházejí pochybnosti a pesimismus. Autority tlačí a omezují. Hrozí přepracování a uzavření do povinností.",
+  "hard": [
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o oslabení životní síly, o únavě, o potížích se srdcem a s kostmi a o nemoci, která nutí zpomalit."
+   },
+   {
+    "topics": [
+     "loss"
+    ],
+    "text": "Starší výklad zmiňuje ztrátu postavení, rozchod a vážnou nemoc nebo úmrtí otce."
+   }
+  ],
+  "traits": {
+   "text": [
+    "responsibility",
+    "discipline",
+    "perseverance"
+   ],
+   "shadow": [
+    "exhaustion",
+    "pessimism",
+    "insecurity"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-19",
+   "pilot": true
+  }
+ },
+ {
+  "key": "transit/pluto/moon/square",
+  "title": "Tranzitující Pluto kvadrát natální Měsíc",
+  "keywords": [
+   "citová krize",
+   "proměna",
+   "rodina"
+  ],
+  "themes": [
+   "family",
+   "relationships",
+   "growth"
+  ],
+  "text": "Pluto v kvadrátu k tvému Měsíci otřásá citovými základy. Období trvá i přes rok a mění domov, rodinu a vztah k vlastním citům. Staré vzorce z dětství vyplouvají na povrch, aby se mohly proměnit. Vztahy s matkou, partnerem nebo dětmi procházejí krizí, po které už nic není jako dřív. Je to doba hluboké citové očisty.",
+  "shadow": "Ve stínu je citová posedlost, žárlivost, mocenské boje v rodině a pocit, že ztrácíš půdu pod nohama. Vztek a strach se mohou obrátit dovnitř. Kontrolou se snažíš zastavit změnu, která už začala.",
+  "hard": [
+   {
+    "topics": [
+     "mental_crisis"
+    ],
+    "text": "Tradice tu mluví o depresích, úzkostech a o citovém zhroucení."
+   },
+   {
+    "topics": [
+     "death",
+     "loss"
+    ],
+    "text": "Starší výklad spojuje tento tranzit se ztrátou blízké ženy, často matky, se ztrátou domova nebo s rozpadem rodiny."
+   }
+  ],
+  "traits": {
+   "text": [
+    "transformation",
+    "depth",
+    "resilience"
+   ],
+   "shadow": [
+    "obsession",
+    "jealousy",
+    "anxiety"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-19",
+   "pilot": true
+  }
+ }
+]

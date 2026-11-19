@@ -1,0 +1,45 @@
+[
+ {
+  "key": "aspect_point/asc/mars/tense",
+  "title": "Mars v napětí k ascendentu",
+  "keywords": [
+   "přímost",
+   "energie",
+   "konflikt"
+  ],
+  "themes": [
+   "character",
+   "health"
+  ],
+  "text": "Napětí mezi Marsem a ascendentem dává přímé, energické vystupování. Působíš rozhodně a lidé to vnímají hned při prvním setkání: buď je to strhne, nebo se cítí ohroženi. Do věcí se pouštíš tělem i duší a nečekáš na svolení. Tvoje síla se nejlépe ukáže ve sportu, v soutěži a tam, kde je potřeba rychlá reakce.",
+  "shadow": "Ve stínu je konfliktnost: hádky vznikají z ničeho a slova padnou dřív, než je promyslíš. S druhými máš málo trpělivosti a pocit, že všichni stojí v cestě. Prudkost tě stojí vztahy i příležitosti.",
+  "hard": [
+   {
+    "topics": [
+     "violence",
+     "illness"
+    ],
+    "text": "Tradice tu mluví o úrazech, popáleninách, řezných ranách a horečkách a o sklonu k nehodám z prudkosti."
+   }
+  ],
+  "traits": {
+   "text": [
+    "courage",
+    "decisiveness",
+    "competitiveness",
+    "vitality"
+   ],
+   "shadow": [
+    "aggression",
+    "impulsiveness",
+    "anger",
+    "bluntness"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-19",
+   "pilot": true
+  }
+ }
+]

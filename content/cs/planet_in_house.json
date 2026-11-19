@@ -1,0 +1,202 @@
+[
+ {
+  "key": "planet_in_house/moon/8",
+  "title": "Měsíc v 8. domě",
+  "keywords": [
+   "hloubka",
+   "krize",
+   "intimita",
+   "dědictví"
+  ],
+  "themes": [
+   "relationships",
+   "family",
+   "money"
+  ],
+  "text": "Měsíc v 8. domě hledá bezpečí v hloubce. Povrchní vztahy tě nenasytí; potřebuješ blízkost, ve které padnou všechny masky. Citově tě formují krize: ztráty, tajemství, proměny v rodině. Vycítíš, o čem se mlčí, a lidé ti svěřují věci, které neřekli nikomu. Silné jsou i otázky cizích peněz, dědictví a společného majetku a tvůj klid často závisí na tom, jak jsou vyřešené. Sexualita a city jsou u tebe propojené a obojí prochází obdobími intenzity a útlumu. Máš schopnost provázet druhé těžkými chvílemi.",
+  "shadow": "Stínem je citová intenzita, která se mění v posedlost a kontrolu. Strach z opuštění je tak silný, že druhé zkoušíš nebo je držíš. Tajnůstkářství a nedůvěra ti berou podporu, kterou potřebuješ. Nálady jsou temnější, než dáváš najevo.",
+  "hard": [
+   {
+    "topics": [
+     "death",
+     "loss"
+    ],
+    "text": "Tradice tu mluví o setkání se smrtí v rodině, často matky nebo jiné ženy, a o tom, že úmrtí nebo dědictví zásadně mění tvůj citový život."
+   },
+   {
+    "topics": [
+     "mental_crisis"
+    ],
+    "text": "Starší výklad zmiňuje sklon k depresím a k citovým krizím, které přicházejí spolu s dalšími životními zlomy."
+   },
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Z těla tradice jmenuje pohlavní a vylučovací orgány a ženské cykly."
+   }
+  ],
+  "traits": {
+   "text": [
+    "depth",
+    "intuition",
+    "empathy",
+    "transformation"
+   ],
+   "shadow": [
+    "obsession",
+    "jealousy",
+    "secrecy",
+    "melancholy"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-19",
+   "pilot": true
+  }
+ },
+ {
+  "key": "planet_in_house/saturn/12",
+  "title": "Saturn ve 12. domě",
+  "keywords": [
+   "samota",
+   "svědomí",
+   "ústraní",
+   "strach"
+  ],
+  "themes": [
+   "character",
+   "growth",
+   "health"
+  ],
+  "text": "Saturn ve 12. domě pracuje potichu a v ústraní. Nejvíc se naučíš o samotě, o tichu a o věcech, které nejsou vidět. Máš silné vnitřní svědomí a cítíš odpovědnost i za to, co nemáš v rukou. Dobře se ti daří v prostředích, kam se lidé neradi dívají: v nemocnicích, archivech, v péči o slabé a v institucích. Strachy, které si neseš, bývají staré a nejasné, a hodně síly ti dá je pojmenovat. Duchovní praxe nebo pravidelná vnitřní kázeň ti dávají oporu. S věkem se z obavy stává moudrost.",
+  "shadow": "Ve stínu je skrytý strach, pocit viny bez jasné příčiny a sklon trestat se. Uzavíráš se a pomoc odmítáš. Můžeš nést břemena druhých místo svých vlastních. Samota, která chrání, se snadno změní v izolaci.",
+  "hard": [
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o dlouhých pobytech v nemocnicích a o chronických nemocech, které omezují pohyb."
+   },
+   {
+    "topics": [
+     "loss",
+     "mental_crisis"
+    ],
+    "text": "Starší astrologie spojuje toto postavení s osamělostí, s izolací, s obdobími deprese a se skrytými nepřáteli, kteří škodí za zády."
+   },
+   {
+    "topics": [
+     "ruin"
+    ],
+    "text": "Klasické výklady jmenují i vězení a omezení svobody, ať doslovné, nebo v podobě povinností, ze kterých nejde odejít."
+   }
+  ],
+  "traits": {
+   "text": [
+    "responsibility",
+    "discipline",
+    "spirituality",
+    "perseverance"
+   ],
+   "shadow": [
+    "guilt",
+    "anxiety",
+    "loneliness",
+    "reclusiveness"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-19",
+   "pilot": true
+  }
+ },
+ {
+  "key": "planet_in_house/sun/10",
+  "title": "Slunce v 10. domě",
+  "keywords": [
+   "kariéra",
+   "poslání",
+   "pověst",
+   "autorita"
+  ],
+  "themes": [
+   "work",
+   "character"
+  ],
+  "text": "Slunce v 10. domě svítí na veřejnosti. Tvoje vůle se naplňuje v práci, poslání a ve společenské roli; chceš, aby po tobě něco zůstalo. Autorita ti přirozeně sedí a lidé ti svěřují vedení, i když o ně nežádáš. Pověst je pro tebe důležitá a umíš ji budovat léta. Vztah k otci nebo k autoritě z dětství tě výrazně tvaruje, ať jako vzor, nebo jako to, čemu se chceš vyhnout. Úspěch přichází nejvíc tehdy, když děláš to, co je opravdu tvoje, ne to, co se od tebe čeká.",
+  "shadow": "Stínem je ztotožnění s rolí: když nejde kariéra, nejde nic. Uznání můžeš potřebovat víc než blízkost a rodinu obětovat postavení. Ctižádost umí být bezohledná. Neúspěch na veřejnosti bereš jako osobní zničení.",
+  "hard": [
+   {
+    "topics": [
+     "ruin"
+    ],
+    "text": "Tradice tu mluví o pádech z výšky, kdy po velkém vzestupu přichází veřejná ztráta postavení nebo skandál."
+   }
+  ],
+  "traits": {
+   "text": [
+    "ambition",
+    "leadership",
+    "responsibility",
+    "self_confidence"
+   ],
+   "shadow": [
+    "pride",
+    "dominance",
+    "vanity"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-19",
+   "pilot": true
+  }
+ },
+ {
+  "key": "planet_in_house/neptune/6",
+  "title": "Neptun v 6. domě",
+  "keywords": [
+   "služba",
+   "péče",
+   "citlivé tělo",
+   "inspirace"
+  ],
+  "themes": [
+   "work",
+   "health"
+  ],
+  "text": "Neptun v 6. domě rozpouští hranice v každodenní práci. Nejvíc tě naplňuje služba, která má smysl: péče, pomoc, léčení, umění nebo práce se zvířaty. Pevný rozvrh tě vysává a daří se ti v rytmu, který dovolí inspiraci. Tvoje tělo je citlivé na prostředí, jídlo, léky i nálady kolem a reaguje dřív než rozum. Máš talent vnímat, co kolegové potřebují, a tiše to dodat. Práce, ve které není kus soucitu, tě dlouho neudrží.",
+  "shadow": "Ve stínu je chaos v povinnostech, zapomínání a nespolehlivost. Snadno se z tebe v práci stane oběť: bereš na sebe víc, než uneseš, a druzí toho využijí. Iluze o kolezích nebo o zaměstnavateli končí zklamáním. Únava bez jasné příčiny se může stát způsobem, jak utéct od toho, co se nechce.",
+  "hard": [
+   {
+    "topics": [
+     "illness",
+     "addiction"
+    ],
+    "text": "Tradice tu mluví o nejasných, těžko rozpoznatelných nemocech, o citlivosti na léky a o otravách; starší výklady varují před alkoholem a jinými závislostmi jako únikem z práce, která tíží."
+   }
+  ],
+  "traits": {
+   "text": [
+    "empathy",
+    "self_sacrifice",
+    "intuition",
+    "creativity"
+   ],
+   "shadow": [
+    "chaos",
+    "escapism",
+    "irresponsibility",
+    "exhaustion"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-19",
+   "pilot": true
+  }
+ }
+]

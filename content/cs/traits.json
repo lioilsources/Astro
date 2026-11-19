@@ -1,0 +1,1197 @@
+[
+ {
+  "id": "chaos",
+  "name": "chaos",
+  "synonyms": [
+   "nepořádek",
+   "zmatek",
+   "roztěkanost",
+   "neorganizovanost",
+   "bordel"
+  ],
+  "opposite": "order"
+ },
+ {
+  "id": "order",
+  "name": "řád",
+  "synonyms": [
+   "pořádek",
+   "systematičnost",
+   "organizovanost",
+   "struktura"
+  ],
+  "opposite": "chaos"
+ },
+ {
+  "id": "impulsiveness",
+  "name": "impulzivita",
+  "synonyms": [
+   "zbrklost",
+   "unáhlenost",
+   "ukvapenost"
+  ],
+  "opposite": "caution"
+ },
+ {
+  "id": "caution",
+  "name": "opatrnost",
+  "synonyms": [
+   "rozvaha",
+   "obezřetnost",
+   "rozvážnost"
+  ],
+  "opposite": "impulsiveness"
+ },
+ {
+  "id": "anger",
+  "name": "vznětlivost",
+  "synonyms": [
+   "hněv",
+   "výbušnost",
+   "prchlivost",
+   "vztek",
+   "zlost"
+  ],
+  "opposite": "patience"
+ },
+ {
+  "id": "patience",
+  "name": "trpělivost",
+  "synonyms": [
+   "klid",
+   "vyčkávání",
+   "shovívavost v čase"
+  ],
+  "opposite": "anger"
+ },
+ {
+  "id": "anxiety",
+  "name": "úzkost",
+  "synonyms": [
+   "strach",
+   "obavy",
+   "nervozita",
+   "starosti",
+   "stres"
+  ],
+  "opposite": "calm"
+ },
+ {
+  "id": "calm",
+  "name": "vyrovnanost",
+  "synonyms": [
+   "klid",
+   "pohoda",
+   "nadhled"
+  ],
+  "opposite": "anxiety"
+ },
+ {
+  "id": "insecurity",
+  "name": "nejistota",
+  "synonyms": [
+   "pochybnosti o sobě",
+   "nízké sebevědomí",
+   "méněcennost"
+  ],
+  "opposite": "self_confidence"
+ },
+ {
+  "id": "self_confidence",
+  "name": "sebevědomí",
+  "synonyms": [
+   "sebedůvěra",
+   "jistota",
+   "víra v sebe"
+  ],
+  "opposite": "insecurity"
+ },
+ {
+  "id": "moodiness",
+  "name": "náladovost",
+  "synonyms": [
+   "výkyvy nálad",
+   "rozladěnost",
+   "proměnlivost citů"
+  ],
+  "opposite": "steadiness"
+ },
+ {
+  "id": "steadiness",
+  "name": "stálost",
+  "synonyms": [
+   "stabilita",
+   "vyrovnaná nálada",
+   "spolehlivost"
+  ],
+  "opposite": "moodiness"
+ },
+ {
+  "id": "sulking",
+  "name": "uraženost",
+  "synonyms": [
+   "trucování",
+   "ublíženost",
+   "nedůtklivost",
+   "křivda"
+  ],
+  "opposite": "forgiveness"
+ },
+ {
+  "id": "forgiveness",
+  "name": "smířlivost",
+  "synonyms": [
+   "odpouštění",
+   "velkorysost",
+   "nezášť"
+  ],
+  "opposite": "sulking"
+ },
+ {
+  "id": "protectiveness",
+  "name": "ochranitelství",
+  "synonyms": [
+   "péče",
+   "starostlivost",
+   "ochrana blízkých",
+   "mateřskost"
+  ],
+  "opposite": "detachment"
+ },
+ {
+  "id": "detachment",
+  "name": "odtažitost",
+  "synonyms": [
+   "chlad",
+   "odstup",
+   "nezájem",
+   "rezervovanost"
+  ],
+  "opposite": "protectiveness"
+ },
+ {
+  "id": "jealousy",
+  "name": "žárlivost",
+  "synonyms": [
+   "majetnickost",
+   "podezíravost",
+   "vlastnění"
+  ],
+  "opposite": "trustfulness"
+ },
+ {
+  "id": "trustfulness",
+  "name": "důvěřivost",
+  "synonyms": [
+   "důvěra",
+   "naivita"
+  ],
+  "opposite": "jealousy"
+ },
+ {
+  "id": "stubbornness",
+  "name": "tvrdohlavost",
+  "synonyms": [
+   "umíněnost",
+   "neústupnost",
+   "paličatost",
+   "zarputilost"
+  ],
+  "opposite": "flexibility"
+ },
+ {
+  "id": "flexibility",
+  "name": "přizpůsobivost",
+  "synonyms": [
+   "pružnost",
+   "adaptabilita",
+   "vstřícnost ke změně"
+  ],
+  "opposite": "stubbornness"
+ },
+ {
+  "id": "perfectionism",
+  "name": "perfekcionismus",
+  "synonyms": [
+   "puntičkářství",
+   "pedanterie",
+   "přehnané nároky"
+  ],
+  "opposite": "carelessness"
+ },
+ {
+  "id": "carelessness",
+  "name": "ledabylost",
+  "synonyms": [
+   "nedbalost",
+   "lajdáctví",
+   "povrchní práce"
+  ],
+  "opposite": "perfectionism"
+ },
+ {
+  "id": "procrastination",
+  "name": "odkládání",
+  "synonyms": [
+   "prokrastinace",
+   "otálení",
+   "lenost",
+   "nečinnost"
+  ],
+  "opposite": "diligence"
+ },
+ {
+  "id": "diligence",
+  "name": "pracovitost",
+  "synonyms": [
+   "píle",
+   "výkonnost",
+   "dřina",
+   "workoholismus"
+  ],
+  "opposite": "procrastination"
+ },
+ {
+  "id": "restlessness",
+  "name": "neklid",
+  "synonyms": [
+   "těkavost",
+   "nesoustředěnost",
+   "roztržitost",
+   "hyperaktivita"
+  ],
+  "opposite": "focus"
+ },
+ {
+  "id": "focus",
+  "name": "soustředění",
+  "synonyms": [
+   "koncentrace",
+   "zaujetí",
+   "ponoření do věci"
+  ],
+  "opposite": "restlessness"
+ },
+ {
+  "id": "perseverance",
+  "name": "vytrvalost",
+  "synonyms": [
+   "houževnatost",
+   "výdrž",
+   "odolnost v úsilí"
+  ],
+  "opposite": "inconstancy"
+ },
+ {
+  "id": "inconstancy",
+  "name": "nestálost",
+  "synonyms": [
+   "přelétavost",
+   "nedotahování",
+   "rychlá ztráta zájmu"
+  ],
+  "opposite": "perseverance"
+ },
+ {
+  "id": "ambition",
+  "name": "ctižádost",
+  "synonyms": [
+   "ambice",
+   "kariérismus",
+   "touha uspět",
+   "ctižádostivost"
+  ],
+  "opposite": "contentment"
+ },
+ {
+  "id": "contentment",
+  "name": "spokojenost",
+  "synonyms": [
+   "nenáročnost",
+   "smíření s tím",
+   "co je"
+  ],
+  "opposite": "ambition"
+ },
+ {
+  "id": "pride",
+  "name": "pýcha",
+  "synonyms": [
+   "ješitnost",
+   "domýšlivost",
+   "arogance",
+   "nadutost"
+  ],
+  "opposite": "humility"
+ },
+ {
+  "id": "humility",
+  "name": "pokora",
+  "synonyms": [
+   "skromnost",
+   "sebeironie"
+  ],
+  "opposite": "pride"
+ },
+ {
+  "id": "dominance",
+  "name": "panovačnost",
+  "synonyms": [
+   "dominance",
+   "potřeba kontroly",
+   "autoritářství",
+   "ovládání druhých"
+  ],
+  "opposite": "submissiveness"
+ },
+ {
+  "id": "submissiveness",
+  "name": "poddajnost",
+  "synonyms": [
+   "ustupování",
+   "podřízenost",
+   "neschopnost říct ne"
+  ],
+  "opposite": "dominance"
+ },
+ {
+  "id": "independence",
+  "name": "nezávislost",
+  "synonyms": [
+   "svoboda",
+   "samostatnost",
+   "svéhlavost"
+  ],
+  "opposite": "dependence"
+ },
+ {
+  "id": "dependence",
+  "name": "závislost na druhých",
+  "synonyms": [
+   "přilnavost",
+   "potřeba opory",
+   "lpění"
+  ],
+  "opposite": "independence"
+ },
+ {
+  "id": "sociability",
+  "name": "společenskost",
+  "synonyms": [
+   "družnost",
+   "kontaktnost",
+   "extroverze"
+  ],
+  "opposite": "reclusiveness"
+ },
+ {
+  "id": "reclusiveness",
+  "name": "uzavřenost",
+  "synonyms": [
+   "samotářství",
+   "introverze",
+   "stažení do sebe"
+  ],
+  "opposite": "sociability"
+ },
+ {
+  "id": "honesty",
+  "name": "upřímnost",
+  "synonyms": [
+   "přímost",
+   "pravdomluvnost",
+   "poctivost"
+  ],
+  "opposite": "deceit"
+ },
+ {
+  "id": "deceit",
+  "name": "neupřímnost",
+  "synonyms": [
+   "lež",
+   "klam",
+   "přetvářka",
+   "manipulace",
+   "podvod"
+  ],
+  "opposite": "honesty"
+ },
+ {
+  "id": "generosity",
+  "name": "štědrost",
+  "synonyms": [
+   "velkorysost",
+   "rozdávání",
+   "dárcovství"
+  ],
+  "opposite": "stinginess"
+ },
+ {
+  "id": "stinginess",
+  "name": "lakota",
+  "synonyms": [
+   "skrblictví",
+   "držgrešlovství"
+  ],
+  "opposite": "generosity"
+ },
+ {
+  "id": "thrift",
+  "name": "šetrnost",
+  "synonyms": [
+   "hospodárnost",
+   "spořivost"
+  ],
+  "opposite": "extravagance"
+ },
+ {
+  "id": "extravagance",
+  "name": "rozhazovačnost",
+  "synonyms": [
+   "utrácení",
+   "marnotratnost",
+   "dluhy"
+  ],
+  "opposite": "thrift"
+ },
+ {
+  "id": "optimism",
+  "name": "optimismus",
+  "synonyms": [
+   "naděje",
+   "víra v dobrý konec",
+   "nadšení"
+  ],
+  "opposite": "pessimism"
+ },
+ {
+  "id": "pessimism",
+  "name": "pesimismus",
+  "synonyms": [
+   "černé vidění",
+   "skepse",
+   "sklíčenost"
+  ],
+  "opposite": "optimism"
+ },
+ {
+  "id": "melancholy",
+  "name": "melancholie",
+  "synonyms": [
+   "smutek",
+   "splín",
+   "zádumčivost",
+   "skleslost"
+  ],
+  "opposite": "cheerfulness"
+ },
+ {
+  "id": "cheerfulness",
+  "name": "veselost",
+  "synonyms": [
+   "radost",
+   "humor",
+   "hravost",
+   "bezstarostnost"
+  ],
+  "opposite": "melancholy"
+ },
+ {
+  "id": "creativity",
+  "name": "tvořivost",
+  "synonyms": [
+   "kreativita",
+   "umělecké nadání",
+   "fantazie",
+   "představivost"
+  ],
+  "opposite": null
+ },
+ {
+  "id": "originality",
+  "name": "originalita",
+  "synonyms": [
+   "výstřednost",
+   "nekonformnost",
+   "svéráz",
+   "podivínství"
+  ],
+  "opposite": "conformity"
+ },
+ {
+  "id": "conformity",
+  "name": "konformita",
+  "synonyms": [
+   "konvenčnost",
+   "přizpůsobení se normě",
+   "konzervativnost"
+  ],
+  "opposite": "originality"
+ },
+ {
+  "id": "rebellion",
+  "name": "vzdor",
+  "synonyms": [
+   "rebelie",
+   "odpor k autoritě",
+   "revolta",
+   "buřičství"
+  ],
+  "opposite": "obedience"
+ },
+ {
+  "id": "obedience",
+  "name": "poslušnost",
+  "synonyms": [
+   "loajalita k autoritě",
+   "plnění příkazů"
+  ],
+  "opposite": "rebellion"
+ },
+ {
+  "id": "intuition",
+  "name": "intuice",
+  "synonyms": [
+   "tušení",
+   "šestý smysl",
+   "vnímavost"
+  ],
+  "opposite": "rationality"
+ },
+ {
+  "id": "rationality",
+  "name": "racionalita",
+  "synonyms": [
+   "logika",
+   "rozum",
+   "analytičnost",
+   "chladná úvaha"
+  ],
+  "opposite": "intuition"
+ },
+ {
+  "id": "empathy",
+  "name": "empatie",
+  "synonyms": [
+   "soucit",
+   "vcítění",
+   "porozumění druhým"
+  ],
+  "opposite": "coldness"
+ },
+ {
+  "id": "coldness",
+  "name": "citový chlad",
+  "synonyms": [
+   "bezcitnost",
+   "tvrdost",
+   "necitelnost"
+  ],
+  "opposite": "empathy"
+ },
+ {
+  "id": "sensitivity",
+  "name": "citlivost",
+  "synonyms": [
+   "přecitlivělost",
+   "zranitelnost",
+   "jemnocit"
+  ],
+  "opposite": "resilience"
+ },
+ {
+  "id": "resilience",
+  "name": "odolnost",
+  "synonyms": [
+   "nezdolnost",
+   "otrlost",
+   "hroší kůže"
+  ],
+  "opposite": "sensitivity"
+ },
+ {
+  "id": "escapism",
+  "name": "únik z reality",
+  "synonyms": [
+   "snění",
+   "iluze",
+   "útěk",
+   "zasněnost"
+  ],
+  "opposite": "realism"
+ },
+ {
+  "id": "realism",
+  "name": "realismus",
+  "synonyms": [
+   "střízlivost",
+   "praktičnost",
+   "uzemnění",
+   "smysl pro realitu"
+  ],
+  "opposite": "escapism"
+ },
+ {
+  "id": "idealism",
+  "name": "idealismus",
+  "synonyms": [
+   "snílkovství",
+   "víra v ideály",
+   "naivita ideálů"
+  ],
+  "opposite": "cynicism"
+ },
+ {
+  "id": "cynicism",
+  "name": "cynismus",
+  "synonyms": [
+   "zatrpklost",
+   "nedůvěra v dobro",
+   "sarkasmus"
+  ],
+  "opposite": "idealism"
+ },
+ {
+  "id": "self_sacrifice",
+  "name": "obětavost",
+  "synonyms": [
+   "sebeobětování",
+   "služba druhým",
+   "martyrium"
+  ],
+  "opposite": "selfishness"
+ },
+ {
+  "id": "selfishness",
+  "name": "sobectví",
+  "synonyms": [
+   "egoismus",
+   "bezohlednost",
+   "sebestřednost"
+  ],
+  "opposite": "self_sacrifice"
+ },
+ {
+  "id": "courage",
+  "name": "odvaha",
+  "synonyms": [
+   "statečnost",
+   "kuráž",
+   "troufalost"
+  ],
+  "opposite": "fearfulness"
+ },
+ {
+  "id": "fearfulness",
+  "name": "bojácnost",
+  "synonyms": [
+   "zbabělost",
+   "strach z rizika",
+   "ustrašenost"
+  ],
+  "opposite": "courage"
+ },
+ {
+  "id": "aggression",
+  "name": "agresivita",
+  "synonyms": [
+   "útočnost",
+   "konfliktnost",
+   "hádavost",
+   "násilnost"
+  ],
+  "opposite": "gentleness"
+ },
+ {
+  "id": "gentleness",
+  "name": "jemnost",
+  "synonyms": [
+   "mírnost",
+   "něha",
+   "laskavost"
+  ],
+  "opposite": "aggression"
+ },
+ {
+  "id": "competitiveness",
+  "name": "soutěživost",
+  "synonyms": [
+   "rivalita",
+   "touha vyhrát",
+   "srovnávání se"
+  ],
+  "opposite": "cooperation"
+ },
+ {
+  "id": "cooperation",
+  "name": "spolupráce",
+  "synonyms": [
+   "týmovost",
+   "ochota",
+   "vstřícnost"
+  ],
+  "opposite": "competitiveness"
+ },
+ {
+  "id": "leadership",
+  "name": "vůdcovství",
+  "synonyms": [
+   "autorita",
+   "organizační talent",
+   "schopnost vést"
+  ],
+  "opposite": null
+ },
+ {
+  "id": "discipline",
+  "name": "sebekázeň",
+  "synonyms": [
+   "disciplína",
+   "sebeovládání",
+   "odříkání"
+  ],
+  "opposite": "indulgence"
+ },
+ {
+  "id": "indulgence",
+  "name": "požitkářství",
+  "synonyms": [
+   "rozmařilost",
+   "nestřídmost",
+   "hédonismus",
+   "mlsnost"
+  ],
+  "opposite": "discipline"
+ },
+ {
+  "id": "sensuality",
+  "name": "smyslnost",
+  "synonyms": [
+   "erotika",
+   "tělesnost",
+   "vášeň",
+   "sexualita"
+  ],
+  "opposite": "asceticism"
+ },
+ {
+  "id": "asceticism",
+  "name": "askeze",
+  "synonyms": [
+   "střídmost",
+   "odříkání požitků"
+  ],
+  "opposite": "sensuality"
+ },
+ {
+  "id": "loyalty",
+  "name": "věrnost",
+  "synonyms": [
+   "oddanost",
+   "stálost ve vztahu"
+  ],
+  "opposite": "infidelity"
+ },
+ {
+  "id": "infidelity",
+  "name": "nevěra",
+  "synonyms": [
+   "přelétavost ve vztazích",
+   "flirt",
+   "nestálost v lásce"
+  ],
+  "opposite": "loyalty"
+ },
+ {
+  "id": "commitment_fear",
+  "name": "strach ze závazku",
+  "synonyms": [
+   "vyhýbání se vazbám",
+   "útěk ze vztahů"
+  ],
+  "opposite": null
+ },
+ {
+  "id": "curiosity",
+  "name": "zvídavost",
+  "synonyms": [
+   "zvědavost",
+   "touha učit se",
+   "intelektuální hlad"
+  ],
+  "opposite": "indifference"
+ },
+ {
+  "id": "indifference",
+  "name": "lhostejnost",
+  "synonyms": [
+   "netečnost",
+   "apatie",
+   "nezájem"
+  ],
+  "opposite": "curiosity"
+ },
+ {
+  "id": "superficiality",
+  "name": "povrchnost",
+  "synonyms": [
+   "roztříštěnost",
+   "lehkovážnost",
+   "plytkost"
+  ],
+  "opposite": "depth"
+ },
+ {
+  "id": "depth",
+  "name": "hloubka",
+  "synonyms": [
+   "důkladnost",
+   "vážnost",
+   "hloubavost"
+  ],
+  "opposite": "superficiality"
+ },
+ {
+  "id": "responsibility",
+  "name": "odpovědnost",
+  "synonyms": [
+   "spolehlivost",
+   "svědomitost",
+   "smysl pro povinnost"
+  ],
+  "opposite": "irresponsibility"
+ },
+ {
+  "id": "irresponsibility",
+  "name": "nezodpovědnost",
+  "synonyms": [
+   "nespolehlivost",
+   "vyhýbání se povinnostem"
+  ],
+  "opposite": "responsibility"
+ },
+ {
+  "id": "guilt",
+  "name": "pocit viny",
+  "synonyms": [
+   "výčitky svědomí",
+   "sebeobviňování",
+   "sebekritika"
+  ],
+  "opposite": "self_acceptance"
+ },
+ {
+  "id": "self_acceptance",
+  "name": "sebepřijetí",
+  "synonyms": [
+   "smíření se sebou",
+   "laskavost k sobě"
+  ],
+  "opposite": "guilt"
+ },
+ {
+  "id": "secrecy",
+  "name": "tajnůstkářství",
+  "synonyms": [
+   "skrývání",
+   "mlčenlivost o sobě",
+   "utajování"
+  ],
+  "opposite": "openness"
+ },
+ {
+  "id": "openness",
+  "name": "otevřenost",
+  "synonyms": [
+   "sdílnost",
+   "průhlednost"
+  ],
+  "opposite": "secrecy"
+ },
+ {
+  "id": "obsession",
+  "name": "posedlost",
+  "synonyms": [
+   "utkvělé myšlenky",
+   "fixace",
+   "intenzita",
+   "nutkání"
+  ],
+  "opposite": "lightness"
+ },
+ {
+  "id": "lightness",
+  "name": "lehkost",
+  "synonyms": [
+   "nadhled",
+   "uvolněnost",
+   "bezstarostnost"
+  ],
+  "opposite": "obsession"
+ },
+ {
+  "id": "addiction_tendency",
+  "name": "sklon k závislostem",
+  "synonyms": [
+   "závislost",
+   "alkohol",
+   "drogy",
+   "gamblerství"
+  ],
+  "opposite": "discipline"
+ },
+ {
+  "id": "transformation",
+  "name": "proměna",
+  "synonyms": [
+   "krize a obnova",
+   "znovuzrození",
+   "radikální změna"
+  ],
+  "opposite": "stagnation"
+ },
+ {
+  "id": "stagnation",
+  "name": "stagnace",
+  "synonyms": [
+   "ustrnutí",
+   "setrvačnost",
+   "zaseknutí"
+  ],
+  "opposite": "transformation"
+ },
+ {
+  "id": "eloquence",
+  "name": "výřečnost",
+  "synonyms": [
+   "komunikativnost",
+   "mluvení",
+   "argumentace",
+   "psaní"
+  ],
+  "opposite": "reticence"
+ },
+ {
+  "id": "reticence",
+  "name": "mlčenlivost",
+  "synonyms": [
+   "zamlklost",
+   "málomluvnost"
+  ],
+  "opposite": "eloquence"
+ },
+ {
+  "id": "family_attachment",
+  "name": "lpění na domově",
+  "synonyms": [
+   "rodina",
+   "citová vazba na rodiče",
+   "nostalgie",
+   "domov"
+  ],
+  "opposite": "wanderlust"
+ },
+ {
+  "id": "wanderlust",
+  "name": "touha po dálkách",
+  "synonyms": [
+   "cestování",
+   "dobrodružství",
+   "stěhování",
+   "neklid domova"
+  ],
+  "opposite": "family_attachment"
+ },
+ {
+  "id": "spirituality",
+  "name": "duchovnost",
+  "synonyms": [
+   "víra",
+   "mystika",
+   "spiritualita",
+   "hledání smyslu"
+  ],
+  "opposite": "materialism"
+ },
+ {
+  "id": "materialism",
+  "name": "materialismus",
+  "synonyms": [
+   "hmotné jistoty",
+   "majetek",
+   "peníze"
+  ],
+  "opposite": "spirituality"
+ },
+ {
+  "id": "security_need",
+  "name": "potřeba jistoty",
+  "synonyms": [
+   "bezpečí",
+   "stabilita",
+   "zajištění"
+  ],
+  "opposite": "risk_taking"
+ },
+ {
+  "id": "risk_taking",
+  "name": "riskování",
+  "synonyms": [
+   "hazard",
+   "sázka na jednu kartu",
+   "adrenalin"
+  ],
+  "opposite": "security_need"
+ },
+ {
+  "id": "charm",
+  "name": "šarm",
+  "synonyms": [
+   "půvab",
+   "diplomacie",
+   "přitažlivost",
+   "kouzlo osobnosti"
+  ],
+  "opposite": "bluntness"
+ },
+ {
+  "id": "bluntness",
+  "name": "příkrost",
+  "synonyms": [
+   "hrubost",
+   "netaktnost",
+   "přímočarost bez ohledu"
+  ],
+  "opposite": "charm"
+ },
+ {
+  "id": "indecision",
+  "name": "nerozhodnost",
+  "synonyms": [
+   "váhavost",
+   "kolísání",
+   "nejistota ve volbě"
+  ],
+  "opposite": "decisiveness"
+ },
+ {
+  "id": "decisiveness",
+  "name": "rozhodnost",
+  "synonyms": [
+   "akčnost",
+   "odhodlání",
+   "rychlé rozhodování"
+  ],
+  "opposite": "indecision"
+ },
+ {
+  "id": "vanity",
+  "name": "marnivost",
+  "synonyms": [
+   "potřeba obdivu",
+   "péče o vzhled",
+   "touha zaujmout"
+  ],
+  "opposite": "humility"
+ },
+ {
+  "id": "drama",
+  "name": "dramatičnost",
+  "synonyms": [
+   "teatrálnost",
+   "přehánění",
+   "okázalost"
+  ],
+  "opposite": "restraint"
+ },
+ {
+  "id": "restraint",
+  "name": "zdrženlivost",
+  "synonyms": [
+   "střídmost v projevu",
+   "decentnost"
+  ],
+  "opposite": "drama"
+ },
+ {
+  "id": "criticism",
+  "name": "kritičnost",
+  "synonyms": [
+   "kritizování druhých",
+   "hnidopišství",
+   "výtky"
+  ],
+  "opposite": "tolerance"
+ },
+ {
+  "id": "tolerance",
+  "name": "tolerance",
+  "synonyms": [
+   "shovívavost",
+   "přijetí jinakosti",
+   "nadhled k druhým"
+  ],
+  "opposite": "criticism"
+ },
+ {
+  "id": "rigidity",
+  "name": "strnulost",
+  "synonyms": [
+   "rigidita",
+   "neochota ke změně",
+   "lpění na pravidlech"
+  ],
+  "opposite": "flexibility"
+ },
+ {
+  "id": "loneliness",
+  "name": "osamělost",
+  "synonyms": [
+   "samota",
+   "opuštěnost",
+   "izolace"
+  ],
+  "opposite": "belonging"
+ },
+ {
+  "id": "belonging",
+  "name": "sounáležitost",
+  "synonyms": [
+   "přátelství",
+   "komunita",
+   "pocit někam patřit"
+  ],
+  "opposite": "loneliness"
+ },
+ {
+  "id": "exhaustion",
+  "name": "vyčerpání",
+  "synonyms": [
+   "únava",
+   "vyhoření",
+   "nedostatek energie"
+  ],
+  "opposite": "vitality"
+ },
+ {
+  "id": "vitality",
+  "name": "vitalita",
+  "synonyms": [
+   "energie",
+   "síla",
+   "životní elán",
+   "zdraví"
+  ],
+  "opposite": "exhaustion"
+ },
+ {
+  "id": "justice",
+  "name": "smysl pro spravedlnost",
+  "synonyms": [
+   "férovost",
+   "rovnováha",
+   "spravedlnost"
+  ],
+  "opposite": null
+ }
+]

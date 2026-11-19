@@ -1,0 +1,84 @@
+[
+ {
+  "key": "sign_on_cusp/7/scorpio",
+  "title": "Štír na hrotu 7. domu",
+  "keywords": [
+   "partnerství",
+   "hloubka",
+   "vášeň"
+  ],
+  "themes": [
+   "relationships"
+  ],
+  "text": "Štír na hrotu 7. domu dělá ze vztahů místo proměny. Hledáš partnera, který unese hloubku, vášeň a pravdu, a povrchní spojení tě neuspokojí. Do vztahu vstupuješ opatrně, a potom úplně. Smlouvy a partnerství, i obchodní, mají sklon k intenzitě a stojí na důvěře.",
+  "shadow": "Ve stínu jsou mocenské hry ve vztazích, žárlivost a boj o kontrolu. Můžeš přitahovat partnery, kteří ovládají, nebo kontrolu přebíráš ty. Rozchody bývají bolestné a definitivní.",
+  "hard": [
+   {
+    "topics": [
+     "loss"
+    ],
+    "text": "Tradice tu mluví o krizích v manželství, o rozvodech provázených bojem o majetek a o ovdovění."
+   }
+  ],
+  "traits": {
+   "text": [
+    "loyalty",
+    "depth",
+    "sensuality"
+   ],
+   "shadow": [
+    "jealousy",
+    "dominance",
+    "secrecy"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-19",
+   "pilot": true
+  }
+ },
+ {
+  "key": "sign_on_cusp/1/leo",
+  "title": "Lev na ascendentu",
+  "keywords": [
+   "vystupování",
+   "srdce",
+   "hrdost",
+   "vřelost"
+  ],
+  "themes": [
+   "character"
+  ],
+  "text": "Lev na ascendentu dává vystupování, které je vidět. Vejdeš do místnosti a lidé si tě všimnou, i když nic neříkáš. Působíš vřele, sebejistě a velkoryse a máš přirozenou potřebu být ve středu dění. Tělo bývá pevné, s výrazným držením, často s hřívou vlasů nebo jiným nápadným rysem, o který pečuješ. Jednáš srdcem: když se do něčeho pustíš, dáváš do toho celou osobnost. Baví tě hrát, tvořit, předvádět a dávat radost druhým. Vedení přebíráš snadno a lidé tě následují, protože se ve tvé přítomnosti cítí důležitější. Vládcem ascendentu je Slunce: jeho znamení a dům ukazují, kam tvoje životní síla směřuje. Úspěch potřebuješ prožít, ne jen dosáhnout; potlesk pro tebe není marnost, ale palivo. Za okázalým zevnějškem bývá citlivost na odmítnutí a hluboká potřeba lásky.",
+  "shadow": "Ve stínu je pýcha, dramatičnost a potřeba obdivu, bez které se cítíš ztraceně. Kritika bolí osobně a ztráta tváře víc, než přiznáš. Druhé můžeš přehlížet, když nejsou publikem. Panovačnost se maskuje velkorysostí: dáváš, ale chceš za to uznání.",
+  "hard": [
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o srdci, zádech a páteři jako o citlivých místech a o horečnatých onemocněních."
+   }
+  ],
+  "traits": {
+   "text": [
+    "self_confidence",
+    "generosity",
+    "leadership",
+    "charm",
+    "creativity"
+   ],
+   "shadow": [
+    "pride",
+    "drama",
+    "vanity",
+    "dominance"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-19",
+   "pilot": true
+  }
+ }
+]

@@ -4,3 +4,4 @@ environment:
   sdk: ^3.8.0
 workspace:
   - packages/astro_core
+  - tools/content

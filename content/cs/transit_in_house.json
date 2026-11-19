@@ -1,0 +1,35 @@
+[
+ {
+  "key": "transit_in_house/uranus/4",
+  "title": "Tranzitující Uran ve 4. domě",
+  "keywords": [
+   "stěhování",
+   "domov",
+   "svoboda"
+  ],
+  "themes": [
+   "family",
+   "growth"
+  ],
+  "text": "Uran prochází tvým 4. domem. Několik let se mění domov, rodina a kořeny, často nečekaně: stěhování, přestavba, nový člen domácnosti nebo odchod někoho, kdo tam vždycky byl. Domov se stává místem svobody a pokusů. Uvolňuješ se z rodinných očekávání a hledáš vlastní způsob, jak bydlet a žít.",
+  "shadow": "Ve stínu je neklid, chaos v domácnosti a pocit, že nikde není domov. Přicházejí náhlé roztržky s rodinou, hádky o svobodu a vykořenění.",
+  "hard": [],
+  "traits": {
+   "text": [
+    "independence",
+    "originality",
+    "transformation"
+   ],
+   "shadow": [
+    "restlessness",
+    "chaos",
+    "wanderlust"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-19",
+   "pilot": true
+  }
+ }
+]

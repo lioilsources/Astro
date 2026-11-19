@@ -1,0 +1,250 @@
+[
+ {
+  "key": "planet_in_sign/sun/capricorn",
+  "title": "Slunce v Kozorohu",
+  "keywords": [
+   "cíl",
+   "vytrvalost",
+   "odpovědnost",
+   "autorita"
+  ],
+  "themes": [
+   "character",
+   "work"
+  ],
+  "text": "Slunce v Kozorohu dává povahu, která se měří výsledky. Tvoje vůle se nerozbíhá do mnoha směrů, míří k jednomu cíli a jde k němu krok za krokem. Čas je tvůj spojenec: co jiní vzdají po prvním neúspěchu, ty dotáhneš za rok, za pět let, za dvacet. Máš cit pro strukturu, pravidla a hierarchii a dobře poznáš, kdo v místnosti skutečně rozhoduje. Odpovědnost bereš vážně, často dřív, než by bylo nutné; v rodině nebo v práci se z tebe snadno stane ten, kdo drží věci pohromadě. Navenek působíš střízlivě a zdrženlivě, ale pod tím je suchý humor a hluboká věrnost lidem, kterým věříš. Lásku dáváš najevo činy, ne slovy: postaráš se, zařídíš, podržíš. Úspěch pro tebe neznamená potlesk, ale uznání, které vydrží. Kozoroh zraje pomalu, a tak mnoho lidí s tímto Sluncem popisuje, že se jim žije lépe po třicítce než ve dvaceti, jako by mládí bylo zkouškou a dospělost odměnou. Tradice tu vidí vliv Saturnu, vládce znamení: trpělivost, řemeslo a autoritu získanou prací. Otec nebo jiná autorita z dětství bývá v tomto postavení výrazná, ať přísností, nebo nepřítomností. Tvoje životní síla roste s každým splněným úkolem.",
+  "shadow": "Odvrácenou stranou je chlad a tvrdost, hlavně k sobě. Umíš se přepracovat a nazývat to povinností. Radost odkládáš na později, které nepřichází. Když se cíl nedaří, přichází pesimismus a pocit, že všechno závisí jen na tobě. Druhé můžeš měřit podle užitečnosti a city považovat za slabost. Potřeba kontroly a postavení se umí změnit v kariérismus a ve strach z toho, co si lidé pomyslí.",
+  "hard": [
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o kostech, kloubech, kolenou, zubech a kůži jako o slabších místech těla a o sklonu k chronickým, pomalu se vyvíjejícím potížím, které vznikají z přetížení a zanedbání."
+   },
+   {
+    "topics": [
+     "mental_crisis"
+    ],
+    "text": "Starší astrologie spojovala Saturnovo znamení s melancholií: s obdobími tíhy, kdy se život zdá jen povinností, a se samotou, kterou si člověk volí, aby nebyl nikomu na obtíž."
+   }
+  ],
+  "traits": {
+   "text": [
+    "ambition",
+    "perseverance",
+    "responsibility",
+    "discipline"
+   ],
+   "shadow": [
+    "coldness",
+    "pessimism",
+    "rigidity",
+    "diligence"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-19",
+   "pilot": true
+  }
+ },
+ {
+  "key": "planet_in_sign/moon/scorpio",
+  "title": "Měsíc ve Štíru",
+  "keywords": [
+   "hloubka",
+   "intuice",
+   "věrnost",
+   "krize"
+  ],
+  "themes": [
+   "character",
+   "relationships",
+   "family"
+  ],
+  "text": "Měsíc ve Štíru cítí do hloubky a naplno. Tvoje city nejsou nikdy vlažné: buď někoho pouštíš úplně k sobě, nebo vůbec. Bezpečí pro tebe neznamená klid na povrchu, ale jistotu, že druhý zůstane, i když uvidí to nejtěžší. Vycítíš, co se v lidech skrývá, často dřív, než to vědí oni, a tvoje intuice bývá přesná až nepříjemně. Máš paměť na doteky, slova i křivdy. Krize tě nevyděsí tak jako jiné; v nemocnici, u umírajícího nebo v rozpadu vztahu umíš zůstat, když ostatní utíkají. Intimita a sexualita jsou pro tebe cestou k blízkosti, ne zábavou. Vztah k matce bývá silný a nejednoduchý, plný lásky, moci, tajemství nebo nevyřčené bolesti. Tvůj citový život prochází proměnami, ve kterých něco umře a něco nového vyroste, a z každé takové proměny vychází tvoje povaha pevnější. Tradice řadí Měsíc ve Štíru mezi oslabená postavení, mezi pády: Měsíc tu nehledá pohodlí, ale pravdu, a to bývá těžší cesta. Odměnou je citová síla, o kterou se mohou opřít i druzí. Ve vztazích hledáš oddanost na život a na smrt a lehkost citů ti připadá podezřelá. Domov je pro tebe útočištěm, kam nikdo nepovolaný nevidí.",
+  "shadow": "Ve stínu je žárlivost, majetnickost a potřeba mít city druhých pod kontrolou. Zranění neodpouštíš snadno a umíš je nosit roky. Když cítíš ohrožení, stáhneš se do mlčení, nebo zaútočíš tam, kde to druhého nejvíc bolí. Podezíravost tě může připravit o vztahy, které by vydržely. Své slabosti skrýváš tak dobře, že ti nikdo nemůže pomoct.",
+  "hard": [
+   {
+    "topics": [
+     "mental_crisis"
+    ],
+    "text": "Tradice tu mluví o temných obdobích nálad, o sklonu k depresi a o citových krizích, které přicházejí jako zemětřesení a mění celý život."
+   },
+   {
+    "topics": [
+     "loss",
+     "death"
+    ],
+    "text": "Starší výklad spojuje toto postavení se ztrátami blízkých, zvlášť žen v rodině, a se zkušeností smrti v blízkosti už v mládí."
+   },
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Z těla tradice zmiňuje pohlavní orgány, močové cesty a hormonální rovnováhu."
+   }
+  ],
+  "traits": {
+   "text": [
+    "depth",
+    "intuition",
+    "loyalty",
+    "resilience",
+    "transformation"
+   ],
+   "shadow": [
+    "jealousy",
+    "sulking",
+    "secrecy",
+    "obsession"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-19",
+   "pilot": true
+  }
+ },
+ {
+  "key": "planet_in_sign/mars/cancer",
+  "title": "Mars v Raku",
+  "keywords": [
+   "domov",
+   "obrana",
+   "nálady"
+  ],
+  "themes": [
+   "character",
+   "family"
+  ],
+  "text": "Mars v Raku bojuje za své lidi, ne za sebe. Tvoje energie se nejvíc probudí, když je ohrožený domov, rodina nebo někdo, koho máš na starosti. Pak v tobě není únava ani strach. Přímou konfrontaci ale nevyhledáváš: jdeš k cíli oklikou, jako krab bokem, a čekáš na chvíli, kdy je situace bezpečná. Hodně záleží na náladě; dny plné síly střídají dny, kdy se nechce nic. Touhu a sexualitu propojuješ s citem a bezpečím a bez důvěry se těžko uvolníš. Tradice počítá Mars v Raku k pádům: síla, která chce jít ven, se tu obrací dovnitř. Proto tě víc vyčerpá potlačený hněv než otevřená hádka. Umíš postavit domov vlastníma rukama a bránit ho do posledního.",
+  "shadow": "Hněv se tu neprojeví hned, ale hromadí se a vybuchne pozdě a nečekaně, často doma a na nejbližší. Umíš urážet mlčením, trucovat a pasivně vzdorovat. Výčitky z minulosti se vracejí při každé hádce. Obrana blízkých se může změnit v kontrolu: chceš chránit, a přitom dusíš.",
+  "hard": [
+   {
+    "topics": [
+     "violence"
+    ],
+    "text": "Tradice tu mluví o konfliktech v rodině a o hádkách, které doma přerostou v hrubost; starší výklady zmiňují i spory o majetek po rodičích."
+   },
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Z těla starší astrologie jmenuje žaludek a trávení: vztek a stres se podle ní ukládají do břicha, k překyselení a vředům."
+   }
+  ],
+  "traits": {
+   "text": [
+    "protectiveness",
+    "family_attachment",
+    "courage",
+    "intuition"
+   ],
+   "shadow": [
+    "moodiness",
+    "sulking",
+    "anger",
+    "dominance"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-19",
+   "pilot": true
+  }
+ },
+ {
+  "key": "planet_in_sign/venus/virgo",
+  "title": "Venuše v Panně",
+  "keywords": [
+   "péče",
+   "vkus",
+   "střídmost",
+   "služba"
+  ],
+  "themes": [
+   "relationships",
+   "money"
+  ],
+  "text": "Venuše v Panně miluje pozorností k detailu. Lásku dáváš najevo službou: všimneš si, co druhý potřebuje, a tiše to zařídíš. Krásu vidíš v řemeslu, v čistotě, v dobře udělané věci a v jednoduchosti. Vkus máš střídmý a přesný a kýč ani přehánění ti nejsou blízké. Ve vztahu potřebuješ spolehlivost a skutečnou péči víc než velká gesta. Peníze spravuješ rozumně a umíš vyjít s málem. Tradice řadí Venuši v Panně mezi pády: cit se tu nesmí jen tak rozlít, musí projít rozumem. Proto ti trvá déle, než si někoho pustíš blízko, a city vyslovíš opatrně. Když už se rozhodneš, tvoje věrnost a péče vydrží. Ozdobou tvé lásky je spolehlivost. Dárek od tebe bývá užitečný a vybraný s rozmyslem.",
+  "shadow": "Stínem je kritičnost: na partnerovi i na sobě vidíš hlavně chyby. Pocit, že si lásku je potřeba zasloužit výkonem, vede k sebeobětování i k tichým výčitkám. Můžeš se stydět za vlastní tělo a za touhu. Puntičkářství zabíjí spontánnost a strach z nedokonalosti tě drží ve vztazích, ze kterých by bylo lepší odejít, nebo naopak mimo vztahy úplně.",
+  "hard": [
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o citlivých střevech a o tom, že citová nespokojenost se ukládá do trávení a do psychosomatických potíží."
+   }
+  ],
+  "traits": {
+   "text": [
+    "responsibility",
+    "realism",
+    "loyalty",
+    "thrift"
+   ],
+   "shadow": [
+    "criticism",
+    "perfectionism",
+    "guilt",
+    "self_sacrifice"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-19",
+   "pilot": true
+  }
+ },
+ {
+  "key": "planet_in_sign/saturn/aries",
+  "title": "Saturn v Beranu",
+  "keywords": [
+   "trpělivost",
+   "sebeprosazení",
+   "vůle"
+  ],
+  "themes": [
+   "character",
+   "work",
+   "growth"
+  ],
+  "text": "Saturn v Beranu učí trpělivosti tam, kde se chce jednat hned. Máš v sobě prudkou energii, ale život ji opakovaně brzdí: překážky, autority, okolnosti, které nedovolí začít, kdy chceš. Z toho tření se rodí neobyčejná vůle. Když se naučíš počkat na správný okamžik, prosadíš se tam, kde jiní vyhoří. Samostatnost si musíš vybojovat, nikdo ti ji nedá zadarmo. Vedení ti jde, jakmile přijmeš odpovědnost za svá rozhodnutí. Tradice počítá Saturn v Beranu mezi pády: pomalá planeta v rychlém znamení. Lidé s tímto postavením často popisují, že první polovina života byla zkouškou sebeprosazení a druhá sklizní. Odvaha, kterou si takto vybojuješ, je pevnější než odvaha, která přišla zadarmo. Samostatnost se stává tvojí silnou stránkou.",
+  "shadow": "Ve stínu je frustrace, která se mění v tvrdost a sobectví. Strach začít se střídá s nečekanými výbuchy. Autority tě dráždí, a přitom se snadno stáváš přísnou autoritou pro druhé. Požádat o pomoc je těžké, protože by to vypadalo jako slabost. Zbrklá rozhodnutí z netrpělivosti se pak dlouho opravují.",
+  "hard": [
+   {
+    "topics": [
+     "illness",
+     "violence"
+    ],
+    "text": "Starší astrologie tu mluví o hlavě: o bolestech hlavy, zubech, úrazech hlavy a o nebezpečí nehod ze spěchu."
+   },
+   {
+    "topics": [
+     "ruin"
+    ],
+    "text": "Tradice zmiňuje i pády po rychlém vzestupu, kdy předčasně získané postavení nevydrží."
+   }
+  ],
+  "traits": {
+   "text": [
+    "perseverance",
+    "independence",
+    "leadership",
+    "discipline"
+   ],
+   "shadow": [
+    "anger",
+    "impulsiveness",
+    "rigidity",
+    "selfishness"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-19",
+   "pilot": true
+  }
+ }
+]

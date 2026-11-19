@@ -1,0 +1,254 @@
+{
+ "planets": {
+  "sun": {
+   "name": "Slunce",
+   "core": "vědomé já, vůle, životní síla, otec, sebevyjádření, tvořivost",
+   "shadow": "pýcha, sebestřednost, potřeba obdivu, panovačnost",
+   "hard": "tradice spojuje se srdcem, zrakem, vitalitou; v pádu oslabené zdraví a otec"
+  },
+  "moon": {
+   "name": "Měsíc",
+   "core": "city, potřeby, domov, matka, bezpečí, zvyky, tělo",
+   "shadow": "náladovost, závislost, lpění na minulosti, citové vydírání",
+   "hard": "tradice spojuje s žaludkem, plodností, duševní rovnováhou, ztrátou matky"
+  },
+  "mercury": {
+   "name": "Merkur",
+   "core": "myšlení, řeč, učení, obchod, cesty na krátko, sourozenci",
+   "shadow": "neklid, povrchnost, lstivost, nervozita, pomluvy",
+   "hard": "tradice spojuje s nervy, plícemi, řečí"
+  },
+  "venus": {
+   "name": "Venuše",
+   "core": "láska, krása, vkus, hodnoty, peníze, potěšení, harmonie",
+   "shadow": "požitkářství, lenost, marnivost, závislost na lásce, rozhazovačnost",
+   "hard": "tradice spojuje s ledvinami, krkem, rozchody"
+  },
+  "mars": {
+   "name": "Mars",
+   "core": "energie, odvaha, touha, boj, sexualita, iniciativa",
+   "shadow": "agresivita, zbrklost, netrpělivost, hádky, bezohlednost",
+   "hard": "tradice spojuje se zraněními, horečkami, operacemi, násilím, nehodami"
+  },
+  "jupiter": {
+   "name": "Jupiter",
+   "core": "růst, štěstí, víra, smysl, vzdělání, štědrost, dálky",
+   "shadow": "přehánění, nadutost, rozmařilost, slibování, lehkomyslnost",
+   "hard": "tradice spojuje s játry, tukem, přemírou"
+  },
+  "saturn": {
+   "name": "Saturn",
+   "core": "řád, odpovědnost, čas, hranice, vytrvalost, zralost, autorita",
+   "shadow": "strach, strnulost, chlad, pesimismus, pocit nedostatečnosti",
+   "hard": "tradice spojuje s kostmi, chronickými nemocemi, stářím, ztrátami, osamělostí, smrtí"
+  },
+  "uranus": {
+   "name": "Uran",
+   "core": "svoboda, originalita, náhlé změny, technika, vzpoura, přátelé",
+   "shadow": "výstřednost, nestálost, vzdor kvůli vzdoru, odtažitost",
+   "hard": "tradice spojuje s nehodami, rozvraty, náhlými zlomy, nervovým vypětím"
+  },
+  "neptune": {
+   "name": "Neptun",
+   "core": "inspirace, soucit, mystika, umění, sny, rozpouštění hranic",
+   "shadow": "iluze, únik, klam, oběť, zmatek, nespolehlivost",
+   "hard": "tradice spojuje se závislostmi, otravami, klamem, duševní mlhou"
+  },
+  "pluto": {
+   "name": "Pluto",
+   "core": "proměna, moc, hloubka, krize a obnova, sexualita, skryté věci",
+   "shadow": "posedlost, kontrola, manipulace, pomstychtivost, žárlivost",
+   "hard": "tradice spojuje se smrtí a znovuzrozením, mocí nad druhými, násilím, krachem"
+  },
+  "node": {
+   "name": "Lunární uzel",
+   "core": "směr vývoje, úkol, k čemu tě život táhne; opačný uzel je to, co už umíš",
+   "shadow": "lpění na pohodlném, strach z neznámého, opakování starých vzorců",
+   "hard": "tradice spojuje s osudovými setkáními a zatměními"
+  }
+ },
+ "signs": {
+  "aries": {
+   "name": "Beran",
+   "element": "oheň",
+   "modality": "kardinální",
+   "core": "začátek, odvaha, přímost, rychlost",
+   "shadow": "netrpělivost, sobectví, výbušnost",
+   "in": "v Beranu"
+  },
+  "taurus": {
+   "name": "Býk",
+   "element": "země",
+   "modality": "pevné",
+   "core": "stálost, smysly, bezpečí, trpělivost",
+   "shadow": "tvrdohlavost, majetnickost, lenost",
+   "in": "v Býku"
+  },
+  "gemini": {
+   "name": "Blíženci",
+   "element": "vzduch",
+   "modality": "proměnlivé",
+   "core": "zvídavost, řeč, pohyb, dvojí pohled",
+   "shadow": "povrchnost, neklid, nestálost",
+   "in": "v Blížencích"
+  },
+  "cancer": {
+   "name": "Rak",
+   "element": "voda",
+   "modality": "kardinální",
+   "core": "péče, domov, cit, paměť",
+   "shadow": "náladovost, uraženost, lpění, uzavřenost",
+   "in": "v Raku"
+  },
+  "leo": {
+   "name": "Lev",
+   "element": "oheň",
+   "modality": "pevné",
+   "core": "sebevyjádření, srdce, štědrost, hra",
+   "shadow": "pýcha, potřeba obdivu, dramatičnost",
+   "in": "ve Lvu"
+  },
+  "virgo": {
+   "name": "Panna",
+   "element": "země",
+   "modality": "proměnlivé",
+   "core": "řád, služba, rozbor, zdraví, řemeslo",
+   "shadow": "kritičnost, úzkost, puntičkářství",
+   "in": "v Panně"
+  },
+  "libra": {
+   "name": "Váhy",
+   "element": "vzduch",
+   "modality": "kardinální",
+   "core": "vztah, rovnováha, vkus, spravedlnost",
+   "shadow": "nerozhodnost, závislost na souhlasu, povrchní harmonie",
+   "in": "ve Vahách"
+  },
+  "scorpio": {
+   "name": "Štír",
+   "element": "voda",
+   "modality": "pevné",
+   "core": "hloubka, vášeň, proměna, věrnost",
+   "shadow": "žárlivost, pomstychtivost, kontrola, tajnůstkářství",
+   "in": "ve Štíru"
+  },
+  "sagittarius": {
+   "name": "Střelec",
+   "element": "oheň",
+   "modality": "proměnlivé",
+   "core": "smysl, víra, dálky, nadšení",
+   "shadow": "přehánění, kazatelství, neklid, netaktnost",
+   "in": "ve Střelci"
+  },
+  "capricorn": {
+   "name": "Kozoroh",
+   "element": "země",
+   "modality": "kardinální",
+   "core": "cíl, vytrvalost, struktura, odpovědnost",
+   "shadow": "chlad, strnulost, kariérismus, pesimismus",
+   "in": "v Kozorohu"
+  },
+  "aquarius": {
+   "name": "Vodnář",
+   "element": "vzduch",
+   "modality": "pevné",
+   "core": "svoboda, budoucnost, přátelství, originalita",
+   "shadow": "odtažitost, vzdorovitost, citová nedostupnost",
+   "in": "ve Vodnáři"
+  },
+  "pisces": {
+   "name": "Ryby",
+   "element": "voda",
+   "modality": "proměnlivé",
+   "core": "soucit, fantazie, víra, splynutí",
+   "shadow": "únik, oběť, zmatek, nespolehlivost",
+   "in": "v Rybách"
+  }
+ },
+ "houses": {
+  "1": {
+   "area": "osobnost, tělo, vzhled, první dojem, způsob jednání",
+   "hard": "tělo a jeho zranitelnost"
+  },
+  "2": {
+   "area": "peníze, majetek, hodnoty, sebeocenění, talenty",
+   "hard": "ztráta majetku"
+  },
+  "3": {
+   "area": "myšlení, řeč, učení, sourozenci, okolí, krátké cesty",
+   "hard": "nehody na cestách, spory se sourozenci"
+  },
+  "4": {
+   "area": "domov, rodina, kořeny, otec nebo matka, konec života",
+   "hard": "konec života, ztráta domova"
+  },
+  "5": {
+   "area": "láska, radost, tvořivost, děti, hra, riziko",
+   "hard": "potíže s dětmi, hazard"
+  },
+  "6": {
+   "area": "práce, služba, každodennost, zdraví, zvířata",
+   "hard": "nemoci, vyčerpání"
+  },
+  "7": {
+   "area": "partner, manželství, smlouvy, otevření nepřátelé",
+   "hard": "rozvody, spory, nepřátelé"
+  },
+  "8": {
+   "area": "krize, proměna, sexualita, dědictví, cizí peníze, smrt",
+   "hard": "smrt, dědictví, krach, operace"
+  },
+  "9": {
+   "area": "víra, smysl, filozofie, vzdělání, dálky, cizina, právo",
+   "hard": "spory u soudu, potíže v cizině"
+  },
+  "10": {
+   "area": "kariéra, poslání, pověst, autorita, společenské postavení",
+   "hard": "pád z výšky, ztráta postavení"
+  },
+  "11": {
+   "area": "přátelé, skupiny, naděje, plány, společenství",
+   "hard": "zrada přátel"
+  },
+  "12": {
+   "area": "skryté, podvědomí, samota, oběť, ústraní, nemocnice, vězení",
+   "hard": "skrytí nepřátelé, nemocnice, vězení, osamělost, sebezničení"
+  }
+ },
+ "aspects": {
+  "conjunction": {
+   "name": "konjunkce",
+   "core": "splynutí, zesílení, obě síly působí jako jedna"
+  },
+  "sextile": {
+   "name": "sextil",
+   "core": "příležitost, spolupráce, která chce trochu úsilí"
+  },
+  "square": {
+   "name": "kvadrát",
+   "core": "napětí, tření, výzva, která nutí jednat"
+  },
+  "trine": {
+   "name": "trigon",
+   "core": "souhra, lehkost, nadání, ale i pohodlnost"
+  },
+  "opposition": {
+   "name": "opozice",
+   "core": "protiklad, přetahování, potřeba rovnováhy, projekce do druhých"
+  }
+ },
+ "points": {
+  "asc": {
+   "name": "ascendent",
+   "core": "jak působíš a jednáš, tělo, první dojem"
+  },
+  "mc": {
+   "name": "Medium coeli (MC)",
+   "core": "kariéra, poslání, veřejný obraz"
+  },
+  "node": {
+   "name": "lunární uzel",
+   "core": "směr vývoje"
+  }
+ }
+}
