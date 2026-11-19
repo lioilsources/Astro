@@ -48,3 +48,17 @@ Klíče patří do `.env` (gitignorované), nikdy do repa.
 20 textů ve všech skupinách (meta `pilot: true`) napsal Claude Opus 5.5 přímo
 v session, protože SPARK byl obsazený. Slouží ke schválení stylu vlastníkem.
 Plná dávka (F3) jde až po schválení.
+
+## Katalog osobností
+
+Záznamy leží v `content/people/people.json` (formát v `Prompts/KATALOG-osobnosti.md`),
+appka je čte přes odkaz `app/assets/data/people.json`.
+
+```
+dart run tools/content/bin/people.dart
+```
+
+Validátor odmítne záznam bez zdroje (`source.note` i `source.url`), čas bez
+`time_basis`, čas u stupně X a chybějící čas u jiného stupně než X a DD. Události
+musí mít zdroj. Kandidáti z `Prompts/KATALOG-osobnosti.md` jsou z paměti modelu
+a neověření; do katalogu jde každý až po dohledání zdroje.
