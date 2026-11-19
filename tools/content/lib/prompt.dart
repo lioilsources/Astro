@@ -1,7 +1,6 @@
 import 'dart:convert';
 import 'dart:io';
 
-import 'keys.dart';
 import 'schema.dart';
 
 /// Builds the generation prompt for one key from the archetype table and style rules.

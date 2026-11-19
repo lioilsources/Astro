@@ -1,6 +1,5 @@
 import 'dart:io';
 
-import 'package:astro_content/keys.dart';
 import 'package:astro_content/prompt.dart';
 import 'package:astro_content/schema.dart';
 import 'package:astro_content/validate.dart';

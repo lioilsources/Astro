@@ -1,0 +1,602 @@
+[
+ {
+  "key": "glossary/ascendant",
+  "title": "Ascendent",
+  "keywords": [],
+  "themes": [],
+  "text": "Ascendent je bod zvěrokruhu, který v okamžiku narození vycházel na východním obzoru. Je to hrot 1. domu. Popisuje, jak působíš na první pohled, jak jednáš a jak vnímáš vlastní tělo. Mění se zhruba o stupeň za čtyři minuty, proto je k němu potřeba přesný čas narození. Ascendent se pozná i podle znamení: lidé říkají „mám ascendent ve Lvu“.",
+  "traits": {
+   "text": [],
+   "shadow": []
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-19"
+  }
+ },
+ {
+  "key": "glossary/descendant",
+  "title": "Descendent",
+  "keywords": [],
+  "themes": [],
+  "text": "Descendent leží přesně naproti ascendentu, na západním obzoru. Je to hrot 7. domu. Tradice z něj čte, jaké partnery a protějšky hledáš a co v druhých vidíš, protože to v sobě ještě neznáš. Týká se manželství, smluv a otevřených sporů.",
+  "traits": {
+   "text": [],
+   "shadow": []
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-19"
+  }
+ },
+ {
+  "key": "glossary/mc",
+  "title": "Medium coeli (MC)",
+  "keywords": [],
+  "themes": [],
+  "text": "MC, latinsky „střed nebe“, je bod zvěrokruhu, který při narození procházel jižním poledníkem, nejvýš nad obzorem. Je to hrot 10. domu ve většině systémů. Vypovídá o poslání, kariéře, pověsti a o tom, jak tě vidí veřejnost. Na rozdíl od ascendentu nemusí ležet přesně 90° od něj.",
+  "traits": {
+   "text": [],
+   "shadow": []
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-19"
+  }
+ },
+ {
+  "key": "glossary/ic",
+  "title": "Imum coeli (IC)",
+  "keywords": [],
+  "themes": [],
+  "text": "IC, „dno nebe“, leží naproti MC. Je to hrot 4. domu: kořeny, domov, rodina, soukromí a v tradici i konec života. MC a IC spolu tvoří svislou osu horoskopu, ascendent a descendent vodorovnou.",
+  "traits": {
+   "text": [],
+   "shadow": []
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-19"
+  }
+ },
+ {
+  "key": "glossary/house",
+  "title": "Dům",
+  "keywords": [],
+  "themes": [],
+  "text": "Domy dělí horoskop na dvanáct oblastí života, od osobnosti (1. dům) přes peníze, komunikaci, domov, lásku, práci, partnerství, krize, víru, kariéru a přátele až po skryté věci (12. dům). Zatímco znamení říká jak, dům říká kde. Rozdělení oblohy na domy závisí na čase a místě narození a na zvoleném systému domů.",
+  "traits": {
+   "text": [],
+   "shadow": []
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-19"
+  }
+ },
+ {
+  "key": "glossary/cusp",
+  "title": "Hrot domu",
+  "keywords": [],
+  "themes": [],
+  "text": "Hrot je začátek domu, bod na zvěrokruhu, kde dům začíná. Znamení na hrotu dává domu svou barvu: například Štír na hrotu 7. domu dělá vztahy hlubokými a intenzivními. Hroty 1, 4, 7 a 10 jsou úhly horoskopu: ascendent, IC, descendent a MC.",
+  "traits": {
+   "text": [],
+   "shadow": []
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-19"
+  }
+ },
+ {
+  "key": "glossary/house_system",
+  "title": "Systém domů",
+  "keywords": [],
+  "themes": [],
+  "text": "Systém domů je způsob, jak oblohu rozdělit na dvanáct domů. Planety a znamení zůstávají stejné, mění se jen hranice domů. Proto může planeta v jednom systému padnout do 2. domu a v jiném do 3. Appka nabízí devět systémů a umí dva z nich porovnat vedle sebe. Výchozí volba se řídí zeměpisnou šířkou narození.",
+  "traits": {
+   "text": [],
+   "shadow": []
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-19"
+  }
+ },
+ {
+  "key": "glossary/placidus",
+  "title": "Placidus",
+  "keywords": [],
+  "themes": [],
+  "text": "Placidus je dnes nejrozšířenější systém domů, pojmenovaný po mnichovi Placidu de Titis ze 17. století. Dělí na třetiny čas, za který každý stupeň zvěrokruhu vystoupá od obzoru k poledníku. Ve vysokých zeměpisných šířkách dává velmi nestejné domy a za polárním kruhem ho nejde spočítat.",
+  "traits": {
+   "text": [],
+   "shadow": []
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-19"
+  }
+ },
+ {
+  "key": "glossary/porphyry",
+  "title": "Porphyry",
+  "keywords": [],
+  "themes": [],
+  "text": "Porphyry patří k nejstarším systémům domů, je pojmenovaný po novoplatonském filozofovi Porfyriovi ze 3. století. Každý ze čtyř kvadrantů mezi úhly horoskopu rozdělí na tři stejné díly. Je jednoduchý a dá se spočítat i za polárním kruhem, proto ho appka nabízí jako výchozí na severu.",
+  "traits": {
+   "text": [],
+   "shadow": []
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-19"
+  }
+ },
+ {
+  "key": "glossary/koch",
+  "title": "Koch",
+  "keywords": [],
+  "themes": [],
+  "text": "Systém Walter Kocha z 20. století dělí čas, za který stupeň MC vystoupá od obzoru k poledníku. Výsledky bývají podobné Placidu. Za polárním kruhem ho, stejně jako Placidus, nejde spočítat.",
+  "traits": {
+   "text": [],
+   "shadow": []
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-19"
+  }
+ },
+ {
+  "key": "glossary/regiomontanus",
+  "title": "Regiomontanus",
+  "keywords": [],
+  "themes": [],
+  "text": "Systém astronoma Johanna Müllera, zvaného Regiomontanus, z 15. století. Dělí na stejné díly nebeský rovník a promítá je na zvěrokruh. Byl oblíbený v renesanci a dodnes se používá v horární astrologii.",
+  "traits": {
+   "text": [],
+   "shadow": []
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-19"
+  }
+ },
+ {
+  "key": "glossary/campanus",
+  "title": "Campanus",
+  "keywords": [],
+  "themes": [],
+  "text": "Systém pojmenovaný po matematikovi Campanovi z Novary ze 13. století. Dělí na stejné díly první vertikál, kružnici procházející východním bodem, nadhlavníkem a západním bodem. Dnes se používá méně často.",
+  "traits": {
+   "text": [],
+   "shadow": []
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-19"
+  }
+ },
+ {
+  "key": "glossary/equal",
+  "title": "Stejné domy",
+  "keywords": [],
+  "themes": [],
+  "text": "Systém stejných domů začíná ascendentem a každý další dům začíná o 30° dál. Všechny domy jsou tedy stejně velké. MC v něm nemusí ležet na hrotu 10. domu.",
+  "traits": {
+   "text": [],
+   "shadow": []
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-19"
+  }
+ },
+ {
+  "key": "glossary/whole_sign",
+  "title": "Celá znamení",
+  "keywords": [],
+  "themes": [],
+  "text": "Nejstarší způsob dělení: celé znamení, ve kterém leží ascendent, je 1. dům, další znamení je 2. dům a tak dále. Používala ho helénistická astrologie a používá ho i védská.",
+  "traits": {
+   "text": [],
+   "shadow": []
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-19"
+  }
+ },
+ {
+  "key": "glossary/meridian",
+  "title": "Meridian",
+  "keywords": [],
+  "themes": [],
+  "text": "Systém Meridian dělí nebeský rovník od poledníku na stejné díly a promítá je na zvěrokruh. Hrot 10. domu je MC, ale hrot 1. domu obvykle není ascendent. Nezávisí na zeměpisné šířce.",
+  "traits": {
+   "text": [],
+   "shadow": []
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-19"
+  }
+ },
+ {
+  "key": "glossary/morinus",
+  "title": "Morinus",
+  "keywords": [],
+  "themes": [],
+  "text": "Systém francouzského astrologa Jeana-Baptiste Morina ze 17. století. Dělí nebeský rovník na stejné díly a promítá je na zvěrokruh po kružnicích kolmých k ekliptice. Ascendent ani MC v něm na hrotech neleží a nezávisí na šířce.",
+  "traits": {
+   "text": [],
+   "shadow": []
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-19"
+  }
+ },
+ {
+  "key": "glossary/aspect",
+  "title": "Aspekt",
+  "keywords": [],
+  "themes": [],
+  "text": "Aspekt je úhel mezi dvěma planetami nebo body na zvěrokruhu. Tradice počítá s pěti hlavními: konjunkce 0°, sextil 60°, kvadrát 90°, trigon 120° a opozice 180°. Aspekt říká, jak spolu dvě síly v povaze vycházejí: splývají, spolupracují, nebo se třou.",
+  "traits": {
+   "text": [],
+   "shadow": []
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-19"
+  }
+ },
+ {
+  "key": "glossary/orb",
+  "title": "Orb",
+  "keywords": [],
+  "themes": [],
+  "text": "Orb je tolerance, o kolik se úhel může lišit od přesného aspektu, aby se ještě počítal. Například kvadrát s orbem 6° platí od 84° do 96°. Čím těsnější orb, tím silněji aspekt působí. U Slunce a Měsíce se orby tradičně rozšiřují, u tranzitů se berou úzké, kolem 1°.",
+  "traits": {
+   "text": [],
+   "shadow": []
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-19"
+  }
+ },
+ {
+  "key": "glossary/applying",
+  "title": "Sbíhavý a rozbíhavý aspekt",
+  "keywords": [],
+  "themes": [],
+  "text": "Aspekt je sbíhavý, když se rychlejší planeta k přesnému úhlu teprve blíží, a rozbíhavý, když už přesný úhel minula. Tradice považuje sbíhavé aspekty za silnější a za něco, co se teprve rozvíjí.",
+  "traits": {
+   "text": [],
+   "shadow": []
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-19"
+  }
+ },
+ {
+  "key": "glossary/conjunction",
+  "title": "Konjunkce",
+  "keywords": [],
+  "themes": [],
+  "text": "Konjunkce znamená, že dvě planety stojí na zvěrokruhu u sebe (0°). Jejich síly splývají a působí jako jedna. Zda je to příjemné, závisí na povaze planet: Venuše s Jupiterem dávají hojnost, Mars se Saturnem tlak a zkoušky.",
+  "traits": {
+   "text": [],
+   "shadow": []
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-19"
+  }
+ },
+ {
+  "key": "glossary/sextile",
+  "title": "Sextil",
+  "keywords": [],
+  "themes": [],
+  "text": "Sextil je úhel 60°. Spojuje znamení, která si rozumějí, a tradice ho čte jako příležitost: obě síly spolupracují, ale chtějí trochu úsilí, aby se projevily.",
+  "traits": {
+   "text": [],
+   "shadow": []
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-19"
+  }
+ },
+ {
+  "key": "glossary/square",
+  "title": "Kvadrát",
+  "keywords": [],
+  "themes": [],
+  "text": "Kvadrát je úhel 90°. Je to aspekt napětí a tření. Dvě síly si stojí v cestě a nutí jednat. Kvadrát přináší potíže, ale i hnací sílu: hodně úspěšných lidí má horoskop plný kvadrátů.",
+  "traits": {
+   "text": [],
+   "shadow": []
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-19"
+  }
+ },
+ {
+  "key": "glossary/trine",
+  "title": "Trigon",
+  "keywords": [],
+  "themes": [],
+  "text": "Trigon je úhel 120° a spojuje znamení stejného živlu. Je to nejharmoničtější aspekt: obě síly se doplňují a dávají nadání, které jde samo. Stinnou stránkou je pohodlnost, protože co jde snadno, se nemusí rozvíjet.",
+  "traits": {
+   "text": [],
+   "shadow": []
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-19"
+  }
+ },
+ {
+  "key": "glossary/opposition",
+  "title": "Opozice",
+  "keywords": [],
+  "themes": [],
+  "text": "Opozice je úhel 180°: dvě planety stojí proti sobě. Tradice v ní vidí přetahování a potřebu rovnováhy. Jednu stranu často žiješ ty a druhou vidíš v lidech kolem sebe.",
+  "traits": {
+   "text": [],
+   "shadow": []
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-19"
+  }
+ },
+ {
+  "key": "glossary/ruler",
+  "title": "Vládce",
+  "keywords": [],
+  "themes": [],
+  "text": "Každé znamení má svou vládnoucí planetu: Beran Mars, Býk Venuši, Blíženci Merkura a tak dále. Planeta ve znamení, kterému vládne, je silná. Vládce ascendentu se považuje za vládce celého horoskopu. Od objevu Uranu, Neptunu a Pluta dostala tři znamení i moderní vládce.",
+  "traits": {
+   "text": [],
+   "shadow": []
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-19"
+  }
+ },
+ {
+  "key": "glossary/domicile",
+  "title": "Sídlo (planeta vládne)",
+  "keywords": [],
+  "themes": [],
+  "text": "Planeta je ve svém sídle, když stojí ve znamení, kterému vládne, například Mars v Beranu nebo Venuše ve Vahách. Může tam jednat podle své povahy bez překážek. V tabulce stavu planet je to „vládne“.",
+  "traits": {
+   "text": [],
+   "shadow": []
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-19"
+  }
+ },
+ {
+  "key": "glossary/exaltation",
+  "title": "Povýšení",
+  "keywords": [],
+  "themes": [],
+  "text": "Povýšení je znamení, ve kterém planeta podle tradice dosahuje vrcholné síly, i když v něm nevládne, například Slunce v Beranu nebo Venuše v Rybách. Opakem je pád.",
+  "traits": {
+   "text": [],
+   "shadow": []
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-19"
+  }
+ },
+ {
+  "key": "glossary/detriment",
+  "title": "Zničení",
+  "keywords": [],
+  "themes": [],
+  "text": "Zničení je znamení naproti sídlu planety, například Venuše v Beranu nebo Mars ve Vahách. Planeta tam musí jednat proti své povaze. Neznamená to, že je postavení špatné, ale že je náročnější.",
+  "traits": {
+   "text": [],
+   "shadow": []
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-19"
+  }
+ },
+ {
+  "key": "glossary/fall",
+  "title": "Pád",
+  "keywords": [],
+  "themes": [],
+  "text": "Pád je znamení naproti povýšení, například Měsíc ve Štíru nebo Mars v Raku. Tradice tu vidí planetu oslabenou a stinná stránka jejího působení bývá výraznější.",
+  "traits": {
+   "text": [],
+   "shadow": []
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-19"
+  }
+ },
+ {
+  "key": "glossary/retrograde",
+  "title": "Retrográdní pohyb",
+  "keywords": [],
+  "themes": [],
+  "text": "Retrográdní planeta se při pohledu ze Země zdánlivě pohybuje zpět. Je to optický jev: Země ji předbíhá nebo ona předbíhá Zemi. V tabulce ji poznáš podle záporné denní změny a značky R. Tradice čte retrográdní planetu jako sílu obrácenou dovnitř.",
+  "traits": {
+   "text": [],
+   "shadow": []
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-19"
+  }
+ },
+ {
+  "key": "glossary/station",
+  "title": "Zastávka",
+  "keywords": [],
+  "themes": [],
+  "text": "Zastávka je okamžik, kdy se planeta před obratem na retrográdní nebo přímý pohyb na zvěrokruhu skoro nehýbe. V tranzitech je to silné období: když planeta stojí na citlivém bodě horoskopu, její vliv trvá déle.",
+  "traits": {
+   "text": [],
+   "shadow": []
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-19"
+  }
+ },
+ {
+  "key": "glossary/node",
+  "title": "Lunární uzel",
+  "keywords": [],
+  "themes": [],
+  "text": "Lunární uzly jsou dva body, kde dráha Měsíce protíná dráhu Slunce. V jejich blízkosti nastávají zatmění. Severní uzel tradice čte jako směr vývoje, jižní jako to, co už umíš a k čemu se vracíš. Appka standardně počítá střední uzel jako starý Astromat, pravý uzel jde zapnout v nastavení.",
+  "traits": {
+   "text": [],
+   "shadow": []
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-19"
+  }
+ },
+ {
+  "key": "glossary/transit",
+  "title": "Tranzit",
+  "keywords": [],
+  "themes": [],
+  "text": "Tranzit je aspekt, který planety na obloze právě teď tvoří k planetám a bodům tvého nativního horoskopu. Nativní horoskop je stálý, tranzity se mění. Rychlé planety přinášejí dny a hodiny, pomalé celá období.",
+  "traits": {
+   "text": [],
+   "shadow": []
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-19"
+  }
+ },
+ {
+  "key": "glossary/natal_chart",
+  "title": "Nativní horoskop",
+  "keywords": [],
+  "themes": [],
+  "text": "Nativní horoskop je obraz oblohy v okamžiku a na místě narození. Ukazuje polohy planet ve znameních a domech a aspekty mezi nimi. Mění se jen tehdy, když se upřesní čas nebo místo narození.",
+  "traits": {
+   "text": [],
+   "shadow": []
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-19"
+  }
+ },
+ {
+  "key": "glossary/element",
+  "title": "Živly",
+  "keywords": [],
+  "themes": [],
+  "text": "Znamení se dělí do čtyř živlů po třech: oheň (Beran, Lev, Střelec), země (Býk, Panna, Kozoroh), vzduch (Blíženci, Váhy, Vodnář) a voda (Rak, Štír, Ryby). Oheň jedná, země buduje, vzduch myslí a voda cítí. Převaha nebo nedostatek živlu se v horoskopu čte zvlášť.",
+  "traits": {
+   "text": [],
+   "shadow": []
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-19"
+  }
+ },
+ {
+  "key": "glossary/modality",
+  "title": "Kvality",
+  "keywords": [],
+  "themes": [],
+  "text": "Znamení se dělí i podle kvalit: kardinální začínají (Beran, Rak, Váhy, Kozoroh), pevná udržují (Býk, Lev, Štír, Vodnář) a proměnlivá přizpůsobují (Blíženci, Panna, Střelec, Ryby).",
+  "traits": {
+   "text": [],
+   "shadow": []
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-19"
+  }
+ },
+ {
+  "key": "glossary/sign",
+  "title": "Znamení zvěrokruhu",
+  "keywords": [],
+  "themes": [],
+  "text": "Znamení je třicetistupňový úsek ekliptiky. Appka používá tropický zvěrokruh: Beran začíná v bodě jarní rovnodennosti. Znamení se kvůli precesi neshodují se stejnojmennými souhvězdími, posunula se zhruba o jedno znamení.",
+  "traits": {
+   "text": [],
+   "shadow": []
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-19"
+  }
+ },
+ {
+  "key": "glossary/planet",
+  "title": "Planeta",
+  "keywords": [],
+  "themes": [],
+  "text": "V astrologii se planetami nazývá Slunce, Měsíc a osm planet od Merkura po Pluto. Každá stojí za jednu sílu povahy: Slunce vůle, Měsíc city, Merkur myšlení, Venuše láska, Mars energie, Jupiter růst, Saturn řád, Uran změna, Neptun sny a Pluto proměna.",
+  "traits": {
+   "text": [],
+   "shadow": []
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-19"
+  }
+ },
+ {
+  "key": "glossary/twins",
+  "title": "Proč jsou dvojčata různá",
+  "keywords": [],
+  "themes": [],
+  "text": "Dvojčata narozená pár minut po sobě mají skoro stejný horoskop. Liší se jen ascendent, MC a domy, a to tím víc, čím víc minut je dělí. Proto mohou být povahou různá v tom, jak jednají a kam míří, a podobná v tom, co cítí a jak myslí. Kritici astrologie dvojčata uvádějí jako hlavní protiargument a mají pravdu v tom, že horoskop nevysvětlí všechno.",
+  "traits": {
+   "text": [],
+   "shadow": []
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-19"
+  }
+ },
+ {
+  "key": "glossary/shadow",
+  "title": "Stinná stránka",
+  "keywords": [],
+  "themes": [],
+  "text": "Stinná stránka je odvrácená strana téhož postavení: slabiny, přemíra a pokušení. Každé postavení má obě strany. Appka je ukazuje vedle sebe a v nastavení jde stinnou stránku i těžká témata skrýt.",
+  "traits": {
+   "text": [],
+   "shadow": []
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-19"
+  }
+ }
+]

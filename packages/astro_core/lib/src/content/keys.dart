@@ -1,4 +1,4 @@
-import 'package:astro_core/astro_core.dart';
+import '../model.dart';
 
 /// Content ids of planets: the ten planets + the lunar node (mean or true alike).
 const planetIds = ['sun', 'moon', 'mercury', 'venus', 'mars', 'jupiter', 'saturn', 'uranus', 'neptune', 'pluto'];
@@ -101,7 +101,7 @@ String familyOf(String key) => key.split('/').first;
     case 'emphasis':
       return (min: 50, max: 110);
     case 'glossary':
-      return (min: 30, max: 130);
+      return (min: 25, max: 130);
   }
   return (min: 1, max: 10000);
 }
