@@ -8,6 +8,7 @@ určuje `tools/content/lib/keys.dart`; pravidla psaní `docs/style.md`.
 | `content/archetypes.cs.json` | ruční tabulka významů planet, znamení, domů, aspektů a obrazců aspektů (`patterns`); vstup generátoru |
 | `content/cs/traits.json` | slovník rysů pro dotaz „co to vysvětluje?“ (id, název, synonyma, protiklad) |
 | `content/cs/*.json` | texty výkladu, tři vrstvy (`text`, `shadow`, `hard[]`) |
+| `content/rules/election.json` | pravidla elekce (R7): druh, váha, záměry, podmínka, klíč textu `election/rule/…`; schéma kontroluje validátor, váhy `docs/scoring.md` |
 
 ## Validace
 

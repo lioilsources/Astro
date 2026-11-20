@@ -110,8 +110,12 @@ class Chart {
     return housesFromRamc(s, h.ramc, birth.lat, Ephemeris.trueObliquity(time.jdTt));
   }
 
-  static Chart compute(BirthData birth, {ChartOptions options = const ChartOptions()}) {
-    final time = resolveMoment(birth.moment, birth.lon);
+  static Chart compute(BirthData birth, {ChartOptions options = const ChartOptions()}) =>
+      computeAt(birth, resolveMoment(birth.moment, birth.lon), options: options);
+
+  /// Chart for an already resolved instant (solar return to the second, plan 10.5);
+  /// [birth] supplies the place and whether the time is known.
+  static Chart computeAt(BirthData birth, ResolvedTime time, {ChartOptions options = const ChartOptions()}) {
     final jde = time.jdTt;
     final positions = <Body, EclipticPosition>{};
     final missing = <Body>[];

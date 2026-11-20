@@ -1,19 +1,34 @@
 import 'dart:convert';
 import 'dart:io';
 
-import 'package:astro_core/astro_core.dart' show hemisphereMin, modalityExcessMin, modalityLackMax;
+import 'package:astro_core/astro_core.dart' show ElectionIntent, hemisphereMin, modalityExcessMin, modalityLackMax;
 
+import 'rules.dart';
 import 'schema.dart';
 
 /// Builds the generation prompt for one key from the archetype table and style rules.
 class PromptBuilder {
   final Map<String, dynamic> a;
   final List<Trait> traits;
-  PromptBuilder(this.a, this.traits);
+
+  /// Election rules by id (`content/rules/election.json`), for `election/rule/…`.
+  final Map<String, Map<String, Object?>> rules;
+  /// Horary considerations and testimonies by `section/id` (`content/rules/horary.json`).
+  final Map<String, Map<String, Object?>> horary;
+  PromptBuilder(this.a, this.traits, {this.rules = const {}, this.horary = const {}});
 
   factory PromptBuilder.load(Directory contentRoot) => PromptBuilder(
         jsonDecode(File('${contentRoot.path}/archetypes.cs.json').readAsStringSync()) as Map<String, dynamic>,
         loadTraits(Directory('${contentRoot.path}/cs')),
+        rules: {
+          for (final r in (loadElectionRules(contentRoot)['rules'] as List).cast<Map>()) r['id'] as String: r.cast<String, Object?>(),
+        },
+        horary: {
+          for (final section in ['testimonies', 'considerations'])
+            for (final r in (loadHoraryRules(contentRoot)[section] as List).cast<Map>()) '$section/${r['id']}': r.cast<String, Object?>(),
+          for (final e in (((loadHoraryRules(contentRoot)['lost'] as Map)['places'] as Map?) ?? const {}).entries)
+            'places/${e.key}': {'place': e.value},
+        },
       );
 
   Map<String, dynamic> _p(String id) => a['planets'][id] as Map<String, dynamic>;
@@ -152,6 +167,15 @@ class PromptBuilder {
         final name = pt?['name'] ?? pn(p[1]);
         final facts = pt != null ? 'Bod ${pt['name']}: ${pt['core']}.' : _planet(p[1]);
         return (title: 'Stálice u bodu $name', facts: '$facts\nJedna věta o tom, co znamená, když na tomto bodě leží stálice.');
+      case 'election':
+        return _election(p);
+      case 'horary':
+        return _horary(p);
+      // R5 (plan 10.5): secondary progressions and solar returns.
+      case 'progressed':
+        return _progressed(p);
+      case 'solar_return':
+        return _solarReturn(p);
       case 'journal':
         final j = _journal[p[1]]!;
         return (
@@ -162,6 +186,167 @@ class PromptBuilder {
         );
     }
     throw ArgumentError(key);
+  }
+
+  /// Election (plan 10.7): intents with their houses and planets, rule texts, verdict templates.
+  static const _intentCz = {
+    'relationship': 'svatba, vztah',
+    'contract': 'smlouva, podpis, jednání',
+    'launch': 'zahájení podnikání, spuštění projektu',
+    'money': 'peníze, nákup',
+    'move': 'stěhování, nemovitost',
+    'travel': 'cesta',
+    'study': 'zkouška, studium',
+    'application': 'žádost, pohovor',
+  };
+  static const _verdictCz = {
+    'strong': 'okno s vysokým skóre: tradiční pravidla se v něm sbíhají',
+    'good': 'dobré okno: víc důvodů pro než proti',
+    'weak': 'slabé okno: projde, ale důvodů proti je dost',
+    'none': 'v období neprošlo žádné okno; appka ukazuje nejméně špatné s výčtem důvodů proti',
+    'health': 'zdravotní záměr (operace, zákrok): appka termín nehledá a odkazuje na slovníček',
+  };
+  static const _electionFrame =
+      'Elekční astrologie: hledání vhodného okamžiku k začátku věci podle tradičních pravidel. '
+      'Formulace vždy "podle tradičních pravidel", nikdy záruka ani rada.';
+
+  ({String title, String facts}) _election(List<String> p) {
+    switch (p[1]) {
+      case 'rule':
+        final r = rules[p[2]];
+        final about = r?['about'] ?? p[2];
+        final kind = switch (r?['kind']) { 'plus' => 'mluví pro', 'minus' => 'mluví proti', _ => 'vylučuje okno' };
+        return (title: 'Pravidlo elekce: $about', facts: '$_electionFrame\nPravidlo ($kind): $about\nVysvětli, proč to tradice bere jako dobré nebo špatné.');
+      case 'intent':
+        final i = ElectionIntent.values.byName(p[2]);
+        final planets = i.planets.map((b) => _p(b.name)['name']).join(', ');
+        return (
+          title: 'Záměr: ${_intentCz[p[2]]}',
+          facts: '$_electionFrame\nZáměr: ${_intentCz[p[2]]}. Domy: ${i.houses.join(', ')}. Planety záměru: $planets.\n'
+              '${i.houses.map((h) => _house('$h')).join('\n')}\nNa co tradice u takového začátku hledí.'
+        );
+      default:
+        return (title: 'Výsledek hledání: ${p[2]}', facts: '$_electionFrame\nŠablona výsledku: ${_verdictCz[p[2]]}.');
+    }
+  }
+
+  static const _horaryFrame =
+      'Horární astrologie: horoskop okamžiku otázky, verdikt na jednu konkrétní otázku podle pravidel Williama Lillyho '
+      '(Christian Astrology, 1647): sedm planet, tradiční vládci, domy Regiomontanus. Formulace vždy "podle tradičních '
+      'pravidel vychází", nikdy "stane se".';
+  static const _verdictHoraryCz = {
+    'yes': 'ano: ukazatelé dojdou k dokonání a nic ho neruší',
+    'yes_difficult': 'ano, ale s potížemi: dokonání kvadrátem nebo opozicí bez přijetí',
+    'no': 'ne: ukazatelé se před opuštěním znamení nesetkají',
+    'past': 'už je to pryč: ukazatelé se od aspektu vzdalují',
+    'nothing': 'nic z toho nebude: dokonání zruší zábrana, zmaření, ústup nebo spálení',
+    'unclear': 'nelze říct: tazatele i věc zastupuje stejná planeta a Měsíc nic nedokládá',
+  };
+  static const _timingCz = {
+    'days': 'dny', 'weeks': 'týdny', 'months': 'měsíce', 'years': 'roky', 'unknown': 'jednotku tradice neurčuje',
+  };
+
+  ({String title, String facts}) _horary(List<String> p) {
+    String pn(String id) => _p(id)['name'] as String;
+    switch (p[1]) {
+      case 'house':
+        return (title: '${p[2]}. dům v horární otázce', facts: '$_horaryFrame\n${_house(p[2])}\nCo a koho tento dům v horární otázce zastupuje.');
+      case 'significator':
+        return (title: '${pn(p[2])} jako ukazatel', facts: '$_horaryFrame\n${_planet(p[2])}\nKoho a co planeta jako ukazatel v horární otázce zastupuje.');
+      case 'testimony' || 'consideration':
+        final r = horary['${p[1] == 'testimony' ? 'testimonies' : 'considerations'}/${p[2]}'];
+        final about = r?['about'] ?? p[2];
+        final kind = p[1] == 'consideration'
+            ? 'výhrada před výkladem (varování, výklad neblokuje)'
+            : (r?['kind'] == 'plus' ? 'svědectví pro' : 'svědectví proti');
+        return (
+          title: '${p[1] == 'testimony' ? 'Svědectví' : 'Výhrada'}: $about',
+          facts: '$_horaryFrame\nPravidlo ($kind): $about\nPramen: ${r?['source'] ?? ''}\nVysvětli, proč to tradice tak čte.',
+        );
+      case 'verdict':
+        return (title: 'Verdikt: ${p[2]}', facts: '$_horaryFrame\nŠablona verdiktu: ${_verdictHoraryCz[p[2]]}.');
+      case 'timing':
+        return (
+          title: 'Čas: ${_timingCz[p[2]]}',
+          facts: '$_horaryFrame\nOdhad času: stupně do dokonání se čtou jako ${_timingCz[p[2]]} podle druhu znamení a domu. Tradiční odhad, ne termín.',
+        );
+      case 'lost':
+        return (
+          title: 'Ztracená věc: ${_s(p[2])['name']}',
+          facts: '$_horaryFrame\n${_sign(p[2])}\nLilly (1647, místa znamení, přelož a přibliž dnešku): ${horary['places/${p[2]}']?['place'] ?? ''}\n'
+              'Kde podle Lillyho hledat ztracenou věc, když její ukazatel stojí v tomto znamení: druh místa a směr.',
+        );
+      case 'lost_house':
+        return (
+          title: 'Ztracená věc v ${p[2]}. domě',
+          facts: '$_horaryFrame\n${_house(p[2])}\nKde podle Lillyho hledat ztracenou věc, když její ukazatel stojí v tomto domě: druh místa a směr.',
+        );
+    }
+    throw ArgumentError(p.join('/'));
+  }
+
+  static const _progressedIntro =
+      'Sekundární progrese: den po narození odpovídá roku života. Popisuje pomalý vnitřní vývoj, ne vnější události.';
+
+  ({String title, String facts}) _progressed(List<String> p) {
+    String pn(String id) => _p(id)['name'] as String;
+    switch (p[1]) {
+      case 'moon_in_sign':
+        return (
+          title: 'Progresní Měsíc ${_s(p[2])['in']}',
+          facts: '$_progressedIntro\nProgresní Měsíc (citové těžiště období asi 2,5 roku): ${_planet('moon')}\n${_sign(p[2])}\n'
+              'Popiš, jak se v těch letech mění nálada, potřeby a to, co člověka citově živí.'
+        );
+      case 'moon_in_house':
+        return (
+          title: 'Progresní Měsíc v ${p[2]}. domě',
+          facts: '$_progressedIntro\nProgresní Měsíc prochází natálním domem asi 2,5 roku: ${_planet('moon')}\n${_house(p[2])}\n'
+              'Popiš, kam se v těch letech stáčí pozornost a citová energie.'
+        );
+      case 'sun_in_sign':
+        return (
+          title: 'Progresní Slunce ${_s(p[2])['in']}',
+          facts: '$_progressedIntro\nProgresní Slunce mění znamení jednou za 30 let, je to dlouhá životní kapitola: ${_planet('sun')}\n${_sign(p[2])}'
+        );
+      case 'lunar_phase':
+        return (
+          title: 'Progresní fáze: ${_phaseCz[p[2]]}',
+          facts: '$_progressedIntro\nProgresní lunační cyklus trvá 29,5 roku, každá z osmi fází asi 3,7 roku. '
+              '${_phaseCz[p[2]]}: ${_phaseCore[p[2]]}. Ráz tohoto životního období.'
+        );
+      case 'modifier':
+        final applying = p[2] == 'applying';
+        return (
+          title: 'Úvod progresního aspektu: ${applying ? 'sbíhá se' : 'rozbíhá se'}',
+          facts: 'Jedna krátká úvodní věta před textem tranzitu ${pn('sun')}–${pn('pluto')}, který se znovu použije pro progresi. '
+              'Řekne, že nejde o krátký tranzit, ale o pomalý vnitřní proces na roky, který se ${applying ? 'teprve blíží vrcholu' : 'už vyznívá'}.'
+        );
+    }
+    throw ArgumentError(p.join('/'));
+  }
+
+  static const _angleCz = {
+    'asc': ('ascendent', 'jak do roku vstupuješ, tělo, nový začátek'),
+    'ic': ('IC (dno nebe)', 'domov, rodina, kořeny'),
+    'dsc': ('descendent', 'partneři, protějšky, otevření nepřátelé'),
+    'mc': ('MC (střed nebe)', 'práce, postavení, veřejné cíle'),
+  };
+
+  ({String title, String facts}) _solarReturn(List<String> p) {
+    const intro = 'Solár: horoskop okamžiku, kdy se Slunce vrátí na natální délku. Platí na jeden rok, od narozenin do narozenin.';
+    switch (p[1]) {
+      case 'asc':
+        return (title: 'Ascendent soláru ${_s(p[2])['in']}', facts: '$intro\nAscendent soláru: ráz a přístup celého roku.\n${_sign(p[2])}');
+      case 'sun_in_house':
+        return (title: 'Slunce soláru v ${p[2]}. domě', facts: '$intro\nDům Slunce soláru: hlavní oblast roku.\n${_house(p[2])}');
+      case 'planet_on_angle':
+        final (name, core) = _angleCz[p[3]]!;
+        return (
+          title: '${_p(p[2])['name']} na ose soláru: $name',
+          facts: '$intro\nPlaneta do 5° od osy soláru zabarví celý rok.\n${_planet(p[2])}\nOsa $name: $core.'
+        );
+    }
+    throw ArgumentError(p.join('/'));
   }
 
   static const _phaseCz = {
@@ -293,7 +478,7 @@ class PromptBuilder {
     final d = describe(key);
     final len = lengthRange(key);
     final family = familyOf(key);
-    final noShadow = shadowExempt.contains(family);
+    final noShadow = isShadowExempt(key);
     final traitList = traits.map((t) => '${t.id} (${t.name})').join(', ');
     final pair = partnerFamilies.contains(family);
     final textRule = pair
@@ -309,6 +494,12 @@ class PromptBuilder {
             '  Moderní psychologický přepis nevydávej za tradici.'
         : family == 'star_target'
             ? '- "text": ${len.min}–${len.max} slov: jedna až dvě věty o tom, které oblasti života hvězda na tomto bodě zasahuje.'
+            : family == 'election'
+                ? '- "text": ${len.min}–${len.max} slov: co o tom říká tradice elekcí a proč; "podle tradičních pravidel",\n'
+                    '  nikdy záruka, žádná rada ke zdraví, penězům ani právu.'
+            : family == 'horary'
+                ? '- "text": ${len.min}–${len.max} slov: co o tom říká horární tradice (William Lilly, 1647) a proč;\n'
+                    '  "podle tradičních pravidel vychází", nikdy "stane se"; žádná rada ke zdraví, penězům ani právu.'
             : family == 'journal'
                 ? '- "text": ${len.min}–${len.max} slov: věcné vysvětlení výsledku pro laika, bez astrologického výkladu povahy.'
                 : '- "text": ${len.min}–${len.max} slov: povaha, nadání, projevy.';

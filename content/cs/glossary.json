@@ -658,5 +658,185 @@
    "model": "claude-opus-5-5",
    "generated": "2026-11-20"
   }
+ },
+ {
+  "key": "glossary/election",
+  "title": "Elekce",
+  "keywords": [],
+  "themes": [],
+  "text": "Elekce je volba okamžiku, kdy začít nějakou věc: podepsat smlouvu, vyrazit na cestu, otevřít obchod. Starší astrologie věřila, že horoskop začátku nese povahu celé věci. Proto hledala chvíli, kdy Měsíc míří k dobrému spojení, dobroděje Venuše a Jupiter stojí silně a vládce ascendentu není oslabený. Appka prochází zvolené období po deseti minutách a řadí okna podle tradičních pravidel. Výsledek je nejvhodnější chvíle podle těchto pravidel, ne záruka úspěchu. Okno, kdy je Měsíc bez aspektu, appka nikdy nenabídne.",
+  "traits": {
+   "text": [],
+   "shadow": []
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "glossary/via_combusta",
+  "title": "Spálená cesta",
+  "keywords": [],
+  "themes": [],
+  "text": "Spálená cesta (via combusta) je úsek zvěrokruhu od 15° Vah do 15° Štíra. Středověcí astrologové ho pokládali za nebezpečný pro Měsíc: leží tu několik hvězd s pověstí neštěstí a Měsíc tu podle nich ztrácí sílu, podobně jako planeta spálená blízkostí Slunce. Při volbě termínu proto tradice chtěla, aby Měsíc tímto úsekem právě neprocházel. Appka to počítá jako důvod proti, ne jako vyloučení okna.",
+  "traits": {
+   "text": [],
+   "shadow": []
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "glossary/reception",
+  "title": "Přijetí",
+  "keywords": [],
+  "themes": [],
+  "text": "Přijetí je vztah dvou planet, kdy jedna stojí ve znamení, kterému vládne druhá. Vládce znamení svého hosta „přijímá“ a podle tradice mu pomáhá, i když host stojí slabě. Vzájemné přijetí nastává, když každá z obou planet stojí ve znamení té druhé, například Venuše v Beranu a Mars ve Vahách. Starší astrologie to brala jako dohodu dvou stran a při volbě termínu i v horární astrologii tím zmírňovala jinak špatné postavení.",
+  "traits": {
+   "text": [],
+   "shadow": []
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "glossary/medical_election",
+  "title": "Volba termínu zákroku",
+  "keywords": [],
+  "themes": [],
+  "text": "Volba termínu zákroku patřila ke starší astrologii. Tradice tu mluví o tom, že Měsíc nemá stát ve znamení, které vládne operované části těla (Beran hlavě, Ryby chodidlům), že ubývající Měsíc daleko od úplňku krvácení tlumí a že Mars v napětí s Měsícem věstí komplikace. Appka termín zákroku nehledá a tato pravidla na tvé termíny nepoužívá. O termínu operace rozhoduje lékař a zdravotní stav, ne postavení planet.",
+  "traits": {
+   "text": [],
+   "shadow": []
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "glossary/horary",
+  "title": "Horární astrologie",
+  "keywords": [],
+  "themes": [],
+  "text": "Horární astrologie odpovídá na jednu konkrétní otázku. Horoskop se nestaví na narození, ale na okamžik, kdy otázku položíš a myslíš ji vážně. Tazatele zastupuje vládce ascendentu a Měsíc, věc vládce domu, kam otázka patří. Pak se sleduje, jestli se ukazatelé setkají aspektem dřív, než opustí své znamení, a co jim v tom pomáhá nebo brání. Appka používá pravidla Williama Lillyho z roku 1647: sedm planet, tradiční vládce a domy Regiomontanus. Výsledek říká, co podle těchto pravidel vychází, ne co se stane.",
+  "traits": {
+   "text": [],
+   "shadow": []
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "glossary/significator",
+  "title": "Ukazatel (signifikátor)",
+  "keywords": [],
+  "themes": [],
+  "text": "Ukazatel je planeta, která v horární otázce zastupuje člověka nebo věc. Tebe jako tazatele zastupuje vládce znamení na ascendentu a k tomu Měsíc. Věc, na kterou se ptáš, zastupuje vládce znamení na hrotu jejího domu: u peněz druhého, u kariéry desátého. Každý dům má u Lillyho navíc svou planetu spoluukazatele, třeba Venuši pátý dům nebo Jupiter druhý. Síla ukazatele podle znamení a domu říká, v jaké pozici strana do věci vstupuje.",
+  "traits": {
+   "text": [],
+   "shadow": []
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "glossary/perfection",
+  "title": "Dokonání",
+  "keywords": [],
+  "themes": [],
+  "text": "Dokonání znamená, že se aspekt mezi dvěma ukazateli stane přesným. Rychlejší planeta dožene pomalejší do spojení, sextilu, kvadrátu, trigonu nebo opozice dřív, než jedna z nich opustí znamení. Tradice to čte jako svědectví, že věc dojde naplnění. Sextil a trigon dávají hladký průběh. Kvadrát podle Lillyho věc dokoná jen tehdy, když mají oba ukazatele bytostnou důstojnost, opozice jen při vzájemném přijetí. Když se ukazatelé už rozcházejí, věc podle tradice patří minulosti.",
+  "traits": {
+   "text": [],
+   "shadow": []
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "glossary/translation_of_light",
+  "title": "Přenos světla",
+  "keywords": [],
+  "themes": [],
+  "text": "Přenos světla je náhradní cesta k dokonání. Dva ukazatele se samy nesetkají, ale třetí, rychlejší planeta se právě vzdálila od jednoho z nich a míří k aspektu s druhým. Tím mezi nimi přenáší jejich světlo. Tradice v té planetě vidí prostředníka: člověka nebo okolnost, která věc dotáhne. Povaha prostředníka se čte z planety, která světlo nese, a z domu, kde stojí.",
+  "traits": {
+   "text": [],
+   "shadow": []
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "glossary/collection_of_light",
+  "title": "Sběr světla",
+  "keywords": [],
+  "themes": [],
+  "text": "Sběr světla je druhá náhradní cesta k dokonání. Dva ukazatele spolu aspekt nevytvoří, ale oba míří k aspektu s třetí, pomalejší planetou. Ta jejich světlo sbírá a spojuje. Podle Lillyho musí tato planeta stát v bytostných důstojnostech obou ukazatelů, například ve znamení jednoho a v termu druhého. Tradice v ní vidí třetí stranu, která věc spojí, třeba úřad, staršího člověka nebo zprostředkovatele.",
+  "traits": {
+   "text": [],
+   "shadow": []
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "glossary/combustion",
+  "title": "Spálení",
+  "keywords": [],
+  "themes": [],
+  "text": "Spálení nastává, když planeta stojí ve stejném znamení jako Slunce a blíž než 8°30′ od něj. Lilly psal, že spálení je největší neštěstí, jaké může planetu potkat: Slunce ji přezáří a planeta ztrácí sílu jednat. Pod paprsky, do 17°, je oslabení menší. Výjimkou je planeta v srdci Slunce, do 17′ od jeho středu: ta je naopak velmi silná. Spálený ukazatel může v appce zrušit jinak nalezené dokonání.",
+  "traits": {
+   "text": [],
+   "shadow": []
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "glossary/radical",
+  "title": "Radikální horoskop",
+  "keywords": [],
+  "themes": [],
+  "text": "Radikální znamená způsobilý k výkladu. Tradice před posouzením otázky zkoumá výhrady: ascendent v prvních nebo posledních stupních znamení, Měsíc bez aspektu nebo ve spálené cestě, Saturn v prvním či sedmém domě a vládce planetární hodiny, který nesouhlasí s vládcem ascendentu. Lilly o takových horoskopech psal, že není bezpečné z nich soudit. Appka výhrady vypíše nad výkladem jako upozornění, verdikt kvůli nim neskrývá.",
+  "traits": {
+   "text": [],
+   "shadow": []
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "glossary/medical_horary",
+  "title": "Zdraví, smrt a těhotenství v horární tradici",
+  "keywords": [],
+  "themes": [],
+  "text": "Starší horární astrologie odpovídala i na otázky o nemoci, smrti a těhotenství. Tradice tu mluví o šestém domě nemoci, osmém domě smrti a pátém domě dětí a o tom, zda je vládce ascendentu spálený nebo míří k vládci osmého domu. Lilly takové otázky rozebíral podrobně. Appka u těchto témat verdikt nedává a horoskop jen ukáže. O zdraví a těhotenství rozhoduje lékař a vyšetření, ne postavení planet.",
+  "traits": {
+   "text": [],
+   "shadow": []
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
  }
 ]

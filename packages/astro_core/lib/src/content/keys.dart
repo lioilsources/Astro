@@ -1,6 +1,9 @@
+import '../election.dart';
 import '../model.dart';
 import '../patterns.dart';
+import '../progressions.dart';
 import '../stars.dart';
+import 'entry.dart';
 
 /// Content ids of planets: the ten planets + the lunar node (mean or true alike).
 const planetIds = ['sun', 'moon', 'mercury', 'venus', 'mars', 'jupiter', 'saturn', 'uranus', 'neptune', 'pluto'];
@@ -29,7 +32,12 @@ const glossaryIds = [
   'ruler', 'domicile', 'exaltation', 'detriment', 'fall', 'retrograde', 'station',
   'node', 'transit', 'natal_chart', 'element', 'modality', 'sign', 'planet', 'twins', 'shadow',
   'fixed_star', 'precession', 'royal_stars',
+  // R7 (plan 10.7, owner decision 19)
+  'election', 'via_combusta', 'reception', 'medical_election',
   'synastry',
+  // R8 (plan 10.8, owner decision 20)
+  'horary', 'significator', 'perfection', 'translation_of_light', 'collection_of_light', 'combustion',
+  'radical', 'medical_horary',
 ];
 
 /// R2 (plan 10.2): Moon and planetary hours.
@@ -55,6 +63,66 @@ final patternKeys = [
   for (final p in planetIds) 'pattern/unaspected/$p',
 ];
 
+/// Election rules (plan 10.7): ids of `content/rules/election.json`, which a
+/// tools/content test keeps in sync with this list.
+const electionRuleIds = [
+  'moon_void',
+  'moon_waxing', 'moon_next_venus', 'moon_next_jupiter', 'venus_angle', 'jupiter_angle', 'asc_ruler_dignified',
+  'hour_of_intent', 'intent_planet_dignified', 'benefic_in_intent_house', 'personal_moon_harmonious', 'personal_calm_day',
+  'moon_next_mars_hard', 'moon_next_saturn_hard', 'mars_angle', 'saturn_angle', 'intent_planet_retrograde',
+  'intent_planet_fall', 'intent_planet_detriment', 'asc_ruler_bad_house', 'asc_ruler_retrograde', 'eclipse',
+  'via_combusta', 'malefic_in_intent_house', 'personal_moon_tense', 'personal_tension_high',
+];
+final electionKeys = [
+  for (final r in electionRuleIds) 'election/rule/$r',
+  for (final i in ElectionIntent.values) 'election/intent/${i.id}',
+  for (final v in electionVerdictIds) 'election/verdict/$v',
+];
+/// Horary (plan 10.8): ids of `content/rules/horary.json`, which a
+/// tools/content test keeps in sync with these lists.
+const horaryTestimonyIds = [
+  'perfection_conjunction', 'perfection_sextile', 'perfection_trine', 'perfection_square', 'perfection_opposition',
+  'moon_perfection', 'translation', 'collection', 'reception', 'mutual_reception', 'querent_strong',
+  'quesited_strong', 'quesited_in_first', 'querent_in_quesited_house', 'natural_perfection',
+  'separating', 'no_aspect', 'prohibition', 'frustration', 'refranation', 'combustion', 'hard_without_reception',
+  'querent_weak', 'quesited_weak', 'querent_retrograde', 'quesited_retrograde',
+];
+const horaryConsiderationIds = ['asc_early', 'asc_late', 'moon_void', 'via_combusta', 'saturn_1_7', 'hour_ruler'];
+const horaryVerdictIds = ['yes', 'yes_difficult', 'no', 'past', 'nothing', 'unclear'];
+const horaryTimingIds = ['days', 'weeks', 'months', 'years', 'unknown'];
+final horaryKeys = [
+  for (final h in houseNumbers) 'horary/house/$h',
+  for (final p in traditionalPlanetIds) 'horary/significator/$p',
+  for (final t in horaryTestimonyIds) 'horary/testimony/$t',
+  for (final c in horaryConsiderationIds) 'horary/consideration/$c',
+  for (final v in horaryVerdictIds) 'horary/verdict/$v',
+  for (final u in horaryTimingIds) 'horary/timing/$u',
+  for (final s in signIds) 'horary/lost/$s',
+  for (final h in houseNumbers) 'horary/lost_house/$h',
+];
+
+/// R5 (plan 10.5): secondary progressions and solar returns.
+const progressedModifierIds = ['applying', 'separating'];
+final returnAngleIds = ReturnAngle.values.map((a) => a.name).toList();
+final progressedKeys = [
+  for (final s in signIds) 'progressed/moon_in_sign/$s',
+  for (final h in houseNumbers) 'progressed/moon_in_house/$h',
+  for (final s in signIds) 'progressed/sun_in_sign/$s',
+  for (final f in moonPhaseIds) 'progressed/lunar_phase/$f',
+  for (final m in progressedModifierIds) 'progressed/modifier/$m',
+];
+final solarReturnKeys = [
+  for (final s in signIds) 'solar_return/asc/$s',
+  for (final h in houseNumbers) 'solar_return/sun_in_house/$h',
+  for (final p in planetIds)
+    for (final a in returnAngleIds) 'solar_return/planet_on_angle/$p/$a',
+];
+
+/// Keys of composing fragments inside a family that otherwise has a shadow layer.
+const shadowExemptPrefixes = ['progressed/modifier/'];
+
+/// No shadow layer required (fragments for composing).
+bool isShadowExempt(String key) => shadowExempt.contains(familyOf(key)) || shadowExemptPrefixes.any(key.startsWith);
 /// Prediction journal texts (plan 10.3): method, result templates, blind test.
 const journalIds = [
   'method', 'too_few', 'relation_expected', 'relation_opposite', 'no_relation',
@@ -129,6 +197,10 @@ Map<String, List<String>> allKeysByFamily() {
     'eclipse': [for (final e in eclipseIds) 'eclipse/$e'],
     'star': [for (final s in starIds) 'star/$s'],
     'star_target': [for (final t in starTargetIds) 'star_target/$t'],
+    'election': electionKeys,
+    'horary': horaryKeys,
+    'progressed': progressedKeys,
+    'solar_return': solarReturnKeys,
     'journal': [for (final j in journalIds) 'journal/$j'],
     'synastry': synastryKeys,
     'synastry_point': synastryPointKeys,
@@ -180,6 +252,26 @@ String familyOf(String key) => key.split('/').first;
       return (min: 0, max: 250);
     case 'star_target':
       return (min: 8, max: 40);
+    case 'election':
+      return switch (parts[1]) {
+        'rule' => (min: 25, max: 70),
+        'intent' => (min: 30, max: 80),
+        _ => (min: 15, max: 50),
+      };
+    case 'horary':
+      return switch (parts[1]) {
+        'verdict' || 'timing' => (min: 15, max: 50),
+        'lost' || 'lost_house' => (min: 20, max: 60),
+        _ => (min: 25, max: 70),
+      };
+    case 'progressed':
+      return switch (parts[1]) {
+        'modifier' => (min: 10, max: 35),
+        'lunar_phase' => (min: 70, max: 140),
+        _ => (min: 50, max: 110),
+      };
+    case 'solar_return':
+      return parts[1] == 'planet_on_angle' ? (min: 35, max: 90) : (min: 50, max: 110);
     case 'journal':
       return (min: 25, max: 90);
     case 'synastry':
@@ -210,6 +302,9 @@ bool expectsHard(String key) {
     case 'eclipse':
     case 'star':
       return true;
+    case 'solar_return':
+      return (p[1] == 'sun_in_house' && (p[2] == '8' || p[2] == '12')) ||
+          (p[1] == 'planet_on_angle' && malefics.contains(p[2]));
     case 'synastry':
       return (p[3] == 'tense' || p[3] == 'conjunction') && (malefics.contains(p[1]) || malefics.contains(p[2]));
     case 'synastry_house':

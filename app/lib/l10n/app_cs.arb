@@ -128,6 +128,133 @@
   }
  },
  "textMissing": "Text pro toto postavení zatím chybí.",
+ "timeModeTransits": "Tranzity",
+ "timeModeProgressions": "Progrese",
+ "timeModeSolar": "Solár",
+ "progressionsAge": "Věk {age} let · progresní den {date}",
+ "@progressionsAge": {
+  "placeholders": {
+   "age": {},
+   "date": {}
+  }
+ },
+ "progressedMoon": "Progresní Měsíc",
+ "progressedSun": "Progresní Slunce",
+ "progressedPhase": "Progresní fáze Měsíce",
+ "progressedAngles": "Progresní osy (sluneční oblouk {arc})",
+ "@progressedAngles": {
+  "placeholders": {
+   "arc": {}
+  }
+ },
+ "progressedAspects": "Progresní aspekty k natálu (orb 1°)",
+ "progressedAspectsNone": "Žádná progresní planeta není do 1° od aspektu k natální poloze.",
+ "progressedAspectTitle": "Progresní {planet} {aspect} natální {target}",
+ "@progressedAspectTitle": {
+  "placeholders": {
+   "planet": {},
+   "aspect": {},
+   "target": {}
+  }
+ },
+ "progressedApplying": "{orb} · sbíhá se",
+ "@progressedApplying": {
+  "placeholders": {
+   "orb": {}
+  }
+ },
+ "progressedSeparating": "{orb} · rozbíhá se",
+ "@progressedSeparating": {
+  "placeholders": {
+   "orb": {}
+  }
+ },
+ "progressedNoTime": "Bez času narození je progresní Měsíc přesný jen asi na ±6° a osy ani domy se nepočítají.",
+ "lifeTimeline": "Časová osa života",
+ "milestoneMoonSign": "Progresní Měsíc vstupuje do znamení {sign}",
+ "@milestoneMoonSign": {
+  "placeholders": {
+   "sign": {}
+  }
+ },
+ "milestoneMoonHouse": "Progresní Měsíc vstupuje do {house}. domu",
+ "@milestoneMoonHouse": {
+  "placeholders": {
+   "house": {
+    "type": "int"
+   }
+  }
+ },
+ "milestoneSunSign": "Progresní Slunce vstupuje do znamení {sign}",
+ "@milestoneSunSign": {
+  "placeholders": {
+   "sign": {}
+  }
+ },
+ "milestoneLunarPhase": "Progresní fáze: {phase}",
+ "@milestoneLunarPhase": {
+  "placeholders": {
+   "phase": {}
+  }
+ },
+ "milestoneSolarReturn": "Solár {year}",
+ "@milestoneSolarReturn": {
+  "placeholders": {
+   "year": {
+    "type": "int"
+   }
+  }
+ },
+ "milestoneAge": "{age} let",
+ "@milestoneAge": {
+  "placeholders": {
+   "age": {}
+  }
+ },
+ "timelineMoonHouses": "Domy progresního Měsíce",
+ "timelineSolarReturns": "Soláry",
+ "solarReturnTitle": "Solár {year}",
+ "@solarReturnTitle": {
+  "placeholders": {
+   "year": {
+    "type": "int"
+   }
+  }
+ },
+ "solarReturnMoment": "Slunce zpět na {lon}: {date}",
+ "@solarReturnMoment": {
+  "placeholders": {
+   "lon": {},
+   "date": {}
+  }
+ },
+ "solarPlaceResidence": "Bydliště",
+ "solarPlaceBirth": "Místo narození",
+ "solarPlace": "Místo: {place}",
+ "@solarPlace": {
+  "placeholders": {
+   "place": {}
+  }
+ },
+ "solarAsc": "Ascendent soláru",
+ "solarSunHouse": "Slunce soláru",
+ "solarOnAngles": "Planety na osách soláru (orb 5°)",
+ "solarNoAngles": "Žádná planeta neleží do 5° od osy soláru.",
+ "solarPlanets": "Planety soláru",
+ "solarNoTime": "Bez času narození je natální Slunce známé jen asi na ±0,5°, okamžik soláru proto jen asi na ±12 hodin.",
+ "returnAngleName": "{angle, select, asc{ascendentu} ic{IC} dsc{descendentu} mc{MC} other{?}}",
+ "@returnAngleName": {
+  "placeholders": {
+   "angle": {}
+  }
+ },
+ "planetOnAngle": "{planet} na {angle}",
+ "@planetOnAngle": {
+  "placeholders": {
+   "planet": {},
+   "angle": {}
+  }
+ },
  "shadowTitle": "Stinná stránka",
  "hiddenPassages": "Skryto: {count, plural, =1{1 pasáž} few{{count} pasáže} other{{count} pasáží}} ({topics})",
  "@hiddenPassages": {
@@ -328,6 +455,45 @@
  "didYouMean": "Neznám to slovo. Možná hledáš:",
  "noTraitMatch": "V horoskopu k tomu není žádné postavení.",
  "pickProfile": "Vyber profil",
+ "electionTitle": "Najdi termín",
+ "electionIntent": "Záměr",
+ "electionAboutIntent": "O záměru",
+ "electionProfile": "Profil (místo pobytu)",
+ "electionPersonal": "Zahrnout můj horoskop",
+ "electionPersonalHint": "Přidá napětí tranzitů dne a aspekty Měsíce k tvému Slunci, Měsíci a ascendentu.",
+ "electionStart": "Od",
+ "electionDays": "Období: {days} dní",
+ "@electionDays": {"placeholders": {"days": {"type": "int"}}},
+ "electionHours": "Hodiny dne: {from}–{to}",
+ "@electionHours": {"placeholders": {"from": {"type": "int"}, "to": {"type": "int"}}},
+ "electionWeekdays": "Dny v týdnu",
+ "weekdayShort": "{day, select, 1{Po} 2{Út} 3{St} 4{Čt} 5{Pá} 6{So} 7{Ne} other{?}}",
+ "@weekdayShort": {"placeholders": {"day": {}}},
+ "electionSearch": "Hledat",
+ "electionPlace": "Místo: {place}",
+ "@electionPlace": {"placeholders": {"place": {}}},
+ "electionDisclaimer": "Okna jsou podle tradičních pravidel nejvhodnější, nejsou zárukou výsledku. Okno s Měsícem bez aspektu se nikdy nenabízí.",
+ "electionFound": "Podle tradičních pravidel nejvhodnější okna",
+ "electionNonePassed": "V tomto období neprošlo žádné okno. Nejméně špatné je toto, s důvody proti:",
+ "electionHealthNote": "U zdravotních záměrů appka termín nehledá. Tradiční pravidla popisuje slovníček.",
+ "electionScore": "skóre {score}",
+ "@electionScore": {"placeholders": {"score": {"type": "int"}}},
+ "electionFor": "Pro",
+ "electionAgainst": "Proti",
+ "electionOpenChart": "Horoskop okamžiku",
+ "electionCalendar": "Do kalendáře",
+ "electionCalendarAll": "Všechna okna do kalendáře",
+ "electionEventTitle": "Termín: {intent}",
+ "@electionEventTitle": {"placeholders": {"intent": {}}},
+ "electionMomentName": "Okamžik {when}",
+ "@electionMomentName": {"placeholders": {"when": {}}},
+ "electionNeedsProfile": "Pro místo pobytu potřebuješ aspoň jeden profil.",
+ "electionRule": "{rule, select, moon_void{Měsíc bez aspektu} moon_waxing{Dorůstající Měsíc} moon_next_venus{Měsíc míří k Venuši} moon_next_jupiter{Měsíc míří k Jupiteru} venus_angle{Venuše u osy} jupiter_angle{Jupiter u osy} asc_ruler_dignified{Vládce ascendentu silný a přímý} hour_of_intent{Hodina planety záměru} intent_planet_dignified{Planeta záměru silná} benefic_in_intent_house{Dobroděj v domě záměru} personal_moon_harmonious{Měsíc ladí s tvým horoskopem} personal_calm_day{Klidný den v tvých tranzitech} moon_next_mars_hard{Měsíc míří do napětí s Marsem} moon_next_saturn_hard{Měsíc míří do napětí se Saturnem} mars_angle{Mars u osy} saturn_angle{Saturn u osy} intent_planet_retrograde{Planeta záměru retrográdní} intent_planet_fall{Planeta záměru v pádu} intent_planet_detriment{Planeta záměru ve zničení} asc_ruler_bad_house{Vládce ascendentu v 6., 8. nebo 12. domě} asc_ruler_retrograde{Vládce ascendentu retrográdní} eclipse{Blízko zatmění} via_combusta{Měsíc ve spálené cestě} malefic_in_intent_house{Zhoubce v domě záměru} personal_moon_tense{Měsíc v napětí s tvým horoskopem} personal_tension_high{Napjatý den v tvých tranzitech} other{?}}",
+ "@electionRule": {"placeholders": {"rule": {}}},
+ "electionIntentName": "{intent, select, relationship{Svatba, vztah} contract{Smlouva, podpis, jednání} launch{Zahájení podnikání, projektu} money{Peníze, nákup} move{Stěhování, nemovitost} travel{Cesta} study{Zkouška, studium} application{Žádost, pohovor} surgery{Operace, zákrok} other{?}}",
+ "@electionIntentName": {"placeholders": {"intent": {}}},
+ "electionVerdict": "{verdict, select, strong{Velmi vhodné} good{Vhodné} weak{Slabé} none{Nejméně špatné} health{Termín se nehledá} other{?}}",
+ "@electionVerdict": {"placeholders": {"verdict": {}}},
  "dayPercentile": "Napětí dne: víc než {p} % dnů života",
  "@dayPercentile": {
   "placeholders": {
@@ -698,5 +864,83 @@
    "first": {},
    "second": {}
   }
- }
+ },
+ "horaryMode": "Horární",
+ "horaryIntro": "Horoskop se staví na okamžik, kdy otázku potvrdíš. Ptej se na jednu konkrétní věc a na každou jen jednou.",
+ "horaryAbout": "Jak se horární otázka čte",
+ "horaryAboutHealth": "Zdraví, smrt a těhotenství v horární tradici",
+ "horaryQuestion": "Tvoje otázka",
+ "horaryQuestionHint": "Jen pro tebe. Appka text nečte, ukládá ho šifrovaně v telefonu.",
+ "horaryTopic": "Téma",
+ "horaryPerson": "O kom je otázka",
+ "horaryHouseUsed": "Dům věci: {house}.",
+ "@horaryHouseUsed": {"placeholders": {"house": {"type": "int"}}},
+ "horaryHouseShort": "{house}. dům",
+ "@horaryHouseShort": {"placeholders": {"house": {"type": "int"}}},
+ "horaryAsk": "Potvrdit otázku",
+ "horaryMomentNote": "Okamžikem otázky je chvíle potvrzení, místem tvé místo pobytu z profilu.",
+ "horaryNoVerdict": "U otázek na zdraví, smrt a těhotenství appka verdikt nedává. Tradiční pravidla popisuje slovníček.",
+ "horaryNoVerdictShort": "bez verdiktu",
+ "horaryRepeatTitle": "Stejné téma znovu",
+ "horaryRepeatBody": "Na stejné téma padla otázka {when}. Tradice druhý pokus do 24 hodin nebere; platí první horoskop.",
+ "@horaryRepeatBody": {"placeholders": {"when": {}}},
+ "horaryShowFirst": "Ukázat první horoskop",
+ "horaryMoment": "Okamžik otázky: {when}, {place}",
+ "@horaryMoment": {"placeholders": {"when": {}, "place": {}}},
+ "horaryVerdictLine": "Podle tradičních pravidel vychází: {verdict}",
+ "@horaryVerdictLine": {"placeholders": {"verdict": {}}},
+ "horaryVerdictName": "{verdict, select, yes{ano} yes_difficult{ano, ale s potížemi} no{ne} past{už je to pryč} nothing{nic z toho nebude} unclear{nelze říct} other{?}}",
+ "@horaryVerdictName": {"placeholders": {"verdict": {}}},
+ "horaryDisclaimer": "Výsledek čte horoskop podle pravidel 17. století. Není to předpověď ani rada.",
+ "horaryTestimony": "{rule, select, perfection_conjunction{Ukazatelé se spojí} perfection_sextile{Dokonání sextilem} perfection_trine{Dokonání trigonem} perfection_square{Dokonání kvadrátem} perfection_opposition{Dokonání opozicí} moon_perfection{Měsíc dojde k ukazateli věci} translation{Přenos světla} collection{Sběr světla} reception{Přijetí} mutual_reception{Vzájemné přijetí} querent_strong{Tvůj ukazatel je silný} quesited_strong{Ukazatel věci je silný} quesited_in_first{Ukazatel věci v domě tazatele} querent_in_quesited_house{Tvůj ukazatel v domě věci} natural_perfection{Přirozený ukazatel se připojí} separating{Ukazatelé se rozcházejí} no_aspect{Ukazatelé se nesetkají} prohibition{Zábrana} frustration{Zmaření} refranation{Ústup} combustion{Spálení ukazatele} hard_without_reception{Napětí bez přijetí} querent_weak{Tvůj ukazatel je slabý} quesited_weak{Ukazatel věci je slabý} querent_retrograde{Tvůj ukazatel couvá} quesited_retrograde{Ukazatel věci couvá} other{?}}",
+ "@horaryTestimony": {"placeholders": {"rule": {}}},
+ "horaryConsiderations": "Výhrady před výkladem",
+ "horaryConsiderationNote": "Výhrady výklad neblokují. Tradice jimi upozorňuje, že horoskop nemusí být k otázce způsobilý.",
+ "horaryConsiderationsNone": "Žádné výhrady.",
+ "horaryConsideration": "{rule, select, asc_early{Ascendent v prvních stupních znamení} asc_late{Ascendent v posledních stupních znamení} moon_void{Měsíc bez aspektu} via_combusta{Měsíc ve spálené cestě} saturn_1_7{Saturn v 1. nebo 7. domě} hour_ruler{Vládce hodiny nesouhlasí s ascendentem} other{?}}",
+ "@horaryConsideration": {"placeholders": {"rule": {}}},
+ "horaryTimingTitle": "Tradiční odhad času",
+ "horaryTimingLine": "Do dokonání zbývá {degrees}°, podle tradice tedy asi {unit}. Je to odhad, ne termín.",
+ "@horaryTimingLine": {"placeholders": {"degrees": {}, "unit": {}}},
+ "horaryTimingUnknown": "Pro toto postavení tradice jednotku času neurčuje.",
+ "horaryDays": "{count, plural, =1{1 den} few{{count} dny} other{{count} dní}}",
+ "@horaryDays": {"placeholders": {"count": {"type": "int"}}},
+ "horaryWeeks": "{count, plural, =1{1 týden} few{{count} týdny} other{{count} týdnů}}",
+ "@horaryWeeks": {"placeholders": {"count": {"type": "int"}}},
+ "horaryMonths": "{count, plural, =1{1 měsíc} few{{count} měsíce} other{{count} měsíců}}",
+ "@horaryMonths": {"placeholders": {"count": {"type": "int"}}},
+ "horaryYears": "{count, plural, =1{1 rok} few{{count} roky} other{{count} let}}",
+ "@horaryYears": {"placeholders": {"count": {"type": "int"}}},
+ "horaryLostTitle": "Ztracená věc",
+ "horaryLostLine": "Podle znamení ({sign}) směr {bySign}, podle {house}. domu směr {byHouse}.",
+ "@horaryLostLine": {"placeholders": {"bySign": {}, "sign": {}, "byHouse": {}, "house": {"type": "int"}}},
+ "horarySignificators": "Ukazatelé",
+ "horaryQuerent": "Tazatel ({house}. dům)",
+ "@horaryQuerent": {"placeholders": {"house": {"type": "int"}}},
+ "horaryCoQuerent": "Měsíc, druhý ukazatel tazatele",
+ "horaryQuesited": "Věc ({house}. dům)",
+ "@horaryQuesited": {"placeholders": {"house": {"type": "int"}}},
+ "horaryNatural": "Přirozený ukazatel věci",
+ "horaryStrength": "síla {total} (bytostná {essential}, nahodilá {accidental})",
+ "@horaryStrength": {"placeholders": {"total": {"type": "int"}, "essential": {"type": "int"}, "accidental": {"type": "int"}}},
+ "horaryLogTitle": "Deník otázek",
+ "horaryLogEmpty": "Zatím žádné otázky.",
+ "horaryFollowUp": "Jak to dopadlo?",
+ "horaryOutcomeName": "{outcome, select, yes{Ano} no{Ne} other{Jinak, nevím}}",
+ "@horaryOutcomeName": {"placeholders": {"outcome": {}}},
+ "horaryOutcomeSet": "Jak to dopadlo: {outcome}",
+ "@horaryOutcomeSet": {"placeholders": {"outcome": {}}},
+ "horaryHitRate": "Zásahy: {rate} % z {n} uzavřených otázek s odpovědí ano nebo ne. Kdyby appka vždycky řekla ano: {yes} %, vždycky ne: {no} %.",
+ "@horaryHitRate": {"placeholders": {"rate": {"type": "int"}, "n": {"type": "int"}, "yes": {"type": "int"}, "no": {"type": "int"}}},
+ "horaryHitRateTooFew": "Podíl zásahů appka ukáže od {min} uzavřených otázek s odpovědí ano nebo ne. Uzavřených otázek: {n}.",
+ "@horaryHitRateTooFew": {"placeholders": {"min": {"type": "int"}, "n": {"type": "int"}}},
+ "horaryPdf": "Export do PDF",
+ "horaryPdfTitle": "Export otázky do PDF",
+ "horaryPdfIncludeText": "Přidat do PDF i text otázky",
+ "horaryTopicName": "{topic, select, money{Peníze} property{Majetek} lost_object{Ztracená věc} siblings{Sourozenci} short_trip{Krátká cesta} message{Zpráva, dopis} home{Domov} real_estate{Nemovitost} parents{Rodiče} children{Děti} love{Láska} game{Hra, sázka} daily_work{Každodenní práce} employees{Podřízení} pet{Domácí zvíře} partner{Partner, partnerka} contract{Smlouva} dispute{Spor} opponent{Protivník} debts{Dluhy} inheritance{Dědictví} others_money{Cizí peníze} long_trip{Dálková cesta} study{Studium} law{Úřady a právo} career{Kariéra, místo} position{Postavení, funkce} superior{Nadřízený} friends{Přátelé} wish{Přání} hidden{Skryté věci} secret_enemies{Tajní nepřátelé} health{Zdraví, nemoc} death{Smrt} pregnancy{Těhotenství} other{?}}",
+ "@horaryTopicName": {"placeholders": {"topic": {}}},
+ "horaryPersonName": "{person, select, self{Já} sibling{Sourozenec} child{Dítě} partner{Partner, partnerka} father{Otec} mother{Matka} friend{Přítel, přítelkyně} other{?}}",
+ "@horaryPersonName": {"placeholders": {"person": {}}},
+ "horaryDirection": "{dir, select, east{východ} east_by_north{východ k severu} east_by_south{východ k jihu} west{západ} west_by_south{západ k jihu} west_by_north{západ k severu} north{sever} north_by_east{sever k východu} north_by_west{sever k západu} south{jih} south_by_east{jih k východu} south_by_west{jih k západu} northeast_by_east{severovýchod k východu} north_northeast{severoseverovýchod} northwest_by_north{severozápad k severu} west_northwest{západoseverozápad} southwest_by_south{jihozápad k jihu} south_southwest{jihojihozápad} southeast_by_south{jihovýchod k jihu} east_southeast{východojihovýchod} other{?}}",
+ "@horaryDirection": {"placeholders": {"dir": {}}}
 }

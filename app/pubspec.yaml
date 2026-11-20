@@ -39,6 +39,7 @@ flutter:
   assets:
     - assets/content/
     - assets/data/
+    - assets/rules/
     - assets/fonts/NotoSans-Regular.ttf
     - assets/fonts/NotoSans-Bold.ttf
   fonts:

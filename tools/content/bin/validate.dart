@@ -1,6 +1,7 @@
 // dart run astro_content:validate [--complete] [content/cs]
 import 'dart:io';
 
+import 'package:astro_content/rules.dart';
 import 'package:astro_content/schema.dart';
 import 'package:astro_content/validate.dart';
 
@@ -9,7 +10,12 @@ void main(List<String> args) {
   final dirArg = args.where((a) => !a.startsWith('--')).firstOrNull;
   final dir = Directory(dirArg ?? _defaultDir());
   final entries = loadEntries(dir);
-  final findings = validate(entries, loadTraits(dir), requireComplete: complete);
+  final findings = [
+    ...validate(entries, loadTraits(dir), requireComplete: complete),
+    // Rule files live next to the language folders (content/rules/).
+    if (File('${dir.parent.path}/rules/election.json').existsSync()) ...validateElectionRules(loadElectionRules(dir.parent)),
+    if (File('${dir.parent.path}/rules/horary.json').existsSync()) ...validateHoraryRules(loadHoraryRules(dir.parent)),
+  ];
   for (final f in findings) {
     print(f);
   }

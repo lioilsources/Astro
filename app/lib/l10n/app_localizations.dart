@@ -520,6 +520,222 @@ abstract class AppLocalizations {
   /// **'Text pro toto postavení zatím chybí.'**
   String get textMissing;
 
+  /// No description provided for @timeModeTransits.
+  ///
+  /// In cs, this message translates to:
+  /// **'Tranzity'**
+  String get timeModeTransits;
+
+  /// No description provided for @timeModeProgressions.
+  ///
+  /// In cs, this message translates to:
+  /// **'Progrese'**
+  String get timeModeProgressions;
+
+  /// No description provided for @timeModeSolar.
+  ///
+  /// In cs, this message translates to:
+  /// **'Solár'**
+  String get timeModeSolar;
+
+  /// No description provided for @progressionsAge.
+  ///
+  /// In cs, this message translates to:
+  /// **'Věk {age} let · progresní den {date}'**
+  String progressionsAge(Object age, Object date);
+
+  /// No description provided for @progressedMoon.
+  ///
+  /// In cs, this message translates to:
+  /// **'Progresní Měsíc'**
+  String get progressedMoon;
+
+  /// No description provided for @progressedSun.
+  ///
+  /// In cs, this message translates to:
+  /// **'Progresní Slunce'**
+  String get progressedSun;
+
+  /// No description provided for @progressedPhase.
+  ///
+  /// In cs, this message translates to:
+  /// **'Progresní fáze Měsíce'**
+  String get progressedPhase;
+
+  /// No description provided for @progressedAngles.
+  ///
+  /// In cs, this message translates to:
+  /// **'Progresní osy (sluneční oblouk {arc})'**
+  String progressedAngles(Object arc);
+
+  /// No description provided for @progressedAspects.
+  ///
+  /// In cs, this message translates to:
+  /// **'Progresní aspekty k natálu (orb 1°)'**
+  String get progressedAspects;
+
+  /// No description provided for @progressedAspectsNone.
+  ///
+  /// In cs, this message translates to:
+  /// **'Žádná progresní planeta není do 1° od aspektu k natální poloze.'**
+  String get progressedAspectsNone;
+
+  /// No description provided for @progressedAspectTitle.
+  ///
+  /// In cs, this message translates to:
+  /// **'Progresní {planet} {aspect} natální {target}'**
+  String progressedAspectTitle(Object planet, Object aspect, Object target);
+
+  /// No description provided for @progressedApplying.
+  ///
+  /// In cs, this message translates to:
+  /// **'{orb} · sbíhá se'**
+  String progressedApplying(Object orb);
+
+  /// No description provided for @progressedSeparating.
+  ///
+  /// In cs, this message translates to:
+  /// **'{orb} · rozbíhá se'**
+  String progressedSeparating(Object orb);
+
+  /// No description provided for @progressedNoTime.
+  ///
+  /// In cs, this message translates to:
+  /// **'Bez času narození je progresní Měsíc přesný jen asi na ±6° a osy ani domy se nepočítají.'**
+  String get progressedNoTime;
+
+  /// No description provided for @lifeTimeline.
+  ///
+  /// In cs, this message translates to:
+  /// **'Časová osa života'**
+  String get lifeTimeline;
+
+  /// No description provided for @milestoneMoonSign.
+  ///
+  /// In cs, this message translates to:
+  /// **'Progresní Měsíc vstupuje do znamení {sign}'**
+  String milestoneMoonSign(Object sign);
+
+  /// No description provided for @milestoneMoonHouse.
+  ///
+  /// In cs, this message translates to:
+  /// **'Progresní Měsíc vstupuje do {house}. domu'**
+  String milestoneMoonHouse(int house);
+
+  /// No description provided for @milestoneSunSign.
+  ///
+  /// In cs, this message translates to:
+  /// **'Progresní Slunce vstupuje do znamení {sign}'**
+  String milestoneSunSign(Object sign);
+
+  /// No description provided for @milestoneLunarPhase.
+  ///
+  /// In cs, this message translates to:
+  /// **'Progresní fáze: {phase}'**
+  String milestoneLunarPhase(Object phase);
+
+  /// No description provided for @milestoneSolarReturn.
+  ///
+  /// In cs, this message translates to:
+  /// **'Solár {year}'**
+  String milestoneSolarReturn(int year);
+
+  /// No description provided for @milestoneAge.
+  ///
+  /// In cs, this message translates to:
+  /// **'{age} let'**
+  String milestoneAge(Object age);
+
+  /// No description provided for @timelineMoonHouses.
+  ///
+  /// In cs, this message translates to:
+  /// **'Domy progresního Měsíce'**
+  String get timelineMoonHouses;
+
+  /// No description provided for @timelineSolarReturns.
+  ///
+  /// In cs, this message translates to:
+  /// **'Soláry'**
+  String get timelineSolarReturns;
+
+  /// No description provided for @solarReturnTitle.
+  ///
+  /// In cs, this message translates to:
+  /// **'Solár {year}'**
+  String solarReturnTitle(int year);
+
+  /// No description provided for @solarReturnMoment.
+  ///
+  /// In cs, this message translates to:
+  /// **'Slunce zpět na {lon}: {date}'**
+  String solarReturnMoment(Object lon, Object date);
+
+  /// No description provided for @solarPlaceResidence.
+  ///
+  /// In cs, this message translates to:
+  /// **'Bydliště'**
+  String get solarPlaceResidence;
+
+  /// No description provided for @solarPlaceBirth.
+  ///
+  /// In cs, this message translates to:
+  /// **'Místo narození'**
+  String get solarPlaceBirth;
+
+  /// No description provided for @solarPlace.
+  ///
+  /// In cs, this message translates to:
+  /// **'Místo: {place}'**
+  String solarPlace(Object place);
+
+  /// No description provided for @solarAsc.
+  ///
+  /// In cs, this message translates to:
+  /// **'Ascendent soláru'**
+  String get solarAsc;
+
+  /// No description provided for @solarSunHouse.
+  ///
+  /// In cs, this message translates to:
+  /// **'Slunce soláru'**
+  String get solarSunHouse;
+
+  /// No description provided for @solarOnAngles.
+  ///
+  /// In cs, this message translates to:
+  /// **'Planety na osách soláru (orb 5°)'**
+  String get solarOnAngles;
+
+  /// No description provided for @solarNoAngles.
+  ///
+  /// In cs, this message translates to:
+  /// **'Žádná planeta neleží do 5° od osy soláru.'**
+  String get solarNoAngles;
+
+  /// No description provided for @solarPlanets.
+  ///
+  /// In cs, this message translates to:
+  /// **'Planety soláru'**
+  String get solarPlanets;
+
+  /// No description provided for @solarNoTime.
+  ///
+  /// In cs, this message translates to:
+  /// **'Bez času narození je natální Slunce známé jen asi na ±0,5°, okamžik soláru proto jen asi na ±12 hodin.'**
+  String get solarNoTime;
+
+  /// No description provided for @returnAngleName.
+  ///
+  /// In cs, this message translates to:
+  /// **'{angle, select, asc{ascendentu} ic{IC} dsc{descendentu} mc{MC} other{?}}'**
+  String returnAngleName(String angle);
+
+  /// No description provided for @planetOnAngle.
+  ///
+  /// In cs, this message translates to:
+  /// **'{planet} na {angle}'**
+  String planetOnAngle(Object planet, Object angle);
+
   /// No description provided for @shadowTitle.
   ///
   /// In cs, this message translates to:
@@ -927,6 +1143,180 @@ abstract class AppLocalizations {
   /// In cs, this message translates to:
   /// **'Vyber profil'**
   String get pickProfile;
+
+  /// No description provided for @electionTitle.
+  ///
+  /// In cs, this message translates to:
+  /// **'Najdi termín'**
+  String get electionTitle;
+
+  /// No description provided for @electionIntent.
+  ///
+  /// In cs, this message translates to:
+  /// **'Záměr'**
+  String get electionIntent;
+
+  /// No description provided for @electionAboutIntent.
+  ///
+  /// In cs, this message translates to:
+  /// **'O záměru'**
+  String get electionAboutIntent;
+
+  /// No description provided for @electionProfile.
+  ///
+  /// In cs, this message translates to:
+  /// **'Profil (místo pobytu)'**
+  String get electionProfile;
+
+  /// No description provided for @electionPersonal.
+  ///
+  /// In cs, this message translates to:
+  /// **'Zahrnout můj horoskop'**
+  String get electionPersonal;
+
+  /// No description provided for @electionPersonalHint.
+  ///
+  /// In cs, this message translates to:
+  /// **'Přidá napětí tranzitů dne a aspekty Měsíce k tvému Slunci, Měsíci a ascendentu.'**
+  String get electionPersonalHint;
+
+  /// No description provided for @electionStart.
+  ///
+  /// In cs, this message translates to:
+  /// **'Od'**
+  String get electionStart;
+
+  /// No description provided for @electionDays.
+  ///
+  /// In cs, this message translates to:
+  /// **'Období: {days} dní'**
+  String electionDays(int days);
+
+  /// No description provided for @electionHours.
+  ///
+  /// In cs, this message translates to:
+  /// **'Hodiny dne: {from}–{to}'**
+  String electionHours(int from, int to);
+
+  /// No description provided for @electionWeekdays.
+  ///
+  /// In cs, this message translates to:
+  /// **'Dny v týdnu'**
+  String get electionWeekdays;
+
+  /// No description provided for @weekdayShort.
+  ///
+  /// In cs, this message translates to:
+  /// **'{day, select, 1{Po} 2{Út} 3{St} 4{Čt} 5{Pá} 6{So} 7{Ne} other{?}}'**
+  String weekdayShort(String day);
+
+  /// No description provided for @electionSearch.
+  ///
+  /// In cs, this message translates to:
+  /// **'Hledat'**
+  String get electionSearch;
+
+  /// No description provided for @electionPlace.
+  ///
+  /// In cs, this message translates to:
+  /// **'Místo: {place}'**
+  String electionPlace(Object place);
+
+  /// No description provided for @electionDisclaimer.
+  ///
+  /// In cs, this message translates to:
+  /// **'Okna jsou podle tradičních pravidel nejvhodnější, nejsou zárukou výsledku. Okno s Měsícem bez aspektu se nikdy nenabízí.'**
+  String get electionDisclaimer;
+
+  /// No description provided for @electionFound.
+  ///
+  /// In cs, this message translates to:
+  /// **'Podle tradičních pravidel nejvhodnější okna'**
+  String get electionFound;
+
+  /// No description provided for @electionNonePassed.
+  ///
+  /// In cs, this message translates to:
+  /// **'V tomto období neprošlo žádné okno. Nejméně špatné je toto, s důvody proti:'**
+  String get electionNonePassed;
+
+  /// No description provided for @electionHealthNote.
+  ///
+  /// In cs, this message translates to:
+  /// **'U zdravotních záměrů appka termín nehledá. Tradiční pravidla popisuje slovníček.'**
+  String get electionHealthNote;
+
+  /// No description provided for @electionScore.
+  ///
+  /// In cs, this message translates to:
+  /// **'skóre {score}'**
+  String electionScore(int score);
+
+  /// No description provided for @electionFor.
+  ///
+  /// In cs, this message translates to:
+  /// **'Pro'**
+  String get electionFor;
+
+  /// No description provided for @electionAgainst.
+  ///
+  /// In cs, this message translates to:
+  /// **'Proti'**
+  String get electionAgainst;
+
+  /// No description provided for @electionOpenChart.
+  ///
+  /// In cs, this message translates to:
+  /// **'Horoskop okamžiku'**
+  String get electionOpenChart;
+
+  /// No description provided for @electionCalendar.
+  ///
+  /// In cs, this message translates to:
+  /// **'Do kalendáře'**
+  String get electionCalendar;
+
+  /// No description provided for @electionCalendarAll.
+  ///
+  /// In cs, this message translates to:
+  /// **'Všechna okna do kalendáře'**
+  String get electionCalendarAll;
+
+  /// No description provided for @electionEventTitle.
+  ///
+  /// In cs, this message translates to:
+  /// **'Termín: {intent}'**
+  String electionEventTitle(Object intent);
+
+  /// No description provided for @electionMomentName.
+  ///
+  /// In cs, this message translates to:
+  /// **'Okamžik {when}'**
+  String electionMomentName(Object when);
+
+  /// No description provided for @electionNeedsProfile.
+  ///
+  /// In cs, this message translates to:
+  /// **'Pro místo pobytu potřebuješ aspoň jeden profil.'**
+  String get electionNeedsProfile;
+
+  /// No description provided for @electionRule.
+  ///
+  /// In cs, this message translates to:
+  /// **'{rule, select, moon_void{Měsíc bez aspektu} moon_waxing{Dorůstající Měsíc} moon_next_venus{Měsíc míří k Venuši} moon_next_jupiter{Měsíc míří k Jupiteru} venus_angle{Venuše u osy} jupiter_angle{Jupiter u osy} asc_ruler_dignified{Vládce ascendentu silný a přímý} hour_of_intent{Hodina planety záměru} intent_planet_dignified{Planeta záměru silná} benefic_in_intent_house{Dobroděj v domě záměru} personal_moon_harmonious{Měsíc ladí s tvým horoskopem} personal_calm_day{Klidný den v tvých tranzitech} moon_next_mars_hard{Měsíc míří do napětí s Marsem} moon_next_saturn_hard{Měsíc míří do napětí se Saturnem} mars_angle{Mars u osy} saturn_angle{Saturn u osy} intent_planet_retrograde{Planeta záměru retrográdní} intent_planet_fall{Planeta záměru v pádu} intent_planet_detriment{Planeta záměru ve zničení} asc_ruler_bad_house{Vládce ascendentu v 6., 8. nebo 12. domě} asc_ruler_retrograde{Vládce ascendentu retrográdní} eclipse{Blízko zatmění} via_combusta{Měsíc ve spálené cestě} malefic_in_intent_house{Zhoubce v domě záměru} personal_moon_tense{Měsíc v napětí s tvým horoskopem} personal_tension_high{Napjatý den v tvých tranzitech} other{?}}'**
+  String electionRule(String rule);
+
+  /// No description provided for @electionIntentName.
+  ///
+  /// In cs, this message translates to:
+  /// **'{intent, select, relationship{Svatba, vztah} contract{Smlouva, podpis, jednání} launch{Zahájení podnikání, projektu} money{Peníze, nákup} move{Stěhování, nemovitost} travel{Cesta} study{Zkouška, studium} application{Žádost, pohovor} surgery{Operace, zákrok} other{?}}'**
+  String electionIntentName(String intent);
+
+  /// No description provided for @electionVerdict.
+  ///
+  /// In cs, this message translates to:
+  /// **'{verdict, select, strong{Velmi vhodné} good{Vhodné} weak{Slabé} none{Nejméně špatné} health{Termín se nehledá} other{?}}'**
+  String electionVerdict(String verdict);
 
   /// No description provided for @dayPercentile.
   ///
@@ -1744,6 +2134,330 @@ abstract class AppLocalizations {
   /// In cs, this message translates to:
   /// **'{first} a {second}'**
   String synastryPairTitle(Object first, Object second);
+
+  /// No description provided for @horaryMode.
+  ///
+  /// In cs, this message translates to:
+  /// **'Horární'**
+  String get horaryMode;
+
+  /// No description provided for @horaryIntro.
+  ///
+  /// In cs, this message translates to:
+  /// **'Horoskop se staví na okamžik, kdy otázku potvrdíš. Ptej se na jednu konkrétní věc a na každou jen jednou.'**
+  String get horaryIntro;
+
+  /// No description provided for @horaryAbout.
+  ///
+  /// In cs, this message translates to:
+  /// **'Jak se horární otázka čte'**
+  String get horaryAbout;
+
+  /// No description provided for @horaryAboutHealth.
+  ///
+  /// In cs, this message translates to:
+  /// **'Zdraví, smrt a těhotenství v horární tradici'**
+  String get horaryAboutHealth;
+
+  /// No description provided for @horaryQuestion.
+  ///
+  /// In cs, this message translates to:
+  /// **'Tvoje otázka'**
+  String get horaryQuestion;
+
+  /// No description provided for @horaryQuestionHint.
+  ///
+  /// In cs, this message translates to:
+  /// **'Jen pro tebe. Appka text nečte, ukládá ho šifrovaně v telefonu.'**
+  String get horaryQuestionHint;
+
+  /// No description provided for @horaryTopic.
+  ///
+  /// In cs, this message translates to:
+  /// **'Téma'**
+  String get horaryTopic;
+
+  /// No description provided for @horaryPerson.
+  ///
+  /// In cs, this message translates to:
+  /// **'O kom je otázka'**
+  String get horaryPerson;
+
+  /// No description provided for @horaryHouseUsed.
+  ///
+  /// In cs, this message translates to:
+  /// **'Dům věci: {house}.'**
+  String horaryHouseUsed(int house);
+
+  /// No description provided for @horaryHouseShort.
+  ///
+  /// In cs, this message translates to:
+  /// **'{house}. dům'**
+  String horaryHouseShort(int house);
+
+  /// No description provided for @horaryAsk.
+  ///
+  /// In cs, this message translates to:
+  /// **'Potvrdit otázku'**
+  String get horaryAsk;
+
+  /// No description provided for @horaryMomentNote.
+  ///
+  /// In cs, this message translates to:
+  /// **'Okamžikem otázky je chvíle potvrzení, místem tvé místo pobytu z profilu.'**
+  String get horaryMomentNote;
+
+  /// No description provided for @horaryNoVerdict.
+  ///
+  /// In cs, this message translates to:
+  /// **'U otázek na zdraví, smrt a těhotenství appka verdikt nedává. Tradiční pravidla popisuje slovníček.'**
+  String get horaryNoVerdict;
+
+  /// No description provided for @horaryNoVerdictShort.
+  ///
+  /// In cs, this message translates to:
+  /// **'bez verdiktu'**
+  String get horaryNoVerdictShort;
+
+  /// No description provided for @horaryRepeatTitle.
+  ///
+  /// In cs, this message translates to:
+  /// **'Stejné téma znovu'**
+  String get horaryRepeatTitle;
+
+  /// No description provided for @horaryRepeatBody.
+  ///
+  /// In cs, this message translates to:
+  /// **'Na stejné téma padla otázka {when}. Tradice druhý pokus do 24 hodin nebere; platí první horoskop.'**
+  String horaryRepeatBody(Object when);
+
+  /// No description provided for @horaryShowFirst.
+  ///
+  /// In cs, this message translates to:
+  /// **'Ukázat první horoskop'**
+  String get horaryShowFirst;
+
+  /// No description provided for @horaryMoment.
+  ///
+  /// In cs, this message translates to:
+  /// **'Okamžik otázky: {when}, {place}'**
+  String horaryMoment(Object when, Object place);
+
+  /// No description provided for @horaryVerdictLine.
+  ///
+  /// In cs, this message translates to:
+  /// **'Podle tradičních pravidel vychází: {verdict}'**
+  String horaryVerdictLine(Object verdict);
+
+  /// No description provided for @horaryVerdictName.
+  ///
+  /// In cs, this message translates to:
+  /// **'{verdict, select, yes{ano} yes_difficult{ano, ale s potížemi} no{ne} past{už je to pryč} nothing{nic z toho nebude} unclear{nelze říct} other{?}}'**
+  String horaryVerdictName(String verdict);
+
+  /// No description provided for @horaryDisclaimer.
+  ///
+  /// In cs, this message translates to:
+  /// **'Výsledek čte horoskop podle pravidel 17. století. Není to předpověď ani rada.'**
+  String get horaryDisclaimer;
+
+  /// No description provided for @horaryTestimony.
+  ///
+  /// In cs, this message translates to:
+  /// **'{rule, select, perfection_conjunction{Ukazatelé se spojí} perfection_sextile{Dokonání sextilem} perfection_trine{Dokonání trigonem} perfection_square{Dokonání kvadrátem} perfection_opposition{Dokonání opozicí} moon_perfection{Měsíc dojde k ukazateli věci} translation{Přenos světla} collection{Sběr světla} reception{Přijetí} mutual_reception{Vzájemné přijetí} querent_strong{Tvůj ukazatel je silný} quesited_strong{Ukazatel věci je silný} quesited_in_first{Ukazatel věci v domě tazatele} querent_in_quesited_house{Tvůj ukazatel v domě věci} natural_perfection{Přirozený ukazatel se připojí} separating{Ukazatelé se rozcházejí} no_aspect{Ukazatelé se nesetkají} prohibition{Zábrana} frustration{Zmaření} refranation{Ústup} combustion{Spálení ukazatele} hard_without_reception{Napětí bez přijetí} querent_weak{Tvůj ukazatel je slabý} quesited_weak{Ukazatel věci je slabý} querent_retrograde{Tvůj ukazatel couvá} quesited_retrograde{Ukazatel věci couvá} other{?}}'**
+  String horaryTestimony(String rule);
+
+  /// No description provided for @horaryConsiderations.
+  ///
+  /// In cs, this message translates to:
+  /// **'Výhrady před výkladem'**
+  String get horaryConsiderations;
+
+  /// No description provided for @horaryConsiderationNote.
+  ///
+  /// In cs, this message translates to:
+  /// **'Výhrady výklad neblokují. Tradice jimi upozorňuje, že horoskop nemusí být k otázce způsobilý.'**
+  String get horaryConsiderationNote;
+
+  /// No description provided for @horaryConsiderationsNone.
+  ///
+  /// In cs, this message translates to:
+  /// **'Žádné výhrady.'**
+  String get horaryConsiderationsNone;
+
+  /// No description provided for @horaryConsideration.
+  ///
+  /// In cs, this message translates to:
+  /// **'{rule, select, asc_early{Ascendent v prvních stupních znamení} asc_late{Ascendent v posledních stupních znamení} moon_void{Měsíc bez aspektu} via_combusta{Měsíc ve spálené cestě} saturn_1_7{Saturn v 1. nebo 7. domě} hour_ruler{Vládce hodiny nesouhlasí s ascendentem} other{?}}'**
+  String horaryConsideration(String rule);
+
+  /// No description provided for @horaryTimingTitle.
+  ///
+  /// In cs, this message translates to:
+  /// **'Tradiční odhad času'**
+  String get horaryTimingTitle;
+
+  /// No description provided for @horaryTimingLine.
+  ///
+  /// In cs, this message translates to:
+  /// **'Do dokonání zbývá {degrees}°, podle tradice tedy asi {unit}. Je to odhad, ne termín.'**
+  String horaryTimingLine(Object degrees, Object unit);
+
+  /// No description provided for @horaryTimingUnknown.
+  ///
+  /// In cs, this message translates to:
+  /// **'Pro toto postavení tradice jednotku času neurčuje.'**
+  String get horaryTimingUnknown;
+
+  /// No description provided for @horaryDays.
+  ///
+  /// In cs, this message translates to:
+  /// **'{count, plural, =1{1 den} few{{count} dny} other{{count} dní}}'**
+  String horaryDays(int count);
+
+  /// No description provided for @horaryWeeks.
+  ///
+  /// In cs, this message translates to:
+  /// **'{count, plural, =1{1 týden} few{{count} týdny} other{{count} týdnů}}'**
+  String horaryWeeks(int count);
+
+  /// No description provided for @horaryMonths.
+  ///
+  /// In cs, this message translates to:
+  /// **'{count, plural, =1{1 měsíc} few{{count} měsíce} other{{count} měsíců}}'**
+  String horaryMonths(int count);
+
+  /// No description provided for @horaryYears.
+  ///
+  /// In cs, this message translates to:
+  /// **'{count, plural, =1{1 rok} few{{count} roky} other{{count} let}}'**
+  String horaryYears(int count);
+
+  /// No description provided for @horaryLostTitle.
+  ///
+  /// In cs, this message translates to:
+  /// **'Ztracená věc'**
+  String get horaryLostTitle;
+
+  /// No description provided for @horaryLostLine.
+  ///
+  /// In cs, this message translates to:
+  /// **'Podle znamení ({sign}) směr {bySign}, podle {house}. domu směr {byHouse}.'**
+  String horaryLostLine(Object bySign, Object sign, Object byHouse, int house);
+
+  /// No description provided for @horarySignificators.
+  ///
+  /// In cs, this message translates to:
+  /// **'Ukazatelé'**
+  String get horarySignificators;
+
+  /// No description provided for @horaryQuerent.
+  ///
+  /// In cs, this message translates to:
+  /// **'Tazatel ({house}. dům)'**
+  String horaryQuerent(int house);
+
+  /// No description provided for @horaryCoQuerent.
+  ///
+  /// In cs, this message translates to:
+  /// **'Měsíc, druhý ukazatel tazatele'**
+  String get horaryCoQuerent;
+
+  /// No description provided for @horaryQuesited.
+  ///
+  /// In cs, this message translates to:
+  /// **'Věc ({house}. dům)'**
+  String horaryQuesited(int house);
+
+  /// No description provided for @horaryNatural.
+  ///
+  /// In cs, this message translates to:
+  /// **'Přirozený ukazatel věci'**
+  String get horaryNatural;
+
+  /// No description provided for @horaryStrength.
+  ///
+  /// In cs, this message translates to:
+  /// **'síla {total} (bytostná {essential}, nahodilá {accidental})'**
+  String horaryStrength(int total, int essential, int accidental);
+
+  /// No description provided for @horaryLogTitle.
+  ///
+  /// In cs, this message translates to:
+  /// **'Deník otázek'**
+  String get horaryLogTitle;
+
+  /// No description provided for @horaryLogEmpty.
+  ///
+  /// In cs, this message translates to:
+  /// **'Zatím žádné otázky.'**
+  String get horaryLogEmpty;
+
+  /// No description provided for @horaryFollowUp.
+  ///
+  /// In cs, this message translates to:
+  /// **'Jak to dopadlo?'**
+  String get horaryFollowUp;
+
+  /// No description provided for @horaryOutcomeName.
+  ///
+  /// In cs, this message translates to:
+  /// **'{outcome, select, yes{Ano} no{Ne} other{Jinak, nevím}}'**
+  String horaryOutcomeName(String outcome);
+
+  /// No description provided for @horaryOutcomeSet.
+  ///
+  /// In cs, this message translates to:
+  /// **'Jak to dopadlo: {outcome}'**
+  String horaryOutcomeSet(Object outcome);
+
+  /// No description provided for @horaryHitRate.
+  ///
+  /// In cs, this message translates to:
+  /// **'Zásahy: {rate} % z {n} uzavřených otázek s odpovědí ano nebo ne. Kdyby appka vždycky řekla ano: {yes} %, vždycky ne: {no} %.'**
+  String horaryHitRate(int rate, int n, int yes, int no);
+
+  /// No description provided for @horaryHitRateTooFew.
+  ///
+  /// In cs, this message translates to:
+  /// **'Podíl zásahů appka ukáže od {min} uzavřených otázek s odpovědí ano nebo ne. Uzavřených otázek: {n}.'**
+  String horaryHitRateTooFew(int min, int n);
+
+  /// No description provided for @horaryPdf.
+  ///
+  /// In cs, this message translates to:
+  /// **'Export do PDF'**
+  String get horaryPdf;
+
+  /// No description provided for @horaryPdfTitle.
+  ///
+  /// In cs, this message translates to:
+  /// **'Export otázky do PDF'**
+  String get horaryPdfTitle;
+
+  /// No description provided for @horaryPdfIncludeText.
+  ///
+  /// In cs, this message translates to:
+  /// **'Přidat do PDF i text otázky'**
+  String get horaryPdfIncludeText;
+
+  /// No description provided for @horaryTopicName.
+  ///
+  /// In cs, this message translates to:
+  /// **'{topic, select, money{Peníze} property{Majetek} lost_object{Ztracená věc} siblings{Sourozenci} short_trip{Krátká cesta} message{Zpráva, dopis} home{Domov} real_estate{Nemovitost} parents{Rodiče} children{Děti} love{Láska} game{Hra, sázka} daily_work{Každodenní práce} employees{Podřízení} pet{Domácí zvíře} partner{Partner, partnerka} contract{Smlouva} dispute{Spor} opponent{Protivník} debts{Dluhy} inheritance{Dědictví} others_money{Cizí peníze} long_trip{Dálková cesta} study{Studium} law{Úřady a právo} career{Kariéra, místo} position{Postavení, funkce} superior{Nadřízený} friends{Přátelé} wish{Přání} hidden{Skryté věci} secret_enemies{Tajní nepřátelé} health{Zdraví, nemoc} death{Smrt} pregnancy{Těhotenství} other{?}}'**
+  String horaryTopicName(String topic);
+
+  /// No description provided for @horaryPersonName.
+  ///
+  /// In cs, this message translates to:
+  /// **'{person, select, self{Já} sibling{Sourozenec} child{Dítě} partner{Partner, partnerka} father{Otec} mother{Matka} friend{Přítel, přítelkyně} other{?}}'**
+  String horaryPersonName(String person);
+
+  /// No description provided for @horaryDirection.
+  ///
+  /// In cs, this message translates to:
+  /// **'{dir, select, east{východ} east_by_north{východ k severu} east_by_south{východ k jihu} west{západ} west_by_south{západ k jihu} west_by_north{západ k severu} north{sever} north_by_east{sever k východu} north_by_west{sever k západu} south{jih} south_by_east{jih k východu} south_by_west{jih k západu} northeast_by_east{severovýchod k východu} north_northeast{severoseverovýchod} northwest_by_north{severozápad k severu} west_northwest{západoseverozápad} southwest_by_south{jihozápad k jihu} south_southwest{jihojihozápad} southeast_by_south{jihovýchod k jihu} east_southeast{východojihovýchod} other{?}}'**
+  String horaryDirection(String dir);
 }
 
 class _AppLocalizationsDelegate

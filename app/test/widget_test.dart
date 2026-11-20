@@ -5,6 +5,7 @@ import 'package:astro/state.dart';
 import 'package:astro/ui/chart/chart_screen.dart';
 import 'package:astro/ui/chart/transits_tab.dart';
 import 'package:astro/ui/chart/tables_tab.dart';
+import 'package:astro/ui/chart/time_tab.dart';
 import 'package:astro_core/astro_core.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
@@ -109,6 +110,45 @@ void main() {
     await t.tap(row);
     await t.pumpAndSettle();
     expect(find.text('Uran na vrcholu T-kvadrátu'), findsOneWidget);
+    expect(find.text('Text pro toto postavení zatím chybí.'), findsWidgets);
+  });
+
+  testWidgets('R5: switch to progressions with life timeline, then solar return with place toggle', (t) async {
+    t.view.physicalSize = const Size(1170, 2532);
+    t.view.devicePixelRatio = 3;
+    addTearDown(t.view.reset);
+    final residence = profile.copyWith(residence: const GeoLocation(lat: 40.71, lon: -74.01, name: 'New York', zone: 'America/New_York'));
+    await t.pumpWidget(wrap(Scaffold(body: TimeTab(Chart.compute(profile.birth), residence))));
+    Future<void> settleIsolates() async {
+      for (var i = 0; i < 240 && find.text('Počítám…').evaluate().isNotEmpty; i++) {
+        await t.runAsync(() => Future<void>.delayed(const Duration(milliseconds: 500)));
+        await t.pump();
+      }
+      expect(find.text('Počítám…'), findsNothing);
+    }
+
+    await t.tap(find.text('Progrese'));
+    await t.pump();
+    await settleIsolates();
+    expect(find.textContaining('Progresní Měsíc: '), findsWidgets);
+    expect(find.textContaining('Progresní fáze Měsíce: '), findsOneWidget);
+    final timeline = find.text('Časová osa života');
+    await t.dragUntilVisible(timeline, find.byType(ListView).last, const Offset(0, -300));
+    expect(timeline, findsOneWidget);
+    final sr = find.text('Solár 2001');
+    await t.dragUntilVisible(sr, find.byType(ListView).last, const Offset(0, -300));
+    await t.tap(sr);
+    await t.pump();
+    await settleIsolates();
+    expect(find.text('Solár 2001'), findsOneWidget);
+    expect(find.textContaining('Místo: New York'), findsOneWidget);
+    expect(find.textContaining('Ascendent soláru: '), findsOneWidget);
+    await t.tap(find.text('Místo narození'));
+    await t.pump();
+    await settleIsolates();
+    expect(find.textContaining('Místo: Praha'), findsOneWidget);
+    await t.tap(find.textContaining('Ascendent soláru: '));
+    await t.pumpAndSettle();
     expect(find.text('Text pro toto postavení zatím chybí.'), findsWidgets);
   });
 }
