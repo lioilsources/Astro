@@ -37,6 +37,42 @@ u moderních je volba sporná, zvoleno: Uran ve Štíru, Neptun v Raku, Pluto ve
 Aspekt se sbíhá (`applying`), když se odchylka od přesného úhlu zmenšuje.
 Úhly mají v nativním horoskopu rychlost 0.
 
+## Obrazce aspektů (`findPatterns`, plán 10.1)
+
+Hledají se jen mezi deseti planetami (bez uzlu, ASC a MC). Obrazec platí, když
+každá jeho strana leží v orbu z tabulky výše; jiné orby se nezavádějí.
+
+| Obrazec | Strany |
+|---|---|
+| velký trigon | 3 trigony |
+| T-kvadrát | opozice + 2 kvadráty k vrcholu |
+| velký kříž | 2 opozice + 4 kvadráty |
+| jod | sextil + 2 kvinkunxy (150°, orb 2°) k vrcholu |
+| drak | velký trigon + planeta v opozici k jednomu rohu a v sextilu ke dvěma zbylým |
+| kolébka | opozice + 3 sextily + 2 trigony |
+| mystický obdélník | 2 opozice + 2 sextily + 2 trigony |
+
+- Kvinkunx se počítá jen pro jod a v tabulce aspektů se neukazuje.
+- Konjunkce v rohu: obrazec se najde dvakrát a sloučí se do jednoho, který vypíše
+  obě planety (u T-kvadrátu a jodu případně dva vrcholy, každý se svým textem).
+- Velký kříž pohltí své čtyři T-kvadráty. Velký trigon uvnitř draka zůstává.
+- Živel velkého trigonu a draka, kvalita T-kvadrátu a kříže: většina znamení planet
+  obrazce (u obrazce přes hranici znamení), při remíze znamení vrcholu nebo první planety.
+- Stellium se tu nehledá, pokrývá ho `emphasis/…`.
+
+Rovnováhy (prahy zvolené tak, aby se každá objevila asi u pětiny horoskopů):
+
+| Rovnováha | Pravidlo | Výskyt (6000 horoskopů 1900–2000) |
+|---|---|---|
+| přemíra kvality | 6 a více z 10 planet | 21 % |
+| nedostatek kvality | nejvýš 1 planeta | 28 % |
+| důraz na polokouli | 9 a více z 10 planet | 19 % |
+| planeta bez aspektu | žádný hlavní aspekt k jiné planetě (kvinkunx se nepočítá) | 36 % |
+
+Polokoule se určují podle úhlů, ne podle systému domů: nad obzorem leží úsek od
+descendentu přes MC k ascendentu, východní polokoule od MC přes ascendent k IC.
+Bez času narození se polokoule nepočítají.
+
 ## Tranzity (`TransitEngine`)
 
 Hledání: polohy tranzitující planety se spočítají po krocích (Měsíc 1 h; Slunce,

@@ -4,6 +4,7 @@ import 'package:astro/l10n/app_localizations.dart';
 import 'package:astro/state.dart';
 import 'package:astro/ui/chart/chart_screen.dart';
 import 'package:astro/ui/chart/transits_tab.dart';
+import 'package:astro/ui/chart/tables_tab.dart';
 import 'package:astro_core/astro_core.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
@@ -86,5 +87,28 @@ void main() {
     await t.tap(find.text('Den po hodinách'));
     await t.pumpAndSettle();
     expect(find.textContaining('Hodina '), findsWidgets);
+  });
+
+  testWidgets('patterns: chip highlights the wheel, table row opens the sheet', (t) async {
+    t.view.physicalSize = const Size(1170, 2532);
+    t.view.devicePixelRatio = 3;
+    addTearDown(t.view.reset);
+    await t.pumpWidget(wrap(const ChartScreen(profile)));
+    await t.pumpAndSettle();
+    // 2000-01-01 12:00 UT has a fixed T-square Moon–Saturn with Uranus at the apex.
+    final chip = find.widgetWithText(ChoiceChip, 'T-kvadrát (pevný)');
+    expect(chip, findsOneWidget);
+    await t.tap(chip);
+    await t.pumpAndSettle();
+    expect(t.widget<ChoiceChip>(chip).selected, isTrue);
+
+    await t.tap(find.text('Tabulky'));
+    await t.pumpAndSettle();
+    final row = find.descendant(of: find.byType(TablesTab), matching: find.text('T-kvadrát (pevný)'));
+    await t.scrollUntilVisible(row, 300, scrollable: find.descendant(of: find.byType(TablesTab), matching: find.byType(Scrollable)).first);
+    await t.tap(row);
+    await t.pumpAndSettle();
+    expect(find.text('Uran na vrcholu T-kvadrátu'), findsOneWidget);
+    expect(find.text('Text pro toto postavení zatím chybí.'), findsWidgets);
   });
 }

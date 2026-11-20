@@ -25,6 +25,7 @@ void main() {
     expect(k['moon_today']!.length, 12);
     expect(k['lunation_in_house']!.length, 24);
     expect(k['void_of_course']!.length + k['eclipse']!.length, 3);
+    expect(k['pattern']!.length, 56);
     expect(k['star']!.length, 32);
     expect(k['star_target']!.length, 12);
   });

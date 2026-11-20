@@ -28,6 +28,20 @@ void main() {
     }
   });
 
+  test('pattern family has the 56 keys of plan 10.1', () {
+    expect(allKeysByFamily()['pattern'], hasLength(56));
+  });
+
+  test('pattern keys: T-square gives shape and apex, yod only the apex', () {
+    final t = findPatterns({Body.mars: 10, Body.saturn: 190, Body.venus: 100}).firstWhere((p) => p.kind == PatternKind.tSquare);
+    expect(patternKeysOf(t), ['pattern/t_square/cardinal', 'pattern/t_square_apex/venus']);
+    final y = findPatterns({Body.mars: 10, Body.jupiter: 70, Body.saturn: 220}).firstWhere((p) => p.kind == PatternKind.yod);
+    expect(patternKeysOf(y), ['pattern/yod_apex/saturn']);
+    for (final p in [t, y]) {
+      expect(known, containsAll(patternKeysOf(p)));
+    }
+  });
+
   test('aspect keys order planets canonically', () {
     final a = Aspect(const ChartPoint.body(Body.saturn), const ChartPoint.body(Body.sun), AspectType.trine, 1, 6, true);
     expect(aspectKey(a), 'aspect/sun/saturn/trine');

@@ -24,7 +24,7 @@ List<ReadingItem> readingItems(Chart chart, ContentRepository content) => [
         ReadingItem(f, content[f.key], f.body != null && (chart.states[f.body]?.score ?? 0) < 0),
     ];
 
-/// Sections in the order of the old Astromat reading: signs, houses, aspects, cusps, emphasis.
+/// Sections in the order of the old Astromat reading: signs, houses, aspects, cusps, emphasis; then patterns (R1).
 List<ReadingSection> bySections(List<ReadingItem> items) {
   const order = {
     FactorKind.planetInSign: 'signs',
@@ -34,13 +34,14 @@ List<ReadingSection> bySections(List<ReadingItem> items) {
     FactorKind.signOnCusp: 'cusps',
     FactorKind.emphasis: 'emphasis',
     FactorKind.moonPhase: 'emphasis',
+    FactorKind.pattern: 'patterns',
     FactorKind.star: 'stars',
   };
   final out = <String, List<ReadingItem>>{};
   for (final i in items) {
     out.putIfAbsent(order[i.factor.kind]!, () => []).add(i);
   }
-  return [for (final id in ['signs', 'houses', 'aspects', 'cusps', 'emphasis', 'stars']) if (out[id] != null) ReadingSection(id, out[id]!)];
+  return [for (final id in ['signs', 'houses', 'aspects', 'cusps', 'emphasis', 'patterns', 'stars']) if (out[id] != null) ReadingSection(id, out[id]!)];
 }
 
 /// Grouped by themes of the texts; items without a text are left out.

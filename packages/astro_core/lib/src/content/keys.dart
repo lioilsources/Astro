@@ -1,4 +1,5 @@
 import '../model.dart';
+import '../patterns.dart';
 import '../stars.dart';
 
 /// Content ids of planets: the ten planets + the lunar node (mean or true alike).
@@ -35,6 +36,23 @@ const moonPhaseIds = ['new', 'crescent', 'first_quarter', 'gibbous', 'full', 'di
 const traditionalPlanetIds = ['sun', 'moon', 'mercury', 'venus', 'mars', 'jupiter', 'saturn'];
 const lunationIds = ['new', 'full'];
 const eclipseIds = ['solar', 'lunar'];
+
+/// Aspect patterns and balances (plan 10.1).
+final modalityIds = Modality.values.map((m) => m.name).toList();
+final hemisphereIds = Hemisphere.values.map((h) => h.name).toList();
+final patternKeys = [
+  for (final e in elementIds) 'pattern/grand_trine/$e',
+  for (final m in modalityIds) 'pattern/t_square/$m',
+  for (final p in planetIds) 'pattern/t_square_apex/$p',
+  for (final m in modalityIds) 'pattern/grand_cross/$m',
+  for (final p in planetIds) 'pattern/yod_apex/$p',
+  for (final e in elementIds) 'pattern/kite/$e',
+  'pattern/cradle',
+  'pattern/mystic_rectangle',
+  for (final m in modalityIds) ...['pattern/modality/$m/excess', 'pattern/modality/$m/lack'],
+  for (final h in hemisphereIds) 'pattern/hemisphere/$h',
+  for (final p in planetIds) 'pattern/unaspected/$p',
+];
 
 /// Content id of a body (both nodes share the `node` texts).
 String contentIdOf(Body b) => b.isNode ? 'node' : b.name;
@@ -79,6 +97,7 @@ Map<String, List<String>> allKeysByFamily() {
       for (final e in elementIds) 'emphasis/element_dominant/$e',
       for (final e in elementIds) 'emphasis/element_missing/$e',
     ],
+    'pattern': patternKeys,
     'glossary': [for (final g in glossaryIds) 'glossary/$g'],
     'planetary_hour': [for (final p in traditionalPlanetIds) 'planetary_hour/$p'],
     'planetary_day': [for (final p in traditionalPlanetIds) 'planetary_day/$p'],
@@ -117,6 +136,7 @@ String familyOf(String key) => key.split('/').first;
     case 'house_area':
       return (min: 10, max: 30);
     case 'emphasis':
+    case 'pattern':
       return (min: 50, max: 110);
     case 'glossary':
       return (min: 25, max: 130);

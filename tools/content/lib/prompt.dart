@@ -1,6 +1,8 @@
 import 'dart:convert';
 import 'dart:io';
 
+import 'package:astro_core/astro_core.dart' show hemisphereMin, modalityExcessMin, modalityLackMax;
+
 import 'schema.dart';
 
 /// Builds the generation prompt for one key from the archetype table and style rules.
@@ -76,6 +78,8 @@ class PromptBuilder {
           _ => 'chybí živel ${_elementCz(v)} (žádná planeta)',
         };
         return (title: 'Přemíra a nedostatek: $what', facts: what);
+      case 'pattern':
+        return _pattern(p);
       case 'transit_modifier':
         return (title: 'Modifikátor tranzitu: ${p[1]}', facts: 'Krátká vložená věta o fázi tranzitu: ${p[1]}');
       case 'glossary':
@@ -147,6 +151,67 @@ class PromptBuilder {
     'last_quarter': 'krize přesvědčení, přehodnocení, odklon',
     'balsamic': 'dozrání, uzavírání, odevzdání, semeno budoucího',
   };
+
+  /// Aspect patterns and balances (plan 10.1).
+  ({String title, String facts}) _pattern(List<String> p) {
+    final pa = a['patterns'] as Map<String, dynamic>;
+    Map<String, dynamic> shape(String id) => pa['shapes'][id] as Map<String, dynamic>;
+    String shapeFacts(String id) {
+      final s = shape(id);
+      return 'Obrazec ${s['name']}: ${s['core']}. Stín: ${s['shadow']}. Tradice o těžkém: ${s['hard']}.';
+    }
+
+    String element(String id) {
+      final e = pa['elements'][id] as Map<String, dynamic>;
+      final signs = [
+        for (final s in signIds.map(_s))
+          if (s['element'] == e['name']) s['name'],
+      ];
+      return 'Živel ${e['name']} (${signs.join(', ')}): ${e['core']}.';
+    }
+
+    String modality(String id) {
+      final m = pa['modalities'][id] as Map<String, dynamic>;
+      return 'Kvalita ${m['name']}: ${m['core']}. Stín: ${m['shadow']}.';
+    }
+
+    String name(String id) => shape(id)['name'] as String;
+    String cap(String s) => s[0].toUpperCase() + s.substring(1);
+    final planet = p.length > 2 ? a['planets'][p[2]] as Map<String, dynamic>? : null;
+    final pn = planet == null ? null : planet['name'];
+    switch (p[1]) {
+      case 'grand_trine' || 'kite':
+        return (title: '${cap(name(p[1]))} v živlu ${pa['elements'][p[2]]['name']}', facts: '${shapeFacts(p[1])}\n${element(p[2])}');
+      case 't_square' || 'grand_cross':
+        return (title: '${cap(pa['modalities'][p[2]]['masc'] as String)} ${name(p[1])}', facts: '${shapeFacts(p[1])}\n${modality(p[2])}');
+      case 't_square_apex' || 'yod_apex':
+        final whole = p[1] == 't_square_apex' ? 't_square' : 'yod';
+        return (
+          title: '$pn na vrcholu ${p[1] == 't_square_apex' ? 'T-kvadrátu' : 'jodu'}',
+          facts: '${shapeFacts(whole)}\n${shapeFacts(p[1])}\n${_planet(p[2])}',
+        );
+      case 'cradle' || 'mystic_rectangle':
+        return (title: cap(name(p[1])), facts: shapeFacts(p[1]));
+      case 'modality':
+        final m = pa['modalities'][p[2]] as Map<String, dynamic>;
+        final excess = p[3] == 'excess';
+        final what = excess
+            ? '$modalityExcessMin a více z deseti planet ve znameních kvality ${m['name']}'
+            : 'nejvýš $modalityLackMax z deseti planet ve znameních kvality ${m['name']}';
+        return (
+          title: '${excess ? 'Přemíra' : 'Nedostatek'} ${m['plural']} znamení',
+          facts:
+              'Rovnováha kvalit: $what.\n${modality(p[2])}\n${excess ? 'Kvalita převládá a barví celou povahu.' : 'Kvalita chybí; její schopnosti je třeba hledat jinde nebo se jim učit.'}',
+        );
+      case 'hemisphere':
+        final h = pa['hemispheres'][p[2]] as Map<String, dynamic>;
+        return (title: 'Důraz na ${h['acc']}', facts: '$hemisphereMin a více z deseti planet leží v polokouli: ${h['name']}. Význam: ${h['core']}.');
+      case 'unaspected':
+        return (title: '$pn bez aspektu', facts: '${shapeFacts('unaspected')}\n${_planet(p[2])}');
+    }
+    throw ArgumentError(p.join('/'));
+  }
+
 
   String _elementCz(String e) => {'fire': 'oheň', 'earth': 'země', 'air': 'vzduch', 'water': 'voda'}[e] ?? e;
 

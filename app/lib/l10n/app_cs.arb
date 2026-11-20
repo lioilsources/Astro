@@ -63,6 +63,70 @@
  "sectionAspects": "Aspekty",
  "sectionCusps": "Znamení na hrotech domů",
  "sectionEmphasis": "Přemíra a nedostatek",
+ "patterns": "Obrazce aspektů",
+ "noPatterns": "V horoskopu není žádný obrazec aspektů.",
+ "patternName": "{kind, select, grandTrine{Velký trigon} tSquare{T-kvadrát} grandCross{Velký kříž} yod{Jod} kite{Drak} cradle{Kolébka} mysticRectangle{Mystický obdélník} other{?}}",
+ "@patternName": {
+  "placeholders": {
+   "kind": {}
+  }
+ },
+ "patternWithQuality": "{pattern} ({quality})",
+ "@patternWithQuality": {
+  "placeholders": {
+   "pattern": {},
+   "quality": {}
+  }
+ },
+ "elementName": "{element, select, fire{oheň} earth{země} air{vzduch} water{voda} other{?}}",
+ "@elementName": {
+  "placeholders": {
+   "element": {}
+  }
+ },
+ "modalityName": "{m, select, cardinal{kardinální} fixed{pevný} mutable{proměnlivý} other{?}}",
+ "@modalityName": {
+  "placeholders": {
+   "m": {}
+  }
+ },
+ "modalityExcess": "Přemíra {m, select, cardinal{kardinálních} fixed{pevných} mutable{proměnlivých} other{?}} znamení",
+ "@modalityExcess": {
+  "placeholders": {
+   "m": {}
+  }
+ },
+ "modalityLack": "Nedostatek {m, select, cardinal{kardinálních} fixed{pevných} mutable{proměnlivých} other{?}} znamení",
+ "@modalityLack": {
+  "placeholders": {
+   "m": {}
+  }
+ },
+ "hemisphereEmphasis": "{h, select, above{Důraz nad obzorem} below{Důraz pod obzorem} east{Důraz na východní polokouli} west{Důraz na západní polokouli} other{?}}",
+ "@hemisphereEmphasis": {
+  "placeholders": {
+   "h": {}
+  }
+ },
+ "unaspectedPlanet": "{planet} bez aspektu",
+ "@unaspectedPlanet": {
+  "placeholders": {
+   "planet": {}
+  }
+ },
+ "patternApexTitle": "{planet} na vrcholu {kind, select, tSquare{T-kvadrátu} yod{jodu} other{?}}",
+ "@patternApexTitle": {
+  "placeholders": {
+   "planet": {},
+   "kind": {}
+  }
+ },
+ "patternApex": "vrchol: {planets}",
+ "@patternApex": {
+  "placeholders": {
+   "planets": {}
+  }
+ },
  "textMissing": "Text pro toto postavení zatím chybí.",
  "shadowTitle": "Stinná stránka",
  "hiddenPassages": "Skryto: {count, plural, =1{1 pasáž} few{{count} pasáže} other{{count} pasáží}} ({topics})",
