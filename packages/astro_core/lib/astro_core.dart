@@ -10,6 +10,7 @@ export 'src/houses.dart';
 export 'src/model.dart';
 export 'src/patterns.dart';
 export 'src/stars.dart';
+export 'src/synastry.dart';
 export 'src/time.dart';
 export 'src/transits.dart';
 export 'src/track.dart';

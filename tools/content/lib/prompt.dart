@@ -80,6 +80,25 @@ class PromptBuilder {
         return (title: 'Přemíra a nedostatek: $what', facts: what);
       case 'pattern':
         return _pattern(p);
+      case 'synastry':
+        final same = p[1] == p[2];
+        return (
+          title: same ? '${pn(p[1])} a ${pn(p[2])}: ${_qualityName(p[3])}' : '${pn(p[1])} – ${pn(p[2])}: ${_qualityName(p[3])}',
+          facts: 'Srovnání horoskopů dvou lidí. ${same ? 'Tatáž planeta u obou' : 'Planeta jednoho z vás a planeta druhého'}:\n'
+              '${_planet(p[1])}${same ? '' : '\n${_planet(p[2])}'}\nDruh: ${_qualityName(p[3])}.',
+        );
+      case 'synastry_point':
+        final pt = a['points'][p[1]] as Map<String, dynamic>;
+        return (
+          title: '${pn(p[2])} a ${pt['name']} druhého: ${_qualityName(p[3])}',
+          facts: 'Srovnání horoskopů dvou lidí: planeta jednoho z vás a osa druhého.\n${_planet(p[2])}\n'
+              'Bod ${pt['name']} druhého: ${pt['core']}.\nDruh: ${_qualityName(p[3])}.',
+        );
+      case 'synastry_house':
+        return (
+          title: '${pn(p[1])} v ${p[2]}. domě druhého',
+          facts: 'Srovnání horoskopů dvou lidí: planeta jednoho z vás padne do domu druhého.\n${_planet(p[1])}\n${_house(p[2])}',
+        );
       case 'transit_modifier':
         return (title: 'Modifikátor tranzitu: ${p[1]}', facts: 'Krátká vložená věta o fázi tranzitu: ${p[1]}');
       case 'glossary':
@@ -161,6 +180,9 @@ class PromptBuilder {
   }
 
 
+  String _qualityName(String q) =>
+      {'conjunction': 'konjunkce', 'harmonious': 'harmonický aspekt (sextil, trigon)', 'tense': 'napěťový aspekt (kvadrát, opozice)'}[q] ?? q;
+
   String _elementCz(String e) => {'fire': 'oheň', 'earth': 'země', 'air': 'vzduch', 'water': 'voda'}[e] ?? e;
 
   String build(String key) {
@@ -169,7 +191,15 @@ class PromptBuilder {
     final family = familyOf(key);
     final noShadow = shadowExempt.contains(family);
     final traitList = traits.map((t) => '${t.id} (${t.name})').join(', ');
-    final textRule = family == 'star'
+    final pair = partnerFamilies.contains(family);
+    final textRule = pair
+        ? '- "text": ${len.min}–${len.max} slov: co se mezi vámi děje, kde se doplňujete, co si navzájem dáváte.\n'
+            '  Text platí pro jakýkoli vztah: partneři, rodič a dítě, sourozenci, přátelé, kolegové.\n'
+            '  Žádná romantika, erotika, přitažlivost ani intimita v "text", "shadow", "hard",\n'
+            '  "title" ani "keywords"; to patří jen do pole "partner".\n'
+            '- "partner": 30–80 slov: přitažlivost a intimita, jen pro milostný pár. Appka ho\n'
+            '  ukáže pouze u typu vztahu partner, u rodiče a dítěte nikdy.'
+        : family == 'star'
         ? '- "text": 40–80 slov: kde hvězda leží, její mýtus a povaha podle planet. Celý text\n'
             '  včetně stínu a těžkých pasáží má 150–250 slov; tradiční výroky patří do stínu a "hard".\n'
             '  Moderní psychologický přepis nevydávej za tradici.'
@@ -184,7 +214,7 @@ VÝZNAMY (ručně psaná tabulka archetypů, rozviň je vlastními slovy):
 ${d.facts}
 
 PRAVIDLA:
-- 2. osoba, tykání, přítomný čas. Bez rodových tvarů: žádné "jsi citlivý/citlivá",
+${pair ? '- Oslovuj oba: 2. osoba množného čísla ("mezi vámi", "máte"), přítomný čas.\n  "Jeden z vás", "druhý" místo jmen. Bez rodových tvarů ("byli jste" ne).\n' : ''}- 2. osoba, tykání, přítomný čas. Bez rodových tvarů: žádné "jsi citlivý/citlivá",
   "byl jsi", "mohla bys". Použij podstatná jména nebo slovesa ("máš citlivou povahu").
 - Krátké konkrétní věty, žádné fráze o hvězdách, žádné rady k léčbě, penězům ani právu.
 - První věta textu i stínu patří jen téhle kombinaci. Žádná obecná věta o znamení
@@ -201,7 +231,7 @@ ${noShadow ? '- "shadow": prázdný řetězec.' : '- "shadow": 40–100 slov: sl
   $traitList
 
 Odpověz jen JSON objektem:
-{"key": "$key", "title": "${d.title}", "keywords": [], "themes": [], "text": "", "shadow": "", "hard": [], "traits": {"text": [], "shadow": []}}
+{"key": "$key", "title": "${d.title}", "keywords": [], "themes": [], "text": "", "shadow": "", "hard": [], "traits": {"text": [], "shadow": []}${pair ? ', "partner": ""' : ''}}
 ''';
   }
 }

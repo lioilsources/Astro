@@ -73,6 +73,31 @@ Polokoule se určují podle úhlů, ne podle systému domů: nad obzorem leží 
 descendentu přes MC k ascendentu, východní polokoule od MC přes ascendent k IC.
 Bez času narození se polokoule nepočítají.
 
+## Synastrie (`Synastry.compute`, plán 10.4)
+
+- **Aspekty mezi horoskopy:** každá planeta první osoby proti planetám, ASC a MC
+  druhé a planety druhé proti ASC a MC první. Osa proti ose se nepočítá, uzel
+  také ne. Orby natální (oddíl Orby): Slunce a Měsíc +2°, ASC a MC 3°.
+  `applying` mezi dvěma natálními horoskopy nemá smysl a je vždy false.
+- **Domy:** planety první osoby v domech druhé a naopak; jen u hostitele, který
+  má čas narození (a domy definované pro svou šířku).
+- **Klíče:** dvojice planet jsou neuspořádané (Slunce A–Měsíc B i Měsíc A–Slunce B
+  vedou na `synastry/sun/moon/…`), aspekt se skládá do tří druhů jako u os
+  (konjunkce, harmonický, napěťový). Výklad ukáže každý text jednou se všemi
+  fakty, které na něj vedou.
+- **Váha** pro pořadí ve výkladu: aspekty jako natální (průměr váhy bodů ×
+  těsnost), dům = váha planety × 0,8 v rohových domech (1, 4, 7, 10), jinak × 0,6.
+- **Dvojčata:** všech deset planet blíž než 1° (`twinsMaxPlanetDiff`). Místo
+  deseti konjunkcí téže planety appka ukáže rozdíl času narození, ASC, MC,
+  rozpětí hrotů domů a planety, které mění dům. Bez času narození jen poznámku.
+  Měsíc se pohne o 1° asi za dvě hodiny, takže pravidlo chytí jen skutečná
+  dvojčata nebo lidi narozené v týž den blízko sebe.
+- **Vrstva `partner`** (přitažlivost, intimita) se zobrazí jen u typu vztahu
+  partner (`Relationship.showsPartnerLayer`). Validátor hlídá, že je jen ve
+  skupinách `synastry*` a že základní vrstvy (titul, hesla, `text`, `shadow`,
+  `hard`) neobsahují milostná a sexuální slova, protože se ukazují i rodiči
+  a dítěti. Test appky ověřuje, že se dovětek u ostatních typů nikdy nevykreslí.
+
 ## Tranzity (`TransitEngine`)
 
 Hledání: polohy tranzitující planety se spočítají po krocích (Měsíc 1 h; Slunce,
