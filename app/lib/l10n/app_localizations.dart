@@ -1444,6 +1444,42 @@ abstract class AppLocalizations {
   /// **'Zdroj'**
   String get source;
 
+  /// No description provided for @reliabilityBadge.
+  ///
+  /// In cs, this message translates to:
+  /// **'{grade, select, AA{potvrzeno (AA)} A{potvrzeno (A)} B{čas ze životopisu (B)} C{čas nejistý (C)} other{bez času (X)}}'**
+  String reliabilityBadge(String grade);
+
+  /// No description provided for @reliabilityWarning.
+  ///
+  /// In cs, this message translates to:
+  /// **'{grade, select, B{Čas narození pochází ze životopisu, ne z matriky. Ascendent a domy ber s rezervou.} C{Čas narození je nejistý a bez doloženého původu. Ascendent a domy mohou být úplně jinde.} X{Čas narození není doložený. Horoskop je bez domů a ascendentu; Měsíc se může lišit až o několik stupňů.} other{}}'**
+  String reliabilityWarning(String grade);
+
+  /// No description provided for @peopleAll.
+  ///
+  /// In cs, this message translates to:
+  /// **'Všichni'**
+  String get peopleAll;
+
+  /// No description provided for @peopleCategory.
+  ///
+  /// In cs, this message translates to:
+  /// **'{cat, select, history{Historie} politics{Politika} military{Vojevůdci} science{Věda} art{Výtvarné umění} music{Hudba} film{Film} celebrity{Celebrity} football{Fotbal} hockey{Hokej} sport{Sport} business{Byznys} religion{Náboženství} literature{Literatura} other{Ostatní}}'**
+  String peopleCategory(String cat);
+
+  /// No description provided for @peopleSearch.
+  ///
+  /// In cs, this message translates to:
+  /// **'Hledej osobnost'**
+  String get peopleSearch;
+
+  /// No description provided for @peopleSourceNote.
+  ///
+  /// In cs, this message translates to:
+  /// **'Data narození a místa: Wikidata (CC0). Čas jen tam, kde je doložený zdroj.'**
+  String get peopleSourceNote;
+
   /// No description provided for @glossarySearch.
   ///
   /// In cs, this message translates to:
@@ -1453,7 +1489,7 @@ abstract class AppLocalizations {
   /// No description provided for @aboutText.
   ///
   /// In cs, this message translates to:
-  /// **'Výpočet běží v telefonu, data narození ho neopouštějí. Polohy: VSOP87 a Meeus (balíček astronomia, MIT), Pluto z efemeridy JPL DE440. Místa: GeoNames (CC BY 4.0). Symboly: Noto Sans Symbols (SIL OFL). Texty výkladu jsou vlastní a popisují tradici, ne prokázané souvislosti.'**
+  /// **'Výpočet běží v telefonu, data narození ho neopouštějí. Polohy: VSOP87 a Meeus (balíček astronomia, MIT), Pluto z efemeridy JPL DE440. Místa: GeoNames (CC BY 4.0). Osobnosti: Wikidata (CC0). Symboly: Noto Sans Symbols (SIL OFL). Texty výkladu jsou vlastní a popisují tradici, ne prokázané souvislosti.'**
   String get aboutText;
 
   /// No description provided for @bodyName.
@@ -2458,6 +2494,180 @@ abstract class AppLocalizations {
   /// In cs, this message translates to:
   /// **'{dir, select, east{východ} east_by_north{východ k severu} east_by_south{východ k jihu} west{západ} west_by_south{západ k jihu} west_by_north{západ k severu} north{sever} north_by_east{sever k východu} north_by_west{sever k západu} south{jih} south_by_east{jih k východu} south_by_west{jih k západu} northeast_by_east{severovýchod k východu} north_northeast{severoseverovýchod} northwest_by_north{severozápad k severu} west_northwest{západoseverozápad} southwest_by_south{jihozápad k jihu} south_southwest{jihojihozápad} southeast_by_south{jihovýchod k jihu} east_southeast{východojihovýchod} other{?}}'**
   String horaryDirection(String dir);
+
+  /// No description provided for @personOpenChart.
+  ///
+  /// In cs, this message translates to:
+  /// **'Otevřít horoskop'**
+  String get personOpenChart;
+
+  /// No description provided for @personDefining.
+  ///
+  /// In cs, this message translates to:
+  /// **'Čím je osobnost známá'**
+  String get personDefining;
+
+  /// No description provided for @personOtherEvents.
+  ///
+  /// In cs, this message translates to:
+  /// **'Další události ze života'**
+  String get personOtherEvents;
+
+  /// No description provided for @personNoDefining.
+  ///
+  /// In cs, this message translates to:
+  /// **'Zatím bez doložené zlomové události s přesným datem.'**
+  String get personNoDefining;
+
+  /// No description provided for @personEventsHint.
+  ///
+  /// In cs, this message translates to:
+  /// **'Data událostí: Wikidata (CC0) a anglická Wikipedie (věta, ze které datum pochází). Ťuknutím na událost uvidíš tranzity toho dne.'**
+  String get personEventsHint;
+
+  /// No description provided for @eventType.
+  ///
+  /// In cs, this message translates to:
+  /// **'{type, select, office{nástup do úřadu} election{zvolení} coronation{korunovace} abdication{abdikace} award{ocenění} title{titul} record{rekord} work{dílo} premiere{premiéra} publication{vydání} discovery{objev} breakthrough{průlom} battle{bitva} treaty{smlouva} founding{založení} scandal{skandál} arrest{zatčení} trial{soud} assassination_attempt{pokus o atentát} assassination{atentát} resignation{odstoupení} event{událost} marriage{sňatek} club{klub} death{úmrtí} other{událost}}'**
+  String eventType(String type);
+
+  /// No description provided for @eventDayTitle.
+  ///
+  /// In cs, this message translates to:
+  /// **'Tranzity v den události'**
+  String get eventDayTitle;
+
+  /// No description provided for @eventJulian.
+  ///
+  /// In cs, this message translates to:
+  /// **'(v pramenu juliánsky {date})'**
+  String eventJulian(Object date);
+
+  /// No description provided for @eventNoonNote.
+  ///
+  /// In cs, this message translates to:
+  /// **'Hodina události není známá. Počítá se pro poledne v časovém pásmu místa narození (u starých dat místní střední čas), Měsíc se proto může o několik stupňů lišit.'**
+  String get eventNoonNote;
+
+  /// No description provided for @eventNoHouses.
+  ///
+  /// In cs, this message translates to:
+  /// **'Čas narození není doložený (X): bez domů, ascendentu a MC, jen tranzity k planetám.'**
+  String get eventNoHouses;
+
+  /// No description provided for @eventCheckTitle.
+  ///
+  /// In cs, this message translates to:
+  /// **'Jak neobvyklý byl ten den'**
+  String get eventCheckTitle;
+
+  /// No description provided for @eventTension.
+  ///
+  /// In cs, this message translates to:
+  /// **'Napětí dne {score}: víc než {p} % dnů života této osobnosti.'**
+  String eventTension(int score, int p);
+
+  /// No description provided for @eventUnusual.
+  ///
+  /// In cs, this message translates to:
+  /// **'{level, select, calm{Klidnější den, než v tomto životě bývalo běžné.} ordinary{Běžný den: podobné napětí se v tomto životě objevovalo často.} tense{Napjatější než většina dnů tohoto života.} extreme{Jeden z nejnapjatějších dnů tohoto života.} other{?}}'**
+  String eventUnusual(String level);
+
+  /// No description provided for @eventLifeSpan.
+  ///
+  /// In cs, this message translates to:
+  /// **'Srovnáno s {days} dny života (od narození do úmrtí nebo do dneška, nejvýš 100 let).'**
+  String eventLifeSpan(int days);
+
+  /// No description provided for @eventRetroNote.
+  ///
+  /// In cs, this message translates to:
+  /// **'Když výklad sedí na událost, kterou známe z historie, je to čtení zpětně: ke známému výsledku se hodí leccos. Férové srovnání je percentil vůči ostatním dnům téhož života.'**
+  String get eventRetroNote;
+
+  /// No description provided for @eventActiveTransits.
+  ///
+  /// In cs, this message translates to:
+  /// **'Aktivní tranzity k horoskopu narození'**
+  String get eventActiveTransits;
+
+  /// No description provided for @eventNoTransits.
+  ///
+  /// In cs, this message translates to:
+  /// **'V ten den nebyl v orbu žádný hlavní tranzit.'**
+  String get eventNoTransits;
+
+  /// No description provided for @eventOrb.
+  ///
+  /// In cs, this message translates to:
+  /// **'orb {orb}°'**
+  String eventOrb(Object orb);
+
+  /// No description provided for @eventPositions.
+  ///
+  /// In cs, this message translates to:
+  /// **'Postavení planet v ten den'**
+  String get eventPositions;
+
+  /// No description provided for @catalogCheckTitle.
+  ///
+  /// In cs, this message translates to:
+  /// **'Zlomové události celého katalogu'**
+  String get catalogCheckTitle;
+
+  /// No description provided for @catalogCheckIntro.
+  ///
+  /// In cs, this message translates to:
+  /// **'U každé zlomové události s přesným datem se spočítá percentil napětí dne vůči všem dnům života téže osobnosti. Kdyby tranzity s událostmi nesouvisely, vyjde průměr kolem 50 a do horních 20 % padne zhruba pětina událostí.'**
+  String get catalogCheckIntro;
+
+  /// No description provided for @catalogCheckComputing.
+  ///
+  /// In cs, this message translates to:
+  /// **'Počítám napětí celých životů všech osobností, může to trvat i minutu…'**
+  String get catalogCheckComputing;
+
+  /// No description provided for @catalogCheckNone.
+  ///
+  /// In cs, this message translates to:
+  /// **'Zatím není co porovnat.'**
+  String get catalogCheckNone;
+
+  /// No description provided for @catalogCheckVerdict.
+  ///
+  /// In cs, this message translates to:
+  /// **'{verdict, select, none{Souvislost se neukázala: dny zlomových událostí nejsou napjatější ani klidnější, než jaké dávají náhodné dny týchž životů.} higher{Dny zlomových událostí vycházejí napjatější, než jaké dávají náhodné dny týchž životů.} lower{Dny zlomových událostí vycházejí klidnější, než jaké dávají náhodné dny týchž životů.} other{?}}'**
+  String catalogCheckVerdict(String verdict);
+
+  /// No description provided for @catalogCheckMean.
+  ///
+  /// In cs, this message translates to:
+  /// **'Průměrný percentil dne události: {mean} (náhodně 50), rozdíl {effect} bodu.'**
+  String catalogCheckMean(Object mean, Object effect);
+
+  /// No description provided for @catalogCheckTop.
+  ///
+  /// In cs, this message translates to:
+  /// **'V horních 20 % napětí: {share} % událostí (náhodně {expected} %).'**
+  String catalogCheckTop(Object share, Object expected);
+
+  /// No description provided for @catalogCheckP.
+  ///
+  /// In cs, this message translates to:
+  /// **'p = {p} (oboustranně), pro horních 20 % p = {pTop}.'**
+  String catalogCheckP(Object p, Object pTop);
+
+  /// No description provided for @catalogCheckCounts.
+  ///
+  /// In cs, this message translates to:
+  /// **'{events} událostí, {people} osobností, {resamples} náhodných srovnání.'**
+  String catalogCheckCounts(int events, int people, int resamples);
+
+  /// No description provided for @catalogCheckMethod.
+  ///
+  /// In cs, this message translates to:
+  /// **'Postup: každý den události se nahradí náhodným dnem života téže osobnosti a změří se, jak často vyjde průměr aspoň tak daleko od 50. Pod 0,05 je to jen signál k dalšímu zkoumání: výsledek ovlivňuje i to, které události se do katalogu dostaly. Napětí se tu počítá s hrubším krokem efemeridy než u jednotlivé události, čísla se mohou o bod lišit.'**
+  String get catalogCheckMethod;
 }
 
 class _AppLocalizationsDelegate

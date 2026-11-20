@@ -1,0 +1,5335 @@
+{
+ "14th Dalai Lama": [
+  {
+   "date": "1940-02-22",
+   "label": "intronizace ve Lhase",
+   "type": "coronation",
+   "quote": "His enthronement ceremony was held in Lhasa on 22 February 1940."
+  },
+  {
+   "date": "1950-11-17",
+   "label": "převzetí plné politické moci nad Tibetem",
+   "type": "office",
+   "quote": "On 17 November 1950, at the age of 15, the 14th Dalai Lama assumed full temporal (political) power as ruler of Tibet."
+  },
+  {
+   "date": "1959-03-30",
+   "label": "útěk z Tibetu do Indie",
+   "type": "event",
+   "quote": "the Dalai Lama and his retinue fled Tibet with the help of the CIA's Special Activities Division, crossing into India on 30 March 1959"
+  },
+  {
+   "date": "1959-04-29",
+   "label": "založení tibetské exilové vlády",
+   "type": "founding",
+   "quote": "On 29 April 1959, the Dalai Lama established the independent Tibetan government in exile in the north Indian hill station of Mussoorie"
+  }
+ ],
+ "Abraham Lincoln": [
+  {
+   "date": "1860-11-06",
+   "label": "zvolen prezidentem USA",
+   "type": "election",
+   "quote": "On November 6, 1860, Lincoln was elected as the first Republican president."
+  },
+  {
+   "date": "1861-03-04",
+   "label": "první inaugurace prezidentem",
+   "type": "office",
+   "quote": "On March 4, 1861, in his first inaugural address"
+  },
+  {
+   "date": "1863-01-01",
+   "label": "vyhlášení emancipační proklamace",
+   "type": "event",
+   "quote": "On January 1, 1863, he issued the Emancipation Proclamation"
+  },
+  {
+   "date": "1863-11-19",
+   "label": "gettysburský projev",
+   "type": "event",
+   "quote": "On November 19, 1863, he delivered the Gettysburg Address"
+  }
+ ],
+ "Ada Lovelace": [
+  {
+   "date": "1833-06-05",
+   "label": "první setkání s Charlesem Babbagem",
+   "type": "event",
+   "quote": "Lovelace first met him on 5 June 1833, when she and her mother attended one of Charles Babbage's Saturday night soirées"
+  }
+ ],
+ "Adolf Hitler": [
+  {
+   "date": "1923-11-08",
+   "label": "pivní puč v Mnichově",
+   "type": "event",
+   "quote": "On 8 November 1923, Hitler and the SA stormed a public meeting of 3,000 people organised by Kahr in the Bürgerbräukeller"
+  },
+  {
+   "date": "1933-01-30",
+   "label": "jmenován říšským kancléřem",
+   "type": "office",
+   "quote": "appoint Hitler as chancellor on 30 January 1933"
+  },
+  {
+   "date": "1934-08-02",
+   "label": "převzetí funkce hlavy státu",
+   "type": "office",
+   "quote": "Upon Hindenburg's death on 2 August 1934, Hitler replaced him as head of state"
+  },
+  {
+   "date": "1939-09-01",
+   "label": "invaze do Polska",
+   "type": "battle",
+   "quote": "Germany's invasion of Poland on 1 September 1939 under his leadership marked the outbreak of the Second World War."
+  }
+ ],
+ "Adriana Sklenaříková": [],
+ "Agatha Christie": [
+  {
+   "date": "1926-12-14",
+   "label": "nalezena v hotelu v Harrogate",
+   "type": "event",
+   "quote": "On 14 December 1926, she was located at the Swan Hydropathic Hotel in Harrogate, Yorkshire"
+  },
+  {
+   "date": "1952-11-25",
+   "label": "premiéra hry v divadle Ambassadors",
+   "type": "premiere",
+   "quote": "It opened at the Ambassadors Theatre in the West End on 25 November 1952"
+  }
+ ],
+ "Alan Turing": [
+  {
+   "date": "1939-09-04",
+   "label": "nástup do Bletchley Parku",
+   "type": "event",
+   "quote": "On 4 September 1939, the day after the UK declared war on Germany, Turing reported to Bletchley Park"
+  },
+  {
+   "date": "1946-02-19",
+   "label": "návrh počítače s uloženým programem",
+   "type": "work",
+   "quote": "He presented a paper on 19 February 1946, which was the first detailed design of a stored-program computer."
+  },
+  {
+   "date": "1952-03-31",
+   "label": "soud za homosexualitu",
+   "type": "trial",
+   "quote": "Turing and Murray, was brought to trial on 31 March 1952."
+  }
+ ],
+ "Albert Einstein": [
+  {
+   "date": "1905-06-30",
+   "label": "článek o speciální relativitě",
+   "type": "publication",
+   "quote": "(\"On the Electrodynamics of Moving Bodies\") was received on 30 June 1905"
+  },
+  {
+   "date": "1919-05-29",
+   "label": "zatmění potvrdilo obecnou relativitu",
+   "type": "breakthrough",
+   "quote": "A total eclipse of the Sun that took place on 29 May 1919 provided an opportunity to put his theory of gravitational lensing to the test"
+  },
+  {
+   "date": "1919-11-07",
+   "label": "světová sláva po titulku Times",
+   "type": "event",
+   "quote": "On 7 November 1919, for example, the leading British newspaper, The Times, printed a banner headline"
+  }
+ ],
+ "Albrecht von Wallenstein": [
+  {
+   "date": "1625-07-25",
+   "label": "jmenován velitelem císařské armády",
+   "type": "office",
+   "quote": "received his final commission on 25 July 1625"
+  },
+  {
+   "date": "1626-04-25",
+   "label": "vítězství nad Mansfeldem u Desavy",
+   "type": "battle",
+   "quote": "Having beaten Mansfeld at Dessau (25 April 1626)"
+  },
+  {
+   "date": "1634-01-24",
+   "label": "tajné zbavení velení císařem",
+   "type": "resignation",
+   "quote": "On 24 January 1634 the Emperor signed a secret patent (shown only to certain officers of Wallenstein's army) removing him from his command."
+  }
+ ],
+ "Alexander Dubček": [
+  {
+   "date": "1968-08-21",
+   "label": "invaze vojsk Varšavské smlouvy",
+   "type": "event",
+   "quote": "On the night of 20–21 August 1968, military forces from several Warsaw Pact member states"
+  },
+  {
+   "date": "1989-12-28",
+   "label": "zvolen předsedou Federálního shromáždění",
+   "type": "election",
+   "quote": "on 28 December 1989, Dubček was elected chairman of the Federal Assembly"
+  }
+ ],
+ "Alexander Ovechkin": [
+  {
+   "date": "2005-10-05",
+   "label": "debut v NHL za Washington Capitals",
+   "type": "event",
+   "quote": "Ovechkin played his first game with the Capitals in the 2005–06 season opener on 5 October 2005"
+  },
+  {
+   "date": "2016-01-10",
+   "label": "500. gól v NHL",
+   "type": "record",
+   "quote": "On 10 January 2016, Ovechkin scored his 500th and 501st goals in a 7–1 victory over the Ottawa Senators"
+  },
+  {
+   "date": "2022-11-05",
+   "label": "rekord v počtu gólů za jeden klub",
+   "type": "record",
+   "quote": "On 5 November 2022, Ovechkin scored his 787th goal with the Washington Capitals against the Arizona Coyotes, setting a new NHL record for most goals with one team"
+  },
+  {
+   "date": "2025-04-06",
+   "label": "překonání Gretzkyho střeleckého rekordu",
+   "type": "record",
+   "quote": "Gretzky went down to ice level to congratulate Ovechkin when he set the new record on 6 April 2025"
+  }
+ ],
+ "Alfred Hitchcock": [
+  {
+   "date": "1960-02-08",
+   "label": "dvě hvězdy na hollywoodském chodníku slávy",
+   "type": "award",
+   "quote": "Hitchcock was inducted into the Hollywood Walk of Fame on 8 February 1960 with two stars"
+  },
+  {
+   "date": "1962-08-13",
+   "label": "začátek rozhovoru s Truffautem",
+   "type": "event",
+   "quote": "On 13 August 1962, Hitchcock's 63rd birthday, the French director François Truffaut began a 50-hour interview of Hitchcock"
+  }
+ ],
+ "Alphonse Mucha": [
+  {
+   "date": "1895-01-01",
+   "label": "plakát Gismonda pro Sarah Bernhardt",
+   "type": "work",
+   "quote": "The poster appeared on the streets of Paris on 1 January 1895 and caused an immediate sensation."
+  },
+  {
+   "date": "1899-12-20",
+   "label": "vydání knihy Le Pater",
+   "type": "publication",
+   "quote": "Le Pater was published on 20 December 1899"
+  }
+ ],
+ "Andrej Babiš": [
+  {
+   "date": "2017-10-09",
+   "label": "obvinění v kauze Čapí hnízdo",
+   "type": "scandal",
+   "quote": "He was stripped of his parliamentary immunity and formally charged on 9 October 2017."
+  },
+  {
+   "date": "2017-12-06",
+   "label": "jmenován premiérem",
+   "type": "office",
+   "quote": "On 6 December 2017, Babiš was appointed prime minister of the Czech Republic"
+  },
+  {
+   "date": "2025-09-01",
+   "label": "napaden holí na mítinku",
+   "type": "assassination_attempt",
+   "quote": "On 1 September 2025, during a rally in Dobrá in Frýdek-Místek District"
+  },
+  {
+   "date": "2025-12-09",
+   "label": "podruhé premiérem",
+   "type": "office",
+   "quote": "Babiš was inaugurated as prime minister on 9 December 2025"
+  }
+ ],
+ "Andrew Carnegie": [
+  {
+   "date": "1859-12-01",
+   "label": "superintendent západní divize",
+   "type": "office",
+   "quote": "On December 1, 1859, Carnegie officially became superintendent of the Western Division."
+  },
+  {
+   "date": "1901-02-26",
+   "label": "podpis prodeje svého podílu",
+   "type": "event",
+   "quote": "The letter agreeing to sell his share was signed on February 26, 1901."
+  },
+  {
+   "date": "1901-03-02",
+   "label": "založení United States Steel Corporation",
+   "type": "founding",
+   "quote": "He concluded negotiations on March 2, 1901, and formed the United States Steel Corporation."
+  }
+ ],
+ "Andy Warhol": [
+  {
+   "date": "1962-11-06",
+   "label": "první newyorská popartová výstava",
+   "type": "premiere",
+   "quote": "Warhol's first solo New York Pop show opened there on November 6, 1962."
+  },
+  {
+   "date": "1968-06-03",
+   "label": "postřelen Valerií Solanasovou",
+   "type": "assassination_attempt",
+   "quote": "On June 3, 1968, radical feminist writer Valerie Solanas shot Warhol"
+  }
+ ],
+ "Angela Merkel": [
+  {
+   "date": "2000-04-10",
+   "label": "zvolena předsedkyní CDU",
+   "type": "election",
+   "quote": "On 10 April 2000, Merkel was elected to replace Schäuble as Chairperson of the CDU"
+  },
+  {
+   "date": "2005-11-22",
+   "label": "zvolena spolkovou kancléřkou",
+   "type": "election",
+   "quote": "Merkel was elected Chancellor by the majority of delegates (397 to 217) in the newly assembled Bundestag on 22 November 2005"
+  },
+  {
+   "date": "2021-12-08",
+   "label": "konec ve funkci kancléřky",
+   "type": "resignation",
+   "quote": "Merkel continued to serve as chancellor until 8 December 2021, when Scholz was sworn in."
+  }
+ ],
+ "Angelina Jolie": [
+  {
+   "date": "2001-08-27",
+   "label": "jmenována velvyslankyní dobré vůle UNHCR",
+   "type": "office",
+   "quote": "Jolie was named a UNHCR Goodwill Ambassador at UNHCR headquarters in Geneva on August 27, 2001."
+  },
+  {
+   "date": "2012-04-17",
+   "label": "jmenována zvláštní vyslankyní UNHCR",
+   "type": "office",
+   "quote": "On April 17, 2012, after more than a decade of service as a UNHCR Goodwill Ambassador, Jolie was promoted to the rank of Special Envoy to High Commissioner António Guterres"
+  },
+  {
+   "date": "2013-02-16",
+   "label": "preventivní dvojitá mastektomie",
+   "type": "event",
+   "quote": "On February 16, 2013, at age 37, Jolie underwent a preventive double mastectomy"
+  }
+ ],
+ "Anne Frank": [
+  {
+   "date": "1942-06-12",
+   "label": "dostala deník k narozeninám",
+   "type": "event",
+   "quote": "For her thirteenth birthday on 12 June 1942, Anne received an autograph book"
+  },
+  {
+   "date": "1944-08-01",
+   "label": "poslední zápis do deníku",
+   "type": "work",
+   "quote": "Anne continued writing regularly until her last entry on 1 August 1944."
+  },
+  {
+   "date": "1944-08-04",
+   "label": "zatčení gestapem v úkrytu",
+   "type": "arrest",
+   "quote": "The family were arrested two years later by the Gestapo, on 4 August 1944."
+  }
+ ],
+ "Antonín Dvořák": [
+  {
+   "date": "1885-04-22",
+   "label": "premiéra 7. symfonie v Londýně",
+   "type": "premiere",
+   "quote": "Dvořák wrote his Symphony No. 7 and conducted its premiere at St James's Hall on 22 April 1885."
+  },
+  {
+   "date": "1892-10-21",
+   "label": "první koncert v New Yorku",
+   "type": "premiere",
+   "quote": "It was premiered at Dvořák's first concert in New York on 21 October 1892."
+  },
+  {
+   "date": "1896-03-16",
+   "label": "premiéra Violoncellového koncertu",
+   "type": "premiere",
+   "quote": "Dvořák's concerto premiered in London on 16 March 1896, with the English cellist Leo Stern."
+  }
+ ],
+ "Antonín Holý": [],
+ "Antonín Panenka": [
+  {
+   "date": "2008-10-28",
+   "label": "medaile Za zásluhy I. stupně",
+   "type": "award",
+   "quote": "Dne 28. října 2008 mu prezident ČR Václav Klaus udělil státní vyznamenání – Medaili Za zásluhy I. stupně",
+   "lang": "cs",
+   "article": "Antonín Panenka"
+  }
+ ],
+ "Archduke Franz Ferdinand of Austria": [
+  {
+   "date": "1914-06-28",
+   "label": "atentát v Sarajevu",
+   "type": "event",
+   "quote": "On 28 June 1914, Franz Ferdinand and his wife were assassinated in Sarajevo by the 19-year-old Gavrilo Princip"
+  }
+ ],
+ "Arnold Schwarzenegger": [
+  {
+   "date": "1983-09-17",
+   "label": "získal americké občanství",
+   "type": "event",
+   "quote": "Schwarzenegger became a naturalized U.S. citizen on September 17, 1983."
+  },
+  {
+   "date": "2003-10-07",
+   "label": "zvolen guvernérem Kalifornie v odvolávacích volbách",
+   "type": "election",
+   "quote": "On October 7, 2003, the recall election resulted in Governor Gray Davis being removed from office"
+  },
+  {
+   "date": "2006-09-27",
+   "label": "podpis kalifornského klimatického zákona",
+   "type": "event",
+   "quote": "On September 27, 2006, Schwarzenegger signed the Global Warming Solutions Act of 2006, creating the nation's first cap on greenhouse gas emissions."
+  },
+  {
+   "date": "2006-11-07",
+   "label": "znovuzvolení guvernérem",
+   "type": "election",
+   "quote": "Schwarzenegger ran for re-election against Democrat Phil Angelides, the California State Treasurer, in the 2006 elections, held on November 7, 2006."
+  }
+ ],
+ "Arnošt Lustig": [],
+ "Audrey Hepburn": [
+  {
+   "date": "1951-11-24",
+   "label": "broadwayská premiéra hry Gigi",
+   "type": "premiere",
+   "quote": "When Gigi opened at the Fulton Theatre on 24 November 1951, she received praise for her performance"
+  },
+  {
+   "date": "1953-09-07",
+   "label": "na obálce časopisu Time",
+   "type": "event",
+   "quote": "She was featured on 7 September 1953 cover of Time magazine"
+  },
+  {
+   "date": "1954-02-18",
+   "label": "premiéra hry Ondina na Broadwayi",
+   "type": "premiere",
+   "quote": "Ondine opened on February 18, 1954, and closed on July 3, 1954, after 157 performances."
+  }
+ ],
+ "Auguste Rodin": [],
+ "Ayrton Senna": [],
+ "Barack Obama": [
+  {
+   "date": "2009-01-20",
+   "label": "inaugurace 44. prezidentem USA",
+   "type": "office",
+   "quote": "The inauguration of Barack Obama as the 44th president took place on January 20, 2009."
+  },
+  {
+   "date": "2009-10-09",
+   "label": "Nobelova cena míru",
+   "type": "award",
+   "quote": "On October 9, 2009—only nine months into his first term—the Norwegian Nobel Committee announced that Obama had won the 2009 Nobel Peace Prize"
+  },
+  {
+   "date": "2010-03-23",
+   "label": "podpis zdravotní reformy",
+   "type": "event",
+   "quote": "Obama signed the bill into law on March 23, 2010."
+  },
+  {
+   "date": "2012-11-06",
+   "label": "znovuzvolen prezidentem",
+   "type": "election",
+   "quote": "On November 6, 2012, Obama won 332 electoral votes, exceeding the 270 required for him to be reelected as president."
+  }
+ ],
+ "Bedřich Smetana": [
+  {
+   "date": "1866-01-05",
+   "label": "premiéra opery Braniboři v Čechách",
+   "type": "premiere",
+   "quote": "on 5 January 1866, The Brandenburgers had been performed to an enthusiastic reception at the Provisional Theatre"
+  },
+  {
+   "date": "1866-05-30",
+   "label": "premiéra opery Prodaná nevěsta",
+   "type": "premiere",
+   "quote": "the management of the Provisional Theatre readily agreed to stage the new opera, which was premiered on 30 May 1866 in its original two-act version"
+  },
+  {
+   "date": "1881-06-11",
+   "label": "premiéra Libuše při otevření Národního divadla",
+   "type": "premiere",
+   "quote": "The long-delayed premiere of Smetana's opera Libuše finally arrived when the National Theatre opened on 11 June 1881."
+  },
+  {
+   "date": "1882-11-05",
+   "label": "první uvedení celého cyklu Má vlast",
+   "type": "premiere",
+   "quote": "the complete cycle being first performed on 5 November 1882 under the baton of Adolf Čech"
+  }
+ ],
+ "Bernard Montgomery": [
+  {
+   "date": "1942-10-23",
+   "label": "druhá bitva u El Alameinu",
+   "type": "battle",
+   "quote": "The Second Battle of El Alamein began on 23 October 1942"
+  },
+  {
+   "date": "1944-06-06",
+   "label": "velení spojeneckým pozemním silám v Normandii",
+   "type": "office",
+   "quote": "he was in command of all Allied ground forces from 6 June 1944 until 1 September 1944"
+  },
+  {
+   "date": "1945-05-04",
+   "label": "přijetí německé kapitulace",
+   "type": "event",
+   "quote": "On 4 May 1945, Montgomery accepted the surrender of the German forces in north-western Europe at Lüneburg Heath"
+  }
+ ],
+ "Bill Clinton": [
+  {
+   "date": "1993-01-20",
+   "label": "inaugurace 42. prezidentem USA",
+   "type": "office",
+   "quote": "Clinton was inaugurated as the 42nd president of the United States on January 20, 1993."
+  },
+  {
+   "date": "1998-12-19",
+   "label": "impeachment ve Sněmovně reprezentantů",
+   "type": "scandal",
+   "quote": "Clinton was impeached on December 19, 1998, by the House of Representatives."
+  },
+  {
+   "date": "1999-02-12",
+   "label": "zproštění viny v Senátu",
+   "type": "trial",
+   "quote": "The Senate finished a twenty-one-day trial on February 12, 1999"
+  }
+ ],
+ "Bill Gates": [
+  {
+   "date": "1976-11-26",
+   "label": "registrace obchodního jména Microsoft",
+   "type": "founding",
+   "quote": "officially registered the trade name \"Microsoft\" with the Secretary of the State of New Mexico on November 26, 1976"
+  },
+  {
+   "date": "1981-06-25",
+   "label": "prezidentem a předsedou správní rady Microsoftu",
+   "type": "office",
+   "quote": "Gates oversaw Microsoft's company restructuring on June 25, 1981, which re-incorporated the company in Washington state and made Gates the president and chairman of the board"
+  },
+  {
+   "date": "1985-11-20",
+   "label": "vydání první verze Windows",
+   "type": "work",
+   "quote": "Microsoft and Gates launched their first retail version of Microsoft Windows on November 20, 1985"
+  },
+  {
+   "date": "2010-12-09",
+   "label": "podpis závazku Giving Pledge",
+   "type": "event",
+   "quote": "on December 9, 2010, Bill and Melinda Gates and investor Warren Buffett each signed a commitment they called the \"Giving Pledge\""
+  }
+ ],
+ "Billy Graham": [
+  {
+   "date": "1989-10-15",
+   "label": "hvězda na hollywoodském chodníku slávy",
+   "type": "award",
+   "quote": "On October 15, 1989, Graham received a star on the Hollywood Walk of Fame."
+  },
+  {
+   "date": "1991-09-22",
+   "label": "největší shromáždění v Central Parku",
+   "type": "event",
+   "quote": "On September 22, 1991, Graham held his largest event in North America on the Great Lawn of Manhattan's Central Park."
+  },
+  {
+   "date": "2001-09-14",
+   "label": "bohoslužba po útocích 11. září",
+   "type": "event",
+   "quote": "On September 14, 2001 (only three days after the World Trade Center attacks), Graham was invited to lead a service at Washington National Cathedral"
+  }
+ ],
+ "Bob Dylan": [
+  {
+   "date": "1963-08-28",
+   "label": "vystoupení na Pochodu na Washington",
+   "type": "event",
+   "quote": "Dylan and Baez were prominent in the civil rights movement, singing together at the March on Washington on August 28, 1963."
+  },
+  {
+   "date": "1965-07-25",
+   "label": "první elektrický koncert v Newportu",
+   "type": "event",
+   "quote": "On July 25, 1965, headlining the Newport Folk Festival, Dylan performed his first electric set since high school"
+  },
+  {
+   "date": "1966-07-29",
+   "label": "nehoda na motocyklu",
+   "type": "event",
+   "quote": "On July 29, 1966, Dylan crashed his Triumph Tiger 100 motorcycle near his home in Woodstock, New York."
+  },
+  {
+   "date": "2016-10-13",
+   "label": "oznámení Nobelovy ceny za literaturu",
+   "type": "award",
+   "quote": "On October 13, 2016, the Nobel committee announced that it would award Dylan the prize"
+  }
+ ],
+ "Bobby Orr": [
+  {
+   "date": "1966-10-19",
+   "label": "debut v NHL",
+   "type": "event",
+   "quote": "Orr made his NHL regular-season debut on October 19, 1966, against the Detroit Red Wings, getting one assist."
+  },
+  {
+   "date": "1970-05-10",
+   "label": "vítězný gól a zisk Stanley Cupu",
+   "type": "title",
+   "quote": "The march culminated on May 10, 1970, when he scored one of the most famous goals in hockey history and one that gave Boston its first Stanley Cup since 1941."
+  },
+  {
+   "date": "1971-08-26",
+   "label": "první milionová smlouva v NHL",
+   "type": "record",
+   "quote": "Orr signed a new five-year contract on August 26, 1971, for US$200,000"
+  },
+  {
+   "date": "1979-01-09",
+   "label": "vyřazení dresu č. 4 v Bostonu",
+   "type": "award",
+   "quote": "His number 4 jersey was retired by the Bruins on January 9, 1979."
+  }
+ ],
+ "Bohumil Hrabal": [],
+ "Bohuslav Martinů": [
+  {
+   "date": "1938-03-14",
+   "label": "pražská premiéra pod Talichem",
+   "type": "premiere",
+   "quote": "Its premiere was given in Prague under Václav Talich on 14 March 1938."
+  },
+  {
+   "date": "1945-11-03",
+   "label": "newyorská premiéra skladby s thereminem",
+   "type": "premiere",
+   "quote": "the theremin soloist at its premiere at New York's Town Hall on 3 November 1945"
+  }
+ ],
+ "Božena Němcová": [
+  {
+   "date": "1843-04-05",
+   "label": "otištěna první báseň Ženám českým",
+   "type": "publication",
+   "quote": "Její první báseň, Ženám českým, byla na přímluvu Nebeského otištěna 5. dubna 1843 v Květech",
+   "lang": "cs",
+   "article": "Božena Němcová"
+  },
+  {
+   "date": "1845-07-01",
+   "label": "vyšel první sešit",
+   "type": "publication",
+   "quote": "První sešit vyšel 1. července 1845",
+   "lang": "cs",
+   "article": "Božena Němcová"
+  },
+  {
+   "date": "1846-06-16",
+   "label": "otištěna povídka Domácí nemoc",
+   "type": "publication",
+   "quote": "„Domácí nemoc“ (časopis Česká včela, 16. června 1846)",
+   "lang": "cs",
+   "article": "Božena Němcová"
+  }
+ ],
+ "Brad Pitt": [
+  {
+   "date": "2001-11-22",
+   "label": "hostování v seriálu Přátelé",
+   "type": "event",
+   "quote": "On November 22, 2001, Pitt made a guest appearance in the eighth season of the television series Friends"
+  },
+  {
+   "date": "2015-06-02",
+   "label": "planetka 29132 Bradpitt pojmenována po něm",
+   "type": "award",
+   "quote": "On June 2, 2015, the minor planet 29132 Bradpitt was named in his honor."
+  }
+ ],
+ "Brigitte Bardot": [
+  {
+   "date": "1950-03-08",
+   "label": "obálka časopisu Elle a nabídka hrát",
+   "type": "breakthrough",
+   "quote": "On 8 March 1950, 15-year-old Bardot appeared on the cover of Elle"
+  },
+  {
+   "date": "2004-06-10",
+   "label": "odsouzena za podněcování rasové nenávisti",
+   "type": "trial",
+   "quote": "On 10 June 2004, Bardot was convicted for a fourth time by a French court for inciting racial hatred"
+  },
+  {
+   "date": "2021-11-04",
+   "label": "odsouzena za urážku obyvatel Réunionu",
+   "type": "trial",
+   "quote": "she was convicted on 4 November 2021 by a French court for public insults and fined €20,000"
+  }
+ ],
+ "Carl Jung": [
+  {
+   "date": "1907-03-03",
+   "label": "první setkání s Freudem",
+   "type": "event",
+   "quote": "Jung met Freud for the first time in Vienna on 3 March 1907."
+  }
+ ],
+ "Catherine the Great": [
+  {
+   "date": "1762-07-08",
+   "label": "převrat proti Petrovi III.",
+   "type": "event",
+   "quote": "On the night of 8 July 1762 (OS: 27 June 1762), Catherine was given the news that one of her co-conspirators had been arrested"
+  },
+  {
+   "date": "1762-09-22",
+   "label": "korunovace v Moskvě",
+   "type": "coronation",
+   "calendar": "julian",
+   "quote": "Catherine was crowned at the Assumption Cathedral in Moscow on 22 September 1762."
+  },
+  {
+   "date": "1774-07-21",
+   "label": "mír v Küçük Kaynarca",
+   "type": "treaty",
+   "quote": "The Treaty of Küçük Kaynarca, signed 21 July 1774 (OS: 10 July 1774)"
+  }
+ ],
+ "Catherine, Princess of Wales": [
+  {
+   "date": "2011-04-29",
+   "label": "sňatek s princem Williamem",
+   "type": "title",
+   "quote": "She became Duchess of Cambridge on their marriage at Westminster Abbey on 29 April 2011."
+  },
+  {
+   "date": "2022-09-09",
+   "label": "stala se princeznou z Walesu",
+   "type": "title",
+   "quote": "She became Princess of Wales on 9 September 2022, when William was created Prince of Wales by his father, King Charles III."
+  }
+ ],
+ "Charles Darwin": [
+  {
+   "date": "1831-12-27",
+   "label": "začátek plavby na lodi Beagle",
+   "type": "event",
+   "quote": "After delays, the voyage began on 27 December 1831; it lasted almost five years."
+  },
+  {
+   "date": "1858-07-01",
+   "label": "společné představení teorie s Wallacem",
+   "type": "breakthrough",
+   "quote": "the joint reading on 1 July 1858 of papers by Darwin and Wallace publishing their theory"
+  },
+  {
+   "date": "1859-11-22",
+   "label": "vydání O vzniku druhů",
+   "type": "publication",
+   "quote": "On the Origin of Species proved unexpectedly popular, with the entire stock of 1,250 copies oversubscribed when it went on sale to booksellers on 22 November 1859."
+  }
+ ],
+ "Charles III": [
+  {
+   "date": "1969-07-01",
+   "label": "investitura princem z Walesu",
+   "type": "office",
+   "quote": "his investiture did not take place until 1 July 1969, when he was crowned by his mother in a televised ceremony at Caernarfon Castle"
+  },
+  {
+   "date": "2022-09-08",
+   "label": "nástup na britský trůn",
+   "type": "office",
+   "quote": "Charles acceded to the British throne on his mother's death on 8 September 2022."
+  },
+  {
+   "date": "2023-05-06",
+   "label": "korunovace ve Westminsterském opatství",
+   "type": "coronation",
+   "quote": "On 6 May 2023, Charles and Camilla's coronation took place at Westminster Abbey"
+  }
+ ],
+ "Charles IV, Holy Roman Emperor": [
+  {
+   "date": "1346-07-11",
+   "label": "zvolen římským králem",
+   "type": "election",
+   "quote": "On 11 July 1346, the prince-electors chose him as King of the Romans"
+  },
+  {
+   "date": "1347-09-02",
+   "label": "korunovace českým králem",
+   "type": "coronation",
+   "quote": "On 2 September 1347, Charles was crowned King of Bohemia."
+  },
+  {
+   "date": "1365-06-04",
+   "label": "korunovace burgundským králem v Arles",
+   "type": "coronation",
+   "quote": "On 4 June 1365, Charles IV was solemnly crowned as king at Arles"
+  }
+ ],
+ "Charles de Gaulle": [
+  {
+   "date": "1945-11-13",
+   "label": "zvolen předsedou vlády",
+   "type": "election",
+   "quote": "On 13 November 1945, the new assembly unanimously elected Charles de Gaulle as head of the government"
+  },
+  {
+   "date": "1958-06-01",
+   "label": "návrat do čela vlády",
+   "type": "office",
+   "quote": "On 1 June 1958, de Gaulle became prime minister and was given emergency powers for six months by the National Assembly"
+  },
+  {
+   "date": "1962-08-22",
+   "label": "atentát v Petit-Clamart",
+   "type": "assassination_attempt",
+   "quote": "One such assassination attempt occurred on 22 August 1962, when he and his wife narrowly escaped from an organized machine gun ambush"
+  },
+  {
+   "date": "1969-04-28",
+   "label": "rezignace na prezidentský úřad",
+   "type": "resignation",
+   "quote": "De Gaulle resigned the presidency at noon on 28 April 1969"
+  }
+ ],
+ "Charlie Chaplin": [
+  {
+   "date": "1914-02-07",
+   "label": "první uvedení postavy Tuláka",
+   "type": "premiere",
+   "quote": "debuted to audiences in Kid Auto Races at Venice – shot later than Mabel's Strange Predicament but released two days earlier on 7 February 1914"
+  },
+  {
+   "date": "1914-05-04",
+   "label": "režijní debut Caught in the Rain",
+   "type": "premiere",
+   "quote": "Caught in the Rain, issued on 4 May 1914, was Chaplin's directorial debut and was highly successful."
+  },
+  {
+   "date": "1925-07-06",
+   "label": "první filmová hvězda na obálce Time",
+   "type": "event",
+   "quote": "On 6 July 1925, Chaplin became the first movie star to be featured on a Time cover."
+  },
+  {
+   "date": "1944-03-21",
+   "label": "začátek soudu podle Mannova zákona",
+   "type": "trial",
+   "quote": "the Mann Act trial began on 21 March 1944"
+  }
+ ],
+ "Che Guevara": [
+  {
+   "date": "1956-11-25",
+   "label": "vyplutí na Kubu",
+   "type": "event",
+   "quote": "They set out for Cuba on 25 November 1956."
+  },
+  {
+   "date": "1959-01-01",
+   "label": "vítězství revoluce, útěk Batisty",
+   "type": "event",
+   "quote": "At 3am on 1 January 1959, upon learning that his generals were negotiating a separate peace with Guevara, Fulgencio Batista boarded a plane in Havana"
+  },
+  {
+   "date": "1965-02-24",
+   "label": "poslední veřejný projev v Alžíru",
+   "type": "event",
+   "quote": "In Algiers, on 24 February 1965, Guevara made what turned out to be his last public appearance on the international stage"
+  }
+ ],
+ "Claude Monet": [
+  {
+   "date": "1877-04-05",
+   "label": "vystavení obrazů nádraží Saint-Lazare",
+   "type": "premiere",
+   "quote": "For the third exhibition, on 5 April 1877, he selected seven paintings from the dozen he had made of Gare Saint-Lazare"
+  },
+  {
+   "date": "1909-05-06",
+   "label": "výstava Lekníny",
+   "type": "premiere",
+   "quote": "the exhibition Les Nymphéas opened on 6 May 1909."
+  }
+ ],
+ "Coco Chanel": [
+  {
+   "date": "1941-05-05",
+   "label": "dopis úřadu pro židovský majetek",
+   "type": "scandal",
+   "quote": "On 5 May 1941, she wrote to the government administrator charged with ruling on the disposition of Jewish financial assets."
+  },
+  {
+   "date": "1947-05-17",
+   "label": "podíl na válečných ziscích z Chanel No. 5",
+   "type": "event",
+   "quote": "On 17 May 1947, Chanel received wartime profits from the sale of Chanel No. 5"
+  }
+ ],
+ "Connor McDavid": [
+  {
+   "date": "2015-10-09",
+   "label": "debut v NHL",
+   "type": "event",
+   "quote": "He made his NHL debut on October 9, 2015, nearly scoring twice but stopped by Brian Elliott both times"
+  },
+  {
+   "date": "2016-10-05",
+   "label": "jmenován kapitánem Edmontonu",
+   "type": "office",
+   "quote": "On October 5, 2016, the Oilers named McDavid their captain for the 2016–17 season."
+  },
+  {
+   "date": "2024-04-15",
+   "label": "100 asistencí v jedné sezóně",
+   "type": "record",
+   "quote": "On April 15, 2024, McDavid recorded his 100th assist of the 2023–24 season"
+  },
+  {
+   "date": "2026-06-07",
+   "label": "pátá Ted Lindsay Award",
+   "type": "award",
+   "quote": "On June 7, 2026, it was announced McDavid was voted as the winner of the Ted Lindsay Award for the fifth time"
+  }
+ ],
+ "Cristiano Ronaldo": [
+  {
+   "date": "2003-08-12",
+   "label": "přestup do Manchesteru United",
+   "type": "event",
+   "quote": "On 12 August 2003, less than a week after the match that impressed Ferguson, Manchester United signed Ronaldo for £12 million"
+  },
+  {
+   "date": "2015-09-12",
+   "label": "nejlepší střelec historie Realu Madrid",
+   "type": "record",
+   "quote": "Ronaldo became Real Madrid's all-time top scorer on 12 September 2015 against Espanyol"
+  },
+  {
+   "date": "2021-06-23",
+   "label": "rekord v reprezentačních gólech",
+   "type": "record",
+   "quote": "On 23 June 2021, Ronaldo scored two goals in the Euro 2020 match against France, breaking the men's goalscoring record previously held by Ali Daei."
+  },
+  {
+   "date": "2023-03-23",
+   "label": "rekord v počtu reprezentačních startů",
+   "type": "record",
+   "quote": "On 23 March 2023, Ronaldo scored two goals against Liechtenstein as he earned his 197th overall cap to become the most capped male footballer of all time."
+  }
+ ],
+ "Dana Zátopková": [
+  {
+   "date": "1952-07-24",
+   "label": "olympijské zlato v hodu oštěpem",
+   "type": "award",
+   "quote": "Svoji zlatou medaili v hodu oštěpem získala 24. července 1952",
+   "lang": "cs",
+   "article": "Dana Zátopková"
+  },
+  {
+   "date": "1958-06-01",
+   "label": "světový rekord v hodu oštěpem",
+   "type": "record",
+   "quote": "On 1 June 1958, she became the oldest woman in the sport of athletics to break a world record"
+  }
+ ],
+ "Daniela Peštová": [],
+ "David Beckham": [
+  {
+   "date": "1996-09-01",
+   "label": "debut v anglické reprezentaci",
+   "type": "event",
+   "quote": "On 1 September 1996, Beckham made his first appearance for England in a FIFA World Cup qualifying match against Moldova."
+  },
+  {
+   "date": "2000-11-15",
+   "label": "jmenován kapitánem Anglie",
+   "type": "office",
+   "quote": "On 15 November 2000, following Kevin Keegan's resignation as England manager in October, Beckham was promoted to team captain"
+  },
+  {
+   "date": "2003-07-01",
+   "label": "přestup do Realu Madrid",
+   "type": "event",
+   "quote": "The transfer to Real Madrid was announced in mid-June and formally completed on 1 July 2003"
+  },
+  {
+   "date": "2007-01-11",
+   "label": "podpis smlouvy s LA Galaxy",
+   "type": "event",
+   "quote": "On 11 January 2007, Beckham announced that he had signed a five-year deal to play for the LA Galaxy"
+  }
+ ],
+ "David Bowie": [
+  {
+   "date": "1969-07-11",
+   "label": "vydání singlu Space Oddity",
+   "type": "work",
+   "quote": "who issued \"Space Oddity\" as a single on 11 July 1969, five days ahead of the Apollo 11 launch"
+  },
+  {
+   "date": "1972-02-10",
+   "label": "první vystoupení jako Ziggy Stardust",
+   "type": "premiere",
+   "quote": "Bowie launched his Ziggy Stardust stage show with the Spiders from Mars—Ronson, Bolder, and Woodmansey—at the Toby Jug pub in Tolworth in Kingston upon Thames on 10 February 1972."
+  },
+  {
+   "date": "1973-07-03",
+   "label": "ohlášený konec Ziggyho v Hammersmith Odeon",
+   "type": "event",
+   "quote": "abrupt on-stage \"retirement\" at London's Hammersmith Odeon on 3 July 1973"
+  },
+  {
+   "date": "2016-01-08",
+   "label": "vydání alba Blackstar",
+   "type": "work",
+   "quote": "Blackstar was released on 8 January 2016, Bowie's 69th birthday, and was met with critical acclaim."
+  }
+ ],
+ "David Pastrňák": [
+  {
+   "date": "2015-01-10",
+   "label": "první góly v NHL",
+   "type": "event",
+   "quote": "He scored the first two goals of his NHL career against Ray Emery on 10 January 2015"
+  },
+  {
+   "date": "2023-03-02",
+   "label": "osmiletá smlouva za 90 milionů dolarů",
+   "type": "event",
+   "quote": "Pastrňák signed a $90 million, eight-year contract extension with the team on 2 March 2023."
+  },
+  {
+   "date": "2026-09-27",
+   "label": "jmenován kapitánem Bostonu",
+   "type": "office",
+   "quote": "On 27 September 2026, Pastrňák was named the 28th captain in Bruins history"
+  }
+ ],
+ "Desmond Tutu": [
+  {
+   "date": "1984-10-16",
+   "label": "Nobelova cena míru",
+   "type": "award",
+   "quote": "On 16 October 1984, Tutu was awarded the Nobel Peace Prize."
+  },
+  {
+   "date": "1986-09-07",
+   "label": "intronizace v katedrále sv. Jiří",
+   "type": "office",
+   "quote": "More than 1,300 people attended his enthronement ceremony at the Cathedral of St George the Martyr on 7 September 1986."
+  }
+ ],
+ "Diana, Princess of Wales": [
+  {
+   "date": "1981-02-24",
+   "label": "oficiální zasnoubení s princem Charlesem",
+   "type": "event",
+   "quote": "Their engagement became official on 24 February 1981."
+  },
+  {
+   "date": "1981-07-29",
+   "label": "sňatek a titul princezny z Walesu",
+   "type": "title",
+   "quote": "Diana became Princess of Wales at age 20 when she married Charles, then 32, on 29 July 1981."
+  },
+  {
+   "date": "1995-11-20",
+   "label": "odvysílání jejího televizního rozhovoru",
+   "type": "scandal",
+   "quote": "The interview was broadcast on 20 November 1995."
+  },
+  {
+   "date": "1996-08-28",
+   "label": "rozvod s princem Charlesem",
+   "type": "event",
+   "quote": "The decree nisi was granted on 15 July 1996, and the divorce was finalised on 28 August 1996."
+  }
+ ],
+ "Diego Maradona": [
+  {
+   "date": "1976-10-20",
+   "label": "profesionální debut za Argentinos Juniors",
+   "type": "event",
+   "quote": "On 20 October 1976, Maradona made his professional debut for Argentinos Juniors, ten days before his 16th birthday."
+  },
+  {
+   "date": "1977-02-27",
+   "label": "debut v argentinské reprezentaci",
+   "type": "event",
+   "quote": "Maradona made his full international debut at age 16, against Hungary, on 27 February 1977"
+  },
+  {
+   "date": "1984-07-05",
+   "label": "představen jako hráč Neapole",
+   "type": "event",
+   "quote": "On 5 July 1984, Maradona was presented as a Napoli player in front of 75,000 spectators at the Stadio San Paolo"
+  },
+  {
+   "date": "2008-10-29",
+   "label": "trenérem argentinské reprezentace",
+   "type": "office",
+   "quote": "On 29 October 2008, AFA chairman Julio Grondona confirmed that Maradona would be the head coach of the national team."
+  }
+ ],
+ "Dietrich Bonhoeffer": [
+  {
+   "date": "1943-04-05",
+   "label": "zatčen a uvězněn",
+   "type": "arrest",
+   "quote": "On 5 April 1943, Bonhoeffer and Dohnányi were arrested and imprisoned."
+  },
+  {
+   "date": "1945-04-08",
+   "label": "odsouzen k smrti stanným soudem",
+   "type": "trial",
+   "quote": "Bonhoeffer was sentenced to death on 8 April 1945 by SS judge Otto Thorbeck at a drumhead court-martial"
+  },
+  {
+   "date": "1945-04-09",
+   "label": "popraven ve Flossenbürgu",
+   "type": "event",
+   "quote": "He was executed in Flossenbürg concentration camp by hanging at dawn on 9 April 1945."
+  }
+ ],
+ "Dominik Hašek": [
+  {
+   "date": "1992-08-07",
+   "label": "výměna do Buffala",
+   "type": "event",
+   "quote": "traded Hašek to the Buffalo Sabres on August 7, 1992"
+  },
+  {
+   "date": "1994-04-27",
+   "label": "legendární výkon v play-off",
+   "type": "record",
+   "quote": "One of the most impressive single-game performances by any player in NHL history came on 27 April 1994."
+  },
+  {
+   "date": "2008-06-09",
+   "label": "konec v NHL po druhém Stanley Cupu",
+   "type": "resignation",
+   "quote": "On 9 June 2008, Hašek announced his retirement from the NHL, only five days after winning his second Stanley Cup with the Red Wings"
+  },
+  {
+   "date": "2014-11-17",
+   "label": "uveden do Hokejové síně slávy",
+   "type": "award",
+   "quote": "Hašek was inducted into the Hockey Hall of Fame on 17 November 2014."
+  }
+ ],
+ "Donald Trump": [
+  {
+   "date": "2017-01-20",
+   "label": "první inaugurace prezidentem USA",
+   "type": "office",
+   "quote": "Trump was inaugurated on January 20, 2017."
+  },
+  {
+   "date": "2021-01-13",
+   "label": "druhý impeachment",
+   "type": "scandal",
+   "quote": "the House charged Trump with incitement of insurrection on January 13, 2021."
+  },
+  {
+   "date": "2024-07-13",
+   "label": "atentát v Butleru",
+   "type": "assassination_attempt",
+   "quote": "On July 13, 2024, Trump was shot in the ear in an assassination attempt"
+  },
+  {
+   "date": "2025-01-20",
+   "label": "druhá inaugurace prezidentem",
+   "type": "office",
+   "quote": "Trump began his second term upon his inauguration on January 20, 2025."
+  }
+ ],
+ "Dwight D. Eisenhower": [
+  {
+   "date": "1944-06-06",
+   "label": "vylodění v Normandii",
+   "type": "battle",
+   "quote": "The D-Day Normandy landings on June 6, 1944 were costly but successful."
+  },
+  {
+   "date": "1944-12-20",
+   "label": "povýšen na armádního generála",
+   "type": "office",
+   "quote": "on December 20, 1944, he was promoted to General of the Army"
+  },
+  {
+   "date": "1953-12-08",
+   "label": "projev Atomy pro mír v OSN",
+   "type": "event",
+   "quote": "Eisenhower gave the Atoms for Peace speech to the United Nations General Assembly on December 8, 1953"
+  },
+  {
+   "date": "1961-01-17",
+   "label": "rozlučkový projev k národu",
+   "type": "event",
+   "quote": "On January 17, 1961, Eisenhower gave his final televised Address to the Nation from the Oval Office."
+  }
+ ],
+ "Edvard Beneš": [
+  {
+   "date": "1938-10-05",
+   "label": "abdikace po Mnichovu",
+   "type": "resignation",
+   "quote": "Beneš was forced to resign on 5 October 1938, under German pressure"
+  },
+  {
+   "date": "1940-07-21",
+   "label": "uznání exilové vlády s ním v čele",
+   "type": "office",
+   "quote": "On 21 July 1940, the United Kingdom recognised the National Liberation Committee as being the Czechoslovak government-in-exile"
+  },
+  {
+   "date": "1946-06-19",
+   "label": "zvolen podruhé prezidentem",
+   "type": "election",
+   "quote": "On 19 June 1946, Beneš was formally elected to his second term as president."
+  },
+  {
+   "date": "1948-06-07",
+   "label": "abdikace po komunistickém převratu",
+   "type": "resignation",
+   "quote": "He resigned as president on 7 June 1948"
+  }
+ ],
+ "Egon Schiele": [
+  {
+   "date": "1912-04-13",
+   "label": "zatčení v Neulengbachu",
+   "type": "arrest",
+   "quote": "nemohla zabránit Schieleho zatčení v Neulengbachu dne 13. dubna 1912.",
+   "lang": "cs",
+   "article": "Egon Schiele"
+  }
+ ],
+ "Elizabeth II": [
+  {
+   "date": "1952-02-06",
+   "label": "nástup na britský trůn",
+   "type": "office",
+   "quote": "was Queen of the United Kingdom and other Commonwealth realms from 6 February 1952"
+  },
+  {
+   "date": "2015-09-09",
+   "label": "nejdéle vládnoucí britská panovnice",
+   "type": "record",
+   "quote": "she became the longest-reigning British monarch and longest-reigning queen regnant and female head of state in the world on 9 September 2015"
+  },
+  {
+   "date": "2022-02-06",
+   "label": "začátek platinového jubilea",
+   "type": "event",
+   "quote": "Elizabeth's Platinum Jubilee celebrations began on 6 February 2022, marking 70 years since her accession."
+  }
+ ],
+ "Elon Musk": [
+  {
+   "date": "2022-10-27",
+   "label": "koupě společnosti po původním odstoupení",
+   "type": "event",
+   "quote": "Having backtracked on his initial decision, Musk bought the company on October 27, 2022."
+  },
+  {
+   "date": "2025-05-28",
+   "label": "odchod z vládní funkce",
+   "type": "resignation",
+   "quote": "Musk departed on May 28, 2025, when the special government employee's 130 day deadline expired."
+  },
+  {
+   "date": "2026-03-20",
+   "label": "porota: odpovědnost za klamání investorů",
+   "type": "trial",
+   "quote": "On March 20, 2026, a jury in San Francisco, California, found Musk liable for misleading investors during his acquisition of Twitter"
+  }
+ ],
+ "Elvis Presley": [
+  {
+   "date": "1956-01-10",
+   "label": "první nahrávky pro RCA Victor",
+   "type": "work",
+   "quote": "On January 10, 1956, Presley made his first recordings for RCA Victor in Nashville."
+  },
+  {
+   "date": "1956-09-09",
+   "label": "první vystoupení v Ed Sullivan Show",
+   "type": "record",
+   "quote": "The first, on September 9, 1956, was seen by approximately 60 million viewers"
+  },
+  {
+   "date": "1958-03-24",
+   "label": "odveden do armády USA",
+   "type": "event",
+   "quote": "On March 24, 1958, Presley was drafted into the United States Army at Fort Chaffee in Arkansas."
+  },
+  {
+   "date": "1968-12-03",
+   "label": "odvysílání Comeback Special",
+   "type": "premiere",
+   "quote": "the special, simply called Elvis, aired on December 3, 1968."
+  }
+ ],
+ "Emil Zátopek": [
+  {
+   "date": "1952-07-20",
+   "label": "olympijské zlato na 10 000 m",
+   "type": "title",
+   "quote": "the 5,000 metres (24 July 1952), 10,000 metres (20 July 1952) and marathon"
+  },
+  {
+   "date": "1952-07-24",
+   "label": "olympijské zlato na 5 000 m",
+   "type": "title",
+   "quote": "Zátopek is the only person to win the 5,000 metres (24 July 1952)"
+  },
+  {
+   "date": "1952-07-27",
+   "label": "olympijské zlato v maratonu",
+   "type": "title",
+   "quote": "10,000 metres (20 July 1952) and marathon (27 July 1952) in the same Olympic Games"
+  },
+  {
+   "date": "1990-03-09",
+   "label": "rehabilitován Václavem Havlem",
+   "type": "event",
+   "quote": "On 9 March 1990, Zátopek was rehabilitated by Václav Havel."
+  }
+ ],
+ "Emil von Škoda": [],
+ "Emmanuel Macron": [
+  {
+   "date": "2014-08-26",
+   "label": "jmenován ministrem hospodářství",
+   "type": "office",
+   "quote": "He was appointed as the Minister of Economics and Finance in the Second Valls government on 26 August 2014"
+  },
+  {
+   "date": "2016-04-06",
+   "label": "založení hnutí En Marche",
+   "type": "founding",
+   "quote": "Macron founded an independent political party, En Marche, in Amiens on 6 April 2016."
+  },
+  {
+   "date": "2017-05-07",
+   "label": "zvolen prezidentem Francie",
+   "type": "election",
+   "quote": "On 7 May 2017, Macron was elected President of France with 66.1% of the vote"
+  },
+  {
+   "date": "2022-05-07",
+   "label": "druhá inaugurace prezidentem",
+   "type": "office",
+   "quote": "Macron's second inauguration took place on 7 May 2022"
+  }
+ ],
+ "Emmy Destinn": [
+  {
+   "date": "1898-07-19",
+   "label": "debut v berlínské dvorní opeře",
+   "type": "premiere",
+   "quote": "She debuted on 19 July 1898 at the Berlin Court Opera as Santuzza in Cavalleria rusticana."
+  },
+  {
+   "date": "1904-05-02",
+   "label": "londýnský debut v Covent Garden",
+   "type": "premiere",
+   "quote": "Destinn made her London debut at Covent Garden's Royal Opera House on 2 May 1904, as Donna Anna in Don Giovanni."
+  }
+ ],
+ "Erling Haaland": [
+  {
+   "date": "2020-01-18",
+   "label": "debut za Dortmund s hattrickem",
+   "type": "event",
+   "quote": "Haaland made his debut for Dortmund away to FC Augsburg on 18 January 2020, coming on as a second-half substitute and scoring a hat-trick within 23 minutes"
+  },
+  {
+   "date": "2022-05-10",
+   "label": "dohoda o přestupu do Manchesteru City",
+   "type": "event",
+   "quote": "On 10 May 2022, Premier League club Manchester City announced they had reached a deal to sign Haaland"
+  },
+  {
+   "date": "2024-10-10",
+   "label": "nejlepší střelec historie Norska",
+   "type": "record",
+   "quote": "On 10 October 2024, Haaland scored twice in a 3–0 Nations League win over Slovenia, reaching 34 international goals to become Norway's all-time top scorer"
+  },
+  {
+   "date": "2026-06-16",
+   "label": "debut na mistrovství světa",
+   "type": "event",
+   "quote": "On 16 June 2026, Haaland made his FIFA World Cup debut against Iraq, scoring twice"
+  }
+ ],
+ "Ernest Hemingway": [
+  {
+   "date": "1929-09-27",
+   "label": "vydání dokončeného románu",
+   "type": "publication",
+   "quote": "The completed novel was published on September 27, 1929."
+  },
+  {
+   "date": "1937-02-27",
+   "label": "odjezd zpravodajsky pokrýt španělskou válku",
+   "type": "event",
+   "quote": "he signed with North American Newspaper Alliance to cover the Spanish Civil War, and sailed from New York on February 27, 1937"
+  },
+  {
+   "date": "1944-12-17",
+   "label": "reportáž z bitvy v Ardenách",
+   "type": "event",
+   "quote": "On December 17, 1944, he traveled to Luxembourg, in spite of illness, to report on the Battle of the Bulge."
+  }
+ ],
+ "Ernst Mach": [],
+ "Erwin Rommel": [
+  {
+   "date": "1940-05-10",
+   "label": "tažení do Francie s 7. tankovou divizí",
+   "type": "battle",
+   "quote": "The invasion began on 10 May 1940."
+  },
+  {
+   "date": "1941-02-06",
+   "label": "velitelem Afrikakorpsu",
+   "type": "office",
+   "quote": "On 6 February 1941, Rommel was appointed commander of the new Afrika Korps"
+  },
+  {
+   "date": "1942-07-01",
+   "label": "první bitva u El Alameinu",
+   "type": "battle",
+   "quote": "The First Battle of El Alamein began on 1 July 1942."
+  },
+  {
+   "date": "1944-07-17",
+   "label": "těžce zraněn při náletu",
+   "type": "event",
+   "quote": "On 17 July 1944, Rommel was gravely wounded in an Allied air attack, removing him from command"
+  }
+ ],
+ "Ester Ledecká": [
+  {
+   "date": "2014-02-19",
+   "label": "olympijský debut",
+   "type": "event",
+   "quote": "Ledecká made her Olympic debut at the 2014 Winter Olympics on 19 February 2014 in the parallel giant slalom snowboarding event."
+  },
+  {
+   "date": "2025-03-20",
+   "label": "třetí zlato z mistrovství světa",
+   "type": "title",
+   "quote": "On Thursday March 20, 2025, Ledecká made history as she claimed her third World Championship gold in the parallel giant slalom"
+  }
+ ],
+ "Eva Herzigová": [],
+ "Ferdinand Porsche": [
+  {
+   "date": "1898-06-26",
+   "label": "představení vozu Egger-Lohner",
+   "type": "work",
+   "quote": "Their first design — unveiled in Vienna, Austria, on 26 June 1898 - was the Egger-Lohner vehicle"
+  },
+  {
+   "date": "1945-12-15",
+   "label": "zatčen jako válečný zločinec",
+   "type": "arrest",
+   "quote": "On 15 December 1945, French authorities arrested Porsche, Anton Piëch, and Ferry Porsche as war criminals."
+  }
+ ],
+ "František Kupka": [],
+ "František Tomášek": [
+  {
+   "date": "1949-10-12",
+   "label": "jmenován pomocným biskupem olomouckým",
+   "type": "office",
+   "quote": "Pope Pius XII appointed Tomášek Auxiliary Bishop of Olomouc on 12 October 1949"
+  },
+  {
+   "date": "1965-02-18",
+   "label": "pověřen správou pražské arcidiecéze",
+   "type": "office",
+   "quote": "Tomášek was appointed on 18 February 1965 to administer the archdiocese"
+  },
+  {
+   "date": "1976-05-24",
+   "label": "tajně jmenován kardinálem",
+   "type": "office",
+   "quote": "On 24 May 1976 Pope Paul VI secretly (in pectore) appointed Tomášek to the College of Cardinals."
+  },
+  {
+   "date": "1991-03-27",
+   "label": "rezignace na vedení arcidiecéze",
+   "type": "resignation",
+   "quote": "On 27 March 1991, when Tomášek was almost 92 years old (long past the age of 75 at which bishops are to offer their resignation), his resignation from the governance of the Archdiocese of Prague was made effective."
+  }
+ ],
+ "Franz Beckenbauer": [
+  {
+   "date": "1965-09-26",
+   "label": "debut v reprezentaci NSR",
+   "type": "event",
+   "quote": "He made his debut in a World Cup qualification match against Sweden in Stockholm on 26 September 1965"
+  },
+  {
+   "date": "1982-05-15",
+   "label": "založení nadace Franze Beckenbauera",
+   "type": "founding",
+   "quote": "Beckenbauer established the foundation Franz-Beckenbauer-Stiftung in Hamburg on 15 May 1982"
+  },
+  {
+   "date": "1984-09-12",
+   "label": "jmenován trenérem reprezentace NSR",
+   "type": "office",
+   "quote": "Beckenbauer was appointed manager of the West Germany national team to replace Jupp Derwall on 12 September 1984."
+  }
+ ],
+ "Franz Joseph I": [
+  {
+   "date": "1848-12-02",
+   "label": "nástup na rakouský trůn",
+   "type": "office",
+   "quote": "Franz Joseph succeeded as Emperor of Austria at Olmütz on 2 December 1848."
+  },
+  {
+   "date": "1853-02-18",
+   "label": "přežil atentát Libényiho",
+   "type": "assassination_attempt",
+   "quote": "On 18 February 1853, Franz Joseph survived an assassination attempt by Hungarian nationalist János Libényi."
+  },
+  {
+   "date": "1908-10-06",
+   "label": "anexe Bosny a Hercegoviny",
+   "type": "event",
+   "quote": "Franz Joseph signed the proclamation announcing the annexation of Bosnia-Herzegovina into the Empire on 6 October 1908."
+  }
+ ],
+ "Franz Kafka": [
+  {
+   "date": "1909-09-28",
+   "label": "otištěn fragment Aeroplány v Brescii",
+   "type": "publication",
+   "quote": "A fragment of the story \"Die Aeroplane in Brescia\" (\"The Aeroplanes at Brescia\"), written on a trip to Italy with Brod, appeared in the daily Bohemia on 28 September 1909."
+  },
+  {
+   "date": "1910-03-27",
+   "label": "vydány povídky pozdějšího Rozjímání",
+   "type": "publication",
+   "quote": "On 27 March 1910, several stories that later became part of the book Betrachtung (Contemplation or Meditation) were published"
+  },
+  {
+   "date": "1912-09-22",
+   "label": "napsání povídky Ortel",
+   "type": "work",
+   "quote": "In a creative outburst on the night of 22 September 1912, Kafka wrote the story \"Das Urteil\""
+  }
+ ],
+ "Freddie Mercury": [
+  {
+   "date": "1986-08-09",
+   "label": "poslední koncert s Queen v Knebworthu",
+   "type": "event",
+   "quote": "Mercury's final live performance with Queen took place on 9 August 1986 at Knebworth Park in England"
+  },
+  {
+   "date": "1991-11-22",
+   "label": "příprava prohlášení o nemoci AIDS",
+   "type": "event",
+   "quote": "On 22 November 1991, Mercury called Queen's manager Jim Beach to his Kensington home to prepare a public statement"
+  }
+ ],
+ "Frederick the Great": [
+  {
+   "date": "1740-05-31",
+   "label": "nástup na pruský trůn",
+   "type": "office",
+   "quote": "upon succeeding to the throne on 31 May 1740"
+  },
+  {
+   "date": "1740-12-16",
+   "label": "vpád do Slezska",
+   "type": "battle",
+   "quote": "The First Silesian War (1740–1742, part of the War of the Austrian Succession) began on 16 December 1740 when Frederick invaded"
+  },
+  {
+   "date": "1745-06-04",
+   "label": "vítězství u Hohenfriedbergu",
+   "type": "battle",
+   "quote": "decisively defeated them at the Battle of Hohenfriedberg on 4 June 1745."
+  },
+  {
+   "date": "1757-06-18",
+   "label": "porážka u Kolína",
+   "type": "battle",
+   "quote": "On 18 June 1757, Frederick suffered his first major defeat at the Battle of Kolín"
+  }
+ ],
+ "Frida Kahlo": [
+  {
+   "date": "1925-09-17",
+   "label": "těžká nehoda autobusu",
+   "type": "event",
+   "quote": "On 17 September 1925, Kahlo and her boyfriend, Gómez Arias, were on their way home from school."
+  },
+  {
+   "date": "1925-09-17",
+   "label": "vážné zranění při havárii autobusu",
+   "type": "event",
+   "quote": "Dne 17. září 1925 však byla Frida vážně zraněna při havárii autobusu.",
+   "lang": "cs",
+   "article": "Frida Kahlo"
+  }
+ ],
+ "Frédéric Chopin": [
+  {
+   "date": "1830-03-17",
+   "label": "premiéra Klavírního koncertu f moll",
+   "type": "premiere",
+   "quote": "he premiered his Piano Concerto No. 2 in F minor, Op. 21 on 17 March 1830"
+  },
+  {
+   "date": "1831-12-07",
+   "label": "Schumannova recenze „Klobouk dolů“",
+   "type": "breakthrough",
+   "quote": "On 7 December 1831, Chopin received the first major endorsement from an outstanding contemporary when Robert Schumann"
+  },
+  {
+   "date": "1832-02-26",
+   "label": "pařížský debut v salonu Pleyel",
+   "type": "premiere",
+   "quote": "On 26 February 1832 Chopin gave a debut Paris concert in the \"salons de MM Pleyel\" at 9 rue Cadet"
+  },
+  {
+   "date": "1848-11-16",
+   "label": "poslední veřejný koncert v Londýně",
+   "type": "event",
+   "quote": "Chopin made his last public appearance on a concert platform at London's Guildhall on 16 November 1848"
+  }
+ ],
+ "Fyodor Dostoevsky": [
+  {
+   "date": "1846-01-15",
+   "label": "vydání románu Chudí lidé",
+   "type": "publication",
+   "quote": "Poor Folk was released on 15 January 1846 in the St Petersburg Collection almanac and became a commercial success.",
+   "calendar": "julian"
+  },
+  {
+   "date": "1849-04-23",
+   "label": "zatčen s ostatními „spiklenci“",
+   "type": "arrest",
+   "quote": "he and his fellow \"conspirators\" were arrested on 23 April 1849",
+   "calendar": "julian"
+  },
+  {
+   "date": "1849-12-23",
+   "label": "odsouzen k zastřelení, odveden na Semjonovské náměstí",
+   "type": "trial",
+   "quote": "They sentenced the members of the circle to death by firing squad, and the prisoners were taken to Semyonov Place in Saint Petersburg on 23 December 1849.",
+   "calendar": "julian"
+  },
+  {
+   "date": "1854-02-14",
+   "label": "propuštění z vězení",
+   "type": "event",
+   "quote": "After his release on 14 February 1854, Dostoevsky asked Mikhail to help him financially",
+   "calendar": "julian"
+  }
+ ],
+ "Galileo Galilei": [
+  {
+   "date": "1609-08-25",
+   "label": "předvedení dalekohledu v Benátkách",
+   "type": "event",
+   "quote": "On 25 August 1609, he demonstrated one of his early telescopes, with a magnification of about 8× or 9×, to Venetian lawmakers."
+  },
+  {
+   "date": "1609-11-30",
+   "label": "pozorování Měsíce dalekohledem",
+   "type": "discovery",
+   "quote": "On 30 November 1609, Galileo aimed his telescope at the Moon."
+  },
+  {
+   "date": "1610-01-07",
+   "label": "objev Jupiterových měsíců",
+   "type": "discovery",
+   "quote": "On 7 January 1610, Galileo observed with his telescope what he described at the time as \"three fixed stars, totally invisible by their smallness\""
+  }
+ ],
+ "George Orwell": [
+  {
+   "date": "1928-03-12",
+   "label": "odchod od policie, aby se stal spisovatelem",
+   "type": "resignation",
+   "quote": "he resigned from the Indian Imperial Police to become a writer, with effect from 12 March 1928"
+  },
+  {
+   "date": "1933-01-09",
+   "label": "vydání knihy Na dně v Paříži a Londýně",
+   "type": "publication",
+   "quote": "Down and Out in Paris and London was published by Victor Gollancz in London on 9 January 1933"
+  },
+  {
+   "date": "1945-08-17",
+   "label": "vydání Farmy zvířat v Británii",
+   "type": "publication",
+   "quote": "Animal Farm: A Fairy Story was published in Britain on 17 August 1945"
+  }
+ ],
+ "George S. Patton": [
+  {
+   "date": "1943-07-10",
+   "label": "vylodění na Sicílii",
+   "type": "battle",
+   "quote": "landed before dawn on D-Day, 10 July 1943, on beaches near the town of Licata"
+  },
+  {
+   "date": "1943-08-03",
+   "label": "aféra s fackováním vojáka",
+   "type": "scandal",
+   "quote": "On 3 August 1943, Patton slapped and verbally abused Private Charles H. Kuhl"
+  },
+  {
+   "date": "1944-08-01",
+   "label": "nasazení 3. armády v Normandii",
+   "type": "battle",
+   "quote": "became operational at noon on 1 August 1944"
+  },
+  {
+   "date": "1944-12-26",
+   "label": "proražení k Bastogni",
+   "type": "battle",
+   "quote": "On 26 December 1944, the first spearhead units of the Third Army's 4th Armored Division reached Bastogne"
+  }
+ ],
+ "George Washington": [
+  {
+   "date": "1776-12-26",
+   "label": "přepadení Hesenců u Trentonu",
+   "type": "battle",
+   "quote": "At sunrise on December 26, 1776, Washington, aided by Colonel Knox and artillery, led his men in a successful surprise attack on the Hessians."
+  },
+  {
+   "date": "1781-10-19",
+   "label": "kapitulace Britů u Yorktownu",
+   "type": "battle",
+   "quote": "The siege ended with a British surrender on October 19, 1781"
+  },
+  {
+   "date": "1789-02-04",
+   "label": "jednomyslně zvolen prezidentem USA",
+   "type": "election",
+   "quote": "When the state electors voted on February 4, 1789, Washington was unanimously elected"
+  },
+  {
+   "date": "1789-04-30",
+   "label": "inaugurace prvním prezidentem",
+   "type": "office",
+   "quote": "Washington was inaugurated on April 30, 1789, taking the oath of office at Federal Hall in New York City."
+  }
+ ],
+ "Georgy Zhukov": [
+  {
+   "date": "1939-08-20",
+   "label": "ofenziva u Chalchyn golu",
+   "type": "battle",
+   "quote": "On 20 August 1939, Zhukov launched a major offensive supported by armour and air power"
+  },
+  {
+   "date": "1941-02-01",
+   "label": "náčelníkem generálního štábu",
+   "type": "office",
+   "quote": "On 1 February 1941, Zhukov became chief of the Red Army's General Staff."
+  },
+  {
+   "date": "1943-01-18",
+   "label": "povýšen na maršála SSSR",
+   "type": "office",
+   "quote": "On January 18, 1943, Zhukov was promoted to Marshal of the Soviet Union."
+  }
+ ],
+ "Giuseppe Verdi": [
+  {
+   "date": "1842-03-09",
+   "label": "premiéra opery Nabucco",
+   "type": "premiere",
+   "quote": "Well received at its first performance on 9 March 1842, Nabucco underpinned Verdi's success"
+  },
+  {
+   "date": "1861-02-03",
+   "label": "zvolen do parlamentu",
+   "type": "election",
+   "quote": "Verdi was elected on 3 February 1861 for the town of Borgo San Donnino (Fidenza) to the Parliament of Piedmont-Sardinia in Turin"
+  },
+  {
+   "date": "1874-05-22",
+   "label": "premiéra Requiem v Miláně",
+   "type": "premiere",
+   "quote": "The complete Requiem was first performed at the cathedral in Milan on the anniversary of Manzoni's death on 22 May 1874."
+  },
+  {
+   "date": "1893-02-09",
+   "label": "premiéra opery Falstaff",
+   "type": "premiere",
+   "quote": "The first performance of Falstaff took place at La Scala on 9 February 1893."
+  }
+ ],
+ "Gordie Howe": [
+  {
+   "date": "1946-10-16",
+   "label": "debut v NHL za Detroit",
+   "type": "event",
+   "quote": "Howe made his NHL debut on October 16, 1946, playing right wing for the Detroit Red Wings, scoring in his first game at age 18."
+  },
+  {
+   "date": "1960-11-27",
+   "label": "první hráč s 1000 body",
+   "type": "record",
+   "quote": "on November 27, 1960, Howe became the first ever hockey player to record 1,000 points for a career"
+  },
+  {
+   "date": "1963-11-10",
+   "label": "nejlepší střelec historie NHL",
+   "type": "record",
+   "quote": "On November 10, 1963, he became the all-time goal leader with his 545th career goal against Montreal."
+  },
+  {
+   "date": "1980-04-11",
+   "label": "poslední zápas ve 52 letech",
+   "type": "event",
+   "quote": "Howe played his final game at the age of 52 years and 10 days on April 11, 1980"
+  }
+ ],
+ "Grace Kelly": [
+  {
+   "date": "1955-01-31",
+   "label": "na obálce časopisu Time",
+   "type": "event",
+   "quote": "On January 31, 1955, Kelly appeared on the cover of Time."
+  },
+  {
+   "date": "1955-05-06",
+   "label": "setkání s knížetem Rainierem",
+   "type": "event",
+   "quote": "After a series of delays and complications, she met him at the palace on May 6, 1955."
+  },
+  {
+   "date": "1956-04-18",
+   "label": "sňatek, monacká kněžna",
+   "type": "title",
+   "quote": "The 16-minute civil ceremony took place in the Palace Throne Room of Monaco on April 18, 1956"
+  }
+ ],
+ "Gregor Mendel": [
+  {
+   "date": "1865-03-08",
+   "label": "přednáška Pokusy s rostlinnými hybridy",
+   "type": "publication",
+   "quote": "at two meetings of the Natural History Society of Brno in Moravia on 8 February and 8 March 1865"
+  },
+  {
+   "date": "1865-03-08",
+   "label": "přednesl pokusy na rostlinách",
+   "type": "breakthrough",
+   "quote": "Své pokusy na rostlinách přednesl 8. února a 8. března 1865 na setkáních Brněnského přírodovědeckého spolku",
+   "lang": "cs",
+   "article": "Gregor Mendel"
+  }
+ ],
+ "Greta Garbo": [
+  {
+   "date": "1930-02-21",
+   "label": "premiéra filmu s heslem „Garbo mluví!“",
+   "type": "premiere",
+   "quote": "The film premiered in New York City on 21 February 1930, publicized with the catchphrase \"Garbo talks!\""
+  },
+  {
+   "date": "1936-12-12",
+   "label": "newyorská premiéra a návrat k úspěchu",
+   "type": "premiere",
+   "quote": "When the film premiered in New York on 12 December 1936, it became an international success"
+  },
+  {
+   "date": "1938-05-03",
+   "label": "označena za „jed pokladen“",
+   "type": "scandal",
+   "quote": "On 3 May 1938, Garbo was among the many stars"
+  },
+  {
+   "date": "1951-02-09",
+   "label": "získala americké občanství",
+   "type": "event",
+   "quote": "On 9 February 1951, she became a naturalized citizen of the United States"
+  }
+ ],
+ "Gustav Klimt": [],
+ "Gustav Mahler": [
+  {
+   "date": "1889-11-20",
+   "label": "premiéra 1. symfonie v Budapešti",
+   "type": "premiere",
+   "quote": "the premiere of the First Symphony, in Budapest on 20 November 1889, was a disappointment"
+  },
+  {
+   "date": "1895-12-13",
+   "label": "premiéra 2. symfonie v Berlíně",
+   "type": "premiere",
+   "quote": "the Second Symphony was well-received on its premiere in Berlin, under his own baton, on 13 December 1895"
+  },
+  {
+   "date": "1908-01-01",
+   "label": "debut v Metropolitní opeře",
+   "type": "premiere",
+   "quote": "Mahler made his New York debut at the Metropolitan Opera on 1 January 1908, when he conducted Wagner's Tristan und Isolde."
+  },
+  {
+   "date": "1910-09-12",
+   "label": "premiéra 8. symfonie v Mnichově",
+   "type": "premiere",
+   "quote": "the premiere of the Eighth Symphony in Munich, on 12 September 1910"
+  }
+ ],
+ "Gustáv Husák": [
+  {
+   "date": "1989-11-24",
+   "label": "odstoupení předsednictva KSČ",
+   "type": "resignation",
+   "quote": "On 24 November 1989, the entire Presidum of the Communist Party, including Husák, resigned in the wake of the Velvet Revolution."
+  }
+ ],
+ "Helena Vondráčková": [
+  {
+   "date": "1968-11-01",
+   "label": "založení skupiny Golden Kids",
+   "type": "founding",
+   "quote": "On 1 November 1968 Vondráčková, Neckář and Kubišová officially consolidated as an act known as the 'Golden Kids'"
+  },
+  {
+   "date": "1992-06-25",
+   "label": "muzikálový debut v Bídnících",
+   "type": "premiere",
+   "quote": "On 25 June 1992 Vondráčková made her stage musical debut as Fantine in a production of Les Misérables"
+  },
+  {
+   "date": "2005-10-18",
+   "label": "gala ke 40 letům na scéně",
+   "type": "event",
+   "quote": "On 18 October 2005 Vondráčková headlined a gala in Prague celebrating forty years of performing"
+  }
+ ],
+ "Henry Ford": [
+  {
+   "date": "1903-06-16",
+   "label": "založení Ford Motor Company",
+   "type": "founding",
+   "quote": "Ford & Malcomson was reincorporated as the Ford Motor Company on June 16, 1903, with $28,000 capital."
+  },
+  {
+   "date": "1908-10-01",
+   "label": "představení Modelu T",
+   "type": "work",
+   "quote": "The Model T debuted on October 1, 1908."
+  },
+  {
+   "date": "1914-01-05",
+   "label": "oznámení mzdy 5 dolarů denně",
+   "type": "event",
+   "quote": "Ford announced his $5-per-day program on January 5, 1914"
+  }
+ ],
+ "Herbert Lom": [
+  {
+   "date": "1953-10-08",
+   "label": "premiéra muzikálu Král a já",
+   "type": "premiere",
+   "quote": "Opening at the Drury Lane Theatre on 8 October 1953, it ran for 926 performances."
+  }
+ ],
+ "Horatio Nelson, 1st Viscount Nelson": [
+  {
+   "date": "1797-02-14",
+   "label": "bitva u mysu svatého Vincence",
+   "type": "battle",
+   "quote": "Jervis decided to engage and the two fleets met on 14 February 1797."
+  },
+  {
+   "date": "1798-08-01",
+   "label": "bitva u Abúkíru na Nilu",
+   "type": "battle",
+   "quote": "he finally discovered the French fleet in Aboukir Bay on 1 August 1798"
+  },
+  {
+   "date": "1801-04-02",
+   "label": "bitva u Kodaně",
+   "type": "battle",
+   "quote": "On the morning of 2 April 1801, Nelson began to advance into Copenhagen harbour."
+  }
+ ],
+ "Isaac Newton": [
+  {
+   "date": "1665-05-20",
+   "label": "rozpracovaný infinitezimální počet",
+   "type": "breakthrough",
+   "calendar": "julian",
+   "quote": "by 20 May 1665 as seen in a manuscript, Newton \"had already developed the calculus"
+  },
+  {
+   "date": "1687-07-05",
+   "label": "vydání Principií",
+   "type": "publication",
+   "calendar": "julian",
+   "quote": "The Philosophiæ Naturalis Principia Mathematica was published on 5 July 1687"
+  }
+ ],
+ "Ivan Hlinka": [
+  {
+   "date": "1981-10-06",
+   "label": "debut v NHL",
+   "type": "event",
+   "quote": "Debut v NHL – 6. října 1981 (Vancouver Canucks proti Colorado Rockies)",
+   "lang": "cs",
+   "article": "Ivan Hlinka"
+  },
+  {
+   "date": "2000-02-07",
+   "label": "smlouva s Pittsburgh Penguins",
+   "type": "event",
+   "quote": "7. února 2000 podepsal smlouvu s Pittsburgh Penguins",
+   "lang": "cs",
+   "article": "Ivan Hlinka"
+  },
+  {
+   "date": "2000-06-28",
+   "label": "hlavním trenérem Pittsburghu",
+   "type": "office",
+   "quote": "od 28. června 2000 působil jako hlavní trenér",
+   "lang": "cs",
+   "article": "Ivan Hlinka"
+  }
+ ],
+ "Ivan Lendl": [
+  {
+   "date": "1992-07-07",
+   "label": "získal americké občanství",
+   "type": "event",
+   "quote": "He became a U.S. citizen on July 7, 1992."
+  },
+  {
+   "date": "1994-12-21",
+   "label": "konec profesionální kariéry",
+   "type": "resignation",
+   "quote": "Lendl announced his retirement from professional tennis on December 21, 1994, aged 34, due to chronic back pain."
+  },
+  {
+   "date": "2011-12-31",
+   "label": "trenérem Andyho Murrayho",
+   "type": "office",
+   "quote": "On December 31, 2011, Lendl was appointed to coach Andy Murray."
+  }
+ ],
+ "Ivan Reitman": [
+  {
+   "date": "2012-11-23",
+   "label": "premiéra filmu Hitchcock",
+   "type": "work",
+   "quote": "co-produced the biographical film Hitchcock, released on November 23, 2012"
+  },
+  {
+   "date": "2021-11-19",
+   "label": "premiéra filmu Space Jam: Nový začátek",
+   "type": "work",
+   "quote": "The film was released on November 19, 2021, marking his final film before his death."
+  }
+ ],
+ "Ivana Trump": [
+  {
+   "date": "1989-02-14",
+   "label": "prověrka FBI kvůli vazbám na Československo",
+   "type": "event",
+   "quote": "On February 14, 1989, Federal Bureau of Investigation (FBI) headquarters in Washington, DC, recommended a preliminary inquiry into Ivana's connections to Czechoslovakia"
+  }
+ ],
+ "J. K. Rowling": [
+  {
+   "date": "1997-06-26",
+   "label": "vydání Kámen mudrců",
+   "type": "publication",
+   "quote": "On 26 June 1997, Bloomsbury published Philosopher's Stone with an initial print run of 5,650 copies."
+  },
+  {
+   "date": "1999-07-08",
+   "label": "vydání Vězeň z Azkabanu",
+   "type": "publication",
+   "quote": "Beginning with the release of Prisoner of Azkaban on 8 July 1999 at 3:45 pm"
+  }
+ ],
+ "J. R. R. Tolkien": [
+  {
+   "date": "1915-07-15",
+   "label": "jmenován podporučíkem lancashirských střelců",
+   "type": "office",
+   "quote": "He was commissioned as a temporary second lieutenant in the Lancashire Fusiliers on 15 July 1915."
+  },
+  {
+   "date": "1916-06-05",
+   "label": "odplutí s vojskem do Calais",
+   "type": "event",
+   "quote": "On 5 June 1916, Tolkien boarded a troop transport for an overnight voyage to Calais."
+  },
+  {
+   "date": "1972-03-28",
+   "label": "jmenován komandérem Řádu britského impéria",
+   "type": "award",
+   "quote": "He was appointed a Commander of the Order of the British Empire by Elizabeth II on 28 March 1972."
+  }
+ ],
+ "J. Robert Oppenheimer": [
+  {
+   "date": "1945-07-16",
+   "label": "test první atomové bomby Trinity",
+   "type": "breakthrough",
+   "quote": "on July 16, 1945, he was present at the first test of the atomic bomb, Trinity."
+  },
+  {
+   "date": "1953-12-21",
+   "label": "pozastavení bezpečnostní prověrky",
+   "type": "scandal",
+   "quote": "On December 21, 1953, Strauss told Oppenheimer that his security clearance had been suspended"
+  },
+  {
+   "date": "1954-06-29",
+   "label": "odebrání prověrky komisí AEC",
+   "type": "trial",
+   "quote": "on June 29, 1954, the AEC upheld the findings of the Personnel Security Board"
+  }
+ ],
+ "Jacqueline Kennedy Onassis": [
+  {
+   "date": "1961-01-20",
+   "label": "stává se první dámou USA",
+   "type": "office",
+   "quote": "Kennedy's husband was sworn in as president on January 20, 1961."
+  },
+  {
+   "date": "1962-02-14",
+   "label": "televizní prohlídka Bílého domu",
+   "type": "event",
+   "quote": "On February 14, 1962, Jacqueline Kennedy, accompanied by Charles Collingwood of CBS News, took American television viewers on a tour of the White House."
+  },
+  {
+   "date": "1963-11-29",
+   "label": "rozhovor pro Life o Camelotu",
+   "type": "event",
+   "quote": "On November 29, 1963—a week after her husband's assassination—Kennedy was interviewed in Hyannis Port by Theodore H. White of Life magazine."
+  }
+ ],
+ "Jan Antonín Baťa": [
+  {
+   "date": "1938-03-26",
+   "label": "čestný doktorát VUT v Brně",
+   "type": "award",
+   "quote": "Vysoké učení technické v Brně udělilo Janu Antonínu Baťovi 26. března 1938 čestný doktorát",
+   "lang": "cs",
+   "article": "Jan Antonín Baťa"
+  },
+  {
+   "date": "1947-05-03",
+   "label": "odsouzen Národním soudem v nepřítomnosti",
+   "type": "trial",
+   "quote": "Dne 3. května 1947 byl J. A. Baťa odsouzen v nepřítomnosti Národním soudem",
+   "lang": "cs",
+   "article": "Jan Antonín Baťa"
+  }
+ ],
+ "Jan Evangelista Purkyně": [
+  {
+   "date": "1837-09-19",
+   "label": "prezentace nejvýznamnějšího objevu",
+   "type": "discovery",
+   "quote": "Svůj nejvýznamnější objev prezentoval Purkyně na sjezdu německých přírodovědců a lékařů v pražském Karolinu 19. září 1837",
+   "lang": "cs",
+   "article": "Jan Evangelista Purkyně"
+  },
+  {
+   "date": "1868-04-22",
+   "label": "rytířský kříž Leopoldova řádu",
+   "type": "award",
+   "quote": "císař František Josef I. 22. dubna 1868 udělil rytířský kříž Leopoldova řádu",
+   "lang": "cs",
+   "article": "Jan Evangelista Purkyně"
+  },
+  {
+   "date": "1869-07-15",
+   "label": "rytířem Purkyně",
+   "type": "award",
+   "quote": "Jan Evangelista Purkyně (od 15. července 1869 rytíř Purkyně / Ritter von Purkyně)",
+   "lang": "cs",
+   "article": "Jan Evangelista Purkyně"
+  }
+ ],
+ "Jan Hus": [
+  {
+   "date": "1414-11-28",
+   "label": "uvěznění v Kostnici",
+   "type": "arrest",
+   "quote": "on 28 November 1414, his opponents succeeded in imprisoning him on the strength of a rumor that he intended to flee"
+  },
+  {
+   "date": "1415-06-05",
+   "label": "první výslech před soudem",
+   "type": "trial",
+   "quote": "On 5 June 1415, he was tried for the first time"
+  },
+  {
+   "date": "1415-07-06",
+   "label": "upálen za kacířství",
+   "type": "event",
+   "quote": "On 6 July 1415, he was burned at the stake for heresy against the teachings of the Catholic Church."
+  }
+ ],
+ "Jan Koller": [
+  {
+   "date": "1999-02-09",
+   "label": "debut a gól za českou reprezentaci",
+   "type": "event",
+   "quote": "Koller made his debut for the Czech Republic in a friendly away to Belgium at the King Baudouin Stadium in Brussels on 9 February 1999"
+  },
+  {
+   "date": "2005-06-08",
+   "label": "nejlepší střelec historie reprezentace",
+   "type": "record",
+   "quote": "Koller became the all-time top scorer for the Czech Republic on 8 June 2005"
+  }
+ ],
+ "Jan Kubiš": [
+  {
+   "date": "1941-12-28",
+   "label": "výsadek operace Anthropoid",
+   "type": "event",
+   "quote": "into Czechoslovakia at 10 pm on 28 December 1941."
+  }
+ ],
+ "Jan Neruda": [],
+ "Jan Palach": [
+  {
+   "date": "1969-01-16",
+   "label": "sebeupálení na Václavském náměstí",
+   "type": "event",
+   "quote": "On 16 January 1969, in response to the Warsaw Pact invasion of Czechoslovakia"
+  },
+  {
+   "date": "1969-01-16",
+   "label": "sebeupálení na Václavském náměstí",
+   "type": "event",
+   "quote": "Dne 16. ledna 1969 se zapálil v horní části Václavského náměstí v Praze.",
+   "lang": "cs",
+   "article": "Jan Palach"
+  },
+  {
+   "date": "1969-01-19",
+   "label": "smrt tři dny po svém činu",
+   "type": "event",
+   "quote": "Jan Palach zemřel v neděli 19. ledna 1969 v 15:30, tři dny po svém činu.",
+   "lang": "cs",
+   "article": "Jan Palach"
+  }
+ ],
+ "Jan Werich": [],
+ "Jan Zrzavý": [],
+ "Jan Švankmajer": [
+  {
+   "date": "2005-11-17",
+   "label": "premiéra filmu Šílení",
+   "type": "premiere",
+   "quote": "On 17 November 2005, the film Lunacy premiered"
+  }
+ ],
+ "Jan Železný": [
+  {
+   "date": "1997-03-26",
+   "label": "pětkrát přes 90 metrů v jednom závodě",
+   "type": "record",
+   "quote": "On 26 March 1997, in Stellenbosch, South Africa, he threw over the 90-metre barrier five times in a single meet."
+  },
+  {
+   "date": "2006-09-19",
+   "label": "rozloučení s kariérou v Mladé Boleslavi",
+   "type": "event",
+   "quote": "He took leave of his career on 19 September 2006 on exhibition in Mladá Boleslav"
+  }
+ ],
+ "Jana Novotná": [],
+ "Jaromír Jágr": [
+  {
+   "date": "2006-10-05",
+   "label": "kapitánem New York Rangers",
+   "type": "office",
+   "quote": "On 5 October 2006, before the first game of the 2006–07 season (against his former team Washington), Jágr was named as the 24th captain in the history of the New York Rangers"
+  },
+  {
+   "date": "2016-12-22",
+   "label": "druhý v historii bodování NHL",
+   "type": "record",
+   "quote": "On 22 December 2016, he scored his 1,888th career point, surpassing Mark Messier to become second in career points"
+  },
+  {
+   "date": "2024-04-18",
+   "label": "nejstarší střelec gólu v profesionální soutěži",
+   "type": "record",
+   "quote": "On 18 April 2024, at 52 years and 63 days, Jágr scored against VHK Vsetín to become the oldest player ever to score a goal in a professional competition."
+  }
+ ],
+ "Jaromír Nohavica": [
+  {
+   "date": "1982-03-28",
+   "label": "první vystoupení na Folkovém kolotoči",
+   "type": "event",
+   "quote": "Poprvé Nohavica vystoupil v sobotu 28. března 1982 na Folkovém kolotoči v Ostravě–Porubě",
+   "lang": "cs",
+   "article": "Jaromír Nohavica"
+  },
+  {
+   "date": "1987-04-02",
+   "label": "zrušení smlouvy s KKS",
+   "type": "event",
+   "quote": "2. dubna 1987, tedy po necelém půlroce, byla smlouva k zprostředkování KKS zrušena.",
+   "lang": "cs",
+   "article": "Jaromír Nohavica"
+  }
+ ],
+ "Jaroslav Hašek": [
+  {
+   "date": "1915-09-24",
+   "label": "zajetí Rusy",
+   "type": "event",
+   "quote": "He served on the front until 24 September 1915 when he was captured by the Russians"
+  },
+  {
+   "date": "1915-09-24",
+   "label": "zajetí v bitvě u Chorupan",
+   "type": "battle",
+   "quote": "24. září 1915 padl do zajetí v bitvě u Chorupan",
+   "lang": "cs",
+   "article": "Jaroslav Hašek"
+  },
+  {
+   "date": "1921-08-25",
+   "label": "odjezd do Lipnice nad Sázavou",
+   "type": "event",
+   "quote": "25. srpna 1921 Hašek odjel s malířem Jaroslavem Panuškou a s manželkou Šurou do Lipnice nad Sázavou",
+   "lang": "cs",
+   "article": "Jaroslav Hašek"
+  }
+ ],
+ "Jaroslav Heyrovský": [
+  {
+   "date": "1959-12-11",
+   "label": "Nobelova přednáška o polarografii",
+   "type": "award",
+   "quote": "including the Nobel Lecture, December 11, 1959"
+  }
+ ],
+ "Jaroslav Seifert": [
+  {
+   "date": "1968-09-09",
+   "label": "vystoupení proti invazi",
+   "type": "event",
+   "quote": "Dne 9. září 1968 vystoupil proti invazi vojsk Varšavské smlouvy",
+   "lang": "cs",
+   "article": "Jaroslav Seifert"
+  },
+  {
+   "date": "1969-01-17",
+   "label": "výzva nenásledovat Palachův čin",
+   "type": "event",
+   "quote": "Dne 17. ledna 1969, den po protestním sebeupálení Jana Palacha, veřejně vyzval lidi, aby Palachův čin nenásledovali",
+   "lang": "cs",
+   "article": "Jaroslav Seifert"
+  },
+  {
+   "date": "1984-12-10",
+   "label": "Nobelova cena za literaturu",
+   "type": "award",
+   "quote": "Je jediným českým nositelem Nobelovy ceny za literaturu (10. prosince 1984)",
+   "lang": "cs",
+   "article": "Jaroslav Seifert"
+  }
+ ],
+ "Jeff Bezos": [
+  {
+   "date": "1994-07-05",
+   "label": "založení Amazonu",
+   "type": "founding",
+   "quote": "founded Amazon in a rented garage in Bellevue, Washington on July 5, 1994"
+  },
+  {
+   "date": "2013-08-05",
+   "label": "oznámení koupě The Washington Post",
+   "type": "event",
+   "quote": "On August 5, 2013, Bezos announced his purchase of The Washington Post for $250 million in cash"
+  },
+  {
+   "date": "2021-07-05",
+   "label": "odchod z funkce CEO Amazonu",
+   "type": "resignation",
+   "quote": "On July 5, 2021, Bezos took over the role of executive chairman and stepped down as the CEO and president of Amazon"
+  },
+  {
+   "date": "2021-07-20",
+   "label": "let do vesmíru s misí NS-16",
+   "type": "event",
+   "quote": "On July 20, 2021, he launched on the NS-16 mission with his half-brother Mark Bezos, Wally Funk, and Oliver Daemen."
+  }
+ ],
+ "Jiří Menzel": [],
+ "Joe Biden": [
+  {
+   "date": "2009-01-20",
+   "label": "složil přísahu viceprezidenta USA",
+   "type": "office",
+   "quote": "He was sworn in on January 20, 2009."
+  },
+  {
+   "date": "2021-01-20",
+   "label": "inaugurace 46. prezidentem USA",
+   "type": "office",
+   "quote": "Biden was inaugurated as the 46th president of the United States on January 20, 2021."
+  },
+  {
+   "date": "2024-06-27",
+   "label": "debata s Trumpem",
+   "type": "event",
+   "quote": "The first presidential debate was held on June 27, 2024, between Biden and Trump."
+  }
+ ],
+ "Johan Cruyff": [
+  {
+   "date": "1964-11-15",
+   "label": "debut v prvním týmu Ajaxu",
+   "type": "event",
+   "quote": "Cruyff made his first team debut on 15 November 1964 for Ajax Amsterdam"
+  },
+  {
+   "date": "1973-10-28",
+   "label": "soutěžní debut za Barcelonu",
+   "type": "event",
+   "quote": "Cruyff made his competitive debut in front of 90,000 spectators at the Camp Nou on 28 October 1973, against Granada."
+  },
+  {
+   "date": "2010-03-26",
+   "label": "čestným prezidentem FC Barcelona",
+   "type": "office",
+   "quote": "On 26 March 2010, the outgoing president Joan Laporta announced the appointment of Cruyff as honorary president of the Catalan club"
+  }
+ ],
+ "Johann Wolfgang von Goethe": [
+  {
+   "date": "1772-10-14",
+   "label": "pořádání shakespearovského dne",
+   "type": "event",
+   "quote": "On 14 October 1772, Goethe hosted a gathering in his parents' home in honour of the first German \"Shakespeare Day\"."
+  },
+  {
+   "date": "1808-10-14",
+   "label": "Řád čestné legie od Napoleona",
+   "type": "award",
+   "quote": "Goethe would receive the Légion d'honneur from Napoleon himself on 14 October 1808."
+  },
+  {
+   "date": "1823-09-05",
+   "label": "setkání inspirující Mariánskolázeňskou elegii",
+   "type": "work",
+   "quote": "Their last meeting in Carlsbad on 5 September 1823 inspired his poem \"Marienbad Elegy\""
+  }
+ ],
+ "Johannes Kepler": [
+  {
+   "date": "1595-07-19",
+   "label": "vnuknutí o geometrii vesmíru",
+   "type": "breakthrough",
+   "quote": "Kepler claimed to have had an epiphany on 19 July 1595, while teaching in Graz"
+  },
+  {
+   "date": "1600-02-04",
+   "label": "setkání s Tychonem Brahe",
+   "type": "event",
+   "quote": "On 4 February 1600, Kepler met Tycho Brahe and his assistants"
+  },
+  {
+   "date": "1618-03-08",
+   "label": "objev třetího Keplerova zákona",
+   "type": "discovery",
+   "quote": "Although he gives the date of this epiphany (8 March 1618)"
+  }
+ ],
+ "John Amos Comenius": [
+  {
+   "date": "1656-04-27",
+   "label": "obléhání města, ztráta majetku a rukopisů",
+   "type": "event",
+   "quote": "27. dubna 1656 ale začalo deset tisíc polských partyzánů město obléhat a při následném požáru přišel téměř o všechen majetek i cenné rukopisy",
+   "lang": "cs",
+   "article": "Jan Amos Komenský"
+  }
+ ],
+ "John Calvin": [
+  {
+   "date": "1537-01-16",
+   "label": "předložení článků o církvi v Ženevě",
+   "type": "publication",
+   "quote": "On 16 January 1537, Farel and Calvin presented their Articles concernant l'organisation de l'église et du culte à Genève"
+  },
+  {
+   "date": "1541-09-13",
+   "label": "návrat do Ženevy",
+   "type": "event",
+   "quote": "Calvin returned on 13 September 1541 with an official escort and a wagon for his family"
+  },
+  {
+   "date": "1541-11-20",
+   "label": "přijetí Církevních řádů v Ženevě",
+   "type": "event",
+   "quote": "the council of Geneva passed the Ordonnances ecclésiastiques (Ecclesiastical Ordinances) on 20 November 1541"
+  }
+ ],
+ "John D. Rockefeller": [
+  {
+   "date": "1870-01-10",
+   "label": "založení Standard Oil",
+   "type": "founding",
+   "quote": "On January 10, 1870, Rockefeller abolished the partnership of Rockefeller, Andrews & Flagler, co-founding Standard Oil of Ohio"
+  },
+  {
+   "date": "1916-09-28",
+   "label": "první miliardář země",
+   "type": "record",
+   "quote": "Rockefeller became the country's first billionaire on 28 September 1916"
+  }
+ ],
+ "John F. Kennedy": [
+  {
+   "date": "1961-01-20",
+   "label": "inaugurace 35. prezidentem USA",
+   "type": "office",
+   "quote": "Kennedy was sworn in as the 35th president at noon on January 20, 1961."
+  },
+  {
+   "date": "1962-09-12",
+   "label": "projev o cestě na Měsíc",
+   "type": "event",
+   "quote": "Kennedy took the latter occasion as an opportunity to deliver another speech promoting the space effort on September 12, 1962"
+  },
+  {
+   "date": "1962-10-14",
+   "label": "začátek karibské krize",
+   "type": "event",
+   "quote": "On October 14, 1962, CIA U-2 spy planes took photographs of the Soviets' construction of intermediate-range ballistic missile sites in Cuba."
+  },
+  {
+   "date": "1963-11-22",
+   "label": "atentát v Dallasu",
+   "type": "event",
+   "quote": "On November 22, 1963, Kennedy was assassinated in Dallas."
+  }
+ ],
+ "John Lennon": [
+  {
+   "date": "1963-02-11",
+   "label": "nahrávání alba Please Please Me",
+   "type": "work",
+   "quote": "They recorded their debut album, Please Please Me, in under 10 hours on 11 February 1963"
+  },
+  {
+   "date": "1966-08-29",
+   "label": "poslední koncert Beatles",
+   "type": "event",
+   "quote": "After the band's final concert on 29 August 1966"
+  },
+  {
+   "date": "1969-09-20",
+   "label": "odchod od Beatles",
+   "type": "resignation",
+   "quote": "Lennon left the Beatles on 20 September 1969"
+  },
+  {
+   "date": "1975-10-08",
+   "label": "soud zastavil jeho deportaci z USA",
+   "type": "trial",
+   "quote": "until 8 October 1975, when a court of appeals barred the deportation attempt"
+  }
+ ],
+ "Josef Beran": [
+  {
+   "date": "1942-06-06",
+   "label": "zatčen gestapem",
+   "type": "arrest",
+   "quote": "The Gestapo arrested Beran on 6 June 1942 during World War II"
+  },
+  {
+   "date": "1946-11-04",
+   "label": "jmenován arcibiskupem pražským",
+   "type": "office",
+   "quote": "On 4 November 1946 he was appointed as the Archbishop of Prague"
+  },
+  {
+   "date": "1949-06-19",
+   "label": "umístěn do domácího vězení",
+   "type": "arrest",
+   "quote": "On 19 June 1949 he was placed under house arrest"
+  },
+  {
+   "date": "1965-02-22",
+   "label": "povýšen na kardinála",
+   "type": "office",
+   "quote": "Pope Paul VI elevated him into the cardinalate and made him the Cardinal-Priest of Santa Croce in Via Flaminia on 22 February 1965"
+  }
+ ],
+ "Josef Bican": [
+  {
+   "date": "1933-11-29",
+   "label": "debut v reprezentaci Rakouska",
+   "type": "event",
+   "quote": "On 29 November 1933, aged 20 years and 64 days, Bican made his debut for Austria in a 2–2 draw against Scotland."
+  },
+  {
+   "date": "1953-05-01",
+   "label": "komunisté ho vyhnali z města a klubu",
+   "type": "event",
+   "quote": "On 1 May 1953, the Communist Party forced him to leave the city and, therefore, the club."
+  }
+ ],
+ "Josef František": [
+  {
+   "date": "1940-09-02",
+   "label": "první potvrzený sestřel",
+   "type": "event",
+   "quote": "František's first confirmed victory was shooting down a Messerschmitt Bf 109E fighter on 2 September 1940"
+  },
+  {
+   "date": "1940-09-30",
+   "label": "poslední potvrzený sestřel",
+   "type": "event",
+   "quote": "His final confirmed victory was a Bf 109 near Brooklands in Surrey on 30 September 1940"
+  }
+ ],
+ "Josef Lada": [],
+ "Josef Masopust": [],
+ "Josef Čapek": [],
+ "Josef Škvorecký": [],
+ "Joseph Radetzky von Radetz": [
+  {
+   "date": "1848-08-31",
+   "label": "premiéra Radeckého pochodu",
+   "type": "premiere",
+   "quote": "first performed on August 31, 1848, to celebrate the victory of the Austrian Empire under Field Marshal Radetzky von Radetz over Italian forces at the Battle of Custoza"
+  },
+  {
+   "date": "1849-03-23",
+   "label": "vítězství v bitvě u Novary",
+   "type": "battle",
+   "quote": "the final triumph at the Battle of Novara on 23 March 1849"
+  }
+ ],
+ "Joseph Smith": [
+  {
+   "date": "1830-03-26",
+   "label": "vydání Knihy Mormonovy",
+   "type": "publication",
+   "quote": "The completed work, titled the Book of Mormon, was published in Palmyra and first advertised for sale on March 26, 1830"
+  },
+  {
+   "date": "1830-04-06",
+   "label": "založení Kristovy církve",
+   "type": "founding",
+   "quote": "on April 6, 1830, Smith and his followers formally organized the Church of Christ"
+  },
+  {
+   "date": "1832-03-24",
+   "label": "zbit davem, potřen dehtem a peřím",
+   "type": "event",
+   "quote": "On March 24, 1832, a mob dragged Smith and Rigdon from their beds, beat them badly, and then tarred and feathered them"
+  }
+ ],
+ "Joseph Stalin": [
+  {
+   "date": "1939-05-03",
+   "label": "výměna Litvinova za Molotova",
+   "type": "event",
+   "quote": "On 3 May 1939, he replaced his Western-oriented foreign minister Maxim Litvinov with Vyacheslav Molotov"
+  }
+ ],
+ "Jozef Gabčík": [
+  {
+   "date": "1941-12-28",
+   "label": "výsadek do protektorátu",
+   "type": "event",
+   "quote": "into Czechoslovakia at 10 pm on 28 December 1941"
+  },
+  {
+   "date": "1942-05-27",
+   "label": "atentát na Heydricha",
+   "type": "event",
+   "quote": "On 27 May 1942, at 10:30 am, Reinhard Heydrich proceeded on his daily commute"
+  }
+ ],
+ "Jules Verne": [
+  {
+   "date": "1850-06-12",
+   "label": "premiéra hry v Paříži",
+   "type": "premiere",
+   "quote": "had it produced by the Opéra-National at the Théâtre Historique in Paris, opening on 12 June 1850"
+  },
+  {
+   "date": "1863-01-31",
+   "label": "vydání díla u Hetzela",
+   "type": "publication",
+   "quote": "It was published by Hetzel on 31 January 1863"
+  },
+  {
+   "date": "1870-04-09",
+   "label": "rytíř Čestné legie",
+   "type": "award",
+   "quote": "Verne was made a knight of France's Legion of Honour on 9 April 1870"
+  },
+  {
+   "date": "1886-03-09",
+   "label": "synovec na něj dvakrát vystřelil",
+   "type": "assassination_attempt",
+   "quote": "On 9 March 1886, as Verne returned home, his twenty-six-year-old nephew, Gaston, shot at him twice with a pistol"
+  }
+ ],
+ "Karel Gott": [
+  {
+   "date": "1985-04-30",
+   "label": "titul národní umělec",
+   "type": "award",
+   "quote": "On 30 April 1985, he was awarded the title of National Artist for exceptional artistic contributions."
+  },
+  {
+   "date": "1992-09-08",
+   "label": "diamantová deska Supraphonu",
+   "type": "award",
+   "quote": "he was awarded the Supraphon Diamond Record Award on 8 September 1992"
+  },
+  {
+   "date": "2000-09-29",
+   "label": "koncert v Carnegie Hall",
+   "type": "event",
+   "quote": "On 29 September 2000 he played a concert at Carnegie Hall in New York City."
+  }
+ ],
+ "Karel Hynek Mácha": [
+  {
+   "date": "1834-08-04",
+   "label": "cesta do severní Itálie",
+   "type": "event",
+   "quote": "V pondělí 4. srpna 1834 vyrazil Mácha na cestu do severní Itálie",
+   "lang": "cs",
+   "article": "Karel Hynek Mácha"
+  },
+  {
+   "date": "1836-04-23",
+   "label": "vydání Máje",
+   "type": "publication",
+   "quote": "Máj byl vydán 23. dubna 1836",
+   "lang": "cs",
+   "article": "Karel Hynek Mácha"
+  }
+ ],
+ "Karel Kryl": [
+  {
+   "date": "1968-08-21",
+   "label": "první album po okupaci",
+   "type": "publication",
+   "quote": "When the Warsaw Pact armies occupied Czechoslovakia on 21 August 1968 to suppress the Prague Spring reform movement, Kryl released his first album."
+  },
+  {
+   "date": "1968-08-22",
+   "label": "vznik písně Bratříčku, zavírej vrátka",
+   "type": "work",
+   "quote": "The title song Bratříčku zavírej vrátka (Keep the Gate Closed, Little Brother) was composed spontaneously on 22 August 1968"
+  }
+ ],
+ "Karel Kuttelwascher": [
+  {
+   "date": "1940-08-14",
+   "label": "vstup do RAF",
+   "type": "event",
+   "quote": "Kuttelwascher joined the RAF on 14 August 1940 with a rank of flight sergeant"
+  },
+  {
+   "date": "1941-04-08",
+   "label": "první potvrzený sestřel v RAF",
+   "type": "event",
+   "quote": "On 8 April 1941, he achieved his first confirmed kill in RAF service"
+  },
+  {
+   "date": "1946-05-21",
+   "label": "odchod z letectva",
+   "type": "resignation",
+   "quote": "On 21 May 1946, he resigned from the air force"
+  }
+ ],
+ "Karel Poborský": [
+  {
+   "date": "1994-02-23",
+   "label": "debut v české reprezentaci",
+   "type": "event",
+   "quote": "Karel Poborský's first international appearance, which was against Turkey on 23 February 1994"
+  },
+  {
+   "date": "2007-05-28",
+   "label": "konec hráčské kariéry",
+   "type": "event",
+   "quote": "He retired on 28 May 2007 after playing his final match"
+  }
+ ],
+ "Karel Zeman": [
+  {
+   "date": "1980-11-03",
+   "label": "Řád republiky",
+   "type": "award",
+   "quote": "On 3 November 1980, in celebration of Zeman's seventieth birthday, President Gustáv Husák awarded him the Order of the Republic."
+  }
+ ],
+ "Karel Čapek": [],
+ "Karolína Kurková": [
+  {
+   "date": "2003-12-18",
+   "label": "cena časopisu Atmosphere",
+   "type": "award",
+   "quote": "Kurková received the Atmosphere Magazine Award at the Madrid Planet Hollywood Mexican restaurant on 18 December 2003."
+  },
+  {
+   "date": "2011-01-24",
+   "label": "hvězda přehlídky Etam",
+   "type": "event",
+   "quote": "On 24 January 2011, Kurková was one of the most talked-about models of the grand show organized by the French lingerie brand Etam Groupe"
+  }
+ ],
+ "Kateřina Neumannová": [
+  {
+   "date": "1996-07-31",
+   "label": "na zimních i letních olympijských hrách",
+   "type": "record",
+   "quote": "On 31 July 1996, she became the first Czech female athlete to compete on both Winter and Summer Olympics"
+  },
+  {
+   "date": "2005-02-17",
+   "label": "mistryně světa na 10 km volně",
+   "type": "title",
+   "quote": "On 17 February 2005, she won the 10 km free at the Nordic skiing World Championships."
+  },
+  {
+   "date": "2006-02-24",
+   "label": "olympijské zlato na 30 km",
+   "type": "title",
+   "quote": "On 24 February 2006, in her 20th and final Olympic race, Neumannová won her sixth Olympic medal, but first Winter Olympic gold medal in the 30 km freestyle mass start"
+  }
+ ],
+ "Kim Kardashian": [
+  {
+   "date": "2010-11-23",
+   "label": "vydání knihy Kardashian Konfidential",
+   "type": "publication",
+   "quote": "Kim, Kourtney, and Khloé wrote an autobiography titled Kardashian Konfidential, which was released in stores on November 23, 2010"
+  },
+  {
+   "date": "2016-10-02",
+   "label": "ozbrojené přepadení v Paříži",
+   "type": "event",
+   "quote": "On October 2, 2016, while attending Paris Fashion Week, Kardashian was robbed at gunpoint in the apartment where she was staying."
+  },
+  {
+   "date": "2020-04-05",
+   "label": "premiéra dokumentu The Justice Project",
+   "type": "premiere",
+   "quote": "On April 5, 2020, the documentary Kim Kardashian West: The Justice Project premiered on Oxygen"
+  }
+ ],
+ "Klement Gottwald": [
+  {
+   "date": "1945-05-10",
+   "label": "návrat do Prahy jako místopředseda vlády",
+   "type": "office",
+   "quote": "On 10 May 1945, Gottwald returned to Prague as the deputy premier under Zdeněk Fierlinger"
+  },
+  {
+   "date": "1948-02-21",
+   "label": "slavná fotografie s Clementisem",
+   "type": "event",
+   "quote": "In a famous photograph from 21 February 1948, described also in The Book of Laughter and Forgetting by Milan Kundera, Clementis stands next to Gottwald"
+  }
+ ],
+ "Kurt Gödel": [
+  {
+   "date": "1947-12-05",
+   "label": "zkouška k americkému občanství",
+   "type": "event",
+   "quote": "On December 5, 1947, Einstein and Morgenstern accompanied Gödel to his U.S. citizenship exam"
+  }
+ ],
+ "Kylian Mbappé": [
+  {
+   "date": "2017-08-31",
+   "label": "přestup do Paris Saint-Germain",
+   "type": "event",
+   "quote": "On 31 August 2017, Paris Saint-Germain (PSG) announced the signing of Mbappé from Monaco"
+  },
+  {
+   "date": "2022-12-18",
+   "label": "hattrick ve finále mistrovství světa",
+   "type": "record",
+   "quote": "During the World Cup final on 18 December 2022, Mbappé became the second player in history to score a hat-trick in a World Cup final."
+  },
+  {
+   "date": "2023-03-21",
+   "label": "kapitánem Francie",
+   "type": "office",
+   "quote": "On 21 March 2023, two months following the international retirement of Hugo Lloris, France manager Didier Deschamps named Mbappé the team's new captain"
+  },
+  {
+   "date": "2024-06-03",
+   "label": "přestup do Realu Madrid",
+   "type": "event",
+   "quote": "On 3 June 2024, La Liga club Real Madrid announced that Mbappé had signed a five-year contract with the club"
+  }
+ ],
+ "LeBron James": [
+  {
+   "date": "2010-07-10",
+   "label": "podpis smlouvy s Miami Heat",
+   "type": "event",
+   "quote": "James signed a 6-year, $110 million contract with the Heat on July 10, 2010"
+  },
+  {
+   "date": "2020-01-25",
+   "label": "třetí v historickém pořadí střelců",
+   "type": "record",
+   "quote": "On January 25, 2020, James achieved third place on the all-time regular season scoring list"
+  },
+  {
+   "date": "2024-01-25",
+   "label": "rekordní 20. nominace do All-Star",
+   "type": "record",
+   "quote": "On January 25, 2024, James was named an All-Star starter for the 2024 NBA All-Star Game, marking his 20th NBA All-Star selection"
+  }
+ ],
+ "Leo Tolstoy": [],
+ "Leonardo DiCaprio": [],
+ "Leonardo da Vinci": [
+  {
+   "date": "1496-01-03",
+   "label": "neúspěšný pokus s létacím strojem",
+   "type": "event",
+   "quote": "Dne 3. ledna 1496 neúspěšně vyzkoušel létací stroj, který sám sestrojil.",
+   "lang": "cs",
+   "article": "Leonardo da Vinci"
+  },
+  {
+   "date": "1516-03-21",
+   "label": "pozvání francouzského krále",
+   "type": "event",
+   "quote": "On 21 March 1516 Antonio Maria Pallavicini, the French ambassador to the Holy See, received a letter"
+  }
+ ],
+ "Leoš Janáček": [
+  {
+   "date": "1928-03-02",
+   "label": "premiéra Capriccia",
+   "type": "premiere",
+   "quote": "It premièred in Prague on 2 March 1928."
+  }
+ ],
+ "Libuše Šafránková": [
+  {
+   "date": "1972-10-01",
+   "label": "nástup do Činoherního klubu",
+   "type": "event",
+   "quote": "V Činoherním klubu působila od 1. října 1972",
+   "lang": "cs",
+   "article": "Libuše Šafránková"
+  }
+ ],
+ "Lionel Messi": [
+  {
+   "date": "2004-10-16",
+   "label": "debut v La Lize za Barcelonu",
+   "type": "event",
+   "quote": "He made his La Liga debut for Barcelona on 16 October 2004, at 17 years old."
+  },
+  {
+   "date": "2016-07-06",
+   "label": "odsouzen za daňový podvod",
+   "type": "trial",
+   "quote": "On 6 July 2016, Messi and his father were both found guilty of tax fraud"
+  },
+  {
+   "date": "2021-08-10",
+   "label": "přestup do Paris Saint-Germain",
+   "type": "event",
+   "quote": "On 10 August 2021, two days after his farewell remarks to Barcelona, Messi joined the Ligue 1 club Paris Saint-Germain (PSG)"
+  },
+  {
+   "date": "2023-10-30",
+   "label": "rekordní osmý Zlatý míč",
+   "type": "award",
+   "quote": "On 30 October 2023, following his World Cup win with Argentina and Ligue 1 trophy with Paris Saint-Germain, Messi was awarded a record eighth Ballon d'Or."
+  }
+ ],
+ "Louis XIV": [
+  {
+   "date": "1643-05-14",
+   "label": "nástup na francouzský trůn",
+   "type": "coronation",
+   "quote": "was King of France from 14 May 1643 until his death in 1715"
+  },
+  {
+   "date": "1682-05-06",
+   "label": "přesun dvora do Versailles",
+   "type": "event",
+   "quote": "an official move of the royal court to Versailles on 6 May 1682"
+  },
+  {
+   "date": "1685-10-15",
+   "label": "edikt z Fontainebleau",
+   "type": "event",
+   "quote": "On 15 October 1685, Louis issued the Edict of Fontainebleau"
+  },
+  {
+   "date": "1693-04-05",
+   "label": "založení Řádu svatého Ludvíka",
+   "type": "founding",
+   "quote": "On 5 April 1693, Louis also founded the Royal and Military Order of Saint Louis"
+  }
+ ],
+ "Lucie Bílá": [
+  {
+   "date": "2014-10-28",
+   "label": "Medaile za zásluhy",
+   "type": "award",
+   "quote": "Dne 28. října 2014 obdržela od prezidenta Miloše Zemana Medaili za zásluhy.",
+   "lang": "cs",
+   "article": "Lucie Bílá"
+  },
+  {
+   "date": "2025-10-31",
+   "label": "vydání alba Obyčejná holka",
+   "type": "publication",
+   "quote": "Dne 31. října 2025 vydala nové album Obyčejná holka.",
+   "lang": "cs",
+   "article": "Lucie Bílá"
+  }
+ ],
+ "Ludvík Svoboda": [
+  {
+   "date": "1944-09-10",
+   "label": "velitel 1. čs. armádního sboru",
+   "type": "office",
+   "quote": "On 10 September 1944, command of the 1st Czechoslovak Corps passed from Brigadier General Jan Kratochvíl to Brigadier General Ludvík Svoboda"
+  },
+  {
+   "date": "1965-11-24",
+   "label": "titul Hrdina Sovětského svazu",
+   "type": "award",
+   "quote": "Svoboda was also awarded the title Hero of the Soviet Union on 24 November 1965"
+  },
+  {
+   "date": "1968-03-30",
+   "label": "zvolen prezidentem Československa",
+   "type": "election",
+   "quote": "Svoboda was elected President of Czechoslovakia on 30 March 1968"
+  }
+ ],
+ "Lída Baarová": [
+  {
+   "date": "1938-08-16",
+   "label": "Hitler ukončil její aféru s Goebbelsem",
+   "type": "scandal",
+   "quote": "Hitler intervened on 16 August 1938 and rebuked his minister, stating that in view of his \"perfect marriage\" as well as the coming annexation of the Sudetenland, his affair with a Czech actress was an impossibility."
+  },
+  {
+   "date": "1945-09-23",
+   "label": "předána do Československa",
+   "type": "event",
+   "quote": "byla vyšetřována CIC a 23. září 1945 byla předána do Československa.",
+   "lang": "cs",
+   "article": "Lída Baarová"
+  }
+ ],
+ "Madeleine Albright": [
+  {
+   "date": "1993-02-09",
+   "label": "velvyslankyně při OSN",
+   "type": "office",
+   "quote": "presenting her credentials on February 9, 1993"
+  },
+  {
+   "date": "1996-05-12",
+   "label": "obhajoba sankcí v 60 Minutes",
+   "type": "scandal",
+   "quote": "On May 12, 1996, then-ambassador Albright defended the sanctions on a 60 Minutes segment"
+  },
+  {
+   "date": "1997-01-23",
+   "label": "první ministryně zahraničí USA",
+   "type": "office",
+   "quote": "When Albright took office as the 64th U.S. Secretary of State on January 23, 1997"
+  }
+ ],
+ "Madonna": [
+  {
+   "date": "1983-07-27",
+   "label": "vydání debutového alba Madonna",
+   "type": "work",
+   "quote": "Madonna was released on July 27, 1983, to generally favorable reviews"
+  },
+  {
+   "date": "1984-11-12",
+   "label": "vydání alba Like a Virgin",
+   "type": "work",
+   "quote": "Like a Virgin was released on November 12, 1984"
+  },
+  {
+   "date": "1989-03-21",
+   "label": "vydání alba Like a Prayer",
+   "type": "work",
+   "quote": "In the US, Like a Prayer was released on March 21, 1989, to universal acclaim from critics."
+  },
+  {
+   "date": "2008-03-10",
+   "label": "uvedena do Rock and Roll Hall of Fame",
+   "type": "award",
+   "quote": "On March 10, 2008, Madonna was inducted into the Rock and Roll Hall of Fame"
+  }
+ ],
+ "Magdalena Kožená": [
+  {
+   "date": "2013-05-01",
+   "label": "koncert s Berlínskými filharmoniky na Hradě",
+   "type": "event",
+   "quote": "Na slavnostním koncertě Berlínských filharmoniků vystoupila 1. května 2013 ve Španělském sále Pražského hradu",
+   "lang": "cs",
+   "article": "Magdalena Kožená"
+  },
+  {
+   "date": "2022-01-18",
+   "label": "čestný doktorát JAMU",
+   "type": "award",
+   "quote": "Čestný doktorát Janáčkovy akademie múzických umění v Brně obdržela 18. ledna 2022",
+   "lang": "cs",
+   "article": "Magdalena Kožená"
+  }
+ ],
+ "Mahatma Gandhi": [
+  {
+   "date": "1922-03-10",
+   "label": "zatčen a souzen za pobuřování",
+   "type": "arrest",
+   "quote": "Gandhi was arrested on 10 March 1922, tried for sedition, and sentenced to six years' imprisonment"
+  },
+  {
+   "date": "1930-01-26",
+   "label": "vyhlášení nezávislosti Indie Kongresem",
+   "type": "event",
+   "quote": "until on 26 January 1930 the Indian National Congress declared the independence of India"
+  },
+  {
+   "date": "1948-01-30",
+   "label": "atentát v Dillí",
+   "type": "assassination",
+   "quote": "who assassinated Gandhi by firing three bullets into his chest at an interfaith prayer meeting in Delhi on 30 January 1948"
+  }
+ ],
+ "Marek Hamšík": [
+  {
+   "date": "2007-06-28",
+   "label": "přestup do Neapole",
+   "type": "event",
+   "quote": "On 28 June 2007, newly promoted Serie A club Napoli announced Hamšík had signed a five-year contract with the club"
+  },
+  {
+   "date": "2017-12-16",
+   "label": "vyrovnal Maradonu jako střelec Neapole",
+   "type": "record",
+   "quote": "On 16 December 2017, Hamšík scored his 115th goal for Napoli in a 3–1 away victory over Torino, equalling Diego Maradona as the club's all-time top scorer."
+  },
+  {
+   "date": "2018-10-13",
+   "label": "rekordman ve startech za Slovensko",
+   "type": "record",
+   "quote": "On 13 October 2018, Hamšík made his 108th international appearance"
+  }
+ ],
+ "Margaret Thatcher": [
+  {
+   "date": "1975-02-11",
+   "label": "předsedkyně Konzervativní strany",
+   "type": "election",
+   "quote": "Thatcher became Conservative Party leader and Leader of the Opposition on 11 February 1975"
+  },
+  {
+   "date": "1979-05-04",
+   "label": "premiérkou Spojeného království",
+   "type": "office",
+   "quote": "Thatcher became prime minister on 4 May 1979"
+  },
+  {
+   "date": "1984-10-12",
+   "label": "atentát IRA v Brightonu",
+   "type": "assassination_attempt",
+   "quote": "Thatcher narrowly escaped injury in an IRA assassination attempt at a Brighton hotel early in the morning on 12 October 1984"
+  },
+  {
+   "date": "1985-11-15",
+   "label": "anglo-irská dohoda",
+   "type": "treaty",
+   "quote": "On 15 November 1985, Thatcher and FitzGerald signed the Hillsborough Anglo-Irish Agreement"
+  }
+ ],
+ "Maria Theresa": [
+  {
+   "date": "1740-10-20",
+   "label": "počátek vlády",
+   "type": "coronation",
+   "quote": "Maria Theresa started her 40-year reign when her father, Charles VI, Holy Roman Emperor, died on 20 October 1740"
+  },
+  {
+   "date": "1741-09-11",
+   "label": "vystoupení před uherským sněmem",
+   "type": "event",
+   "quote": "she decided to appear before the Hungarian Diet on 11 September 1741 while wearing the Holy Crown of Hungary"
+  },
+  {
+   "date": "1743-05-12",
+   "label": "korunovace českou královnou",
+   "type": "coronation",
+   "quote": "On 12 May 1743, Maria Theresa was crowned Queen of Bohemia"
+  },
+  {
+   "date": "1756-05-01",
+   "label": "první versailleská smlouva",
+   "type": "treaty",
+   "quote": "the result was the First Treaty of Versailles of 1 May 1756"
+  }
+ ],
+ "Marie Curie": [
+  {
+   "date": "1898-04-12",
+   "label": "práce předložena Akademii",
+   "type": "publication",
+   "quote": "her paper, giving a brief and simple account of her work, was presented for her to the Académie on 12 April 1898"
+  },
+  {
+   "date": "1898-12-26",
+   "label": "oznámení objevu radia",
+   "type": "discovery",
+   "quote": "On 26 December 1898, the Curies announced the existence of a second element, which they named 'radium'"
+  },
+  {
+   "date": "1906-05-13",
+   "label": "profesura na pařížské univerzitě",
+   "type": "office",
+   "quote": "On 13 May 1906 the physics department of the University of Paris decided to retain the chair that had been created for her late husband and offer it to Marie"
+  }
+ ],
+ "Marilyn Monroe": [
+  {
+   "date": "1956-02-23",
+   "label": "úřední změna jména na Marilyn Monroe",
+   "type": "event",
+   "quote": "On February 23, 1956, she legally changed her name to Marilyn Monroe."
+  }
+ ],
+ "Mario Lemieux": [
+  {
+   "date": "1984-10-11",
+   "label": "debut v NHL gólem z první střely",
+   "type": "event",
+   "quote": "He debuted on October 11, 1984, against the Boston Bruins, and on his first shift, he stole the puck from Hall of Fame defenceman Ray Bourque and scored a goal with his first NHL shot"
+  },
+  {
+   "date": "1997-11-17",
+   "label": "uveden do Hokejové síně slávy",
+   "type": "award",
+   "quote": "On November 17, 1997, Lemieux was inducted into the Hockey Hall of Fame"
+  },
+  {
+   "date": "1999-09-01",
+   "label": "majitelem Pittsburgh Penguins",
+   "type": "office",
+   "quote": "The NHL's Board of Governors approved his application for ownership on September 1, 1999."
+  },
+  {
+   "date": "2000-12-27",
+   "label": "návrat na led v NHL",
+   "type": "event",
+   "quote": "On December 27, 2000, he returned to the NHL against the Toronto Maple Leafs."
+  }
+ ],
+ "Marián Hossa": [
+  {
+   "date": "2010-06-09",
+   "label": "první Stanley Cup",
+   "type": "title",
+   "quote": "On 9 June 2010, Hossa finally lifted his first Stanley Cup after the Blackhawks defeated the Philadelphia Flyers in six games."
+  },
+  {
+   "date": "2015-06-15",
+   "label": "třetí Stanley Cup s Chicagem",
+   "type": "title",
+   "quote": "On 15 June 2015, Hossa and the Blackhawks won the Cup for the third time in six seasons"
+  },
+  {
+   "date": "2020-06-24",
+   "label": "zvolen do Hokejové síně slávy",
+   "type": "award",
+   "quote": "On 24 June 2020, Hossa was elected into the Hockey Hall of Fame."
+  }
+ ],
+ "Mark Messier": [
+  {
+   "date": "1991-10-04",
+   "label": "výměna do New York Rangers",
+   "type": "event",
+   "quote": "On October 4, 1991, in one of many cost-cutting moves by Edmonton management, Messier was traded to the New York Rangers"
+  },
+  {
+   "date": "2003-11-04",
+   "label": "předstihl Gordieho Howea v bodování",
+   "type": "record",
+   "quote": "On November 4, 2003, against the Dallas Stars, Messier scored a pair of goals to vault past Gordie Howe into second on the all-time point scoring list"
+  },
+  {
+   "date": "2007-11-12",
+   "label": "uveden do Hokejové síně slávy",
+   "type": "award",
+   "quote": "On November 12, 2007, Messier was inducted into the Hockey Hall of Fame in the players category."
+  }
+ ],
+ "Mark Twain": [
+  {
+   "date": "1863-02-03",
+   "label": "první použití pseudonymu",
+   "type": "event",
+   "quote": "Twain first used his pen name here on February 3, 1863"
+  },
+  {
+   "date": "1865-11-18",
+   "label": "vydání povídky o skákající žábě",
+   "type": "publication",
+   "quote": "his humorous tall tale \"The Celebrated Jumping Frog of Calaveras County\" was published on November 18, 1865"
+  },
+  {
+   "date": "1867-06-08",
+   "label": "vyplutí na lodi Quaker City",
+   "type": "event",
+   "quote": "On June 8, 1867, Twain set sail on the pleasure cruiser Quaker City for five months"
+  }
+ ],
+ "Mark Zuckerberg": [
+  {
+   "date": "2004-02-04",
+   "label": "spuštění Thefacebook",
+   "type": "founding",
+   "quote": "On February 4, 2004, Zuckerberg launched \"Thefacebook\""
+  },
+  {
+   "date": "2010-07-21",
+   "label": "Facebook dosáhl 500 milionů uživatelů",
+   "type": "record",
+   "quote": "On July 21, 2010, Zuckerberg reported that Facebook had reached the 500-million-user mark"
+  },
+  {
+   "date": "2015-12-01",
+   "label": "slib darovat 99 % akcií Facebooku",
+   "type": "event",
+   "quote": "On December 1, 2015, the couple pledged to transfer 99% of their Facebook shares"
+  }
+ ],
+ "Marlene Dietrich": [
+  {
+   "date": "1953-01-15",
+   "label": "premiéra rozhlasové série Time for Love",
+   "type": "premiere",
+   "quote": "she starred in 38 episodes of Time for Love on CBS (which debuted 15 January 1953)"
+  },
+  {
+   "date": "1975-09-29",
+   "label": "pád na pódiu ukončil kariéru",
+   "type": "event",
+   "quote": "Dietrich's show business career largely ended on 29 September 1975, when she fell on the stage and broke a thigh bone during a performance in Sydney, Australia."
+  }
+ ],
+ "Marta Kubišová": [
+  {
+   "date": "1988-12-10",
+   "label": "návrat na veřejnost na demonstraci",
+   "type": "event",
+   "quote": "On 10 December 1988 after a long absence from the public eye, she appeared at a demonstration on the 40th anniversary of the Universal Declaration of Human Rights"
+  },
+  {
+   "date": "1989-11-22",
+   "label": "Modlitba pro Martu na Václavském náměstí",
+   "type": "event",
+   "quote": "On 22 November 1989, during the Velvet Revolution, she sang \"Prayer for Martha\" and the Czechoslovak national anthem from a balcony on Wenceslas Square."
+  },
+  {
+   "date": "1995-10-28",
+   "label": "medaile Za zásluhy od Havla",
+   "type": "award",
+   "quote": "On 28 October 1995 she received the state award – the Medal of Merit – from President Václav Havel."
+  }
+ ],
+ "Martin Luther": [
+  {
+   "date": "1517-10-31",
+   "label": "přibití 95 tezí ve Wittenbergu",
+   "type": "publication",
+   "quote": "Luther nailed his Ninety-five Theses to the door of All Saints' Church in Wittenberg on 31 October 1517"
+  },
+  {
+   "date": "1521-01-03",
+   "label": "exkomunikace papežem",
+   "type": "event",
+   "quote": "Luther was excommunicated by the Pope on 3 January 1521"
+  },
+  {
+   "date": "1521-04-17",
+   "label": "vystoupení na říšském sněmu ve Wormsu",
+   "type": "trial",
+   "quote": "On 17 April 1521, Luther appeared as ordered before the Diet of Worms"
+  },
+  {
+   "date": "1521-05-25",
+   "label": "Wormský edikt, prohlášen psancem",
+   "type": "event",
+   "quote": "The Emperor presented the final draft of the Edict of Worms on 25 May 1521, declaring Luther an outlaw"
+  }
+ ],
+ "Martin Luther King Jr.": [
+  {
+   "date": "1958-09-20",
+   "label": "přežil útok nožem v Harlemu",
+   "type": "assassination_attempt",
+   "quote": "On September 20, 1958, King was signing copies of his book Stride Toward Freedom in Blumstein's department store in Harlem"
+  },
+  {
+   "date": "1964-10-14",
+   "label": "Nobelova cena za mír",
+   "type": "award",
+   "quote": "On October 14, 1964, King became the youngest winner of the Nobel Peace Prize"
+  },
+  {
+   "date": "1965-03-25",
+   "label": "pochod ze Selmy",
+   "type": "event",
+   "quote": "The march finally went ahead fully on March 25, 1965."
+  },
+  {
+   "date": "1968-04-04",
+   "label": "atentát v Memphisu",
+   "type": "assassination",
+   "quote": "King was fatally shot by James Earl Ray at 6:01 p.m., Thursday, April 4, 1968"
+  }
+ ],
+ "Martina Navratilova": [
+  {
+   "date": "1981-07-30",
+   "label": "článek New York Daily News o její orientaci",
+   "type": "scandal",
+   "quote": "However, the New York Daily News published the article on July 30, 1981."
+  },
+  {
+   "date": "2006-08-21",
+   "label": "poslední titul ve čtyřhře",
+   "type": "title",
+   "quote": "Her last title in women's doubles came on August 21, 2006, at the Tier I Rogers Cup in Montreal"
+  },
+  {
+   "date": "2008-01-09",
+   "label": "znovu získala české občanství",
+   "type": "event",
+   "quote": "On January 9, 2008, Navratilova reacquired Czech citizenship"
+  },
+  {
+   "date": "2025-10-28",
+   "label": "Řád Bílého lva",
+   "type": "award",
+   "quote": "On 28 October 2025, Navratilova was awarded Order of the White Lion, III Class by Czech President Petr Pavel."
+  }
+ ],
+ "Martina Sáblíková": [
+  {
+   "date": "2007-03-15",
+   "label": "první žena pod 14 minut na 10 km",
+   "type": "record",
+   "quote": "On 15 March 2007, Sáblíková became the first female speed skater to skate a 10,000 m below 14 minutes"
+  },
+  {
+   "date": "2008-03-09",
+   "label": "mistryně světa na 5000 m",
+   "type": "title",
+   "quote": "On 9 March 2008, she won gold at the 5000 m at the World Single Distance Championships in Nagano, Japan."
+  }
+ ],
+ "Maurice Richard": [
+  {
+   "date": "1944-12-28",
+   "label": "rekordních osm bodů v zápase",
+   "type": "record",
+   "quote": "He first set a new mark for points in one game when he made five goals and three assists in a 9–1 victory over the Detroit Red Wings on December 28, 1944"
+  },
+  {
+   "date": "1955-03-13",
+   "label": "incident vedoucí k Richardově vzpouře",
+   "type": "scandal",
+   "quote": "The simmering dispute erupted after an incident in the Canadiens' March 13, 1955, game against Boston"
+  },
+  {
+   "date": "1957-10-19",
+   "label": "první hráč s 500 góly v NHL",
+   "type": "record",
+   "quote": "on October 19, 1957, he became the first player in NHL history to score 500 goals in his career."
+  },
+  {
+   "date": "1960-09-15",
+   "label": "konec hráčské kariéry",
+   "type": "event",
+   "quote": "on September 15, 1960, he announced his retirement as a player."
+  }
+ ],
+ "Meghan, Duchess of Sussex": [
+  {
+   "date": "2017-11-27",
+   "label": "zasnoubení s princem Harrym",
+   "type": "event",
+   "quote": "Markle's engagement to Harry was announced on November 27, 2017"
+  },
+  {
+   "date": "2020-03-31",
+   "label": "odchod z královských povinností",
+   "type": "resignation",
+   "quote": "officially closed on March 31, 2020, when they withdrew from undertaking official royal engagements."
+  },
+  {
+   "date": "2021-03-07",
+   "label": "rozhovor s Oprah Winfrey",
+   "type": "event",
+   "quote": "The television special Oprah with Meghan and Harry was broadcast on CBS on March 7, 2021."
+  },
+  {
+   "date": "2022-12-08",
+   "label": "premiéra seriálu Harry & Meghan",
+   "type": "premiere",
+   "quote": "Harry & Meghan, a docuseries about the couple directed by Liz Garbus, was produced by Netflix and the couple's Archewell Productions and premiered on December 8, 2022."
+  }
+ ],
+ "Meryl Streep": [
+  {
+   "date": "2001-12-11",
+   "label": "moderovala koncert k Nobelově ceně míru",
+   "type": "event",
+   "quote": "Streep co-hosted the annual Nobel Peace Prize Concert with Liam Neeson which was held in Oslo, Norway, on December 11, 2001"
+  },
+  {
+   "date": "2026-05-01",
+   "label": "premiéra filmu Ďábel nosí Pradu 2",
+   "type": "premiere",
+   "quote": "She reprised the role of Miranda Priestly in The Devil Wears Prada 2, which was released on May 1, 2026."
+  }
+ ],
+ "Michael Jackson": [
+  {
+   "date": "1982-11-29",
+   "label": "vydání alba Thriller",
+   "type": "work",
+   "quote": "Jackson's sixth studio album, Thriller, was released on November 29, 1982."
+  },
+  {
+   "date": "1983-03-25",
+   "label": "vystoupení Motown 25",
+   "type": "event",
+   "quote": "On March 25, 1983, Jackson reunited with his brothers for Motown 25: Yesterday, Today, Forever"
+  },
+  {
+   "date": "1987-08-31",
+   "label": "vydání alba Bad",
+   "type": "work",
+   "quote": "Jackson released his highly anticipated seventh studio album, Bad, on August 31, 1987."
+  },
+  {
+   "date": "2005-06-13",
+   "label": "zproštěn všech obvinění",
+   "type": "trial",
+   "quote": "On June 13, 2005, Jackson was acquitted on all counts."
+  }
+ ],
+ "Michael Jordan": [
+  {
+   "date": "1984-10-26",
+   "label": "debut v NBA",
+   "type": "event",
+   "quote": "Jordan made his NBA debut at Chicago Stadium on October 26, 1984, and scored 16 points."
+  },
+  {
+   "date": "1986-04-20",
+   "label": "rekord 63 bodů v play-off",
+   "type": "record",
+   "quote": "Jordan established the single game playoff record of 63 points against the Boston Celtics on April 20, 1986"
+  },
+  {
+   "date": "1993-10-06",
+   "label": "první ukončení kariéry",
+   "type": "resignation",
+   "quote": "On October 6, 1993, Jordan announced his retirement, saying that he lost his desire to play basketball."
+  },
+  {
+   "date": "1995-03-18",
+   "label": "návrat do NBA",
+   "type": "event",
+   "quote": "On March 18, 1995, Jordan announced his comeback to the NBA in a two-word press release"
+  }
+ ],
+ "Michael Schumacher": [
+  {
+   "date": "2013-12-29",
+   "label": "nehoda na lyžích v Méribelu",
+   "type": "event",
+   "quote": "On 29 December 2013, Schumacher was skiing with his then 14-year-old son Mick, descending the Combe de Saulire below the Dent de Burgin above Méribel in the French Alps."
+  }
+ ],
+ "Michelangelo": [
+  {
+   "date": "1496-06-25",
+   "label": "příchod do Říma",
+   "type": "event",
+   "quote": "Michelangelo arrived in Rome on 25 June 1496 at the age of 21."
+  }
+ ],
+ "Milada Horáková": [
+  {
+   "date": "1949-09-27",
+   "label": "zatčena StB",
+   "type": "arrest",
+   "quote": "On 27 September 1949, she was arrested and accused of being the leader of an alleged plot to overthrow the Communist regime"
+  },
+  {
+   "date": "1950-05-31",
+   "label": "začátek vykonstruovaného procesu",
+   "type": "trial",
+   "quote": "The trial of Horáková and twelve of her colleagues began on 31 May 1950."
+  },
+  {
+   "date": "1950-06-08",
+   "label": "odsouzena k smrti",
+   "type": "trial",
+   "quote": "Milada Horáková was sentenced to death on 8 June 1950"
+  }
+ ],
+ "Milan Hejduk": [
+  {
+   "date": "2009-01-18",
+   "label": "300. gól v NHL",
+   "type": "record",
+   "quote": "Hejduk scored his 300th career NHL goal alongside Ryan Smyth on January 18, 2009"
+  },
+  {
+   "date": "2013-02-04",
+   "label": "1000. zápas v NHL",
+   "type": "record",
+   "quote": "On February 4, 2013, in a 3–2 defeat to the Dallas Stars, Hejduk scored a goal in his 1,000th career NHL game."
+  },
+  {
+   "date": "2018-01-06",
+   "label": "vyřazení dresu s číslem 23",
+   "type": "award",
+   "quote": "the Avalanche would retire Hejduk's number 23 jersey during the 2017–18 season, and it was officially retired on January 6, 2018"
+  }
+ ],
+ "Milan Kundera": [
+  {
+   "date": "1950-03-14",
+   "label": "výpověď na SNB",
+   "type": "event",
+   "quote": "14. března 1950 se Kundera dostavil na SNB",
+   "lang": "cs",
+   "article": "Milan Kundera"
+  },
+  {
+   "date": "2008-10-13",
+   "label": "aféra s udáním Dvořáčka",
+   "type": "scandal",
+   "quote": "On 13 October 2008, the Czech weekly Respekt reported that an investigation was being carried out"
+  },
+  {
+   "date": "2008-10-13",
+   "label": "článek Respektu o jeho návštěvě SNB",
+   "type": "scandal",
+   "quote": "Časopis Respekt ve svém čísle z 13. října 2008 přinesl článek Adama Hradilka z Ústavu pro studium totalitních režimů, ve kterém autor uvedl na základě jím objeveného záznamu, že 14. března 1950 se Kundera dostavil na SNB",
+   "lang": "cs",
+   "article": "Milan Kundera"
+  },
+  {
+   "date": "2019-11-28",
+   "label": "převzetí potvrzení o nabytí občanství",
+   "type": "event",
+   "quote": "Potvrzení o nabytí občanství mu předal 28. listopadu 2019 v Paříži Petr Drulák, velvyslanec ČR ve Francii",
+   "lang": "cs",
+   "article": "Milan Kundera"
+  }
+ ],
+ "Milan Rastislav Štefánik": [
+  {
+   "date": "1912-09-10",
+   "label": "astronomická expedice do Brazílie",
+   "type": "event",
+   "quote": "Štefánik and Králiček arrived in Rio de Janeiro aboard the French steamship Amazone on 10 September 1912."
+  },
+  {
+   "date": "1917-10-20",
+   "label": "velkodůstojník Čestné legie",
+   "type": "award",
+   "quote": "On 20 October 1917, he was made a Grand Officier of the Legion of Honour."
+  }
+ ],
+ "Miloš Forman": [
+  {
+   "date": "1989-11-17",
+   "label": "premiéra filmu Valmont",
+   "type": "premiere",
+   "quote": "Forman's adaptation, Valmont (1989) of Pierre Choderlos de Laclos's novel Les Liaisons dangereuses had its premiere on 17 November 1989."
+  },
+  {
+   "date": "1999-12-22",
+   "label": "premiéra filmu Muž na Měsíci",
+   "type": "premiere",
+   "quote": "The biography, Man on the Moon (1999) was of famous actor and avant-garde comic Andy Kaufman (Jim Carrey, who won a Golden Globe for his performance) premiered on 22 December 1999."
+  },
+  {
+   "date": "2006-11-08",
+   "label": "premiéra filmu Goyovy přízraky",
+   "type": "premiere",
+   "quote": "Forman returned to directing with Goya's Ghosts, which premiered on 8 November 2006."
+  }
+ ],
+ "Miloš Zeman": [
+  {
+   "date": "2007-03-21",
+   "label": "odchod z ČSSD",
+   "type": "resignation",
+   "quote": "He left ČSSD on 21 March 2007, due to conflicts with the party leader and chairman, Jiří Paroubek."
+  },
+  {
+   "date": "2017-03-09",
+   "label": "oznámení kandidatury na druhé období",
+   "type": "election",
+   "quote": "On 9 March 2017, during a meeting with his supporters, Zeman announced his intention to run again for the presidency"
+  },
+  {
+   "date": "2019-07-25",
+   "label": "ústavní žaloba Senátu",
+   "type": "scandal",
+   "quote": "On 25 July 2019, the Senate, for the first time in the history of the Czech Republic, approved and delivered to the Chamber of Deputies articles of impeachment against President Zeman"
+  }
+ ],
+ "Mother Teresa": [
+  {
+   "date": "1946-09-10",
+   "label": "povolání v povolání",
+   "type": "event",
+   "quote": "On 10 September 1946, Teresa experienced what she later described as \"the call within the call\""
+  },
+  {
+   "date": "1950-10-07",
+   "label": "povolení Vatikánu pro Misionářky lásky",
+   "type": "founding",
+   "quote": "On 7 October 1950, Mother Teresa received Vatican permission for the diocesan congregation, which would become the Missionaries of Charity"
+  },
+  {
+   "date": "1997-03-13",
+   "label": "odstoupení z čela Misionářek lásky",
+   "type": "resignation",
+   "quote": "On 13 March 1997, Mother Teresa resigned as head of the Missionaries of Charity"
+  }
+ ],
+ "Muhammad Ali": [
+  {
+   "date": "1964-02-25",
+   "label": "mistr světa po výhře nad Listonem",
+   "type": "title",
+   "quote": "He won the world heavyweight championship, defeating Sonny Liston in a major upset on February 25, 1964, at age 22."
+  },
+  {
+   "date": "1967-04-28",
+   "label": "odmítnutí odvodu do armády",
+   "type": "event",
+   "quote": "On April 28, 1967, Ali appeared in Houston for his scheduled induction into the U.S. Armed Forces, but he refused three times to step forward when his name was called."
+  },
+  {
+   "date": "1967-06-20",
+   "label": "odsouzen za odmítnutí odvodu",
+   "type": "trial",
+   "quote": "At the trial on June 20, 1967, the jury found Ali guilty after only 21 minutes of deliberation"
+  },
+  {
+   "date": "1974-10-30",
+   "label": "Rumble in the Jungle proti Foremanovi",
+   "type": "title",
+   "quote": "a title fight against heavyweight champion George Foreman in Kinshasa, Zaire, on October 30, 1974—a bout nicknamed The Rumble in the Jungle."
+  }
+ ],
+ "Napoleon": [
+  {
+   "date": "1799-11-09",
+   "label": "státní převrat 18. brumaire",
+   "type": "event",
+   "quote": "On 9 November 1799 (18 Brumaire according to the revolutionary calendar), the conspirators launched a coup"
+  },
+  {
+   "date": "1804-12-02",
+   "label": "korunovace císařem v Notre-Dame",
+   "type": "coronation",
+   "quote": "Napoleon's coronation, with the participation of Pope Pius VII, took place at Notre Dame de Paris on 2 December 1804."
+  },
+  {
+   "date": "1814-04-11",
+   "label": "smlouva z Fontainebleau, vyhnanství na Elbu",
+   "type": "abdication",
+   "quote": "With the Treaty of Fontainebleau of 11 April 1814, the allies exiled Napoleon to Elba"
+  },
+  {
+   "date": "1815-03-01",
+   "label": "návrat z Elby, sto dní",
+   "type": "event",
+   "quote": "On 1 March 1815 Napoleon and his followers landed on the French mainland at Golfe-Juan"
+  }
+ ],
+ "Narendra Modi": [
+  {
+   "date": "2001-10-03",
+   "label": "hlavním ministrem Gudžarátu",
+   "type": "office",
+   "quote": "On 3 October 2001, Modi replaced Patel as Chief Minister of Gujarat"
+  },
+  {
+   "date": "2014-05-26",
+   "label": "premiérem Indie",
+   "type": "office",
+   "quote": "has served as the prime minister of India since 26 May 2014"
+  },
+  {
+   "date": "2016-11-09",
+   "label": "demonetizace bankovek",
+   "type": "event",
+   "quote": "On 9 November 2016, the government demonetised ₹500 and ₹1000 banknotes"
+  }
+ ],
+ "Nelson Mandela": [
+  {
+   "date": "1962-08-05",
+   "label": "zatčení u Howicku",
+   "type": "arrest",
+   "quote": "On 5 August 1962, police captured Mandela along with fellow activist Cecil Williams near Howick."
+  },
+  {
+   "date": "1964-06-12",
+   "label": "doživotí v procesu Rivonia",
+   "type": "trial",
+   "quote": "On 12 June 1964, justice De Wet found Mandela and two of his co-accused guilty on all four charges"
+  },
+  {
+   "date": "1994-05-10",
+   "label": "inaugurace prezidentem JAR",
+   "type": "office",
+   "quote": "His inauguration took place in Pretoria on 10 May 1994, televised to a billion viewers globally."
+  }
+ ],
+ "Nicolaus Copernicus": [
+  {
+   "date": "1497-03-09",
+   "label": "pozorování zákrytu Aldebaranu",
+   "type": "event",
+   "quote": "by conducting on 9 March 1497 at Bologna a memorable observation of the occultation of Aldebaran"
+  },
+  {
+   "date": "1503-05-31",
+   "label": "doktorát kanonického práva",
+   "type": "award",
+   "quote": "on 31 May 1503, having passed the obligatory examinations, he was granted the degree of Doctor of Canon Law"
+  }
+ ],
+ "Niels Bohr": [
+  {
+   "date": "1921-03-03",
+   "label": "otevření ústavu teoretické fyziky",
+   "type": "founding",
+   "quote": "Now known as the Niels Bohr Institute, it opened on 3 March 1921, with Bohr as its director."
+  },
+  {
+   "date": "1939-01-26",
+   "label": "zpráva o štěpení jádra v USA",
+   "type": "event",
+   "quote": "Bohr brought the news to the United States where he opened the fifth Washington Conference on Theoretical Physics with Fermi on 26 January 1939."
+  },
+  {
+   "date": "1947-10-17",
+   "label": "Řád slona",
+   "type": "award",
+   "quote": "At a memorial meeting of the Academy on 17 October 1947 for King Christian X, who had died in April, the new king, Frederik IX, announced that he was conferring the Order of the Elephant on Bohr."
+  }
+ ],
+ "Nikola Tesla": [
+  {
+   "date": "1888-05-16",
+   "label": "předvedení střídavého motoru",
+   "type": "breakthrough",
+   "quote": "arranged for Tesla to demonstrate his AC motor on 16 May 1888 at the American Institute of Electrical Engineers"
+  },
+  {
+   "date": "1895-03-13",
+   "label": "požár laboratoře",
+   "type": "event",
+   "quote": "On 13 March 1895, the South Fifth Avenue building that housed Tesla's lab caught fire."
+  },
+  {
+   "date": "1901-02-09",
+   "label": "článek Talking With Planets",
+   "type": "publication",
+   "quote": "He expanded on the signals he heard in a 9 February 1901 Collier's Weekly article entitled \"Talking With Planets\""
+  }
+ ],
+ "Novak Djokovic": [
+  {
+   "date": "2011-06-25",
+   "label": "Řád srbské národní obrany",
+   "type": "award",
+   "quote": "On 25 June 2011, at the Serbian National Defense Council's seventieth congress in Chicago, Djokovic was unanimously awarded the Order of Serbian National Defense in America I class"
+  },
+  {
+   "date": "2016-04-03",
+   "label": "vítězství na Miami Open",
+   "type": "title",
+   "quote": "On 3 April 2016, Djokovic won the Miami Open without dropping a set, claiming his sixth title and tying Andre Agassi's record."
+  },
+  {
+   "date": "2026-10-06",
+   "label": "vítězství na China Open",
+   "type": "title",
+   "quote": "On 6 October 2026, Djokovic won the 2026 China Open, beating Alex De Minaur in the final."
+  }
+ ],
+ "Oprah Winfrey": [
+  {
+   "date": "1986-09-08",
+   "label": "celostátní start The Oprah Winfrey Show",
+   "type": "premiere",
+   "quote": "The first episode was broadcast nationwide on September 8, 1986."
+  },
+  {
+   "date": "2008-01-15",
+   "label": "ohlášení stanice OWN",
+   "type": "founding",
+   "quote": "On January 15, 2008, Winfrey and Discovery Communications announced plans to change Discovery Health Channel into a new channel called OWN: Oprah Winfrey Network."
+  },
+  {
+   "date": "2011-05-25",
+   "label": "poslední díl The Oprah Winfrey Show",
+   "type": "event",
+   "quote": "The series finale of The Oprah Winfrey Show aired on May 25, 2011."
+  }
+ ],
+ "Otto Wichterle": [
+  {
+   "date": "1958-08-31",
+   "label": "propuštění při politické čistce",
+   "type": "event",
+   "quote": "začala politická čistka vedoucí i k propuštění Otty Wichterla dne 31. srpna 1958",
+   "lang": "cs",
+   "article": "Otto Wichterle"
+  },
+  {
+   "date": "1965-03-12",
+   "label": "podpis licenční smlouvy s NPDC",
+   "type": "event",
+   "quote": "byla 12. března 1965 v Praze podepsána licenční smlouva s Robertem Morrisonem a National Patent Development Corporation (NPDC)",
+   "lang": "cs",
+   "article": "Otto Wichterle"
+  }
+ ],
+ "Pablo Picasso": [
+  {
+   "date": "1901-03-31",
+   "label": "první číslo časopisu, podpis Picasso",
+   "type": "publication",
+   "quote": "The first issue was published on 31 March 1901, by which time the artist had started to sign his work Picasso."
+  },
+  {
+   "date": "1949-01-09",
+   "label": "litografie Holubice",
+   "type": "work",
+   "quote": "On 9 January 1949, Picasso created Dove, a black and white lithograph."
+  }
+ ],
+ "Patrik Eliáš": [
+  {
+   "date": "2006-10-05",
+   "label": "kapitán New Jersey Devils",
+   "type": "office",
+   "quote": "Eliáš was named the Devils' seventh captain in the team's history on 5 October 2006."
+  },
+  {
+   "date": "2009-03-17",
+   "label": "nejproduktivnější hráč historie Devils",
+   "type": "record",
+   "quote": "On 17 March 2009, Eliáš became the Devils' all-time leading point scorer by recording his 702nd NHL regular season point"
+  },
+  {
+   "date": "2015-01-06",
+   "label": "1000. bod v NHL",
+   "type": "record",
+   "quote": "On 6 January 2015, Eliáš recorded one goal and two assists to become the 82nd player in NHL history to reach 1,000 career points."
+  },
+  {
+   "date": "2017-03-31",
+   "label": "konec hráčské kariéry",
+   "type": "resignation",
+   "quote": "On 31 March 2017, Eliáš announced his retirement from professional ice hockey."
+  }
+ ],
+ "Patrik Schick": [
+  {
+   "date": "2016-05-27",
+   "label": "debut a gól za reprezentaci",
+   "type": "event",
+   "quote": "He made his national team debut in a friendly match against Malta on 27 May 2016, scoring after coming on as a second-half substitute"
+  },
+  {
+   "date": "2021-12-04",
+   "label": "čtyři góly v jednom zápase",
+   "type": "record",
+   "quote": "On 4 December 2021, Schick scored four goals and provided an assist – all in the second half – in a 7–1 victory against Greuther Fürth"
+  },
+  {
+   "date": "2024-05-18",
+   "label": "neporažená sezóna a titul s Leverkusenem",
+   "type": "title",
+   "quote": "On 18 May 2024, in the final day of the season Schick was a part of the first ever unbeaten Bundesliga season with Bayer Leverkusen."
+  }
+ ],
+ "Paulina Porizkova": [
+  {
+   "date": "2009-05-12",
+   "label": "odchod z America's Next Top Model",
+   "type": "event",
+   "quote": "she announced during a 12 May 2009, appearance on The Late Late Show with Craig Ferguson that she had been fired from the show."
+  },
+  {
+   "date": "2022-11-15",
+   "label": "vydání memoárů No Filter",
+   "type": "publication",
+   "quote": "She published a memoir-in-essays titled No Filter: The Good, the Bad, and the Beautiful on 15 November 2022."
+  }
+ ],
+ "Pavel Nedvěd": [
+  {
+   "date": "2009-02-26",
+   "label": "ohlášení konce kariéry",
+   "type": "resignation",
+   "quote": "On 26 February 2009, Nedvěd announced he would retire at the end of 2008–09 season to spend more time with his family."
+  },
+  {
+   "date": "2015-10-23",
+   "label": "místopředseda Juventusu",
+   "type": "office",
+   "quote": "On 23 October 2015, Nedvěd was appointed vice chairman of the board of directors."
+  },
+  {
+   "date": "2023-01-20",
+   "label": "zákaz činnosti kvůli aféře Plusvalenza",
+   "type": "scandal",
+   "quote": "On 20 January 2023, Nedvěd was suspended from holding office in Italian football for eight months due to his involvement in the scandal."
+  }
+ ],
+ "Pelé": [
+  {
+   "date": "1957-07-07",
+   "label": "debut za brazilskou reprezentaci",
+   "type": "event",
+   "quote": "Pelé played his first match for the Brazilian national team on 7 July 1957, at the age of 16."
+  },
+  {
+   "date": "1958-06-29",
+   "label": "dva góly ve finále MS a titul",
+   "type": "title",
+   "quote": "On 29 June 1958, Pelé scored two goals as Brazil defeated Sweden 5–2 in the final."
+  },
+  {
+   "date": "1969-11-19",
+   "label": "1000. gól kariéry",
+   "type": "record",
+   "quote": "On 19 November 1969, Pelé scored his 1,000th goal in all competitions"
+  },
+  {
+   "date": "1977-10-01",
+   "label": "rozlučkový zápas kariéry",
+   "type": "event",
+   "quote": "On 1 October 1977, Pelé closed out his career with an exhibition match between the Cosmos and Santos."
+  }
+ ],
+ "Peter Sagan": [
+  {
+   "date": "2023-01-27",
+   "label": "ohlášení konce silniční kariéry",
+   "type": "resignation",
+   "quote": "On 27 January 2023, Sagan announced that at the end of the 2023 season, he would retire from road cycling"
+  },
+  {
+   "date": "2023-10-01",
+   "label": "poslední silniční závod",
+   "type": "event",
+   "quote": "On 1 October 2023, Sagan apparently concluded his career as a professional road cyclist with a ninth-place finish at the Tour de Vendée."
+  }
+ ],
+ "Peter Šťastný": [
+  {
+   "date": "1981-02-22",
+   "label": "rekord 8 bodů v zápase nováčka",
+   "type": "record",
+   "quote": "Holds NHL record for points in a game by a rookie with 8 (four goals and four assists on 22 February 1981 against Washington Capitals)."
+  },
+  {
+   "date": "1998-11-16",
+   "label": "uveden do Síně slávy NHL",
+   "type": "award",
+   "quote": "He was inducted into the Hockey Hall of Fame in 1998 alongside former linemate Michel Goulet in a ceremony held on November 16, 1998."
+  }
+ ],
+ "Petr Kellner": [],
+ "Petr Pavel": [
+  {
+   "date": "2012-06-01",
+   "label": "náčelníkem generálního štábu",
+   "type": "office",
+   "quote": "On 1 June 2012, he was promoted to Chief of the General Staff."
+  },
+  {
+   "date": "2022-06-29",
+   "label": "oznámení prezidentské kandidatury",
+   "type": "election",
+   "quote": "On 29 June 2022, Pavel announced his intention to run in the 2023 Czech presidential election."
+  },
+  {
+   "date": "2023-03-09",
+   "label": "inaugurace prezidentem ČR",
+   "type": "office",
+   "quote": "Pavel was inaugurated on 9 March 2023, succeeding Miloš Zeman."
+  }
+ ],
+ "Petr Čech": [
+  {
+   "date": "2005-03-05",
+   "label": "rekord Premier League bez inkasovaného gólu",
+   "type": "record",
+   "quote": "On 5 March 2005, Čech set a new Premier League record of 1,025 minutes without letting in a goal"
+  },
+  {
+   "date": "2006-10-14",
+   "label": "vážné zranění hlavy v Readingu",
+   "type": "event",
+   "quote": "Čech sustained a head injury in the match against Reading at the Madejski Stadium on 14 October 2006"
+  },
+  {
+   "date": "2015-12-28",
+   "label": "rekordní 170. čisté konto v Premier League",
+   "type": "record",
+   "quote": "Čech recorded his 170th Premier League clean sheet in a 2–0 win against AFC Bournemouth on 28 December 2015, setting a new league record"
+  },
+  {
+   "date": "2018-03-11",
+   "label": "200 čistých kont v Premier League",
+   "type": "record",
+   "quote": "On 11 March 2018, Čech became the first Premier League goalkeeper to keep 200 league clean sheets"
+  }
+ ],
+ "Petra Kvitová": [
+  {
+   "date": "2011-10-31",
+   "label": "světová dvojka žebříčku",
+   "type": "record",
+   "quote": "Her career-high ranking of world No. 2 was achieved on 31 October 2011."
+  },
+  {
+   "date": "2016-12-20",
+   "label": "přepadení a zranění ruky",
+   "type": "event",
+   "quote": "On 20 December 2016, Kvitová was robbed at her apartment in Prostějov, Czech Republic, suffering multiple lacerations to the tendons and nerves on her left hand"
+  }
+ ],
+ "Pope Benedict XVI": [
+  {
+   "date": "1977-03-24",
+   "label": "jmenován arcibiskupem Mnichova",
+   "type": "office",
+   "quote": "On 24 March 1977, Ratzinger was appointed Archbishop of Munich and Freising"
+  },
+  {
+   "date": "1981-11-25",
+   "label": "prefekt Kongregace pro nauku víry",
+   "type": "office",
+   "quote": "On 25 November 1981, Pope John Paul II, upon the retirement of Franjo Šeper, named Ratzinger as the Prefect of the Sacred Congregation for the Doctrine of the Faith"
+  },
+  {
+   "date": "2005-04-19",
+   "label": "zvolen papežem",
+   "type": "election",
+   "quote": "On 19 April 2005, he was elected on the second day after four ballots"
+  },
+  {
+   "date": "2013-02-28",
+   "label": "rezignace na papežský úřad",
+   "type": "resignation",
+   "quote": "Benedict resigned as pope on 28 February 2013"
+  }
+ ],
+ "Pope Francis": [
+  {
+   "date": "2001-02-21",
+   "label": "jmenován kardinálem",
+   "type": "office",
+   "quote": "On 21 February 2001, Pope John Paul II made Archbishop Bergoglio a cardinal"
+  },
+  {
+   "date": "2013-03-13",
+   "label": "zvolen papežem",
+   "type": "election",
+   "quote": "Bergoglio was elected pope on 13 March 2013"
+  },
+  {
+   "date": "2013-03-19",
+   "label": "inaugurace pontifikátu",
+   "type": "office",
+   "quote": "Francis held his papal inauguration on 19 March 2013"
+  },
+  {
+   "date": "2015-06-18",
+   "label": "encyklika Laudato si'",
+   "type": "publication",
+   "quote": "On 18 June 2015, he published his first own encyclical Laudato si' concerning care for the planet"
+  }
+ ],
+ "Pope John Paul II": [
+  {
+   "date": "1964-01-13",
+   "label": "jmenován arcibiskupem krakovským",
+   "type": "office",
+   "quote": "On 13 January 1964, Pope Paul VI appointed him Archbishop of Kraków"
+  },
+  {
+   "date": "1978-10-16",
+   "label": "začátek pontifikátu",
+   "type": "election",
+   "quote": "sovereign of Vatican City from 16 October 1978 until his death in 2005"
+  },
+  {
+   "date": "1978-10-22",
+   "label": "papežská inaugurace",
+   "type": "office",
+   "quote": "received ecclesiastical investiture with a simplified papal inauguration on 22 October 1978"
+  },
+  {
+   "date": "1981-05-13",
+   "label": "postřelen Mehmetem Ali Ağcou",
+   "type": "assassination_attempt",
+   "quote": "on 13 May 1981, John Paul II was shot and critically wounded by Mehmet Ali Ağca"
+  }
+ ],
+ "Pope Leo XIV": [
+  {
+   "date": "2023-01-30",
+   "label": "prefekt Dikasteria pro biskupy",
+   "type": "office",
+   "quote": "On January 30, 2023, Francis appointed Prevost prefect of the Dicastery for Bishops"
+  },
+  {
+   "date": "2023-09-30",
+   "label": "jmenován kardinálem",
+   "type": "office",
+   "quote": "On September 30, 2023, Francis created Prevost a cardinal"
+  },
+  {
+   "date": "2025-05-08",
+   "label": "zvolen papežem",
+   "type": "election",
+   "quote": "Prevost was elected pope on May 8, 2025, the second day of the conclave, on the fourth ballot"
+  }
+ ],
+ "Prince Harry, Duke of Sussex": [
+  {
+   "date": "2012-09-07",
+   "label": "nasazení v Afghánistánu",
+   "type": "event",
+   "quote": "On 7 September 2012, Harry arrived at Camp Bastion in southern Afghanistan"
+  },
+  {
+   "date": "2014-03-06",
+   "label": "založení Invictus Games",
+   "type": "founding",
+   "quote": "On 6 March 2014, Harry launched the Invictus Games, a Paralympic-style sporting event for injured servicemen and women"
+  },
+  {
+   "date": "2020-01-18",
+   "label": "odchod z královských povinností",
+   "type": "resignation",
+   "quote": "On 18 January 2020, Buckingham Palace announced that an agreement had been reached for Harry \"to step back from Royal duties, including official military appointments\"."
+  },
+  {
+   "date": "2023-01-10",
+   "label": "vydání memoárů Spare",
+   "type": "publication",
+   "quote": "Spare was published on 10 January 2023 in 16 languages, and became the UK's fastest-selling non-fiction book"
+  }
+ ],
+ "Queen Victoria": [
+  {
+   "date": "1837-06-20",
+   "label": "nástup na britský trůn",
+   "type": "coronation",
+   "quote": "on 20 June 1837, William IV died at the age of 71, and Victoria became Queen of the United Kingdom"
+  },
+  {
+   "date": "1838-06-28",
+   "label": "korunovace ve Westminsteru",
+   "type": "coronation",
+   "quote": "Her coronation took place on 28 June 1838 at Westminster Abbey."
+  },
+  {
+   "date": "1842-05-29",
+   "label": "pokus o atentát na The Mall",
+   "type": "assassination_attempt",
+   "quote": "On 29 May 1842, Victoria was riding in a carriage along The Mall, London, when John Francis aimed a pistol at her"
+  },
+  {
+   "date": "1876-05-01",
+   "label": "titul císařovny Indie",
+   "type": "title",
+   "quote": "Victoria took the title \"Empress of India\" from 1 May 1876"
+  }
+ ],
+ "Rafael Kubelík": [
+  {
+   "date": "1973-10-22",
+   "label": "řídil benefiční představení Trójanů",
+   "type": "event",
+   "quote": "Zde řídil poprvé 22. října 1973 benefiční představení opery Hectora Berlioze Trójané.",
+   "lang": "cs",
+   "article": "Rafael Kubelík"
+  },
+  {
+   "date": "1991-10-18",
+   "label": "jubilejní koncert s Chicagským symfonickým orchestrem",
+   "type": "event",
+   "quote": "On October 18, 1991, Kubelík shared the podium with Sir Georg Solti and Daniel Barenboim and the Chicago Symphony Orchestra"
+  }
+ ],
+ "Rafael Nadal": [
+  {
+   "date": "2005-07-25",
+   "label": "postup na 2. místo žebříčku ATP",
+   "type": "record",
+   "quote": "to win the first hardcourt title of his career and to bring his ranking to No. 2 on 25 July 2005"
+  },
+  {
+   "date": "2020-11-09",
+   "label": "rekord v týdnech v top 10",
+   "type": "record",
+   "quote": "On 9 November 2020, Nadal reached his 790th back to back week as one of the ten highest placed players on the ATP rankings and surpassed the record held by Jimmy Connors"
+  },
+  {
+   "date": "2024-10-10",
+   "label": "oznámení konce kariéry",
+   "type": "resignation",
+   "quote": "On 10 October 2024, Nadal stated his intention to retire from the sport"
+  }
+ ],
+ "Rainer Maria Rilke": [],
+ "Rembrandt": [],
+ "René Magritte": [
+  {
+   "date": "1929-12-15",
+   "label": "esej Les mots et les images",
+   "type": "publication",
+   "quote": "On 15 December 1929, Magritte participated in the last publication, No. 12, of La Révolution surréaliste, with his essay \"Les mots et les images\""
+  }
+ ],
+ "Richard Branson": [
+  {
+   "date": "2000-03-30",
+   "label": "pasován na rytíře",
+   "type": "award",
+   "quote": "He was knighted by Charles, Prince of Wales, on 30 March 2000 at an investiture in Buckingham Palace"
+  },
+  {
+   "date": "2004-09-25",
+   "label": "dohoda o vzniku Virgin Galactic",
+   "type": "founding",
+   "quote": "On 25 September 2004 Branson announced the signing of a deal under which a new space-tourism company, Virgin Galactic"
+  },
+  {
+   "date": "2021-07-11",
+   "label": "let na hranici vesmíru",
+   "type": "event",
+   "quote": "On 11 July 2021, Branson took a flight with Beth Moses, Sirisha Bandla and Colin Bennett to the edge of space"
+  }
+ ],
+ "Richard Feynman": [
+  {
+   "date": "1943-03-28",
+   "label": "odjezd do Los Alamos",
+   "type": "event",
+   "quote": "They were among the first to depart for New Mexico, leaving on a train on March 28, 1943."
+  }
+ ],
+ "Richard Wagner": [
+  {
+   "date": "1843-01-02",
+   "label": "premiéra opery Bludný Holanďan",
+   "type": "premiere",
+   "quote": "he staged there Der fliegende Holländer (2 January 1843)"
+  },
+  {
+   "date": "1845-10-19",
+   "label": "premiéra opery Tannhäuser",
+   "type": "premiere",
+   "quote": "Der fliegende Holländer (2 January 1843) and Tannhäuser (19 October 1845), the first two of his three middle-period operas"
+  },
+  {
+   "date": "1876-08-13",
+   "label": "otevření Festspielhausu a premiéra Prstenu",
+   "type": "premiere",
+   "quote": "The Festspielhaus finally opened on 13 August 1876 with Das Rheingold, at last taking its place as the first evening of the complete Ring cycle"
+  }
+ ],
+ "Robert Fico": [
+  {
+   "date": "2014-03-29",
+   "label": "porážka v prezidentské volbě",
+   "type": "election",
+   "quote": "Fico was defeated by the independent candidate Andrej Kiska, whose support from the Slovak right wing led him to victory by a wide margin (approximately 59%–41%) in the second round of voting on 29 March 2014"
+  },
+  {
+   "date": "2018-03-14",
+   "label": "ohlášení demise po vraždě Kuciaka",
+   "type": "resignation",
+   "quote": "On 14 March 2018, Fico publicly stated that he was ready to tender his resignation as prime minister"
+  },
+  {
+   "date": "2023-10-25",
+   "label": "jmenování čtvrté vlády",
+   "type": "office",
+   "quote": "his Fourth Cabinet was officially sworn into power on 25 October 2023"
+  },
+  {
+   "date": "2024-05-15",
+   "label": "atentát v Handlové",
+   "type": "assassination_attempt",
+   "quote": "On 15 May 2024, Fico was shot several times in an assassination attempt"
+  }
+ ],
+ "Robert Reichel": [
+  {
+   "date": "1990-10-08",
+   "label": "debut v NHL",
+   "type": "event",
+   "quote": "He made his NHL debut on October 8, 1990, against the Winnipeg Jets"
+  }
+ ],
+ "Roger Federer": [
+  {
+   "date": "1998-12-31",
+   "label": "juniorská světová jednička",
+   "type": "record",
+   "quote": "He ended his junior career at the end of 1998 with a high ranking of No. 1 in singles and No. 7 in doubles (both achieved on 31 December 1998)"
+  },
+  {
+   "date": "2022-09-15",
+   "label": "ohlášení konce kariéry",
+   "type": "resignation",
+   "quote": "On 15 September 2022, he announced his impending retirement from professional tennis on the ATP Tour"
+  },
+  {
+   "date": "2026-08-29",
+   "label": "uveden do tenisové Síně slávy",
+   "type": "award",
+   "quote": "he was formally inducted in Newport, Rhode Island, on August 29, 2026."
+  }
+ ],
+ "Roman Šebrle": [
+  {
+   "date": "2001-05-27",
+   "label": "světový rekord v desetiboji 9026 bodů",
+   "type": "record",
+   "quote": "výkonem 9026 bodů vytvořil 26. a 27. května 2001 v Götzisu světový rekord",
+   "lang": "cs",
+   "article": "Roman Šebrle"
+  },
+  {
+   "date": "2007-01-22",
+   "label": "zranění oštěpem při tréninku",
+   "type": "event",
+   "quote": "On 22 January 2007, Šebrle was hurt by a javelin thrown by a South African female javelin thrower, Sunette Viljoen"
+  },
+  {
+   "date": "2009-03-08",
+   "label": "bronz v sedmiboji na HME v Turíně",
+   "type": "title",
+   "quote": "(8. března 2009) získal bronzovou medaili v sedmiboji na halovém mistrovství Evropy v Turíně",
+   "lang": "cs",
+   "article": "Roman Šebrle"
+  },
+  {
+   "date": "2014-06-29",
+   "label": "moderátor zpravodajství na Primě",
+   "type": "office",
+   "quote": "Od 29. června 2014 do 2. května 2020 a od října 2020 moderuje hlavní zpravodajskou relaci na televizní stanici Prima",
+   "lang": "cs",
+   "article": "Roman Šebrle"
+  }
+ ],
+ "Ronald Reagan": [
+  {
+   "date": "1980-11-04",
+   "label": "zvolen prezidentem USA",
+   "type": "election",
+   "quote": "On November 4, 1980, Reagan won in a decisive victory in the Electoral College over Carter"
+  },
+  {
+   "date": "1981-01-20",
+   "label": "inaugurace 40. prezidentem USA",
+   "type": "office",
+   "quote": "Reagan was inaugurated as the 40th president of the United States on January 20, 1981."
+  },
+  {
+   "date": "1981-03-30",
+   "label": "atentát před hotelem Hilton",
+   "type": "assassination_attempt",
+   "quote": "On March 30, 1981, Reagan was shot by John Hinckley Jr. outside the Washington Hilton."
+  }
+ ],
+ "Rudolf Hrušínský": [],
+ "Rudolf II, Holy Roman Emperor": [
+  {
+   "date": "1576-10-12",
+   "label": "nástup na císařský trůn",
+   "type": "coronation",
+   "quote": "Rudolf succeeded his father, Maximilian II, on 12 October 1576."
+  }
+ ],
+ "Salvador Dalí": [
+  {
+   "date": "1925-11-27",
+   "label": "první samostatná výstava v Barceloně",
+   "type": "event",
+   "quote": "Dalí held his first solo exhibition at Galeries Dalmau in Barcelona, from 14 to 27 November 1925."
+  },
+  {
+   "date": "1941-09-02",
+   "label": "surrealistická noc v Monterey",
+   "type": "event",
+   "quote": "On 2 September 1941, he hosted A Surrealistic Night in an Enchanted Forest in Monterey"
+  }
+ ],
+ "Serena Williams": [
+  {
+   "date": "2016-09-05",
+   "label": "rekordních 186 týdnů v čele žebříčku",
+   "type": "record",
+   "quote": "The week of September 5, 2016, marked Williams's 186th consecutive week ranked No.1, tying her with Graf for the longest run in WTA history."
+  },
+  {
+   "date": "2026-06-09",
+   "label": "návrat na kurty po čtyřech letech",
+   "type": "event",
+   "quote": "On 9 June 2026, Williams made her first professional appearance in 1,375 days"
+  }
+ ],
+ "Sidney Crosby": [
+  {
+   "date": "2005-07-30",
+   "label": "draftován jako první celkově",
+   "type": "event",
+   "quote": "Crosby was selected first overall in the draft by the Pittsburgh Penguins on July 30, 2005."
+  },
+  {
+   "date": "2007-05-31",
+   "label": "nejmladší kapitán v historii NHL",
+   "type": "office",
+   "quote": "Crosby was named Pittsburgh's team captain on May 31, 2007, making him (at 19 years, 9 months, and 24 days) the youngest team captain in NHL history."
+  },
+  {
+   "date": "2017-02-16",
+   "label": "1000. bod v NHL",
+   "type": "record",
+   "quote": "on February 16, 2017, he registered an assist on a Chris Kunitz goal against the Winnipeg Jets to reach 1,000 NHL points"
+  },
+  {
+   "date": "2022-02-15",
+   "label": "500. gól v NHL",
+   "type": "record",
+   "quote": "On February 15, 2022, Crosby scored his 500th career goal on a power play against the Philadelphia Flyers"
+  }
+ ],
+ "Sigmund Freud": [
+  {
+   "date": "1908-04-27",
+   "label": "první setkání psychoanalytiků",
+   "type": "founding",
+   "quote": "Freud's early followers met together formally for the first time at the Hotel Bristol, Salzburg on 27 April 1908."
+  }
+ ],
+ "Sophia Loren": [
+  {
+   "date": "2017-11-16",
+   "label": "hvězda na chodníku slávy v Almeríi",
+   "type": "award",
+   "quote": "On 16 November 2017, Loren received a star at Almeria Walk of Fame in Spain for her work on White Sister."
+  }
+ ],
+ "Stan Mikita": [
+  {
+   "date": "1980-04-14",
+   "label": "konec hráčské kariéry",
+   "type": "resignation",
+   "quote": "Mikita's later years were marred by chronic back injuries, leading to his retirement as an active player on April 14, 1980."
+  },
+  {
+   "date": "2002-11-30",
+   "label": "uveden do Síně slávy slovenského hokeje",
+   "type": "award",
+   "quote": "Dne 30. listopadu 2002 byl uveden do Síně slávy slovenského hokeje",
+   "lang": "cs",
+   "article": "Stan Mikita"
+  }
+ ],
+ "Stanley Kubrick": [
+  {
+   "date": "1945-06-26",
+   "label": "první fotoreportáž v časopise Look",
+   "type": "publication",
+   "quote": "Eventually, he sold a photographic series to Look magazine, which was printed on June 26, 1945."
+  },
+  {
+   "date": "1949-01-18",
+   "label": "vydání fotoeseje Prizefighter",
+   "type": "publication",
+   "quote": "His earliest, \"Prizefighter\", was published on January 18, 1949"
+  },
+  {
+   "date": "1965-12-29",
+   "label": "začátek natáčení 2001: Vesmírné odysey",
+   "type": "work",
+   "quote": "Filming commenced on December 29, 1965, with the excavation of the monolith on the moon"
+  }
+ ],
+ "Stephen Hawking": [
+  {
+   "date": "2007-04-26",
+   "label": "let ve stavu beztíže",
+   "type": "event",
+   "quote": "On 26 April 2007, Hawking flew aboard a specially-modified Boeing 727-200 jet operated by Zero-G Corp off the coast of Florida to experience weightlessness."
+  },
+  {
+   "date": "2015-07-20",
+   "label": "zahájení Breakthrough Initiatives",
+   "type": "founding",
+   "quote": "On 20 July 2015, Hawking helped launch Breakthrough Initiatives, an effort to search for extraterrestrial life."
+  }
+ ],
+ "Steve Jobs": [
+  {
+   "date": "1976-04-01",
+   "label": "založení Apple Computer",
+   "type": "founding",
+   "quote": "founded Apple Computer Company (now called \"Apple Inc.\") as a business partnership in Jobs's parents' Crist Drive home on April 1, 1976"
+  },
+  {
+   "date": "1984-01-24",
+   "label": "představení Macintoshe",
+   "type": "work",
+   "quote": "On January 24, 1984, an emotional Jobs introduced the Macintosh"
+  },
+  {
+   "date": "2007-06-29",
+   "label": "uvedení iPhonu",
+   "type": "work",
+   "quote": "On June 29, 2007, Apple entered the cellular phone business with the introduction of the iPhone"
+  },
+  {
+   "date": "2011-08-24",
+   "label": "rezignace na post CEO Applu",
+   "type": "resignation",
+   "quote": "On August 24, 2011, Jobs announced his resignation as Apple's CEO"
+  }
+ ],
+ "Steve Wozniak": [
+  {
+   "date": "1976-03-01",
+   "label": "dokončen návrh počítače Apple I",
+   "type": "work",
+   "quote": "By March 1, 1976, Wozniak completed the basic design of the Apple I computer"
+  },
+  {
+   "date": "1976-04-01",
+   "label": "založení Apple Computer",
+   "type": "founding",
+   "quote": "On April 1, 1976, Jobs and Wozniak formed the Apple Computer Company"
+  },
+  {
+   "date": "1981-02-07",
+   "label": "havárie letadla",
+   "type": "event",
+   "quote": "On February 7, 1981, the Beechcraft Bonanza A36TC which Wozniak was piloting (and not qualified to operate) crashed soon after takeoff"
+  }
+ ],
+ "Steven Spielberg": [
+  {
+   "date": "2003-04-15",
+   "label": "italský Řád za zásluhy",
+   "type": "award",
+   "quote": "On April 15, 2003, Spielberg was awarded Knight Grand Cross of the Order of Merit of the Italian Republic."
+  },
+  {
+   "date": "2015-11-24",
+   "label": "Prezidentská medaile svobody",
+   "type": "award",
+   "quote": "On November 24, 2015, Spielberg was awarded the Presidential Medal of Freedom from President Barack Obama at the White House."
+  }
+ ],
+ "Taylor Swift": [
+  {
+   "date": "2006-10-24",
+   "label": "vydání debutového alba",
+   "type": "work",
+   "quote": "Taylor Swift was released on October 24, 2006."
+  },
+  {
+   "date": "2008-11-11",
+   "label": "vydání alba Fearless",
+   "type": "work",
+   "quote": "Swift's second album, Fearless, was released on November 11, 2008, in North America"
+  },
+  {
+   "date": "2012-10-22",
+   "label": "vydání alba Red",
+   "type": "work",
+   "quote": "On October 22, 2012, Swift released her fourth album, Red"
+  },
+  {
+   "date": "2022-10-21",
+   "label": "vydání alba Midnights",
+   "type": "work",
+   "quote": "Swift's tenth album, Midnights, was released on October 21, 2022."
+  }
+ ],
+ "Thomas Edison": [
+  {
+   "date": "1879-10-21",
+   "label": "funkční žárovka",
+   "type": "breakthrough",
+   "quote": "After devising a commercially viable electric light bulb on October 21, 1879"
+  },
+  {
+   "date": "1880-12-17",
+   "label": "založení Edison Illuminating Company",
+   "type": "founding",
+   "quote": "On December 17, 1880, he founded the Edison Illuminating Company"
+  },
+  {
+   "date": "1882-09-04",
+   "label": "spuštění elektrárny Pearl Street",
+   "type": "event",
+   "quote": "On September 4, 1882, in Pearl Street, New York City, his 600 kW cogeneration steam-powered generating station"
+  },
+  {
+   "date": "1891-05-20",
+   "label": "první předvedení kinetoskopu",
+   "type": "premiere",
+   "quote": "The kinetograph and kinetoscope were both first publicly exhibited May 20, 1891."
+  }
+ ],
+ "Thomas Merton": [
+  {
+   "date": "1941-12-10",
+   "label": "příchod do opatství Gethsemani",
+   "type": "event",
+   "quote": "On December 10, 1941, Thomas Merton arrived at the Abbey of Gethsemani"
+  },
+  {
+   "date": "1947-03-19",
+   "label": "slavné doživotní sliby",
+   "type": "event",
+   "quote": "On March 19, 1947, he took his solemn vows, binding for life"
+  }
+ ],
+ "Tiger Woods": [
+  {
+   "date": "1997-04-13",
+   "label": "první major, vítězství na Masters",
+   "type": "title",
+   "quote": "On April 13, 1997, he won his first major, the Masters, in record-breaking fashion and became the tournament's youngest winner at age 21."
+  },
+  {
+   "date": "2017-05-29",
+   "label": "zatčení za řízení pod vlivem",
+   "type": "arrest",
+   "quote": "On May 29, 2017, Woods was arrested near his home on Jupiter Island, Florida, by the Jupiter Police Department"
+  },
+  {
+   "date": "2019-04-14",
+   "label": "vítězství na Masters po 11 letech",
+   "type": "title",
+   "quote": "On April 14, 2019, Woods won the Masters, which was his first major championship win in eleven years and his 15th major overall."
+  },
+  {
+   "date": "2021-02-23",
+   "label": "vážná autonehoda",
+   "type": "event",
+   "quote": "On February 23, 2021, Woods was involved in a single-vehicle rollover crash in Rancho Palos Verdes, California."
+  }
+ ],
+ "Tomáš Baťa": [
+  {
+   "date": "1894-08-24",
+   "label": "založení firmy ve Zlíně",
+   "type": "founding",
+   "quote": "Tomáš Baťa established the organization in Zlín on 24 August 1894"
+  },
+  {
+   "date": "1900-08-01",
+   "label": "přejmenování firmy na T&A Baťa",
+   "type": "founding",
+   "quote": "Tomáš Baťa firmu přejmenoval ke dni 1. srpna 1900 na veřejnou společnost T&A Baťa",
+   "lang": "cs",
+   "article": "Tomáš Baťa"
+  }
+ ],
+ "Tomáš Masaryk": [
+  {
+   "date": "1915-10-19",
+   "label": "přednáška o malých národech v Londýně",
+   "type": "event",
+   "quote": "On 19 October 1915, Masaryk gave the inaugural address at the newly opened School of Slavonic Studies at King's College London"
+  },
+  {
+   "date": "1918-10-18",
+   "label": "Washingtonská deklarace nezávislosti",
+   "type": "founding",
+   "quote": "On 18 October 1918 he submitted to president Wilson the \"Washington Declaration\" (Czechoslovak declaration of independence)"
+  },
+  {
+   "date": "1935-12-14",
+   "label": "abdikace z úřadu prezidenta",
+   "type": "resignation",
+   "quote": "Masaryk resigned from office on 14 December 1935, because of old age and poor health, and was succeeded by Edvard Beneš."
+  }
+ ],
+ "Tomáš Rosický": [
+  {
+   "date": "2001-01-09",
+   "label": "přestup do Borussie Dortmund",
+   "type": "event",
+   "quote": "On 9 January 2001, Rosický joined Borussia Dortmund, signing a five-year contract."
+  },
+  {
+   "date": "2006-05-23",
+   "label": "přestup do Arsenalu",
+   "type": "event",
+   "quote": "On 23 May 2006, Arsenal confirmed that they had signed then 25-year-old Rosický on a long-term contract"
+  },
+  {
+   "date": "2015-06-12",
+   "label": "100. start za reprezentaci",
+   "type": "record",
+   "quote": "On 12 June 2015, Rosický earned his 100th international cap in a 2–1 defeat away to Iceland"
+  },
+  {
+   "date": "2017-12-20",
+   "label": "konec kariéry",
+   "type": "resignation",
+   "quote": "On 20 December 2017, Rosický announced his retirement from professional football aged 37"
+  }
+ ],
+ "Toyen": [],
+ "Usain Bolt": [
+  {
+   "date": "2008-05-31",
+   "label": "světový rekord na 100 m",
+   "type": "record",
+   "quote": "On 31 May 2008, Bolt set a new 100 m world record at the Reebok Grand Prix in the Icahn Stadium in New York City."
+  },
+  {
+   "date": "2017-12-03",
+   "label": "odhalení sochy v Kingstonu",
+   "type": "award",
+   "quote": "Bolt had a statue of him unveiled in his honour at the National Stadium in Kingston on 3 December 2017."
+  }
+ ],
+ "Victor Hugo": [
+  {
+   "date": "1845-04-13",
+   "label": "jmenován pairem Francie",
+   "type": "office",
+   "quote": "he was appointed a peer of France on 13 April 1845"
+  },
+  {
+   "date": "1848-09-15",
+   "label": "projev ve shromáždění",
+   "type": "event",
+   "quote": "on 15 September 1848, seven months after the Revolution of 1848, he delivered a speech before the Assembly"
+  },
+  {
+   "date": "1876-01-30",
+   "label": "zvolen do Senátu",
+   "type": "election",
+   "quote": "On 30 January 1876, he was elected to the newly created Senate"
+  }
+ ],
+ "Vincent van Gogh": [
+  {
+   "date": "1888-05-01",
+   "label": "pronájem Žlutého domu v Arles",
+   "type": "event",
+   "quote": "On 1 May 1888, Van Gogh signed a lease for four rooms at 2 Place Lamartine, Arles, which he later painted in The Yellow House."
+  },
+  {
+   "date": "1888-12-23",
+   "label": "uříznuté ucho",
+   "type": "event",
+   "quote": "After an altercation on the evening of 23 December 1888, Van Gogh returned to his room"
+  },
+  {
+   "date": "1889-05-08",
+   "label": "vstup do ústavu v Saint-Rémy",
+   "type": "event",
+   "quote": "Van Gogh entered the Saint-Paul-de-Mausole asylum on 8 May 1889"
+  }
+ ],
+ "Vladimir Lenin": [],
+ "Vladimir Putin": [
+  {
+   "date": "1991-08-20",
+   "label": "odchod z KGB",
+   "type": "resignation",
+   "quote": "Putin said that he resigned with the rank of lieutenant colonel on 20 August 1991"
+  },
+  {
+   "date": "2000-05-07",
+   "label": "inaugurace prezidentem Ruska",
+   "type": "office",
+   "quote": "winning the presidential election in March 2000 and being inaugurated on 7 May 2000"
+  },
+  {
+   "date": "2023-02-21",
+   "label": "pozastavení smlouvy New START",
+   "type": "treaty",
+   "quote": "On 21 February 2023, Putin suspended Russia's participation in the New START nuclear arms reduction treaty with the United States."
+  }
+ ],
+ "Vladimír Růžička": [
+  {
+   "date": "2008-06-21",
+   "label": "opět trenérem české reprezentace",
+   "type": "office",
+   "quote": "Trenérem české hokejové reprezentace se stal opět 21. června 2008",
+   "lang": "cs",
+   "article": "Vladimír Růžička"
+  },
+  {
+   "date": "2015-06-09",
+   "label": "odstoupení z postu reprezentačního trenéra",
+   "type": "resignation",
+   "quote": "9. června 2015 odstoupil z pozice reprezentačního trenéra",
+   "lang": "cs",
+   "article": "Vladimír Růžička"
+  }
+ ],
+ "Vlasta Burian": [
+  {
+   "date": "1923-01-01",
+   "label": "ředitelem divadla Rokoko",
+   "type": "office",
+   "quote": "Od 1. ledna 1923 byl ředitelem divadla Rokoko.",
+   "lang": "cs",
+   "article": "Vlasta Burian"
+  },
+  {
+   "date": "1925-09-01",
+   "label": "první představení vlastního divadla",
+   "type": "founding",
+   "quote": "které mělo první představení – večer drobných frašek – dne 1. září 1925 v sále hotelu Adria",
+   "lang": "cs",
+   "article": "Vlasta Burian"
+  },
+  {
+   "date": "1945-05-24",
+   "label": "zatčen pro údajnou kolaboraci",
+   "type": "arrest",
+   "quote": "V. Burian byl zatčen 24. května 1945 pro údajnou kolaboraci s nacisty.",
+   "lang": "cs",
+   "article": "Vlasta Burian"
+  }
+ ],
+ "Volodymyr Zelenskyy": [
+  {
+   "date": "2019-04-21",
+   "label": "zvolen prezidentem Ukrajiny",
+   "type": "election",
+   "quote": "In the second round, on 21 April 2019, he received 73 percent of the vote to Poroshenko's 25 percent"
+  },
+  {
+   "date": "2019-05-20",
+   "label": "inaugurace prezidentem",
+   "type": "office",
+   "quote": "Zelenskyy was inaugurated on 20 May 2019."
+  },
+  {
+   "date": "2019-07-21",
+   "label": "většina Služebníka lidu v Radě",
+   "type": "election",
+   "quote": "In the 21 July 2019 parliamentary election, Zelenskyy's political party, Servant of the People, won the first single-party majority in modern Ukrainian history"
+  }
+ ],
+ "Václav Havel": [
+  {
+   "date": "1989-12-29",
+   "label": "zvolen prezidentem Československa",
+   "type": "election",
+   "quote": "On 29 December 1989, while he was leader of the Civic Forum, Havel became President of Czechoslovakia by a unanimous vote of the Federal Assembly."
+  },
+  {
+   "date": "1993-01-26",
+   "label": "zvolen prvním prezidentem ČR",
+   "type": "election",
+   "quote": "he stood for election as its first president on 26 January 1993, and won"
+  },
+  {
+   "date": "1994-07-04",
+   "label": "Filadelfská medaile svobody",
+   "type": "award",
+   "quote": "On 4 July 1994, Václav Havel was awarded the Philadelphia Liberty Medal."
+  }
+ ],
+ "Václav Klaus": [
+  {
+   "date": "1989-12-10",
+   "label": "ministrem financí",
+   "type": "office",
+   "quote": "Klaus became Czechoslovakia's Minister of Finance in the \"government of national unity\" on 10 December 1989."
+  },
+  {
+   "date": "2003-02-28",
+   "label": "zvolen prezidentem ČR",
+   "type": "election",
+   "quote": "Klaus was elected President of the Czech Republic on 28 February 2003"
+  },
+  {
+   "date": "2009-11-03",
+   "label": "podpis Lisabonské smlouvy",
+   "type": "treaty",
+   "quote": "Václav Klaus signed the Treaty of Lisbon on 3 November 2009."
+  },
+  {
+   "date": "2013-03-04",
+   "label": "žaloba pro velezradu",
+   "type": "scandal",
+   "quote": "On 4 March 2013, the Senate voted to charge Klaus with high treason"
+  }
+ ],
+ "Věra Chytilová": [],
+ "Věra Čáslavská": [],
+ "Waldemar Matuška": [
+  {
+   "date": "1986-09-02",
+   "label": "Hlas Ameriky ohlásil žádost o azyl",
+   "type": "event",
+   "quote": "podali žádost o politický azyl – zprávu o tom přinesl dne 2. září 1986 večer vysílač Hlas Ameriky",
+   "lang": "cs",
+   "article": "Waldemar Matuška"
+  }
+ ],
+ "Walt Disney": [
+  {
+   "date": "1964-09-14",
+   "label": "Prezidentská medaile svobody",
+   "type": "award",
+   "quote": "he received the Presidential Medal of Freedom on September 14, 1964"
+  }
+ ],
+ "Warren Buffett": [
+  {
+   "date": "2010-12-09",
+   "label": "podpis Giving Pledge",
+   "type": "event",
+   "quote": "On December 9, 2010, Buffett, Bill Gates, and Facebook CEO Mark Zuckerberg signed a promise they called the \"Gates-Buffett Giving Pledge\""
+  },
+  {
+   "date": "2025-05-03",
+   "label": "návrh Grega Abela za nástupce",
+   "type": "event",
+   "quote": "At Berkshire Hathaway's investor conference on May 3, 2025, Buffett requested that the board appoint Greg Abel to succeed him as CEO of the company by the end of the year"
+  },
+  {
+   "date": "2026-09-18",
+   "label": "odchod z čela správní rady",
+   "type": "resignation",
+   "quote": "Buffett stepped down as chairman on September 18, 2026, effective immediately"
+  }
+ ],
+ "Wayne Gretzky": [
+  {
+   "date": "1982-02-24",
+   "label": "rekord v počtu gólů za sezónu",
+   "type": "record",
+   "quote": "Gretzky broke Esposito's record for most goals in a season (76) on February 24, 1982"
+  },
+  {
+   "date": "1988-08-09",
+   "label": "přestup do Los Angeles Kings",
+   "type": "event",
+   "quote": "On August 9, 1988, in a move that heralded significant change in the NHL, the Oilers traded Gretzky"
+  },
+  {
+   "date": "1999-04-18",
+   "label": "poslední zápas kariéry",
+   "type": "event",
+   "quote": "The final game of Gretzky's career was a 2–1 overtime loss to the Pittsburgh Penguins on April 18, 1999, in Madison Square Garden."
+  },
+  {
+   "date": "1999-11-22",
+   "label": "uveden do Síně slávy NHL",
+   "type": "award",
+   "quote": "Gretzky was inducted into the Hockey Hall of Fame on November 22, 1999"
+  }
+ ],
+ "William, Prince of Wales": [
+  {
+   "date": "2022-09-08",
+   "label": "následník trůnu po nástupu Karla III.",
+   "type": "office",
+   "quote": "He became Duke of Cornwall and Duke of Rothesay upon his father's accession to the throne on 8 September 2022."
+  }
+ ],
+ "Winston Churchill": [
+  {
+   "date": "1924-11-06",
+   "label": "ministrem financí",
+   "type": "office",
+   "quote": "Becoming Chancellor on 6 November 1924, Churchill formally rejoined the Conservative Party a year later."
+  },
+  {
+   "date": "1939-09-03",
+   "label": "první lord admirality",
+   "type": "office",
+   "quote": "On 3 September 1939, the day Britain declared war on Germany, Chamberlain reappointed Churchill as First Lord of the Admiralty"
+  },
+  {
+   "date": "1953-04-24",
+   "label": "pasován na rytíře",
+   "type": "award",
+   "quote": "He was knighted on 24 April 1953."
+  },
+  {
+   "date": "1955-04-05",
+   "label": "rezignace na post premiéra",
+   "type": "resignation",
+   "quote": "remaining in office until his resignation on 5 April 1955"
+  }
+ ],
+ "Wolfgang Amadeus Mozart": [
+  {
+   "date": "1781-12-24",
+   "label": "klavírní souboj s Clementim",
+   "type": "event",
+   "quote": "notably in a competition before the Emperor with Muzio Clementi on 24 December 1781"
+  },
+  {
+   "date": "1782-07-16",
+   "label": "premiéra opery Únos ze serailu",
+   "type": "premiere",
+   "quote": "in 1782 completed the opera Die Entführung aus dem Serail which premiered on 16 July 1782 and achieved considerable success."
+  },
+  {
+   "date": "1784-12-14",
+   "label": "vstup mezi svobodné zednáře",
+   "type": "event",
+   "quote": "On 14 December 1784 Mozart became a Freemason, admitted to the lodge Zur Wohltätigkeit"
+  }
+ ],
+ "Xi Jinping": [
+  {
+   "date": "2012-11-15",
+   "label": "generálním tajemníkem KS Číny",
+   "type": "election",
+   "quote": "On 15 November 2012, immediately after the 18th Party National Congress, Xi was elected by the first plenary session the 18th Central Committee to the posts of Party general secretary"
+  },
+  {
+   "date": "2013-03-14",
+   "label": "zvolen prezidentem Číny",
+   "type": "election",
+   "quote": "Xi was elected president on 14 March 2013"
+  },
+  {
+   "date": "2017-10-24",
+   "label": "Si Ťin-pchingovo myšlení ve stanovách",
+   "type": "event",
+   "quote": "On 24 October 2017, at its closing session, the 19th Party Congress approved the incorporation of Xi Jinping Thought into the Constitution of the CCP"
+  },
+  {
+   "date": "2022-10-23",
+   "label": "třetí funkční období v čele strany",
+   "type": "election",
+   "quote": "Xi was subsequently re-elected as general secretary of the CCP and chairman of the CMC for a third term during the first plenary session of the 20th Central Committee held on 23 October 2022"
+  }
+ ],
+ "Zdeno Chára": [
+  {
+   "date": "2006-07-01",
+   "label": "přestup do Bostonu a kapitánem",
+   "type": "office",
+   "quote": "On 1 July 2006, the first day of the free agency period, Chára signed a five-year, $37.5 million contract with the Boston Bruins and was named the team's captain"
+  },
+  {
+   "date": "2011-03-08",
+   "label": "zákrok na Maxe Paciorettyho",
+   "type": "scandal",
+   "quote": "On 8 March 2011, Chára hit and drove Montreal Canadiens forward Max Pacioretty's head directly into an off-ice stanchion"
+  },
+  {
+   "date": "2022-02-24",
+   "label": "rekord v počtu zápasů obránce NHL",
+   "type": "record",
+   "quote": "On 24 February 2022, Chára played his 1,652nd NHL game, surpassing Chris Chelios' record of 1,651 games played by a defenceman."
+  },
+  {
+   "date": "2022-09-20",
+   "label": "konec kariéry",
+   "type": "resignation",
+   "quote": "On 20 September 2022, Chára announced his retirement from professional hockey."
+  }
+ ],
+ "Zdeněk Svěrák": [
+  {
+   "date": "1967-10-04",
+   "label": "premiéra první hry Divadla Járy Cimrmana",
+   "type": "premiere",
+   "quote": "Premiéra první hry Divadla Járy Cimrmana se konala 4. října 1967 v pražské Malostranské besedě.",
+   "lang": "cs",
+   "article": "Zdeněk Svěrák"
+  },
+  {
+   "date": "1996-05-15",
+   "label": "premiéra filmu oceněného Oscarem",
+   "type": "premiere",
+   "quote": "Snímek měl premiéru 15. května 1996 v pražském kině Blaník a postupně získal šest Českých lvů a ve Spojených státech amerických dále Zlatý glóbus a Oscara.",
+   "lang": "cs",
+   "article": "Zdeněk Svěrák"
+  },
+  {
+   "date": "2025-10-28",
+   "label": "řád Bílého lva",
+   "type": "award",
+   "quote": "mu byl 28. října 2025 z rukou prezidenta České republiky Petra Pavla propůjčen řád Bílého lva.",
+   "lang": "cs",
+   "article": "Zdeněk Svěrák"
+  }
+ ],
+ "Zinedine Zidane": [
+  {
+   "date": "2006-05-27",
+   "label": "100. start za Francii",
+   "type": "record",
+   "quote": "On 27 May 2006, Zidane earned his hundredth cap for France in a 1–0 friendly win over Mexico"
+  },
+  {
+   "date": "2016-01-04",
+   "label": "trenérem Realu Madrid",
+   "type": "office",
+   "quote": "On 4 January 2016, Real Madrid announced the dismissal of Rafael Benítez and on the same day Zidane was appointed the new head coach of the club on a two-and-a-half-year deal"
+  },
+  {
+   "date": "2017-06-03",
+   "label": "obhajoba Ligy mistrů s Realem",
+   "type": "title",
+   "quote": "On 3 June 2017, the club's Champions League final win against Juventus resulted in Real Madrid being the first team to successfully defend their title"
+  },
+  {
+   "date": "2026-07-28",
+   "label": "trenérem francouzské reprezentace",
+   "type": "office",
+   "quote": "Zidane was named as coach on 28 July 2026 in a press conference"
+  }
+ ],
+ "Zuzana Čaputová": [
+  {
+   "date": "2019-03-30",
+   "label": "zvolena prezidentkou Slovenska",
+   "type": "election",
+   "quote": "She then defeated her second-place opponent, Maroš Šefčovič, by around 58% to 42% in the second run-off round on 30 March 2019."
+  },
+  {
+   "date": "2019-06-15",
+   "label": "inaugurace prezidentkou",
+   "type": "office",
+   "quote": "Her presidential inauguration took place on 15 June 2019"
+  },
+  {
+   "date": "2023-06-20",
+   "label": "oznámení, že nebude znovu kandidovat",
+   "type": "event",
+   "quote": "On 20 June 2023, Čaputová announced that she would not run for re-election"
+  }
+ ]
+}

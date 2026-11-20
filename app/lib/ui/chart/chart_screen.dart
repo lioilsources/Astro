@@ -112,6 +112,14 @@ class _OverviewState extends State<_Overview> {
         style: t.titleMedium,
       ),
       const SizedBox(height: 12),
+      if (profile.catalogReliability != null) ...[
+        Text('${l.reliability}: ${l.reliabilityBadge(profile.catalogReliability!)}', style: t.labelLarge),
+        if (const ['B', 'C'].contains(profile.catalogReliability))
+          Text(l.reliabilityWarning(profile.catalogReliability!),
+              style: t.bodySmall?.copyWith(color: profile.catalogReliability == 'C' ? Theme.of(context).colorScheme.error : null)),
+        if (profile.catalogSource != null) Text('${l.source}: ${profile.catalogSource}', style: t.bodySmall),
+        const SizedBox(height: 8),
+      ],
       if (!chart.timeKnown) Text(l.noHouses, style: t.bodySmall),
       if (moonDayChange) Text(l.moonUncertain, style: t.bodySmall),
       if (chart.houseDefault.warnUnequal && profile.houseSystem == null) Text(l.unequalHousesWarning, style: t.bodySmall),

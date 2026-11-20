@@ -3,6 +3,7 @@
 library;
 
 export 'src/journal/evaluation.dart';
+export 'src/journal/event_days.dart';
 export 'src/journal/journal.dart';
 export 'src/journal/log.dart';
 export 'src/journal/stats.dart';

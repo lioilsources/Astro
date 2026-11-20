@@ -1,0 +1,303 @@
+# English Wikipedia title	categories (comma-separated, from tools/content/lib/people.dart)
+Charles IV, Holy Roman Emperor	history,politics
+Tomáš Masaryk	history,politics
+Edvard Beneš	history,politics
+Václav Havel	history,politics,literature
+Alexander Dubček	history,politics
+Milan Rastislav Štefánik	history,military,science
+Rudolf II, Holy Roman Emperor	history,politics
+Maria Theresa	history,politics
+Jan Palach	history
+Milada Horáková	history,politics
+Gustáv Husák	history,politics
+Klement Gottwald	history,politics
+Napoleon	history,politics,military
+Abraham Lincoln	history,politics
+Queen Victoria	history,politics
+Elizabeth II	history,politics
+Winston Churchill	history,politics,military
+Adolf Hitler	history,politics
+Joseph Stalin	history,politics
+Vladimir Lenin	history,politics
+Mahatma Gandhi	history,politics,religion
+Nelson Mandela	history,politics
+Franz Joseph I	history,politics
+Archduke Franz Ferdinand of Austria	history,military
+Louis XIV	history,politics
+Catherine the Great	history,politics
+Che Guevara	history,military
+Anne Frank	history,literature
+Martin Luther King Jr.	history,religion
+Barack Obama	politics
+Donald Trump	politics,business
+Joe Biden	politics
+Emmanuel Macron	politics
+Angela Merkel	politics
+Vladimir Putin	politics
+Volodymyr Zelenskyy	politics
+Petr Pavel	politics,military
+Václav Klaus	politics
+Miloš Zeman	politics
+Andrej Babiš	politics,business
+Zuzana Čaputová	politics
+Robert Fico	politics
+Madeleine Albright	politics
+John F. Kennedy	politics,history
+Margaret Thatcher	politics
+Ronald Reagan	politics,film
+Bill Clinton	politics
+Xi Jinping	politics
+Narendra Modi	politics
+Charles III	politics,celebrity
+Ludvík Svoboda	military,politics
+Jozef Gabčík	military,history
+Jan Kubiš	military,history
+Albrecht von Wallenstein	military,history
+Joseph Radetzky von Radetz	military
+Josef František	military
+Karel Kuttelwascher	military
+George Washington	military,politics
+Dwight D. Eisenhower	military,politics
+George S. Patton	military
+Erwin Rommel	military
+Georgy Zhukov	military
+Bernard Montgomery	military
+Charles de Gaulle	military,politics
+Horatio Nelson, 1st Viscount Nelson	military
+Frederick the Great	military,history
+Albert Einstein	science
+Isaac Newton	science
+Charles Darwin	science
+Marie Curie	science
+Nikola Tesla	science
+Sigmund Freud	science
+Carl Jung	science
+Galileo Galilei	science
+Johannes Kepler	science
+Nicolaus Copernicus	science
+Stephen Hawking	science
+Richard Feynman	science
+Gregor Mendel	science,religion
+Jaroslav Heyrovský	science
+Otto Wichterle	science
+Kurt Gödel	science
+Ernst Mach	science
+Jan Evangelista Purkyně	science
+Antonín Holý	science
+Thomas Edison	science,business
+J. Robert Oppenheimer	science
+Alan Turing	science
+Ada Lovelace	science
+Niels Bohr	science
+Leonardo da Vinci	art,science
+Michelangelo	art
+Rembrandt	art
+Vincent van Gogh	art
+Pablo Picasso	art
+Salvador Dalí	art
+Frida Kahlo	art
+Claude Monet	art
+Gustav Klimt	art
+Egon Schiele	art
+Alphonse Mucha	art
+František Kupka	art
+Josef Lada	art
+Toyen	art
+Josef Čapek	art,literature
+Andy Warhol	art
+Auguste Rodin	art
+René Magritte	art
+Jan Zrzavý	art
+Wolfgang Amadeus Mozart	music
+Frédéric Chopin	music
+Antonín Dvořák	music
+Bedřich Smetana	music
+Leoš Janáček	music
+Bohuslav Martinů	music
+Gustav Mahler	music
+Richard Wagner	music
+Giuseppe Verdi	music
+Elvis Presley	music,film
+John Lennon	music
+Madonna	music,celebrity
+Michael Jackson	music
+Freddie Mercury	music
+David Bowie	music
+Bob Dylan	music,literature
+Taylor Swift	music,celebrity
+Karel Gott	music
+Marta Kubišová	music
+Helena Vondráčková	music
+Lucie Bílá	music
+Jaromír Nohavica	music
+Karel Kryl	music
+Magdalena Kožená	music
+Emmy Destinn	music
+Waldemar Matuška	music
+Rafael Kubelík	music
+Marilyn Monroe	film,celebrity
+Audrey Hepburn	film
+Charlie Chaplin	film
+Brad Pitt	film
+Leonardo DiCaprio	film
+Angelina Jolie	film,celebrity
+Meryl Streep	film
+Arnold Schwarzenegger	film,politics,sport
+Alfred Hitchcock	film
+Stanley Kubrick	film
+Steven Spielberg	film
+Miloš Forman	film
+Jiří Menzel	film
+Věra Chytilová	film
+Jan Švankmajer	film,art
+Vlasta Burian	film
+Jan Werich	film,literature
+Lída Baarová	film
+Zdeněk Svěrák	film,literature
+Libuše Šafránková	film
+Rudolf Hrušínský	film
+Herbert Lom	film
+Karel Zeman	film
+Ivan Reitman	film
+Greta Garbo	film
+Marlene Dietrich	film,music
+Sophia Loren	film
+Brigitte Bardot	film,celebrity
+Grace Kelly	film,celebrity
+Diana, Princess of Wales	celebrity
+Ivana Trump	celebrity,sport
+Paulina Porizkova	celebrity
+Eva Herzigová	celebrity
+Karolína Kurková	celebrity
+Daniela Peštová	celebrity
+Adriana Sklenaříková	celebrity
+Kim Kardashian	celebrity
+Oprah Winfrey	celebrity,business
+Jacqueline Kennedy Onassis	celebrity
+William, Prince of Wales	celebrity
+Prince Harry, Duke of Sussex	celebrity
+Catherine, Princess of Wales	celebrity
+Meghan, Duchess of Sussex	celebrity,film
+Coco Chanel	celebrity,business,art
+Pelé	football
+Diego Maradona	football
+Zinedine Zidane	football
+David Beckham	football,celebrity
+Cristiano Ronaldo	football
+Lionel Messi	football
+Kylian Mbappé	football
+Johan Cruyff	football
+Franz Beckenbauer	football
+Erling Haaland	football
+Josef Masopust	football
+Pavel Nedvěd	football
+Petr Čech	football
+Josef Bican	football
+Antonín Panenka	football
+Tomáš Rosický	football
+Jan Koller	football
+Marek Hamšík	football
+Patrik Schick	football
+Karel Poborský	football
+Wayne Gretzky	hockey
+Mario Lemieux	hockey
+Alexander Ovechkin	hockey
+Sidney Crosby	hockey
+Gordie Howe	hockey
+Bobby Orr	hockey
+Maurice Richard	hockey
+Connor McDavid	hockey
+Mark Messier	hockey
+Dominik Hašek	hockey
+Jaromír Jágr	hockey
+Peter Šťastný	hockey
+Stan Mikita	hockey
+Zdeno Chára	hockey
+Marián Hossa	hockey
+Patrik Eliáš	hockey
+Milan Hejduk	hockey
+Ivan Hlinka	hockey
+David Pastrňák	hockey
+Vladimír Růžička	hockey
+Robert Reichel	hockey
+Emil Zátopek	sport
+Dana Zátopková	sport
+Věra Čáslavská	sport
+Martina Navratilova	sport
+Ivan Lendl	sport
+Petra Kvitová	sport
+Jan Železný	sport
+Roman Šebrle	sport
+Ester Ledecká	sport
+Martina Sáblíková	sport
+Peter Sagan	sport
+Jana Novotná	sport
+Kateřina Neumannová	sport
+Muhammad Ali	sport
+Michael Jordan	sport
+Michael Schumacher	sport
+Tiger Woods	sport
+Roger Federer	sport
+Serena Williams	sport
+Usain Bolt	sport
+Novak Djokovic	sport
+Rafael Nadal	sport
+Ayrton Senna	sport
+Tomáš Baťa	business
+Jan Antonín Baťa	business
+Petr Kellner	business
+Emil von Škoda	business,science
+Ferdinand Porsche	business,science
+Steve Jobs	business
+Bill Gates	business
+Elon Musk	business
+Jeff Bezos	business
+Warren Buffett	business
+Henry Ford	business
+Mark Zuckerberg	business
+Walt Disney	business,film
+Andrew Carnegie	business
+John D. Rockefeller	business
+Steve Wozniak	business,science
+Richard Branson	business
+Jan Hus	religion,history
+John Amos Comenius	religion,literature,science
+Pope John Paul II	religion
+Pope Francis	religion
+Pope Benedict XVI	religion
+Pope Leo XIV	religion
+14th Dalai Lama	religion
+Martin Luther	religion,history
+John Calvin	religion
+Mother Teresa	religion
+Desmond Tutu	religion,politics
+František Tomášek	religion
+Josef Beran	religion
+Joseph Smith	religion
+Billy Graham	religion
+Dietrich Bonhoeffer	religion
+Thomas Merton	religion,literature
+Franz Kafka	literature
+Karel Čapek	literature
+Jaroslav Hašek	literature
+Bohumil Hrabal	literature
+Milan Kundera	literature
+Jaroslav Seifert	literature
+Božena Němcová	literature
+Karel Hynek Mácha	literature
+Jan Neruda	literature
+Rainer Maria Rilke	literature
+Josef Škvorecký	literature
+Arnošt Lustig	literature
+Johann Wolfgang von Goethe	literature,science
+Leo Tolstoy	literature
+Fyodor Dostoevsky	literature
+Victor Hugo	literature
+Ernest Hemingway	literature
+Agatha Christie	literature
+J. K. Rowling	literature
+J. R. R. Tolkien	literature
+George Orwell	literature
+Mark Twain	literature
+Jules Verne	literature
+LeBron James	sport

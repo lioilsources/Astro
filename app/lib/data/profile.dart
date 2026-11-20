@@ -23,6 +23,10 @@ class Profile {
   /// Catalog person id when opened from the people catalog (read-only).
   final String? catalogId;
 
+  /// Rodden grade of the birth time (AA, A, B, C, X) and source note for catalog people.
+  final String? catalogReliability;
+  final String? catalogSource;
+
   /// Where the person lives now (planetary hours, plan 10.2). Null = the birth place.
   final GeoLocation? residence;
 
@@ -33,6 +37,8 @@ class Profile {
     this.houseSystem,
     this.events = const [],
     this.catalogId,
+    this.catalogReliability,
+    this.catalogSource,
     this.residence,
   });
 
@@ -55,6 +61,8 @@ class Profile {
         houseSystem: clearHouseSystem ? null : (houseSystem ?? this.houseSystem),
         events: events ?? this.events,
         catalogId: catalogId,
+        catalogReliability: catalogReliability,
+        catalogSource: catalogSource,
         residence: clearResidence ? null : (residence ?? this.residence),
       );
 

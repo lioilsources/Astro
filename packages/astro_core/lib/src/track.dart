@@ -27,6 +27,28 @@ class LongitudeTrack {
     return LongitudeTrack._(body, start, step, u);
   }
 
+  /// Joins tracks of one body built with the same [step] over consecutive ranges whose starts lie
+  /// on one grid (from + k · step), e.g. built in parallel; the result equals one long build.
+  factory LongitudeTrack.joined(List<LongitudeTrack> parts) {
+    final first = parts.first;
+    final u = [...first._u];
+    var lastT = first.t0 + (u.length - 1) * first.step;
+    for (final p in parts.skip(1)) {
+      if (p.body != first.body || p.step != first.step) throw ArgumentError('tracks differ in body or step');
+      final j = ((lastT - p.t0) / p.step).round();
+      if (j < 0 || j >= p._u.length || ((p.t0 + j * p.step) - lastT).abs() > 1e-6 * p.step) {
+        throw ArgumentError('tracks do not overlap on one grid');
+      }
+      // Same instant, unwrapped differently: shift by whole turns.
+      final offset = 360 * ((u.last - p._u[j]) / 360).round();
+      for (var k = j + 1; k < p._u.length; k++) {
+        u.add(p._u[k] + offset);
+      }
+      lastT = p.t0 + (p._u.length - 1) * p.step;
+    }
+    return LongitudeTrack._(first.body, first.t0, first.step, u);
+  }
+
   double get start => t0 + step;
   double get end => t0 + (_u.length - 3) * step;
   int get length => _u.length;

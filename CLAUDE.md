@@ -14,6 +14,7 @@ cd packages/astro_core && dart test        # jen engine
 dart run packages/astro_core/bin/chart.dart 2000-01-01 12:00 50.0833 14.4167 UT
 cd app && flutter run
 tools/golden/.venv/bin/python tools/golden/gen_golden.py   # přegenerovat golden + tabulku Pluta
+python3 tools/people/build_people.py && dart run tools/content/bin/people.dart   # katalog osobností
 ```
 
 ## Mapa
@@ -21,6 +22,7 @@ tools/golden/.venv/bin/python tools/golden/gen_golden.py   # přegenerovat golde
 - `app/` — Flutter UI
 - `content/cs/` — výklady jako JSON (tři vrstvy: text, shadow, hard)
 - `tools/content/` — generátor a validátor textů
+- `tools/people/` — katalog osobností z Wikidat; časy narození jen ze `times.json` se zdrojem
 - `tools/golden/` — referenční vektory (skyfield + DE440, Swiss Ephemeris jen tady)
 - `tools/prototype/` — původní ověřovací prototyp
 - `docs/` — ephemeris, scoring, style, content
