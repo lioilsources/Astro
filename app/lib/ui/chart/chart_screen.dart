@@ -9,6 +9,7 @@ import '../../state.dart';
 import '../format.dart';
 import '../profile_form.dart';
 import '../wheel.dart';
+import 'patterns_view.dart';
 import 'reading_tab.dart';
 import 'tables_tab.dart';
 import 'transits_tab.dart';
@@ -61,20 +62,42 @@ class ChartScreen extends ConsumerWidget {
   }
 }
 
-class _Overview extends StatelessWidget {
+class _Overview extends StatefulWidget {
   final Chart chart;
   final Profile profile;
   const _Overview(this.chart, this.profile);
 
   @override
+  State<_Overview> createState() => _OverviewState();
+}
+
+class _OverviewState extends State<_Overview> {
+  /// Pattern highlighted on the wheel (tap a chip to toggle).
+  ChartPattern? _highlight;
+
+  @override
   Widget build(BuildContext context) {
+    final chart = widget.chart, profile = widget.profile;
     final l = AppLocalizations.of(context);
     final t = Theme.of(context).textTheme;
     final sun = chart.positions[Body.sun]!, moon = chart.positions[Body.moon]!;
     final asc = chart.asc;
     final moonDayChange = !chart.timeKnown && _moonChangesSign(chart);
+    final shapes = chart.patterns.where((p) => p.kind.isShape).toList();
+    final highlight = shapes.contains(_highlight) ? _highlight : null;
     return ListView(padding: const EdgeInsets.all(16), children: [
-      ChartWheel(chart),
+      ChartWheel(chart, highlight: highlight),
+      if (shapes.isNotEmpty) ...[
+        const SizedBox(height: 8),
+        Wrap(spacing: 6, runSpacing: 4, children: [
+          for (final p in shapes)
+            ChoiceChip(
+              label: Text(l.pattern(p)),
+              selected: identical(p, highlight),
+              onSelected: (on) => setState(() => _highlight = on ? p : null),
+            ),
+        ]),
+      ],
       const SizedBox(height: 16),
       Text(l.oneSentence, style: t.labelLarge),
       Text(

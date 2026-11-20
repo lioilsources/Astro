@@ -8,6 +8,7 @@ export 'src/dignities.dart';
 export 'src/ephemeris.dart' show Ephemeris, EphemerisRangeError;
 export 'src/houses.dart';
 export 'src/model.dart';
+export 'src/patterns.dart';
 export 'src/time.dart';
 export 'src/transits.dart';
 export 'src/track.dart';

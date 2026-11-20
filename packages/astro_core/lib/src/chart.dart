@@ -3,6 +3,7 @@ import 'dignities.dart';
 import 'ephemeris.dart';
 import 'houses.dart';
 import 'model.dart';
+import 'patterns.dart';
 import 'time.dart';
 
 enum NodeKind { mean, trueNode }
@@ -70,6 +71,15 @@ class Chart {
 
   double? get asc => houses?.asc;
   double? get mc => houses?.mc;
+
+  /// Aspect patterns and balances of the ten planets (plan 10.1).
+  late final List<ChartPattern> patterns = findPatterns(
+    {for (final b in Body.planets) if (positions[b] != null) b: positions[b]!.lon},
+    speeds: {for (final b in Body.planets) if (positions[b] != null) b: positions[b]!.speed},
+    orbs: options.orbs,
+    asc: asc,
+    mc: mc,
+  );
 
   /// Longitude of any chart point.
   double? lonOf(ChartPoint p) => p.body != null ? positions[p.body]?.lon : (p.angle == Angle.asc ? asc : mc);

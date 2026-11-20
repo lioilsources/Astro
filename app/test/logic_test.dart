@@ -64,6 +64,16 @@ void main() {
     expect(bySections(items).first.id, 'signs');
   });
 
+  test('pattern texts form the last section; missing texts stay as null entries', () {
+    final items = readingItems(chart, content);
+    final patterns = items.where((i) => i.factor.kind == FactorKind.pattern).toList();
+    expect(patterns.map((i) => i.factor.key).toSet(), {for (final p in chart.patterns) ...patternKeysOf(p)});
+    if (patterns.isNotEmpty) expect(bySections(items).last.id, 'patterns');
+    for (final i in patterns) {
+      expect(i.entry, content[i.factor.key]);
+    }
+  });
+
   group('trait query (plan 3.5 A)', () {
     test('finds a trait regardless of diacritics and synonyms', () {
       expect(findTrait('zarlivost', content.traits).trait?.id, 'jealousy');

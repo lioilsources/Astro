@@ -5,7 +5,7 @@ určuje `tools/content/lib/keys.dart`; pravidla psaní `docs/style.md`.
 
 | Soubor | Co |
 |---|---|
-| `content/archetypes.cs.json` | ruční tabulka významů planet, znamení, domů, aspektů; vstup generátoru |
+| `content/archetypes.cs.json` | ruční tabulka významů planet, znamení, domů, aspektů a obrazců aspektů (`patterns`); vstup generátoru |
 | `content/cs/traits.json` | slovník rysů pro dotaz „co to vysvětluje?“ (id, název, synonyma, protiklad) |
 | `content/cs/*.json` | texty výkladu, tři vrstvy (`text`, `shadow`, `hard[]`) |
 

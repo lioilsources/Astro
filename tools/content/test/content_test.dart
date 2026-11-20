@@ -19,6 +19,7 @@ void main() {
     expect(k['transit_point']!.length, 60);
     expect(k['transit_in_house']!.length, 120);
     expect(k['emphasis']!.length, 32);
+    expect(k['pattern']!.length, 56);
   });
 
   test('committed content has no errors', () {

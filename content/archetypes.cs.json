@@ -237,6 +237,87 @@
    "core": "protiklad, přetahování, potřeba rovnováhy, projekce do druhých"
   }
  },
+ "patterns": {
+  "shapes": {
+   "grand_trine": {
+    "name": "velký trigon",
+    "core": "tři planety spojené třemi trigony do rovnostranného trojúhelníku; uzavřený okruh souhry, vrozené nadání a lehkost v oblasti živlu",
+    "shadow": "pohodlnost, spoléhání na talent, uzavřenost do sebe, málo podnětů k růstu",
+    "hard": "tradice tu varuje spíš před promarněním a stagnací než před ranou osudu"
+   },
+   "t_square": {
+    "name": "T-kvadrát",
+    "core": "opozice dvou planet a třetí planeta v kvadrátu k oběma (vrchol); napětí, které tlačí k výkonu a hledá výstup přes vrchol",
+    "shadow": "chronický stres, přetížení, opakované krize ve stejné oblasti, jednostrannost",
+    "hard": "tradice spojuje s krizemi, konflikty a přetížením, u Marsu, Saturnu a Pluta i s nehodami a ztrátami"
+   },
+   "t_square_apex": {
+    "name": "vrchol T-kvadrátu",
+    "core": "planeta, na kterou se sbíhá napětí opozice; ohnisko úsilí, kudy se tlak vybíjí a kde vzniká největší výkon",
+    "shadow": "přepínání sil, horlivost bez míry, místo opakovaných střetů",
+    "hard": "tradice tu hledá místo, kde se krize projeví nejdřív"
+   },
+   "grand_cross": {
+    "name": "velký kříž",
+    "core": "dvě opozice propojené čtyřmi kvadráty; velká síla a odolnost, život mezi čtyřmi protichůdnými nároky",
+    "shadow": "pocit, že nic nejde snadno, rozpolcenost, vyčerpání, neschopnost uniknout tlaku",
+    "hard": "tradice spojuje s těžkými životními zkouškami, přetížením a krizemi z více stran najednou"
+   },
+   "yod": {
+    "name": "jod (prst osudu)",
+    "core": "dvě planety v sextilu a třetí planeta v kvinkunxu (150°) k oběma; zvláštní úkol, nutnost neustále se přizpůsobovat a dolaďovat",
+    "shadow": "pocit nepatřičnosti, nejistota, neklid bez jasné příčiny, střídání směrů",
+    "hard": "tradice mluví o osudových obratech, o zdraví citlivém na stres a o krizích, které nutí ke změně směru"
+   },
+   "yod_apex": {
+    "name": "vrchol jodu",
+    "core": "planeta na špici jodu; nese úkol celého obrazce a je místem, kde se žádá nejvíc přizpůsobení",
+    "shadow": "pocit, že tahle část života nikdy nesedí, přehnaná sebekritika",
+    "hard": "tradice tu hledá místo osudových zlomů"
+   },
+   "kite": {
+    "name": "drak",
+    "core": "velký trigon, k jehož jedné planetě stojí čtvrtá v opozici a se dvěma zbylými v sextilu; nadání velkého trigonu dostává směr a cíl",
+    "shadow": "rozkročení mezi pohodlím a ambicí, tlak jedné planety na celý obrazec",
+    "hard": "tradice tu těžká témata nezdůrazňuje"
+   },
+   "cradle": {
+    "name": "kolébka",
+    "core": "opozice a mezi jejími konci dvě planety spojené třemi sextily a dvěma trigony; podpůrná síť, která pomáhá zvládat napětí opozice",
+    "shadow": "spoléhání na podporu druhých, vyhýbání se přímému střetu",
+    "hard": "tradice tu těžká témata nezdůrazňuje"
+   },
+   "mystic_rectangle": {
+    "name": "mystický obdélník",
+    "core": "dvě opozice propojené dvěma sextily a dvěma trigony; napětí, které se samo vyvažuje, praktická moudrost a schopnost obracet konflikty v užitek",
+    "shadow": "složitost, váhání mezi póly, potřeba mít všechno vyvážené",
+    "hard": "tradice tu těžká témata nezdůrazňuje"
+   },
+   "unaspected": {
+    "name": "planeta bez aspektu",
+    "core": "planeta bez hlavního aspektu k jiné planetě; funguje sama za sebe, nezávisle a čistě, ale těžko se zapojuje do zbytku povahy",
+    "shadow": "odpojená část osobnosti, výkyvy mezi nečinností a přemírou, nesoulad s ostatními stránkami",
+    "hard": "tradice tu těžká témata nezdůrazňuje"
+   }
+  },
+  "elements": {
+   "fire": {"name": "oheň", "core": "nadšení, odvaha, jednání, víra v sebe"},
+   "earth": {"name": "země", "core": "praktičnost, vytrvalost, tělo, hmotné zajištění"},
+   "air": {"name": "vzduch", "core": "myšlení, komunikace, vztahy, nápady"},
+   "water": {"name": "voda", "core": "city, intuice, soucit, citová hloubka"}
+  },
+  "modalities": {
+   "cardinal": {"name": "kardinální", "plural": "kardinálních", "masc": "kardinální", "core": "začínání, iniciativa, vstup do dění", "shadow": "netrpělivost, nedotahování"},
+   "fixed": {"name": "pevná", "plural": "pevných", "masc": "pevný", "core": "vytrvalost, stálost, udržení", "shadow": "tvrdohlavost, neochota ke změně"},
+   "mutable": {"name": "proměnlivá", "plural": "proměnlivých", "masc": "proměnlivý", "core": "přizpůsobivost, pohyblivost, změna", "shadow": "roztěkanost, nestálost"}
+  },
+  "hemispheres": {
+   "above": {"name": "horní polokoule (nad obzorem)", "acc": "horní polokouli (nad obzorem)", "core": "život obrácený ven, k veřejnosti, druhým lidem a společnosti"},
+   "below": {"name": "dolní polokoule (pod obzorem)", "acc": "dolní polokouli (pod obzorem)", "core": "život obrácený dovnitř, k soukromí, domovu a vlastnímu prožívání"},
+   "east": {"name": "východní polokoule (strana ascendentu)", "acc": "východní polokouli (strana ascendentu)", "core": "vlastní iniciativa, život podle sebe, nezávislost na druhých"},
+   "west": {"name": "západní polokoule (strana descendentu)", "acc": "západní polokouli (strana descendentu)", "core": "život ve vztazích, reakce na druhé, závislost na okolnostech a partnerech"}
+  }
+ },
  "points": {
   "asc": {
    "name": "ascendent",

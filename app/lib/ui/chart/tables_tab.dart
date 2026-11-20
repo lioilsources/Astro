@@ -9,6 +9,7 @@ import '../../state.dart';
 import '../entry_view.dart';
 import '../format.dart';
 import 'house_compare.dart';
+import 'patterns_view.dart';
 
 class TablesTab extends ConsumerStatefulWidget {
   final Chart chart;
@@ -110,6 +111,17 @@ class _TablesTabState extends ConsumerState<TablesTab> {
             showEntry(context, k == null ? null : content[k], title: '${l.point(a.a)} ${l.aspect(a.type)} ${l.point(a.b)}');
           },
           onLongPress: () => showEntry(context, content['glossary/${a.type.name}'], title: l.aspect(a.type)),
+        ),
+      header(l.patterns, 'aspect'),
+      if (c.patterns.isEmpty) Padding(padding: const EdgeInsets.symmetric(horizontal: 16), child: Text(l.noPatterns)),
+      for (final p in c.patterns)
+        ListTile(
+          dense: true,
+          leading: SizedBox(
+              width: 28, child: Center(child: glyphText(p.kind.isShape ? '△' : (p.bodies.length == 1 ? bodyGlyph[p.bodies.single]! : '◐'), size: 18))),
+          title: Text(l.pattern(p)),
+          subtitle: Text(l.patternMembers(p)),
+          onTap: () => showPattern(context, c, p, content),
         ),
       header(l.planetStates, 'domicile'),
       for (final b in Body.planets)
