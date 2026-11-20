@@ -2,6 +2,7 @@
 <defs>
  <radialGradient id="bg" cx="50%" cy="42%" r="70%"><stop offset="0" stop-color="#3D3A8C"/><stop offset="1" stop-color="#15133A"/></radialGradient>
  <radialGradient id="sun" cx="50%" cy="45%" r="60%"><stop offset="0" stop-color="#FFE29A"/><stop offset="1" stop-color="#E9A23B"/></radialGradient>
+ <radialGradient id="glow"><stop offset="0.55" stop-color="#FFD27A" stop-opacity="0.55"/><stop offset="1" stop-color="#FFD27A" stop-opacity="0"/></radialGradient>
 </defs>
 <rect width="1024" height="1024" fill="url(#bg)"/>
 <circle cx="512" cy="512" r="352" fill="none" stroke="#E9C46A" stroke-width="10"/>
@@ -56,6 +57,9 @@
 <circle cx="809.9" cy="169.7" r="2.8" fill="#F4F1DE" opacity="0.58"/>
 <circle cx="819.9" cy="237.8" r="4.9" fill="#F4F1DE" opacity="0.43"/>
 <circle cx="556.8" cy="905.3" r="2.7" fill="#F4F1DE" opacity="0.62"/>
-<circle cx="512" cy="512" r="150" fill="none" stroke="url(#sun)" stroke-width="34"/>
-<circle cx="512" cy="512" r="42" fill="url(#sun)"/>
+<circle cx="512" cy="512" r="290" fill="url(#glow)"/>
+<g fill="url(#sun)"><polygon points="499.0,314.4 512.0,220.0 525.0,314.4"/><polygon points="554.5,318.6 576.7,270.5 571.9,323.3"/><polygon points="599.5,334.4 658.0,259.1 622.0,347.4"/><polygon points="645.5,365.8 688.8,335.2 658.2,378.5"/><polygon points="676.6,402.0 764.9,366.0 689.6,424.5"/><polygon points="700.7,452.1 753.5,447.3 705.4,469.5"/><polygon points="709.6,499.0 804.0,512.0 709.6,525.0"/><polygon points="705.4,554.5 753.5,576.7 700.7,571.9"/><polygon points="689.6,599.5 764.9,658.0 676.6,622.0"/><polygon points="658.2,645.5 688.8,688.8 645.5,658.2"/><polygon points="622.0,676.6 658.0,764.9 599.5,689.6"/><polygon points="571.9,700.7 576.7,753.5 554.5,705.4"/><polygon points="525.0,709.6 512.0,804.0 499.0,709.6"/><polygon points="469.5,705.4 447.3,753.5 452.1,700.7"/><polygon points="424.5,689.6 366.0,764.9 402.0,676.6"/><polygon points="378.5,658.2 335.2,688.8 365.8,645.5"/><polygon points="347.4,622.0 259.1,658.0 334.4,599.5"/><polygon points="323.3,571.9 270.5,576.7 318.6,554.5"/><polygon points="314.4,525.0 220.0,512.0 314.4,499.0"/><polygon points="318.6,469.5 270.5,447.3 323.3,452.1"/><polygon points="334.4,424.5 259.1,366.0 347.4,402.0"/><polygon points="365.8,378.5 335.2,335.2 378.5,365.8"/><polygon points="402.0,347.4 366.0,259.1 424.5,334.4"/><polygon points="452.1,323.3 447.3,270.5 469.5,318.6"/></g>
+<circle cx="512" cy="512" r="185" fill="url(#sun)"/>
+<circle cx="512" cy="512" r="185" fill="none" stroke="#FFF3C4" stroke-width="6" opacity="0.7"/>
+<circle cx="512" cy="512" r="40" fill="#B8641E"/>
 </svg>
