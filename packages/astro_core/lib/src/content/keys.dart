@@ -48,6 +48,12 @@ final patternKeys = [
   for (final p in planetIds) 'pattern/unaspected/$p',
 ];
 
+/// Prediction journal texts (plan 10.3): method, result templates, blind test.
+const journalIds = [
+  'method', 'too_few', 'relation_expected', 'relation_opposite', 'no_relation',
+  'control_better', 'control_not_better', 'hypothesis_more', 'hypothesis_not_more', 'blind',
+];
+
 /// Content id of a body (both nodes share the `node` texts).
 String contentIdOf(Body b) => b.isNode ? 'node' : b.name;
 
@@ -95,6 +101,7 @@ Map<String, List<String>> allKeysByFamily() {
     'glossary': [for (final g in glossaryIds) 'glossary/$g'],
     'star': [for (final s in starIds) 'star/$s'],
     'star_target': [for (final t in starTargetIds) 'star_target/$t'],
+    'journal': [for (final j in journalIds) 'journal/$j'],
   };
 }
 
@@ -131,6 +138,8 @@ String familyOf(String key) => key.split('/').first;
       return (min: 0, max: 250);
     case 'star_target':
       return (min: 8, max: 40);
+    case 'journal':
+      return (min: 25, max: 90);
   }
   return (min: 1, max: 10000);
 }

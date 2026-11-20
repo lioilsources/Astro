@@ -22,6 +22,7 @@ void main() {
     expect(k['pattern']!.length, 56);
     expect(k['star']!.length, 32);
     expect(k['star_target']!.length, 12);
+    expect(k['journal']!.length, 10);
   });
 
   test('star texts need no minimum base length, but the whole text is checked', () {
