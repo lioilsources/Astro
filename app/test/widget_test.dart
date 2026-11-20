@@ -3,6 +3,7 @@ import 'package:astro/data/profile.dart';
 import 'package:astro/l10n/app_localizations.dart';
 import 'package:astro/state.dart';
 import 'package:astro/ui/chart/chart_screen.dart';
+import 'package:astro/ui/chart/transits_tab.dart';
 import 'package:astro_core/astro_core.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
@@ -71,10 +72,9 @@ void main() {
     t.view.physicalSize = const Size(1170, 2532);
     t.view.devicePixelRatio = 3;
     addTearDown(t.view.reset);
-    await t.pumpWidget(wrap(const ChartScreen(profile)));
-    await t.pumpAndSettle();
-    await t.tap(find.text('Tranzity'));
+    await t.pumpWidget(wrap(Scaffold(body: TransitsTab(Chart.compute(profile.birth), profile))));
     await t.pump();
+    expect(find.text('Počítám…'), findsOneWidget);
     // Month data comes from isolates: let real time pass.
     for (var i = 0; i < 240 && find.text('Počítám…').evaluate().isNotEmpty; i++) {
       await t.runAsync(() => Future<void>.delayed(const Duration(milliseconds: 500)));
