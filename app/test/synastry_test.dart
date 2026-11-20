@@ -104,7 +104,7 @@ void main() {
     await t.tap(find.text('Výklad'));
     await t.pumpAndSettle();
     expect(find.text('Aspekty mezi planetami'), findsOneWidget);
-    expect(find.text('Text pro toto postavení zatím chybí.'), findsWidgets);
+    expect(find.text('Text pro toto postavení zatím chybí.'), findsNothing);
   });
 
   for (final r in Relationship.values) {

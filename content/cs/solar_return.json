@@ -1,0 +1,3716 @@
+[
+ {
+  "key": "solar_return/asc/aries",
+  "title": "Ascendent soláru v Beranu",
+  "keywords": [
+   "nový začátek",
+   "odvaha",
+   "iniciativa",
+   "rychlost",
+   "přímost"
+  ],
+  "themes": [
+   "character",
+   "growth",
+   "work",
+   "health"
+  ],
+  "text": "Ascendent soláru v Beranu dává celému roku od narozenin do narozenin ráz startovního výstřelu. Věci se rozbíhají rychle a často z tvého podnětu. Tradice tu čte rok vlastních rozhodnutí: nový projekt, nové místo, nový začátek ve vztahu k sobě. Máš víc energie a chuti jednat než obvykle. Odvaha přichází snáz, slova jsou přímější a odpovědi rychlejší. Lidé vnímají tvou iniciativu a čekají od tebe první krok. Daří se úkolům, které vyžadují rozhodnost a rychlé nasazení. Tělo si žádá pohyb, soutěž a fyzickou výzvu.",
+  "shadow": "S Beranem na ascendentu soláru se z roku stává závod, ve kterém se snadno zapomíná na ostatní. Netrpělivost roste s každým zdržením. Věci se začínají a nedokončují, protože další začátek láká víc. Přímost se mění v příkrost a hádky vznikají z maličkostí. Rozhodnutí padají dřív, než je čas je promyslet. Vlastní cíl zastiňuje potřeby blízkých a ve vztazích vzniká dojem sobectví. Výbušnost si vybírá daň doma i v práci.",
+  "hard": [
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o roce, kdy je zranitelná hlava a obličej. Staré výklady zmiňují horečky, záněty, migrény a bolesti hlavy. Uvádějí také přepětí, kdy tělo nestačí tempu, které si určuješ, a někdy i chirurgický zákrok. Jde o tradiční čtení, ne o jistou předpověď."
+   },
+   {
+    "topics": [
+     "violence"
+    ],
+    "text": "Tradice tu mluví o zvýšeném riziku úrazů, pořezání a popálenin, hlavně ze spěchu a ukvapenosti. Staré texty spojují tento solár také s hádkami, které přerůstají v otevřený střet, a s nehodami při rychlé jízdě. Berou to jako sklon roku, ne jako nevyhnutelnost."
+   }
+  ],
+  "traits": {
+   "text": [
+    "courage",
+    "decisiveness",
+    "vitality",
+    "independence",
+    "leadership"
+   ],
+   "shadow": [
+    "impulsiveness",
+    "anger",
+    "selfishness",
+    "bluntness",
+    "inconstancy"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "solar_return/asc/taurus",
+  "title": "Ascendent soláru v Býku",
+  "keywords": [
+   "stabilita",
+   "smysly",
+   "tělo",
+   "trpělivost",
+   "domov"
+  ],
+  "themes": [
+   "character",
+   "money",
+   "health",
+   "relationships"
+  ],
+  "text": "Rok s ascendentem soláru v Býku má od narozenin klidné, pomalé tempo a pevnou půdu pod nohama. Do popředí se dostává tělo, domov, jídlo a věci, které se dají vzít do ruky. Daří se ti dotahovat rozdělanou práci a budovat něco trvalého krok za krokem. Smysly mají větší váhu. Víc vnímáš chutě, vůně, dotek i krásu prostředí. Lidé u tebe hledají oporu, protože působíš spolehlivě a nespěcháš. Vztahy se prohlubují spíš věrností než velkými gesty. Trpělivost se ti letos vyplácí víc než rychlé tahy.",
+  "shadow": "Ascendent soláru v Býku dává roku sklon zůstávat u starého, i když už to neslouží. Změny přicházejí pomalu a ty je můžeš odmítat jen z pohodlí. Tvrdohlavost se projevuje v drobných sporech, kde nechceš ustoupit ani o krok. Na lidech a věcech můžeš lpět víc, než unesou. V tomto roce se pohodlí snadno mění v lenost a požitek v přejídání. Potřeba jistoty tě drží v situacích, které dávno skončily.",
+  "hard": [
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o roce, kdy se zdraví ozývá hlavně v krku, hrtanu, šíji a štítné žláze. Uvádí také potíže z nadbytku, jako je přibývání na váze, zatížené trávení a zpomalený metabolismus. Starší autoři sem řadí i nemoci, které se rozvíjejí pomalu a dlouho zůstávají bez povšimnutí."
+   }
+  ],
+  "traits": {
+   "text": [
+    "steadiness",
+    "patience",
+    "sensuality",
+    "perseverance",
+    "loyalty"
+   ],
+   "shadow": [
+    "stubbornness",
+    "stagnation",
+    "indulgence",
+    "security_need",
+    "rigidity"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "solar_return/asc/gemini",
+  "title": "Ascendent soláru v Blížencích",
+  "keywords": [
+   "pohyb",
+   "komunikace",
+   "učení",
+   "krátké cesty",
+   "sourozenci"
+  ],
+  "themes": [
+   "character",
+   "relationships",
+   "family",
+   "work",
+   "growth"
+  ],
+  "text": "Rok od těchto narozenin do příštích nese ascendent soláru v Blížencích, a tak ho určuje pohyb, řeč a zvědavost. Častěji telefonuješ, píšeš, domlouváš schůzky a přejíždíš z místa na místo. Učení jde snadno a kurzy, knihy i nové obory tě lákají víc než jindy. Na věci se díváš ze dvou stran a zvládáš vést dvě činnosti zároveň. Do popředí vystupují sourozenci, sousedé, kolegové a krátké cesty. Lidé si tě letos pamatují podle vtipu a pohotové odpovědi. Rok přeje vyjednávání, psaní a všemu, co stojí na výměně informací.",
+  "shadow": "Rozběhaný rok pod ascendentem soláru v Blížencích snadno rozmělní síly do desítek začátků bez konce. Slibuješ víc, než stihneš, a pozornost přeskakuje dřív, než věc dozraje. Hodně mluvíš, ale méně posloucháš. Drby, neověřené zprávy a polopravdy se k tobě dostávají rychle a stejně rychle odcházejí dál. Neklid kazí spánek a rozhodnutí se mění podle posledního rozhovoru. Hloubka vztahů trpí tím, že na nikoho nezbývá celý čas.",
+  "hard": [
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o roce, kdy slabým místem bývají plíce, dýchací cesty, ramena, paže a ruce. Starší autoři k tomuto ascendentu soláru řadí nachlazení, kašel a drobná zranění rukou, zvláště při spěchu. Jde o tradiční přiřazení Blíženců k tělu, ne o jistou předpověď."
+   },
+   {
+    "topics": [
+     "mental_crisis"
+    ],
+    "text": "Tradice tu mluví o nervovém vypětí. Přemíra podnětů, nespavost a roztěkanost mohou podle starých výkladů přerůst v úzkostné stavy a vyčerpání nervů. Rok s ascendentem soláru v Blížencích se v tomto pohledu láme tam, kde chybí klid a pravidelný rytmus."
+   },
+   {
+    "topics": [
+     "death",
+     "loss",
+     "illness"
+    ],
+    "text": "Tradice tu mluví o nehodách na krátkých cestách a v dopravě a o starostech, nemoci či ztrátě v okruhu sourozenců a blízkých příbuzných. Při poškozeném ascendentu soláru staré texty zmiňují i smrt někoho z tohoto okruhu. Takové čtení vždy závisí na celém horoskopu a nikdy není jistotou."
+   }
+  ],
+  "traits": {
+   "text": [
+    "curiosity",
+    "eloquence",
+    "flexibility",
+    "sociability",
+    "lightness"
+   ],
+   "shadow": [
+    "restlessness",
+    "inconstancy",
+    "superficiality",
+    "indecision",
+    "exhaustion"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "solar_return/asc/cancer",
+  "title": "Ascendent soláru v Raku",
+  "keywords": [
+   "domov",
+   "rodina",
+   "péče",
+   "cit",
+   "paměť"
+  ],
+  "themes": [
+   "family",
+   "character",
+   "relationships",
+   "health"
+  ],
+  "text": "Rok s ascendentem soláru v Raku začíná doma a u lidí, ke kterým patříš. Celých dvanáct měsíců vnímáš svět víc přes cit než přes plány. Tradice tu klade důraz na byt, rodinu, rodiče a děti. Typické jsou stěhování, rekonstrukce, péče o někoho blízkého nebo zakládání nového hnízda. Vzpomínky se vracejí a staré vztahy znovu ožívají. Máš teď silnou intuici a dobrý odhad toho, co druzí potřebují. Lidé za tebou chodí pro útěchu i radu. Daří se práci z domova, vaření, péči a všemu, co chrání a živí. Tělo citlivěji reaguje na náladu, a tak tenhle rok stojí na klidném zázemí.",
+  "shadow": "Ascendent soláru v Raku umí z celého roku udělat ústup do ulity. Nálady se střídají rychle a drobná výtka bolí déle, než by měla. Křivdy si pamatuješ a uraženost tě drží v mlčení místo v rozhovoru. Lpíš na lidech, věcech i starých zvycích, i když už neslouží. Rodina tě může vtahovat do starých rolí a dluhů vděčnosti. Péče se snadno mění v kontrolu a starostlivost v úzkost o druhé. Minulost pak zastíní to, co se děje teď.",
+  "hard": [
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o citlivém žaludku, trávení, hrudníku a zadržování tekutin. Starší autoři spojovali tento ascendent soláru s rokem, kdy se zdraví víc řídí náladou a stres se snadno přesouvá do těla. Jde o sklon, ne o předpověď nemoci."
+   },
+   {
+    "topics": [
+     "death",
+     "illness",
+     "loss"
+    ],
+    "text": "Tradice tu mluví také o roce, kdy do popředí vystupuje zdraví rodičů, zvlášť matky, nebo jiného staršího člena rodiny. V nepříznivých kombinacích, hlavně s poškozenou Lunou nebo malefikem na ascendentu, staré texty uvádějí nemoc či úmrtí v rodině, ztrátu domova nebo rozpad zázemí. Celek soláru tento výklad potvrzuje, nebo oslabuje."
+   },
+   {
+    "topics": [
+     "mental_crisis"
+    ],
+    "text": "Tradice tu mluví o sklonu k melancholii a stažení se do sebe. Když se sejdou těžké vlivy, může rok přinést období smutku, stesku po minulosti nebo pocit opuštěnosti, který trvá déle než obvykle."
+   }
+  ],
+  "traits": {
+   "text": [
+    "family_attachment",
+    "intuition",
+    "protectiveness",
+    "empathy",
+    "sensitivity"
+   ],
+   "shadow": [
+    "moodiness",
+    "sulking",
+    "reclusiveness",
+    "anxiety",
+    "dependence"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "solar_return/asc/leo",
+  "title": "Ascendent soláru ve Lvu",
+  "keywords": [
+   "sebevyjádření",
+   "viditelnost",
+   "tvořivost",
+   "velkorysost",
+   "hra"
+  ],
+  "themes": [
+   "character",
+   "growth",
+   "relationships",
+   "health"
+  ],
+  "text": "Ascendent soláru ve Lvu otevírá rok, ve kterém tě druzí víc vidí a víc si tě pamatují. Od těchto narozenin do příštích máš chuť ukázat, co v tobě je, a nečekat na pozvání. Roste odvaha jít s kůží na trh, tvořit, hrát si a vést. Lidé kolem reagují na tvoje nadšení a často ti svěří hlavní roli. Daří se všemu, do čeho dáš srdce: vlastnímu projektu, vystoupení, lásce nebo času s dětmi. Máš víc energie, víc velkorysosti a ochoty věnovat druhým pozornost. Celý rok nese ráz slavnosti a odměňuje upřímnost.",
+  "shadow": "Ascendent soláru ve Lvu má odvrácenou stranu v hladu po potlesku, který během roku snadno přeroste radost ze samotné věci. Když uznání nepřichází, objevuje se ukřivděnost a sklon situace přehrávat. Pýcha ti brání přiznat chybu nebo požádat o pomoc. V partnerství a v práci hrozí panovačnost tam, kde druzí čekají rovnocenný vztah. Štědrost se mění v okázalost a v gesta, která mají hlavně zapůsobit. Hra pak vytlačuje povinnosti, za které nikdo netleská.",
+  "hard": [
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o roce, kdy je potřeba dbát na srdce, krevní oběh a záda, zvlášť na páteř. Staré výklady zmiňují horečky, přehřátí, zánětlivá onemocnění a potíže s očima. Silný Lev se podle nich projevuje vitalitou, oslabený naopak vyčerpáním z přepínání sil. Jde o tradiční výklad, ne o předpověď."
+   },
+   {
+    "topics": [
+     "loss"
+    ],
+    "text": "Tradice tu mluví také o možné ztrátě postavení nebo dobrého jména, pokud je Slunce v solárním horoskopu poškozené. Staré texty spojují takový rok se sporem s nadřízenými či autoritami a s pádem, který přichází po přecenění vlastních sil. Jde o tradiční motiv, nikoli o jistotu."
+   }
+  ],
+  "traits": {
+   "text": [
+    "self_confidence",
+    "creativity",
+    "generosity",
+    "leadership",
+    "vitality"
+   ],
+   "shadow": [
+    "pride",
+    "vanity",
+    "drama",
+    "dominance",
+    "sulking"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "solar_return/asc/virgo",
+  "title": "Ascendent soláru v Panně",
+  "keywords": [
+   "řád",
+   "služba",
+   "rozbor",
+   "zdraví",
+   "řemeslo"
+  ],
+  "themes": [
+   "work",
+   "health",
+   "character",
+   "growth"
+  ],
+  "text": "Rok s ascendentem soláru v Panně začíná úklidem: v diáři, v šuplících i v hlavě. Celý rok má pracovní, střízlivý ráz. Věci se nehýbou velkým gestem, ale stovkou malých kroků. Daří se ti rozbor, oprava a zlepšování postupů. Všímáš si chyb, které ostatní přehlédnou, a umíš je srozumitelně vysvětlit. Roste chuť zvládnout nějaké řemeslo nebo dovednost do hloubky. Pozornost se stáčí k tělu, ke spánku, jídlu, pohybu a k denním rytmům. Lidé kolem v tobě vidí někoho, na koho je spoleh. Služba druhým tě letos naplňuje víc než uznání.",
+  "shadow": "Pod ascendentem soláru v Panně se z pečlivosti snadno stává kontrola každé drobnosti. Vidíš, co chybí, a přestáváš vidět, co už funguje. Kritika míří na ostatní i na tebe a ubírá radost z hotové práce. Úzkost se schovává do seznamů a plánů. Místo rozhodnutí často přichází další kolo kontrol. Ochota pomáhat se mění v přetěžování a v pocit, že bez tebe se nic neudělá. Napětí se pak ukládá do žaludku a do spánku.",
+  "hard": [
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o roce, kdy se zdraví dostává do popředí. Panna na ascendentu soláru podle starých autorů ukazuje na potíže s trávením, střevy a nervovou soustavou. Bývají spíš drobné, ale vleklé. Tělo reaguje na přepracování a starosti rychleji než jindy. Jde o sklon, ne o jistotu."
+   },
+   {
+    "topics": [
+     "mental_crisis"
+    ],
+    "text": "Tradice tu mluví také o nervovém vyčerpání. Rok s důrazem na povinnosti podle ní může přinést úzkostné stavy, nespavost a neustálé přemítání o vlastních chybách. Starší výklady to spojují se službou nad síly a s prací bez odpočinku."
+   }
+  ],
+  "traits": {
+   "text": [
+    "order",
+    "diligence",
+    "rationality",
+    "responsibility",
+    "self_sacrifice"
+   ],
+   "shadow": [
+    "perfectionism",
+    "criticism",
+    "anxiety",
+    "exhaustion"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "solar_return/asc/libra",
+  "title": "Ascendent soláru ve Vahách",
+  "keywords": [
+   "vztahy",
+   "rovnováha",
+   "dohody",
+   "vkus",
+   "spravedlnost"
+  ],
+  "themes": [
+   "relationships",
+   "character",
+   "health"
+  ],
+  "text": "Rok s ascendentem soláru ve Vahách vede tvoji cestu přes druhé lidi. Od těchto narozenin do příštích ji skládáš z dohod, setkání a společných rozhodnutí. Do popředí vystupuje partnerství, milostné i pracovní. Lidé tě vyhledávají jako prostředníka a tvůj úsudek má ve sporech váhu. Roste cit pro vkus, proporce a podobu věcí, a tak se daří úpravám domova, péči o vzhled i tvorbě. Tvůj přístup je zdvořilý a vyvážený. Tím otevíráš dveře, které tlak nechává zavřené. Tradice tento rok spojuje se sňatky, smlouvami a novými spojenectvími.",
+  "shadow": "Ascendent soláru ve Vahách v odvrácené podobě mění celý rok v čekání na souhlas druhých. Rozhodnutí se odkládají, dokud někdo jiný nepřikývne. Vlastní přání mizí za snahou nikoho nezklamat. Klid navenek zakrývá nevyřčené napětí. Vztah se snadno stává oporou, bez které se těžko dýchá. Přívětivost sklouzává k přetvářce, vkus k marnivosti a péče o vzhled k útěku od podstaty. Spory, které se celý rok obcházejí, se nakonec ozvou najednou.",
+  "hard": [
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o ledvinách, močovém ústrojí a bederní části zad jako o místech, kde se nerovnováha roku projevuje nejdřív. Starší autoři zmiňují i potíže z přemíry sladkého, pohodlí a požitků. Rozhoduje postavení Venuše v soláru. Jde o tradiční souvislost, ne o předpověď."
+   },
+   {
+    "topics": [
+     "loss",
+     "death"
+    ],
+    "text": "Tradice tu mluví také o rozchodu, rozvodu nebo ztrátě partnera. Tento výklad se uplatňuje tam, kde jsou ascendent nebo Venuše v soláru poškozeny těžkými planetami. V nejtěžším čtení jde i o úmrtí blízkého člověka. Sedmý dům tu nese také otevřené protivníky a spory. Jde o tradiční čtení, nikoli o jistotu."
+   }
+  ],
+  "traits": {
+   "text": [
+    "cooperation",
+    "charm",
+    "justice",
+    "tolerance",
+    "sociability"
+   ],
+   "shadow": [
+    "indecision",
+    "dependence",
+    "superficiality",
+    "vanity",
+    "procrastination"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "solar_return/asc/scorpio",
+  "title": "Ascendent soláru ve Štíru",
+  "keywords": [
+   "hloubka",
+   "proměna",
+   "vášeň",
+   "intenzita",
+   "intuice"
+  ],
+  "themes": [
+   "character",
+   "relationships",
+   "growth",
+   "health"
+  ],
+  "text": "Rok s ascendentem soláru ve Štíru nese ráz hloubky. Od narozenin do narozenin tě táhne pod povrch věcí. Povrchní kontakty ztrácejí chuť, zato pár vztahů získává nebývalou intenzitu. Máš ostrý odhad lidí a vycítíš, co druzí zamlčují. Vášeň, přitažlivost a věrnost dávají roku směr. Do práce vkládáš soustředění a vytrvalost a dotahuješ, co se dlouho odkládalo. Je to rok proměny: něco končí, aby mohlo vzniknout nové. Staré kapitoly uzavíráš často nenápadně a beze svědků. Síla roku leží v odvaze podívat se pravdě do očí.",
+  "shadow": "Stínem roku s ascendentem soláru ve Štíru je nedůvěra, která se postupně usazuje pod kůží. Snadno čteš skryté úmysly i tam, kde žádné nejsou. Žárlivost a potřeba kontroly sílí, hlavně v blízkých vztazích. Křivdy si pamatuješ a v hlavě je přehráváš znovu. Tajnůstkářství chrání, ale zároveň izoluje. Hrozí posedlost jedním člověkem či cílem a touha po odvetě místo smíření. Proměnu, kterou rok nabízí, pak brzdí lpění na tom, co už skončilo.",
+  "hard": [
+   {
+    "topics": [
+     "death",
+     "loss"
+    ],
+    "text": "Tradice tu mluví o roce, kdy se člověk setkává se smrtí ve svém okolí, s dědictvím a s koncem důležitých etap. Nejde o jistotu, spíš o rámec: odchod někoho blízkého nebo uzavření části života může v tomto roce zasáhnout silněji než jindy."
+   },
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o zranitelnosti rozmnožovacích a vylučovacích orgánů, o zánětech a o chirurgických zákrocích. Starší autoři spojují Štíra na ascendentu soláru i s nemocemi, které se dlouho skrývají, než se projeví navenek."
+   },
+   {
+    "topics": [
+     "mental_crisis"
+    ],
+    "text": "Tradice tu mluví o temných náladách, nutkavých myšlenkách a vnitřní krizi, která otřásá dosavadním pohledem na sebe. Tradiční výklad takové období líčí jako bolestné, ale zároveň proměňující."
+   },
+   {
+    "topics": [
+     "violence"
+    ],
+    "text": "Tradice tu mluví o konfliktech, které se vyhrocují, o nebezpečí poranění ostrými předměty a o střetech s lidmi jednajícími ze skryté zášti. Výklad zdůrazňuje zvýšené napětí, ne nevyhnutelný střet."
+   }
+  ],
+  "traits": {
+   "text": [
+    "depth",
+    "transformation",
+    "intuition",
+    "focus",
+    "perseverance"
+   ],
+   "shadow": [
+    "jealousy",
+    "secrecy",
+    "obsession",
+    "dominance"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "solar_return/asc/sagittarius",
+  "title": "Ascendent soláru ve Střelci",
+  "keywords": [
+   "cesty",
+   "smysl",
+   "nadšení",
+   "studium",
+   "rozlet"
+  ],
+  "themes": [
+   "character",
+   "growth",
+   "work"
+  ],
+  "text": "Rok s ascendentem soláru ve Střelci otevírá dveře ven. Táhne tě to za hranice dosavadního života: na cesty, ke studiu, k cizím jazykům a k lidem z jiných kultur. Celý rok nese ráz hledání smyslu. Ptáš se, čemu věříš a kam vlastně směřuješ. Nadšení přichází snadno a strhává i okolí. Daří se učení, vyučování, psaní a všemu, co rozšiřuje obzor. Vládcem roku je Jupiter, takže jeho postavení v soláru ukazuje, kde se otevřou největší možnosti. Velkorysost, humor a odvaha k velkému plánu jsou hlavní nástroje tohoto roku.",
+  "shadow": "Rozlet roku s ascendentem soláru ve Střelci snadno přeroste v přehánění. Slibuješ víc, než se dá stihnout, a plány rostou rychleji než síly. Nadšení pro nový názor svádí ke kázání a poučování druhých. Upřímnost pak zní netaktně a raní lidi, kteří o radu nestojí. Neklid žene od jednoho cíle k druhému a mnoho věcí zůstává rozdělaných. Snadno přeceňuješ vlastní možnosti a věříš, že se všechno nějak vyřeší samo.",
+  "hard": [
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o zdravotních potížích spojených s přemírou: o zatížení jater, o horečnatých stavech a o slabších místech v oblasti kyčlí a stehen. Starší autoři zdůrazňují, že rizikem roku bývá spíš nestřídmost v jídle a pití než vnější vliv. Jde o tradiční výklad, ne o jistotu."
+   },
+   {
+    "topics": [
+     "illness",
+     "loss"
+    ],
+    "text": "Tradice tu mluví také o úrazech na cestách, o pádech, o nehodách při sportu a jízdě a o nesnázích v cizině. Platí to zvlášť tehdy, když je v soláru poškozen Jupiter nebo vládce osmého domu. Staré výklady k tomu řadí i ztráty plynoucí z lehkovážného riskování. Nic z toho neplatí jako předpověď."
+   }
+  ],
+  "traits": {
+   "text": [
+    "wanderlust",
+    "optimism",
+    "curiosity",
+    "generosity",
+    "spirituality"
+   ],
+   "shadow": [
+    "restlessness",
+    "bluntness",
+    "risk_taking",
+    "inconstancy",
+    "carelessness"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "solar_return/asc/capricorn",
+  "title": "Ascendent soláru v Kozorohu",
+  "keywords": [
+   "odpovědnost",
+   "vytrvalost",
+   "struktura",
+   "postavení",
+   "zralost"
+  ],
+  "themes": [
+   "character",
+   "work",
+   "growth",
+   "health",
+   "family"
+  ],
+  "text": "Rok se solárním ascendentem v Kozorohu začíná vážněji než jiné a od prvních týdnů žádá plán. Do popředí jde práce, postavení a závazky s dlouhým dosahem. Máš teď v rukou trpělivost a schopnost dotahovat věci krok za krokem. Výsledky přicházejí pomalu, zato drží. Okolí v tobě vidí oporu a svěřuje ti odpovědnost. Daří se stavění základů: řád v denním režimu, jasná pravidla a dlouhodobé cíle. Uznání přichází za vykonanou práci, ne za sliby. Starší lidé, nadřízení a autority v tomto roce hrají výraznou roli.",
+  "shadow": "Rok pod Kozorohem na ascendentu snadno přechází v rok bez radosti. Povinnosti zabírají všechen čas a city ustupují do pozadí. Hrozí strnulost a lpění na plánu i tam, kde už neslouží. Druzí mohou v tvém jednání vnímat chlad, odstup a tvrdost. Úspěch se měří jen výkonem a postavením a únava zůstává bez povšimnutí. Pesimismus barví i dobré zprávy a každá překážka vypadá jako konec. Samota přichází nenápadně, z přetížení a nedůvěry.",
+  "hard": [
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o roce, kdy tělo nese následky dlouhodobé zátěže. Zmiňuje potíže s kostmi, klouby, koleny, zuby a kůží, sklon k prochladnutí a nemoci, které se vlečou a odcházejí pomalu. Jde o tradiční obraz, ne o jistotu."
+   },
+   {
+    "topics": [
+     "mental_crisis"
+    ],
+    "text": "Tradice tu mluví o melancholii, pocitu tíhy a osamělosti. Ve vypjatých obdobích popisuje stavy sklíčenosti, kdy se budoucnost jeví bez východiska a z běžných dní mizí radost."
+   },
+   {
+    "topics": [
+     "death",
+     "loss"
+    ],
+    "text": "Tradice tu mluví o ztrátách spojených se staršími lidmi a autoritami. Starší výklady zmiňují vážné nemoci nebo úmrtí v rodině, zvlášť u rodičů a prarodičů, a také konec věcí, které dlouho trvaly. Jde o možnost, ne o předpověď."
+   },
+   {
+    "topics": [
+     "ruin",
+     "loss"
+    ],
+    "text": "Tradice tu mluví o pádu z postavení, které stojí na slabých základech. Popisuje ztrátu pověsti, funkce nebo dlouho budovaného díla, kde se v tomto roce projeví dřívější chyby a neplněné závazky."
+   }
+  ],
+  "traits": {
+   "text": [
+    "responsibility",
+    "perseverance",
+    "discipline",
+    "ambition",
+    "order"
+   ],
+   "shadow": [
+    "coldness",
+    "rigidity",
+    "pessimism",
+    "exhaustion",
+    "loneliness"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "solar_return/asc/aquarius",
+  "title": "Ascendent soláru ve Vodnáři",
+  "keywords": [
+   "svoboda",
+   "nové začátky",
+   "přátelství",
+   "originalita",
+   "změna"
+  ],
+  "themes": [
+   "character",
+   "relationships",
+   "growth"
+  ],
+  "text": "Rok s Ascendentem soláru ve Vodnáři otevírá období, ve kterém chceš žít víc podle sebe a méně podle očekávání okolí. Od těchto narozenin do příštích tě táhnou nové nápady, nečekané plány a lidé s jiným pohledem na svět. Přátelství a skupiny mají větší váhu než obvykle. Máš jasnější hlavu, chuť zkoušet neobvyklá řešení a odvahu říct nahlas, co si myslíš. Daří se ti v týmech, komunitách a projektech zaměřených na budoucnost. Změny přicházejí rychle a často z nečekané strany. Tvoje originalita teď přitahuje pozornost a otevírá dveře, které dřív zůstávaly zavřené.",
+  "shadow": "V roce s Vodnářem na Ascendentu soláru se potřeba svobody snadno mění v odstup od lidí, kteří tě znají nejdéle. Blízcí mohou mít pocit, že s nimi mluvíš z velké výšky. Citům se vyhýbáš rozumovými vysvětleními. Na každé omezení reaguješ vzdorem, i když jde o rozumnou dohodu. Hrozí přetržení vazeb jen proto, že připomínají minulost. Mezi lidmi se pohybuješ často, a přesto bez skutečné blízkosti. Lpění na vlastní pravdě ti bere schopnost ustoupit.",
+  "hard": [
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o citlivosti lýtek, kotníků a krevního oběhu, protože Vodnář těmto částem těla tradičně vládne. Zmiňuje také nervové napětí, nespavost a náhlá drobná zranění v obdobích prudkých změn. Jde o tradiční souvislosti, ne o předpověď konkrétní nemoci."
+   },
+   {
+    "topics": [
+     "loss"
+    ],
+    "text": "Tradice tu mluví o roce náhlých rozchodů a odchodů. Přátelství, pracovní vazby nebo vztahy mohou skončit bez dlouhého varování, někdy z tvého rozhodnutí, jindy ze strany druhých. Starší výklady to spojují se Saturnem jako tradičním vládcem Vodnáře a s pocitem osamělosti."
+   },
+   {
+    "topics": [
+     "mental_crisis"
+    ],
+    "text": "Tradice tu mluví o neklidu mysli, která se nedokáže zastavit, a o odcizení od vlastních pocitů. V náročnějších solárech popisuje období vnitřní prázdnoty a pocitu, že nikam nepatříš, i uprostřed lidí."
+   }
+  ],
+  "traits": {
+   "text": [
+    "independence",
+    "originality",
+    "sociability",
+    "curiosity",
+    "openness"
+   ],
+   "shadow": [
+    "detachment",
+    "rebellion",
+    "coldness",
+    "stubbornness",
+    "loneliness"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "solar_return/asc/pisces",
+  "title": "Ascendent soláru v Rybách",
+  "keywords": [
+   "soucit",
+   "fantazie",
+   "intuice",
+   "víra",
+   "splynutí"
+  ],
+  "themes": [
+   "character",
+   "relationships",
+   "growth",
+   "health"
+  ],
+  "text": "Rok s ascendentem soláru v Rybách začíná bez ostrých obrysů a bez plánů vytesaných do kamene. Od narozenin do narozenin vnímáš víc, než ti kdokoli řekne. Zachytíš náladu místnosti dřív, než v ní někdo promluví. Cizí starosti se tě dotýkají a máš chuť pomáhat. Sílí fantazie, hudba, obrazy a sny. Roste i zájem o víru a duchovní otázky. Věci se daří tam, kde necháváš prostor intuici a netlačíš je silou. Vztahy se prohlubují soucitem, ne výkonem. Tvůj přístup k životu je letos měkčí, přizpůsobivější a otevřenější tomu, co přichází samo.",
+  "shadow": "Mlhavý ascendent soláru v Rybách může z celého roku udělat čekání, ve kterém se rozhodnutí rozpouštějí dřív, než padnou. Hranice mezi pomocí a obětí se ztrácí. Snadno přebíráš cizí břemena a pak máš pocit, že tě druzí využívají. Lákají tě úniky: spánek, seriály, alkohol, iluze o lidech. Sliby dáváš s dobrým úmyslem, ale nestíháš je plnit. Na tvé slovo je méně spolehnutí. Přibývá zmatku v papírech a termínech. Hrozí klam od těch, kterým věříš.",
+  "hard": [
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o roce se slabší odolností těla. Starší autoři spojují Ryby na ascendentu soláru s nemocemi, které začínají nenápadně a těžko se určují, s potížemi nohou, otoky a záněty. Zmiňují také pobyty v nemocnici nebo jiném uzavřeném zařízení, protože Ryby odpovídají dvanácté oblasti horoskopu."
+   },
+   {
+    "topics": [
+     "addiction"
+    ],
+    "text": "Tradice tu mluví o zvýšeném sklonu k závislostem. Alkohol, léky a jiné látky mají v tomto roce snazší cestu dovnitř, protože slibují úlevu od přecitlivělosti. Výklady varují také před otravami a nesnášenlivostí léků."
+   },
+   {
+    "topics": [
+     "mental_crisis"
+    ],
+    "text": "Tradice tu mluví o obdobích zmatku, smutku a ztráty pevné půdy pod nohama. Staré texty uvádějí úzkosti, nespavost, děsivé sny a pocit, že se realita rozplývá. U citlivějších povah zmiňují i hlubší duševní krize během roku."
+   },
+   {
+    "topics": [
+     "loss",
+     "ruin"
+    ],
+    "text": "Tradice tu mluví o ztrátách, které přicházejí skrze klam. Skrytí nepřátelé, pomluvy a podvody od lidí, kterým důvěřuješ, mohou připravit o majetek, pověst nebo vztah. Některé výklady sem řadí i rozpad vazeb, které se ukážou jako iluze."
+   }
+  ],
+  "traits": {
+   "text": [
+    "empathy",
+    "intuition",
+    "creativity",
+    "spirituality",
+    "flexibility"
+   ],
+   "shadow": [
+    "escapism",
+    "self_sacrifice",
+    "chaos",
+    "irresponsibility",
+    "addiction_tendency"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "solar_return/sun_in_house/1",
+  "title": "Slunce soláru v 1. domě",
+  "keywords": [
+   "osobnost",
+   "tělo",
+   "nový začátek",
+   "první dojem",
+   "sebeprosazení"
+  ],
+  "themes": [
+   "character",
+   "health",
+   "growth"
+  ],
+  "text": "Slunce soláru v 1. domě dělá z tvé osobnosti hlavní téma roku, od těchto narozenin do příštích. Víc než okolnosti teď rozhoduje to, jak jednáš a jak působíš. Lidé si tě všímají častěji a první dojem má větší váhu. Máš víc chuti brát věci do vlastních rukou a začínat nové věci podle sebe. Často přichází změna vzhledu, stylu nebo způsobu, jakým se představuješ. Tělo citlivěji odráží tvá rozhodnutí a rytmus dne. Tradice tu mluví o roce, kdy se člověk znovu definuje a ukazuje světu novou tvář.",
+  "shadow": "Když Slunce soláru stojí v 1. domě, celý rok se snadno točí jen kolem tebe. Vlastní zájmy pak přehlušují potřeby druhých a okolí to vnímá jako sobectví nebo pýchu. Silná vůle se mění v netrpělivost a v potřebu mít poslední slovo. Hodně energie jde do toho, jak vypadáš a jak tě vidí ostatní, a s tím roste marnivost i citlivost na kritiku. Tempo, které si nasazuješ, tělo nemusí vydržet. Únava pak přichází náhle a bere chuť, se kterou rok začal.",
+  "hard": [
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o 1. domě soláru jako o domě těla a jeho zranitelnosti. Slunce zde podle starých autorů posiluje životní sílu. Zároveň ale ukazuje, že se rok projeví hlavně na těle. Při napjatých aspektech ke Slunci tradice uvádí horečky, přetížení srdce, potíže s očima, úrazy hlavy a vyčerpání z přepětí sil."
+   },
+   {
+    "topics": [
+     "death",
+     "illness"
+    ],
+    "text": "Pokud Slunce v 1. domě soláru zasahuje Mars nebo Saturn, tradice tu mluví o vážném ohrožení zdraví a ve výjimečných případech i života. Starší autoři to čtou jako rok, který zkouší odolnost těla. Nejde o jistotu, jen o tradiční výklad nepříznivého postavení."
+   }
+  ],
+  "traits": {
+   "text": [
+    "self_confidence",
+    "vitality",
+    "independence",
+    "decisiveness",
+    "leadership"
+   ],
+   "shadow": [
+    "selfishness",
+    "pride",
+    "vanity",
+    "dominance",
+    "exhaustion"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "solar_return/sun_in_house/2",
+  "title": "Slunce soláru v 2. domě",
+  "keywords": [
+   "peníze",
+   "majetek",
+   "hodnoty",
+   "sebeocenění",
+   "talenty"
+  ],
+  "themes": [
+   "money",
+   "work",
+   "character",
+   "growth"
+  ],
+  "text": "Slunce soláru ve 2. domě staví do středu roku peníze, majetek a otázku, co má pro tebe skutečnou cenu. Pozornost se letos stáčí k příjmům, výdajům a k tomu, co vlastníš. Víc než jindy řešíš, jakou hodnotu má tvoje práce. Talenty, které dosud ležely ladem, dostávají šanci přinést výdělek. Roste chuť budovat něco hmatatelného a trvalého. Zároveň se ujasňují hodnoty: co ti stojí za námahu a co už ne. Sebevědomí letos stojí na konkrétních výsledcích, ne na slibech. Rok přeje trpělivému zhodnocování schopností a zájmu o kvalitní věci.",
+  "shadow": "Se Sluncem soláru ve 2. domě se snadno zaměňuje hodnota člověka za stav účtu. Když příjmy kolísají, kolísá s nimi i sebeúcta. Objevuje se sklon utrácet na odiv, aby navenek vše působilo pevně. Jindy převládne opačný pól: úzkostné lpění na každé koruně a strach z nedostatku. Hromadění věcí může nahrazovat vnitřní pocit jistoty. Přehnaná pozornost k majetku zužuje pohled a vztahy začínají mít tržní příchuť.",
+  "hard": [
+   {
+    "topics": [
+     "loss",
+     "ruin"
+    ],
+    "text": "Tradice tu mluví o roce, kdy se Slunce v domě majetku při těžkém postavení pojí se ztrátou peněz nebo věcí. Starší autoři zmiňují výdaje, které převýší příjmy, ztrátu zdroje obživy a v krajním případě zadlužení či úpadek. Jde o tradiční varovný obraz, ne o jistotu; jeho váhu určují aspekty a ostatní části soláru."
+   }
+  ],
+  "traits": {
+   "text": [
+    "security_need",
+    "self_confidence",
+    "perseverance",
+    "realism"
+   ],
+   "shadow": [
+    "materialism",
+    "extravagance",
+    "stinginess",
+    "insecurity",
+    "anxiety"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "solar_return/sun_in_house/3",
+  "title": "Slunce soláru v 3. domě",
+  "keywords": [
+   "komunikace",
+   "učení",
+   "sourozenci",
+   "krátké cesty",
+   "okolí"
+  ],
+  "themes": [
+   "character",
+   "family",
+   "growth",
+   "work"
+  ],
+  "text": "Rok od těchto narozenin do příštích se točí kolem slov, učení a nejbližšího okolí. Hlavní děj se odehrává v rozhovorech, zprávách, kurzech a na krátkých cestách. Myšlení dostává rychlost a jasnost. Nové věci snadno chápeš a umíš je srozumitelně předat dál. Je to vhodný čas na studium, psaní, přednášení nebo práci s informacemi. Do popředí vystupují sourozenci, sousedé a lidé z místa, kde žiješ. Často se pohybuješ po okolí, dojíždíš a vyřizuješ. Tvoje slovo má letos větší váhu než jindy a lidé si ho pamatují.",
+  "shadow": "Tentýž rok, který zrychluje myšlení a hovor, tříští pozornost do desítek drobných úkolů. Hodně věcí začínáš a málo jich dotahuješ. Mluvíš víc, než je potřeba, a ukvapené slovo dokáže zranit. Ve sporech se sourozenci nebo sousedy se objevuje tvrdohlavost a touha mít poslední slovo. Neustálé přejíždění a vyřizování přináší únavu a podrážděné nervy. Informací přibývá, ale hloubka se vytrácí a z rozhovorů zůstávají jen klepy.",
+  "hard": [
+   {
+    "topics": [
+     "illness",
+     "death"
+    ],
+    "text": "Tradice tu mluví o nehodách na krátkých cestách, v dopravě a při každodenním pohybu po okolí, zvlášť když je Slunce soláru poškozené. Starší autoři zmiňují zranění a ve výjimečných případech i ohrožení života. Jde o zvýšené riziko, ne o jistou předpověď."
+   },
+   {
+    "topics": [
+     "loss",
+     "illness"
+    ],
+    "text": "Tradice tu mluví o sporech se sourozenci a blízkými příbuznými, které mohou vést k odcizení nebo přerušení kontaktu. Při poškozeném Slunci uvádí i nemoc sourozence nebo starosti o jeho zdraví. Tyto výklady popisují možnost, nikoli jistotu."
+   },
+   {
+    "topics": [
+     "mental_crisis"
+    ],
+    "text": "Tradice tu mluví o přetížení nervů z neustálého přísunu zpráv, starostí a pohybu. Popisuje nespavost, roztěkanost a stav, kdy myšlenky nejdou zastavit. Uvádí to jako sklon roku, ne jako nevyhnutelný stav."
+   }
+  ],
+  "traits": {
+   "text": [
+    "curiosity",
+    "eloquence",
+    "sociability",
+    "flexibility"
+   ],
+   "shadow": [
+    "restlessness",
+    "superficiality",
+    "inconstancy",
+    "stubbornness",
+    "exhaustion"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "solar_return/sun_in_house/4",
+  "title": "Slunce soláru v 4. domě",
+  "keywords": [
+   "domov",
+   "rodina",
+   "kořeny",
+   "stěhování",
+   "rodiče"
+  ],
+  "themes": [
+   "family",
+   "relationships",
+   "growth"
+  ],
+  "text": "Slunce soláru ve 4. domě obrací celý rok od narozenin k narozeninám směrem domů. Hlavní děj se odehrává mezi vlastními zdmi, v rodině a u kořenů. K typickým projevům patří stěhování, rekonstrukce, nový byt nebo návrat do rodného kraje. Do popředí vystupuje otec nebo matka, jejich potřeby a odkaz, který po nich neseš. Máš chuť uklidit si zázemí a postavit pevný základ pro další léta. Hodně energie jde do péče o blízké a do vztahu k rodové minulosti. Úspěchy tohoto roku nejsou moc vidět navenek, zato vydrží dlouho.",
+  "shadow": "Slunce soláru ve 4. domě umí rok uzavřít mezi čtyři stěny. Rodinné povinnosti pohlcují čas i sílu a na vlastní cíle zbývá málo. Staré křivdy z dětství se vracejí a rozdmýchávají spory s rodiči nebo sourozenci. Hrozí strach z každé změny a stažení do ulity. Kariéra a veřejný život stojí, protože pozornost míří dovnitř. Péče o druhé se snadno mění v únavu a v pocit, že doma nikdo nevidí, kolik toho neseš.",
+  "hard": [
+   {
+    "topics": [
+     "death",
+     "illness"
+    ],
+    "text": "Tradice tu mluví o konci života, protože 4. dům je domem posledních věcí. U Slunce soláru se tento výklad tradičně vztahuje spíš k rodičům, hlavně k otci, k jejich nemoci, stáří nebo odchodu a k uzavírání jedné rodové kapitoly. Jde o starý výklad, ne o předpověď. Jako jediný signál roku nemá velkou váhu."
+   },
+   {
+    "topics": [
+     "loss"
+    ],
+    "text": "Tradice tu mluví také o ztrátě domova. Řadí sem nucené stěhování, rozpad domácnosti, prodej rodinného majetku nebo odchod z místa, kde máš kořeny. Rok podle tohoto výkladu může přinést rozloučení s domem, který dlouho dával pocit bezpečí."
+   }
+  ],
+  "traits": {
+   "text": [
+    "family_attachment",
+    "protectiveness",
+    "responsibility",
+    "security_need",
+    "belonging"
+   ],
+   "shadow": [
+    "reclusiveness",
+    "stagnation",
+    "exhaustion",
+    "rigidity"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "solar_return/sun_in_house/5",
+  "title": "Slunce soláru v 5. domě",
+  "keywords": [
+   "láska",
+   "radost",
+   "tvořivost",
+   "děti",
+   "riziko"
+  ],
+  "themes": [
+   "relationships",
+   "family",
+   "growth",
+   "character"
+  ],
+  "text": "Slunce soláru v 5. domě staví do středu roku od narozenin do narozenin radost, lásku a tvoření. Tento rok se točí kolem toho, co tě baví a co z tebe přirozeně vychází. Láká tě hra, nová známost, zamilovanost nebo projekt, do kterého dáváš srdce. Tvořivost má volný průchod: psaní, hudba, ruční práce, cokoli, kde je vidět tvůj rukopis. Děti a vztah k nim dostávají víc prostoru, ať jde o vlastní děti, o děti kolem tebe, nebo o téma rodičovství. Chuť riskovat roste a odvaha ukázat se přináší uznání. Víc se směješ, víc se ukazuješ, víc si dovoluješ.",
+  "shadow": "Se Sluncem soláru v 5. domě hrozí, že se celý rok promění v honbu za potěšením. Zábava vytlačuje povinnosti a nadšení rychle vyprchá. Lásku je snadné zaměnit za drama a flirt za hloubku. Potřeba obdivu vede k přehrávání a ke zklamání, když potlesk nepřijde. Sázky, ať v kartách, nebo ve vztazích, lákají víc, než je zdravé. S dětmi může přijít víc starostí a sporů o to, kdo má hlavní slovo, než se čeká.",
+  "hard": [
+   {
+    "topics": [
+     "illness",
+     "loss",
+     "death"
+    ],
+    "text": "Tradice tu mluví o starostech spojených s dětmi: o nemocech dětí, o komplikacích v těhotenství nebo při porodu. V nejtěžším čtení mluví i o ztrátě těhotenství či dítěte. Jde o tradiční význam zvýrazněného 5. domu, ne o jistou předpověď."
+   },
+   {
+    "topics": [
+     "addiction",
+     "ruin"
+    ],
+    "text": "Tradice tu mluví o hazardu a spekulaci. Rok se silným 5. domem podle ní nese sklon ke hře o peníze, k sázkám a k lehkomyslnému riziku. To může přerůst v návyk a vést ke ztrátě majetku i dobrého jména."
+   }
+  ],
+  "traits": {
+   "text": [
+    "creativity",
+    "cheerfulness",
+    "self_confidence",
+    "risk_taking"
+   ],
+   "shadow": [
+    "indulgence",
+    "drama",
+    "vanity",
+    "irresponsibility",
+    "inconstancy"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "solar_return/sun_in_house/6",
+  "title": "Slunce soláru v 6. domě",
+  "keywords": [
+   "práce",
+   "každodenní řád",
+   "zdraví",
+   "služba",
+   "zvířata"
+  ],
+  "themes": [
+   "work",
+   "health"
+  ],
+  "text": "Se Sluncem soláru v 6. domě se hlavní příběh roku odehrává v tvé každodennosti: v práci, povinnostech, režimu a v těle. Rozhodují obyčejné dny, ne velká gesta. Máš chuť uklidit si pracovní stůl, rozvrh i návyky. Daří se ti v řemesle, v detailu a v pomoci druhým. Kolegové a nadřízení si všímají tvé spolehlivosti. Může se měnit pracovní místo, náplň práce nebo způsob, jakým pracuješ. Tělo si říká o pozornost a tvoje vnímavost k jeho signálům roste. Do domácnosti může přibýt zvíře, nebo péče o něj zabírá víc času než dřív.",
+  "shadow": "Se Sluncem soláru v 6. domě se práce snadno stane jediným měřítkem tvé hodnoty. Přibývá povinností a ubývá odpočinku. Drobnosti tě zahlcují a kritičnost míří na kolegy i na tebe. Služba druhým se může zvrhnout v nekonečné dotahování cizích úkolů bez uznání. Hrozí podřízenost, nevděčná práce a pocit, že se den točí v kruhu. Starost o zdraví může přerůst v úzkostné sledování každého příznaku.",
+  "hard": [
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o roce, kdy se mohou ozvat nemoci, hlavně ty z dlouhodobého přetížení, a kdy tělo vybírá dluh za vyčerpání. Starší autoři chápali toto postavení jako varování před oslabením zdraví a pomalejším zotavováním. Nejde o jistotu, spíš o téma, které rok vynáší na povrch."
+   },
+   {
+    "topics": [
+     "loss"
+    ],
+    "text": "Tradice tu mluví také o starostech spojených se zvířaty a s lidmi, kteří pro tebe pracují nebo s tebou sdílejí každodenní provoz. Zmiňuje nemoc či ztrátu domácího zvířete a odchod spolupracovníků. Čte se to jako možnost, ne jako předpověď."
+   }
+  ],
+  "traits": {
+   "text": [
+    "diligence",
+    "order",
+    "responsibility",
+    "self_sacrifice"
+   ],
+   "shadow": [
+    "exhaustion",
+    "criticism",
+    "anxiety",
+    "submissiveness",
+    "perfectionism"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "solar_return/sun_in_house/7",
+  "title": "Slunce soláru v 7. domě",
+  "keywords": [
+   "partnerství",
+   "manželství",
+   "dohody",
+   "protějšek",
+   "otevřený spor"
+  ],
+  "themes": [
+   "relationships",
+   "work"
+  ],
+  "text": "Slunce soláru v 7. domě staví do středu roku druhého člověka. Partner, manželství nebo důležitá spolupráce určují, kam se rok ubírá. Víc než jindy se poznáváš skrze druhé a v jejich reakcích vidíš vlastní sílu i hranice. Přicházejí nabídky ke společným plánům, dohodám a smlouvám. Vztah, který dosud visel ve vzduchu, žádá jasnou podobu: svatbu, společné bydlení, nebo otevřené rozhodnutí. Máš teď dar vyjednávat a hledat férový střed. Lidé v tobě vidí protějšek, se kterým se dá počítat. Hodně energie roku proudí do rozhovorů, kompromisů a sdílených cílů.",
+  "shadow": "Slunce soláru v 7. domě umí rok příliš navázat na druhého člověka. Tvoje nálada pak stoupá a klesá podle partnera nebo obchodního protějšku. Hrozí ztráta vlastního směru a přizpůsobování jen kvůli klidu. Skryté napětí ve vztazích vychází na povrch a druhá strana vystupuje ostřeji než obvykle. Snadno sklouzáváš k přetahování o to, kdo má pravdu. Konkurence i kritici jednají otevřeně a pod vlastním jménem. Kde chybí jasná dohoda, roste nedůvěra a přibývá výčitek.",
+  "hard": [
+   {
+    "topics": [
+     "loss"
+    ],
+    "text": "Tradice tu mluví o roce, kdy se partnerství může lámat. Starší výklady spojují toto postavení s rozvody, rozchody a koncem dlouhých spoluprací. Zmiňují také vleklé spory a otevřené nepřátele, kteří se staví proti tobě veřejně. Nejde o jistotu. Tradice tím spíš upozorňuje, že vztahy jsou letos hlavním bojištěm i hlavní zkouškou."
+   }
+  ],
+  "traits": {
+   "text": [
+    "cooperation",
+    "sociability",
+    "justice",
+    "openness"
+   ],
+   "shadow": [
+    "dependence",
+    "submissiveness",
+    "competitiveness",
+    "criticism"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "solar_return/sun_in_house/8",
+  "title": "Slunce soláru v 8. domě",
+  "keywords": [
+   "proměna",
+   "krize",
+   "cizí peníze",
+   "dědictví",
+   "intimita"
+  ],
+  "themes": [
+   "growth",
+   "money",
+   "relationships",
+   "health"
+  ],
+  "text": "Slunce soláru v 8. domě staví do středu tohoto roku proměnu, která jde pod povrch. Od narozenin do narozenin se hlavní děj odehrává tam, kde něco končí a něco nového vzniká. Do popředí vystupují společné peníze, dluhy, majetek partnera, dědictví a cizí zdroje, se kterými zacházíš. Intimní život získává na intenzitě a sexualita dostává větší váhu. Máš teď ostřejší schopnost vidět skryté motivy a pojmenovat, co ostatní zamlčují. Rok vyžaduje odvahu pustit staré jistoty. Co se během něj rozpadne, často uvolní místo pro pevnější základ.",
+  "shadow": "Stinnou stránkou Slunce soláru v 8. domě je rok, kdy se touha mít věci pod kontrolou mění v posedlost. Krize na sebe strhávají veškerou pozornost a snadno v nich uvízneš. Ve vztazích hrozí mocenské hry, žárlivost a boj o společné peníze. Sklon k tajnůstkářství izoluje právě ve chvíli, kdy je pomoc nejvíc potřeba. Strach ze ztráty vede k lpění na tom, co už skončilo. Místo proměny pak přichází zatvrzelé čekání a vyčerpání.",
+  "hard": [
+   {
+    "topics": [
+     "death",
+     "loss"
+    ],
+    "text": "Tradice tu mluví o roce, kdy se do života může dostat téma smrti, nejčastěji v okolí, ve vzdálenější rodině nebo u starších lidí. Starší výklady spojují tento dům i s úmrtím, po kterém přichází dědictví. Jde o tradiční motiv, ne o jistotu."
+   },
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o operacích, chirurgických zákrocích a nemocech, které vyžadují hlubší zásah do těla. Starší autoři s tímto postavením spojují také období oslabeného zdraví a pomalejší regenerace. Jde o tradiční motiv, ne o předpověď konkrétní události."
+   },
+   {
+    "topics": [
+     "ruin",
+     "loss"
+    ],
+    "text": "Tradice tu mluví o krachu, zadlužení, ztrátě cizích prostředků a o sporech o dědictví nebo společný majetek. Starší výklady varují před rokem, kdy se mohou zhroutit finanční vazby s partnerem či společníkem. Takové čtení je tradiční motiv, ne jistota."
+   },
+   {
+    "topics": [
+     "mental_crisis"
+    ],
+    "text": "Tradice tu mluví o hluboké vnitřní krizi, kdy staré pojetí sebe sama odumírá dřív, než se stihne zformovat nové. Popisuje se jako období temných nálad, tíže a pocitu ztráty smyslu, které podle tradice předchází obnově."
+   }
+  ],
+  "traits": {
+   "text": [
+    "transformation",
+    "depth",
+    "intuition",
+    "courage",
+    "resilience"
+   ],
+   "shadow": [
+    "obsession",
+    "jealousy",
+    "secrecy",
+    "stagnation",
+    "exhaustion"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "solar_return/sun_in_house/9",
+  "title": "Slunce soláru v 9. domě",
+  "keywords": [
+   "smysl",
+   "cesty",
+   "studium",
+   "víra",
+   "cizina"
+  ],
+  "themes": [
+   "growth",
+   "character"
+  ],
+  "text": "Slunce soláru v 9. domě staví do středu tvého roku otázku smyslu. Hlavní síla roku míří za hranice známého. Táhne tě to k cestám, cizím zemím, studiu a k tomu, čemu věříš. Láká tě kurz, škola, delší pobyt v zahraničí nebo kniha, která promění tvůj pohled na svět. Učitelé, mentoři a lidé z jiných kultur pro tebe teď víc znamenají. Roste chuť chápat souvislosti, ne jen plnit povinnosti. Zajímá tě filozofie, víra, etika i otázka spravedlnosti. Na konci roku máš širší obzor a jasnější představu o tom, kam tvůj život směřuje.",
+  "shadow": "Slunce soláru v 9. domě může z roku udělat hon za velkou pravdou, při kterém se ztrácí všední den. Hrozí kázání druhým a přesvědčení, že správný je jen tvůj názor. Plány na cesty a studium rostou rychleji než síly na jejich dokončení. Útěk do dálky nebo do ideálů někdy jen odkládá nevyřešené věci doma. Ve sporech o zásady chybí ochota ustoupit. Nadšení pro nové myšlenky se může změnit v netrpělivost se vším, co působí obyčejně.",
+  "hard": [
+   {
+    "topics": [
+     "ruin",
+     "loss"
+    ],
+    "text": "Tradice tu mluví o soudních sporech a úředních tazích, které se táhnou a berou čas, energii i prostředky. V nejtěžší podobě uvádí ztrátu majetku nebo dobrého jména kvůli rozhodnutí soudu či jiné autority. Jde o tradiční motiv, ne o jistotu."
+   },
+   {
+    "topics": [
+     "illness",
+     "death",
+     "loss"
+    ],
+    "text": "Tradice tu mluví o potížích v cizině a na dlouhých cestách. Zmiňuje nemoc daleko od domova, nehodu, okradení nebo uvíznutí bez pomoci. Starší autoři uvádějí i smrt na cestách či v cizí zemi a výjimečně ztrátu blízkého člověka v dálce. Jde o tradiční obraz, ne o předpověď."
+   },
+   {
+    "topics": [
+     "mental_crisis"
+    ],
+    "text": "Tradice tu mluví také o otřesu víry. Rozpad životního přesvědčení nebo zklamání z učitele či ideálu může přinést období prázdnoty, zmatku a ztráty orientace. Tradice tento motiv uvádí jako možnost, ne jako jistotu."
+   }
+  ],
+  "traits": {
+   "text": [
+    "curiosity",
+    "wanderlust",
+    "spirituality",
+    "idealism",
+    "openness"
+   ],
+   "shadow": [
+    "restlessness",
+    "pride",
+    "escapism",
+    "rigidity"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "solar_return/sun_in_house/10",
+  "title": "Slunce soláru v 10. domě",
+  "keywords": [
+   "kariéra",
+   "pověst",
+   "poslání",
+   "autorita",
+   "uznání"
+  ],
+  "themes": [
+   "work",
+   "growth",
+   "character"
+  ],
+  "text": "Slunce soláru v 10. domě staví na celý rok do popředí kariéru, poslání a tvé místo ve společnosti. Od těchto narozenin do příštích se pozornost obrací k práci a k tomu, jak tě vidí okolí. Tvé jméno je víc na očích. Přicházejí nabídky, povýšení, nové role nebo odpovědnost za druhé. Nadřízení a autority si tvé práce všímají. Je to rok, kdy můžeš ukázat, co umíš, a získat uznání, které dlouho chybělo. Cíle dostávají jasnější obrys. Víš, kam směřuješ, a máš sílu to dotáhnout. Do popředí se dostává i vztah k rodičům jako k autoritám.",
+  "shadow": "Slunce soláru v 10. domě dává roku veřejný rozměr, a tak je každá chyba víc vidět. Práce snadno pohltí čas i vztahy. Hrozí, že úspěch začneš měřit jen titulem nebo pověstí. Tlak na výkon roste a s ním napětí s nadřízenými. Ctižádost se může zvrhnout v panovačnost nebo v boj o moc. Domov a blízcí ustupují do pozadí. Když se plány nedaří, přichází pocit selhání, i když jde jen o dočasné zdržení.",
+  "hard": [
+   {
+    "topics": [
+     "loss",
+     "ruin"
+    ],
+    "text": "Tradice tu mluví o pádu z výšky: o ztrátě postavení, odvolání z funkce, krachu profesních plánů nebo o veřejné ostudě. Platí to hlavně tehdy, když je Slunce soláru poškozené těžkými aspekty Saturnu nebo Marsu. Jde o možnost, ne o jistotu."
+   },
+   {
+    "topics": [
+     "illness",
+     "loss"
+    ],
+    "text": "Tradice tu mluví také o starostech kolem rodiče nebo nadřízeného. Jde o jejich nemoc, oslabení nebo ztrátu vlivu, která se promítá do tvého postavení. Tradiční výklad to váže na poškozené Slunce soláru a nebere to jako pevné pravidlo."
+   }
+  ],
+  "traits": {
+   "text": [
+    "ambition",
+    "leadership",
+    "responsibility",
+    "focus",
+    "self_confidence"
+   ],
+   "shadow": [
+    "dominance",
+    "pride",
+    "exhaustion",
+    "competitiveness"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "solar_return/sun_in_house/11",
+  "title": "Slunce soláru v 11. domě",
+  "keywords": [
+   "přátelé",
+   "skupiny",
+   "naděje",
+   "plány",
+   "společenství"
+  ],
+  "themes": [
+   "relationships",
+   "growth"
+  ],
+  "text": "Rok od těchto narozenin se točí kolem přátel, skupin a společných plánů. Hlavní děj se odehrává mezi lidmi, se kterými sdílíš cíle. Do tvého života vstupují nové známosti, spolky, týmy nebo komunity a některé z nich vydrží déle než jen tento rok. Tradice tu vidí rok naplněných nadějí: přání, která dlouho čekají, dostávají konkrétní podobu. Daří se ti spojovat lidi a stát v čele společné věci. Přátelé ti otevírají dveře, doporučují tě a podporují. Máš chuť plánovat na delší dobu dopředu a hledat smysl v něčem větším než ve vlastním prospěchu.",
+  "shadow": "Když se rok točí kolem přátel, snadno ztrácíš vlastní směr v cizích plánech. Potřeba patřit do skupiny tě vede k ústupkům, které ve skutečnosti nechceš dělat. Hrozí rozptýlení mezi příliš mnoho lidí a projektů, takže na nic nezbývá síla. Naděje se mohou změnit v plané sny, za kterými nestojí žádná práce. Tradice tu mluví i o přátelích, kteří slibují víc, než splní. Mluví také o zklamání, když se ukáže, že některá podpora stála jen na výhodě. Hledání uznání v kolektivu oslabuje tvůj vlastní úsudek.",
+  "hard": [
+   {
+    "topics": [
+     "loss"
+    ],
+    "text": "Tradice tu mluví o zradě přátel. Člověk z blízkého okruhu nebo ze skupiny může během roku porušit důvěru, prozradit svěřenou věc nebo přejít na druhou stranu. Starší výklady sem řadí i rozpad přátelství a odchod lidí, na kterých stojí společné plány. Nejde o jistotu, ale o téma, které tradice s tímto postavením spojuje."
+   }
+  ],
+  "traits": {
+   "text": [
+    "sociability",
+    "belonging",
+    "cooperation",
+    "optimism",
+    "leadership"
+   ],
+   "shadow": [
+    "dependence",
+    "conformity",
+    "inconstancy",
+    "idealism",
+    "trustfulness"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "solar_return/sun_in_house/12",
+  "title": "Slunce soláru v 12. domě",
+  "keywords": [
+   "ústraní",
+   "podvědomí",
+   "samota",
+   "skrytá práce",
+   "uzavření cyklu"
+  ],
+  "themes": [
+   "character",
+   "health",
+   "growth"
+  ],
+  "text": "Rok se Sluncem soláru ve 12. domě tě stahuje do ústraní, mimo pohledy druhých. Těžiště roku leží uvnitř: v tom, co dlouho zůstává nevyslovené, ve snech, v únavě i v tichých rozhodnutích. Vnější uznání ustupuje do pozadí. Hodně tvé energie odchází do péče o druhé, do práce za zavřenými dveřmi, do studia nebo duchovní praxe. Samota ti přináší jasnost a intuice mluví zřetelněji než obvykle. Daří se ti uzavírat staré kapitoly, odpouštět a uklízet vnitřní nepořádek. Připravuješ půdu pro nový cyklus, který začíná dalšími narozeninami.",
+  "shadow": "Ústraní roku se Sluncem soláru ve 12. domě se snadno mění v útěk. Stahuješ se, mlčíš o tom, co tě tíží, a druzí netuší, co se v tobě děje. Přichází únava bez zjevné příčiny, pocit viny a sklon obětovat se za cizí potřeby. Úlevu snadno hledáš ve spánku, v alkoholu nebo v snění. Tvoje úsilí často zůstává bez povšimnutí a uznání přichází pozdě. Někdy chybí síla ozvat se včas.",
+  "hard": [
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o roce oslabené vitality, o nemocech, které se dlouho skrývají, a o pobytu v nemocnici nebo v jiném uzavřeném zařízení. Starší autoři řadí toto postavení k nejtěžším v soláru, zvlášť když ho potvrzují další ukazatele."
+   },
+   {
+    "topics": [
+     "mental_crisis",
+     "addiction"
+    ],
+    "text": "Tradice tu mluví o osamělosti, která přechází v depresi, o sebezničujících sklonech a o úniku do alkoholu, léků nebo jiných látek. Vnitřní tíha se v tomto roce snadno obrací proti vlastní osobě."
+   },
+   {
+    "topics": [
+     "ruin",
+     "loss"
+    ],
+    "text": "Tradice tu mluví o skrytých nepřátelích, o pomluvách a o intrikách vedených za tvými zády. V krajních případech zmiňuje i vězení, ztrátu svobody a odloučení od blízkých. Zmiňuje také ztrátu postavení, o které člověk přichází potichu a bez veřejného střetu."
+   }
+  ],
+  "traits": {
+   "text": [
+    "reclusiveness",
+    "intuition",
+    "self_sacrifice",
+    "spirituality",
+    "depth"
+   ],
+   "shadow": [
+    "escapism",
+    "guilt",
+    "loneliness",
+    "exhaustion",
+    "secrecy"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "solar_return/planet_on_angle/sun/asc",
+  "title": "Slunce na ose soláru: ascendent",
+  "keywords": [
+   "vitalita",
+   "nový začátek",
+   "viditelnost",
+   "vůle",
+   "tělo"
+  ],
+  "themes": [
+   "character",
+   "health",
+   "growth",
+   "family"
+  ],
+  "text": "Slunce na ascendentu soláru staví do popředí tebe a tvou vůli. Do nového roku vstupuješ s jasným směrem a chutí začínat znovu. Tělo má víc síly, tvář i držení těla působí výrazněji a lidé si tě všímají dřív, než promluvíš. Rok podporuje sebevyjádření, tvořivé začátky a rozhodnutí, která vycházejí z tebe, ne z očekávání okolí. Iniciativu přebíráš přirozeně a druzí ji od tebe čekají. Do hry se vrací i téma otce nebo otcovské postavy.",
+  "shadow": "Slunce na ascendentu soláru snadno nafukuje vlastní důležitost. Celý rok se může točit kolem tvého já a potřeby být vidět. Hrozí panovačnost, netrpělivost s názory druhých a přecitlivělost na každý nedostatek obdivu. Když okolí netleská, přichází uražená pýcha nebo tlačení na sílu. Velký výdej energie na začátku roku vede k únavě, zvlášť když tělo dostává méně odpočinku, než potřebuje. Vztahy trpí, pokud z druhých děláš jen publikum pro vlastní výstup.",
+  "hard": [
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o srdci, očích a celkové vitalitě jako o místech, kudy se tento rok projevuje na těle. Je-li Slunce v soláru v pádu nebo těžce zasažené, tradiční výklad čte oslabené zdraví, horečnaté stavy, potíže se srdcem či zrakem a vyčerpání z přetažení sil. Jde o tradiční čtení, ne o jistotu."
+   },
+   {
+    "topics": [
+     "illness",
+     "death",
+     "loss"
+    ],
+    "text": "Tradice tu mluví také o otci. Při poškozeném Slunci na ascendentu soláru starší výklady spojují rok s nemocí otce nebo otcovské postavy, s jejím oslabením, v krajním případě i s odchodem ze života. Stejně se čte i ztráta podpory od nadřízených a ochránců. Jde o možnost, kterou tradice uvádí, ne o předpověď."
+   }
+  ],
+  "traits": {
+   "text": [
+    "vitality",
+    "self_confidence",
+    "leadership",
+    "creativity",
+    "decisiveness"
+   ],
+   "shadow": [
+    "pride",
+    "dominance",
+    "vanity",
+    "exhaustion",
+    "drama"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "solar_return/planet_on_angle/sun/ic",
+  "title": "Slunce na ose soláru: IC (dno nebe)",
+  "keywords": [
+   "domov",
+   "rodina",
+   "kořeny",
+   "otec",
+   "zázemí"
+  ],
+  "themes": [
+   "family",
+   "character",
+   "growth",
+   "health"
+  ],
+  "text": "Slunce na dně soláru obrací tvou životní sílu na celý rok k domovu. Vůle a tvořivost míří k rodině, bydlení, kořenům a ke vztahu s otcem. Častým projevem je stěhování, rekonstrukce, péče o rodiče nebo založení vlastní domácnosti. Uznání přichází spíš v soukromí než na veřejnosti. Máš teď sílu vybudovat pevné zázemí a převzít v rodině vedoucí roli. Daří se práci z domova, pátrání po rodinné historii a návratu k místům dětství.",
+  "shadow": "Slunce na dně soláru může z domova udělat jeviště tvé pýchy. Hrozí panovačnost vůči blízkým, potřeba mít v domácnosti poslední slovo a čekat obdiv za každou péči. Spory s otcem nebo o otcovskou autoritu se snadno vyostří. Kariéra a veřejná role ustupují do pozadí a vzniká pocit, že tě svět přehlíží. Stahování se mezi čtyři stěny vede ke stagnaci. Staré rodinné křivdy vyplouvají na povrch a odčerpávají energii, kterou by šlo dát do tvorby.",
+  "hard": [
+   {
+    "topics": [
+     "death",
+     "loss"
+    ],
+    "text": "Tradice tu mluví o roce, kdy se pozornost obrací k otci nebo staršímu muži v rodině. IC je ve staré nauce „konec věci“ a místo hrobu. Starší autoři zde zmiňují možnost otcovy vážné nemoci či úmrtí, případně ztrátu rodinného domu nebo jeho rozdělení. Jde o tradiční motiv, ne o jistotu."
+   },
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o oslabené vitalitě, protože Slunce jako zdroj životní síly klesá na nejnižší bod horoskopu. Staré texty spojují takový rok s únavou, slabším srdcem a potížemi se zrakem, zvlášť když je Slunce v soláru v pádu nebo poškozené. Jde o tradiční výklad, ne o předpověď."
+   }
+  ],
+  "traits": {
+   "text": [
+    "family_attachment",
+    "protectiveness",
+    "responsibility",
+    "belonging"
+   ],
+   "shadow": [
+    "dominance",
+    "pride",
+    "reclusiveness",
+    "stagnation"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "solar_return/planet_on_angle/sun/dsc",
+  "title": "Slunce na ose soláru: descendent",
+  "keywords": [
+   "partnerství",
+   "protějšek",
+   "otevření nepřátelé",
+   "životní síla ve vztazích",
+   "spolupráce"
+  ],
+  "themes": [
+   "relationships",
+   "character",
+   "family",
+   "health"
+  ],
+  "text": "Slunce na descendentu soláru staví do středu roku tvé protějšky. Partner, společník nebo výrazný soupeř na sebe strhává velkou část tvé pozornosti i životní síly. Sebe poznáváš hlavně skrze druhé. Daří se dohodám, sňatkům a spolupráci s lidmi, kteří mají vlastní sílu a jasnou vůli. Tvořivost roste ve dvojici, v rozhovoru a společné práci. Do tvého roku často vstupuje člověk s otcovskou autoritou a výrazně ho ovlivní.",
+  "shadow": "Slunce na descendentu soláru přináší rok, kdy tvoje vůle naráží na cizí vůli. Hrozí, že svou záři přenecháš druhým a čekáš na jejich obdiv místo vlastního rozhodování. Nebo naopak měníš vztah v soutěž o to, kdo vede. Cizí pýcha tě zraňuje víc než jindy a tvoje vlastní pýcha vyvolává otevřené spory. Partner může působit panovačně nebo sebestředně. Ty se mu buď podřizuješ, nebo s ním soupeříš. Otevření nepřátelé jsou tento rok viditelní a sebevědomí. Střet s nimi bere energii.",
+  "hard": [
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o zapadajícím Slunci. To je obraz roku, kdy životní síla slábne a spotřebovává se ve vztazích a sporech. Starší výklady sem řadí únavu a oslabení srdce a zraku. Platí to zvlášť tehdy, když je Slunce v soláru v pádu nebo pod tlakem těžkých planet. Jde o tradiční motiv, ne o jistotu."
+   },
+   {
+    "topics": [
+     "illness",
+     "death",
+     "loss"
+    ],
+    "text": "Tradice tu mluví také o nemoci nebo ztrátě osoby, kterou Slunce zastupuje. Může jít o otce, manžela, partnera nebo nadřízeného. Nejtěžší výklady zmiňují i smrt takové osoby během solárního roku. Je to tradiční motiv, ne předpověď."
+   },
+   {
+    "topics": [
+     "loss",
+     "ruin"
+    ],
+    "text": "Tradice tu mluví o mocném otevřeném nepříteli, který v tomto roce vystupuje veřejně. Starší autoři sem řadí spory s vlivnými lidmi, ztrátu postavení a pokoření od protivníka. Vážnější podobu to má hlavně tehdy, když je Slunce v soláru oslabené."
+   }
+  ],
+  "traits": {
+   "text": [
+    "cooperation",
+    "openness",
+    "sociability",
+    "loyalty"
+   ],
+   "shadow": [
+    "dependence",
+    "submissiveness",
+    "dominance",
+    "competitiveness",
+    "pride"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "solar_return/planet_on_angle/sun/mc",
+  "title": "Slunce na ose soláru: MC (střed nebe)",
+  "keywords": [
+   "kariéra",
+   "uznání",
+   "autorita",
+   "viditelnost",
+   "otec"
+  ],
+  "themes": [
+   "work",
+   "character",
+   "family",
+   "health"
+  ],
+  "text": "Tento rok stojí tvoje vůle na nejvyšším bodě soláru, a proto se točí kolem práce, postavení a veřejného jména. Tvoje snaha je vidět a lidé si všímají, co děláš. Přicházejí příležitosti vést, rozhodovat a nést odpovědnost za výsledek. Máš sílu dotáhnout dlouhodobý cíl a získat uznání od nadřízených a autorit. Tvořivost se letos nejlépe uplatní v profesi. Do popředí často vstupuje otec nebo jiná mužská autorita, která ovlivní tvůj směr.",
+  "shadow": "Slunce na MC soláru svádí k tomu, abys celý rok měřil úspěchem a titulem. Když uznání nepřichází, snadno sklouzneš k pýše, panovačnosti nebo pocitu, že tě okolí nedocenilo. Viditelnost znamená i to, že jsou vidět chyby. Hrozí střet s šéfem nebo otcem, kde obě strany chtějí mít poslední slovo. Práce může pohltit vztahy i odpočinek. Z potřeby obdivu se pak stává tlak, který vyčerpává tebe i lidi kolem.",
+  "hard": [
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o zátěži srdce, zraku a celkové vitality, zvlášť když je Slunce v soláru v pádu nebo poraněné. Hnaní se za postavením může vést k přepětí a vyčerpání, které se projeví na těle. Jde o tradiční varování, ne o jistotu."
+   },
+   {
+    "topics": [
+     "illness",
+     "death",
+     "loss"
+    ],
+    "text": "Tradice tu mluví také o otci. U oslabeného Slunce na MC čte rok jako čas jeho nemoci a slábnutí, v krajním výkladu i jeho úmrtí. Jde o tradiční čtení, ne o předpověď."
+   },
+   {
+    "topics": [
+     "ruin",
+     "loss"
+    ],
+    "text": "Tradice tu mluví o pádu z výšky. Kdo stoupá příliš okázale, může přijít o místo, pověst nebo postavení, hlavně když pýcha převáží úsudek a spory s autoritami se vyostří."
+   }
+  ],
+  "traits": {
+   "text": [
+    "ambition",
+    "leadership",
+    "self_confidence",
+    "responsibility",
+    "vitality"
+   ],
+   "shadow": [
+    "pride",
+    "dominance",
+    "vanity",
+    "exhaustion",
+    "stubbornness"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "solar_return/planet_on_angle/moon/asc",
+  "title": "Měsíc na ose soláru: ascendent",
+  "keywords": [
+   "city",
+   "tělo",
+   "domov",
+   "matka",
+   "nový začátek"
+  ],
+  "themes": [
+   "character",
+   "family",
+   "health",
+   "growth"
+  ],
+  "text": "Měsíc na ascendentu soláru otevírá celý rok skrze city a tělo. Do nového roku vstupuješ s náladou vepsanou do tváře a okolí ji přečte dřív, než promluvíš. Vnímáš víc své potřeby i potřeby druhých. Tělo rychle reaguje na únavu, jídlo i atmosféru doma. Do popředí vystupuje domov, rodina a matka: stěhování, péče, nové zázemí nebo proměna rodinných rolí. Intuice ti spolehlivě ukazuje, kde je bezpečí. Lidé za tebou chodí pro útěchu a porozumění.",
+  "shadow": "Měsíc na ascendentu soláru nechává každou náladu hned vyplout na povrch a celý rok se může točit kolem citových výkyvů. Jednání pak řídí momentální rozpoložení víc než úvaha. Hrozí lpění na starých zvycích, na domově nebo na člověku, který dává pocit bezpečí. Pod tlakem sahá tvoje ruka po jídle, po stažení do sebe nebo po tichém citovém nátlaku. Křivdy si pamatuješ dlouho a pohled do minulosti brzdí krok dopředu.",
+  "hard": [
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o roce citlivého těla. Spojuje toto postavení se žaludkem, trávením a zadržováním tekutin a s obtížemi, které kopírují náladu. Zmiňuje také témata plodnosti, cyklu a těhotenství, ať už jako starost, nebo jako událost roku. Jde o tradiční souvislost, ne o jistotu."
+   },
+   {
+    "topics": [
+     "mental_crisis"
+    ],
+    "text": "Tradice tu mluví také o křehké duševní rovnováze. Měsíc na ascendentu podle ní zesiluje úzkost, plačtivost a propady nálad, zvlášť pokud se k němu v roce přidají těžké tranzity. Starší výklady popisují rok, kdy citová zátěž může přerůst v duševní krizi."
+   },
+   {
+    "topics": [
+     "loss",
+     "death"
+    ],
+    "text": "Tradice tu mluví o matce. Podle starých výkladů přivádí Měsíc na ascendentu soláru do popředí její zdraví, odloučení od ní nebo její ztrátu, v nejtěžším čtení i úmrtí matky nebo ženy, která ji zastupuje. Může jít také o ztrátu domova či odchod z rodného místa."
+   }
+  ],
+  "traits": {
+   "text": [
+    "sensitivity",
+    "intuition",
+    "empathy",
+    "protectiveness",
+    "family_attachment"
+   ],
+   "shadow": [
+    "moodiness",
+    "dependence",
+    "sulking",
+    "security_need",
+    "stagnation"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "solar_return/planet_on_angle/moon/ic",
+  "title": "Měsíc na ose soláru: IC (dno nebe)",
+  "keywords": [
+   "domov",
+   "rodina",
+   "kořeny",
+   "matka",
+   "stěhování"
+  ],
+  "themes": [
+   "family",
+   "character",
+   "health"
+  ],
+  "text": "Měsíc na dně nebe soláru obrací celý rok k domovu. Pozornost se stáčí ke kořenům, k rodině a k matce. Často přichází stěhování, rekonstrukce bytu nebo nové uspořádání domácnosti. Roste potřeba mít kolem sebe klid a známé tváře. S blízkými máš letos jemný cit pro to, co kdo potřebuje. Péče o domácnost tě uklidňuje a vaření, zahrada či rodinné večery dávají dnům pevný rytmus. Vzpomínky a rodinné příběhy vystupují na povrch a pomáhají pochopit, odkud pocházíš.",
+  "shadow": "Měsíc na dně nebe soláru umí rok uzavřít mezi čtyři stěny. Nálady kolísají podle toho, co se děje doma, a drobná rodinná výtka zasáhne víc než obvykle. Sílí sklon lpět na minulosti, přehrabovat se ve starých křivdách a vracet se do role dítěte. Vztah s matkou může znovu otevřít staré rány nebo vyžadovat víc péče, než stačíš dát. Hrozí stažení do ulity, odkládání vnějších plánů a tiché citové vydírání v rodině. To se může týkat tebe i ostatních.",
+  "hard": [
+   {
+    "topics": [
+     "death",
+     "loss"
+    ],
+    "text": "Tradice tu mluví o roce, kdy se zdraví nebo osud matky či jiné starší ženy v rodině dostává do popředí. Starší autoři u tohoto postavení zmiňují i možnost ztráty matky, odchodu někoho z rodu nebo rozpadu rodinného domova. Jde o tradiční čtení, ne o jistotu."
+   },
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o citlivém žaludku a trávení, o kolísání tělesných tekutin a o tématech plodnosti a těhotenství. Tělo podle ní letos reaguje na citové napětí doma rychleji než jindy."
+   },
+   {
+    "topics": [
+     "mental_crisis"
+    ],
+    "text": "Tradice tu mluví o ohrožené duševní rovnováze, když se domov stane místem napětí. Starší výklady zmiňují sklíčenost, úzkostné stavy a pocit vykořenění, zvlášť při stěhování nebo rodinném rozkolu."
+   },
+   {
+    "topics": [
+     "loss",
+     "ruin"
+    ],
+    "text": "Tradice tu mluví i o ohrožení samotného obydlí: o škodě na domě, vodě v bytě, nucené změně bydliště nebo ztrátě rodinného majetku. Půda pod nohama se tak může doslova pohnout."
+   }
+  ],
+  "traits": {
+   "text": [
+    "family_attachment",
+    "sensitivity",
+    "protectiveness",
+    "security_need",
+    "empathy"
+   ],
+   "shadow": [
+    "moodiness",
+    "reclusiveness",
+    "sulking",
+    "stagnation",
+    "dependence"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "solar_return/planet_on_angle/moon/dsc",
+  "title": "Měsíc na ose soláru: descendent",
+  "keywords": [
+   "partnerství",
+   "citové bezpečí ve vztahu",
+   "pečující protějšek",
+   "proměnlivé vztahy",
+   "ženy v popředí"
+  ],
+  "themes": [
+   "relationships",
+   "family",
+   "character"
+  ],
+  "text": "Tenhle rok přenáší tvoje city přímo do vztahů. Domov a bezpečí hledáš v partnerovi a v lidech, kteří stojí naproti tobě. Blízkost potřebuješ víc než obvykle. Nálady druhých vnímáš dřív, než je vysloví. Snadno navazuješ důvěrná spojení a o oporu tě žádají i lidé, které znáš krátce. Do popředí vystupují ženy, matka nebo partner s pečující povahou. Rok přeje sestěhování, společné domácnosti, sňatku nebo obnovení starého vztahu.",
+  "shadow": "Když máš bezpečí uložené v partnerovi, každá jeho nálada rozhoduje o tvém dni. Vztahy během roku kolísají. Přicházejí a odcházejí lidé, kteří se zpočátku zdají blízcí. Hrozí lpění na člověku, který už neodpovídá, nebo návrat ke starému vztahu jen ze zvyku. Spory s protějšky se vedou přes city: výčitky, uraženost, mlčení a citové vydírání z obou stran. Otevřeným soupeřem bývá žena nebo někdo z rodiny. Veřejná výčitka nebo pomluva tě zasáhne víc, než by odpovídalo její váze.",
+  "hard": [
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o nemoci partnera nebo matky během roku, zvlášť když je Měsíc v soláru poškozený. Zmiňuje také potíže se žaludkem, trávením a plodností, které se mohou ukázat v souvislosti se vztahem, těhotenstvím nebo péčí o blízkého člověka."
+   },
+   {
+    "topics": [
+     "loss",
+     "death"
+    ],
+    "text": "Tradice tu mluví o rozchodu, rozvodu nebo odloučení od partnera. Ve vážných případech uvádí ztrátu matky či jiné ženy, která dává pocit domova, i její smrt. Starší autoři to spojují hlavně s Měsícem, kterého poškozuje Saturn nebo Mars."
+   },
+   {
+    "topics": [
+     "mental_crisis"
+    ],
+    "text": "Tradice tu mluví o citovém otřesu, který přichází skrze vztah. Uvádí úzkost z opuštění, nespavost a rozkolísanou duševní rovnováhu v době, kdy se partnerství láme nebo kdy protějšek jedná nepřátelsky."
+   }
+  ],
+  "traits": {
+   "text": [
+    "sensitivity",
+    "empathy",
+    "protectiveness",
+    "sociability",
+    "belonging"
+   ],
+   "shadow": [
+    "dependence",
+    "moodiness",
+    "sulking",
+    "insecurity"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "solar_return/planet_on_angle/moon/mc",
+  "title": "Měsíc na ose soláru: MC (střed nebe)",
+  "keywords": [
+   "city v práci",
+   "veřejné uznání",
+   "péče o druhé",
+   "proměnlivé postavení",
+   "matka"
+  ],
+  "themes": [
+   "work",
+   "family",
+   "character",
+   "health"
+  ],
+  "text": "Tvé city letos vstupují přímo do práce a do veřejného života. Pracovní kroky se řídí náladou, rodinou i tím, co potřebuje tělo. Okolí tvé pocity vnímá víc než obvykle a čte je z tvé tváře. Daří se ti tam, kde se pečuje o lidi, o jídlo, o domov nebo o veřejnost. Lidé ti svěřují starosti a hledají u tebe oporu. Do tvého postavení letos zasahuje matka, jiná žena nebo domácí situace. Cíle se během roku několikrát přeskupí, protože vycházejí z toho, co potřebuješ cítit.",
+  "shadow": "Tvé nálady jsou letos vidět i v práci a na veřejnosti, kde se před nimi hůř schováváš. Rozhodnutí o kariéře snadno padají podle momentálního pocitu. Pochvala nadřízených tě zvedne, jedna kritika tě srazí na několik dní. Hrozí závislost na uznání a držení starého místa jen kvůli pocitu bezpečí. Domácí starosti se přelévají do práce a pracovní napětí zase domů. Citové vydírání, ať vychází od tebe, nebo míří na tebe, letos snadno proniká do pracovních vztahů a ovlivňuje tvou pověst.",
+  "hard": [
+   {
+    "topics": [
+     "loss",
+     "illness",
+     "death"
+    ],
+    "text": "Tradice tu mluví o roce, kdy se do popředí dostává matka nebo starší žena v rodině. Starší autoři u Měsíce na MC soláru zmiňují její nemoc, odloučení od ní, nebo dokonce ztrátu matky, zvlášť když je Měsíc v soláru zraněný. Jde o tradiční motiv, ne o jistotu."
+   },
+   {
+    "topics": [
+     "illness",
+     "mental_crisis"
+    ],
+    "text": "Tradice tu mluví o citlivém žaludku, kolísání tělesných tekutin a potížích spojených s plodností. Pracovní tlak se podle ní ukládá do těla. Zmiňuje také rozkolísanou duševní rovnováhu, kdy veřejné nároky a ohled na mínění druhých vyčerpají citové síly."
+   },
+   {
+    "topics": [
+     "ruin"
+    ],
+    "text": "Tradice tu mluví o proměnlivé pověsti. Měsíc na vrcholu horoskopu podle ní přináší rychlou popularitu i rychlý pád v očích veřejnosti. Spojuje ho se změnami místa a postavení, které nevydrží dlouho, a se ztrátou dobrého jména kvůli nestálosti."
+   }
+  ],
+  "traits": {
+   "text": [
+    "sensitivity",
+    "empathy",
+    "protectiveness",
+    "flexibility"
+   ],
+   "shadow": [
+    "moodiness",
+    "dependence",
+    "insecurity",
+    "family_attachment",
+    "inconstancy"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "solar_return/planet_on_angle/mercury/asc",
+  "title": "Merkur na ose soláru: ascendent",
+  "keywords": [
+   "rychlá mysl",
+   "slovo",
+   "učení",
+   "krátké cesty",
+   "nervy"
+  ],
+  "themes": [
+   "character",
+   "growth",
+   "work",
+   "health"
+  ],
+  "text": "Merkur na ascendentu soláru otevírá rok hlavou a jazykem. Do nového období vstupuješ s otázkami, zápisníkem a telefonem v ruce. Tělo reaguje na podněty rychle, chůze i řeč nabírají tempo. Daří se kurzům, zkouškám, psaní, vyjednávání a drobným obchodům. Častěji vyrážíš na krátké cesty a vyřizuješ věci po městě. Víc se ozývají sourozenci a sousedé. Nový začátek přichází přes slovo: rozhovor, zprávu, smlouvu nebo nápad, který zapíšeš hned ráno.",
+  "shadow": "Merkur na ascendentu soláru dává roku nervózní start a tělo, které těžko vypíná. Hlava jede i v noci, spánek bývá mělký a pozornost skáče mezi deseti věcmi. Snadno slibuješ víc, než stihneš, a slova předbíhají úvahu. Objevují se drby, nedorozumění ve zprávách a pokušení vylepšit pravdu chytrou výmluvou. Hodně pobíhání po okolí bez jasného cíle tříští síly. Povrchnost hrozí všude tam, kde by věc potřebovala klid a čas.",
+  "hard": [
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o roce, kdy se napětí ukládá do nervů, dechu a hlasu. Uvádí sklon k nervovému vyčerpání, nespavosti, potížím s plícemi, kašli nebo ztrátě hlasu, u citlivějších horoskopů i ke koktání a tikům. Jde o tradiční souvislost, ne o předpověď."
+   },
+   {
+    "topics": [
+     "mental_crisis"
+    ],
+    "text": "Tradice tu mluví také o úzkostných stavech. Přemíra podnětů a starostí podle ní může přerůst v roztěkanost, dotěrné myšlenky a pocit, že mysl nejde zastavit. Starší autoři k tomuto postavení řadí i nehody na krátkých cestách, které vznikají z nepozornosti."
+   }
+  ],
+  "traits": {
+   "text": [
+    "curiosity",
+    "eloquence",
+    "flexibility",
+    "vitality"
+   ],
+   "shadow": [
+    "restlessness",
+    "anxiety",
+    "superficiality",
+    "deceit",
+    "exhaustion"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "solar_return/planet_on_angle/mercury/ic",
+  "title": "Merkur na ose soláru: IC (dno nebe)",
+  "keywords": [
+   "domov",
+   "rodinné rozhovory",
+   "sourozenci",
+   "stěhování",
+   "paměť"
+  ],
+  "themes": [
+   "family",
+   "character",
+   "health",
+   "growth"
+  ],
+  "text": "Merkur na dně soláru stáčí tento rok myšlenky domů. Hodně mluvíš s rodinou a řešíš sourozence, rodiče i staré rodinné příběhy. Domov se mění v pracovnu: učíš se, píšeš nebo vyřizuješ věci od kuchyňského stolu. Kolem bydlení je čilý ruch. Přicházejí prohlídky, stěhování, opravy a papíry k domu. Často se vracíš ke kořenům a hledáš slova pro to, o čem se doma dlouho mlčelo. Myšlení míří k paměti a původu.",
+  "shadow": "Merkur na dně soláru nosí neklid přímo do domova. Doma se snadno mluví příliš a naslouchá málo. Drobné spory se sourozenci nebo rodiči se táhnou v nekonečných výměnách zpráv. Hrozí pomluvy v rodině, dohody za zády a polopravdy, které se doma hromadí. Bydlení může působit jako průchozí stanice s častým stěhováním, rozestavěnými plány a nedokončenými opravami. Nervozita se ozývá hlavně večer, kdy hlava nechce přestat přemítat. Kořeny se tak spíš rozvíří, než upevní.",
+  "hard": [
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o roce, kdy se napětí z domova ukládá do nervů, plic a řeči. Zmiňuje nespavost, zadrhávání hlasu, kašel nebo potíže s dýchacími cestami. Starší autoři k tomu přidávají nemoc v okruhu rodiny, zvlášť u sourozence nebo jednoho z rodičů."
+   },
+   {
+    "topics": [
+     "mental_crisis"
+    ],
+    "text": "Tradice tu mluví také o nervovém vyčerpání svázaném s domovem. Neustálé přemítání o rodině, starých křivdách nebo nejistém bydlení může podle ní přerůst v úzkostné stavy a v pocit, že hlava nemá kde spočinout."
+   },
+   {
+    "topics": [
+     "death",
+     "loss"
+    ],
+    "text": "Tradice tu mluví o zprávách z domova, které přinášejí konec. Dno nebe je v klasickém výkladu místem, kde věci končí. Starší výklady proto zmiňují zprávu o úmrtí v rodině, nejčastěji u staršího příbuzného. Uvádějí také ztrátu domova, rodinných dokumentů nebo přerušení kontaktu se sourozencem."
+   }
+  ],
+  "traits": {
+   "text": [
+    "curiosity",
+    "eloquence",
+    "family_attachment",
+    "rationality"
+   ],
+   "shadow": [
+    "restlessness",
+    "anxiety",
+    "superficiality",
+    "deceit",
+    "inconstancy"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "solar_return/planet_on_angle/mercury/dsc",
+  "title": "Merkur na ose soláru: descendent",
+  "keywords": [
+   "rozhovor",
+   "vyjednávání",
+   "partnerský dialog",
+   "dohody",
+   "protějšek"
+  ],
+  "themes": [
+   "relationships",
+   "work",
+   "character"
+  ],
+  "text": "Merkur na descendentu soláru přivádí na celý rok do tvého života lidi, kteří chtějí mluvit, vyjednávat a domlouvat se. Partner nebo blízký protějšek je letos hlavně ten, s kým přemýšlíš nahlas. Společné plány a dohody vznikají v rozhovoru tváří v tvář. Častěji tě oslovují mladší lidé, sourozenci partnera nebo obchodní protějšky. Učíš se hlavně od druhých a tvoje myšlenky dostávají tvar až v dialogu. Daří se ti vyjednávat a nacházet slova, která druhé přesvědčí.",
+  "shadow": "Stín Merkura na descendentu soláru přichází přes slova druhých: protějšky mluví hodně, ale ne vždy pravdivě. Vztah se může zaplnit hádkami o slovíčka, výčitkami a nekonečným vysvětlováním. Otevření odpůrci letos útočí jazykem, tedy kritikou, pomluvou nebo chytrou argumentací. V partnerství hrozí povrchnost: o všem se mluví, ale nic se neprožije. Nervozita z nejasných dohod a z cizích názorů tě snadno rozhodí. Lákavá nabídka nebo obchodní protějšek může být lstivější, než se na první pohled zdá.",
+  "hard": [
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o nervovém vypětí, které přichází přes vztahy, a o slabších místech v plicích, dýchacích cestách a řeči. Týká se to tebe i partnera. Kašel, chrapot, zadrhávání v řeči nebo nespavost z neustálého přemýšlení o druhých se podle starých autorů v takovém roce objevují častěji."
+   },
+   {
+    "topics": [
+     "mental_crisis"
+    ],
+    "text": "Tradice tu mluví o neklidu mysli, který sílí ve sporech a při odloučení. Když se vztah láme nebo se vede dlouhá slovní či písemná při, myšlenky běží v kruhu a úzkost roste. Starší výklady popisují takový rok jako čas rozjitřených nervů."
+   },
+   {
+    "topics": [
+     "ruin",
+     "loss"
+    ],
+    "text": "Tradice tu mluví o ztrátách skrze lstivé protějšky: podvodného obchodníka, falešného prostředníka nebo prolhaný slib. Merkur na místě otevřených nepřátel podle ní varuje před pomluvou, která poškodí pověst, a před dohodou, která se obrátí proti tobě."
+   }
+  ],
+  "traits": {
+   "text": [
+    "eloquence",
+    "curiosity",
+    "cooperation",
+    "sociability"
+   ],
+   "shadow": [
+    "restlessness",
+    "deceit",
+    "superficiality",
+    "anxiety",
+    "criticism"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "solar_return/planet_on_angle/mercury/mc",
+  "title": "Merkur na ose soláru: MC (střed nebe)",
+  "keywords": [
+   "pracovní komunikace",
+   "obchod",
+   "pověst",
+   "učení",
+   "jednání"
+  ],
+  "themes": [
+   "work",
+   "character",
+   "health"
+  ],
+  "text": "Merkur na středu nebe solárního horoskopu stáčí tento rok k práci, ve které rozhoduje slovo, myšlenka a kontakt. Postavení si budujes tím, co říkáš a píšeš: prezentacemi, jednáním, texty, výukou. Rok přeje obchodu, vyjednávání a změně pracovní náplně. Kvůli práci častěji cestuješ a přibývají telefonáty, schůzky a zprávy. Učíš se rychle a nové dovednosti hned uplatňuješ. Lidé si tvé jméno spojují s nápady a s tím, jak umíš věci vysvětlit. Pomoc může přijít od sourozence nebo od kolegy z blízkého okolí.",
+  "shadow": "Když Merkur stojí na MC soláru, pracovní pověst tento rok visí na slovech, a ta se dají snadno překroutit. Hrozí roztříštěnost: rozjíždíš mnoho projektů najednou a žádný nedotahuješ. Nervozita kolem výkonu a neustálé přepínání mezi úkoly vyčerpávají. Neopatrný e-mail, ukvapený slib nebo poznámka o nadřízeném se rozšíří dál, než chceš. Kolem tvé pozice mohou kolovat pomluvy a drby. Láká i vychytralost: obejít pravidlo, přikrášlit výsledky, hrát diplomacii až za hranu upřímnosti. Časté změny plánů ostatní čtou jako nespolehlivost.",
+  "hard": [
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o nervové soustavě, plících a řeči jako o místech, kde se napětí roku může projevit. Spojuje s tímto postavením přepracování z neustálé komunikace, potíže s dechem, chrapot, ztrátu hlasu nebo zadrhávání v řeči, zvlášť když práce stojí na mluvení. Jde o tradiční obraz, ne o jistou předpověď."
+   },
+   {
+    "topics": [
+     "mental_crisis"
+    ],
+    "text": "Tradice tu mluví o nervovém vyčerpání: mysl běží i v noci, přichází nespavost, roztěkanost a pocit, že nic nejde zastavit. Starší autoři u Merkuru na vrcholu horoskopu varují před zhroucením z přetížení hlavy, kdy veřejné nároky přerostou sílu nervů."
+   },
+   {
+    "topics": [
+     "ruin",
+     "loss"
+    ],
+    "text": "Tradice tu mluví o pádu pověsti kvůli slovu. Pomluva, zveřejněný dopis, nevýhodně podepsaný dokument nebo prozrazená lež mohou podle starých výkladů otřást postavením. Merkur na MC tak může přinést i ztrátu místa skrze klep nebo podvod druhých."
+   }
+  ],
+  "traits": {
+   "text": [
+    "eloquence",
+    "curiosity",
+    "flexibility",
+    "rationality"
+   ],
+   "shadow": [
+    "restlessness",
+    "superficiality",
+    "deceit",
+    "anxiety",
+    "inconstancy"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "solar_return/planet_on_angle/venus/asc",
+  "title": "Venuše na ose soláru: ascendent",
+  "keywords": [
+   "nový začátek",
+   "vzhled",
+   "půvab",
+   "vztahy",
+   "potěšení"
+  ],
+  "themes": [
+   "relationships",
+   "character",
+   "health",
+   "money"
+  ],
+  "text": "Venuše na ascendentu soláru otvírá rok vlídnou tváří. Do nového roku vstupuješ s chutí se líbit a potkávat lidi. Tělo i vzhled dostávají víc péče, často se mění šatník, účes nebo celý styl. Lidé na tebe reagují vstřícněji a známosti se navazují snáz. Rok přeje vztahům, umění, zkrášlování domova i práci, kde rozhoduje vkus. Nové začátky přicházejí přes setkání, pozvání a příjemné nabídky.",
+  "shadow": "Venuše na ascendentu soláru láká vstupovat do roku přes pohodlí a vzhled místo přes činy. Zrcadlo a cizí obdiv snadno dostanou víc pozornosti než vlastní cíle. Roztáčí se utrácení za oblečení, kosmetiku a radosti okamžiku. Sladkosti, alkohol a lenošení se mohou usadit přímo v těle. Touha po klidu vede k ústupkům tam, kde je potřeba říct ne. Hledání lásky může přerůst v závislost na pozornosti druhých a vztah pak slouží hlavně k potvrzení vlastní hodnoty.",
+  "hard": [
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o citlivosti ledvin, krku a hrtanu, které spojuje s Venuší. Protože ascendent soláru souvisí s tělem, tradiční výklad čte tento rok jako dobu, kdy se tyto oblasti mohou ozvat zánětem, nachlazením nebo přetížením z nadměrných požitků. Jde o tradiční pohled, ne o jistou předpověď."
+   },
+   {
+    "topics": [
+     "loss"
+    ],
+    "text": "Tradice tu mluví také o rozchodech. Venuše na prahu roku podle ní nepřináší jen nové lásky, ale i konce vztahů, které už nedrží pohromadě. Odchod partnera nebo rozpad blízkého přátelství může podle tradičního výkladu patřit k novému začátku, který ascendent ohlašuje."
+   }
+  ],
+  "traits": {
+   "text": [
+    "charm",
+    "sociability",
+    "sensuality",
+    "creativity"
+   ],
+   "shadow": [
+    "vanity",
+    "indulgence",
+    "extravagance",
+    "dependence",
+    "superficiality"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "solar_return/planet_on_angle/venus/ic",
+  "title": "Venuše na ose soláru: IC (dno nebe)",
+  "keywords": [
+   "domov",
+   "rodina",
+   "zkrášlování",
+   "usmíření",
+   "bydlení"
+  ],
+  "themes": [
+   "family",
+   "relationships",
+   "money",
+   "health"
+  ],
+  "text": "Venuše na dně soláru obrací tvůj rok k domovu. Chuť zkrášlovat byt, zařizovat pokoje a zvát blízké ke stolu je silnější než obvykle. Rodinné vztahy se uklidňují a staré křivdy se dají urovnat laskavým slovem. Máš cit pro atmosféru místa a víš, co z něj dělá útočiště. Tradice tu vidí šťastnou ruku při stěhování, hledání bydlení nebo usazení s partnerem. Láska tento rok roste v tichu, ne na veřejnosti.",
+  "shadow": "Venuše na dně soláru umí z domova udělat pohodlnou skrýš, ze které se nechce ven. Hrozí lenost, odkládání povinností a útěk k jídlu, gauči a seriálům. Na zařízení bytu snadno utratíš víc, než unese rozpočet. V rodině můžeš kvůli klidu mlčet o tom, co tě trápí, a spory se jen schovávají pod koberec. Lásku můžeš měřit tím, kolik péče dostáváš od blízkých, a cítit křivdu, když je jí málo.",
+  "hard": [
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o oslabení ledvin, krku a hrdla. Staré výklady tyto potíže spojují s pohodlným rokem plným sladkostí, přejídání a nedostatku pohybu. Nejde o jistotu, jen o místa, která tradice u Venuše na dně nebe zmiňuje jako citlivá."
+   },
+   {
+    "topics": [
+     "loss"
+    ],
+    "text": "Tradice tu mluví o rozchodu, který se odehrává pod společnou střechou: o odchodu partnera z domova, rozpadu společné domácnosti nebo odcizení s rodičem. Dno nebe staré výklady čtou jako místo, kde se věci uzavírají. Může tak skončit jedna rodinná kapitola."
+   },
+   {
+    "topics": [
+     "death",
+     "loss"
+    ],
+    "text": "Tradice tu mluví o úmrtí nebo vážném odloučení od ženy z rodiny, nejčastěji matky, babičky či tety. Důvodem je, že dno nebe je místem konce a Venuše zastupuje ženy. Jde o jednu z tradičních možností výkladu, ne o předpověď."
+   }
+  ],
+  "traits": {
+   "text": [
+    "family_attachment",
+    "belonging",
+    "gentleness",
+    "forgiveness",
+    "security_need"
+   ],
+   "shadow": [
+    "indulgence",
+    "procrastination",
+    "extravagance",
+    "escapism",
+    "dependence"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "solar_return/planet_on_angle/venus/dsc",
+  "title": "Venuše na ose soláru: descendent",
+  "keywords": [
+   "partnerství",
+   "láska",
+   "sňatek",
+   "smír",
+   "protějšky"
+  ],
+  "themes": [
+   "relationships",
+   "character",
+   "money",
+   "health"
+  ],
+  "text": "Venuše na descendentu soláru dává celému roku od narozenin do narozenin tvář partnerství. Do života ti vstupují lidé, kteří tě přitahují a nabízejí náklonnost, lásku nebo spolupráci. Vztah se může posunout k závazku, ke sňatku nebo ke společnému plánu. Spory s otevřenými protivníky lze urovnat dohodou a vlídným slovem. Tvůj vkus a šarm teď působí hlavně skrze druhé, ať v páru, v obchodní dvojici, nebo ve smlouvě. Rok přeje vyjednávání, smíru a společné radosti.",
+  "shadow": "Venuše na descendentu soláru svádí k tomu, že tento rok měříš vlastní hodnotu podle toho, jak tě vidí partner. Snadno ustupuješ, jen aby nevznikl spor, a pak tiše neseš křivdu. Hrozí závislost na lásce a obdivu, kdy bez protějšku ztrácíš směr. Kvůli druhým utrácíš víc, než chceš, a požitky nahrazují skutečnou blízkost. Okouzlení zakrývá slabiny nového vztahu nebo společníka. Otevřený nepřítel může vystupovat přívětivě a skrývat své záměry za úsměvem.",
+  "hard": [
+   {
+    "topics": [
+     "loss"
+    ],
+    "text": "Tradice tu mluví o rozchodech. Venuše na ose protějšků podle starých výkladů přináší nejen začátek, ale i konec svazku, rozvod nebo odchod partnera. Ztráta vztahu bývá v tomto roce spojena s rozdílnými hodnotami, s penězi nebo s lákavým třetím člověkem."
+   },
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o nemocech ledvin a krku. Venuše těmto částem těla vládne a na ose soláru je podle starých autorů v daném roce oslabuje, zvlášť při přemíře jídla, pití a pohodlí. Objevuje se i zmínka o potížích, které přicházejí skrze partnera nebo intimní styk."
+   },
+   {
+    "topics": [
+     "addiction"
+    ],
+    "text": "Tradice tu mluví o požitkářství, které přerůstá v návyk. Sladkosti, alkohol, utrácení nebo citová závislost na jednom člověku se podle starých výkladů v takovém roce snadno stávají náhradou za jistotu, kterou vztah nedává."
+   }
+  ],
+  "traits": {
+   "text": [
+    "charm",
+    "cooperation",
+    "forgiveness",
+    "sociability",
+    "sensuality"
+   ],
+   "shadow": [
+    "dependence",
+    "submissiveness",
+    "extravagance",
+    "indulgence",
+    "trustfulness"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "solar_return/planet_on_angle/venus/mc",
+  "title": "Venuše na ose soláru: MC (střed nebe)",
+  "keywords": [
+   "uznání v práci",
+   "šarm",
+   "veřejná pověst",
+   "vkus",
+   "výdělek"
+  ],
+  "themes": [
+   "work",
+   "money",
+   "relationships",
+   "character"
+  ],
+  "text": "Venuše na MC soláru přináší rok, kdy tvou práci a veřejnou tvář nese vkus a vlídnost. Lidé tě v práci vnímají příznivě a nadřízení ti snáz vycházejí vstříc. Daří se oborům spojeným s krásou, uměním, módou, diplomacií a péčí o klienty. Postup přichází spíš přes dobré vztahy a doporučení než přes tlak. Může vzniknout milostný vztah spojený s prací nebo s někým vlivným. Za odvedenou práci přichází ocenění a často i lepší výdělek.",
+  "shadow": "Venuše na MC soláru umí z kariéry udělat přehlídku, kde oblíbenost váží víc než výkon. Hrozí spoléhání na šarm místo na práci a odkládání nepříjemných povinností. Kvůli postavení roste chuť utrácet za vzhled, oblečení a reprezentaci. Pochvala od nadřízených se snadno stává drogou a kritika bolí víc, než by měla. Ze strachu z konfliktu nedotahuješ nutná rozhodnutí. Románek na pracovišti může zkomplikovat pověst i vztahy v týmu.",
+  "hard": [
+   {
+    "topics": [
+     "loss"
+    ],
+    "text": "Tradice tu mluví o rozchodu, který se v tomto roce stává veřejným nebo souvisí s prací. Vztah může skončit kvůli kariéře, stěhování za prací nebo kvůli tomu, že se o něm dozví okolí a poškodí to pověst."
+   },
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice spojuje Venuši s ledvinami a krkem. Při jejím postavení na MC soláru mluví o potížích s ledvinami, močovými cestami, hrdlem nebo hlasem, zvlášť když rok přináší hodně společenských povinností, přejídání a nedostatek odpočinku."
+   },
+   {
+    "topics": [
+     "ruin"
+    ],
+    "text": "Tradice tu mluví o finanční ztrátě kvůli rozhazovačnosti spojené s postavením. Výdaje na vzhled, reprezentaci a udržení image mohou převýšit příjmy, které nová pozice přináší."
+   }
+  ],
+  "traits": {
+   "text": [
+    "charm",
+    "sociability",
+    "creativity",
+    "cooperation",
+    "ambition"
+   ],
+   "shadow": [
+    "vanity",
+    "indulgence",
+    "extravagance",
+    "superficiality",
+    "dependence"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "solar_return/planet_on_angle/mars/asc",
+  "title": "Mars na ose soláru: ascendent",
+  "keywords": [
+   "rychlý start",
+   "tělesná síla",
+   "odvaha",
+   "netrpělivost",
+   "úrazy"
+  ],
+  "themes": [
+   "character",
+   "health",
+   "growth"
+  ],
+  "text": "Mars na ascendentu soláru otevírá rok v plném tempu. Do nového období vstupuješ s chutí jednat, začínat a prosazovat se. Tělo má víc síly a žádá si pohyb, sport nebo fyzickou práci. Odvaha roste, rozhodnutí přicházejí rychle a první krok děláš bez dlouhého váhání. Okolí tě vnímá jako přímou a energickou osobnost. Touha i sexualita jsou výraznější. Celý rok nese pečeť iniciativy: co teď začneš, má tah a rychlý rozjezd.",
+  "shadow": "Ostrý vstup do roku, který Mars na ascendentu soláru přináší, snadno přechází v netrpělivost. Reaguješ dřív, než věc domyslíš, a v hádce zvyšuješ hlas rychleji než obvykle. Spěch vede k chybám, přehlédnutým detailům a zbytečným střetům s okolím. Tělo jede na plný výkon a únavu bereš jako slabost, kterou stačí přeskočit. Hlavním rizikem roku je bezohlednost vůči druhým i vůči vlastnímu tělu. Kdo se ti postaví do cesty, narazí na tvrdost, kterou později těžko vysvětluješ.",
+  "hard": [
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o horečkách, zánětech a akutních onemocněních, která přicházejí náhle a mají prudký průběh. S tímto postavením spojuje také operace, často v oblasti hlavy a obličeje, protože ascendent znamená tělo a Mars řez, oheň a krev."
+   },
+   {
+    "topics": [
+     "violence"
+    ],
+    "text": "Tradice tu mluví o zraněních, řezných ranách, popáleninách a nehodách, hlavně při spěchu, sportu, řízení nebo práci s ostrými nástroji. Zmiňuje také riziko fyzického střetu a násilí, ať už ze strany druhých, nebo v prudké výměně, kterou rozdmýchá vlastní vznětlivost."
+   },
+   {
+    "topics": [
+     "death"
+    ],
+    "text": "Tradice tu u Marsu poškozeného těžkými aspekty mluví i o ohrožení života úrazem, násilím nebo prudkou nemocí. Starší autoři takový výklad podávali jen tehdy, když na totéž ukazoval i natální horoskop a další solární ukazatele. Samotné postavení tradice nečte jako předpověď."
+   }
+  ],
+  "traits": {
+   "text": [
+    "courage",
+    "vitality",
+    "decisiveness",
+    "competitiveness",
+    "impulsiveness"
+   ],
+   "shadow": [
+    "anger",
+    "aggression",
+    "impulsiveness",
+    "risk_taking",
+    "exhaustion"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "solar_return/planet_on_angle/mars/ic",
+  "title": "Mars na ose soláru: IC (dno nebe)",
+  "keywords": [
+   "domov",
+   "rodina",
+   "rekonstrukce",
+   "stěhování",
+   "domácí spory"
+  ],
+  "themes": [
+   "family",
+   "relationships",
+   "health",
+   "character"
+  ],
+  "text": "Letos se tvoje síla stahuje domů. Mars na dně soláru budí chuť přestavovat, stěhovat se, bourat příčky a zařizovat byt po svém. Energie míří do rodinného zázemí, do péče o blízké a do obrany vlastního prostoru. Máš sílu dotáhnout rekonstrukci, vyřešit dlouho odkládanou věc s rodiči nebo odejít z domova, který tě dusí. Uvnitř se probouzí odvaha postavit se starým rodinným vzorcům a říct nahlas, co v tobě dlouho leželo.",
+  "shadow": "Doma letos jiskří. Drobnost u večeře přeroste v hádku. Napětí s partnerem, rodiči nebo dětmi se hromadí pod povrchem a vybuchuje v nečekané chvíli. Netrpělivost se obrací na nejbližší, protože u nich padá zábrana. Přestavba bytu se snadno zvrhne v chaos, spěch a vyčerpání. Staré rodinné křivdy vyplouvají na povrch a táhnou tě do boje, který nejde vyhrát. Neklid tě žene pryč z domova, a přitom nemáš kam utéct. Vztek bez ventilu dře nervy a kazí spánek.",
+  "hard": [
+   {
+    "topics": [
+     "violence"
+    ],
+    "text": "Tradice tu mluví o násilí v domácnosti a o prudkých rodinných rozepřích, které mohou přerůst ve fyzické střety. Zmiňuje také vniknutí cizích lidí do domu, například vloupání nebo napadení v místě, kde člověk čeká bezpečí."
+   },
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o úrazech v domácnosti: popáleninách, řezných ranách a pádech při opravách a stavebních pracích. Zmiňuje i horečky, zánětlivá onemocnění a operace, po kterých následuje delší rekonvalescence doma."
+   },
+   {
+    "topics": [
+     "loss",
+     "ruin"
+    ],
+    "text": "Tradice tu mluví o požáru, výbuchu nebo vážném poškození nemovitosti, o ztrátě domova a nuceném stěhování. Spojuje tuto polohu také s rozpadem rodinného zázemí a se sporem o dům nebo o pozemek."
+   },
+   {
+    "topics": [
+     "death",
+     "illness"
+    ],
+    "text": "Tradice tu mluví o vážné nemoci nebo smrti v rodině, zvlášť u otce či staršího člena rodu, protože dno nebe spojuje s rodiči a s koncem věcí. Zmiňuje také operace a akutní stavy u blízkých, se kterými sdílíš domácnost."
+   }
+  ],
+  "traits": {
+   "text": [
+    "protectiveness",
+    "courage",
+    "family_attachment",
+    "decisiveness",
+    "vitality"
+   ],
+   "shadow": [
+    "anger",
+    "aggression",
+    "restlessness",
+    "chaos",
+    "exhaustion"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "solar_return/planet_on_angle/mars/dsc",
+  "title": "Mars na ose soláru: descendent",
+  "keywords": [
+   "vášnivé vztahy",
+   "otevřený střet",
+   "silný protějšek",
+   "soupeření",
+   "společná iniciativa"
+  ],
+  "themes": [
+   "relationships",
+   "character",
+   "health"
+  ],
+  "text": "Mars na descendentu soláru přivádí do tvého roku lidi plné síly a odhodlání. Partner, společník nebo soupeř tě nutí jednat rychleji, než máš ve zvyku. Vztahy dostávají vášeň, tah a jasné hrany. Ozývají se ti, kdo s tebou nesouhlasí, a ty se učíš stát si za svým přímo, tváří v tvář. K typickým projevům patří silná přitažlivost, nové spojenectví nebo rázné vyjasnění starého vztahu. Společné projekty mají letos tempo a odvahu.",
+  "shadow": "Mars na descendentu soláru snadno dělá z protějšku protivníka. Hádky s partnerem vznikají z drobností a rychle se vyostřují. Netrpělivost druhých naráží na tvou vlastní a nikdo nechce ustoupit. Do roku vstupují otevření nepřátelé, konkurenti a lidé, kteří spor přímo vyhledávají. Láká to vidět útok i tam, kde jde jen o jiný názor. Vztah může skončit prudce, bez prostoru pro vysvětlení. Žárlivost, soupeření v páru a bezohlednost na obou stranách berou síly.",
+  "hard": [
+   {
+    "topics": [
+     "violence"
+    ],
+    "text": "Tradice tu mluví o konfliktech, které přerůstají ve fyzické napadení. Zmiňuje násilí ze strany partnera, společníka nebo otevřeného nepřítele a vyhrocené spory, z nichž se stává otevřený boj."
+   },
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o zraněních, horečkách a operacích, které přicházejí skrze druhé lidi. Patří sem nehoda zaviněná cizí nedbalostí, úraz při sportu nebo práci ve dvojici a akutní zdravotní potíže partnera."
+   },
+   {
+    "topics": [
+     "death",
+     "loss"
+    ],
+    "text": "Tradice tu mluví i o vážném ohrožení zdraví či života partnera a o náhlé ztrátě blízkého protějšku. Zmiňuje také prudký rozchod nebo rozvod, který přijde bez varování a zanechá po sobě spálenou zem."
+   }
+  ],
+  "traits": {
+   "text": [
+    "courage",
+    "decisiveness",
+    "sensuality",
+    "competitiveness"
+   ],
+   "shadow": [
+    "aggression",
+    "anger",
+    "jealousy",
+    "impulsiveness",
+    "stubbornness"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "solar_return/planet_on_angle/mars/mc",
+  "title": "Mars na ose soláru: MC (střed nebe)",
+  "keywords": [
+   "kariéra",
+   "ctižádost",
+   "boj o postavení",
+   "iniciativa",
+   "konflikty s autoritou"
+  ],
+  "themes": [
+   "work",
+   "character",
+   "health"
+  ],
+  "text": "Mars na MC soláru dává celému roku pracovní tah a viditelný zápas o postavení. V zaměstnání přebíráš iniciativu, ženeš projekty dopředu a nečekáš na svolení. Máš odvahu ucházet se o vyšší pozici, změnit obor nebo otevřeně oponovat nadřízeným. Okolí tvou energii a výkon jasně vidí. Rok přeje podnikání, soutěži, náročným úkolům a práci, kde rozhoduje rychlost a nasazení. Cíle, které dlouho odkládáš, teď dostávají konkrétní tvar a termín.",
+  "shadow": "Tah na veřejné cíle letos snadno přechází v otevřený boj s autoritami. Hádky se šéfem, kolegy nebo úřady se odehrávají před ostatními a zůstávají v paměti. Netrpělivost tě žene k unáhleným krokům v kariéře, třeba k odchodu z práce v afektu. Soutěživost přerůstá v bezohlednost a vznikají nepřátelé, kteří se ozvou později. Tvoje pověst trpí vznětlivými výstupy. Hrozí i přepracování: jedeš na plný výkon, dokud tě tělo nezastaví.",
+  "hard": [
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o úrazech a zraněních spojených s prací, o nehodách při výkonu povolání a o horečnatých onemocněních z přetížení. Zmiňuje i operace, které na čas přeruší pracovní plány a veřejnou činnost."
+   },
+   {
+    "topics": [
+     "violence"
+    ],
+    "text": "Tradice tu mluví o veřejných střetech, které mohou přerůst ve fyzické násilí, o napadení v souvislosti s postavením nebo funkcí a o nepřátelích z pracovního prostředí, kteří jdnou otevřeně proti tobě."
+   },
+   {
+    "topics": [
+     "ruin",
+     "loss"
+    ],
+    "text": "Tradice tu mluví o pádu z postavení: o propuštění, ztrátě funkce nebo zničené pověsti po otevřeném sporu s mocnějšími. V nejhorším čtení se kariéra láme náhle, hlučně a před očima všech."
+   },
+   {
+    "topics": [
+     "death",
+     "illness",
+     "loss"
+    ],
+    "text": "Starší tradice čte MC i jako místo jednoho z rodičů, často matky. Tradice tu mluví o jeho nemoci, operaci, úrazu, a v krajním čtení až o ohrožení života tohoto rodiče během roku."
+   }
+  ],
+  "traits": {
+   "text": [
+    "ambition",
+    "courage",
+    "leadership",
+    "competitiveness",
+    "decisiveness"
+   ],
+   "shadow": [
+    "anger",
+    "impulsiveness",
+    "aggression",
+    "dominance",
+    "exhaustion"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "solar_return/planet_on_angle/jupiter/asc",
+  "title": "Jupiter na ose soláru: ascendent",
+  "keywords": [
+   "nový začátek",
+   "růst",
+   "důvěra",
+   "přemíra",
+   "tělo"
+  ],
+  "themes": [
+   "character",
+   "growth",
+   "health"
+  ],
+  "text": "Jupiter na ascendentu soláru otevírá rok velkým nádechem. Do nového období vstupuješ s chutí, důvěrou a pocitem, že se před tebou něco rozšiřuje. Lidé tě vnímají jako štědrou a nadějnou přítomnost. Tělo má víc síly a chuti do života. Rok přeje novým začátkům, studiu, cestám a všemu, co ti dává smysl. Snadněji získáváš podporu, příznivce i přízeň učitelů. Tvoje víra v dobrý výsledek strhává ostatní s tebou.",
+  "shadow": "Jupiter na ascendentu soláru umí rok nafouknout víc, než ho uneseš. Hned na začátku slibuješ, plánuješ a bereš na sebe víc, než zvládneš dotáhnout. Optimismus přechází v lehkomyslnost a velkorysost v rozmařilost. Tělo nese tenhle přebytek doslova: přibírá, rozšiřuje se a dostává víc jídla a pití, než mu prospívá. Z jistoty se snadno stává nadutost a z dobré nálady pocit, že pravidla pro tebe neplatí. Drobnosti a detaily ti unikají.",
+  "hard": [
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o nemocech z přemíry. Jupiter na ascendentu soláru spojuje s přibíráním na váze, ukládáním tuku, zatížením jater a potížemi z hojného jídla a pití. Tělo v tomto roce podle ní reaguje na nadbytek citlivěji, než se na první pohled zdá."
+   },
+   {
+    "topics": [
+     "addiction",
+     "ruin"
+    ],
+    "text": "Tradice tu mluví také o škodě z nestřídmosti. Sklon k požitkům, hostinám a rozhazování může podle ní přerůst ve zvyk, který je těžké zastavit. Starší výklady varují, že nesplněné sliby a rozmařilost dokážou během roku rozložit to, co mělo růst."
+   }
+  ],
+  "traits": {
+   "text": [
+    "optimism",
+    "generosity",
+    "vitality",
+    "self_confidence",
+    "wanderlust"
+   ],
+   "shadow": [
+    "extravagance",
+    "indulgence",
+    "carelessness",
+    "pride",
+    "irresponsibility"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "solar_return/planet_on_angle/jupiter/ic",
+  "title": "Jupiter na ose soláru: IC (dno nebe)",
+  "keywords": [
+   "růst domova",
+   "rodina",
+   "kořeny",
+   "stěhování",
+   "domácí pohoda"
+  ],
+  "themes": [
+   "family",
+   "growth",
+   "character"
+  ],
+  "text": "Letošní rok roste zevnitř, od domova. Jupiter na dně nebe soláru otevírá dveře rodině, bydlení a kořenům. Přichází prostor navíc: větší byt, stěhování, rekonstrukce, nový člen rodiny nebo návrat k rodičům. Doma se víc slaví, víc vaří a víc hostí. Máš chuť zjistit, odkud tvoje rodina pochází, a najít v tom smysl. Vztahy s rodiči a sourozenci se mohou urovnat. Pevný domácí základ ti dává klid a odvahu pro všechno ostatní.",
+  "shadow": "Doma letos všeho přibývá, i toho, co nikdo nepotřebuje. Rekonstrukce bobtná nad plán, věcí do bytu je čím dál víc a sliby rodině rostou rychleji než síly. Dlouhé večeře u společného stolu lákají k přejídání. Napětí mezi příbuznými snadno zakrýváš jídlem, dárky a úsměvem. Rodinná víra nebo tradice se mění v kázání a poučování ostatních. Pohodlí domova svádí k lenosti a k odkládání všeho, co leží za prahem.",
+  "hard": [
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o játrech, tuku a přemíře, které se usazují v domácím prostředí: přejídání u rodinného stolu, přibývání na váze, zatížení jater a žlučníku. Dno nebe zároveň ukazuje na rodiče a stáří, proto tradice zmiňuje i nemoc z nadbytku u staršího člena rodiny."
+   },
+   {
+    "topics": [
+     "ruin"
+    ],
+    "text": "Tradice tu mluví o rozmařilosti spojené s domem: přestavba nad poměry, dluh kvůli bydlení nebo velkorysé sliby příbuzným, které nejde splnit. Staří autoři varují, že dům postavený z přemíry se může stát břemenem místo útočiště."
+   },
+   {
+    "topics": [
+     "death",
+     "loss"
+    ],
+    "text": "Tradice tu mluví o dědictví. Dno nebe je místem konce věcí a Jupiter na něm podle starých výkladů může přinést dům nebo majetek po zesnulém příbuzném. Zisk a ztráta tak v tomto roce někdy přicházejí spolu."
+   }
+  ],
+  "traits": {
+   "text": [
+    "family_attachment",
+    "belonging",
+    "generosity",
+    "optimism",
+    "protectiveness"
+   ],
+   "shadow": [
+    "extravagance",
+    "indulgence",
+    "procrastination",
+    "dominance"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "solar_return/planet_on_angle/jupiter/dsc",
+  "title": "Jupiter na ose soláru: descendent",
+  "keywords": [
+   "partnerství",
+   "štědrý protějšek",
+   "závazek",
+   "spojenci",
+   "přehnaná očekávání"
+  ],
+  "themes": [
+   "relationships",
+   "growth",
+   "character"
+  ],
+  "text": "Jupiter na descendentu soláru přivádí růst skrze druhé lidi. Tenhle rok otevírá dveře k partnerům, spojencům a lidem z dálky. Vztah se může prohloubit, posunout k závazku nebo začít s někým, kdo rozšiřuje tvůj obzor. Učitelé, rádci a štědří společníci přicházejí v pravou chvíli. I otevření protivníci mívají mírnější tvář a spory se dají urovnat dohodou. Tvoje síla letos leží ve spolupráci, ne v samostatném tahu.",
+  "shadow": "Jupiter na descendentu soláru svádí k přeceňování protějšku. Člověk, který hodně slibuje, se snadno stane idolem a jeho slova pak váží víc než jeho činy. Ve vztahu hrozí přemíra: příliš velká očekávání, nafouknuté plány a společné utrácení bez míry. Dohody uzavřené v nadšení se později ukazují jako nepromyšlené. Otevřený protivník působí sebejistě a nadutě a spor nabobtná víc, než je nutné. Rozhodnutí snadno přenecháváš partnerovi a pak se divíš, kam tě to dovedlo.",
+  "hard": [
+   {
+    "topics": [
+     "illness",
+     "addiction"
+    ],
+    "text": "Tradice tu mluví o nemocech z přemíry u partnera nebo blízkého protějšku: o potížích s játry, o tuku, přejídání a pití. Staré výklady v takovém roce zdůrazňují tělesné následky rozmařilosti v těsném vztahu, a to spíš u druhého člověka než u tebe."
+   },
+   {
+    "topics": [
+     "loss",
+     "ruin"
+    ],
+    "text": "Tradice tu mluví o ztrátách skrze lehkomyslné partnery a společníky: o slibech, které se nesplní, o společných závazcích nad poměry a o sporech s otevřeným nepřítelem, které se táhnou a stojí víc, než přinesou."
+   }
+  ],
+  "traits": {
+   "text": [
+    "cooperation",
+    "generosity",
+    "optimism",
+    "sociability",
+    "trustfulness"
+   ],
+   "shadow": [
+    "idealism",
+    "extravagance",
+    "dependence",
+    "irresponsibility",
+    "pride"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "solar_return/planet_on_angle/jupiter/mc",
+  "title": "Jupiter na ose soláru: MC (střed nebe)",
+  "keywords": [
+   "kariérní vzestup",
+   "uznání",
+   "veřejné postavení",
+   "rozlet",
+   "přehánění"
+  ],
+  "themes": [
+   "work",
+   "growth",
+   "character",
+   "health"
+  ],
+  "text": "Jupiter na středu nebe soláru staví do popředí celého roku tvou práci a veřejné postavení. Otevírají se dveře k povýšení, novému titulu, uznání nebo místu s větším dosahem. Tvoje jméno se dostává k lidem, kteří o něm dosud nevěděli. Pomáhá ti vzdělání, zkušení učitelé a nadřízení s velkorysou povahou. Práce může vést za hranice, do jiného města nebo země. Cíle dostávají smysl, který přesahuje běžnou povinnost, a máš chuť stavět něco většího.",
+  "shadow": "Stejný Jupiter na MC soláru nafukuje kariérní ambice nad reálné možnosti. Hrozí, že slíbíš víc, než stihneš dodat, nebo bereš funkci jen kvůli titulu. Úspěch snadno stoupá do hlavy a s ním přichází nadutost vůči kolegům i nadřízeným. Pozornost veřejnosti láká k okázalosti a ke slovům, která se pak těžko berou zpět. Rozmařilost v reprezentaci a lehkomyslné sliby podkopávají pověst, kterou rok jinak buduje. Pád z vysoké pozice bolí víc, protože ho všichni vidí.",
+  "hard": [
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o zátěži z přemíry spojené s pracovním životem: pracovní obědy, reprezentace a oslavy úspěchů. Jupiter se v ní pojí s játry, tukem a přibýváním na váze. Starší autoři u rušného veřejného roku zmiňují obtíže z nadbytku jídla a pití, ne z nedostatku."
+   },
+   {
+    "topics": [
+     "ruin",
+     "loss"
+    ],
+    "text": "Tradice tu mluví i o pádu z výšky: Jupiter v nejvyšším bodě může nafouknout postavení nad pevné základy. Staré výklady zmiňují ztrátu pověsti nebo místa kvůli nesplněným slibům, pýše či skandálu vyneseném na veřejnost. Čím větší vzestup, tím hlasitější bývá případný pád."
+   }
+  ],
+  "traits": {
+   "text": [
+    "ambition",
+    "optimism",
+    "leadership",
+    "generosity",
+    "wanderlust"
+   ],
+   "shadow": [
+    "pride",
+    "vanity",
+    "extravagance",
+    "irresponsibility"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "solar_return/planet_on_angle/saturn/asc",
+  "title": "Saturn na ose soláru: ascendent",
+  "keywords": [
+   "vážný začátek",
+   "odpovědnost",
+   "tělo a řád",
+   "zralost",
+   "vytrvalost"
+  ],
+  "themes": [
+   "character",
+   "health",
+   "growth",
+   "work"
+  ],
+  "text": "Saturn na ascendentu soláru dává roku vážný a střízlivý začátek. Hned od narozenin cítíš větší váhu povinností a potřebu dát životu pevný tvar. Tělo si žádá řád: pravidelný spánek, rozumné tempo, jasný denní rytmus. Okolí v tobě vidí oporu a přirozenou autoritu. Nové začátky se rodí pomalu, zato drží. Co letos budeš stavět krok za krokem, vydrží dlouho. Rok učí vytrvalosti, sebekázni a klidné zralosti v jednání.",
+  "shadow": "Saturn na ascendentu soláru může vstup do roku zatížit pocitem tlaku bez úlevy. Tělo bývá unavené a ztuhlé, pohyb jde ztěžka. Snadno přichází strach z nedostatečnosti a pochybnosti o vlastních silách. Výraz tváře i postoj působí chladně a odměřeně, takže se lidé drží stranou. Hrozí strnulost: držíš se starých pravidel, i když už neslouží. Pesimismus barví první měsíce a radost se odkládá na neurčito, jako by si ji člověk musel nejdřív zasloužit.",
+  "hard": [
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o roce, kdy se tělo ozývá výrazněji: o chronických potížích, bolestech kostí, kloubů a zubů, o kožních obtížích a pomalejší regeneraci. Saturn na ascendentu soláru podle ní snižuje vitalitu a staré slabiny vystupují na povrch. Jde o tradiční obraz, ne o jistou předpověď."
+   },
+   {
+    "topics": [
+     "death",
+     "loss"
+    ],
+    "text": "Tradice tu mluví také o stáří, ztrátách a smrti. Starší výklady spojují toto postavení s rokem, kdy se do života vkrádá vědomí konečnosti, někdy skrze úmrtí staršího člověka v okolí nebo ztrátu důležité opory. U lidí vysokého věku či s vážnou nemocí ho tradice čte jako rok zvýšeného ohrožení života."
+   },
+   {
+    "topics": [
+     "mental_crisis"
+    ],
+    "text": "Tradice tu mluví o osamělosti a tíze na duši: o období uzavření, smutku a pocitu, že všechno je nutné unést bez cizí pomoci. Ve vyhrocené podobě popisuje melancholii, která přechází v depresi a ochromuje chuť do života."
+   }
+  ],
+  "traits": {
+   "text": [
+    "responsibility",
+    "discipline",
+    "perseverance",
+    "order",
+    "realism"
+   ],
+   "shadow": [
+    "pessimism",
+    "rigidity",
+    "coldness",
+    "insecurity",
+    "exhaustion"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "solar_return/planet_on_angle/saturn/ic",
+  "title": "Saturn na ose soláru: IC (dno nebe)",
+  "keywords": [
+   "domov",
+   "rodinné závazky",
+   "kořeny",
+   "péče o starší",
+   "pevné základy"
+  ],
+  "themes": [
+   "family",
+   "character",
+   "health",
+   "growth"
+  ],
+  "text": "Saturn na dně nebe soláru přináší rok, ve kterém se rozhoduje o základech tvého domova. Řešíš bydlení, rodinné povinnosti nebo péči o starší příbuzné. Věci, které se doma dlouho odkládaly, teď vyžadují pořádek a jasné dohody. Máš sílu nést odpovědnost za blízké a trpělivě budovat něco trvalého. Rekonstrukce, stěhování nebo nové uspořádání rodinných vztahů postupují pomalu, ale drží. Dozráváš v roli opory, o kterou se rodina může opřít.",
+  "shadow": "Saturn na dně nebe soláru může z domova udělat místo povinností místo odpočinku. Doma cítíš tíhu, chlad nebo nevyslovené výčitky. Rodinná očekávání tě svazují a staré křivdy z dětství se vracejí. Často tě tíží pocit, že pro rodiče ani pro děti nikdy neděláš dost. Uzavíráš se, mlčíš a neseš všechno bez cizí pomoci. Lpíš na tom, jak se věci doma vždycky dělaly, i když už neslouží. Únava z péče se hromadí nenápadně a ozve se až pozdě.",
+  "hard": [
+   {
+    "topics": [
+     "death",
+     "loss"
+    ],
+    "text": "Tradice tu mluví o ztrátě v rodině, nejčastěji o odchodu rodiče, prarodiče nebo jiného staršího příbuzného. Dno nebe označuje konec věcí a Saturn čas a stáří. Proto starší výklady spojují tento rok s úmrtím v rodině nebo s loučením s domem dětství. Jde o tradiční motiv, ne o jistotu."
+   },
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o chronických nemocech a potížích s kostmi, klouby a páteří, zvlášť u starších členů rodiny, ale i u tebe. Spojuje je s dlouhou péčí, vyčerpáním a pomalým zotavováním. Starší autoři zmiňují také vliv chladného, vlhkého nebo nevyhovujícího bydlení na zdraví."
+   },
+   {
+    "topics": [
+     "loss",
+     "ruin"
+    ],
+    "text": "Tradice tu mluví o ztrátě domova nebo o jeho rozpadu. Zmiňuje nucené stěhování, prodej rodinného majetku, spory o dědictví nebo rozchod, po kterém zůstává prázdný byt. Přidává se motiv osamělosti, kdy se domov mění v místo ticha a odloučení."
+   }
+  ],
+  "traits": {
+   "text": [
+    "responsibility",
+    "family_attachment",
+    "perseverance",
+    "patience",
+    "security_need"
+   ],
+   "shadow": [
+    "guilt",
+    "coldness",
+    "rigidity",
+    "loneliness",
+    "exhaustion"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "solar_return/planet_on_angle/saturn/dsc",
+  "title": "Saturn na ose soláru: descendent",
+  "keywords": [
+   "závazek",
+   "zkouška vztahů",
+   "odpovědnost",
+   "zralý protějšek",
+   "věrnost"
+  ],
+  "themes": [
+   "relationships",
+   "character",
+   "growth"
+  ],
+  "text": "Saturn na descendentu soláru staví tenhle rok na vztazích, které mají váhu. Partnerství, spolupráce i dohody se zpevňují nebo procházejí zkouškou času. Do života ti vstupují lidé starší, zkušenější nebo s autoritou. Od protějšků čekáš spolehlivost a stejnou míru jim nabízíš. Umíš dát vztahu jasná pravidla a dodržet slovo. Závazek, který letos uzavřeš, má šanci vydržet dlouho. Soupeře vidíš zřetelně a máš trpělivost je přečkat.",
+  "shadow": "Saturn na descendentu soláru může z partnera udělat soudce a ze vztahu povinnost. Blízcí působí chladně, vzdáleně nebo kriticky, případně ten chlad do vztahu vnášíš ty. Objevuje se strach, že ti druzí nestačí, nebo že nestačíš ty jim. Vztah pak drží spíš ze zvyku a odpovědnosti než z radosti. Otevření nepřátelé jsou vytrvalí a spory se táhnou. Láká tě stáhnout se a nést všechno bez pomoci. Samota pak přichází dřív než upřímný rozhovor.",
+  "hard": [
+   {
+    "topics": [
+     "loss"
+    ],
+    "text": "Tradice tu mluví o rozchodech, rozvodech a odloučení od partnera nebo společníka. Vztahy bez pevného základu se v tomto roce mohou rozpadnout. Hovoří také o období osamělosti, kdy protějšek chybí, žije daleko nebo je citově nedostupný."
+   },
+   {
+    "topics": [
+     "illness",
+     "death"
+    ],
+    "text": "Tradice tu mluví také o nemoci partnera, zvlášť o chronických potížích, potížích s kostmi nebo vyčerpání. Starší výklady zmiňují i smrt partnera či blízkého protějšku, případně péči o stárnoucího člověka. Jde o tradiční možnost, ne o jistou předpověď."
+   }
+  ],
+  "traits": {
+   "text": [
+    "loyalty",
+    "responsibility",
+    "patience",
+    "perseverance",
+    "realism"
+   ],
+   "shadow": [
+    "coldness",
+    "loneliness",
+    "pessimism",
+    "rigidity",
+    "insecurity"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "solar_return/planet_on_angle/saturn/mc",
+  "title": "Saturn na ose soláru: MC (střed nebe)",
+  "keywords": [
+   "kariérní zkouška",
+   "odpovědnost",
+   "autorita",
+   "vytrvalost",
+   "pověst"
+  ],
+  "themes": [
+   "work",
+   "character",
+   "growth",
+   "health"
+  ],
+  "text": "Saturn na MC soláru dává celému roku pracovní tíhu a vážnost. Tvoje postavení prochází zkouškou. Dostáváš víc odpovědnosti, přísnější nadřízené a jasně dané hranice. Uznání přichází pomalu a jen za skutečně odvedenou práci. Máš teď sílu vydržet dlouhý úkol a dotáhnout ho do konce. Lidé ve vedení si všímají tvé spolehlivosti. Letos se buduje pověst na léta dopředu, často za cenu osobního času.",
+  "shadow": "Stín Saturnu na MC soláru je práce, která zabere celý rok a nevrací radost. Výsledky ti připadají nedostatečné, i když objektivně stačí. Nadřízení působí chladně a každá chyba vypadá větší, než je. Hrozí strnulost: držíš se místa ze strachu ze změny, ne z přesvědčení. Ctižádost se mění v tvrdost k sobě i k lidem kolem. Úspěch pak chutná prázdně a samota v odpovědné roli je skutečná.",
+  "hard": [
+   {
+    "topics": [
+     "ruin",
+     "loss"
+    ],
+    "text": "Tradice tu mluví o pádu z postavení. Saturn na vrcholu soláru spojuje se ztrátou místa, veřejnou chybou nebo poškozenou pověstí. Platí to hlavně tam, kde vzestup přišel rychle nebo stojí na slabých základech. Nejde o jistotu, ale o rok, kdy se ukáže, co nese skutečnou váhu."
+   },
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o nemocech z dlouhého přetížení. Saturn spojuje s kostmi, klouby, zády a zuby a s potížemi, které se vlečou a stávají se chronickými. Při Saturnu na MC je staré texty čtou jako daň za rok, kdy práce převáží nad tělem."
+   },
+   {
+    "topics": [
+     "death",
+     "illness",
+     "loss"
+    ],
+    "text": "Tradice tu mluví o vážné nemoci nebo smrti autority. MC se v klasických výkladech váže k jednomu z rodičů a k nadřízeným. Saturn na tomto bodě staré texty čtou jako možný odchod staršího člověka, jehož odpovědnost pak přechází na tebe."
+   },
+   {
+    "topics": [
+     "mental_crisis"
+    ],
+    "text": "Tradice tu mluví o saturnské melancholii: tíživém pocitu, že úsilí nemá smysl a čas utíká bez výsledku. Při Saturnu na MC soláru ji staré texty vážou ke zklamání v kariéře a k osamělosti v odpovědné roli."
+   }
+  ],
+  "traits": {
+   "text": [
+    "responsibility",
+    "perseverance",
+    "discipline",
+    "ambition",
+    "diligence"
+   ],
+   "shadow": [
+    "rigidity",
+    "pessimism",
+    "insecurity",
+    "exhaustion",
+    "coldness"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "solar_return/planet_on_angle/uranus/asc",
+  "title": "Uran na ose soláru: ascendent",
+  "keywords": [
+   "náhlý začátek",
+   "svoboda",
+   "proměna vzhledu",
+   "neklid",
+   "originalita"
+  ],
+  "themes": [
+   "character",
+   "health",
+   "growth",
+   "relationships"
+  ],
+  "text": "Rok s Uranem na ascendentu soláru začíná zlomem. Kolem narozenin se něco náhle změní a do nového období vstupuješ jinak, než se čekalo. Chceš víc prostoru a méně dohledu. Měníš vzhled, styl i tempo dne. Přitahují tě nové technologie, nečekaná setkání a lidé mimo tvůj obvyklý okruh. Rozhoduješ se rychle a podle sebe. Tělo reaguje živě a má chuť do pohybu i do experimentů. Okolí tě vnímá jako výraznější a odvážnější osobnost.",
+  "shadow": "Uran na ascendentu soláru přináší do začátku roku vzdor, který může rozbít i to, co ještě funguje. Odcházíš od věcí dřív, než je dotáhneš. Odmítáš rady jen proto, že přicházejí zvenčí. Nálady i plány se mění ze dne na den a lidé kolem nevědí, s čím počítat. Pod tlakem se stahuješ a působíš chladně. Nervy jedou na plné obrátky, spánek bývá mělký a tělo napjaté. Touha po svobodě snadno přechází v neklid bez cíle.",
+  "hard": [
+   {
+    "topics": [
+     "illness",
+     "death"
+    ],
+    "text": "Tradice tu mluví o úrazech a nehodách, které přicházejí bez varování. Často jde o dopravu, techniku nebo elektřinu. Ascendent znamená tělo, proto starší výklady zdůrazňují zranění, náhlé zdravotní potíže a nečekané operace během roku. V nejtěžších případech zmiňují i ohrožení života při nehodě."
+   },
+   {
+    "topics": [
+     "mental_crisis"
+    ],
+    "text": "Tradice tu mluví o silném nervovém vypětí. Popisuje nespavost, podrážděnost, úzkostné stavy a pocit, že tělo i mysl běží bez přestávky. Starší autoři u tohoto postavení uvádějí i riziko nervového zhroucení po sérii náhlých změn."
+   },
+   {
+    "topics": [
+     "loss",
+     "ruin"
+    ],
+    "text": "Tradice tu mluví o náhlých rozchodech a rozvratu dosavadního způsobu života. Patří sem nečekané odchody z domova, ze zaměstnání nebo ze vztahů. Zlom podle ní přichází rychle a bez možnosti návratu k předchozímu stavu."
+   }
+  ],
+  "traits": {
+   "text": [
+    "independence",
+    "originality",
+    "decisiveness",
+    "curiosity",
+    "transformation"
+   ],
+   "shadow": [
+    "rebellion",
+    "inconstancy",
+    "restlessness",
+    "detachment",
+    "impulsiveness"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "solar_return/planet_on_angle/uranus/ic",
+  "title": "Uran na ose soláru: IC (dno nebe)",
+  "keywords": [
+   "stěhování",
+   "změna domova",
+   "rodinný zlom",
+   "nezávislost",
+   "nové kořeny"
+  ],
+  "themes": [
+   "family",
+   "character",
+   "growth"
+  ],
+  "text": "Letošní rok otřásá domovem. Stěhování, přestavba nebo nečekaná změna v rodině přichází rychle a bez dlouhého ohlašování. Máš silnou potřebu žít po svém, i za cenu opuštění zavedených zvyků. Domácnost se proměňuje: přibude technika, vznikne netradiční uspořádání nebo se objeví nový spolubydlící. Vztah k rodičům a ke kořenům se přeskupuje. Zjišťuješ, co z rodinného dědictví opravdu neseš dál a co odkládáš. Domov se stává místem pokusů, už ne jen útočištěm.",
+  "shadow": "Neklid v domově letos snadno přerůstá v útěk. Hádka s rodinou může skončit prudkým odchodem, aniž by se cokoli vyjasnilo. Někdy se bouříš proti blízkým jen proto, že od tebe něco čekají. Změnu bydlení plánuješ narychlo a pak zjišťuješ, že pod nohama chybí pevná půda. Doma se špatně usíná, nervy jsou napjaté a citová vzdálenost od rodiny roste. Blízcí vnímají tvoji odtažitost a nestálost. Těžko odhadují, s čím přijdeš zítra.",
+  "hard": [
+   {
+    "topics": [
+     "ruin",
+     "loss"
+    ],
+    "text": "Tradice tu mluví o náhlém rozvratu domácnosti: rozpadu rodiny, nuceném stěhování nebo ztrátě bydlení. Uvádí i škody na domě, například požárem, poruchou elektřiny nebo živelní událostí. Jde o tradiční obraz, nikoli o jistou předpověď."
+   },
+   {
+    "topics": [
+     "death",
+     "loss"
+    ],
+    "text": "Tradice tu mluví také o nečekaných zprávách o rodičích nebo starších příbuzných, v krajních případech i o náhlém úmrtí v rodině. Starší autoři spojovali Uran na dně nebe s koncem jedné rodinné etapy, který přichází bez varování."
+   },
+   {
+    "topics": [
+     "illness",
+     "mental_crisis"
+    ],
+    "text": "Tradice tu mluví o nervovém vypětí spojeném s domovem. Zmiňuje nespavost, podrážděnost a úzkostné stavy z nejistoty kolem bydlení nebo rodiny. Uvádí i úrazy v domácnosti, pády a nehody s elektrickými přístroji."
+   }
+  ],
+  "traits": {
+   "text": [
+    "independence",
+    "originality",
+    "transformation",
+    "restlessness"
+   ],
+   "shadow": [
+    "inconstancy",
+    "detachment",
+    "rebellion",
+    "anxiety",
+    "restlessness"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "solar_return/planet_on_angle/uranus/dsc",
+  "title": "Uran na ose soláru: descendent",
+  "keywords": [
+   "náhlá setkání",
+   "svoboda v partnerství",
+   "nečekaní spojenci",
+   "proměna vztahů"
+  ],
+  "themes": [
+   "relationships",
+   "character",
+   "growth"
+  ],
+  "text": "Letos ti do života vstupují lidé, kteří přicházejí náhle a mění zavedený řád tvých vztahů. Partnerství dostává nový tvar: víc prostoru a méně samozřejmostí. Přitahují tě nezvyklé a svobodomyslné protějšky, často z jiného prostředí nebo ze světa techniky. Z přátelství se může stát vztah a ze vztahu přátelství. Se svým protějškem si chceš domluvit vlastní pravidla místo převzatých. Spolupráce s nečekanými lidmi ti přináší nápady, ke kterým by tě nic jiného nedovedlo.",
+  "shadow": "Uran na descendentu soláru přináší i rozchody, které přicházejí bez varování. Protějšek může najednou chtít odejít, změnit podmínky nebo se odtáhnout. Stejně tak v tobě může růst neklid a touha utéct ze všeho, co svazuje. Hádky pak vznikají kvůli principu, ne kvůli věci. Otevření protivníci jednají nevyzpytatelně a udeří tam, kde to nečekáš. Hrozí vztahy na dálku, výstřední dohody a vzdor jen proto, aby zazněl. Blízkost se tak mění v chladný odstup.",
+  "hard": [
+   {
+    "topics": [
+     "loss"
+    ],
+    "text": "Tradice tu mluví o náhlém rozvratu partnerství: o rozchodu, rozvodu nebo odchodu protějšku bez zjevné předehry. Jde o čtení starých výkladů, ne o jistotu. Podle nich se ale staré vazby v takovém roce jen těžko udrží beze změny."
+   },
+   {
+    "topics": [
+     "mental_crisis",
+     "illness"
+    ],
+    "text": "Tradice tu mluví také o nervovém vypětí ve vztazích, které se může přenést do těla jako nespavost, podrážděnost nebo vyčerpání z neustálé nejistoty. Výklady se přitom týkají tebe i partnera, jehož rok může být podle nich neklidný."
+   },
+   {
+    "topics": [
+     "violence",
+     "death"
+    ],
+    "text": "Tradice tu mluví o nehodách spojených s partnerem nebo spolupracovníky a o prudkých střetech s otevřenými nepřáteli. Starší autoři zde zmiňují i náhlá úmrtí v okruhu blízkých protějšků, vždy jako možnost, ne jako předpověď."
+   }
+  ],
+  "traits": {
+   "text": [
+    "independence",
+    "originality",
+    "openness",
+    "flexibility"
+   ],
+   "shadow": [
+    "inconstancy",
+    "detachment",
+    "rebellion",
+    "restlessness",
+    "commitment_fear"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "solar_return/planet_on_angle/uranus/mc",
+  "title": "Uran na ose soláru: MC (střed nebe)",
+  "keywords": [
+   "zlom v kariéře",
+   "nová dráha",
+   "nezávislost v práci",
+   "nečekaná nabídka",
+   "technika"
+  ],
+  "themes": [
+   "work",
+   "growth",
+   "character"
+  ],
+  "text": "Uran na MC soláru přináší rok, kdy se v práci a postavení hýbe půda pod nohama. Přichází nečekaná nabídka, změna vedení, nový obor nebo odchod z místa, které už nestačí. Láká tě volnější režim, práce s technikou a projekty na vlastní pěst. Veřejně ukazuješ originální stránku a lidé si jí všímají. Pomáhají přátelé a známí z nečekaných kruhů. Cíle, které loni dávaly smysl, teď měníš rychle a bez dlouhého váhání.",
+  "shadow": "Uran na vrcholu soláru umí kariéru rozhoupat víc, než je zdrávo. Hrozí odchod z práce v návalu vzteku, spor s nadřízenými jen kvůli principu a pálení mostů. Nestálost ti ztěžuje dotáhnout započaté, každý měsíc přichází jiný plán. Okolí může tvé kroky číst jako výstřednost nebo nespolehlivost a pověst trpí. Změny přicházejí i zvenčí: reorganizace, zrušené místo, náhlý konec projektu. Odtažitost od kolegů tě pak nechává bez opory právě ve chvíli, kdy by se hodila.",
+  "hard": [
+   {
+    "topics": [
+     "ruin",
+     "loss"
+    ],
+    "text": "Tradice tu mluví o náhlém pádu z postavení: ztrátě místa ze dne na den, rozpadu firmy, skandálu nebo zvratu, který přepíše veřejnou pověst. Starší výklady tento rok řadí k obdobím, kdy se kariéra láme bez varování a dosavadní jistoty mizí naráz."
+   },
+   {
+    "topics": [
+     "mental_crisis",
+     "illness"
+    ],
+    "text": "Tradice tu mluví také o nervovém vypětí z pracovního tlaku a chaosu. Uvádí nespavost, podrážděnost, vyčerpání nervů a v krajních případech nervové zhroucení v době, kdy se změny v práci sejdou všechny najednou."
+   },
+   {
+    "topics": [
+     "death",
+     "illness",
+     "loss"
+    ],
+    "text": "Střed nebe tradice spojuje i s rodičem, podle školy s matkou nebo s otcem. Tradice tu mluví o náhlém zvratu v jeho životě, o vážné nemoci nebo nečekané smrti v průběhu roku. Jde o tradiční motiv, ne o jistou předpověď."
+   },
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o úrazech a nehodách spojených s prací, technikou, elektřinou nebo cestami za povinnostmi. Staré texty uvádějí, že nehoda v tomto roce snadno nabude veřejné podoby a zasáhne i pracovní postavení."
+   }
+  ],
+  "traits": {
+   "text": [
+    "originality",
+    "independence",
+    "risk_taking",
+    "flexibility",
+    "decisiveness"
+   ],
+   "shadow": [
+    "inconstancy",
+    "rebellion",
+    "impulsiveness",
+    "detachment",
+    "restlessness"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "solar_return/planet_on_angle/neptune/asc",
+  "title": "Neptun na ose soláru: ascendent",
+  "keywords": [
+   "mlha",
+   "inspirace",
+   "citlivost",
+   "iluze",
+   "tichý začátek"
+  ],
+  "themes": [
+   "character",
+   "health",
+   "growth"
+  ],
+  "text": "Do roku vstupuješ přes mlžnou bránu: Neptun na ascendentu soláru rozostřuje první dojem, který děláš, i obraz, který máš o sobě. Hranice mezi tebou a okolím řídnou. Nálady lidí čteš skoro bez slov a snadno nasáváš atmosféru místa. Roste chuť tvořit, hrát, fotit, psát nebo se ztišit. Tělo reaguje jemněji a žádá víc spánku a klidu. Nový začátek přichází spíš jako tušení nebo sen než jako hotový plán.",
+  "shadow": "Mlha na ascendentu soláru ti tento rok zakrývá vlastní obrysy. Snadno přebíráš cizí role a očekávání a ztrácíš vlastní směr. Ostatní tě vidí jinak, než se vidíš ty, a z toho rostou nedorozumění. Láká únik do spánku, obrazovek, alkoholu nebo snů o jiném životě. Sliby a začátky se rozplývají a energie kolísá. Hrozí, že naletíš lidem, kteří umějí hrát na soucit. Hrozí i role oběti, ve které se ztrácí tvoje vlastní síla.",
+  "hard": [
+   {
+    "topics": [
+     "illness",
+     "death"
+    ],
+    "text": "Tradice tu mluví o roce, kdy tělo oslabuje skrytě. Zmiňuje nejasné potíže, které se těžko pojmenovávají, citlivost na léky, alkohol a jiné látky a také otravy. Starší výklady sem řadí i infekce a vyčerpání bez zjevné příčiny. V nejkrajnější podobě zmiňují ohrožení života otravou nebo vodou."
+   },
+   {
+    "topics": [
+     "addiction",
+     "mental_crisis"
+    ],
+    "text": "Tradice tu mluví o sklonu ke závislostem a o duševní mlze. Popisuje únik do alkoholu, drog nebo snění, zmatení, úzkosti a pocit, že se realita rozpadá pod rukama. V nejtěžší podobě jde o období, kdy se rozpouští vlastní identita a pevný bod chybí."
+   },
+   {
+    "topics": [
+     "loss",
+     "ruin"
+    ],
+    "text": "Tradice tu mluví o klamu a podvodu. Zmiňuje lidi, kteří zneužijí důvěru, falešné sliby a ztráty, které vznikají z přehlédnutých detailů. Starší výklady sem řadí i rozpad všeho, co od začátku stálo na iluzi."
+   }
+  ],
+  "traits": {
+   "text": [
+    "intuition",
+    "sensitivity",
+    "creativity",
+    "empathy",
+    "spirituality"
+   ],
+   "shadow": [
+    "escapism",
+    "addiction_tendency",
+    "insecurity",
+    "trustfulness",
+    "chaos"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "solar_return/planet_on_angle/neptune/ic",
+  "title": "Neptun na ose soláru: IC (dno nebe)",
+  "keywords": [
+   "domov",
+   "kořeny",
+   "rodinná tajemství",
+   "útočiště",
+   "vzpomínky"
+  ],
+  "themes": [
+   "family",
+   "growth",
+   "health"
+  ],
+  "text": "Neptun na dně soláru otevírá rok u tvých kořenů a rozpouští pevné hranice domova. Doma letos hledáš útočiště, ticho a krásu. Vynořují se vzpomínky na dětství, sny o předcích a rodinné příběhy, které dosud nikdo nevyprávěl. Máš jemný cit pro náladu prostoru. Stačí přestavět pokoj, pustit hudbu nebo rozsvítit svíčku a byt se promění. Silně vnímáš, co rodina neříká nahlas. Rok přeje tvořivé práci z domova, rozjímání a smíření s minulostí.",
+  "shadow": "Stinnou stranou Neptunu na dně soláru je mlha v samých základech. Doma se letos hůř rozlišuje, co je skutečné. Rodinná tajemství, nejasné dohody nebo zamlčené dluhy mohou vyplavat na povrch a připravit tě o pocit jistoty. Snadno přebíráš roli zachránce pro příbuzného, který o změnu ve skutečnosti nestojí. Domov se může stát skrýší, kde dny plynou bez tvaru. Hrozí idealizace rodičů, nebo naopak hořké zklamání z nich. Plány na stěhování či přestavbu mívají nejasné podmínky a skryté vady.",
+  "hard": [
+   {
+    "topics": [
+     "addiction",
+     "illness"
+    ],
+    "text": "Tradice tu mluví o závislostech v rodině. Alkohol, léky nebo jiná látka mohou letos u někoho z blízkých vystoupit z utajení. Zmiňuje také otravy v domácnosti, únik plynu, vlhko, plísně a vodu prosakující do zdí a základů."
+   },
+   {
+    "topics": [
+     "death",
+     "loss"
+    ],
+    "text": "Dno nebe je v tradici koncem věcí a hrobem. Tradice tu mluví o tichém odcházení staršího člena rodiny, o nemoci rodiče, jejíž povaha zůstává dlouho nejasná, nebo o ztrátě domova, který se rozplyne jako sen."
+   },
+   {
+    "topics": [
+     "mental_crisis"
+    ],
+    "text": "Tradice tu mluví o duševní mlze, která se usazuje v domově. Jde o depresi, zmatenost nebo stařeckou demenci u rodiče. Patří sem i tvoje vlastní noci plné úzkostných snů a pocit, že pod nohama chybí pevná půda."
+   }
+  ],
+  "traits": {
+   "text": [
+    "intuition",
+    "sensitivity",
+    "family_attachment",
+    "spirituality",
+    "creativity"
+   ],
+   "shadow": [
+    "escapism",
+    "self_sacrifice",
+    "insecurity",
+    "secrecy",
+    "addiction_tendency"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "solar_return/planet_on_angle/neptune/dsc",
+  "title": "Neptun na ose soláru: descendent",
+  "keywords": [
+   "idealizace partnera",
+   "soucit",
+   "klam ve vztazích",
+   "společná tvorba",
+   "rozplývání hranic"
+  ],
+  "themes": [
+   "relationships",
+   "character",
+   "health"
+  ],
+  "text": "Neptun na descendentu soláru přivádí letos do tvého života protějšky, které působí jako ze snu. Partner, spolupracovník nebo nový známý v tobě probouzí soucit, inspiraci a touhu po hlubokém souznění. Vztahy tento rok stojí víc na citu a tušení než na pevných dohodách. Daří se společné tvorbě, hudbě, péči o druhé a duchovnímu hledání ve dvou. Druhé lidi vnímáš velmi jemně a často vycítíš, co neřeknou nahlas.",
+  "shadow": "Neptun na descendentu soláru zamlžuje pohled právě na nejbližší lidi. Do partnera promítáš ideál a skutečného člověka za ním přehlížíš. Když se obraz rozplyne, přichází zklamání. Někdo z protějšků může mlžit, slibovat víc, než splní, nebo skrývat podstatnou část svého života. Dohody a smlouvy s druhými mají letos sklon k nejasnostem. Otevření nepřátelé nejednají otevřeně, spíš skrytě a pomluvou. Snadno sklouzáváš do role zachránce nebo oběti a ve vztahu ztrácíš vlastní obrysy.",
+  "hard": [
+   {
+    "topics": [
+     "addiction"
+    ],
+    "text": "Tradice tu mluví o partnerovi nebo blízkém protějšku, kterého ovládá alkohol, drogy či jiná závislost. Vztah se pak točí kolem péče, výmluv a zakrývání. Uvádí také riziko, že se do tohoto koloběhu necháš vtáhnout a závislost s druhým začneš sdílet."
+   },
+   {
+    "topics": [
+     "loss"
+    ],
+    "text": "Tradice tu mluví o klamu ze strany partnera či společníka: o nevěře, tajném druhém životě nebo podvodu, který vyjde najevo pozdě. Vztah nebo spolupráce se může rozplynout bez jasného konce a zanechat pocit ztráty, zrady a zmatku."
+   },
+   {
+    "topics": [
+     "illness",
+     "mental_crisis"
+    ],
+    "text": "Tradice tu mluví o nemoci partnera, často nejasné a těžko rozpoznatelné, o otravách a o duševní mlze, depresi nebo zmatenosti u protějšku. Zmiňuje i pobyt blízkého člověka v nemocnici či ústavu a vyčerpání z dlouhé péče o něj."
+   }
+  ],
+  "traits": {
+   "text": [
+    "empathy",
+    "idealism",
+    "intuition",
+    "creativity",
+    "self_sacrifice"
+   ],
+   "shadow": [
+    "escapism",
+    "trustfulness",
+    "deceit",
+    "dependence",
+    "indecision"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "solar_return/planet_on_angle/neptune/mc",
+  "title": "Neptun na ose soláru: MC (střed nebe)",
+  "keywords": [
+   "vize v práci",
+   "umění",
+   "nejasné cíle",
+   "iluze",
+   "veřejný obraz"
+  ],
+  "themes": [
+   "work",
+   "character",
+   "growth",
+   "health"
+  ],
+  "text": "Tento rok stojí Neptun na vrcholu tvé práce a veřejného obrazu. Pracovní cíle řídí víc vize než plán, i když ji zatím neumíš přesně pojmenovat. Daří se ti tam, kde rozhoduje cit: v umění, hudbě, filmu, péči o druhé, v pomáhajících profesích a duchovní práci. Lidé tě vnímají spíš podle atmosféry, kterou kolem sebe šíříš, než podle titulů. Intuice ti napovídá, kam se posunout. Kariéra může dostat nečekaný obrat, který vychází ze snu nebo z touhy po smysluplnější práci.",
+  "shadow": "Neptun na vrcholu soláru rozmazává obrysy tvého postavení a cílů. Nevíš přesně, co od práce chceš, a druzí to na tobě poznají. Sliby, nabídky a dohody mají sklon k nejasnostem. Slibované místo se rozplyne nebo nakonec vypadá jinak než na začátku. Snadno idealizuješ šéfa, firmu nebo projekt a později přichází zklamání. V práci máš sklon přijímat roli oběti a vyčerpávat se pro cizí cíle. Před odpovědností naopak utíkáš do snění. Pověst může utrpět pomluvou, nedorozuměním nebo skandálem, který nemáš přímo v rukou.",
+  "hard": [
+   {
+    "topics": [
+     "addiction"
+    ],
+    "text": "Tradice tu mluví o roce, kdy se alkohol, léky nebo jiné látky mohou stát únikem před tlakem v práci. Podle starých výkladů se závislost neprojeví jen v soukromí. Prosákne do veřejného obrazu a ohrozí postavení, na kterém ti záleží."
+   },
+   {
+    "topics": [
+     "ruin",
+     "loss"
+    ],
+    "text": "Tradice tu mluví o klamu ve veřejné sféře. Podvod, falešný spolupracovník nebo vylhaný projekt může vést ke ztrátě místa či dobrého jména. Starší autoři u tohoto postavení zmiňují i skandál, jehož původ dlouho zůstává skrytý."
+   },
+   {
+    "topics": [
+     "mental_crisis",
+     "illness"
+    ],
+    "text": "Tradice tu mluví o duševní mlze, vyčerpání a ztrátě směru, které se pojí s pracovním neúspěchem nebo ztrátou role. Zmiňuje také otravy a nejasné nemoci, které se těžko určují a dlouhodobě oslabují výkonnost."
+   }
+  ],
+  "traits": {
+   "text": [
+    "intuition",
+    "creativity",
+    "idealism",
+    "empathy",
+    "spirituality"
+   ],
+   "shadow": [
+    "escapism",
+    "indecision",
+    "self_sacrifice",
+    "addiction_tendency",
+    "insecurity"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "solar_return/planet_on_angle/pluto/asc",
+  "title": "Pluto na ose soláru: ascendent",
+  "keywords": [
+   "proměna",
+   "nový začátek",
+   "osobní moc",
+   "tělo",
+   "intenzita"
+  ],
+  "themes": [
+   "character",
+   "health",
+   "growth",
+   "relationships"
+  ],
+  "text": "Pluto na ascendentu soláru otevírá rok, do kterého vstupuješ už s pocitem, že staré nastavení přestává platit. Od narozenin se mění tvůj vzhled, postoj těla i způsob, jakým působíš na lidi. Máš v sobě víc soustředěné síly než obvykle a okolí to pozná na první pohled. Dokážeš jít ke kořeni věcí, prohlédnout skryté motivy a začít znovu od základu. Tělo i touhy mluví hlasitěji a smyslnost dostává větší prostor. Tenhle rok přináší skutečný restart, ne jen úpravu.",
+  "shadow": "Na ascendentu soláru se síla Pluta snadno mění v potřebu mít rok i lidi kolem pod kontrolou. Nový začátek pak bereš jako boj o moc. Roste nedůvěra a za cizími slovy hledáš skrytý úmysl. Žárlivost nebo posedlost jedním člověkem či cílem ti bere energii. Pod tlakem přichází tvrdost, manipulace a chuť oplácet. Tělo nese napětí, které nepouštíš ven. Okolí může tvou intenzitu vnímat jako hrozbu a stáhnout se. Tím se ještě víc uzavíráš.",
+  "hard": [
+   {
+    "topics": [
+     "death",
+     "loss"
+    ],
+    "text": "Tradice tu mluví o roce smrti a znovuzrození. Často jde o symbolický konec jedné životní etapy. Tradice ale zmiňuje i úmrtí v blízkém okolí nebo přímé setkání se smrtí, které hluboce zasáhne a změní pohled na vlastní život."
+   },
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o krizi těla, protože ascendent nese tělo a Pluto ho podrobuje proměně. Zmiňuje vážnější onemocnění, operaci nebo zásah, po kterém se tělo pomalu obnovuje. Spojuje se s tím i skrytá nemoc, která během roku vyjde najevo."
+   },
+   {
+    "topics": [
+     "violence"
+    ],
+    "text": "Tradice tu mluví o střetu s cizí mocí a o násilí. Zmiňuje ohrožení od lidí, kteří chtějí ovládat a vnucovat svou vůli. Varuje i před vlastními výbuchy hněvu, které mohou přerůst v tvrdou konfrontaci."
+   },
+   {
+    "topics": [
+     "ruin",
+     "mental_crisis"
+    ],
+    "text": "Tradice tu mluví o krachu dosavadní pozice a osobní image. Postavení, na kterém stála tvoje identita, se může zhroutit. Spojuje se s tím i vnitřní krize, kdy myšlenky krouží kolem jednoho tématu a nedají se zastavit."
+   }
+  ],
+  "traits": {
+   "text": [
+    "transformation",
+    "depth",
+    "resilience",
+    "intuition",
+    "sensuality"
+   ],
+   "shadow": [
+    "obsession",
+    "dominance",
+    "jealousy",
+    "secrecy",
+    "aggression"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "solar_return/planet_on_angle/pluto/ic",
+  "title": "Pluto na ose soláru: IC (dno nebe)",
+  "keywords": [
+   "rodinná proměna",
+   "kořeny",
+   "domov",
+   "rodinná tajemství",
+   "krize a obnova"
+  ],
+  "themes": [
+   "family",
+   "growth",
+   "character"
+  ],
+  "text": "Pluto na dně nebe soláru otevírá rok, kdy se proměna odehrává doma a v rodině. Pod povrchem všedních dnů se hýbou staré vrstvy: rodinná tajemství, nevyřčené křivdy, vzorce zděděné po předcích. Máš sílu dívat se do hloubky a pojmenovat, co ostatní přecházejí mlčením. Stěhování, přestavba bytu nebo nové uspořádání vztahů pod jednou střechou dávají tvému zázemí jiný tvar. Co tenhle rok přečká, stojí potom na pevnějších kořenech.",
+  "shadow": "S Plutem na IC soláru se domov snadno mění v bojiště o moc a kontrolu. Hrozí přetahování o vliv v rodině, žárlivé hlídání blízkých a tiché manipulace u kuchyňského stolu. Staré křivdy vyplouvají na povrch a s nimi i chuť vyrovnat si účty. Máš sklon lpět na tom, co se už rozpadá, a bránit se proměně, která je nevyhnutelná. Tajnosti se hromadí a mlčení dusí. Uzavřenost za zdmi bytu může vést k pocitu osamělosti uprostřed vlastní rodiny.",
+  "hard": [
+   {
+    "topics": [
+     "death",
+     "loss"
+    ],
+    "text": "Tradice tu mluví o smrti v rodině, nejčastěji u rodičů nebo starší generace, a o konci jedné rodinné kapitoly. IC je zároveň bodem konce věcí, proto se s tímto postavením pojí loučení, pohřby a otázky dědictví po předcích. Jde o tradiční výklad, ne o jistotu. Často se naplní jako symbolický konec starého domova."
+   },
+   {
+    "topics": [
+     "violence"
+    ],
+    "text": "Tradice tu mluví o násilí za zavřenými dveřmi: o tvrdých konfliktech pod jednou střechou, o vydírání a o moci jednoho člena rodiny nad ostatními. Staré texty k tomu přidávají i násilné vniknutí do domova nebo úmyslné poškození domu."
+   },
+   {
+    "topics": [
+     "ruin",
+     "loss"
+    ],
+    "text": "Tradice tu mluví o krachu domácího zázemí: o ztrátě bydlení, rozpadu rodiny, nuceném stěhování nebo o zničení domu živlem či pohromou. Tradiční výklad počítá také s rozpadem rodinného majetku, který se pak buduje znovu od základů."
+   },
+   {
+    "topics": [
+     "mental_crisis",
+     "illness"
+    ],
+    "text": "Tradice tu mluví o hlubokých duševních otřesech spojených s rodinnou minulostí: o návratu starých traumat, o depresivních obdobích a o pocitu, že se pod nohama propadá půda. Zmiňuje také vážnou nemoc někoho z blízkých, která promění chod celé domácnosti."
+   }
+  ],
+  "traits": {
+   "text": [
+    "transformation",
+    "depth",
+    "family_attachment",
+    "resilience"
+   ],
+   "shadow": [
+    "dominance",
+    "jealousy",
+    "secrecy",
+    "obsession",
+    "loneliness"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "solar_return/planet_on_angle/pluto/dsc",
+  "title": "Pluto na ose soláru: descendent",
+  "keywords": [
+   "proměna vztahů",
+   "boj o moc",
+   "osudová setkání",
+   "vášeň",
+   "žárlivost"
+  ],
+  "themes": [
+   "relationships",
+   "growth",
+   "character"
+  ],
+  "text": "Letos do tvého života vstupuje člověk, se kterým nic nejde prožít napůl. Pluto na descendentu soláru přivádí na celý rok partnery, protějšky a soupeře, kteří tě mění. Vztahy získávají hloubku, vášeň a váhu. Některé svazky se proměňují od základu, jiné končí a na jejich místě vzniká něco pravdivějšího. Máš dar vidět, co druhý skrývá. V lásce i v jednáních dokážeš jít až na dřeň. Setkání tohoto roku tě učí sdílet moc a důvěru.",
+  "shadow": "Na descendentu soláru se ukazuje stín Pluta jako boj o moc mezi tebou a partnerem. Objevuje se žárlivost, kontrola a zkoušení věrnosti. Druhý člověk může manipulovat, citově vydírat nebo tě strhnout do posedlého vztahu. Stejnou touhu ovládat a trestat můžeš najít i v sobě. Otevření nepřátelé letos jednají tvrdě a nezapomínají. Rozchody bývají bolestné, provází je pomsta a tajemství, která vyplouvají na povrch. Hranice mezi vášní a závislostí na druhém se snadno ztrácí.",
+  "hard": [
+   {
+    "topics": [
+     "violence"
+    ],
+    "text": "Tradice tu mluví o nebezpečí, které přichází od partnera nebo od otevřeného nepřítele. Zmiňuje násilí, výhrůžky a nátlak ve vztahu. Výklad to bere jako varování před svazkem, ve kterém jedna strana přebírá moc nad druhou, ne jako jistotu."
+   },
+   {
+    "topics": [
+     "death",
+     "loss"
+    ],
+    "text": "Tradice tu mluví také o smrti partnera nebo blízkého protějšku. Zmiňuje i konec svazku, který se prožívá jako smrt, a období smutku po ztrátě. Starší výklady sem řadí ovdovění a odchod člověka, který měl v životě velkou moc."
+   },
+   {
+    "topics": [
+     "ruin"
+    ],
+    "text": "Tradice spojuje toto postavení i s krachem, který přichází přes druhé. Mluví o zničeném společném díle, o rozpadu partnerství s těžkými následky a o pádu způsobeném mocným protivníkem."
+   }
+  ],
+  "traits": {
+   "text": [
+    "depth",
+    "transformation",
+    "intuition",
+    "sensuality"
+   ],
+   "shadow": [
+    "jealousy",
+    "dominance",
+    "obsession",
+    "dependence"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "solar_return/planet_on_angle/pluto/mc",
+  "title": "Pluto na ose soláru: MC (střed nebe)",
+  "keywords": [
+   "proměna kariéry",
+   "moc",
+   "veřejná role",
+   "krize a obnova"
+  ],
+  "themes": [
+   "work",
+   "growth",
+   "character"
+  ],
+  "text": "Pluto na vrcholu soláru dělá z práce a postavení hlavní dějiště celého roku. Kariéra prochází hlubokou proměnou. Něco starého končí a otevírá se místo pro nové. Máš sílu jít pod povrch, prohlédnout mocenské hry a převzít vliv tam, kde jiní couvnou. Rok přináší vážné úkoly, velkou odpovědnost a setkání s lidmi, kteří mají moc. Tvoje veřejná role získává váhu. Cíle, které si teď stanovíš, mají hloubku a dlouho vydrží.",
+  "shadow": "Touha po moci na vrcholu soláru snadno přeroste v boj o kontrolu nad prací a pozicí. Hrozí posedlost úspěchem, kdy kariéra pohltí všechno ostatní. Ve sporech s nadřízenými nebo konkurencí sah※áš po manipulaci, tajných tazích a odplatě. Žárlíš na úspěch druhých a nedokážeš pustit místo, které už nefunguje. Mocenské hry okolí tě vtahují víc, než chceš. Pád z výšky, odhalení skrytých věcí nebo ztráta postavení přichází nejčastěji tam, kde lpíš na kontrole.",
+  "hard": [
+   {
+    "topics": [
+     "ruin",
+     "loss"
+    ],
+    "text": "Tradice tu mluví o krachu kariéry, ztrátě pozice a veřejném pádu. Skandál, odhalení tajemství nebo mocenský převrat v práci podle ní dokážou ukončit dosavadní dráhu. Výklad to bere jako možnost, ne jako jistotu. Konec jedné cesty často uvolňuje místo pro jinou."
+   },
+   {
+    "topics": [
+     "death",
+     "loss"
+    ],
+    "text": "Tradice tu mluví o smrti nebo vážné krizi autority v životě. Často jde o rodiče, kterého spojuje se středem nebe, případně o nadřízeného či mentora. Tradice to čte jako konec jedné etapy a jako nutnost převzít odpovědnost, kterou dosud nesl někdo jiný."
+   },
+   {
+    "topics": [
+     "violence"
+    ],
+    "text": "Tradice tu mluví o střetu s mocí, která překračuje hranice. Jde o nátlak, zastrašování nebo násilí ze strany autorit, institucí či soupeřů. Zmiňuje také možnost, že tvrdost a nátlak vycházejí od tebe ve snaze udržet si postavení."
+   }
+  ],
+  "traits": {
+   "text": [
+    "transformation",
+    "ambition",
+    "depth",
+    "leadership",
+    "perseverance"
+   ],
+   "shadow": [
+    "obsession",
+    "dominance",
+    "deceit",
+    "jealousy",
+    "secrecy"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ }
+]

@@ -1,0 +1,699 @@
+[
+ {
+  "key": "moon_today/aries",
+  "title": "Měsíc dnes v Beranu",
+  "keywords": [
+   "impuls",
+   "odvaha",
+   "netrpělivost",
+   "nový začátek",
+   "přímost"
+  ],
+  "themes": [
+   "character",
+   "family",
+   "relationships",
+   "health"
+  ],
+  "text": "Měsíc v Beranu dnes mění city rovnou v čin. Nálada naskočí rychle a nečeká na svolení. Máš chuť začít něco nového, říct věci napřímo a pohnout s tím, co doma dlouho stojí. Tělo žádá pohyb, teplo a jasný cíl. Pocit bezpečí teď dává spíš odvaha než ústupky. Daří se krátkým rozhodným krokům: úklidu, sportu, prvnímu telefonátu nebo upřímnému rozhovoru. Emoce jsou čitelné, vzplanou a rychle vyprchají.",
+  "shadow": "Pod Měsícem v Beranu se drobná nepříjemnost doma během vteřiny mění ve výbuch. Netrpělivost s blízkými roste. K ostrému slovu stačí hlad, únava nebo ztracená věc. Potřeba prosadit svou přebije ohled na druhé a z citu se stává požadavek: teď, hned, po mém. Hrozí ukvapené konce, zabouchnuté dveře a zprávy odeslané v afektu. Lítost přichází rychle, ale vyřčené slovo zůstává. Napětí se ukládá do čelistí, hlavy a ramen.",
+  "hard": [
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o hlavě a obličeji. Beran vládne hlavě, a proto stará lékařská astrologie spojovala dny s Měsícem v Beranu s bolestmi hlavy, horečkou, záněty, překrvením a potížemi s očima a zuby. Zákroky na hlavě se podle tradičního pravidla v těchto dnech nedělaly. Jde o dávný výklad, ne o předpověď."
+   },
+   {
+    "topics": [
+     "violence"
+    ],
+    "text": "Tradice tu mluví o hádkách, které se rychle zvrhnou, a o zraněních z unáhlenosti. Zmiňuje také ostré nástroje, oheň a nehody z rychlosti. Měsíc v ohnivém znamení podle starých výkladů rozdmýchává vznětlivost v domácnosti a mezi blízkými, zvlášť tam, kde napětí doutná delší dobu."
+   },
+   {
+    "topics": [
+     "mental_crisis"
+    ],
+    "text": "Tradice tu mluví o neklidné mysli: o podrážděnosti, nespavosti, návalech hněvu a nervovém vyčerpání po prudkém vzepětí. Starší autoři spojovali Měsíc v Beranu s náhlými citovými výkyvy. Klid duše v nich narušuje vnitřní horko a přetlak, který nemá kam odejít."
+   },
+   {
+    "topics": [
+     "loss"
+    ],
+    "text": "Tradice tu mluví o ztrátách z unáhlenosti, tedy o rozchodech a rodinných roztržkách vyslovených ve vzteku. Zmiňuje také vztah k matce poznamenaný střetem dvou silných vůlí. U narození v takových dnech uvádějí staré výklady i motiv rané ztráty matky nebo mateřské péče, která skončila příliš brzy."
+   }
+  ],
+  "traits": {
+   "text": [
+    "impulsiveness",
+    "courage",
+    "decisiveness",
+    "honesty",
+    "vitality"
+   ],
+   "shadow": [
+    "anger",
+    "restlessness",
+    "selfishness",
+    "bluntness",
+    "aggression"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "moon_today/taurus",
+  "title": "Měsíc dnes v Býku",
+  "keywords": [
+   "klid",
+   "smysly",
+   "bezpečí",
+   "tělo",
+   "stálost"
+  ],
+  "themes": [
+   "character",
+   "family",
+   "health"
+  ],
+  "text": "Měsíc v Býku zklidňuje den. City se usazují do těla a hledají pevnou půdu. Dnes ti dělá dobře teplé jídlo, známá vůně, měkká deka nebo práce rukama. Nálada drží a výkyvy slábnou. Potřebu bezpečí naplňují jednoduché věci: pravidelnost, domov, dotek blízkého člověka. Máš víc trpělivosti než obvykle a rozdělanou věc dotáhneš v klidném tempu. Tradice tohle postavení řadí k nejpříznivějším pro Měsíc, protože city tu nacházejí stálost a tělo spokojenost.",
+  "shadow": "Odvrácenou stranou měsíčního klidu v Býku je citové zabetonování. Co je známé, se drží zuby nehty, i když už to nesvědčí. Změna plánu, nový nápad nebo cizí návrh dnes snadno narazí na tvrdé ne. Útěchu hledáš v jídle, nákupech a na gauči víc, než tělo potřebuje. Lpění na lidech a věcech se může projevit majetnickostí a blízký člověk pak cítí spíš sevření než oporu. Křivda se dnes nevybouří. Tiše se usadí a vydrží dlouho.",
+  "hard": [
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o krku, hrdle a šíji, které Býk ve staré lékařské astrologii ovládá, a o žaludku, který patří Měsíci. Ve dnech Měsíce v Býku spojuje potíže hlavně s přejídáním, těžkou stravou a záněty v krku. Staré kalendáře podle toho dělily dny na vhodné a nevhodné pro zásahy do těla v těchto místech."
+   }
+  ],
+  "traits": {
+   "text": [
+    "calm",
+    "steadiness",
+    "patience",
+    "sensuality",
+    "security_need"
+   ],
+   "shadow": [
+    "stubbornness",
+    "indulgence",
+    "jealousy",
+    "sulking",
+    "rigidity"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "moon_today/gemini",
+  "title": "Měsíc dnes v Blížencích",
+  "keywords": [
+   "zvídavost",
+   "rozhovor",
+   "pohyb",
+   "proměnlivá nálada",
+   "zprávy"
+  ],
+  "themes": [
+   "character",
+   "relationships",
+   "family",
+   "health"
+  ],
+  "text": "Měsíc v Blížencích ti dnes převádí city do slov: co cítíš, potřebuješ hned vyslovit nebo napsat. Nálada se zvedá s každým rozhovorem, zprávou a novou informací. Uklidňuje tě pohyb, krátká cesta nebo změna prostředí. Doma tě víc než ticho těší telefonát s blízkými nebo se sourozencem. Snadno navazuješ kontakt a vidíš situaci ze dvou stran. Tělo si říká o čerstvý vzduch, procházku a protažení.",
+  "shadow": "S Měsícem v Blížencích se city snadno schovají za slova: mluvíš o všem kromě toho, co tě opravdu tíží. Nálada přeskakuje z myšlenky na myšlenku a těžko ji udržíš na jednom místě. Přibývají nedokončené věci a rozepsané zprávy. Potřebu bezpečí nahrazuje neustálé ověřování, scrollování a přepínání mezi úkoly. Někdy říkáš dvěma lidem dvě různé verze, aby byl klid. Povrchní hovor pak zakryje skutečnou touhu po blízkosti a nedovolí ti odpočinout.",
+  "hard": [
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o citlivých nervech, plicích, rukou a žaludku. Měsíc v Blížencích spojuje s napětím, které se ukládá do mělkého dechu, podrážděného trávení a nespavosti. Rozjitřená mysl se podle ní může projevit tělesně, hlavně při přetížení slovy, zprávami a neustálým shonem."
+   },
+   {
+    "topics": [
+     "mental_crisis"
+    ],
+    "text": "Tradice tu mluví také o ohrožené duševní rovnováze. Měsíc v tomto znamení podle ní živí kolotoč myšlenek, úzkostné přemítání a vnitřní rozpolcenost. Staré texty zmiňují i citové rozštěpení, kdy mysl nenachází pevný bod a těká mezi protiklady, až se vyčerpá."
+   }
+  ],
+  "traits": {
+   "text": [
+    "curiosity",
+    "eloquence",
+    "sociability",
+    "flexibility",
+    "lightness"
+   ],
+   "shadow": [
+    "restlessness",
+    "superficiality",
+    "inconstancy",
+    "anxiety",
+    "indecision"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "moon_today/cancer",
+  "title": "Měsíc dnes v Raku",
+  "keywords": [
+   "domov",
+   "péče",
+   "paměť",
+   "city",
+   "bezpečí"
+  ],
+  "themes": [
+   "family",
+   "character",
+   "relationships",
+   "health"
+  ],
+  "text": "Měsíc dnes stojí v Raku, ve svém vlastním znamení, a na dva až tři dny obrací pozornost k domovu a blízkým. City mají větší váhu než plány. Víc vnímáš potřeby druhých, často dřív, než je vysloví. Láká tě vařit, uklízet, volat rodině nebo listovat starými fotkami. Paměť je živá a vynáší vzpomínky z dětství. Tělo si říká o teplo, jídlo a klid. Péče, kterou dnes dáváš, má skutečnou sílu.",
+  "shadow": "S Měsícem v Raku se dnes nálady střídají rychle a drobná poznámka zraní víc, než by měla. Snadno se urazíš a stáhneš do ulity, místo otevřeného rozhovoru. Minulost táhne zpátky a staré křivdy vyplouvají na povrch. Péče se mění v lpění nebo v tichý nátlak. Druhým pak dáváš najevo, že ti něco dluží. Potřeba jistoty dusí blízké a jídlo snadno nahrazuje skutečnou útěchu.",
+  "hard": [
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o citlivém žaludku a trávení, které se pod Měsícem v Raku snadno rozladí strachem nebo napětím. Spojuje tento tranzit i s plodností a ženským cyklem a jejich výkyvy podle ní zesiluje. Tělo prý v těchto dnech reaguje na city přímo, bez prostředníka."
+   },
+   {
+    "topics": [
+     "mental_crisis"
+    ],
+    "text": "Tradice tu mluví o křehké duševní rovnováze. Měsíc ve vlastním znamení podle ní zesiluje to, co už v duši je, včetně smutku a úzkosti. U lidí se sklonem k depresi nebo k citovým propadům zmiňují staré výklady dny, kdy hrozí ztráta vnitřní opory."
+   },
+   {
+    "topics": [
+     "loss",
+     "death"
+    ],
+    "text": "Tradice tu mluví o ztrátě matky a o zármutku nad ní. Průchod Měsíce Rakem podle starých výkladů otevírá vzpomínky na zemřelé předky a na rozpad domova. Smutek, který se dosud nevyplakal, se může ozvat se zvláštní silou."
+   }
+  ],
+  "traits": {
+   "text": [
+    "empathy",
+    "family_attachment",
+    "protectiveness",
+    "sensitivity",
+    "intuition"
+   ],
+   "shadow": [
+    "moodiness",
+    "sulking",
+    "reclusiveness",
+    "dependence",
+    "security_need"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "moon_today/leo",
+  "title": "Měsíc dnes ve Lvu",
+  "keywords": [
+   "sebevyjádření",
+   "srdce",
+   "potřeba ocenění",
+   "hra",
+   "štědrost"
+  ],
+  "themes": [
+   "character",
+   "relationships",
+   "family"
+  ],
+  "text": "Na dva až tři dny se tvoje city chtějí ukázat naplno a nahlas. Potřebuješ, aby tě někdo viděl, ocenil a zahřál. Bezpečí dnes nehledáš v ústraní. Hledáš ho v teple srdce, ve hře a mezi blízkými lidmi. Domov se mění v malé jeviště: pozvi lidi, uvař něco štědře, oslav drobnost. Daří se tvořivé práci, času s dětmi a gestům z upřímné náklonnosti. Tělo touží po pohybu, slunci a radosti.",
+  "shadow": "Hlad po obdivu se dnes mísí s citovou potřebou a z nálady dělá divadlo. Když chybí pozornost, přichází uraženost, velká scéna nebo tichá pýcha, která nedovolí přiznat zranění. City se snadno mění v představení a velká gesta nahrazují skutečnou blízkost. Štědrost může mít skrytou cenu v podobě očekávané vděčnosti. Láska podmíněná obdivem pak klouže k citovému vydírání. Doma hrozí boj o to, kdo stojí ve středu pozornosti, a ozývají se staré dětské křivdy.",
+  "hard": [
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o srdci a zádech jako o místech, kam se nálada dne ukládá do těla. Zmiňuje také žaludek citlivý na rozrušení. Starší autoři spojují Měsíc ve Lvu i s horečnatými stavy a s otázkou plodnosti, kterou podle nich narušuje přepětí a pýcha. Jde o tradiční symboliku, ne o předpověď."
+   },
+   {
+    "topics": [
+     "mental_crisis",
+     "loss",
+     "death"
+    ],
+    "text": "Tradice tu mluví o ohrožení duševní rovnováhy, když zraněná hrdost a nenaplněná potřeba lásky narůstají do přehnaných reakcí. Zmiňuje i ztrátu matky nebo ženy, která dávala domov a ochranu, a smutek, který se v těchto dnech může ozvat silněji. Starší výklady připouštějí i úmrtí v rodině. Vždy jde o symbol, nikdy o jistotu."
+   }
+  ],
+  "traits": {
+   "text": [
+    "generosity",
+    "creativity",
+    "cheerfulness",
+    "sociability",
+    "self_confidence"
+   ],
+   "shadow": [
+    "pride",
+    "drama",
+    "sulking",
+    "vanity",
+    "dependence"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "moon_today/virgo",
+  "title": "Měsíc dnes v Panně",
+  "keywords": [
+   "pořádek",
+   "péče",
+   "detail",
+   "zažívání",
+   "rutina"
+  ],
+  "themes": [
+   "character",
+   "health",
+   "work",
+   "family"
+  ],
+  "text": "Dnešní nálada hledá klid v drobném pořádku: utřený stůl, vyřízený seznam, uvařené jídlo. Pocit bezpečí přichází přes ruce a přes denní rutinu. Všímáš si detailů, které jindy unikají, a máš chuť něco opravit, dotáhnout nebo uklidit. Tělo dnes dává jasné signály a vyplatí se je vnímat. Péče o blízké má praktickou podobu: místo velkých slov přichází pomoc s konkrétní věcí. Dobře jde řemeslná práce, třídění a plánování.",
+  "shadow": "Citový neklid se dnes převléká za kritiku: místo „je mi smutno“ zazní „tady je nepořádek“. Drobnosti nabývají přehnané váhy a jedna chyba dokáže pokazit celý den. Úzkost se ukládá do žaludku a do těla, které pak hlídáš až příliš pozorně. Hrozí výčitky blízkým kvůli maličkostem i vnitřní hlas, podle kterého nic není dost dobré. Péče o druhé se snadno mění v poučování a lpění na zvycích v nervozitu, jakmile se cokoli vychýlí z plánu.",
+  "hard": [
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o choulostivém zažívání. Měsíc vládne žaludku a Panna střevům a staré texty jejich spojení dávaly do souvislosti s poruchami trávení, nervovým žaludkem a nemocemi z vyčerpání a přepracování. Jde o symbolický obraz, nikoli o předpověď."
+   },
+   {
+    "topics": [
+     "mental_crisis"
+    ],
+    "text": "Tradice tu mluví o neklidné mysli, která se upíná na tělo. Zmiňuje úzkosti, hypochondrii a strach z nemoci, které mohou přerůst v trýznivé myšlenky na chyby a selhání. Staré výklady spojovaly duševní rovnováhu s Měsícem a v Panně ji viděly ohroženou neustálým rozborem a sebekritikou."
+   }
+  ],
+  "traits": {
+   "text": [
+    "order",
+    "diligence",
+    "focus",
+    "responsibility",
+    "realism"
+   ],
+   "shadow": [
+    "criticism",
+    "anxiety",
+    "perfectionism",
+    "rigidity",
+    "guilt"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "moon_today/libra",
+  "title": "Měsíc dnes ve Vahách",
+  "keywords": [
+   "soulad",
+   "vztahy",
+   "vkus",
+   "usmíření",
+   "citová rovnováha"
+  ],
+  "themes": [
+   "relationships",
+   "character",
+   "family",
+   "health"
+  ],
+  "text": "Dnešní Měsíc ve Vahách ladí tvou náladu podle lidí kolem. Bezpečí hledáš v souladu, v klidném rozhovoru a v hezkém prostředí. Snáz vnímáš, co druhý potřebuje, a umíš najít slova, která zmírní napětí. Pomáhá uklizený stůl, vonný čaj nebo společné jídlo. Domov má dnes cenu hlavně podle toho, jak se v něm dýchá ve dvou. Dobře se vyjednává, usmiřuje a plánuje s partnerem nebo rodinou. Tělo si říká o rovnováhu mezi pohybem a odpočinkem.",
+  "shadow": "Měsíc ve Vahách tě dnes svádí měřit vlastní pohodu tím, jestli se na tebe druzí usmívají. Drobný nesouhlas pak bolí víc, než by měl. Rozhodnutí odkládáš, protože každá volba někoho zklame. Snadno přikyvuješ, i když uvnitř nesouhlasíš, a nespokojenost se pak vrací jako tichá výčitka. Hrozí harmonie jen na povrchu: příjemný večer, pod kterým zůstává nevyřčená křivda. Někdy si o souhlas říkáš nepřímo, náladou nebo mlčením. To už se blíží citovému vydírání.",
+  "hard": [
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o ledvinách, bedrech, kůži a rovnováze tělesných tekutin. Dny, kdy Měsíc prochází Vahami, spojovala s větší citlivostí těchto míst. Žaludek a trávení podle ní reagují na neklid ve vztazích, zvlášť na spory, které se nevysloví nahlas."
+   },
+   {
+    "topics": [
+     "mental_crisis",
+     "loss"
+    ],
+    "text": "Tradice tu mluví o duševní rovnováze, která visí na druhých lidech. Rozkol ve vztahu, rozchod nebo ztráta blízké osoby, zvlášť matky či partnera, podle ní v tomto postavení otřese pocitem bezpečí silněji než jindy a vnitřní klid se hledá déle."
+   }
+  ],
+  "traits": {
+   "text": [
+    "empathy",
+    "cooperation",
+    "charm",
+    "sensitivity",
+    "tolerance"
+   ],
+   "shadow": [
+    "indecision",
+    "dependence",
+    "superficiality",
+    "moodiness",
+    "sulking"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "moon_today/scorpio",
+  "title": "Měsíc dnes ve Štíru",
+  "keywords": [
+   "hloubka citů",
+   "intuice",
+   "intenzita",
+   "věrnost",
+   "proměna"
+  ],
+  "themes": [
+   "character",
+   "relationships",
+   "family",
+   "health"
+  ],
+  "text": "Měsíc ve Štíru stahuje náladu dne pod povrch. Lehké řeči tě dnes nenasytí. Potřebuješ upřímnost a skutečný kontakt. Intuice pracuje přesně: vnímáš, co druzí nevyslovují, a poznáš, kde něco nesedí. Bezpečí hledáš ve věrnosti a v blízkosti několika důvěryhodných lidí. Tyto dny se hodí k soustředěné práci a k úklidu starých věcí i vztahů. Přejí i rozhovorům, které se dlouho odkládaly. Tělo i city chtějí intenzitu, ne povrchnost.",
+  "shadow": "Měsíc ve Štíru dělá z citové potřeby otázku kontroly. Drobná nejistota snadno přeroste v podezření a žárlivost. Staré křivdy se vracejí v plné síle a lákají k odvetě nebo k mlčení, které trestá. Místo otevřené prosby o blízkost přichází zkoušení druhých, tajnůstkářství a tiché citové vydírání. Lpění na minulosti brání pustit, co už skončilo. Nálada umí ztěžknout a zabarvit podezíravostí celý den.",
+  "hard": [
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o Měsíci v pádu. V těchto dnech má podle ní tělo slabší odolnost. Staré texty spojují tuto polohu s potížemi pohlavních a vylučovacích orgánů, se záněty a s choulostivou plodností. Elektivní astrologie proto tyto dny tradičně nepovažovala za vhodné pro zákroky v těchto místech."
+   },
+   {
+    "topics": [
+     "mental_crisis"
+    ],
+    "text": "Tradice tu mluví o Měsíci v pádu a na takzvané spálené cestě, kdy duševní rovnováha snadno kolísá. Staré výklady spojují tyto dny s temnými náladami, s dotěrnými a posedlými myšlenkami a s pocity beznaděje, které se drží déle než obvykle."
+   },
+   {
+    "topics": [
+     "death",
+     "loss"
+    ],
+    "text": "Tradice tu mluví o návratu ztrát. Štír je znamení smrti a dědictví, Měsíc nese obraz matky a domova. Staré texty proto spojují tuto polohu se smutkem za zemřelými, s výročími ztrát a se vzpomínkami na matku či na domov, který už není."
+   }
+  ],
+  "traits": {
+   "text": [
+    "depth",
+    "intuition",
+    "loyalty",
+    "focus",
+    "transformation"
+   ],
+   "shadow": [
+    "jealousy",
+    "secrecy",
+    "obsession",
+    "moodiness",
+    "dominance"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "moon_today/sagittarius",
+  "title": "Měsíc dnes ve Střelci",
+  "keywords": [
+   "nadšení",
+   "dálky",
+   "smysl",
+   "neklid",
+   "volnost"
+  ],
+  "themes": [
+   "character",
+   "growth",
+   "relationships",
+   "health"
+  ],
+  "text": "Dnešní nálada táhne ven, za obzor a k velkým otázkám. Pocit bezpečí nepřichází z domova, ale z pohybu, z plánu cesty nebo z rozhovoru, který dává věcem smysl. Máš chuť vyrazit, učit se, sdílet nadšení a smát se nahlas. City se projevují přímo a velkoryse, bez schovávání. Tělo chce prostor: procházku, sport, delší trasu než obvykle. Den přeje studiu, plánování výletů a setkání s lidmi odjinud.",
+  "shadow": "Dnešní hlad po smyslu a dálce snadno přeroste v útěk před tím, co doma čeká na vyřízení. Nadšení slibuje víc, než den unese, a sliby se do večera rozpadají. Hrozí kázání: vlastní pravda zní jako jediná správná a druzí dostávají poučky místo pochopení. Upřímnost klouže do netaktnosti a poznámka řečená mimochodem zraní víc, než se zdá. Neklid nedovolí dokončit rozdělanou věc a závazky působí jako klec. Přehánění se týká i jídla, pití a utrácení sil.",
+  "hard": [
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o zatížení jater a žaludku z přejídání a nadměrného pití, o bolestech kyčlí a stehen a o úrazech při rychlém pohybu, jízdě nebo na cestách. Dnešní neklid a sklon k přehánění jsou v tomto obrazu spouštěčem, ne jistým osudem."
+   },
+   {
+    "topics": [
+     "addiction"
+    ],
+    "text": "Tradice tu mluví o sklonu hledat povznesení v alkoholu, hostinách a dalších excesech, protože Měsíc ve Střelci touží po úlevě a velkém pocitu. Starší texty varují, že z opakovaného přehánění se může stát zvyk, který se těžko opouští."
+   },
+   {
+    "topics": [
+     "loss",
+     "death"
+    ],
+    "text": "Tradice tu mluví o odloučení od matky a domova, o zprávách z dálky a smutku, který přichází z cizí země. Starší výklady spojují tuto polohu také se ztrátou matky nebo blízké ženy daleko od domova a se smrtí na cestách. Jde o tradiční obraz, ne o předpověď."
+   },
+   {
+    "topics": [
+     "mental_crisis"
+    ],
+    "text": "Tradice tu mluví o rozkolísané duševní rovnováze, kdy víra a nadšení přerůstají v neklid, fanatismus nebo náhlé zhroucení smyslu. Když se velká naděje rozbije, přichází podle tohoto obrazu prázdnota a skleslost, která se těžko vysvětluje."
+   }
+  ],
+  "traits": {
+   "text": [
+    "optimism",
+    "wanderlust",
+    "curiosity",
+    "honesty",
+    "cheerfulness"
+   ],
+   "shadow": [
+    "restlessness",
+    "bluntness",
+    "inconstancy",
+    "indulgence",
+    "escapism"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "moon_today/capricorn",
+  "title": "Měsíc dnes v Kozorohu",
+  "keywords": [
+   "povinnost",
+   "citová zdrženlivost",
+   "vytrvalost",
+   "řád",
+   "odpovědnost"
+  ],
+  "themes": [
+   "character",
+   "work",
+   "family",
+   "health"
+  ],
+  "text": "Dnešní Měsíc v Kozorohu zchlazuje city a obrací je k povinnostem. Nálada se usazuje do práce, plánů a pořádku v domácnosti. Bezpečí dnes hledáš v tom, co máš pod kontrolou: v rozpisu, v hotovém úkolu, v jasné dohodě. Emoce dáváš najevo činy, ne slovy. Péči o blízké ukazuješ tím, že něco zařídíš nebo opravíš. Tělo snáší zátěž, pokud dostane pravidelný rytmus. Daří se úkolům, které chtějí trpělivost a vytrvalost.",
+  "shadow": "Pod Měsícem v Kozorohu se potřeba citu snadno schová za výkon. Únava a smutek dostávají nálepku slabosti a odkládáš je na později. Doma přibývá kritiky a ubývá vlídnosti. Blízcí místo objetí slyší seznam úkolů. Nálada sklouzává k pesimismu a chybí víra, že se snaha vyplatí. Staré křivdy a závazky vůči rodině tíží víc než obvykle. Lpění na tom, jak se věci vždycky dělaly, brzdí změnu. Odpočinek působí jako provinění.",
+  "hard": [
+   {
+    "topics": [
+     "mental_crisis"
+    ],
+    "text": "Tradice tu mluví o melancholii a těžkomyslnosti. Měsíc stojí v Kozorohu ve vyhnanství a staré texty s ním spojují sklon k chmurám, pocit osamění a beznaděje. Ten podle nich během dvou až tří dnů tranzitu nabírá na síle. Tradice tu mluví o dnech, kdy duševní rovnováha snáz klesá a vnitřní chlad přerůstá ve sklíčenost."
+   },
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o nemocech z chladu a suchosti. Kozorohu přisuzuje kolena, kosti, klouby, zuby a kůži, Měsíci žaludek a trávení. Staré výklady u této kombinace zmiňují ztuhlost, bolesti kloubů, kožní potíže a žaludek stažený napětím. Řadí ji také mezi postavení spojovaná s oslabenou plodností."
+   },
+   {
+    "topics": [
+     "loss",
+     "death"
+    ],
+    "text": "Tradice tu mluví o ztrátě matky a o dětství, které příliš brzy vyžaduje dospělost. Měsíc jako obraz matky v Kozorohu podle starých výkladů ukazuje na matku zatíženou starostmi, vzdálenou nebo nemocnou. V nejtěžší podobě ukazuje na její předčasný odchod či smrt. Při denním tranzitu tradice spojuje tyto dny se smutkem za zemřelými a s návratem starých ztrát."
+   }
+  ],
+  "traits": {
+   "text": [
+    "responsibility",
+    "discipline",
+    "perseverance",
+    "realism",
+    "order"
+   ],
+   "shadow": [
+    "coldness",
+    "pessimism",
+    "rigidity",
+    "melancholy",
+    "criticism"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "moon_today/aquarius",
+  "title": "Měsíc dnes ve Vodnáři",
+  "keywords": [
+   "odstup",
+   "svoboda",
+   "přátelé",
+   "změna rutiny",
+   "chladná hlava"
+  ],
+  "themes": [
+   "character",
+   "relationships",
+   "family",
+   "health"
+  ],
+  "text": "Dnešní nálada stojí víc na hlavě než na srdci a city si potřebuješ nejdřív pojmenovat. Bezpečí ti dává volný prostor, rozhovor s přáteli a nápad, který vybočuje ze zvyku. Domov na pár dní připomíná spíš klubovnu než hnízdo. Pomáhá změna rutiny: jiné místo u stolu, jiná cesta do práce. Situaci snáz vidíš zvenku a chápeš i lidi, se kterými obvykle nesouhlasíš. Péče o druhé má dnes podobu férového slova a praktické pomoci.",
+  "shadow": "Citový odstup, který ti dnes pomáhá vidět jasně, umí z blízkých udělat publikum místo lidí. Když někdo přijde s potřebou objetí, nabízíš mu rozbor situace. Vlastní smutek nebo únavu odbydeš větou, že o nic nejde. Na každou prosbu o pravidelnost reaguješ vzdorem, i když jde jen o společnou večeři. Přátelé dostanou víc vřelosti než rodina a doma pak zůstává chlad. Potřeba svobody se mění v útěk z rozhovoru, který tě citově zasahuje.",
+  "hard": [
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o neklidném žaludku a nepravidelném jídle ve dnech, kdy Měsíc prochází Vodnářem. Starší výklady k tomu přidávají potíže s krevním oběhem, otoky kotníků a nervové napětí, které se ukládá do těla. Zmiňují také neplodnost nebo opakované odkládání rodičovství. Jde o tradiční obraz, ne o jistotu."
+   },
+   {
+    "topics": [
+     "mental_crisis"
+    ],
+    "text": "Tradice tu mluví o narušené duševní rovnováze v podobě odcizení. Popisuje pocit, že se na vlastní život díváš přes sklo a city jsou daleko. Starší texty tuto polohu Měsíce spojují s nespavostí, roztěkaností a náhlými výkyvy mezi vzrušením a prázdnotou."
+   },
+   {
+    "topics": [
+     "loss",
+     "death"
+    ],
+    "text": "Tradice tu mluví o ztrátě matky nebo o citovém odloučení od ní. Zmiňuje také náhlé přetržení rodinného pouta a domov, který se rozpadá nebo mění místo. Staré výklady sem řadí i nečekané úmrtí v rodině a zprávu, která přichází z dálky. Jde o tradiční obraz, ne o jistotu."
+   }
+  ],
+  "traits": {
+   "text": [
+    "independence",
+    "rationality",
+    "originality",
+    "sociability",
+    "tolerance"
+   ],
+   "shadow": [
+    "detachment",
+    "coldness",
+    "rebellion",
+    "restlessness"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "moon_today/pisces",
+  "title": "Měsíc dnes v Rybách",
+  "keywords": [
+   "soucit",
+   "snění",
+   "citlivost",
+   "únik",
+   "splynutí"
+  ],
+  "themes": [
+   "character",
+   "relationships",
+   "family",
+   "health",
+   "growth"
+  ],
+  "text": "Měsíc v Rybách na dva až tři dny rozpouští hranici mezi tvou náladou a náladou okolí. Cizí smutek i radost na tebe přecházejí rychleji než obvykle. Tělo si říká o klid, vodu a delší spánek. Domov se mění v útočiště, kde se dobře sní, maluje, poslouchá hudba nebo modlí. Soucit teď přichází bez námahy a odhad toho, co druhý potřebuje, bývá přesný. Tyhle dny přejí péči o blízké, tvorbě a odpuštění starých křivd.",
+  "shadow": "Pod Měsícem v Rybách se potřeba bezpečí snadno mění v útěk do spánku, seriálů, sklenice nebo starých vzpomínek. Hranice slábnou, takže přebíráš cizí trápení a pak nevíš, co je vlastně tvoje. Snadno sklouzneš do role oběti, která čeká na záchranu. Přichází zmatek v plánech, zapomínání a sliby, které se nedodrží. Lpění na minulosti má teď nostalgickou podobu: idealizuješ, co bylo, a přehlížíš, co je. Kdo umí hrát na city, má teď u tebe otevřené dveře.",
+  "hard": [
+   {
+    "topics": [
+     "mental_crisis"
+    ],
+    "text": "Tradice tu mluví o křehké duševní rovnováze. Měsíc v Rybách spojuje se sklonem k přecitlivělosti, úzkostným snům, nespavosti a pocitu, že se svět rozplývá. U lidí s oslabenou psychikou staré texty zmiňují v těchto dnech zhoršení zmatku, melancholie a ztrátu pevné půdy pod nohama."
+   },
+   {
+    "topics": [
+     "addiction"
+    ],
+    "text": "Tradice tu mluví o sklonu k opojení. Ryby vládnou vínu, omamným látkám a všemu, co otupuje hranice. Měsíc k tomu přidává hlad po útěše. Staré výklady proto spojují tyto dny s větším rizikem pití, užívání tlumivých látek a návratu k dřívějším závislostem."
+   },
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o žaludku, tělesných tekutinách a chodidlech. Měsíc v Rybách dává do souvislosti s otoky, zadržováním vody, nevolností, oslabenou obranyschopností a citlivostí na jedy či zkažené jídlo. Plodnost a těhotenství tradice v tomto postavení vidí jako zranitelné téma provázené obavami."
+   },
+   {
+    "topics": [
+     "death",
+     "loss"
+    ],
+    "text": "Tradice tu mluví o ztrátě matky nebo ženy, která dávala domov. Ryby jsou znamením odloučení, nemocnic a skrytého smutku. Podle starých výkladů se v těchto dnech snáze vynořuje žal za zemřelými a stesk po domově, který už neexistuje."
+   }
+  ],
+  "traits": {
+   "text": [
+    "empathy",
+    "intuition",
+    "sensitivity",
+    "creativity",
+    "forgiveness"
+   ],
+   "shadow": [
+    "escapism",
+    "dependence",
+    "moodiness",
+    "addiction_tendency",
+    "insecurity"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ }
+]

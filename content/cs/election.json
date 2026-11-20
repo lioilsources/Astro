@@ -1,0 +1,1634 @@
+[
+ {
+  "key": "election/rule/moon_void",
+  "title": "Pravidlo elekce: Měsíc bez aspektu: od posledního hlavního aspektu ve znamení do vstupu do dalšího znamení. Jediné tvrdé pravidlo, takové okno se nevrací.",
+  "keywords": [
+   "měsíc bez aspektu",
+   "prázdný běh",
+   "vyloučené okno",
+   "nedokončená věc"
+  ],
+  "themes": [
+   "work",
+   "growth"
+  ],
+  "text": "Měsíc bez aspektu je podle tradičních pravidel jediné okno, které elekce vylučuje bez výjimky. Měsíc nese průběh každé začaté věci. Když už ve znamení nedokončí žádný hlavní aspekt, nemá komu předat světlo a věc podle tradice vyzní do prázdna. Pokud v tomto okně něco začínáš, tradice to čte jako krok bez navazujícího pohybu. Ani jinak příznivé postavení na tom podle starých autorů nic nemění.",
+  "hard": [
+   {
+    "topics": [
+     "loss"
+    ],
+    "text": "Tradice tu mluví o ztrátě. Věc začatá při Měsíci bez aspektu se podle starých autorů rozplyne, nedojde ke konci nebo skončí jinak, než se čekalo. Vynaložené úsilí, čas a očekávání podle tradičních pravidel přicházejí vniveč. Jde o tradiční výklad, ne o jistotu."
+   }
+  ],
+  "traits": {
+   "text": [
+    "stagnation",
+    "caution",
+    "patience",
+    "indecision"
+   ],
+   "shadow": [
+    "inconstancy",
+    "carelessness",
+    "stagnation"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "election/rule/moon_waxing",
+  "title": "Pravidlo elekce: Dorůstající Měsíc: od novu do úplňku, věc podle tradice roste.",
+  "keywords": [
+   "dorůstající měsíc",
+   "růst",
+   "přibývání",
+   "nový začátek"
+  ],
+  "themes": [
+   "growth",
+   "work"
+  ],
+  "text": "Dorůstající Měsíc mezi novem a úplňkem každou noc přibírá světlo, a proto ho tradice elekcí spojuje s růstem. Co začneš v této fázi, má podle tradičních pravidel přibývat: stavba, dílo nebo nové spojení. Tradice vychází z prosté analogie. Měsíc vládne proměnám a přenáší svůj vlastní přírůstek na věc, která právě vzniká. Jde o jedno pravidlo z mnoha, ne o záruku.",
+  "hard": [
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o tom, že dorůstající Měsíc zvětšuje všechno, co se pod ním začne. Patří sem i nemoc, otok nebo krvácení. Staří autoři proto zákroky na těle a odstraňování něčeho nechtěného kladli spíš do couvajícího Měsíce. Jde o historický výklad podle tradičních pravidel, ne o lékařský pohled."
+   }
+  ],
+  "traits": {
+   "text": [
+    "optimism",
+    "vitality",
+    "ambition",
+    "perseverance"
+   ],
+   "shadow": []
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "election/rule/moon_next_venus",
+  "title": "Pravidlo elekce: Příští aspekt Měsíce ve znamení míří na Venuši, menší dobrodějku.",
+  "keywords": [
+   "elekce",
+   "měsíc",
+   "venuše",
+   "menší dobrodějka",
+   "příznivý začátek"
+  ],
+  "themes": [
+   "relationships",
+   "growth"
+  ],
+  "text": "Příští aspekt Měsíce na Venuši bere tradice elekcí jako příznivý znak. Měsíc nese průběh věci, kterou začínáš, a jeho další aspekt ukazuje, kam věc spěje. Venuše, menší dobrodějka, podle tradičních pravidel přináší mírnost, shodu a potěšení. Proto se to cení hlavně u svateb, partnerství, umění a oslav. Platí to jen tehdy, když Venuše není spálená ani jinak poškozená.",
+  "traits": {
+   "text": [
+    "calm",
+    "charm",
+    "cooperation",
+    "cheerfulness"
+   ],
+   "shadow": [
+    "indulgence",
+    "superficiality"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "election/rule/moon_next_jupiter",
+  "title": "Pravidlo elekce: Příští aspekt Měsíce ve znamení míří na Jupiter, větší dobroděj.",
+  "keywords": [
+   "elekce",
+   "měsíc",
+   "jupiter",
+   "přízeň",
+   "dobrý konec"
+  ],
+  "themes": [
+   "growth",
+   "work"
+  ],
+  "text": "Měsíc mířící k Jupiteru patří podle tradičních pravidel k nejvlídnějším ukazatelům pro začátek. Měsíc v elekci nese průběh tvé věci a jeho příští aspekt ukazuje, kam se věc stočí. Jupiter, větší dobroděj, tradičně znamená růst, přízeň a dobrý konec. Tradice proto čte takový okamžik jako start, který se postupně rozvíjí k prospěchu. Záleží ale i na tom, zda Jupiter není oslabený nebo poškozený.",
+  "traits": {
+   "text": [
+    "optimism",
+    "trustfulness",
+    "generosity",
+    "contentment"
+   ],
+   "shadow": []
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "election/rule/venus_angle",
+  "title": "Pravidlo elekce: Venuše do 5° od ascendentu, descendentu, MC nebo IC.",
+  "keywords": [
+   "venuše na úhlu",
+   "malý benefik",
+   "síla úhlů",
+   "vlídný začátek",
+   "elekce"
+  ],
+  "themes": [
+   "relationships",
+   "growth",
+   "character"
+  ],
+  "text": "Venuše těsně u ascendentu, descendentu, MC nebo IC patří podle tradičních pravidel k nejpříznivějším znakům elekce. Úhly jsou nejsilnější místa horoskopu a planeta na nich jedná zřetelně. Venuše je malý benefik, proto tradice čte tvůj začátek jako vlídný, přitažlivý a smířlivý. Zvlášť ji cení u sňatků, spolupráce, umění a oslav. U ascendentu se dobro týká věci samé, u descendentu partnerů, u MC výsledku na veřejnosti, u IC konce věci.",
+  "hard": [
+   {
+    "topics": [
+     "illness",
+     "loss"
+    ],
+    "text": "Tradice tu mluví o ochranné roli benefika na úhlu. Venuše podle ní tlumí škody, které by jinak hrozily od Marsu nebo Saturnu, včetně nemoci a ztráty. Pravidlo ale slábne, když je Venuše spálená Sluncem, retrográdní nebo v pádu. Pak tradice mluví o půvabu, který rychle mizí, a o ztrátě toho, co začalo slibně."
+   }
+  ],
+  "traits": {
+   "text": [
+    "charm",
+    "cooperation",
+    "gentleness",
+    "forgiveness",
+    "sociability"
+   ],
+   "shadow": [
+    "indulgence",
+    "superficiality",
+    "vanity"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "election/rule/jupiter_angle",
+  "title": "Pravidlo elekce: Jupiter do 5° od ascendentu, descendentu, MC nebo IC.",
+  "keywords": [
+   "velký benefik",
+   "úhlová síla",
+   "ochrana začátku",
+   "růst",
+   "přízeň"
+  ],
+  "themes": [
+   "growth",
+   "work"
+  ],
+  "text": "Ve tvé elekci stojí Jupiter do 5° od osy. Podle tradičních pravidel je to silná opora začátku. Velký benefik na úhlu působí nejvíc a nejviditelněji. Tradice od něj čeká ochranu, růst a přízeň. Ascendent nese samotný počátek, MC výsledek, descendent druhou stranu a IC konec věci. Retrográdní, spálený nebo jinak poškozený Jupiter má podle tradice menší váhu.",
+  "traits": {
+   "text": [
+    "optimism",
+    "generosity",
+    "self_confidence",
+    "protectiveness"
+   ],
+   "shadow": []
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "election/rule/asc_ruler_dignified",
+  "title": "Pravidlo elekce: Tradiční vládce ascendentu ve vlastním znamení nebo v povýšení a přímý.",
+  "keywords": [
+   "elekce",
+   "vládce ascendentu",
+   "důstojnost",
+   "přímý pohyb",
+   "pevný začátek"
+  ],
+  "themes": [
+   "work",
+   "growth"
+  ],
+  "text": "Podle tradičních pravidel elekcí mluví pro zvolený okamžik, když je tradiční vládce ascendentu ve vlastním znamení nebo v povýšení a zároveň přímý. Ascendent představuje samotnou věc i tvou roli v ní. Vládce v důstojnosti má sílu jednat podle své povahy. Přímý pohyb znamená postup vpřed bez návratů a zdržení. Tradice v tom vidí pevný základ, ne záruku.",
+  "traits": {
+   "text": [
+    "order",
+    "steadiness",
+    "self_confidence",
+    "decisiveness",
+    "perseverance"
+   ],
+   "shadow": []
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "election/rule/hour_of_intent",
+  "title": "Pravidlo elekce: Planetární hodina patří planetě záměru.",
+  "keywords": [
+   "planetární hodina",
+   "elekce",
+   "záměr",
+   "chaldejské pořadí",
+   "souzvuk okamžiku"
+  ],
+  "themes": [
+   "work",
+   "growth"
+  ],
+  "text": "Hodina, které vládne planeta tvého záměru, dává začátku podle tradičních pravidel souzvuk. Tradice dělí den i noc na dvanáct nestejně dlouhých hodin a přiděluje je sedmi planetám v chaldejském pořadí. Když začínáš psaní v hodině Merkura, setkání v hodině Venuše nebo stavbu v hodině Saturnu, okamžik nese stejnou povahu jako věc. Tradice to bere jako podpůrné znamení, ne jako rozhodující.",
+  "traits": {
+   "text": [
+    "order",
+    "focus",
+    "patience",
+    "decisiveness"
+   ],
+   "shadow": []
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "election/rule/intent_planet_dignified",
+  "title": "Pravidlo elekce: Planeta záměru ve vlastním znamení nebo v povýšení.",
+  "keywords": [
+   "planeta záměru",
+   "vlastní znamení",
+   "povýšení",
+   "důstojnost",
+   "elekce"
+  ],
+  "themes": [
+   "work",
+   "growth"
+  ],
+  "text": "Planeta tvého záměru stojí ve vlastním znamení nebo v povýšení a tradice elekcí to bere jako silné svědectví pro začátek. Planeta ve vlastním znamení působí jako hospodář ve vlastním domě. V povýšení je jako ctěný host. V obou případech má sílu jednat podle své povahy. Věc, kterou zahajuješ, tím podle tradičních pravidel získává pevnější oporu. Nejde o záruku, jen o jedno svědectví mezi dalšími.",
+  "traits": {
+   "text": [
+    "steadiness",
+    "self_confidence",
+    "order",
+    "resilience"
+   ],
+   "shadow": []
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "election/rule/benefic_in_intent_house",
+  "title": "Pravidlo elekce: Venuše nebo Jupiter v domě záměru.",
+  "keywords": [
+   "dobrodějky",
+   "dům záměru",
+   "přízeň",
+   "ochrana začátku",
+   "elekce"
+  ],
+  "themes": [
+   "growth",
+   "work",
+   "relationships"
+  ],
+  "text": "Podle tradičních pravidel elekce patří okamžik, kdy Venuše nebo Jupiter stojí v domě tvého záměru, mezi příznivé. Tradice obě planety nazývá dobrodějkami. Jupiter věci rozšiřuje a chrání, Venuše jim dodává soulad a přízeň druhých. Planeta v domě, který nese tvou věc, podle starých autorů začátek podpírá. Účinek slábne, když je dobrodějka spálená Sluncem nebo retrográdní, případně když ji tíží Mars či Saturn.",
+  "hard": [
+   {
+    "topics": [
+     "death",
+     "illness"
+    ],
+    "text": "Tradice tu mluví o tom, že pravidlo platí i pro těžké domy. Osmý dům staří autoři spojují se smrtí, šestý s nemocí. Pokud tvůj záměr patří k jednomu z nich, dobrodějka v něm podle tradičních pravidel zmírňuje jeho tíhu. Tradice zároveň učí, že poškozená Venuše či Jupiter tuto ochranu nedává. Dům pak zůstává vydán svým tvrdším významům."
+   }
+  ],
+  "traits": {
+   "text": [
+    "optimism",
+    "generosity",
+    "charm",
+    "calm"
+   ],
+   "shadow": [
+    "carelessness",
+    "indulgence"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "election/rule/personal_moon_harmonious",
+  "title": "Pravidlo elekce: Měsíc okna v konjunkci, sextilu nebo trigonu s natálním Sluncem, Měsícem nebo ascendentem (orb 3°).",
+  "keywords": [
+   "elekce",
+   "měsíc okna",
+   "harmonický aspekt",
+   "osobní souzvuk",
+   "začátek věci"
+  ],
+  "themes": [
+   "growth",
+   "character"
+  ],
+  "text": "Měsíc okna, který se v orbu tří stupňů spojuje, sextiluje nebo trigonuje s tvým natálním Sluncem, Měsícem nebo ascendentem, řadí tradice elekcí mezi příznivé ukazatele. Měsíc nese průběh každého začátku. Když se harmonicky dotýká citlivých bodů tvého horoskopu, okamžik podle tradičních pravidel ladí s tebou osobně. Obecně vhodná chvíle tak získává přímou vazbu na tvůj vlastní horoskop.",
+  "traits": {
+   "text": [
+    "calm",
+    "belonging",
+    "steadiness",
+    "flexibility"
+   ],
+   "shadow": []
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "election/rule/personal_calm_day",
+  "title": "Pravidlo elekce: V den okna nemá osobní horoskop žádný napěťový tranzit (skóre napětí 0).",
+  "keywords": [
+   "klidný den",
+   "osobní horoskop",
+   "tranzity",
+   "elekce",
+   "začátek věci"
+  ],
+  "themes": [
+   "growth",
+   "work"
+  ],
+  "text": "Den okna, kdy tvůj osobní horoskop nemá žádný napěťový tranzit, tradice elekcí počítá mezi příznivé znaky. Tradice čte tranzity jako tvůj osobní stav. Napětí od Saturnu či Marsu tu značí zdržení a třenice, které by nová věc nesla s sebou. Podle tradičních pravidel se věc začatá v takovém dni nerodí do tlaku tvých vlastních konfliktů. Nejde o záruku. Je to jen jeden hlas pro, který se váží s ostatními pravidly.",
+  "traits": {
+   "text": [
+    "calm",
+    "order",
+    "steadiness"
+   ],
+   "shadow": [
+    "stagnation",
+    "carelessness"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "election/rule/moon_next_mars_hard",
+  "title": "Pravidlo elekce: Příští aspekt Měsíce je kvadrát nebo opozice k Marsu.",
+  "keywords": [
+   "napjatý měsíc",
+   "mars",
+   "střet",
+   "spěch",
+   "nevhodný začátek"
+  ],
+  "themes": [
+   "work",
+   "relationships",
+   "health"
+  ],
+  "text": "Když Měsíc jako první navazuje kvadrát nebo opozici k Marsu, mluví tento okamžik podle tradičních pravidel proti začátku. Měsíc ukazuje průběh věci a jeho příští aspekt určuje, kam se začátek posouvá. Napjatý Mars tradice čte jako spor, spěch a poškození. Věc, kterou v tu chvíli začínáš, pak podle tradice provázejí hádky, ukvapené kroky a náhlé překážky.",
+  "hard": [
+   {
+    "topics": [
+     "violence"
+    ],
+    "text": "Tradice tu mluví o střetu, o hádce, která přerůstá v násilí, o útoku a krádeži. Mluví také o přepadení na cestě. Starší autoři proto tento aspekt odmítali u začátku cesty, smlouvy nebo společného podniku. Nejde o jistotu, jen o tradiční čtení symbolů."
+   },
+   {
+    "topics": [
+     "illness",
+     "death"
+    ],
+    "text": "Tradice tu mluví o horečkách, zánětech, zraněních, popáleninách a krvácení. Staré elekční texty proto tento aspekt vylučovaly u začátku léčby a zákroků, protože Mars spojovaly s řezem, ohněm a krví. V nejtěžším čtení tradice zmiňuje i nebezpečí smrti. Jde o tradiční symboliku, ne o předpověď."
+   }
+  ],
+  "traits": {
+   "text": [
+    "impulsiveness",
+    "anger",
+    "aggression",
+    "chaos"
+   ],
+   "shadow": [
+    "aggression",
+    "bluntness",
+    "restlessness"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "election/rule/moon_next_saturn_hard",
+  "title": "Pravidlo elekce: Příští aspekt Měsíce je kvadrát nebo opozice k Saturnu.",
+  "keywords": [
+   "elekce",
+   "zdržení",
+   "překážky",
+   "těžký průběh",
+   "saturn"
+  ],
+  "themes": [
+   "work",
+   "health",
+   "money"
+  ],
+  "text": "Měsíc, jehož příští aspekt je kvadrát nebo opozice k Saturnu, mluví podle tradičních pravidel proti začátku věci. Příští aspekt Měsíce v elekcích ukazuje, kam se věc ubírá a jak skončí. Saturn je velký škůdce a v napjatém aspektu přináší zdržení, chlad, překážky a tíhu. Věc začatá v této chvíli se podle tradice vleče, uvízne nebo končí zklamáním.",
+  "hard": [
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o nemoci. Při volbě chvíle pro zákrok na těle čtou starší autoři Měsíc spějící k napjatému aspektu se Saturnem jako znamení pomalého hojení a komplikací. Spojují ho také s chladnými, vleklými a chronickými potížemi a s vyčerpáním. Jde o tradiční výklad, ne o předpověď."
+   },
+   {
+    "topics": [
+     "death"
+    ],
+    "text": "Tradice tu mluví i o smrti. U některých autorů ukazuje Měsíc spějící ke kvadrátu nebo opozici se Saturnem v otázkách nemoci život ohrožující průběh nebo konec věci. Platí to zvlášť tehdy, když je Saturn silný nebo stojí v rohu horoskopu. Podle tradičních pravidel jde o jedno z nejtěžších znamení pro začátky spojené s tělem, nikoli o jistotu."
+   },
+   {
+    "topics": [
+     "loss",
+     "ruin"
+    ],
+    "text": "Tradice tu mluví o ztrátě a úpadku. Podnik, cesta nebo spojení začaté v této chvíli se podle tradičních pravidel může rozpadnout. Může také přinést nedostatek, opuštění nebo dlouhé strádání. Saturn tu znamená odnětí a pomalý rozklad toho, co mělo růst."
+   }
+  ],
+  "traits": {
+   "text": [
+    "caution",
+    "patience",
+    "realism",
+    "perseverance"
+   ],
+   "shadow": [
+    "stagnation",
+    "pessimism",
+    "exhaustion",
+    "melancholy"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "election/rule/mars_angle",
+  "title": "Pravidlo elekce: Mars do 5° od ascendentu, descendentu, MC nebo IC.",
+  "keywords": [
+   "mars na úhlu",
+   "elekce",
+   "malefik",
+   "spor",
+   "spěch"
+  ],
+  "themes": [
+   "work",
+   "relationships",
+   "health"
+  ],
+  "text": "Mars do pěti stupňů od osy horoskopu patří podle tradičních pravidel k jasným varováním elekční astrologie. Malefik na úhlu má v okamžiku začátku největší sílu a vtiskuje věci spěch, spor a ostří. Na ascendentu zasahuje tebe a samotný podnik, na descendentu posiluje protivníky, na MC výsledek a pověst, na IC konec věci. Proto tradice takový okamžik odmítá.",
+  "hard": [
+   {
+    "topics": [
+     "violence"
+    ],
+    "text": "Tradice tu mluví o hádkách, rvačkách a násilí. Mars na úhlu podle starých autorů rozdmýchává konflikty s lidmi kolem začínané věci, zvlášť na descendentu, kde dodává sílu otevřeným nepřátelům. U cest a staveb tradiční texty zmiňují úrazy, řezná zranění, oheň a požáry."
+   },
+   {
+    "topics": [
+     "illness",
+     "death"
+    ],
+    "text": "Tradice tu mluví také o horečkách, zánětech, krvácení a náhlých nemocech. U elekcí spojených s tělem staré texty varují před Marsem na ascendentu a spojují ho s komplikacemi a krví. V nejtěžších případech, hlavně při poškozené Luně nebo vládci ascendentu, mluví tradice i o smrti. Jde o tradiční výklad, ne o předpověď."
+   },
+   {
+    "topics": [
+     "loss",
+     "ruin"
+    ],
+    "text": "Na MC a IC spojuje tradice Marse se ztrátou a zkázou díla. Na MC podle ní hrozí pád pověsti a náhlé přerušení práce, na IC rozpad věci na konci, ztráta majetku, zničení domu ohněm nebo krádeží. Podnik podle těchto pravidel začíná v rozjitřeném okamžiku a snadno končí ve sporu."
+   }
+  ],
+  "traits": {
+   "text": [
+    "aggression",
+    "impulsiveness",
+    "anger",
+    "chaos",
+    "competitiveness"
+   ],
+   "shadow": []
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "election/rule/saturn_angle",
+  "title": "Pravidlo elekce: Saturn do 5° od ascendentu, descendentu, MC nebo IC.",
+  "keywords": [
+   "zdržení",
+   "překážky",
+   "úhel horoskopu",
+   "tíha začátku",
+   "pomalý průběh"
+  ],
+  "themes": [
+   "work",
+   "relationships",
+   "health",
+   "growth"
+  ],
+  "text": "Saturn do pěti stupňů od ascendentu, descendentu, MC nebo IC patří podle tradičních pravidel k vážným námitkám proti zvolenému okamžiku. Na úhlu má planeta největší sílu působit. Saturn tu podle tradice přináší zdržení, překážky a těžkopádný průběh. Na ascendentu zatěžuje toho, kdo věc začíná. Na descendentu zatěžuje partnery a protivníky, na MC výsledek a pověst, na IC konec věci. Tvůj začátek tak podle tradice nese tíhu od první chvíle.",
+  "hard": [
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o nemocech. Podle starých autorů oslabuje Saturn na ascendentu tělo toho, kdo věc zahajuje. Spojuje se s chladem, vleklými potížemi a pomalým zotavováním. Při volbě okamžiku spojeného se zdravím se takové postavení podle tradičních pravidel výslovně odmítá."
+   },
+   {
+    "topics": [
+     "death",
+     "loss"
+    ],
+    "text": "Tradice tu mluví o smrti a ztrátě. IC podle starých autorů ukazuje konec věci a hrob. Saturn na tomto úhlu podle tradičních pravidel znamená smutný nebo předčasný konec započatého. U cest a podniků znamená i ztrátu. Někteří autoři v krajních případech zmiňují smrt toho, koho se věc týká."
+   },
+   {
+    "topics": [
+     "ruin"
+    ],
+    "text": "Tradice tu mluví o pádu. Saturn na MC podle tradičních pravidel ohrožuje výsledek a pověst. Věc se podle tradice může rozpadnout a úřad nebo dílo může skončit ponížením. Na descendentu posiluje Saturn protivníky a přináší rozkol s partnery."
+   }
+  ],
+  "traits": {
+   "text": [
+    "stagnation",
+    "rigidity",
+    "pessimism",
+    "caution"
+   ],
+   "shadow": [
+    "exhaustion",
+    "melancholy",
+    "loneliness"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "election/rule/intent_planet_retrograde",
+  "title": "Pravidlo elekce: Planeta záměru je retrográdní.",
+  "keywords": [
+   "zpětný pohyb",
+   "zdržení",
+   "návrat k začátku",
+   "nedokončení",
+   "elekce"
+  ],
+  "themes": [
+   "work",
+   "growth"
+  ],
+  "text": "Planeta, která nese tvůj záměr, se v elekci pohybuje zpětně. Podle tradičních pravidel to mluví proti začátku. Věc se zdržuje, vrací se k výchozímu bodu, mění směr nebo se rozpadne dřív, než dozraje. Zpětný pohyb tu znamená obrácený běh a neposlušnost vůči plánu. Výjimkou bývají návraty, opravy a hledání ztraceného. Tam tradice zpětný pohyb čte příznivěji.",
+  "hard": [
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "U počátků spojených s tělem a ošetřováním tradice tu mluví o návratu potíží. Retrográdní signifikátor podle starých autorů ukazuje na recidivu, tedy na stav, který se po zlepšení vrací zpět. Jde o tradiční výklad symbolu, ne o předpověď ani o lékařské hodnocení."
+   },
+   {
+    "topics": [
+     "loss",
+     "ruin"
+    ],
+    "text": "Tradice tu mluví o ztrátě vynaloženého úsilí. Podle starých pravidel se to, co začne pod zpětnou planetou záměru, může rozpadnout, zůstat nedokončené nebo se obrátit proti původnímu cíli. Bonatti spojuje zpětný pohyb s neposlušností a se zmarem věci. Je to obraz z tradičního výkladu, žádná jistota."
+   }
+  ],
+  "traits": {
+   "text": [
+    "procrastination",
+    "inconstancy",
+    "stagnation",
+    "indecision"
+   ],
+   "shadow": []
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "election/rule/intent_planet_fall",
+  "title": "Pravidlo elekce: Planeta záměru je v pádu.",
+  "keywords": [
+   "pád planety",
+   "ztráta vážnosti",
+   "oslabený záměr",
+   "elekce",
+   "nízké postavení"
+  ],
+  "themes": [
+   "work",
+   "growth"
+  ],
+  "text": "Planeta, která nese tvůj záměr, stojí v pádu, tedy ve znamení naproti svému povýšení. Tradice elekcí to čte jako okolnost proti začátku. Planeta v pádu ztrácí vážnost a uznání, podobá se hostu, kterého nikdo nectí. Podle tradičních pravidel věc začatá v takové chvíli snadno nedosahuje respektu, který by jí náležel. Pád se netýká ani tak síly, jako spíš cti a postavení.",
+  "hard": [
+   {
+    "topics": [
+     "loss",
+     "ruin"
+    ],
+    "text": "Tradice tu mluví o ponížení a úpadku. Věc začatá pod planetou v pádu může podle tradičních pravidel skončit ztrátou dobrého jména, odmítnutím nebo pozvolným rozpadem. Starší autoři zmiňují i sesazení z dosaženého místa a úsilí, které nepřinese uznání. Nejde o jistotu, jen o tradiční čtení planety zbavené cti."
+   }
+  ],
+  "traits": {
+   "text": [
+    "insecurity",
+    "humility",
+    "stagnation",
+    "exhaustion"
+   ],
+   "shadow": []
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "election/rule/intent_planet_detriment",
+  "title": "Pravidlo elekce: Planeta záměru je ve zničení (ve znamení naproti svému sídlu).",
+  "keywords": [
+   "zničení planety",
+   "oslabený záměr",
+   "cizí dům",
+   "odpor okolností"
+  ],
+  "themes": [
+   "work",
+   "growth",
+   "character"
+  ],
+  "text": "Když planeta tvého záměru stojí ve znamení naproti svému sídlu, tradice elekcí to čte jako znamení proti začátku. Planeta tu působí jako host v cizím domě. Sílu má, ale jedná proti své povaze. Podle tradičních pravidel věc začíná v nepříznivých podmínkách a postupuje proti odporu. Výsledek se často odchyluje od původního úmyslu.",
+  "hard": [
+   {
+    "topics": [
+     "ruin",
+     "loss"
+    ],
+    "text": "Tradice tu mluví o rozpadu věci. Co začne pod planetou záměru ve zničení, se podle tradičních pravidel postupně kazí a ztrácí hodnotu, případně končí jinak, než se zamýšlelo. Klasičtí autoři to přirovnávají k člověku vyhnanému z domova, který nemá prostředky ani podporu a musí jednat proti své vůli."
+   },
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "U volby okamžiku pro věc týkající se těla tradice tu mluví o horším průběhu a pomalejším zotavení, když je planeta záměru ve zničení. Středověké texty spojují oslabenou planetu s oslabenou životní silou toho, co se zahajuje. Jde o tradiční výklad, ne o předpověď."
+   }
+  ],
+  "traits": {
+   "text": [
+    "stagnation",
+    "insecurity",
+    "chaos",
+    "inconstancy"
+   ],
+   "shadow": [
+    "exhaustion",
+    "pessimism"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "election/rule/asc_ruler_bad_house",
+  "title": "Pravidlo elekce: Vládce ascendentu v 6., 8. nebo 12. domě.",
+  "keywords": [
+   "vládce ascendentu",
+   "averze k ascendentu",
+   "slabý zastupitel",
+   "nešťastné domy"
+  ],
+  "themes": [
+   "health",
+   "work",
+   "growth"
+  ],
+  "text": "Vládce ascendentu v 6., 8. nebo 12. domě patří podle tradičních pravidel k vážným slabinám elekce. Tento vládce zastupuje tebe i věc, kterou začínáš. Z těchto domů ascendent nevidí, takže zastupitel ztrácí spojení se svým začátkem. Tyto domy navíc nesou význam nemoci, smrti, dluhů a skrytých nepřátel. Tradice proto čeká, že věc nemá dost síly prosadit se.",
+  "hard": [
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Vládce ascendentu v 6. domě tradice spojuje s nemocí a slabostí. Tradice tu mluví o tom, že věc nebo ten, kdo ji zahajuje, podle tradičních pravidel churaví nebo slábne. Dalším tématem je podřízenost a vyčerpávající služba. Začátek se pak podle tradice vleče pod tíhou obtíží, které mu berou sílu."
+   },
+   {
+    "topics": [
+     "death",
+     "loss",
+     "ruin"
+    ],
+    "text": "Vládce ascendentu v 8. domě je podle tradičních pravidel nejtěžší z těchto postavení. Tradice tu mluví o smrti, konci a zániku věci. Osmý dům nese také cizí peníze, dluhy a ztráty. Začatá věc podle tradice směřuje ke svému konci dřív, než se stihne rozvinout, nebo ji pohltí závazky vůči druhým."
+   },
+   {
+    "topics": [
+     "loss",
+     "ruin"
+    ],
+    "text": "Vládce ascendentu ve 12. domě tradice čte jako zastupitele v ústraní a v zajetí. Tradice tu mluví o skrytých nepřátelích, uvěznění, zármutku a tajném trápení. Věc podle tradičních pravidel zůstává nepovšimnutá, podkopávaná zezadu nebo se sama sobě stává překážkou. Výsledkem bývá podle tradice tiché selhání bez zjevné příčiny."
+   }
+  ],
+  "traits": {
+   "text": [
+    "stagnation",
+    "insecurity",
+    "exhaustion",
+    "caution"
+   ],
+   "shadow": []
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "election/rule/asc_ruler_retrograde",
+  "title": "Pravidlo elekce: Vládce ascendentu je retrográdní.",
+  "keywords": [
+   "zpětný pohyb",
+   "zdržení",
+   "návrat k začátku",
+   "odvolání",
+   "nedokončení"
+  ],
+  "themes": [
+   "work",
+   "relationships",
+   "health",
+   "growth"
+  ],
+  "text": "Retrográdní vládce ascendentu v elekci znamená podle tradice, že začatá věc couvá. Vládce ascendentu zastupuje tebe a tvůj záměr. Jeho zpětný pohyb podle tradičních pravidel ukazuje zdržení, opakované návraty na začátek, změny rozhodnutí a odstoupení od plánu. Výjimkou bývá záměr, u kterého návrat chceš, například cesta s plánovaným návratem nebo hledání ztracené věci.",
+  "hard": [
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o zahájení léčby nebo zákroku v době, kdy je vládce ascendentu retrográdní. Staří autoři to spojují s návratem nemoci, s recidivou nebo s pomalejším zotavením. Zpětný pohyb pro ně značí vracení stavu, který už odezněl. Jde o tradiční výklad, ne o předpověď tvého zdraví."
+   },
+   {
+    "topics": [
+     "loss",
+     "ruin"
+    ],
+    "text": "Tradice tu mluví také o rozpadu díla. Věc začatá pod retrográdním vládcem ascendentu se podle starých autorů může rozplynout, zůstat nedokončená nebo skončit ztrátou vloženého úsilí. Bonatti a další autoři spojují zpětný pohyb s nesvorností a s odvoláním slibů. Podle tradičních pravidel jde o varovný signál, ne o jistý konec."
+   }
+  ],
+  "traits": {
+   "text": [
+    "indecision",
+    "inconstancy",
+    "procrastination",
+    "stagnation"
+   ],
+   "shadow": []
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "election/rule/eclipse",
+  "title": "Pravidlo elekce: Den zatmění Slunce nebo Měsíce, den před ním a den po něm (místní kalendářní dny).",
+  "keywords": [
+   "zatmění",
+   "oslabená světla",
+   "lunární uzly",
+   "skryté okolnosti",
+   "nejistý začátek"
+  ],
+  "themes": [
+   "work",
+   "growth"
+  ],
+  "text": "Podle tradičních pravidel mluví den zatmění Slunce nebo Měsíce, den před ním i den po něm proti začátku nové věci. Tradice tu vidí obě světla oslabená a zatemněná, Měsíc u lunárních uzlů a nejistý výchozí bod. Co začneš v takové dny, podle starých autorů snadno ztrácí jasný směr, skrývá podstatné okolnosti nebo nevydrží. Nejde o záruku, jen o tradiční výklad.",
+  "hard": [
+   {
+    "topics": [
+     "death",
+     "illness"
+    ],
+    "text": "Tradice tu mluví o zatmění jako o znamení nemocí, úmrtí a těžkých období. Staří autoři je spojovali s pádem vládců, epidemiemi a neštěstím pro ty, jimž zatmění vládne. V elekcích z toho plyne, že začátek v těchto dnech nese podle tradičních pravidel symboliku slabosti a zániku věci. Jde o symbolický výklad, ne o předpověď."
+   },
+   {
+    "topics": [
+     "loss",
+     "ruin"
+    ],
+    "text": "Tradice tu mluví o ztrátě a zmaru. Zatmění podle starých textů zakrývá světlo, které věc vede, takže začatý podnik se může rozpadnout, ztratit podporu nebo skončit bez výsledku. Měsíc u dračí hlavy či dračího ocasu se v tradici pojí s ubýváním a odnímáním. Je to tradiční symbolika, žádná jistota."
+   }
+  ],
+  "traits": {
+   "text": [
+    "caution",
+    "insecurity",
+    "chaos",
+    "restraint"
+   ],
+   "shadow": [
+    "anxiety",
+    "fearfulness",
+    "pessimism"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "election/rule/via_combusta",
+  "title": "Pravidlo elekce: Měsíc ve spálené cestě, od 15° Vah do 15° Štíra.",
+  "keywords": [
+   "spálená cesta",
+   "oslabený měsíc",
+   "nepříznivý začátek",
+   "překážky"
+  ],
+  "themes": [
+   "work",
+   "relationships",
+   "health"
+  ],
+  "text": "Když vybíráš okamžik k začátku věci, tradice elekcí upozorňuje na Měsíc mezi 15° Vah a 15° Štíra, tedy ve spálené cestě. Podle tradičních pravidel je tu Měsíc oslabený, jako by ho spálilo Slunce. Váhy jsou pádem Slunce a povýšením Saturna, Štír domem Marta a pádem Měsíce. Věc začatá v tomto úseku podle tradice naráží na překážky a nejistý průběh.",
+  "hard": [
+   {
+    "topics": [
+     "violence",
+     "death"
+    ],
+    "text": "Tradice tu mluví o násilí a nebezpečí. Starší autoři spojovali tento úsek s hvězdami násilné povahy a s vlivem Marta. Cesta zahájená v tomto okamžiku podle tradičních pravidel hrozila přepadením, zraněním a v nejhorším případě smrtí. Jde o tradiční výklad, ne o jistotu."
+   },
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o nemoci. Pokud nemoc začala při Měsíci ve spálené cestě, starší autoři čekali těžší a delší průběh, protože Měsíc nese tělesné síly a tady je oslabený. Je to pouze tradiční výklad, ne lékařské hledisko ani předpověď."
+   },
+   {
+    "topics": [
+     "loss",
+     "ruin"
+    ],
+    "text": "Tradice tu mluví o ztrátě a zmaru. Věc začatá v tomto úseku podle tradičních pravidel snadno přichází o hodnotu, ztrácí oporu nebo se rozpadá dřív, než přinese plody. Sňatkům, smlouvám a koupím se tu podle starých autorů nedařilo. Nejde o jistotu, jen o to, jak tradice tento úsek čte."
+   }
+  ],
+  "traits": {
+   "text": [
+    "caution",
+    "insecurity",
+    "restlessness",
+    "chaos"
+   ],
+   "shadow": []
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "election/rule/malefic_in_intent_house",
+  "title": "Pravidlo elekce: Mars nebo Saturn v domě záměru.",
+  "keywords": [
+   "škůdce v domě záměru",
+   "elekce",
+   "překážka",
+   "spor",
+   "zdržení"
+  ],
+  "themes": [
+   "work",
+   "money",
+   "health"
+  ],
+  "text": "Mars nebo Saturn v domě, který nese tvůj záměr, patří podle tradičních pravidel k vážným námitkám proti zvolenému okamžiku. Tradice bere obě planety jako škůdce: Mars přináší spěch, spory a náhlé přerušení, Saturn zdržení, překážky a chlad. Když stojí přímo v domě věci, o kterou ti jde, poškozují podle starých autorů právě ji. Ostatní znaky horoskopu mohou obraz zmírnit, toto postavení ale zůstává námitkou.",
+  "hard": [
+   {
+    "topics": [
+     "violence",
+     "death"
+    ],
+    "text": "Tradice tu mluví o tom, že Mars v domě záměru ukazuje na úraz, řez, oheň nebo násilí spojené s danou věcí. Platí to hlavně při cestě, sporu nebo zákroku. Pokud je zároveň zasažený osmý dům nebo poškozená Luna, starší autoři připouštějí i smrt. Jde o tradiční výklad, ne o předpověď."
+   },
+   {
+    "topics": [
+     "illness",
+     "loss",
+     "ruin"
+    ],
+    "text": "Tradice tu mluví o tom, že Saturn v domě záměru věc dusí. Přináší dlouhé zdržení a u záležitostí šestého domu vleklou nemoc. U druhého domu ukazuje na ztrátu majetku. Jinde jde o pomalý rozpad, který končí zmarem celého podniku. Podle tradičních pravidel je to námitka, ne jistota."
+   }
+  ],
+  "traits": {
+   "text": [
+    "impulsiveness",
+    "aggression",
+    "stagnation",
+    "chaos",
+    "caution"
+   ],
+   "shadow": [
+    "anger",
+    "rigidity",
+    "pessimism"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "election/rule/personal_moon_tense",
+  "title": "Pravidlo elekce: Měsíc okna v kvadrátu nebo opozici k natálnímu Slunci, Měsíci nebo ascendentu (orb 3°).",
+  "keywords": [
+   "elekce",
+   "napjatý měsíc",
+   "natální body",
+   "tření",
+   "nevhodný začátek"
+  ],
+  "themes": [
+   "character",
+   "growth",
+   "health"
+  ],
+  "text": "Měsíc okna v kvadrátu nebo opozici k tvému natálnímu Slunci, Měsíci nebo ascendentu mluví podle tradičních pravidel proti začátku. Tyto body nesou tvou vůli, city a tělo. Tradice elekcí chce, aby okamžik startu ladil s tvým horoskopem. Napětí v orbu do 3° čte jako tření mezi věcí a tebou. Tradice tu čeká zdržení, odpor a pocit, že se začatá věc staví proti tobě.",
+  "hard": [
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o tom, že napětí Měsíce k natálnímu ascendentu nebo Měsíci zasahuje tělo a životní sílu. Starší autoři proto takový okamžik odmítali pro začátky spojené s tělem. Uváděli riziko oslabení, nemoci nebo zhoršení stavu. Jde o výklad tradice, ne o jistotu ani předpověď."
+   },
+   {
+    "topics": [
+     "loss"
+    ],
+    "text": "Tradice tu mluví o ztrátě. Podle starých autorů se věc začatá pod takovým Měsícem může rozpadnout nebo ztratit podporu. Může také skončit dřív, než přinese plody. Jde o tradiční čtení, ne o jistotu."
+   }
+  ],
+  "traits": {
+   "text": [
+    "restlessness",
+    "moodiness",
+    "insecurity",
+    "stagnation"
+   ],
+   "shadow": []
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "election/rule/personal_tension_high",
+  "title": "Pravidlo elekce: Skóre napětí tranzitů v den okna je 60 a víc.",
+  "keywords": [
+   "napětí tranzitů",
+   "tvrdé aspekty",
+   "nevhodný začátek",
+   "elekce",
+   "zdržení"
+  ],
+  "themes": [
+   "character",
+   "work",
+   "health"
+  ],
+  "text": "Skóre napětí tranzitů 60 a víc znamená, že den okna podle tradičních pravidel mluví proti začátku. Tradice elekcí věří, že věc nese otisk chvíle svého zrodu. Tvrdé aspekty, hlavně od Marsu a Saturnu na body tvého horoskopu, se podle ní přenášejí do celého průběhu věci jako zdržení, třenice a opakované překážky. Proto tradice dává přednost klidnějšímu dni.",
+  "hard": [
+   {
+    "topics": [
+     "illness",
+     "violence",
+     "loss"
+    ],
+    "text": "Tradice tu mluví o tom, že silné tvrdé tranzity Marsu a Saturnu na osobní body horoskopu provázejí úrazy, horečnaté nemoci, prudké spory a ztráty. Začátek v takový den podle tradičních pravidel tyto náznaky přenáší do založené věci. Jde o tradiční výklad, ne o jistotu ani předpověď."
+   }
+  ],
+  "traits": {
+   "text": [
+    "caution",
+    "patience",
+    "restraint"
+   ],
+   "shadow": [
+    "restlessness",
+    "anger"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "election/intent/relationship",
+  "title": "Záměr: svatba, vztah",
+  "keywords": [
+   "svatba",
+   "partnerství",
+   "venuše",
+   "7. dům",
+   "smlouva"
+  ],
+  "themes": [
+   "relationships",
+   "family"
+  ],
+  "text": "Při volbě okamžiku pro svatbu nebo začátek vztahu hledí tradice elekcí hlavně na 7. dům a Venuši. Podle tradičních pravidel má být Venuše silná a nepoškozená a 7. dům i jeho vládce v dobrém stavu. Sedmý dům totiž nese partnera, manželství i samotnou smlouvu. Sleduje se také Luna, která se má k Venuši přibližovat v přízni. Zvolený okamžik se tak čte jako semínko celého svazku.",
+  "hard": [
+   {
+    "topics": [
+     "loss"
+    ],
+    "text": "Tradice tu mluví o rozvodech a rozchodech. Podle tradičních pravidel ukazuje poškozený vládce 7. domu nebo Venuše pod tlakem Saturna svazek, který může ochladnout nebo se rozpadnout. Nejde o jistotu. Jde o to, čeho se staří autoři při volbě data obávali."
+   },
+   {
+    "topics": [
+     "violence"
+    ],
+    "text": "Tradice tu mluví o sporech a otevřených nepřátelích. Sedmý dům nese i protivníka. Mars v něm nebo v napětí s jeho vládcem čtou staré texty jako znamení hádek, soupeření a tvrdých střetů mezi partnery. Podle tradičních pravidel se takový okamžik pro sňatek nevolil."
+   },
+   {
+    "topics": [
+     "death"
+    ],
+    "text": "Tradice tu mluví i o smrti. Někteří středověcí autoři podle vládců 1. a 7. domu odhadovali, který z manželů zemře dřív. Těžké poškození vládce 7. domu četli jako znamení ovdovění. Jde o tradiční výklad, ne o předpověď."
+   }
+  ],
+  "traits": {
+   "text": [
+    "loyalty",
+    "belonging",
+    "cooperation",
+    "charm"
+   ],
+   "shadow": [
+    "infidelity",
+    "jealousy",
+    "aggression"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "election/intent/contract",
+  "title": "Záměr: smlouva, podpis, jednání",
+  "keywords": [
+   "smlouva",
+   "podpis",
+   "jednání",
+   "merkur",
+   "dohoda"
+  ],
+  "themes": [
+   "work",
+   "relationships"
+  ],
+  "text": "Pro podpis smlouvy hledí tradiční pravidla elekcí hlavně na Merkura, pána slov, písma a dohod. Má být přímý, rychlý a bez poškození od Marsu či Saturna. Tradice dál sleduje 7. dům, kde sídlí druhá strana dohody, a 3. dům, který nese řeč, dopisy a vyjednávání. Měsíc má k Merkuru nebo k pánu 7. domu směřovat příznivým aspektem. Jde o tradiční měřítko, ne o záruku výsledku.",
+  "hard": [
+   {
+    "topics": [
+     "loss",
+     "ruin"
+    ],
+    "text": "Tradice tu mluví o smlouvách uzavřených při zpětném Merkuru. Dohoda se podle ní mění, opakuje nebo rozpadá a písemnosti obsahují chyby. Měsíc bez kurzu má podle starých autorů ukazovat jednání, z něhož nic nevzejde. Saturn v 7. domě tradičně znamená průtahy, nesplněné závazky a ztrátu vložených prostředků."
+   },
+   {
+    "topics": [
+     "violence",
+     "loss"
+    ],
+    "text": "Tradice tu mluví o Marsu v 7. domě nebo v těžkém aspektu k jeho pánu jako o znamení otevřených nepřátel. Jednání se podle ní mění v hádku, spor nebo soudní při a protistrana vystupuje nepřátelsky. Staré texty u takového začátku zmiňují i rozchody společníků a rozpad partnerství."
+   },
+   {
+    "topics": [
+     "violence",
+     "loss"
+    ],
+    "text": "Tradice tu mluví o poškozeném 3. domě jako o znamení nehod na krátkých cestách k jednání, včetně zranění. Staří autoři k němu řadí i spory se sourozenci a blízkým okolím. Zmiňují také pomluvy, ztracené dopisy a zkreslené zprávy, které dohodu narušují ještě před podpisem."
+   }
+  ],
+  "traits": {
+   "text": [
+    "eloquence",
+    "honesty",
+    "cooperation",
+    "decisiveness",
+    "rationality"
+   ],
+   "shadow": [
+    "deceit",
+    "indecision",
+    "inconstancy"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "election/intent/launch",
+  "title": "Záměr: zahájení podnikání, spuštění projektu",
+  "keywords": [
+   "začátek",
+   "první dojem",
+   "pověst",
+   "postavení",
+   "růst"
+  ],
+  "themes": [
+   "work",
+   "growth"
+  ],
+  "text": "Při zahájení tvého podnikání nebo projektu hledí tradice elekcí hlavně na 1. a 10. dům a na Slunce s Jupiterem. První dům představuje samotný začátek, jeho tělo a první dojem. Desátý dům nese pověst, autoritu a postavení, kam má tvoje věc dorůst. Podle tradičních pravidel se hledá silný vládce ascendentu, dobře postavené Slunce a Jupiter a přibývající Měsíc mimo prázdný běh. Škodlivé planety v těchto domech být nemají. Nejde o záruku úspěchu.",
+  "hard": [
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o prvním domě jako o těle začátku. Pokud v něm stojí Saturn nebo Mars, nebo je vládce ascendentu poškozený, staré texty to spojují s nemocí, vyčerpáním a zranitelností těla toho, kdo věc zakládá. Podle tradičních pravidel se takový okamžik pro start nevybírá. Jde o výklad, ne o předpověď."
+   },
+   {
+    "topics": [
+     "loss",
+     "ruin"
+    ],
+    "text": "Tradice tu mluví o desátém domě jako o výšce, ze které se dá spadnout. Poškozený 10. dům nebo oslabené Slunce čtou staré texty jako pád z postavení, ztrátu pověsti a zánik díla. Podle tradičních pravidel jde o varovné znamení okamžiku, ne o jistý osud."
+   }
+  ],
+  "traits": {
+   "text": [
+    "ambition",
+    "leadership",
+    "self_confidence",
+    "optimism",
+    "vitality"
+   ],
+   "shadow": [
+    "pride",
+    "risk_taking",
+    "impulsiveness",
+    "exhaustion"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "election/intent/money",
+  "title": "Záměr: peníze, nákup",
+  "keywords": [
+   "nákup",
+   "majetek",
+   "hodnoty",
+   "jupiter",
+   "venuše"
+  ],
+  "themes": [
+   "money",
+   "growth"
+  ],
+  "text": "Když volíš okamžik pro nákup nebo peněžní začátek, tradice elekcí hledí nejdřív na 2. dům, dům majetku, hodnot a talentů. Podle tradičních pravidel má být jeho vládce silný a nespálený. Jupiter a Venuše mají mít ke 2. domu nebo k Měsíci příznivý vztah. Měsíc v přibývání a bez prázdného běhu se tu čte jako znamení, že věc má kam růst. Jde o výklad okamžiku, ne o příslib výsledku.",
+  "hard": [
+   {
+    "topics": [
+     "loss"
+    ],
+    "text": "Tradice tu mluví o ztrátě majetku, když 2. dům nebo jeho vládce zasahuje Saturn či Mars. Totéž platí, když vládce stojí v 8. nebo 12. domě, couvá nebo je spálený Sluncem. Klasické texty pak čtou začátek jako náchylný k úbytku, k dluhu nebo k tomu, že získaná věc ztrácí hodnotu. Je to tradiční výklad, ne jistota."
+   },
+   {
+    "topics": [
+     "ruin"
+    ],
+    "text": "Tradice tu mluví o marném začátku, když je Měsíc v prázdném běhu nebo se po vstupu do 2. domu spojuje se zraněným malefikem. Staré texty v takovém nastavení vidí nákup, který se nenaplní, nebo vklad, který se rozpadne. Podle tradičních pravidel to platí jako varovný obraz, ne jako předpověď."
+   }
+  ],
+  "traits": {
+   "text": [
+    "caution",
+    "patience",
+    "order",
+    "realism"
+   ],
+   "shadow": [
+    "materialism",
+    "extravagance",
+    "risk_taking"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "election/intent/move",
+  "title": "Záměr: stěhování, nemovitost",
+  "keywords": [
+   "domov",
+   "kořeny",
+   "měsíc",
+   "4. dům",
+   "stěhování"
+  ],
+  "themes": [
+   "family",
+   "money"
+  ],
+  "text": "Pro tvé stěhování nebo koupi nemovitosti hledí tradice elekcí nejdřív na 4. dům a na Měsíc. Podle tradičních pravidel má být Měsíc čistý, ne prázdného běhu, ideálně přibývající a směřující k dobročinné planetě. Pevné znamení na hrotu 4. domu a u Měsíce se čte jako znak trvalého pobytu. Pán 4. domu má stát silně, bez útoku Saturna či Marsu, protože 4. dům ukazuje i konec celé věci.",
+  "hard": [
+   {
+    "topics": [
+     "death",
+     "loss"
+    ],
+    "text": "Tradice tu mluví o 4. domě také jako o konci života a o hrobě. Poškozený 4. dům nebo Měsíc pod útokem Saturna se podle tradičních pravidel čte jako znamení ztráty domova, nuceného odchodu nebo smutku v rodině. Starší autoři v tom vidí i náznak úmrtí rodiče. Jde o tradiční čtení, ne o jistotu."
+   },
+   {
+    "topics": [
+     "ruin",
+     "loss"
+    ],
+    "text": "Tradice tu mluví o Marsu ve 4. domě jako o hrozbě požáru, poškození stavby nebo sporů v domácnosti. Saturn na stejném místě podle tradičních pravidel znamená chátrání, vlhkost a dům, který svým obyvatelům neprospívá. Takový začátek tradice nedoporučuje volit, nejde však o jistotu."
+   }
+  ],
+  "traits": {
+   "text": [
+    "security_need",
+    "belonging",
+    "steadiness",
+    "family_attachment",
+    "caution"
+   ],
+   "shadow": [
+    "anxiety",
+    "insecurity",
+    "stagnation",
+    "loneliness"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "election/intent/travel",
+  "title": "Záměr: cesta",
+  "keywords": [
+   "cesta",
+   "dálky",
+   "domluva",
+   "cizina",
+   "návrat"
+  ],
+  "themes": [
+   "growth",
+   "family"
+  ],
+  "text": "Když vybíráš okamžik k začátku cesty, tradice elekcí hledí na třetí a devátý dům a na Merkura s Jupiterem. Třetí dům nese krátké cesty, okolí a domluvu. Devátý nese dálky, cizinu a smysl výpravy. Merkur vládne pohybu a zprávám, Jupiter dálkám a ochraně. Podle tradičních pravidel se sleduje, zda jsou tyto domy a planety silné a neporušené, protože se z nich čte průběh cesty i návrat. Záruku to nedává.",
+  "hard": [
+   {
+    "topics": [
+     "illness",
+     "death"
+    ],
+    "text": "U porušeného třetího domu tradice tu mluví o nehodách na krátkých cestách a o zraněních. Starší texty zmiňují i nebezpečí smrti na cestě. K témuž domu řadí také spory se sourozenci a s lidmi z blízkého okolí. Jde o tradiční výklad, ne o předpověď toho, co tě čeká."
+   },
+   {
+    "topics": [
+     "loss",
+     "ruin"
+    ],
+    "text": "U porušeného devátého domu tradice tu mluví o sporech u soudu a o potížích v cizině. Patří sem zdržení, ztráty a nesnadný návrat. Staré texty sem řadí i zklamání z cíle, kvůli kterému se na cestu vydáváš. Je to tradiční výklad, žádná jistota."
+   }
+  ],
+  "traits": {
+   "text": [
+    "wanderlust",
+    "curiosity",
+    "caution",
+    "order"
+   ],
+   "shadow": [
+    "restlessness",
+    "carelessness"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "election/intent/study",
+  "title": "Záměr: zkouška, studium",
+  "keywords": [
+   "merkur",
+   "učení",
+   "zkouška",
+   "vzdělání",
+   "volba okamžiku"
+  ],
+  "themes": [
+   "growth",
+   "work"
+  ],
+  "text": "Pro začátek studia nebo den zkoušky hledí tradice elekcí hlavně na Merkura a na třetí a devátý dům. Podle tradičních pravidel má být Merkur přímý a rychlý, ne zpětný a ne spálený Sluncem. Třetí dům nese myšlení, řeč a každodenní učení. Devátý dům nese vyšší vzdělání a smysl toho, co se učíš. Tradice sleduje i Měsíc a jeho spojení s Merkurem. Vybíráš tak okamžik podle starých měřítek, ne jistý výsledek.",
+  "hard": [
+   {
+    "topics": [
+     "loss"
+    ],
+    "text": "Tradice tu mluví o třetím domě i jako o krátkých cestách. Stojí-li v něm při začátku poškozený Mars nebo Saturn, staří autoři uvádějí nehody na cestě za učením a spory se sourozenci či blízkým okolím. Je to tradiční čtení znamení okamžiku, ne předpověď."
+   },
+   {
+    "topics": [
+     "ruin",
+     "loss"
+    ],
+    "text": "Tradice tu mluví o devátém domě jako o místě práva a ciziny. Poškozený devátý dům podle starých textů ukazuje na spory u soudu, potíže při studiu v cizině a ztrátu postavení spojenou s dálkou. Tradice to uvádí jako varovné znamení, ne jako jistotu."
+   }
+  ],
+  "traits": {
+   "text": [
+    "focus",
+    "curiosity",
+    "diligence",
+    "rationality"
+   ],
+   "shadow": [
+    "restlessness",
+    "anxiety",
+    "indecision"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "election/intent/application",
+  "title": "Záměr: žádost, pohovor",
+  "keywords": [
+   "žádost",
+   "pohovor",
+   "kariéra",
+   "přízeň autority",
+   "desátý dům"
+  ],
+  "themes": [
+   "work",
+   "growth"
+  ],
+  "text": "U žádosti nebo pohovoru hledí tradice elekcí hlavně na 10. dům, protože zastupuje toho, kdo rozhoduje, i postavení, o které usiluješ. Podle tradičních pravidel má být silný vládce 10. domu. Silné má být i Slunce jako znamení autority a Jupiter jako znamení přízně. Měsíc má přibývat a blížit se k vládci desátého domu nebo k Jupiteru. Vládce ascendentu a vládce desátého domu mají stát ve vzájemné recepci. Jde o tradiční měřítko, ne o záruku.",
+  "hard": [
+   {
+    "topics": [
+     "loss",
+     "ruin"
+    ],
+    "text": "Tradice tu mluví o pádu z výšky a ztrátě postavení. Když na vrcholu 10. domu stojí poškozený Saturn nebo Mars, nebo je Slunce či vládce desátého domu v pádu nebo spálený, čtou staré texty takový začátek jako odmítnutí, ponížení před autoritou nebo pozdější ztrátu získaného místa. Jde o tradiční výklad, ne o jistotu."
+   }
+  ],
+  "traits": {
+   "text": [
+    "ambition",
+    "self_confidence",
+    "leadership",
+    "responsibility",
+    "order"
+   ],
+   "shadow": []
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "election/verdict/strong",
+  "title": "Výsledek hledání: strong",
+  "keywords": [
+   "silné okno",
+   "souhlas pravidel",
+   "vhodný okamžik",
+   "začátek"
+  ],
+  "themes": [
+   "growth",
+   "work"
+  ],
+  "text": "Hledání ti ukazuje okno s vysokým skóre. Podle tradičních pravidel se v něm sbíhá víc příznivých podmínek najednou, například Měsíc bez poškození a dobře postavený ascendent s vládcem. Tradice takový okamžik řadí mezi vhodné začátky, ale nic nezaručuje.",
+  "traits": {
+   "text": [
+    "order",
+    "decisiveness",
+    "calm",
+    "self_confidence"
+   ],
+   "shadow": []
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "election/verdict/good",
+  "title": "Výsledek hledání: good",
+  "keywords": [
+   "dobré okno",
+   "převaha důvodů pro",
+   "vhodný začátek",
+   "tradiční pravidla"
+  ],
+  "themes": [
+   "work",
+   "growth"
+  ],
+  "text": "Tohle okno vychází jako dobré: podle tradičních pravidel elekcí v něm důvody pro začátek převažují nad důvody proti. Příznivé ukazatele mají větší váhu než slabá místa. Tradice takový okamžik řadí mezi vhodné, ale ne bezvadné. Nejde o záruku výsledku.",
+  "traits": {
+   "text": [
+    "order",
+    "optimism",
+    "decisiveness",
+    "realism"
+   ],
+   "shadow": [
+    "carelessness",
+    "impulsiveness"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "election/verdict/weak",
+  "title": "Výsledek hledání: weak",
+  "keywords": [
+   "slabé okno",
+   "elekce",
+   "tradiční pravidla",
+   "začátek věci"
+  ],
+  "themes": [
+   "work",
+   "growth"
+  ],
+  "text": "Tenhle okamžik podle tradičních pravidel projde, ale jen těsně. Tradice elekcí v něm nachází pár nosných ukazatelů a vedle nich dost důvodů proti, které začátek věci oslabují. Máš před sebou použitelné, ne příznivé okno. Nejde o záruku ani o radu.",
+  "traits": {
+   "text": [
+    "caution",
+    "realism",
+    "indecision",
+    "patience"
+   ],
+   "shadow": []
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "election/verdict/none",
+  "title": "Výsledek hledání: none",
+  "keywords": [
+   "elekce",
+   "nejméně špatný okamžik",
+   "důvody proti",
+   "tradiční pravidla"
+  ],
+  "themes": [
+   "work",
+   "growth"
+  ],
+  "text": "Ve zvoleném období neprochází podle tradičních pravidel žádné okno. Appka proto ukazuje nejméně špatný okamžik a vypisuje, co proti němu mluví. Tradice elekcí tu nehledá dokonalost, jen váží slabiny: postižený Měsíc, zatížený ascendent nebo oslabeného pána začátku.",
+  "hard": [
+   {
+    "topics": [
+     "loss",
+     "ruin"
+    ],
+    "text": "Tradice tu mluví o tom, že věc začatá pod postiženým Měsícem nebo oslabeným pánem ascendentu může nést ztrátu, nezdar nebo rozpad toho, co se zakládá. Jde o tradiční výklad, ne o jistotu. Výčet důvodů proti ukazuje, která z těchto rizik pravidla u nejméně špatného okamžiku vidí."
+   }
+  ],
+  "traits": {
+   "text": [
+    "caution",
+    "realism",
+    "patience",
+    "rationality"
+   ],
+   "shadow": []
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "election/verdict/health",
+  "title": "Výsledek hledání: health",
+  "keywords": [
+   "elekce",
+   "zákrok",
+   "operace",
+   "měsíc",
+   "slovníček"
+  ],
+  "themes": [
+   "health"
+  ],
+  "text": "U zdravotního záměru, jako je operace nebo zákrok, appka termín nehledá. Tradice elekcí má pro tyto chvíle zvláštní pravidla, hlavně o Měsíci a o znameních spojených s částmi těla. Co platí podle tradičních pravidel, najdeš ve slovníčku. Nejde o záruku ani doporučení.",
+  "hard": [
+   {
+    "topics": [
+     "illness",
+     "death"
+    ],
+    "text": "Tradice tu mluví o tom, že zákrok na části těla spojené se znamením, ve kterém stojí Měsíc, nese podle starých autorů větší nebezpečí. Zmiňuje i poškozeného Marse, krvácení a komplikace. V nejtěžších případech staré texty mluví i o smrti. Jde o historický výklad, ne o lékařské tvrzení ani předpověď."
+   }
+  ],
+  "traits": {
+   "text": [
+    "caution",
+    "responsibility",
+    "realism"
+   ],
+   "shadow": []
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ }
+]

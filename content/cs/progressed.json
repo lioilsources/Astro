@@ -1,0 +1,2633 @@
+[
+ {
+  "key": "progressed/moon_in_sign/aries",
+  "title": "Progresní Měsíc v Beranu",
+  "keywords": [
+   "nový začátek",
+   "citová odvaha",
+   "netrpělivost",
+   "nezávislost"
+  ],
+  "themes": [
+   "character",
+   "family",
+   "relationships",
+   "growth",
+   "health"
+  ],
+  "text": "Progresní Měsíc v Beranu otevírá nový citový cyklus na zhruba dva a půl roku a přináší chuť začít znovu. Po letech zpracovávání a loučení se nálada zrychluje a emoce jdou rovnou ven. Citově tě živí pohyb, výzva a pocit, že o něčem rozhoduješ. Potřebuješ vlastní tempo, prostor a méně ohledů na staré zvyky. Domov přestává být úkrytem a stává se základnou pro výpady do světa. Roste odvaha říct nahlas, co cítíš a co chceš. Tělo žádá aktivitu, sport a změnu prostředí. Zakládáš nové návyky, nové vztahy a nový způsob, jak se o sebe postarat.",
+  "shadow": "Progresní Měsíc v Beranu snadno mění citovou potřebu v netrpělivost: co se nehne hned, ztrácí pro tebe cenu. Nálady se střídají prudce a výbuch přichází dřív než slova. Vlastní potřeby přehlušují potřeby blízkých, hlavně doma. Hrozí útěk ze vztahů jen proto, že už nevzrušují. Starý smutek se nezpracovává, jen se přeskakuje činností. Za rychlostí se může skrývat strach zastavit se a cítit. Tam, kde dřív stačilo mlčení, teď tlačíš na druhé vztekem.",
+  "hard": [
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o hlavě a horkosti: bolesti hlavy, migrény, horečky, záněty a nespavost z přetížení. Protože Měsíc spojuje se žaludkem, zmiňuje i překyselení, vředy a potíže z jídla ve spěchu. Plodnost v tomto období popisuje jako rozkolísanou. Staří autoři připisují těmto letům také sklon k úrazům hlavy a obličeje, k popáleninám a říznutím."
+   },
+   {
+    "topics": [
+     "mental_crisis"
+    ],
+    "text": "Tradice tu mluví o narušené duševní rovnováze: o podrážděnosti, záchvatech hněvu a nervovém vyčerpání, které může přerůst v krizi. Popisuje stav, kdy vnitřní neklid nedovolí odpočinek a city se vybíjejí jen v prudkých reakcích."
+   },
+   {
+    "topics": [
+     "loss",
+     "death"
+    ],
+    "text": "Tradice tu mluví o ztrátě matky nebo ženy, která o tebe pečovala, a o náhlých odchodech z domova. Vstup progresního Měsíce do Berana spojuje s rychlými rozchody, stěhováním a koncem citové jistoty, v nejtěžších výkladech i s úmrtím v rodině."
+   },
+   {
+    "topics": [
+     "violence"
+    ],
+    "text": "Tradice tu mluví o hádkách, které přerůstají ve fyzické střety, a o zraněních v afektu. Ohnivé znamení na Měsíci podle starých autorů zvyšuje riziko konfliktu doma i mimo něj."
+   }
+  ],
+  "traits": {
+   "text": [
+    "courage",
+    "independence",
+    "decisiveness",
+    "vitality",
+    "openness"
+   ],
+   "shadow": [
+    "impulsiveness",
+    "anger",
+    "selfishness",
+    "restlessness",
+    "moodiness"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "progressed/moon_in_sign/taurus",
+  "title": "Progresní Měsíc v Býku",
+  "keywords": [
+   "citová jistota",
+   "smysly",
+   "domov",
+   "tělo",
+   "zpomalení"
+  ],
+  "themes": [
+   "character",
+   "family",
+   "health",
+   "growth"
+  ],
+  "text": "Když progresní Měsíc vstoupí do Býka, tvoje citové těžiště se asi na dva a půl roku přesouvá k tělu, domovu a jistotě. Po rychlejších letech přichází touha zpomalit. Nálada se ustaluje a tolik nekolísá. Živí tě jídlo uvařené doma, teplo, dotek a známé věci na svém místě. Roste chuť zařizovat byt, pečovat o rostliny a držet pravidelný denní rytmus. Smysly se zostřují. Víc vnímáš vůně, látky, chutě a hudbu. Blízké lidi si vybíráš podle toho, zda ti dávají klid a spolehlivost. Trpělivost ti vrací pocit pevné půdy pod nohama.",
+  "shadow": "Progresní Měsíc v Býku umí z potřeby bezpečí udělat citovou ulitu, ze které se nechce ven. Lpíš na zvycích, věcech i lidech a každou změnu bereš jako ohrožení. Útěchu hledáš v jídle, sladkém a pohodlí, a tělo to začne nést. Citová majetnickost se projevuje žárlivostí a tichým tlakem na blízké. Křivdy dlouho dusíš a pak tvrdohlavě mlčíš. Klidné období se tak snadno zvrhne v lenost a stagnaci. Odkládáš všechno, co vyžaduje pohyb nebo rozhodnutí.",
+  "hard": [
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o citlivém krku, hrdle a štítné žláze, které spravuje Býk, a o žaludku a trávení pod vládou Měsíce. Jako typické potíže uvádí přejídání z citových důvodů, přibírání na váze a zpomalený metabolismus. Zmiňuje také otázky plodnosti a těhotenství, protože Měsíc v plodném znamení Býka tradice čte jako dobu, kdy tělo vystupuje do popředí."
+   },
+   {
+    "topics": [
+     "death",
+     "illness",
+     "loss"
+    ],
+    "text": "Tradice tu mluví o tom, že progresní Měsíc nese obraz matky. Při napjatých aspektech spojuje toto období s její nemocí, ztrátou nebo smrtí. Jinde uvádí ztrátu domova, majetku nebo zázemí, která otřese celým citovým světem, protože Býk staví bezpečí právě na tom, co je hmatatelné."
+   },
+   {
+    "topics": [
+     "mental_crisis"
+    ],
+    "text": "Tradice tu mluví o melancholii a tíze, ve které se citová stagnace mění v otupělost a ztrátu chuti do života. Podle starých výkladů se duševní rovnováha v tomto postavení vychyluje spíš pomalým útlumem než prudkou krizí."
+   },
+   {
+    "topics": [
+     "addiction"
+    ],
+    "text": "Tradice tu mluví o sklonu utěšovat se požitky. Jídlo, sladké nebo alkohol se mohou stát hlavním zdrojem citové jistoty. Býčí stálost přitom z návyku snadno udělá pevný zvyk, který se těžko opouští."
+   }
+  ],
+  "traits": {
+   "text": [
+    "security_need",
+    "sensuality",
+    "steadiness",
+    "calm",
+    "patience"
+   ],
+   "shadow": [
+    "stubbornness",
+    "stagnation",
+    "indulgence",
+    "jealousy",
+    "family_attachment"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "progressed/moon_in_sign/gemini",
+  "title": "Progresní Měsíc v Blížencích",
+  "keywords": [
+   "zvídavost",
+   "rozhovor",
+   "proměnlivá nálada",
+   "neklid",
+   "sourozenci"
+  ],
+  "themes": [
+   "character",
+   "relationships",
+   "family",
+   "growth",
+   "health"
+  ],
+  "text": "Na zhruba dva a půl roku se tvoje citové těžiště stěhuje do slov, otázek a pohybu. Klid ti teď nedává zavedený zvyk, ale rozhovor, nová kniha nebo cesta do neznámé čtvrti. Potřebuješ o svých pocitech mluvit, teprve pak se ti v nich vyjasní. Živí tě kontakt se sourozenci, sousedy, kolegy a krátké výlety. Nálada se mění rychleji než dřív a pružně reaguje na podněty dne. Lépe se ti učí, píše a vyjednává. Vlastní minulost umíš vidět ze dvou stran, a tak se uvolňují staré citové vzorce. Domov se mění v místo, kde se hodně povídá a kam proudí lidé a zprávy.",
+  "shadow": "Citová nejistota v těchto letech utíká do řečí: místo prožití pocit rozebíráš, zlehčuješ vtipem nebo měníš téma. Nálada skáče podle posledního rozhovoru nebo zprávy v telefonu. Hlad po podnětech přechází v neklid, nespavost a roztříštěnou pozornost. Vztahy snadno zůstávají na povrchu, protože hloubka vyžaduje zastavit se. Lpění na minulosti má podobu nekonečného převyprávění starých křivd. Citové vydírání se tu děje slovy: narážkami, dvojím výkladem, drby.",
+  "hard": [
+   {
+    "topics": [
+     "mental_crisis",
+     "illness"
+    ],
+    "text": "Tradice tu mluví o nervovém vyčerpání. Měsíc v Blížencích spojuje citové napětí s nervy, dechem a spánkem. Při silném tlaku staří autoři uvádějí úzkostné stavy, přetíženou mysl a žaludeční potíže ze stresu. Zmiňují také plíce, ramena a ruce jako místa, kde se neklid usazuje."
+   },
+   {
+    "topics": [
+     "death",
+     "loss"
+    ],
+    "text": "Tradice tu mluví o možné ztrátě matky nebo jiné blízké ženy, případně o vážných událostech kolem sourozenců. Progresní Měsíc má k matce zvláštní vztah. Pokud na něj v těchto letech působí těžké aspekty, starší výklady to čtou jako období rozloučení, odcizení nebo úmrtí v rodině."
+   },
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o oslabené plodnosti. Blíženci patří ve starých textech mezi takzvaná neplodná znamení, a progresní Měsíc v nich proto podle tradice nepřeje početí ani klidnému těhotenství, zvlášť při těžkých aspektech."
+   }
+  ],
+  "traits": {
+   "text": [
+    "curiosity",
+    "eloquence",
+    "flexibility",
+    "sociability",
+    "lightness"
+   ],
+   "shadow": [
+    "restlessness",
+    "superficiality",
+    "moodiness",
+    "anxiety",
+    "inconstancy"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "progressed/moon_in_sign/cancer",
+  "title": "Progresní Měsíc v Raku",
+  "keywords": [
+   "domov",
+   "rodina",
+   "bezpečí",
+   "paměť",
+   "péče"
+  ],
+  "themes": [
+   "family",
+   "character",
+   "relationships",
+   "health"
+  ],
+  "text": "Progresní Měsíc prochází Rakem, svým vlastním znamením. Na zhruba dva a půl roku obrací tvou pozornost domů, k rodině a k vlastním kořenům. Potřeba bezpečí sílí. Víc tě živí společné jídlo, známé místo a lidé, kteří tě znají dlouho. Vzpomínky vystupují na povrch. Staré fotky a rodinné příběhy mají najednou větší váhu. Tělo hlásí únavu i hlad citlivěji než dřív. Péče o druhé tě v tomhle období naplňuje. Často roste chuť zařizovat byt, stěhovat se blíž k rodině nebo pečovat o dítě či rodiče. Intuice funguje přesně a nálady druhých čteš bez vysvětlování.",
+  "shadow": "S progresním Měsícem v Raku se nálady přelévají rychleji. Drobná výtka tě dokáže ranit na celé dny. Snadno se stahuješ do ulity a místo rozhovoru volíš mlčení a uraženost. Minulost láká víc než přítomnost a staré křivdy se vracejí. Péče může přerůst v kontrolu nebo v tichou výčitku, že druzí nevracejí tolik, kolik dostávají. Hrozí citové vydírání, přílišná závislost na blízkých a strach z jakékoli změny doma.",
+  "hard": [
+   {
+    "topics": [
+     "loss",
+     "death"
+    ],
+    "text": "Tradice tu mluví o období, kdy se do popředí dostává vztah k matce. Může přijít i její nemoc nebo ztráta. Častěji jde o změnu role: z toho, o koho se pečuje, se stává ten, kdo pečuje. Smutek nad domovem z dětství tu může být velmi silný."
+   },
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o citlivém žaludku a trávení, o kolísání tělesných tekutin a o tématech plodnosti a těhotenství. Napětí se v tomto období snadno ukládá do břicha. Projevuje se nechutenstvím nebo jídlem jako útěchou."
+   },
+   {
+    "topics": [
+     "mental_crisis"
+    ],
+    "text": "Tradice tu mluví o křehké duševní rovnováze. Hluboké ponoření do vzpomínek a pocit opuštěnosti mohou přerůst ve smutek, který se nedaří setřást. Může se objevit i úzkost, která se točí kolem domova a rodiny."
+   }
+  ],
+  "traits": {
+   "text": [
+    "protectiveness",
+    "family_attachment",
+    "security_need",
+    "intuition",
+    "empathy"
+   ],
+   "shadow": [
+    "moodiness",
+    "sulking",
+    "dependence",
+    "reclusiveness",
+    "stagnation"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "progressed/moon_in_sign/leo",
+  "title": "Progresní Měsíc ve Lvu",
+  "keywords": [
+   "srdce",
+   "hra",
+   "uznání",
+   "tvořivost",
+   "vřelost"
+  ],
+  "themes": [
+   "character",
+   "relationships",
+   "family",
+   "growth"
+  ],
+  "text": "Na zhruba dva a půl roku se tvé citové těžiště stěhuje do srdce a na světlo. Po letech uzavřenějšího prožívání přichází chuť být vidět a slyšet. Citově tě teď živí hra, tvorba, smích, děti, láska a chvíle, kdy něco dáváš ze sebe. Domov se mění v jeviště: zveš lidi, slavíš, zdobíš. Nálada má víc tepla a odvahy. Potřebuješ upřímné uznání a vřelý zájem. Otevírá se prostor pro koníček, umění, romanci nebo rodičovství. Štědrost přichází snadno a lidem vracíš to, co od nich dostáváš: pozornost.",
+  "shadow": "V těchto letech se potřeba obdivu snadno plete s potřebou bezpečí: kdo netleská, jako by tě přestal mít rád. Nálada pak kolísá podle odezvy okolí. Hrozí dramatické scény, uražené mlčení a citové vydírání typu „po tom všem, co pro tebe dělám“. Pýcha brání přiznat zranitelnost, takže smutek se schovává za hlasitou veselost. Štědrost se může stát způsobem, jak si koupit lásku. Lpění na staré slávě nebo na jedné roli, třeba na roli hvězdy rodiny, brzdí další vývoj.",
+  "hard": [
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o zátěži srdce, zad a krevního oběhu, protože Lev vládne srdci a Měsíc tělu. Při slabém postavení v radixu spojuje tato léta i s potížemi žaludku a s vyčerpáním z přepínání sil, kdy se tělo ozve po dlouhém výdeji energie navenek."
+   },
+   {
+    "topics": [
+     "death",
+     "loss"
+    ],
+    "text": "Tradice tu mluví o možné ztrátě matky nebo jiné mateřské postavy, pokud progresní Měsíc v těchto letech potkává těžké aspekty Saturnu nebo Marsu. Jindy jde o odchod dítěte z domova nebo o bolest kolem plodnosti a rodičovství."
+   },
+   {
+    "topics": [
+     "mental_crisis"
+    ],
+    "text": "Tradice tu mluví o otřesu duševní rovnováhy, když se zhroutí obraz, na kterém stál pocit vlastní hodnoty: neúspěch, odmítnutí v lásce, veřejné zesměšnění. Zraněná pýcha se pak může obrátit v hlubokou skleslost a stažení do sebe."
+   }
+  ],
+  "traits": {
+   "text": [
+    "creativity",
+    "generosity",
+    "cheerfulness",
+    "self_confidence",
+    "sociability"
+   ],
+   "shadow": [
+    "drama",
+    "pride",
+    "moodiness",
+    "vanity",
+    "sulking"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "progressed/moon_in_sign/virgo",
+  "title": "Progresní Měsíc v Panně",
+  "keywords": [
+   "řád",
+   "služba",
+   "péče o tělo",
+   "každodenní rutina",
+   "užitečnost"
+  ],
+  "themes": [
+   "character",
+   "health",
+   "work",
+   "family",
+   "growth"
+  ],
+  "text": "Na zhruba dva a půl roku se tvoje citové těžiště stěhuje do drobné, poctivé práce. Klid ti teď přináší uklizený stůl, jasný rozvrh a úkol dotažený do konce. Víc vnímáš tělo: spánek, jídlo, trávení, únavu. Potřebuješ cítit, že tvoje práce má smysl a někomu pomáhá. Péči o druhé projevuješ činy, ne slovy. Opravíš, uvaříš, zařídíš. Roste chuť učit se řemeslu, zlepšovat postupy a rozebírat věci do detailu. Nálada se zklidňuje a zároveň je střízlivější. Citově tě živí pořádek doma, pravidelný režim a pocit, že své povinnosti zvládáš.",
+  "shadow": "V těchto letech se citová nejistota převléká za starost o detaily. Hledáš chyby na sobě, v domácnosti i u blízkých. Těžko přijímáš, že něco stačí tak, jak to je. Úzkost se ukládá do těla a ozývá se žaludkem nebo nespavostí. Bezpečí cítíš hlavně ve chvílích, kdy pracuješ, a odpočinek ti přináší výčitky. Kritika blízkých bývá skrytou prosbou o péči. Hrozí, že kvůli samým povinnostem přestaneš mít radost z obyčejných věcí.",
+  "hard": [
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o období, kdy se zdraví dostává do popředí. Spojuje ho s potížemi žaludku, trávení a střev a s nemocemi z vyčerpání a přepracování. Zmiňuje také chronické obtíže, které se ozvou právě teď. Starší výklady uvádějí i nemoc v rodině, o kterou je třeba se dlouhodobě starat."
+   },
+   {
+    "topics": [
+     "mental_crisis"
+    ],
+    "text": "Tradice tu mluví o úzkostných stavech, dotěrných myšlenkách a strachu z nemoci, který může přerůst v hypochondrii. Duševní rovnováhu podle ní nejvíc ohrožuje přetížení, neustálé sebehodnocení a neschopnost přestat řešit drobnosti."
+   },
+   {
+    "topics": [
+     "loss",
+     "death",
+     "illness"
+    ],
+    "text": "Tradice tu mluví o péči o nemocnou matku nebo starší ženu z rodiny. V těžších výkladech se toto období pojí s její vážnou nemocí, případně se ztrátou nebo smrtí. Uvádí také odloučení od domova kvůli práci nebo službě druhým."
+   },
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o Panně jako o neplodném znamení. Progresní Měsíc v ní podle starých výkladů nepřeje početí a těhotenství. Toto období se spíš pojí s dobou, kdy se síly obracejí k práci a povinnostem než k zakládání rodiny."
+   }
+  ],
+  "traits": {
+   "text": [
+    "order",
+    "diligence",
+    "responsibility",
+    "realism",
+    "self_sacrifice"
+   ],
+   "shadow": [
+    "criticism",
+    "anxiety",
+    "perfectionism",
+    "exhaustion",
+    "guilt"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "progressed/moon_in_sign/libra",
+  "title": "Progresní Měsíc ve Vahách",
+  "keywords": [
+   "partnerství",
+   "citová rovnováha",
+   "harmonie domova",
+   "vzájemnost",
+   "vkus"
+  ],
+  "themes": [
+   "relationships",
+   "character",
+   "family",
+   "growth"
+  ],
+  "text": "S progresním Měsícem ve Vahách se citové těžiště na zhruba dva a půl roku přesouvá ke vztahům. Bezpečí teď hledáš v druhém člověku a v pocitu, že spolu ladíte. Domov potřebuje krásu, klid a pořádek, který těší oko. Silněji vnímáš nespravedlnost i drobné nesoulady v náladě kolem sebe. Probouzí se dar smiřovat, zprostředkovat a hledat střední cestu. Těší tě rozhovor, společné plány, hudba, umění a pěkné prostředí. Roste potřeba partnerství a sdíleného života. Zvyky se přizpůsobují druhému. Citově tě živí vzájemnost: dávat i dostávat stejnou měrou.",
+  "shadow": "Progresní Měsíc ve Vahách snadno promění citovou potřebu v závislost na tom, jak tě vidí druzí. Nálada kolísá podle toho, jestli vztah drží v rovnováze. Rozhodnutí se odkládají, aby nikdo nebyl zklamaný. Vlastní přání se schovávají za ohleduplnost a nespokojenost se hromadí potichu. Klid doma může být jen povrchní, udržovaný za cenu nevyslovených křivd. Objevuje se lpění na partnerovi jako na jediném zdroji jistoty i jemné citové vydírání: souhlas výměnou za lásku. Samota v těchto letech bolí víc než jindy.",
+  "hard": [
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o citlivých ledvinách, bedrech a žaludku. Podle starých výkladů tělo v tomto období reaguje na citovou nerovnováhu. Napětí ve vztazích se může projevit na trávení, na hospodaření těla s vodou i na plodnosti, kterou tradice s Měsícem spojuje."
+   },
+   {
+    "topics": [
+     "mental_crisis"
+    ],
+    "text": "Tradice tu mluví o ohrožení duševní rovnováhy, pokud se rozpadá vztah, na kterém stojí citové bezpečí. Rozchod nebo odcizení může podle starých textů vyvolat úzkost, nespavost a pocit, že bez druhého člověka chybí pevná půda pod nohama."
+   },
+   {
+    "topics": [
+     "death",
+     "loss"
+    ],
+    "text": "Tradice tu mluví o ztrátě matky nebo mateřské postavy. Spojuje ji s obdobími progresního Měsíce, zvlášť když je Měsíc v radixu zraněný. Ve Vahách se ztráta podle ní prožívá hlavně skrze vztahy: odchod blízkého člověka, rozvod nebo rozpad partnerství jako ztráta citového domova. Jde o motiv starých výkladů, ne o předpověď."
+   }
+  ],
+  "traits": {
+   "text": [
+    "cooperation",
+    "charm",
+    "justice",
+    "empathy",
+    "tolerance"
+   ],
+   "shadow": [
+    "indecision",
+    "dependence",
+    "superficiality",
+    "moodiness",
+    "procrastination"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "progressed/moon_in_sign/scorpio",
+  "title": "Progresní Měsíc ve Štíru",
+  "keywords": [
+   "hloubka",
+   "proměna",
+   "intimita",
+   "citová intenzita",
+   "loučení"
+  ],
+  "themes": [
+   "character",
+   "relationships",
+   "family",
+   "health",
+   "growth"
+  ],
+  "text": "Progresní Měsíc ve Štíru otevírá asi dva a půl roku, kdy city jdou do hloubky a povrchní kontakt přestává stačit. Navenek působíš klidně, ale uvnitř pracuje silný proud. Potřebuješ blízkost, která snese pravdu, a lidi, kterým svěříš i to, co jinak skrýváš. Citově tě živí intimita, tichá věrnost a chvíle, kdy něco starého dozraje k proměně. Zvyky, vztahy i představa domova procházejí očistou. Intuice sílí a vidíš pod povrch. Na světlo vychází, co se v rodině nebo ve vztahu dlouho nevyslovovalo. Z toho roste nová vnitřní síla.",
+  "shadow": "Měsíc ve Štíru stojí v tradičním pádu, a v těchto letech proto city snadno sklouzávají k žárlivosti a nedůvěře. Potřeba bezpečí se mění v kontrolu: chceš vědět, kde kdo je a co cítí. Křivdy se ukládají do paměti a vracejí se jako uraženost nebo tichá pomsta. Lpění na minulosti brání pustit, co už skončilo. Objevuje se citové vydírání, mlčení jako trest a stažení do sebe. Nálady jsou temné a těžké, i když navenek nic není znát.",
+  "hard": [
+   {
+    "topics": [
+     "death",
+     "loss"
+    ],
+    "text": "Tradice tu mluví o období ztrát a loučení. Progresní Měsíc ve Štíru spojuje se smrtí v rodině, zvláště se ztrátou matky nebo jiné ženské postavy, která dávala citové zázemí. Jiné čtení mluví o rozpadu blízkého vztahu nebo domova, po kterém už nic není jako dřív."
+   },
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o oslabení pohlavních orgánů, plodnosti a vylučování, protože Štír tyto části těla ovládá a Měsíc souvisí s plodností. Zmiňuje také žaludeční potíže, které souvisejí s dlouho potlačovanými emocemi."
+   },
+   {
+    "topics": [
+     "mental_crisis",
+     "addiction"
+    ],
+    "text": "Tradice tu mluví o hlubokých duševních krizích, depresi a temných myšlenkách v době, kdy Měsíc stojí ve svém pádu. Zmiňuje i sklon k návykovým látkám nebo k posedlým vztahům, když citová bolest nenachází jinou cestu ven."
+   }
+  ],
+  "traits": {
+   "text": [
+    "depth",
+    "intuition",
+    "transformation",
+    "loyalty",
+    "sensitivity"
+   ],
+   "shadow": [
+    "jealousy",
+    "secrecy",
+    "sulking",
+    "obsession",
+    "melancholy"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "progressed/moon_in_sign/sagittarius",
+  "title": "Progresní Měsíc ve Střelci",
+  "keywords": [
+   "touha po smyslu",
+   "cesty",
+   "nadšení",
+   "víra",
+   "citový rozlet"
+  ],
+  "themes": [
+   "character",
+   "growth",
+   "family",
+   "health"
+  ],
+  "text": "Na zhruba dva a půl roku se tvé citové těžiště stěhuje od bezpečí k otázce smyslu. Klid ti už nedává jen známé zázemí, ale i výhled do dálky: cesta, nová myšlenka, kniha, která něco otevře. Nálada se zvedá s každým plánem a s pocitem, že život někam vede. Potřebuješ prostor, pohyb a lidi, se kterými lze mluvit o světě a o tom, čemu věříš. Domov se může na čas zúžit na batoh, nebo se rozšířit na cizí město. Citově tě živí učení, smích, příroda a sdílené nadšení. Roste v tobě důvěra, že i nejistota má svůj směr.",
+  "shadow": "V těchto letech tě neklid snadno odvádí od citů, které by bylo potřeba prožít v blízkosti domova. Místo objetí nabízíš názor a místo útěchy kázání. Sliby, plány i nadšení přeháníš a pak je nedotahuješ. Smutek přebíjíš optimismem, který mu nedovolí promluvit. Netaktní poznámka bolí blízké víc, než čekáš. Stará citová závislost se může jen převléknout: z lpění na domově se stává lpění na útěku, na učiteli nebo na jediné pravdě.",
+  "hard": [
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o choulostivosti jater, kyčlí a stehen. Zmiňuje i žaludek, který trpí přejídáním, pitím a nepravidelným životem na cestách. Starší autoři spojují toto období také s pády, úrazy při sportu či jízdě a s nehodami daleko od domova. Neklidný oheň podle nich tělo vyčerpává přemírou."
+   },
+   {
+    "topics": [
+     "loss",
+     "death"
+    ],
+    "text": "Tradice tu mluví o odloučení od matky nebo od domova, často kvůli vzdálenosti, stěhování nebo dlouhé cestě. Starší výklady uvádějí i ztrátu matky či zprávu o úmrtí blízké ženy, která přichází zdaleka."
+   },
+   {
+    "topics": [
+     "mental_crisis"
+    ],
+    "text": "Tradice tu mluví o krizi víry. Když se zhroutí přesvědčení, které dávalo životu smysl, může citová rovnováha nečekaně povolit. Přehnané nadšení pak střídá prázdnota, bezradnost a pocit ztracené cesty."
+   }
+  ],
+  "traits": {
+   "text": [
+    "wanderlust",
+    "optimism",
+    "curiosity",
+    "spirituality",
+    "openness"
+   ],
+   "shadow": [
+    "restlessness",
+    "bluntness",
+    "escapism",
+    "inconstancy"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "progressed/moon_in_sign/capricorn",
+  "title": "Progresní Měsíc v Kozorohu",
+  "keywords": [
+   "citová zralost",
+   "odpovědnost",
+   "řád",
+   "vážnost",
+   "pevné zázemí"
+  ],
+  "themes": [
+   "character",
+   "family",
+   "work",
+   "health",
+   "growth"
+  ],
+  "text": "Asi na dva a půl roku se tvoje citové těžiště přesouvá k povinnostem a dlouhodobým cílům. Pocit bezpečí už nečerpáš hlavně z útěchy od druhých. Nově ho čerpáš z toho, co vlastníma rukama postavíš. Nálada se zklidňuje a zvážní. Živí tě dokončená práce, jasný plán a vědomí, že na tobě něco stojí. Potřebuješ řád v domácnosti, pravidelný rytmus dne a lidi, na které je spolehnutí. Přibývá trpělivosti a schopnosti nést odpovědnost za rodinu i za sebe. Vnitřně dospíváš. City nevyhazuješ, ale ukládáš je do činů. Je to dobré období pro budování zázemí, které vydrží.",
+  "shadow": "Pod progresním Měsícem v Kozorohu snadno odsouváš city na později, protože práce a povinnosti vypadají důležitěji. Místo něhy nabízíš výsledky a od druhých čekáš totéž. Nálada může sklouznout do pesimismu a tichého smutku, který nikomu neukážeš. Péče o domov se mění v kontrolu a přísná pravidla. Lpíš na tom, jak se věci dělaly dřív. Hrozí citový chlad, osamělost i únava z toho, že všechno neseš na vlastních bedrech a o pomoc si neřekneš.",
+  "hard": [
+   {
+    "topics": [
+     "mental_crisis"
+    ],
+    "text": "Tradice tu mluví o období melancholie a sklíčenosti. Měsíc je v Kozorohu ve vyhnanství, takže citová výživa vázne. Vnitřní chlad může přejít v dlouhou depresivní náladu. Starší autoři zmiňují pocit tíhy, osamění a ztráty smyslu, zvlášť když chybí opora blízkých."
+   },
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o oslabení žaludku a trávení a o potížích s kostmi, klouby, zuby a kůží. Toto postavení spojuje také s chladem v těle a s obtížemi v plodnosti, například s ztíženým nebo pozdějším početím."
+   },
+   {
+    "topics": [
+     "death",
+     "loss"
+    ],
+    "text": "Tradice tu mluví o ztrátě matky nebo starší ženy v rodině, o její nemoci či smrti. Zmiňuje také nutnost převzít péči o stárnoucí rodiče. Takové období podle starých výkladů přináší citové osamění a předčasnou dospělost."
+   }
+  ],
+  "traits": {
+   "text": [
+    "responsibility",
+    "perseverance",
+    "security_need",
+    "patience",
+    "order"
+   ],
+   "shadow": [
+    "coldness",
+    "pessimism",
+    "melancholy",
+    "rigidity",
+    "loneliness"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "progressed/moon_in_sign/aquarius",
+  "title": "Progresní Měsíc ve Vodnáři",
+  "keywords": [
+   "citová nezávislost",
+   "přátelství",
+   "odstup",
+   "nové zvyky",
+   "svoboda"
+  ],
+  "themes": [
+   "character",
+   "relationships",
+   "family",
+   "growth",
+   "health"
+  ],
+  "text": "Progresní Měsíc ve Vodnáři přesouvá tvé citové těžiště od domova k lidem, se kterými sdílíš myšlenky. Asi dva a půl roku tě víc živí rozhovor, přátelství a vlastní prostor než známé zvyky. Nálada se zklidňuje, když máš volnost a výhled dopředu. Staré rodinné vzorce vidíš s odstupem a některé z nich opouštíš. Láká tě skupina, spolek nebo nový okruh známých. Domov dostává jinou podobu: víc vzduchu, méně povinností, víc nečekaných návštěv. Zkoušíš neobvyklé denní rytmy. Péči dáváš i přijímáš skrze pochopení a respekt, ne skrze lpění.",
+  "shadow": "Ve stínu progresního Měsíce ve Vodnáři se potřeba volnosti mění v útěk před vlastními city. Těžké emoce převádíš na teorie a principy, místo aby je tělo a srdce skutečně prožily. Blízcí cítí chlad a odstup právě ve chvíli, kdy hledají útěchu. Na rodinná očekávání reaguješ vzdorem, i když jde o drobnost. Staré vazby se přetrhávají bez rozloučení. Přátel přibývá, ale důvěrnost řídne. Občas ti chybí kořeny a nevíš, kam patří tvé srdce.",
+  "hard": [
+   {
+    "topics": [
+     "mental_crisis"
+    ],
+    "text": "Tradice tu mluví o nervovém napětí a neklidu, který se ukládá do těla. Spojuje toto období s nespavostí, roztěkaností a citovou otupělostí, kdy se city odpojují od rozumu. V náročnějších horoskopech uvádí i ohrožení duševní rovnováhy a hluboký pocit vykořenění."
+   },
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o oslabení krevního oběhu, potížích s kotníky a lýtky a o přecitlivělém nervovém systému, které spojuje se znamením Vodnáře. Měsíc k tomu přidává žaludek a trávení, které reagují na nečekané změny a nepravidelný režim. Starší výklady zmiňují i výkyvy plodnosti."
+   },
+   {
+    "topics": [
+     "loss",
+     "death"
+    ],
+    "text": "Tradice tu mluví o náhlých rozchodech, odloučení od rodiny a nečekaném stěhování. U napjatě postaveného Měsíce starší autoři zmiňují i ztrátu matky nebo jiné mateřské postavy, ať odchodem ze života, nebo citovým odcizením. Výklad to podává jako možnost, ne jako jistotu."
+   }
+  ],
+  "traits": {
+   "text": [
+    "independence",
+    "originality",
+    "sociability",
+    "tolerance",
+    "curiosity"
+   ],
+   "shadow": [
+    "detachment",
+    "coldness",
+    "rebellion",
+    "restlessness",
+    "loneliness"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "progressed/moon_in_sign/pisces",
+  "title": "Progresní Měsíc v Rybách",
+  "keywords": [
+   "soucit",
+   "snění",
+   "citlivost",
+   "víra",
+   "odpuštění"
+  ],
+  "themes": [
+   "character",
+   "growth",
+   "family",
+   "health"
+  ],
+  "text": "Na zhruba dva a půl roku se tvé citové těžiště stěhuje do vod Ryb a hranice mezi tebou a okolím řídnou. Nálady přicházejí jako příliv, často bez zjevné příčiny. Cizí smutek i radost vnímáš, jako by procházely tvým tělem. Citově tě živí hudba, voda, spánek, sny, tiché chvíle a víra v něco většího. Roste soucit a chuť pomáhat těm, kdo jsou na tom hůř. Fantazie a intuice nabírají sílu, takže víc tvoříš, píšeš nebo maluješ. Domov se mění v útočiště, kde potřebuješ ticho a měkkost. Staré křivdy se rozpouštějí a odpouštění jde snáz.",
+  "shadow": "Progresní Měsíc v Rybách svádí utíkat od citů, které bolí, místo aby se prožily. Únik má mnoho podob: spánek, seriály, alkohol, snění o jiném životě. Snadno sklouzáváš do role oběti nebo zachránce a necháváš druhé, aby tvou dobrotu využívali. Hranice se rozmazávají, takže nevíš, co je tvoje nálada a co cizí. Sliby se rozplývají a plány zůstávají v mlze. Lpíš na idealizované minulosti. Smutek se mění v tichou výčitku, kterou mají druzí uhodnout bez jediného slova.",
+  "hard": [
+   {
+    "topics": [
+     "mental_crisis"
+    ],
+    "text": "Tradice tu mluví o období zvýšené citové zranitelnosti, kdy se může objevit sklíčenost, úzkost nebo zmatení mysli. Staré texty spojují Měsíc v Rybách také s pobytem v ústraní, v nemocnici či na jiném uzavřeném místě."
+   },
+   {
+    "topics": [
+     "addiction"
+    ],
+    "text": "Tradice tu mluví o sklonu hledat úlevu v alkoholu, lécích nebo jiných látkách. Ryby jsou znamením opojení a Měsíc v nich podle starých výkladů zvyšuje citlivost na drogy, léky i jedy."
+   },
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o oslabené obranyschopnosti těla, o potížích se žaludkem, se zadržováním vody, s lymfou a s chodidly. Uvádí také zvýšenou citlivost plodnosti a těhotenství v těchto letech."
+   },
+   {
+    "topics": [
+     "loss",
+     "death"
+    ],
+    "text": "Tradice tu mluví o možné ztrátě matky nebo jiné blízké ženy, ať už vážnou nemocí, odloučením, nebo úmrtím. Starší výklady sem řadí i truchlení, které se táhne déle než obvykle a tiše prostupuje všední dny."
+   }
+  ],
+  "traits": {
+   "text": [
+    "empathy",
+    "intuition",
+    "sensitivity",
+    "creativity",
+    "spirituality"
+   ],
+   "shadow": [
+    "escapism",
+    "moodiness",
+    "dependence",
+    "indecision",
+    "melancholy"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "progressed/moon_in_house/1",
+  "title": "Progresní Měsíc v 1. domě",
+  "keywords": [
+   "citové sebevyjádření",
+   "tělo",
+   "proměna vzhledu",
+   "nová podoba sebe",
+   "vnímavost"
+  ],
+  "themes": [
+   "character",
+   "health",
+   "growth",
+   "family"
+  ],
+  "text": "Na zhruba dva a půl roku se tvoje citová energie stáčí k vlastní osobě, k tělu a k tomu, jak působíš navenek. Pocity se ti zrcadlí ve tváři, v držení těla i v hlase. Víc vnímáš, co ti tělo hlásí: hlad, únavu, potřebu tepla a klidu. Měníš účes, šatník nebo způsob jednání, protože hledáš podobu, ve které se cítíš doma. Lidé tě v těch letech snadno čtou a často se ti svěřují. Intuice pracuje rychle a první dojem z druhých bývá přesný. Učíš se pojmenovat vlastní potřeby a stát si za nimi.",
+  "shadow": "S progresním Měsícem v 1. domě se každá nálada hned propisuje do tvého vystupování a okolí ji pozná dřív, než promluvíš. Reaguješ podle toho, jak se zrovna cítíš, ne podle situace. Drobná poznámka ke vzhledu nebo chování zasáhne hluboko. Přichází uraženost a stahování do sebe. Čekáš, že druzí tvoje potřeby uhodnou bez vysvětlení. Jednou lpíš na staré podobě sebe, jindy ji v návalu emocí zahazuješ. Stres se nejdřív ukáže na těle: v žaludku, ve spánku a v chuti k jídlu.",
+  "hard": [
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o zvýšené zranitelnosti těla. Citové napětí se podle ní ukládá hlavně do žaludku a trávení a projevuje se kolísáním váhy, chuti k jídlu nebo spánku. Starší výklady sem řadí i témata plodnosti a hormonálních změn, které v těchto letech mohou být výraznější."
+   },
+   {
+    "topics": [
+     "mental_crisis"
+    ],
+    "text": "Tradice tu mluví o ohrožení duševní rovnováhy. Když se city dostanou do popředí osobnosti, mohou přerůst v delší období úzkosti, sklíčenosti nebo depresivních nálad, které zasahují do každodenního fungování. Výklad to popisuje jako citlivé místo těchto let, ne jako jistotu."
+   },
+   {
+    "topics": [
+     "loss",
+     "death"
+    ],
+    "text": "Tradice tu mluví o změnách ve vztahu k matce. Starší výklady s tímto obdobím spojují i její nemoc nebo ztrátu. Měsíc v domě těla a osobnosti podle nich přináší situaci, kdy se mateřská opora mění a péči o sebe přebíráš do vlastních rukou."
+   }
+  ],
+  "traits": {
+   "text": [
+    "sensitivity",
+    "intuition",
+    "openness",
+    "self_acceptance",
+    "transformation"
+   ],
+   "shadow": [
+    "moodiness",
+    "sulking",
+    "dependence",
+    "anxiety"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "progressed/moon_in_house/2",
+  "title": "Progresní Měsíc v 2. domě",
+  "keywords": [
+   "citová jistota",
+   "sebeocenění",
+   "majetek",
+   "hmotné bezpečí",
+   "talenty"
+  ],
+  "themes": [
+   "money",
+   "character",
+   "growth",
+   "family"
+  ],
+  "text": "Progresní Měsíc ve 2. domě obrací tvé city na zhruba dva a půl roku k tomu, co máš a čeho si ceníš. Bezpečí hledáš v hmatatelných věcech. Patří k nim úspory, pohodlné zázemí a předměty se vzpomínkou. Tvoje nálada víc závisí na pocitu zajištění. Zároveň se ozývá otázka vlastní hodnoty: co na sobě oceňuješ a co umíš nabídnout. Probouzí se cit pro nadání spojená s rukama, tělem, jídlem nebo péčí o druhé. Sílí potřeba, aby práce, která tě živí, odpovídala tomu, na čem ti záleží. Tělo si žádá pravidelnost, dobré jídlo a smyslové pohodlí.",
+  "shadow": "Když se citová jistota celá přesune do majetku, bolí každý výdaj i každá ztracená věc víc, než odpovídá její ceně. Nálady pak kolísají spolu se stavem účtu. Objevuje se lpění na starých věcech a strach se jich vzdát. Útěchu nabízí nákup nebo jídlo. Krátká úleva se ale brzy mění v další potřebu. Sebeocenění se snadno měří tím, co vlastníš nebo vyděláváš. V rodině mohou peníze a dárky sloužit jako tichý nástroj citového nátlaku.",
+  "hard": [
+   {
+    "topics": [
+     "ruin",
+     "loss"
+    ],
+    "text": "Tradice tu mluví o období, kdy hrozí ztráta majetku, úspor nebo domova. Mluví také o bolestném rozprodávání věcí s citovou hodnotou. Taková ztráta podle ní zasahuje hlouběji než do peněženky, protože otřásá samotným pocitem bezpečí."
+   },
+   {
+    "topics": [
+     "death",
+     "loss"
+    ],
+    "text": "Tradice tu mluví o ztrátě matky nebo jiné pečující osoby. Často ji spojuje s dědictvím, s rozdělováním jejích věcí a s penězi, které po ní zůstávají. Smutek se pak váže k předmětům i k majetkovým otázkám v rodině."
+   },
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o citlivém žaludku a trávení, do kterých se ukládají starosti o živobytí. Zmiňuje také potíže spojené s plodností a jídlo jako náhradu za citové bezpečí."
+   },
+   {
+    "topics": [
+     "mental_crisis"
+    ],
+    "text": "Tradice tu mluví o narušené duševní rovnováze. Ta podle ní vzniká z trvalé úzkosti z nedostatku a z pocitu, že tvoje hodnota stojí a padá s tím, co vlastníš."
+   }
+  ],
+  "traits": {
+   "text": [
+    "security_need",
+    "sensitivity",
+    "thrift",
+    "sensuality",
+    "self_acceptance"
+   ],
+   "shadow": [
+    "anxiety",
+    "stinginess",
+    "indulgence",
+    "moodiness",
+    "materialism"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "progressed/moon_in_house/3",
+  "title": "Progresní Měsíc v 3. domě",
+  "keywords": [
+   "rozhovory",
+   "učení",
+   "sourozenci",
+   "blízké okolí",
+   "neklid mysli"
+  ],
+  "themes": [
+   "character",
+   "family",
+   "growth",
+   "health"
+  ],
+  "text": "Na zhruba dva a půl roku se tvoje citová pozornost stěhuje do slov, učení a nejbližšího okolí. Potřebuješ mluvit o tom, co prožíváš, a pocit bezpečí ti dává rozhovor. Víc telefonuješ, píšeš, čteš a přemýšlíš nahlas. Do popředí se vrací sourozenci, sousedé a ulice, kde žiješ. Láká tě kurz, nový jazyk nebo krátké výlety, které rozhýbou zaběhnuté zvyky. Myšlení se řídí náladou, takže lépe chápeš druhé a umíš vystihnout jejich pocity. City si v těchto letech ujasňuješ tím, že je pojmenuješ.",
+  "shadow": "V letech progresního Měsíce ve 3. domě hlava snadno přebírá rytmus nálad. Myšlenky krouží, z drobné zprávy vzniká celý den obav a řeč se stává ventilem napětí. Hrozí roztěkanost a rozdělané věci bez konce. Stará křivda mezi sourozenci se může znovu otevřít, někdy s výčitkami a citovým nátlakem. Lpíš na tom, co kdo kdysi řekl, a rozhovor se mění ve zkoušku náklonnosti. Drby a dohady pak nahrazují skutečný kontakt.",
+  "hard": [
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o zvýšeném riziku nehod na krátkých cestách, v dopravě a v nejbližším okolí. Spojuje to s roztržitostí, kdy je mysl zaměstnaná city a pozornost k cestě slábne. Jde o tradiční varování, ne o předpověď."
+   },
+   {
+    "topics": [
+     "mental_crisis"
+    ],
+    "text": "Tradice tu mluví o neklidu nervů a narušené duševní rovnováze: přetížené myšlení, nespavost, úzkostné přemítání a citlivý žaludek, který reaguje na každou starost. Měsíc v domě mysli podle starých výkladů zesiluje vnímavost natolik, že se rovnováha snáz rozkolísá."
+   },
+   {
+    "topics": [
+     "loss",
+     "death"
+    ],
+    "text": "Tradice tu mluví o sporech a odcizení se sourozenci, o starostech o jejich zdraví a v těžších případech o jejich ztrátě. Protože progresní Měsíc souvisí s matkou, starší výklady v tomto období zmiňují i obavy o matku, její nemoc či ztrátu."
+   }
+  ],
+  "traits": {
+   "text": [
+    "curiosity",
+    "eloquence",
+    "sensitivity",
+    "empathy"
+   ],
+   "shadow": [
+    "restlessness",
+    "anxiety",
+    "moodiness",
+    "sulking"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "progressed/moon_in_house/4",
+  "title": "Progresní Měsíc v 4. domě",
+  "keywords": [
+   "domov",
+   "kořeny",
+   "rodina",
+   "zázemí",
+   "vzpomínky"
+  ],
+  "themes": [
+   "family",
+   "character",
+   "growth"
+  ],
+  "text": "Na zhruba dva a půl roku se tvoje citová energie stahuje domů, ke kořenům a k rodině. Pozornost se stáčí k bytu, ke kuchyňskému stolu a k lidem, se kterými sdílíš střechu. Roste potřeba zázemí, kde nemusíš nic předvádět. Často se to projeví chutí zařizovat, přestavovat, stěhovat se nebo pečovat o rodiče. Vynořují se vzpomínky na dětství a otázky, odkud pocházíš a co sis z rodiny odnesl do života. Máš jemnější cit pro atmosféru prostoru i pro nálady blízkých. Vnitřně se usazuješ a kladeš základ pro další etapu.",
+  "shadow": "Stažení k domovu se v těchto letech snadno mění v ulitu, ze které se nechce ven. Lpíš na tom, jak to bývalo, a změny tě znervózňují. Nálady, které nosíš v sobě, přeléváš na nejbližší. Staré rodinné křivdy znovu bolí, jako by se staly včera. Hrozí citové vydírání v obou směrech: péče, která svazuje, nebo vina vůči rodičům, která tě drží na místě. Svět venku se zmenšuje a uzavřenost tě odřezává od přátel.",
+  "hard": [
+   {
+    "topics": [
+     "death",
+     "loss"
+    ],
+    "text": "Tradice tu mluví o období, kdy se uzavírá kapitola rodičů: o vážné nemoci nebo smrti matky či otce, o ztrátě rodného domu nebo o rozpadu rodinného zázemí. Nejde o jistotu, spíš o téma, které může v těchto letech vystoupit do popředí."
+   },
+   {
+    "topics": [
+     "illness",
+     "mental_crisis"
+    ],
+    "text": "Tradice tu mluví o citlivém žaludku a trávení, o otázkách plodnosti a o kolísání duševní rovnováhy, kdy se smutek usazuje v těle. Protože 4. dům spojuje i s koncem života, zmiňuje u starších lidí také období oslabení a ubývání sil."
+   }
+  ],
+  "traits": {
+   "text": [
+    "family_attachment",
+    "security_need",
+    "sensitivity",
+    "protectiveness",
+    "belonging"
+   ],
+   "shadow": [
+    "moodiness",
+    "reclusiveness",
+    "stagnation",
+    "guilt",
+    "dependence"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "progressed/moon_in_house/5",
+  "title": "Progresní Měsíc v 5. domě",
+  "keywords": [
+   "radost",
+   "zamilovanost",
+   "tvořivost",
+   "děti",
+   "hra"
+  ],
+  "themes": [
+   "relationships",
+   "family",
+   "character",
+   "growth"
+  ],
+  "text": "Na zhruba dva a půl roku se tvé city stáčejí k radosti, hře a tvoření. Uvnitř roste potřeba cítit, že život má chuť a barvu. Silněji tě přitahuje zamilovanost, flirt a romantická gesta. Citovou energii vkládáš do koníčků, umění nebo čehokoli, co vzniká tvýma rukama. Děti, vlastní i cizí, se ti v těch letech dostávají blíž k srdci. Může sílit touha po dítěti. Pocit bezpečí ti dává spontánnost a hravost, ne rutina. Tělo i nálada citlivě reagují na to, kolik radosti si dopřeješ.",
+  "shadow": "Odvrácenou stranou těchto let je hlad po citové odezvě, který z lásky dělá jeviště. Potřebuješ obdiv a pozornost, a když nepřichází, nálada rychle padá. Do vztahů vstupuješ podle momentálního pocitu a stejně rychle z nich odcházíš. Na dětech nebo partnerovi můžeš citově lpět a čekat, že zaplní tvé prázdno. Když ti chybí pozornost, sahá se snadno po uraženosti nebo citovém nátlaku. Zábava občas slouží jako útěk před nepohodlnými pocity. Riskuješ víc, než je zdravé, jen kvůli vzrušení.",
+  "hard": [
+   {
+    "topics": [
+     "illness",
+     "loss"
+    ],
+    "text": "Tradice tu mluví o starostech s dětmi a o citlivém období kolem plodnosti. Starší výklady zmiňují komplikace v těhotenství, potrat nebo nemoc dítěte jako možné bolesti těchto let. Jde o tradiční motiv, ne o jistou předpověď."
+   },
+   {
+    "topics": [
+     "ruin",
+     "addiction"
+    ],
+    "text": "Tradice tu mluví o hazardu. Spojení Měsíce s pátým domem podle ní posiluje sklon hledat citové vzrušení v sázkách, hře a riskantních podnicích. Starší autoři zmiňují ztráty, které z takové vášně plynou, i návyk, který se z ní může vyvinout."
+   },
+   {
+    "topics": [
+     "mental_crisis",
+     "illness"
+    ],
+    "text": "Tradice tu mluví o kolísání duševní rovnováhy po zklamání v lásce. Rozchod nebo neopětovaný cit podle ní v těchto letech zasahuje hlouběji než jindy a může vést k období smutku, nespavosti či citového zhroucení. Měsíc vládne i žaludku, proto výklady zmiňují trávicí potíže spojené s rozrušením."
+   },
+   {
+    "topics": [
+     "death",
+     "loss"
+    ],
+    "text": "Tradice tu mluví i o ztrátě matky. Progresní Měsíc nese téma matky s sebou při přechodu každým domem a starší výklady zmiňují její nemoc nebo úmrtí jako možnou událost těchto let. Jde o tradiční motiv, ne o jistotu."
+   }
+  ],
+  "traits": {
+   "text": [
+    "creativity",
+    "cheerfulness",
+    "sensitivity",
+    "openness",
+    "sensuality"
+   ],
+   "shadow": [
+    "drama",
+    "moodiness",
+    "risk_taking",
+    "dependence",
+    "escapism"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "progressed/moon_in_house/6",
+  "title": "Progresní Měsíc v 6. domě",
+  "keywords": [
+   "péče",
+   "každodenní rytmus",
+   "tělo a nálada",
+   "služba",
+   "zdraví"
+  ],
+  "themes": [
+   "work",
+   "health",
+   "family"
+  ],
+  "text": "Na zhruba dva a půl roku se tvoje citová pozornost stáčí do všedních dnů, k práci a k vlastnímu tělu. Pocit bezpečí teď hledáš v pevném rytmu: v ranních zvycích, v pořádku kolem sebe, v úkolech dotažených do konce. Nálada se ti rychle propisuje do těla a tělo zase do nálady. Víc vnímáš, co s tebou dělá jídlo, spánek a pracovní prostředí. Roste chuť o někoho pečovat, ať jde o kolegy, nemocného příbuzného, nebo zvíře. Práce dostává citový náboj. Potřebuješ v ní cítit smysl a lidské teplo, nejen výkon. Drobná služba druhým ti přináší klid.",
+  "shadow": "Ve stínu tohoto období se starost o každodenní povinnosti mění v úzkostné lpění na rutině. Když se plán rozpadne, rozpadne se i nálada. Snadno bereš na sebe víc práce, než uneseš, a pak ti chybí uznání. Pečuješ o druhé a vlastní únavu přehlížíš. Napětí se ukládá do žaludku a do spánku. Objevuje se puntičkářství, drobné výčitky a tiché citové vydírání typu „já tu dělám všechno“. Kritika v práci zasahuje hlouběji, než odpovídá její skutečné váze.",
+  "hard": [
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o období, kdy se citové napětí nejsnáz projevuje na zdraví. Zmiňuje potíže se žaludkem a trávením, vyčerpání z přepracování a nemoci, které vyžadují delší péči. Starší výklady sem kladou i nemoc matky nebo jiné blízké ženy, o kterou je potřeba se starat."
+   },
+   {
+    "topics": [
+     "mental_crisis",
+     "illness"
+    ],
+    "text": "Tradice tu mluví také o otřesené duševní rovnováze. Zmiňuje vleklou únavu, sklíčenost a úzkost, které pramení z pocitu, že všední povinnosti nemají konec. Starší autoři do tohoto období řadí i potíže s plodností a s ženskými cykly."
+   },
+   {
+    "topics": [
+     "death",
+     "loss"
+    ],
+    "text": "Tradice tu mluví i o ztrátě matky nebo jiné pečující osoby, často po předchozí nemoci, a o úmrtí domácího zvířete. Tradice tyto události spojuje s tématy domu a období. Neoznačuje je za nevyhnutelné."
+   }
+  ],
+  "traits": {
+   "text": [
+    "order",
+    "diligence",
+    "protectiveness",
+    "self_sacrifice",
+    "sensitivity"
+   ],
+   "shadow": [
+    "anxiety",
+    "perfectionism",
+    "exhaustion",
+    "rigidity",
+    "criticism"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "progressed/moon_in_house/7",
+  "title": "Progresní Měsíc v 7. domě",
+  "keywords": [
+   "partnerství",
+   "citová vazba",
+   "závazek",
+   "sdílený domov"
+  ],
+  "themes": [
+   "relationships",
+   "family",
+   "growth"
+  ],
+  "text": "Na zhruba dva a půl roku se tvoje citová pozornost stáčí k partnerovi a ke všem, se kterými tě spojuje nějaká dohoda. Vztahy teď nejsou vedlejší kolej. Rozhoduje se v nich o tvé pohodě. Víc vnímáš nálady druhých a snadno vycítíš, co blízký člověk potřebuje. Roste chuť sdílet domov, závazek nebo společný plán. Pro někoho to bývá čas sňatku či společného bydlení. Pro jiného je to čas, kdy starý svazek hledá nový tvar. Učíš se, že bezpečí nevzniká jen uvnitř tebe. Vzniká i v tom, jak se domlouváš s druhým.",
+  "shadow": "Odvrácenou stranou tohoto období je spoléhání na partnera jako na jediný zdroj citového bezpečí. Tvoje nálada pak stoupá a klesá podle toho, jak se k tobě druhý zrovna chová. Snadno přebíráš jeho přání za vlastní. Pak se tiše urážíš, že tvoje potřeby nikdo nevidí. Do vztahu se mohou přenášet staré vzorce z domova, zvlášť z vazby na matku. Při napětí hrozí citové vydírání, výčitky nebo lpění na svazku, který už nefunguje.",
+  "hard": [
+   {
+    "topics": [
+     "loss"
+    ],
+    "text": "Tradice tu mluví o rozchodech a rozvodech, které mohou v tomto období vyplout na povrch. Týká se to hlavně svazků, které stojí na nevyřčených citových potřebách. Mluví i o sporech a otevřených nepřátelích. Do takových konfliktů se promítá víc emocí než věcných důvodů."
+   },
+   {
+    "topics": [
+     "mental_crisis"
+    ],
+    "text": "Tradice tu mluví o kolísání duševní rovnováhy, když se citové bezpečí upne k jedinému člověku. Krize ve vztahu se pak může projevit jako úzkost, nespavost nebo pocit ztráty pevné půdy pod nohama."
+   },
+   {
+    "topics": [
+     "death",
+     "loss"
+    ],
+    "text": "Tradice tu mluví také o úmrtí matky či blízké ženy nebo o odloučení od ní. Citové těžiště pak přechází z původní rodiny k partnerovi. Jde o možnost, kterou tradice zmiňuje, ne o jistotu."
+   },
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o potížích se žaludkem a o otázkách plodnosti. V tomto období se pojí s napětím ve vztahu nebo s rozhodováním o společném dítěti."
+   }
+  ],
+  "traits": {
+   "text": [
+    "empathy",
+    "cooperation",
+    "sensitivity",
+    "belonging"
+   ],
+   "shadow": [
+    "dependence",
+    "moodiness",
+    "sulking",
+    "family_attachment"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "progressed/moon_in_house/8",
+  "title": "Progresní Měsíc v 8. domě",
+  "keywords": [
+   "proměna",
+   "intimita",
+   "sdílené zdroje",
+   "citová hloubka",
+   "pouštění minulosti"
+  ],
+  "themes": [
+   "relationships",
+   "money",
+   "health",
+   "growth",
+   "family"
+  ],
+  "text": "Na zhruba dva a půl roku se tvoje citová pozornost stáčí k tomu, co je skryté, sdílené a nevratné. Povrchní kontakt ti nestačí. Hledáš blízkost, ve které se dá mluvit o strachu, touze i penězích. Vnímáš podtext rozhovorů a vycítíš, co druzí tají. Sexualita a důvěrnost dostávají větší váhu. Stejně tak otázky společného majetku, dluhů nebo dědictví. Staré citové jistoty se rozpouštějí a vzniká prostor pro nové. Umíš doprovázet druhé v krizi, protože se krize nebojíš. Je to období vnitřního svlékání kůže: pomalé, tiché a důkladné.",
+  "shadow": "Touha po hluboké blízkosti v tomto období snadno přerůstá v citové lpění a kontrolu. Žárlivost, podezíravost a potřeba vědět o druhém všechno tě vyčerpávají. Nálady jsou těžké a dlouho doznívají. Staré křivdy se vracejí a těžko se pouštějí. Hrozí citové vydírání v obou směrech: mlčení jako trest, vina jako páka. Závislost na partnerovi nebo na jeho penězích oslabuje pocit vlastní hodnoty. Místo proměny pak přichází zaseknutí v minulosti.",
+  "hard": [
+   {
+    "topics": [
+     "death",
+     "loss"
+    ],
+    "text": "Tradice tu mluví o období, kdy se citového života dotýká smrt. Spojuje ho se ztrátou matky nebo jiné blízké ženy, se smutkem v rodině a s vyřizováním dědictví. Jde o tradiční výklad tématu, ne o předpověď."
+   },
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o citlivosti žaludku a trávení, o potížích s plodností a o operacích. Tělo podle ní reaguje na vnitřní napětí a nevyřešené city tělesnými obtížemi."
+   },
+   {
+    "topics": [
+     "mental_crisis"
+    ],
+    "text": "Tradice tu mluví o ohrožení duševní rovnováhy: o hlubokých depresivních náladách, úzkostech a pocitu, že se půda pod nohama propadá. Na povrch podle ní vyplouvají staré rány z dětství."
+   },
+   {
+    "topics": [
+     "ruin"
+    ],
+    "text": "Tradice tu mluví o krachu spojeném s cizími penězi: o dluzích, ztrátě společného majetku, sporech o dědictví nebo o finanční závislosti na partnerovi."
+   }
+  ],
+  "traits": {
+   "text": [
+    "depth",
+    "intuition",
+    "transformation",
+    "empathy",
+    "sensuality"
+   ],
+   "shadow": [
+    "jealousy",
+    "obsession",
+    "moodiness",
+    "dependence",
+    "secrecy"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "progressed/moon_in_house/9",
+  "title": "Progresní Měsíc v 9. domě",
+  "keywords": [
+   "smysl",
+   "víra",
+   "studium",
+   "cizina",
+   "dálky"
+  ],
+  "themes": [
+   "growth",
+   "character",
+   "family",
+   "health"
+  ],
+  "text": "Na zhruba dva a půl roku se tvoje citové potřeby stěhují k otázkám smyslu, víry a daleka. Domov přestává stačit jako jediný zdroj bezpečí. Hledáš ho v myšlenkách, které dávají životu směr. Táhne tě studium, kurz, nový jazyk nebo cesta do ciziny. Některé knihy a rozhovory tě zasáhnou víc než obvykle. Ve škole i na cestách se zabydlíš rychleji, než čekáš. Často se objeví učitel, mentor nebo cizinec, který ti otevírá jiný pohled. Měníš názor na to, čemu věříš, a necháváš ho pomalu dozrát v pocitech. Pocit smysluplnosti teď ovlivňuje i spánek a náladu.",
+  "shadow": "Citová potřeba jistoty se v těchto letech snadno přelévá do lpění na jediné pravdě. Když se ti víra nebo přesvědčení zakymácí, prožíváš to jako ohrožení domova. Hrozí útěk do dálek, studia nebo ideálů místo řešení blízkých vztahů. Nálady kolísají podle toho, jak moc věci dávají smysl. Učitele či gurua můžeš idealizovat a pak prožívat zklamání. Neklid tě žene dál, i když tělo potřebuje zastavit. Někdy blízkým kážeš víc, než jim nasloucháš.",
+  "hard": [
+   {
+    "topics": [
+     "mental_crisis"
+    ],
+    "text": "Tradice tu mluví o citovém otřesu spojeném s vírou nebo přesvědčením. Rozpad světonázoru může podle starých výkladů rozkolísat duševní rovnováhu a přinést úzkost, nespavost nebo období zmatku. Tradice to spojuje také s náboženským blouzněním a fanatismem."
+   },
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o potížích se žaludkem a trávením na cestách a v cizině. Zmiňuje nemoc daleko od domova a slabší odolnost při změně stravy, vody a podnebí."
+   },
+   {
+    "topics": [
+     "loss",
+     "death"
+    ],
+    "text": "Tradice tu mluví o ztrátě matky nebo o vážných zprávách o ní, které přicházejí z dálky. Zmiňuje také odloučení od rodiny kvůli pobytu v cizině a smutek z toho, že u důležitých chvil chybíš."
+   },
+   {
+    "topics": [
+     "loss",
+     "ruin"
+    ],
+    "text": "Tradice tu mluví o sporech u soudu, často kvůli rodině, domovu nebo dědictví. Zmiňuje také potíže v cizině, jako jsou problémy s úřady nebo ztráta zázemí. Citově vypjaté spory se podle ní táhnou dlouho a vyčerpávají."
+   }
+  ],
+  "traits": {
+   "text": [
+    "curiosity",
+    "wanderlust",
+    "spirituality",
+    "idealism",
+    "openness"
+   ],
+   "shadow": [
+    "moodiness",
+    "restlessness",
+    "escapism",
+    "rigidity",
+    "security_need"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "progressed/moon_in_house/10",
+  "title": "Progresní Měsíc v 10. domě",
+  "keywords": [
+   "kariéra",
+   "veřejný obraz",
+   "citové poslání",
+   "uznání",
+   "matka"
+  ],
+  "themes": [
+   "work",
+   "character",
+   "family",
+   "growth"
+  ],
+  "text": "Zhruba na dva a půl roku se tvoje citová energie stáčí k práci, poslání a k tomu, jak tě vidí okolí. Veřejné místo začíná znamenat bezpečí, podobně jako jindy domov. Uznání tě hřeje víc než obvykle a neúspěch víc bolí. Roste potřeba dělat něco, co dává smysl i srdci, nejen povinnosti. Lidé tě v těchto letech víc vnímají a tvoje nálady jsou vidět i v práci. Často se vynoří téma matky nebo ženy s autoritou, která ovlivňuje tvou cestu. Máš dobrý cit pro potřeby kolektivu a dokážeš pečovat o lidi kolem sebe i z vedoucí pozice.",
+  "shadow": "Pracovní úspěch se v těchto letech snadno stává měřítkem tvé vlastní hodnoty. Každá kritika od nadřízených zasáhne hluboko a nálady se přelévají do veřejného prostoru. Hrozí lpění na pozici nebo titulu jen kvůli pocitu jistoty. Od kolegů či šéfa někdy čekáš péči, jakou dává rodina, a přichází zklamání. Domov a blízcí ustupují do pozadí. Objevuje se i sklon získávat vliv přes city, třeba vyvoláváním viny nebo hraním na soucit.",
+  "hard": [
+   {
+    "topics": [
+     "loss",
+     "ruin"
+    ],
+    "text": "Tradice tu mluví o kolísání pověsti a o možné ztrátě postavení. Proměnlivý Měsíc v domě kariéry může přinést rychlý vzestup i nečekaný pád. Starší výklady zmiňují veřejnou ostudu nebo odchod z funkce, často kvůli náladám vedení. Některé texty to berou i doslova jako pád z výšky."
+   },
+   {
+    "topics": [
+     "death",
+     "loss"
+    ],
+    "text": "Tradice tu mluví o matce. Desátý dům se v některých školách váže k jednomu z rodičů a Měsíc v něm podle starých výkladů může ukazovat na nemoc či smrt matky, na odloučení od ní nebo na zásadní proměnu vztahu s ní."
+   },
+   {
+    "topics": [
+     "illness",
+     "mental_crisis"
+    ],
+    "text": "Tradice tu mluví o žaludku a trávení, které reagují na pracovní tlak, a o otřesech duševní rovnováhy pod pohledem veřejnosti. Starší texty zmiňují i vyčerpání z přepracování a potíže s plodností, když kariéra odsouvá péči o tělo."
+   }
+  ],
+  "traits": {
+   "text": [
+    "ambition",
+    "sensitivity",
+    "protectiveness",
+    "responsibility",
+    "leadership"
+   ],
+   "shadow": [
+    "moodiness",
+    "insecurity",
+    "security_need",
+    "dependence",
+    "guilt"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "progressed/moon_in_house/11",
+  "title": "Progresní Měsíc v 11. domě",
+  "keywords": [
+   "přátelé",
+   "skupina",
+   "naděje",
+   "sounáležitost",
+   "plány do budoucna"
+  ],
+  "themes": [
+   "relationships",
+   "growth",
+   "character"
+  ],
+  "text": "Na zhruba dva a půl roku se tvoje citová pozornost stáčí od domova k přátelům, skupinám a plánům do budoucna. Bezpečí teď hledáš v kruhu lidí, kteří sdílejí tvé hodnoty. Přibývá nových známostí a některé z nich přerůstají v blízkost podobnou rodině. Láká tě spolek, tým, komunita nebo skupina se společným cílem. Snadno vycítíš náladu celého kolektivu a umíš ho citově podržet. Vynořují se naděje a přání, která dlouho zůstávala nevyslovená. Kamarádství tě teď živí víc než samota. Uvnitř zraje otázka, kam patříš a s kým chceš sdílet budoucnost.",
+  "shadow": "Potřeba patřit do skupiny tě v těchto letech může vést k tomu, že vlastní city podřizuješ náladě party. Přátelé se snadno stávají náhradní rodinou, na které citově visíš. Když tě kolektiv přehlíží, přichází pocit vyřazení a uražené stažení. Lpíš na starých kamarádstvích, i když už nic nedávají. Nálady druhých přebíráš za své. Plány a přání se mění s každým novým kruhem lidí, takže chybí stálý směr. Občas tlačíš na blízké výčitkami, aby zůstali nablízku.",
+  "hard": [
+   {
+    "topics": [
+     "loss"
+    ],
+    "text": "Tradice tu mluví o zradě přátel. Podle ní může toto období přinést zklamání ze skupiny nebo odchod člověka, kterému věříš. Citová vazba k přátelům je teď silná, proto rozchod s nimi bolí víc, než by se čekalo."
+   },
+   {
+    "topics": [
+     "mental_crisis"
+    ],
+    "text": "Tradice tu mluví o kolísání duševní rovnováhy, když se citové bezpečí opírá jen o přijetí ve skupině. Vyloučení z kruhu nebo rozpad společenství pak podle ní může otřást vnitřní stabilitou a přinést úzkost nebo smutek."
+   },
+   {
+    "topics": [
+     "death",
+     "loss"
+    ],
+    "text": "Tradice tu mluví o ztrátě matky nebo blízké ženy z okruhu přátel v tomto období. Nejde o jistotu. Spíš jde o téma loučení s někým, kdo dával pocit domova a bezpečí."
+   },
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice spojuje Měsíc se žaludkem a plodností. V této poloze tu mluví o potížích s trávením, které se ozývají při napětí ve vztazích s přáteli. Zmiňuje také naděje na dítě, které zůstávají spíš plánem do budoucna."
+   }
+  ],
+  "traits": {
+   "text": [
+    "sociability",
+    "belonging",
+    "empathy",
+    "idealism",
+    "cooperation"
+   ],
+   "shadow": [
+    "dependence",
+    "conformity",
+    "sulking",
+    "moodiness",
+    "inconstancy"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "progressed/moon_in_house/12",
+  "title": "Progresní Měsíc v 12. domě",
+  "keywords": [
+   "ústraní",
+   "podvědomí",
+   "uzavírání cyklu",
+   "intuice",
+   "samota"
+  ],
+  "themes": [
+   "character",
+   "family",
+   "health",
+   "growth"
+  ],
+  "text": "Na zhruba dva a půl roku se tvoje citová energie stahuje dovnitř, do tiché a skryté části života. Progresní Měsíc tu uzavírá jeden velký citový cyklus a chystá půdu pro nový. Víc tě táhne ticho, vlastní myšlenky a čas o samotě než ruch kolem. Vynořují se staré vzpomínky, sny a pocity z dětství, které dlouho ležely pod povrchem. Sílí intuice a soucit s lidmi, kteří trpí nebo stojí stranou. Pomáhá ti klidné místo, deník, meditace nebo práce v zázemí, kde nikdo nevidí. Je to čas loučení, třídění a odpouštění, ne čas velkých začátků.",
+  "shadow": "Staré city, které progresní Měsíc ve dvanáctém domě vynáší na povrch, tě mohou zahltit dřív, než je stihneš pojmenovat. Nálady kolísají bez zjevné příčiny. Objevuje se sklon utíkat do snění, spánku, omámení nebo do cizích starostí. Obětování se pro druhé přechází v tiché lpění a nevyslovenou výčitku. Lpění na minulosti brzdí každý krok dopředu. Smutek a pocit viny se drží skrytě a navenek zůstává jen únava. Hrozí i tiché citové vydírání, z tvé strany i vůči tobě.",
+  "hard": [
+   {
+    "topics": [
+     "mental_crisis"
+    ],
+    "text": "Tradice tu mluví o oslabené duševní rovnováze. Měsíc v domě podvědomí podle ní může přinést úzkosti, deprese, nespavost a pocit ztráty pevné půdy pod nohama, v krajní podobě i sklon k sebezničení."
+   },
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o pobytu v nemocnici nebo jiném ústavu, o skrytých a vleklých nemocech a o potížích se žaludkem, trávením a plodností. Tělo se podle ní v tomto období ozývá tiše, ale dlouho."
+   },
+   {
+    "topics": [
+     "loss",
+     "death"
+    ],
+    "text": "Tradice tu mluví o ztrátě matky nebo ženy, která pro tebe znamená domov, o její nemoci, odloučení či smrti. Zmiňuje také rozpad dosavadního zázemí a období osamělosti, kdy se blízcí vzdalují."
+   },
+   {
+    "topics": [
+     "addiction"
+    ],
+    "text": "Tradice tu mluví o sklonu k závislostem, zejména na alkoholu, lécích a látkách, které otupují city. Únik z bolesti do omámení je podle ní v těchto letech obzvlášť lákavý a nenápadný."
+   },
+   {
+    "topics": [
+     "ruin",
+     "loss"
+    ],
+    "text": "Tradice tu mluví o skrytých nepřátelích, pomluvách a intrikách za zády, o uvěznění či jiném nuceném odloučení od světa a o ztrátě postavení kvůli tajemstvím, která vyjdou najevo."
+   }
+  ],
+  "traits": {
+   "text": [
+    "reclusiveness",
+    "intuition",
+    "empathy",
+    "spirituality",
+    "depth"
+   ],
+   "shadow": [
+    "escapism",
+    "melancholy",
+    "guilt",
+    "moodiness",
+    "addiction_tendency"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "progressed/sun_in_sign/aries",
+  "title": "Progresní Slunce v Beranu",
+  "keywords": [
+   "nový začátek",
+   "odvaha",
+   "iniciativa",
+   "vůle",
+   "sebeprosazení"
+  ],
+  "themes": [
+   "character",
+   "growth",
+   "work",
+   "health"
+  ],
+  "text": "Progresní Slunce v Beranu otevírá třicetiletou kapitolu, ve které se tvoje vědomé já učí začínat. Vnitřně v tobě dozrává odvaha jednat dřív, než přijde jistota. Tvoje vůle získává přímý směr a ztrácí trpělivost s oklikami. Tradice tu vidí Slunce v povýšení: životní síla je čerstvá a hledá cíl. Častěji přebíráš iniciativu, zakládáš nové věci a mluvíš bez obalu. Tvořivost se projevuje rychlými nápady a chutí je hned zkoušet. Mění se i tvůj vztah k autoritě a k obrazu otce. Místo vzoru hledáš vlastní cestu. Tahle proměna je pomalá a vnitřní, není to náhlá událost.",
+  "shadow": "Síla, která tě v téhle kapitole žene ke startu, umí přerůst v netrpělivost se vším, co nejde hned. Hrozí ti zakládání věcí bez dotažení a přeskakování lidí, kteří nestačí tvému tempu. Pýcha tu má podobu potřeby mít vždy první slovo. Tvoje vznětlivost přichází rychle a stejně rychle vyprchá, škody po ní ale zůstávají. Vlastní cíl snadno zakryje potřeby druhých. Sebevyjádření pak sklouzne k panovačnosti.",
+  "hard": [
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o Slunci jako o vládci srdce, zraku a vitality a o Beranovi jako o znamení hlavy. S tímto obdobím spojuje přepětí sil, horečky, záněty, bolesti hlavy a potíže s očima. Povýšené Slunce podle ní dodává odolnost. Zároveň ale svádí k vyčerpání z přehnaného tempa."
+   },
+   {
+    "topics": [
+     "violence",
+     "illness"
+    ],
+    "text": "Tradice tu mluví také o úrazech hlavy a obličeje, o popáleninách a o zraněních z ukvapenosti nebo z prudkého jednání. Ohnivá kardinální povaha podle ní zvyšuje sklon ke střetům s druhými. Tyto hádky mohou přerůst ve fyzický konflikt."
+   }
+  ],
+  "traits": {
+   "text": [
+    "courage",
+    "decisiveness",
+    "independence",
+    "vitality",
+    "leadership"
+   ],
+   "shadow": [
+    "impulsiveness",
+    "anger",
+    "selfishness",
+    "dominance",
+    "pride"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "progressed/sun_in_sign/taurus",
+  "title": "Progresní Slunce v Býku",
+  "keywords": [
+   "zakořenění",
+   "stálost",
+   "smysly",
+   "budování",
+   "trpělivost"
+  ],
+  "themes": [
+   "character",
+   "growth",
+   "work",
+   "money",
+   "health"
+  ],
+  "text": "Progresní Slunce v Býku otevírá zhruba třicetiletou kapitolu, ve které tvoje vůle zpomaluje a hledá pevnou půdu pod nohama. Vnitřně se obracíš k tomu, co vydrží: k domovu, tělu, práci rukama a věcem se skutečnou hodnotou. Sebevědomí teď roste z výsledků, ne z gest. Máš nadání dotahovat započaté a stavět krok za krokem. Smysly se zostřují. Chuť, dotek, hudba nebo práce se zemí ti vracejí sílu. Tvořivost dostává hmatatelnou podobu. Vztah k otci i k vlastní autoritě se usazuje do klidnějšího tvaru. Okolí v tobě vnímá spolehlivost a vyrovnanost.",
+  "shadow": "Stinná strana progresního Slunce v Býku je pýcha, která zatvrdne: tvoje já splyne s tím, co už máš, a odmítá se pohnout. Hrdost na vlastní způsob se mění v tvrdohlavost. Pohodlí přerůstá v lenost a odkládání a každá změna působí jako ohrožení. Majetnickost se týká věcí i lidí. Ztrátu kontroly nad nimi bereš jako urážku. Potřeba obdivu se přesouvá na to, co vlastníš. Vitalita pak tuhne do strnulosti a požitkářství.",
+  "hard": [
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o krku a hrdle jako o místech spojených s Býkem a o srdci, zraku a vitalitě jako o doméně Slunce. Při přemíře jídla, pití a pohodlí uvádí sklon k těžkopádnosti, otylosti a zatížení srdce. Jde o staré spojení těla se znamením, ne o předpověď."
+   }
+  ],
+  "traits": {
+   "text": [
+    "steadiness",
+    "patience",
+    "perseverance",
+    "sensuality",
+    "calm"
+   ],
+   "shadow": [
+    "stubbornness",
+    "indulgence",
+    "procrastination",
+    "materialism",
+    "rigidity"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "progressed/sun_in_sign/gemini",
+  "title": "Progresní Slunce v Blížencích",
+  "keywords": [
+   "zvídavost",
+   "řeč",
+   "učení",
+   "pohyb",
+   "dvojí pohled"
+  ],
+  "themes": [
+   "character",
+   "growth",
+   "work",
+   "relationships"
+  ],
+  "text": "S progresním Sluncem v Blížencích začíná zhruba třicetiletá kapitola, v níž tvoje vědomé já roste skrze otázky, slova a pohyb. Vůle se přestává upínat k jednomu cíli a hledá souvislosti. Sílí chuť číst, psát, učit se a mluvit s lidmi různých názorů. Tvořivost se projevuje hravě: v nápadech, vtipu a krátkých projektech. Sebevědomí ti dává schopnost věci pochopit a pojmenovat. Vidíš obě strany sporu a umíš mezi nimi tlumočit. Cesty, kurzy a nová setkání nejsou rozptýlením, ale způsobem, jak poznáváš vlastní povahu. Vztah k otci i k autoritám se posouvá od poslušnosti k rozhovoru.",
+  "shadow": "Stínem progresního Slunce v Blížencích je já, které se rozbíhá do mnoha směrů a nikde nezakoření. Potřeba obdivu se mění v touhu oslnit pohotovou odpovědí. Pýcha se schovává za chytrost: druhé snadno shodíš slovem a po prvním přečtení máš pocit, že víš všechno. Začínáš víc věcí, než dokončíš. Neklid tě žene od tématu k tématu a vůle se tříští. Dvojí pohled se může zvrhnout v nerozhodnost nebo dvojí tvář. Tam, kde je potřeba hloubka, hrozí povrchnost.",
+  "hard": [
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o životní síle Slunce, která se v proměnlivém vzdušném znamení snadno rozptyluje. Spojuje to s nervovým vyčerpáním, nespavostí a slabostí plic, dýchacích cest, ramen a paží, které Blíženci tradičně ovládají. Slunce tu není v pádu, takže tradice zdraví ani otce výslovně neoslabuje. Varuje spíš před přetěžováním nervů neustálým shonem a roztříštěností."
+   }
+  ],
+  "traits": {
+   "text": [
+    "curiosity",
+    "eloquence",
+    "flexibility",
+    "sociability",
+    "creativity"
+   ],
+   "shadow": [
+    "superficiality",
+    "restlessness",
+    "inconstancy",
+    "indecision",
+    "pride"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "progressed/sun_in_sign/cancer",
+  "title": "Progresní Slunce v Raku",
+  "keywords": [
+   "domov",
+   "kořeny",
+   "péče",
+   "rodina",
+   "citové zázemí"
+  ],
+  "themes": [
+   "family",
+   "character",
+   "growth",
+   "health"
+  ],
+  "text": "Progresní Slunce v Raku otevírá zhruba třicetiletou kapitolu, ve které se tvoje vůle obrací k domovu, rodině a kořenům. Sebevědomí teď nečerpáš z výkonu, ale z pocitu, že někam patříš. Roste v tobě potřeba pečovat, chránit a vytvářet bezpečné zázemí pro blízké. Tvořivost dostává osobní tón: vzpomínky, rodinné příběhy, vaření, zařizování bytu, péče o děti nebo o starší generaci. Lépe vnímáš nálady druhých a jednáš víc podle citu. Mění se i vztah k otci a k vlastní roli rodiče. Vnitřní síla teď roste v tichu, ne na odiv.",
+  "shadow": "S progresním Sluncem v Raku se pýcha schovává za péči. Toužíš po obdivu za to, jak se o druhé staráš. Když vděk nepřijde, přichází uraženost a stažení do ulity. Tvoje nálady pak ovlivňují celou domácnost. Snadno lpíš na minulosti, na starých křivdách i na lidech, kteří potřebují odejít. Domov se může změnit v pevnost, kde máš poslední slovo ty. Ochrana pak přerůstá v kontrolu a citové vydírání. Hrozí i uzavřenost: vnější svět, práce a ambice ustupují do pozadí víc, než je zdravé.",
+  "hard": [
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o spojení Slunce se srdcem a vitalitou a Raka s hrudí, žaludkem a trávením. Oslabení zdraví v tomto období spojuje hlavně s potlačenými city: starosti a smutek se podle ní ukládají do těla, do zažívání a do oblasti hrudi. Jde o tradiční symboliku, ne o předpověď nemoci."
+   },
+   {
+    "topics": [
+     "death",
+     "loss",
+     "illness"
+    ],
+    "text": "Tradice tu mluví o rodinných ztrátách. Vstup progresního Slunce do znamení domova a matky spojuje s obdobím, kdy stárnou rodiče, zvlášť otec, a kdy může přijít jejich nemoc nebo úmrtí. Nejde o jistotu. Tradice tím spíš říká, že péče o rodiče a loučení s nimi mohou patřit k této kapitole."
+   }
+  ],
+  "traits": {
+   "text": [
+    "protectiveness",
+    "family_attachment",
+    "sensitivity",
+    "empathy",
+    "belonging"
+   ],
+   "shadow": [
+    "sulking",
+    "moodiness",
+    "reclusiveness",
+    "dominance",
+    "pride"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "progressed/sun_in_sign/leo",
+  "title": "Progresní Slunce ve Lvu",
+  "keywords": [
+   "sebevyjádření",
+   "tvořivost",
+   "srdce",
+   "vůdčí síla",
+   "hravost"
+  ],
+  "themes": [
+   "character",
+   "growth",
+   "relationships",
+   "family",
+   "health"
+  ],
+  "text": "Progresní Slunce ve Lvu otevírá zhruba třicetiletou kapitolu, ve které tvé vědomé já vystupuje z pozadí na světlo. Slunce je tu ve vlastním znamení, a proto vůle a životní síla sílí plynule a bez vnitřního odporu. Roste v tobě potřeba tvořit, ukázat vlastní práci a stát si za vlastním jménem. Srdce dostává hlas: rozhoduješ se víc podle toho, co tě skutečně zahřeje. Objevuje se hravost, chuť na radost, na děti, na umění nebo na cokoli, co nese tvůj osobní rukopis. Štědrost přichází přirozeně a druzí v tobě častěji vidí oporu a vůdčí osobnost.",
+  "shadow": "Progresní Slunce ve Lvu snadno spojí rostoucí sebevědomí s hladem po potlesku. Když obdiv chybí, přichází uraženost nebo dramatická gesta, která mají pozornost vynutit. Pýcha ti pak brání přiznat chybu nebo přijmout radu. Ve vztazích hrozí panovačnost: tvoje představa se stává jediným měřítkem a druzí se jí mají přizpůsobit. Štědrost se může proměnit v okázalost, která čeká vděk. Dlouhá kapitola síly svádí i k přepínání vlastních sil, protože přiznat únavu působí jako slabost.",
+  "hard": [
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o srdci, zádech a zraku jako o místech, kam se v této kapitole soustředí vitalita i její zatížení. Slunce ve vlastním znamení podle tradice zdraví spíš posiluje. Varuje však před vyčerpáním z pýchy a neustálého přepínání, které se podle starých výkladů může projevit právě na srdci."
+   },
+   {
+    "topics": [
+     "loss",
+     "death"
+    ],
+    "text": "Tradice tu mluví o otci, kterého Slunce v progresích zastupuje. Vstup progresního Slunce do nového znamení bývá spojován s proměnou vztahu k němu. Některé výklady sem kladou i otcovu nemoc, stárnutí nebo jeho odchod. Jde o tradiční souvislost, ne o jistotu."
+   }
+  ],
+  "traits": {
+   "text": [
+    "self_confidence",
+    "creativity",
+    "generosity",
+    "vitality",
+    "leadership"
+   ],
+   "shadow": [
+    "pride",
+    "dominance",
+    "drama",
+    "sulking",
+    "exhaustion"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "progressed/sun_in_sign/virgo",
+  "title": "Progresní Slunce v Panně",
+  "keywords": [
+   "řád",
+   "služba",
+   "zdokonalování",
+   "zdraví",
+   "pokora"
+  ],
+  "themes": [
+   "work",
+   "health",
+   "growth",
+   "character"
+  ],
+  "text": "Progresní Slunce vstupuje do Panny a otevírá třicetiletou kapitolu, ve které se tvoje vůle obrací k práci, řádu a užitečnosti. Sebevyjádření už nehledá potlesk, hledá dobře odvedenou práci. Máš chuť zdokonalit řemeslo, učit se postupy a dotahovat detaily. Životní síla se váže na denní režim: spánek, jídlo, pohyb a pořádek kolem tebe. Vztah k otci a k autoritám dostává střízlivější podobu, s větším důrazem na službu než na okázalost. Tvořivost se projevuje v péči, opravách a vylepšování. Tvou silnou stránkou je rozbor: problém rozložíš na části a řešíš krok za krokem. Nejde o vnější události, jde o pomalý vnitřní posun k pokoře a praktické moudrosti.",
+  "shadow": "V tomto třicetiletí se vědomé já snadno začne měřit jen výkonem a bezchybností a tvoje vůle se mění v přísného soudce. Pýcha Slunce se tu skrývá za pocit, že nikdo jiný to neudělá pořádně. Kritika míří na druhé i na tebe a bere ti radost z tvoření. Drobnosti ti přerůstají přes hlavu a strach z chyby brzdí rozhodnutí. Služba se mění v dřinu bez uznání a po ní přichází tichá hořkost. Tělo hlídáš tak úzkostně, že každá maličkost budí obavu. Panovačnost tu má podobu neustálého poučování a opravování.",
+  "hard": [
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o období, kdy se životní síla snadno vyčerpává starostmi a přepracováním. Pannu spojuje se zažíváním, střevy a nervovou soustavou, Slunce se srdcem, zrakem a vitalitou. Zmiňuje sklon k vleklým potížím a k nemocem z vyčerpání. Někdy tu mluví také o nemoci nebo oslabení otce."
+   },
+   {
+    "topics": [
+     "mental_crisis"
+    ],
+    "text": "Tradice tu mluví také o nervovém vyčerpání. Nekonečné rozebírání, strach z chyby a neschopnost vypnout podle ní mohou přerůst v úzkostné stavy, hypochondrii a vyhoření, zvlášť když se veškerá energie spotřebuje na povinnosti a na odpočinek nezbývá."
+   }
+  ],
+  "traits": {
+   "text": [
+    "order",
+    "diligence",
+    "humility",
+    "rationality",
+    "responsibility"
+   ],
+   "shadow": [
+    "criticism",
+    "anxiety",
+    "perfectionism",
+    "exhaustion",
+    "dominance"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "progressed/sun_in_sign/libra",
+  "title": "Progresní Slunce ve Vahách",
+  "keywords": [
+   "vztahy",
+   "rovnováha",
+   "spravedlnost",
+   "vkus",
+   "dohoda"
+  ],
+  "themes": [
+   "relationships",
+   "character",
+   "growth",
+   "health",
+   "family"
+  ],
+  "text": "Progresní Slunce ve Vahách otevírá kapitolu, ve které se tvoje vědomé já učí žít ve vztahu. Zhruba třicet let hledáš sebe skrze druhé: v partnerství, ve spolupráci, v rozhovoru. Vůle se méně prosazuje silou a víc dohodou. Roste cit pro míru, vkus a férovost. Tvořivost se obrací ke kráse a k formě, k tomu, jak k sobě věci ladí. Umíš vyvážit protichůdné strany a najít řešení, které unese každý. Sebevyjádření dostává jemnější tón. Lidé u tebe hledají nestranný pohled. Tahle změna probíhá uvnitř a pomalu. Mění to, co považuješ za důležité.",
+  "shadow": "Progresní Slunce ve Vahách svádí k tomu, že vlastní vůli odevzdáváš do rukou druhých. Názor pak měníš podle toho, kdo zrovna stojí naproti. Rozhodnutí odkládáš, dokud neznáš reakci okolí. Potřeba obdivu se převléká za potřebu souhlasu. Klid ve vztahu kupuješ mlčením o tom, co tě tíží. Harmonie zůstává na povrchu a pod ní roste nespokojenost. Pýcha se někdy schová do jistoty, že víš nejlíp, co je spravedlivé. Bez partnera nebo publika ztrácí tvoje já obrysy.",
+  "hard": [
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o Slunci v pádu. Ve Vahách podle ní slábne životní síla a citlivější bývají srdce a zrak. Starší autoři v tomhle období čekali menší odolnost, rychlejší únavu a pomalejší zotavení. Jde o tradiční obraz, ne o jistotu."
+   },
+   {
+    "topics": [
+     "illness",
+     "loss",
+     "death"
+    ],
+    "text": "Tradice tu mluví také o otci. Slunce v pádu podle ní ukazuje na období, kdy otec slábne, stůně nebo ztrácí postavení. Starší výklady sem řadí i možnost jeho smrti. Vztah k otci se tak může stát jedním z hlavních témat této kapitoly. Jde o tradiční výklad, ne o předpověď."
+   }
+  ],
+  "traits": {
+   "text": [
+    "cooperation",
+    "justice",
+    "charm",
+    "flexibility",
+    "creativity"
+   ],
+   "shadow": [
+    "indecision",
+    "dependence",
+    "superficiality",
+    "conformity",
+    "pride"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "progressed/sun_in_sign/scorpio",
+  "title": "Progresní Slunce ve Štíru",
+  "keywords": [
+   "hloubka",
+   "proměna",
+   "vášeň",
+   "věrnost",
+   "kontrola"
+  ],
+  "themes": [
+   "character",
+   "relationships",
+   "growth",
+   "health",
+   "family"
+  ],
+  "text": "Progresní Slunce ve Štíru otevírá třicetiletou kapitolu, ve které se tvoje vědomé já stahuje pod povrch. Vůle už nehledá potlesk, hledá pravdu. Zajímá tě, co se skrývá za motivy lidí i za vlastními rozhodnutími. Vztahy dostávají větší váhu: buď v nich jde o všechno, nebo o nic. Tvořivost čerpá z prožitých krizí a z věcí, které jiní raději nevidí. Máš sílu dotáhnout proměnu do konce a začít znovu na pevnějším základě. Životní energie se soustředí, místo aby se rozptylovala. Důvěru dáváš pomalu, zato natrvalo.",
+  "shadow": "S progresním Sluncem ve Štíru se pýcha mění v tichou potřebu mít navrch. Vůle snadno sklouzne ke kontrole druhých i vlastních citů. Křivdy si pamatuješ dlouho a odplatu umíš chystat s velkou trpělivostí. Žárlivost přichází tam, kde ti na někom opravdu záleží. Tajnůstkářství chrání tvoje já, ale zároveň ho odděluje od lidí. Krize můžeš vyhledávat jen proto, že klid působí prázdně. Sebestřednost tu nemá hlasitou podobu, spíš podobu přesvědčení, že tvou hloubku nikdo jiný nechápe.",
+  "hard": [
+   {
+    "topics": [
+     "death",
+     "loss"
+    ],
+    "text": "Tradice tu mluví o období, kdy do života vstupuje smrt blízkých lidí, často otce nebo mužské autority. Štír je znamení konců a Slunce v něm podle starých autorů ukazuje, že vědomé já roste skrze ztrátu. Nejde o jistotu, ale o téma, které se v této kapitole hlásí silněji."
+   },
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o oslabení vitality skrze skryté nemoci, záněty a potíže pohlavních a vylučovacích orgánů, které přisuzuje Štíru. Slunce jako nositel životní síly zde podle ní spotřebovává energii uvnitř, takže vyčerpání nebo nemoc může dlouho zůstat nepovšimnuta."
+   },
+   {
+    "topics": [
+     "mental_crisis"
+    ],
+    "text": "Tradice tu mluví o hlubokých vnitřních krizích, obdobích temnoty a pocitu, že staré já musí zaniknout, aby mohlo vzniknout nové. Potlačený hněv a žárlivost se podle ní mohou obrátit dovnitř a přerůst v trýznivé posedlosti."
+   }
+  ],
+  "traits": {
+   "text": [
+    "depth",
+    "transformation",
+    "intuition",
+    "loyalty",
+    "focus"
+   ],
+   "shadow": [
+    "jealousy",
+    "secrecy",
+    "dominance",
+    "obsession",
+    "pride"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "progressed/sun_in_sign/sagittarius",
+  "title": "Progresní Slunce ve Střelci",
+  "keywords": [
+   "smysl",
+   "víra",
+   "dálky",
+   "nadšení",
+   "rozhled"
+  ],
+  "themes": [
+   "character",
+   "growth",
+   "family"
+  ],
+  "text": "Progresní Slunce ve Střelci otevírá třicetiletou kapitolu, ve které se tvoje vědomé já obrací k otázce smyslu. Vůle už nestačí na to, aby věci dávaly smysl. Potřebuješ vědět, proč je děláš. Roste v tobě touha po rozhledu: cesty, studium, cizí jazyky, filozofie nebo víra. Životní síla se probouzí s nadšením a s novým cílem na obzoru. Tvořivost hledá velký příběh, ne drobné úkoly. Máš dar povzbudit lidi kolem a dodat jim odvahu. Vztah k otci nebo k autoritě se mění v rozhovor o hodnotách. Postupně ti dochází, že sebevyjádření má cenu tehdy, když nese pravdu, kterou opravdu žiješ.",
+  "shadow": "Když progresní Slunce ve Střelci ztratí míru, hledání smyslu se mění v kázání. Máš sklon stavět vlastní přesvědčení nad zkušenost druhých a čekat obdiv za to, že vidíš dál. Nadšení přerůstá v přehánění. Slibuješ víc, než uneseš, a plány rostou rychleji než síly. Neklid tě žene k dalšímu cíli dřív, než dokončíš ten předchozí. Upřímnost sklouzává do netaktnosti a pýcha do přesvědčení, že pravda patří jen tobě. Vnitřní vývoj pak stojí na slovech místo na činech.",
+  "hard": [
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o zdraví oslabeném přemírou. Slunce spojuje se srdcem, zrakem a vitalitou, Střelce s játry, kyčlemi a stehny. Podle starých výkladů přicházejí obtíže tam, kde nadšení vede k vyčerpání sil, k nestřídmosti v jídle a pití nebo k horečnatým stavům z přepětí. Jde o tradiční obraz, ne o předpověď."
+   },
+   {
+    "topics": [
+     "death",
+     "illness"
+    ],
+    "text": "Tradice tu mluví o nebezpečí spojeném s dalekými cestami, pády a úrazy při pohybu, jízdě nebo sportu. Starší výklady v krajní podobě zmiňují i nemoc nebo smrt v cizině, daleko od domova. Tyto obrazy patří k tradičnímu výkladu Střelce a nejsou jistotou."
+   }
+  ],
+  "traits": {
+   "text": [
+    "optimism",
+    "wanderlust",
+    "spirituality",
+    "curiosity",
+    "idealism"
+   ],
+   "shadow": [
+    "pride",
+    "bluntness",
+    "restlessness",
+    "dominance"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "progressed/sun_in_sign/capricorn",
+  "title": "Progresní Slunce v Kozorohu",
+  "keywords": [
+   "odpovědnost",
+   "vytrvalost",
+   "zralost",
+   "autorita",
+   "struktura"
+  ],
+  "themes": [
+   "character",
+   "work",
+   "family",
+   "growth"
+  ],
+  "text": "S progresním Sluncem v Kozorohu začíná zhruba třicetiletá kapitola, v níž tvoje vůle dostává tvar plánu. Sebevyjádření se přesouvá od nápadů k dílu, které vydrží. Roste v tobě potřeba nést odpovědnost a mít jasný cíl. Sebevědomí čerpáš z výsledků, ne z potlesku. Máš trpělivost s pomalým postupem a umíš rozvrhnout síly na roky dopředu. Tvořivost hledá pevnou formu: řemeslo, systém, instituci. Častěji přebíráš roli autority v rodině i v práci. Vztah k otci nebo k vlastnímu rodičovství nabývá vážnosti. Postupně se stáváš oporou, o kterou se ostatní mohou opřít.",
+  "shadow": "Progresní Slunce v Kozorohu umí z vůle udělat krunýř. Pýcha se tu neprojevuje okázale, ale tichou nadřazeností toho, kdo nese víc než ostatní. Hrozí, že svou hodnotu měříš jen výkonem a postavením. Radost odkládáš na později, které nepřichází. Panovačnost dostává podobu pravidel, jimž mají ostatní podléhat. City držíš pod zámkem a blízcí narážejí na chlad. Z opatrnosti se stává strnulost, z realismu pesimismus. Únava se hromadí, protože si nedovolíš povolit.",
+  "hard": [
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o Slunci v domě Saturna, kde životní síla ztrácí teplo. Spojuje toto období s únavou, oslabenou vitalitou a zátěží srdce, zraku, kostí a kloubů. Zdůrazňuje vliv přepracování a dlouhodobého napětí, které se podle ní projevuje pomalu, ale vytrvale."
+   },
+   {
+    "topics": [
+     "loss",
+     "death"
+    ],
+    "text": "Tradice tu mluví o otci a otcovských postavách. Během této dlouhé kapitoly podle ní může přijít jeho stárnutí, nemoc, odcizení nebo smrt. Ztráta otcovské autority pak podle tohoto výkladu vede k převzetí jeho role a k břemeni odpovědnosti za rodinu."
+   },
+   {
+    "topics": [
+     "mental_crisis"
+    ],
+    "text": "Tradice tu mluví o saturnské melancholii, která tlumí světlo Slunce. Uvádí sklon k zachmuřenosti, ztrátě radosti a pocitu, že život je jen povinnost. Ve vyhrocené podobě popisuje období depresivních nálad a vnitřní izolace."
+   }
+  ],
+  "traits": {
+   "text": [
+    "responsibility",
+    "perseverance",
+    "ambition",
+    "discipline",
+    "realism"
+   ],
+   "shadow": [
+    "coldness",
+    "rigidity",
+    "pessimism",
+    "dominance",
+    "exhaustion"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "progressed/sun_in_sign/aquarius",
+  "title": "Progresní Slunce ve Vodnáři",
+  "keywords": [
+   "svoboda",
+   "budoucnost",
+   "originalita",
+   "přátelství",
+   "nové já"
+  ],
+  "themes": [
+   "character",
+   "relationships",
+   "growth",
+   "family",
+   "health"
+  ],
+  "text": "Progresní Slunce ve Vodnáři otevírá třicetiletou kapitolu, ve které se tvé vědomé já učí žít mimo zavedené role. Vůle se obrací k budoucnosti, k přátelům a k myšlenkám, které přesahují tvůj osobní příběh. Obdiv pro tebe ztrácí váhu. Víc tě táhne užitečnost pro lidi kolem. Tvořivost dostává originální, někdy nečekanou podobu. Objevuješ nové okruhy lidí, nové obory a společné projekty. Potřebuješ prostor rozhodovat podle sebe. Uvnitř zrychluješ, odkládáš staré identity a zkoušíš, kým můžeš být bez cizích očekávání.",
+  "shadow": "Progresní Slunce ve Vodnáři může tvé já ochladit. Místo vřelosti nabízíš názory a místo blízkosti principy. Svobodu hájíš i tam, kde na ni nikdo neútočí. Vzdor se mísí s pýchou, takže odmítáš rady jen proto, že přicházejí zvenku. Blízcí lidé u tebe narážejí na citovou nedostupnost. Pocit výjimečnosti se tváří jako nezávislost, ale dál potají hledá uznání. Hrozí osamělost uprostřed širokého okruhu známých.",
+  "hard": [
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o Slunci ve vyhnanství, protože Vodnář leží naproti Lvu, jeho domovskému znamení. Slunce tu ztrácí část síly. Tradice proto toto období spojuje s oslabenou vitalitou a s citlivostí srdce, krevního oběhu a zraku. Nejde o jistotu nemoci. Jde o tradiční upozornění, že životní síla nemusí proudit tak samozřejmě jako dřív."
+   },
+   {
+    "topics": [
+     "loss",
+     "death",
+     "illness"
+    ],
+    "text": "Tradice tu mluví také o otci. Oslabené Slunce podle ní může v této kapitole ukazovat na otcovu nemoc, na odcizení s ním, nebo v krajním čtení na jeho odchod a smrt. Vztah k otci a k autoritám se může ochladit nebo vzdálit. Tradice to podává jako možnost, ne jako předpověď."
+   }
+  ],
+  "traits": {
+   "text": [
+    "independence",
+    "originality",
+    "creativity",
+    "idealism",
+    "sociability"
+   ],
+   "shadow": [
+    "detachment",
+    "rebellion",
+    "coldness",
+    "pride",
+    "loneliness"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "progressed/sun_in_sign/pisces",
+  "title": "Progresní Slunce v Rybách",
+  "keywords": [
+   "soucit",
+   "odevzdání",
+   "víra",
+   "fantazie",
+   "rozpouštění hranic"
+  ],
+  "themes": [
+   "character",
+   "growth",
+   "family",
+   "health"
+  ],
+  "text": "Progresní Slunce v Rybách otevírá zhruba třicetiletou kapitolu, ve které vůle ustupuje soucitu a vnitřním obrazům. Tvé já přestává potřebovat ostré hranice. Víc vnímáš nálady lidí kolem sebe a snáz rozumíš jejich bolesti. Tvořivost se stáčí k hudbě, obrazům, snům a příběhům. Roste v tobě víra, i když nemusí mít podobu náboženství. Cíle neměříš úspěchem, ale smyslem. Postava otce nebo autority v tvých očích měkne a ukazuje lidskou, křehkou stránku. Sílu teď čerpáš z odevzdání, ne z tlaku.",
+  "shadow": "Slunce v Rybách ztrácí obrysy, a tvé já se proto v této kapitole snadno rozmlží v cizích přáních. Místo rozhodnutí přichází čekání, že se věci vyřeší samy. Únik do snění, spánku nebo cizích starostí bere energii, kterou potřebuješ pro vlastní život. Láká role oběti, která všechno snese a nic nežádá. Pýcha tu nekřičí, ale skrývá se v tichém pocitu výjimečného utrpení. Sliby se rozpouštějí a druzí nevědí, na čem s tebou jsou.",
+  "hard": [
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o oslabené životní síle. Slunce jako nositel vitality ztrácí v Rybách pevnost. Staré texty proto toto období spojují s únavou, citlivostí na infekce a obtížemi chodidel a lymfy. Zmiňují i nemoci, které se dlouho skrývají a těžko se rozpoznávají, a pobyty v nemocnici nebo v ústraní."
+   },
+   {
+    "topics": [
+     "addiction",
+     "mental_crisis"
+    ],
+    "text": "Tradice tu mluví o sklonu hledat úlevu v alkoholu, lécích nebo jiných látkách, když skutečnost tlačí příliš. Ryby nesou i motiv zmatené mysli, ztráty orientace a období, kdy hranice mezi představou a skutečností slábne."
+   },
+   {
+    "topics": [
+     "loss",
+     "illness",
+     "death"
+    ],
+    "text": "Tradice tu mluví o otci, jehož postava v této kapitole slábne, vzdaluje se nebo mizí z dosahu. Může jít o jeho nemoc, odloučení nebo stáří. Staré výklady v tomto postavení nevylučují ani úmrtí otce či blízké autority."
+   }
+  ],
+  "traits": {
+   "text": [
+    "empathy",
+    "intuition",
+    "spirituality",
+    "creativity",
+    "sensitivity"
+   ],
+   "shadow": [
+    "escapism",
+    "submissiveness",
+    "indecision",
+    "inconstancy",
+    "exhaustion"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "progressed/lunar_phase/new",
+  "title": "Progresní fáze: nov",
+  "keywords": [
+   "nový začátek",
+   "impuls",
+   "setba",
+   "instinkt",
+   "neznámý směr"
+  ],
+  "themes": [
+   "character",
+   "growth"
+  ],
+  "text": "Progresní nov otevírá v tvém životě nový zhruba třicetiletý cyklus. Následující přibližně tři a tři čtvrtě roku nesou ráz prvního kroku. Uvnitř se rodí směr, který zatím nemá jméno ani podobu. Jednáš z impulzu, dřív než stihneš věci promyslet, a právě v tom je síla tohoto období. Staré cíle ztrácejí lesk a místo nich přichází tah k něčemu neznámému. Máš teď odvahu začínat bez záruk a vlastnímu instinktu důvěřuješ víc než radám okolí. Nápady přicházejí nečekaně a chtějí se hned uskutečnit. Je to doba setby: co teď zakládáš, roste celé další desetiletí. Výsledky zatím nejsou vidět a smysl se ukazuje až zpětně. Pomáhá ti jednoduchost, pohyb a ochota zkoušet.",
+  "shadow": "Progresní nov nedává odstup, a tak snadno zaměníš chvilkový popud za životní směr. Jednáš naslepo, bez ohledu na důsledky a na lidi kolem. Věci začínáš a nedokončuješ, protože tah nového přehluší všechno ostatní. Tma a nejasnost tohoto období tě znejisťují: nevíš, kam jdeš, a přesto nevydržíš stát na místě. Okolí může tvoje kroky vnímat jako sobecké nebo bezohledné. Hrozí i opak, kdy se ze strachu z neznáma držíš toho, co už skončilo.",
+  "hard": [
+   {
+    "topics": [
+     "mental_crisis"
+    ],
+    "text": "Tradice tu mluví o období vnitřní tmy, kdy staré jistoty mizí a nové ještě nejsou vidět. Může přijít zmatek, ztráta orientace nebo pocit prázdnoty a bezsmyslnosti. Nejde o jistotu, spíš o možnost, kterou starší výklady s tímto přechodem spojují."
+   },
+   {
+    "topics": [
+     "loss"
+    ],
+    "text": "Tradice tu mluví o uzavření jedné životní kapitoly. Odcházejí vztahy, role nebo místa, které patřily k předchozímu cyklu. Ztráta tu podle výkladu uvolňuje prostor pro nové, i když ji tak zpočátku necítíš."
+   }
+  ],
+  "traits": {
+   "text": [
+    "impulsiveness",
+    "courage",
+    "originality",
+    "independence",
+    "decisiveness"
+   ],
+   "shadow": [
+    "carelessness",
+    "selfishness",
+    "insecurity",
+    "inconstancy",
+    "restlessness"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "progressed/lunar_phase/crescent",
+  "title": "Progresní fáze: dorůstající srpek",
+  "keywords": [
+   "prosazení nového",
+   "setrvačnost minulosti",
+   "zápas o směr",
+   "odpoutání",
+   "růst"
+  ],
+  "themes": [
+   "growth",
+   "character",
+   "work",
+   "relationships"
+  ],
+  "text": "Dorůstající srpek progresního Měsíce otevírá asi tři a tři čtvrtě roku, kdy nový směr z předchozího novu musí obstát proti setrvačnosti starého. Záměr už máš, ale ještě nemá pevnou podobu. Každý krok vpřed naráží na staré návyky, závazky a očekávání okolí. Právě v tomhle tření roste síla. Učíš se hájit to, co teprve vzniká. Daří se ti začínat znovu a zkoušet nové postupy v práci i ve vztazích. Máš chuť odpoutat se od toho, co už nedává smysl, a dost energie to vydržet. Sekundární progrese tu popisuje vnitřní pohyb, ne vnější události. Mění se tvůj postoj, priority a odvaha jednat podle sebe. Ke konci období bývá zřetelnější, co chceš budovat.",
+  "shadow": "Odvrácenou stranou dorůstajícího srpku je zápas, který se zasekne. Stará jistota táhne zpět a nový záměr působí křehce, takže snadno ustupuješ pohodlí. Jindy se vzpouzíš proti všemu starému bez rozlišení a bouráš i to, co ještě nese. Netrpělivost s pomalým tempem změny vede k únavě a pochybnostem o sobě. Objevuje se i pocit viny vůči lidem, od kterých se vzdaluješ.",
+  "hard": [
+   {
+    "topics": [
+     "loss"
+    ],
+    "text": "Tradice tu mluví o odpoutání od starého prostředí, vztahů nebo rolí. Někdy jde o ztrátu, která uvolní místo novému: rozchod, odchod z dosavadního místa nebo konec dlouhé spolupráce. Výklad to chápe jako možnost, ne jako jistotu."
+   },
+   {
+    "topics": [
+     "mental_crisis"
+    ],
+    "text": "Tradice tu mluví o vnitřním napětí mezi minulostí a budoucností. To napětí se může projevit úzkostí, nespavostí nebo pocitem uvíznutí mezi dvěma životy. Starší autoři to popisují jako krizi růstu, ne jako nevyhnutelný stav."
+   }
+  ],
+  "traits": {
+   "text": [
+    "courage",
+    "independence",
+    "transformation",
+    "perseverance",
+    "rebellion"
+   ],
+   "shadow": [
+    "insecurity",
+    "restlessness",
+    "exhaustion",
+    "guilt",
+    "stagnation"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "progressed/lunar_phase/first_quarter",
+  "title": "Progresní fáze: první čtvrť",
+  "keywords": [
+   "krize jednání",
+   "rozhodnutí",
+   "stavba",
+   "odpor",
+   "čin"
+  ],
+  "themes": [
+   "growth",
+   "character",
+   "work"
+  ],
+  "text": "Progresní Luna se vzdaluje od Slunce o devadesát stupňů a otevírá asi tři a půl roku krize jednání. To, co se zhruba před sedmi lety začalo tiše rodit, teď naráží na odpor a žádá si pevný tvar. Plánování už nestačí, okolnosti tě tlačí k rozhodnutí. Staré struktury se ukazují jako těsné a jejich bourání uvolňuje místo pro nové. Máš v sobě víc energie k činu než dřív. Daří se ti stavět: zakládat projekty, přestavovat domov, pevně se postavit za vlastní směr. Tlak zvenčí funguje jako zkouška pevnosti. Každý odpor ukazuje, kde chybí opora a kde stojí za to zabrat. Vize se mění v konkrétní práci. Učíš se nést důsledky svých voleb.",
+  "shadow": "Krize jednání v progresní první čtvrti se snadno zvrhne v boj se vším, co klade odpor. Hrozí ukvapená rozhodnutí, která padají jen proto, aby napětí povolilo. Vztahy i pracovní vazby mohou praskat pod tvým tlakem. Netrpělivost s pomalým růstem vede k bourání věcí, které ještě potřebovaly čas. Opačným stínem je odkládání: rozhodnutí visí ve vzduchu a stavba stojí. Pak přichází vyčerpání z neustálého zápasu a pocit, že se nic nehýbe.",
+  "hard": [
+   {
+    "topics": [
+     "loss"
+    ],
+    "text": "Tradice tu mluví o rozchodech, odchodech z práce a ztrátě dosavadních jistot. Podle ní krize první čtvrti odstraňuje to, co brání dalšímu růstu, a tento proces bývá bolestný. Jde o vnitřní zlom a jeho podobu nelze předem určit."
+   },
+   {
+    "topics": [
+     "illness",
+     "mental_crisis"
+    ],
+    "text": "Tradice tu mluví také o vyčerpání a nemocech z dlouhodobého napětí, zvlášť když se nahromaděný tlak nemá kudy vybít. Zmiňuje i období duševní krize, kdy rozhodování vázne, nejistota sílí a vnitřní konflikt bere spánek i sílu."
+   }
+  ],
+  "traits": {
+   "text": [
+    "decisiveness",
+    "courage",
+    "diligence",
+    "transformation"
+   ],
+   "shadow": [
+    "impulsiveness",
+    "procrastination",
+    "exhaustion",
+    "restlessness"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "progressed/lunar_phase/gibbous",
+  "title": "Progresní fáze: dorůstající Měsíc před úplňkem",
+  "keywords": [
+   "zdokonalování",
+   "rozbor",
+   "příprava na vrchol",
+   "zrání",
+   "učení"
+  ],
+  "themes": [
+   "growth",
+   "work",
+   "character"
+  ],
+  "text": "Progresní Měsíc stojí těsně před úplňkem a tvoje období má ráz dílny před premiérou. Asi tři a tři čtvrtě roku dotahuješ to, co vzniklo v předchozích letech. Méně zakládáš, víc opravuješ a ladíš. Ptáš se, proč věci fungují a kde skřípou. Máš bystré oko pro detail a chuť učit se od lidí, kteří umějí víc. K této fázi patří kurzy, mentoring a poctivé řemeslo. Práci i vztahy prověřuješ otázkou, zda vedou k něčemu podstatnému. Roste trpělivost a schopnost vydržet u jedné věci. Vnitřně se chystáš na vrchol, který přinese úplněk: viditelný výsledek a jasnější pohled na sebe. Tahle fáze je hlavně příprava. Co teď pečlivě vybrousíš, v další fázi ukážeš druhým.",
+  "shadow": "Rozbor před úplňkem snadno sklouzne do nekonečného ladění. Výsledek nikdy nepůsobí dost hotově, a tak ho odkládáš. Kritické oko se obrací proti tobě i proti blízkým. Objevuje se nespokojenost, srovnávání a pocit, že ostatní jsou dál. Napětí před vrcholem přináší neklid a únavu. Hrozí i to, že honba za dokonalostí vytlačí smysl, kvůli kterému práce vůbec vznikla. Místo zrání pak přichází strnulost a přešlapování na místě.",
+  "hard": [
+   {
+    "topics": [
+     "illness",
+     "mental_crisis"
+    ],
+    "text": "Tradice tu mluví o období nervového vypětí. Přepracování a neustálá sebekontrola se podle ní mohou projevit vyčerpáním, nespavostí nebo zažívacími potížemi. Někteří autoři spojují tuto fázi i s úzkostnými stavy, které sílí s blížícím se vrcholem a se strachem ze selhání. Jde o popsaný sklon, ne o jistou předpověď."
+   }
+  ],
+  "traits": {
+   "text": [
+    "diligence",
+    "focus",
+    "patience",
+    "curiosity"
+   ],
+   "shadow": [
+    "perfectionism",
+    "procrastination",
+    "criticism",
+    "restlessness",
+    "exhaustion"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "progressed/lunar_phase/full",
+  "title": "Progresní fáze: úplněk",
+  "keywords": [
+   "vyvrcholení",
+   "uvědomění",
+   "vztahy",
+   "protiklady",
+   "zrcadlo"
+  ],
+  "themes": [
+   "growth",
+   "relationships",
+   "character"
+  ],
+  "text": "Progresní úplněk otevírá zhruba tři a půl roku, kdy na povrch vychází to, co v tobě dozrávalo od posledního progresního novu. Plody dřívějšího úsilí jsou vidět a ty jasněji chápeš jejich smysl i jejich mezery. Je to období uvědomění. Věci, které dosud běžely spíš naslepo, dostávají jméno. Velkou roli hrají vztahy. Druzí ti nastavují zrcadlo a v jejich reakcích poznáváš sebe. Partnerství, spolupráce i spory mají teď zvláštní váhu. Učíš se vnímat protiklady a držet je vedle sebe, místo abys jeden z nich vytěsňoval jako nepřítele. Tvým nadáním je teď nadhled: schopnost odstoupit a vidět celek. V této fázi často poprvé přesně pojmenováváš, co chceš a co už ne. Vrchol přichází hlavně uvnitř, ne nutně navenek.",
+  "shadow": "Světlo progresního úplňku může i oslepovat. Uvědomění přichází někdy jako rozčarování, protože výsledek dlouhé práce nevypadá jako ve tvých představách. Snadno pak přenášíš vinu na druhé a v blízkých lidech vidíš spíš soupeře než partnery. Napětí mezi dvěma póly tě může zmítat mezi krajnostmi a ztěžovat rozhodnutí. Hrozí i přehnaná sebereflexe, kdy rozebíráš každý svůj krok a na samotné jednání nezbývá síla. Emoce mají teď sklon k dramatu a zesilují i drobné neshody.",
+  "hard": [
+   {
+    "topics": [
+     "loss"
+    ],
+    "text": "Tradice tu mluví o období, kdy se vztahy a závazky dostávají do zkoušky. Některá spojení se rozpadají, protože už nejde přehlížet, na čem skutečně stojí. Rozchod, odcizení nebo konec spolupráce se v této fázi objevují častěji. Nejde o jistotu, spíš o čas, kdy vychází najevo, co dosud zůstávalo skryté."
+   },
+   {
+    "topics": [
+     "mental_crisis"
+    ],
+    "text": "Tradice tu mluví o citovém vyvrcholení, které může přerůst ve vnitřní krizi. Náhlé prozření o vlastním životě někdy přináší úzkost, rozpolcenost nebo pocit, že se dosavadní směr zhroutil. Taková krize podle výkladu provází změnu pohledu na sebe a nemusí trvat dlouho."
+   }
+  ],
+  "traits": {
+   "text": [
+    "depth",
+    "openness",
+    "realism",
+    "empathy",
+    "cooperation"
+   ],
+   "shadow": [
+    "moodiness",
+    "criticism",
+    "drama",
+    "indecision",
+    "pessimism"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "progressed/lunar_phase/disseminating",
+  "title": "Progresní fáze: couvající Měsíc po úplňku",
+  "keywords": [
+   "sdílení",
+   "učení",
+   "předávání",
+   "zralost",
+   "poslání"
+  ],
+  "themes": [
+   "growth",
+   "character",
+   "work",
+   "relationships"
+  ],
+  "text": "Couvající Měsíc po úplňku v progresích otevírá zhruba tři a tři čtvrtě roku, kdy předáváš dál to, co se ti v předchozích letech ukázalo. Úplněk přinesl vhled, teď z něj děláš sdělení. Máš potřebu mluvit, učit, psát, vysvětlovat a sdílet zkušenost s lidmi kolem. Lépe ti jde formulovat vlastní názory a obhájit je. Tvoje slova mají váhu, protože vycházejí z prožitého, ne z teorie. Často se kolem tebe tvoří okruh lidí, kteří se ptají. Ty v něm nacházíš roli průvodce, mentora nebo prostředníka. Práce dostává smysl, když slouží víc lidem než jen tobě. Vnitřně jde o zralost: plody předchozího cyklu sklízíš a rozdáváš. To, co sdílíš, se přitom zpřesňuje a prohlubuje.",
+  "shadow": "Ve fázi couvajícího Měsíce po úplňku se touha předávat snadno mění v kázání. Hrozí, že vlastní pravdu bereš jako jedinou a druhé přesvědčuješ víc, než kolik mají ochoty naslouchat. Z poslání se může stát křížová výprava, ze sdílení potřeba uznání. Zároveň snadno rozdáváš víc energie, než kolik doplňuješ, a únava přichází nenápadně. Kdo nesouhlasí, může u tebe narazit na netrpělivost nebo povýšenost.",
+  "traits": {
+   "text": [
+    "eloquence",
+    "generosity",
+    "responsibility",
+    "depth",
+    "sociability"
+   ],
+   "shadow": [
+    "dominance",
+    "pride",
+    "rigidity",
+    "exhaustion",
+    "bluntness"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "progressed/lunar_phase/last_quarter",
+  "title": "Progresní fáze: poslední čtvrť",
+  "keywords": [
+   "krize přesvědčení",
+   "přehodnocení",
+   "odklon",
+   "vnitřní účtování"
+  ],
+  "themes": [
+   "growth",
+   "character",
+   "relationships",
+   "work"
+  ],
+  "text": "Progresní Měsíc v poslední čtvrti míří k novému setkání se Sluncem a tvoje pozornost se obrací od budování k přezkoumání. Tohle období trvá necelé čtyři roky a nese ráz vnitřního účtování. Názory, cíle a závazky z posledních let ztrácejí samozřejmost. Ptáš se, co z nich je opravdu tvoje a co jen setrvačnost. Máš ostřejší úsudek, menší trpělivost s prázdnými formami a odvahu přiznat omyl. Uvolňuješ se z rolí, které už nedávají smysl. Nadáním této fáze je schopnost odlišit podstatné od zbytečného a zformulovat nový princip, i když ho ještě nedokážeš plně žít. Navenek se to projevuje odchodem z některých skupin, změnou postojů nebo tichým odstupem od dřívějších ideálů.",
+  "shadow": "Krize přesvědčení v poslední čtvrti snadno přeroste v odmítání všeho, co dřív mělo cenu. Hrozí cynismus, zahořklost a pocit, že námaha minulých let přišla vniveč. Rozchody s lidmi či institucemi bývají příkřejší, než je nutné. Někdy se objevuje opačný extrém: křečovité lpění na starém přesvědčení ze strachu z prázdnoty. Vnitřní neklid a nespokojenost se pak přelévají do vztahů i do práce.",
+  "hard": [
+   {
+    "topics": [
+     "loss"
+    ],
+    "text": "Tradice tu mluví o období konců: o rozpadu vztahů, odchodu z práce nebo komunity a o ztrátě opor, na kterých stála tvoje dosavadní identita. Ne každý konec je vnější. Starší výklady však s vnějšími ztrátami v této fázi počítají a vidí v nich uvolnění místa pro další cyklus."
+   },
+   {
+    "topics": [
+     "mental_crisis"
+    ],
+    "text": "Tradice tu mluví o krizi vědomí, která může přejít ve sklíčenost, ztrátu smyslu a období deprese. Zpochybnění vlastních hodnot se někdy prožívá jako vnitřní rozpad. Ten podle výkladu trvá, dokud se neobjeví nová orientace."
+   },
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví také o úbytku životní síly v ubývající části lunačního cyklu. Uvádí únavu, oslabení a nemoci z dlouhodobého přetížení, zvlášť když se člověk nutné vnitřní změně brání."
+   }
+  ],
+  "traits": {
+   "text": [
+    "transformation",
+    "independence",
+    "honesty",
+    "depth",
+    "courage"
+   ],
+   "shadow": [
+    "cynicism",
+    "rigidity",
+    "restlessness",
+    "bluntness",
+    "melancholy"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "progressed/lunar_phase/balsamic",
+  "title": "Progresní fáze: ubývající srpek před novem",
+  "keywords": [
+   "dozrání",
+   "uzavírání",
+   "odevzdání",
+   "semeno budoucího",
+   "ticho"
+  ],
+  "themes": [
+   "growth",
+   "character",
+   "health"
+  ],
+  "text": "Progresní Měsíc se blíží ke Slunci. Tvůj vnitřní cyklus, započatý zhruba před šestadvaceti lety, se chýlí ke konci. Ráz těchto přibližně tří a půl let je tichý, zralý a obrácený dovnitř. Co dřív hnalo kupředu, teď ztrácí naléhavost. Přichází čas sklízet zkušenost, ne zakládat nové stavby. Máš schopnost vidět celek a chápat, proč se věci staly tak, jak se staly. Odevzdáváš staré role, vztahy a ambice, které už neodpovídají tomu, kým se stáváš. Sílí intuice, sny a potřeba ticha. V nejednom rozhovoru nebo nápadu zahlédneš semeno toho, co vyklíčí s příštím progresním novem. Nespěchej s jeho setím. Teď stačí ho uchovat a nechat staré dohořet s klidem a vděčností.",
+  "shadow": "Konec progresního lunárního cyklu může vyvolat pocit, že život běží naprázdno a nic nového už nepřijde. Únava a stažení se pak mění v rezignaci. Lpíš na tom, co odchází, nebo naopak pálíš mosty dřív, než je čas. Hrozí uzavřenost, melancholie a únik do snění. Okolí tvé stažení snadno čte jako lhostejnost. Ze strachu před prázdnotou se můžeš chytit nového začátku příliš brzy a vložit sílu do něčeho, co ještě nemá kořeny.",
+  "hard": [
+   {
+    "topics": [
+     "death",
+     "loss"
+    ],
+    "text": "Tradice tu mluví o období loučení. Do těchto let často spadá ztráta blízkých, odchod starší generace nebo konec dlouhého vztahu. Výklad to nepodává jako jistotu, ale jako ráz doby: lidé a věci odcházejí a uvolňují místo. Smutek tu má svůj čas a nemá smysl ho přeskakovat."
+   },
+   {
+    "topics": [
+     "illness",
+     "mental_crisis"
+    ],
+    "text": "Tradice tu mluví také o nízké životní síle. Tělo se hůř zotavuje a vyčerpání přichází snáz než jindy. Objevuje se sklon k depresivním náladám a k pocitu, že ze všedních dní vyprchal smysl. Výklad to popisuje jako možnost, ne jako předpověď."
+   }
+  ],
+  "traits": {
+   "text": [
+    "transformation",
+    "intuition",
+    "depth",
+    "spirituality",
+    "humility"
+   ],
+   "shadow": [
+    "melancholy",
+    "reclusiveness",
+    "exhaustion",
+    "escapism",
+    "stagnation"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "progressed/modifier/applying",
+  "title": "Úvod progresního aspektu: sbíhá se",
+  "keywords": [
+   "progrese",
+   "sbíhavý aspekt",
+   "pomalý proces",
+   "blížící se vrchol"
+  ],
+  "themes": [
+   "growth"
+  ],
+  "text": "Následující výklad nepopisuje krátký tranzit, ale pomalý vnitřní proces na roky, který zatím sílí a vrcholu teprve dosáhne.",
+  "traits": {
+   "text": [
+    "transformation",
+    "patience",
+    "depth"
+   ],
+   "shadow": []
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "progressed/modifier/separating",
+  "title": "Úvod progresního aspektu: rozbíhá se",
+  "keywords": [
+   "pomalý proces",
+   "doznívání",
+   "vnitřní proměna",
+   "zpracování"
+  ],
+  "themes": [
+   "growth",
+   "character"
+  ],
+  "text": "Tohle není krátký tranzit, ale pomalý vnitřní proces, který trvá roky. Aspekt se už rozbíhá, takže nejsilnější tlak máš za sebou a teď hlavně zpracováváš, co se v tobě proměnilo.",
+  "traits": {
+   "text": [
+    "transformation",
+    "depth",
+    "patience"
+   ],
+   "shadow": []
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ }
+]

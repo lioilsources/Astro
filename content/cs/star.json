@@ -1,0 +1,1739 @@
+[
+ {
+  "key": "star/algol",
+  "title": "Stálice Algol",
+  "keywords": [
+   "hlava medúzy",
+   "zkamenění",
+   "intenzita",
+   "ztráta hlavy",
+   "síla"
+  ],
+  "themes": [
+   "character",
+   "health",
+   "growth"
+  ],
+  "text": "Algol, hlava Medúzy v ruce Persea, leží kolem 26° Býka a do horoskopu vstupuje jen těsnou konjunkcí s planetou nebo osou. Arabové jí říkali Ra's al-Ghúl, hlava démona. Její svit pravidelně slábne a znovu sílí. Medúza proměňovala pohledem v kámen a tu moc si podržela i useknutá hlava. Ptolemaios dává hvězdě povahu Saturnu a Jupiteru: tíhu a tvrdost spojenou s velkou silou. Dotčená planeta nebo osa tak u tebe nese intenzitu, která druhé zastaví na místě.",
+  "shadow": "Hlava Medúzy dává tvé prudkosti sklon ztrácet míru. V hněvu dokážeš druhé zmrazit jediným pohledem nebo větou. Tradice tu mluví o ztrátě hlavy v doslovném i přeneseném smyslu, tedy o unáhlených činech a nezvládnuté vášni. Saturnova tvrdost se mění v neústupnost, Jupiterova síla v přehánění. Co v sobě potlačuješ, se snadno vrací v podobě posedlosti.",
+  "hard": [
+   {
+    "topics": [
+     "death",
+     "violence"
+    ],
+    "text": "Tradice tu mluví o nebezpečí násilné smrti a o stětí, hlavně když Algol stojí na Slunci, Měsíci nebo ascendentu. Středověcí autoři jej řadili k nejnešťastnějším hvězdám oblohy. Jde o tradiční výrok, ne o jistotu."
+   },
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o úrazech a nemocech hlavy, krku a hrdla. Dotčená planeta podle ní ukazuje, odkud může taková újma přijít."
+   },
+   {
+    "topics": [
+     "ruin",
+     "violence"
+    ],
+    "text": "Tradice tu mluví také o pádu z vysokého postavení, o neštěstí, které přichází náhle, a o násilí, které člověk způsobí nebo utrpí."
+   }
+  ],
+  "traits": {
+   "text": [
+    "courage",
+    "resilience",
+    "depth",
+    "transformation"
+   ],
+   "shadow": [
+    "anger",
+    "aggression",
+    "obsession",
+    "stubbornness",
+    "impulsiveness"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "star/alcyone",
+  "title": "Stálice Alkyone",
+  "keywords": [
+   "citlivost",
+   "prudkost",
+   "ctižádost",
+   "slzy",
+   "vyniknutí"
+  ],
+  "themes": [
+   "character",
+   "health",
+   "work"
+  ],
+  "text": "Alkyone se dotýká tvé planety nebo osy v orbu jednoho stupně, dnes kolem nultého stupně Blíženců. Je nejjasnější hvězdou Plejád na hřbetě Býka. Mýtus vypráví o sedmi dcerách Atlanta a Pleiony, které pronásledoval lovec Orión, dokud je Zeus neproměnil ve hvězdy. Ptolemaios jí přisuzuje povahu Měsíce a Marsu: citlivé, proměnlivé nitro a prudkou vůli. Silně prožíváš, rychle reaguješ a toužíš v něčem vyniknout.",
+  "shadow": "Spojení Měsíce a Marsu v Alkyoně dává citům ostří. Urážku neseš dlouho a odpovídáš na ni prudce. Tradice tu mluví o ctižádosti, neklidu a sklonu k bujarosti a smyslnosti. Plejády nazývá také plačícími sestrami, hvězdami, pod nimiž přichází něco, nad čím se pláče. Úspěch může mít hořkou příchuť. Máš sklon jednat v návalu emocí a pak litovat.",
+  "hard": [
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o nemocech a zraněních očí a tváře, v nejhorším případě až o slepotě. Starší autoři to vztahují hlavně ke spojení Plejád se Sluncem, Měsícem nebo ascendentem. Jde o tradiční výrok, ne o předpověď."
+   },
+   {
+    "topics": [
+     "death",
+     "violence",
+     "illness"
+    ],
+    "text": "Tradice tu mluví o násilí, zraněních a v těžkých případech o násilné smrti, zvlášť při spojení se světly nebo s Marsem. Klasičtí autoři zmiňují i horečky. Bere se to jako výstraha, nikoli jako jistota."
+   },
+   {
+    "topics": [
+     "ruin",
+     "loss"
+    ],
+    "text": "Tradice tu mluví o hanbě, ztrátě dobrého jména a vzestupu, který končí pádem. Pověst získaná rychle se podle starých výkladů stejně rychle hroutí."
+   }
+  ],
+  "traits": {
+   "text": [
+    "sensitivity",
+    "ambition",
+    "impulsiveness",
+    "moodiness"
+   ],
+   "shadow": [
+    "anger",
+    "sulking",
+    "indulgence",
+    "melancholy"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "star/aldebaran",
+  "title": "Stálice Aldebaran",
+  "keywords": [
+   "královská hvězda",
+   "odvaha",
+   "čest",
+   "bojovnost",
+   "vůdcovství"
+  ],
+  "themes": [
+   "character",
+   "work",
+   "health"
+  ],
+  "text": "Aldebaran září jako rudé oko Býka a dnes leží kolem 10° Blíženců. Arabský název znamená „ten, kdo následuje“, protože na obloze jde za Plejádami. Patří mezi čtyři královské hvězdy, strážce nebeských stran. Ptolemaios mu dává povahu Marta. Počítá se jen těsné spojení do 1°. Když se dotýká tvé planety nebo osy, dodává jí odvahu, bojovnost a schopnost vést. Tvůj vliv roste tam, kde jednáš přímo a držíš slovo.",
+  "shadow": "Rudé oko Býka v tobě rozdmýchává marťanský žár, který se snadno obrací proti druhým. Ve sporu nepouštíš a z každého vítězství děláš otázku cti. Úspěch přichází rychle. Tradice ho ale u královských hvězd váže na poctivost. Kde touha po moci přeroste dané slovo, vliv se rozpadá. Netrpělivost a vznětlivost ti pak berou to, co odvaha získá.",
+  "hard": [
+   {
+    "topics": [
+     "violence",
+     "death"
+    ],
+    "text": "Tradice tu mluví o nebezpečí násilí a o možnosti násilné smrti. Zdůrazňuje to hlavně u spojení se Sluncem, Měsícem, Marsem nebo ascendentem. Starší autoři tak vykládali marťanskou povahu hvězdy. Jde o tradiční výrok, ne o jistou předpověď."
+   },
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o horečkách a prudkých, akutních nemocech, které Ptolemaios připisuje Martovi. U spojení s ascendentem nebo se svítili zmiňuje také úrazy a záněty."
+   },
+   {
+    "topics": [
+     "ruin",
+     "loss"
+    ],
+    "text": "Tradice tu mluví o poctách a moci, které přicházejí rychle a stejně rychle se mohou zhroutit. Pád podle ní následuje po zradě vlastních zásad nebo po bezohledném užití síly."
+   }
+  ],
+  "traits": {
+   "text": [
+    "courage",
+    "leadership",
+    "ambition",
+    "decisiveness",
+    "honesty"
+   ],
+   "shadow": [
+    "anger",
+    "aggression",
+    "pride",
+    "impulsiveness",
+    "dominance"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "star/rigel",
+  "title": "Stálice Rigel",
+  "keywords": [
+   "levá noha oriona",
+   "vytrvalý vzestup",
+   "učení",
+   "čest",
+   "pýcha"
+  ],
+  "themes": [
+   "character",
+   "work",
+   "growth",
+   "health"
+  ],
+  "text": "Rigel, modrobílá hvězda v levé noze lovce Oriona, leží kolem 17. stupně Blíženců a planetě nebo ose ve tvém horoskopu dodává pevný krok. Orion je v mýtu obr, který chodí po moři a troufá si na každou zvěř. Ptolemaios dává Rigelu povahu Jupitera a Saturna: růst spojený s kázní. Tradice tu vidí čest, vzdělanost a úspěch, který stojí na práci. Máš chuť učit, stavět a dotahovat věci.",
+  "shadow": "Orionova pýcha na vlastní sílu je i tvou slabinou: krok, který nese daleko, snadno překročí hranice. Jupiter nafukuje ambice, Saturn je pak tvrdě účtuje. Máš sklon brát na sebe víc, než uneseš, a zatínat zuby místo změny směru. Úspěch měříš výkonem, a tak tě únava dlouho nezastaví. Vůči lidem, kteří nestačí tvému tempu, přichází netrpělivost a povýšenost.",
+  "hard": [
+   {
+    "topics": [
+     "ruin"
+    ],
+    "text": "Tradice tu mluví o pádu z dosažené pozice. Hvězdy jupiterovsko-saturnské povahy dávají vzestup, ale v těžkém spojení, zvlášť se Saturnem nebo Marsem, mohou čest i majetek zase vzít. Nejde o jistotu, spíš o varování před přeceněním sil."
+   },
+   {
+    "topics": [
+     "death",
+     "violence"
+    ],
+    "text": "Tradice tu mluví o Orionově smrti: obra podle mýtu zabíjí štír poslaný za jeho pýchu, jinde šíp Artemidy. Některé výklady z toho čtou riziko náhlého zranění, symbolicky spojeného s nohama, a úrazu v pohybu nebo na cestě. Jde o symbolické čtení, ne o předpověď."
+   }
+  ],
+  "traits": {
+   "text": [
+    "ambition",
+    "perseverance",
+    "diligence",
+    "responsibility",
+    "courage"
+   ],
+   "shadow": [
+    "pride",
+    "exhaustion",
+    "stubbornness",
+    "dominance"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "star/bellatrix",
+  "title": "Stálice Bellatrix",
+  "keywords": [
+   "bojovnost",
+   "pohotová mysl",
+   "rychlé rozhodnutí",
+   "pomíjivé pocty"
+  ],
+  "themes": [
+   "character",
+   "work"
+  ],
+  "text": "Bellatrix leží kolem 21° Blíženců, na levém rameni Oriona, lovce z řeckého mýtu. Latinské jméno znamená bojovnice. Ptolemaios jí přisuzuje povahu Marta a Merkura, tedy rychlou odvahu spojenou s pohotovou myslí a jazykem. Tam, kde se dotýká tvé planety nebo osy, umíš rychle rozhodnout, jasně pojmenovat cíl a vybojovat si uznání. Slova ti slouží jako zbraň i jako nástroj vyjednávání.",
+  "shadow": "Rychlé rozhodnutí u Bellatrix snadno předběhne úvahu. Martovsko-merkurovská povaha dává ostrý jazyk, sklon k hádkám a mnohomluvnost, která prozradí víc, než je moudré. Pod tlakem máš sklon útočit slovy dřív, než si ověříš fakta. Úspěch získaný v jednom střetu tě může svádět k dalším bojům, i když už nic nepřinášejí. Výsledkem pak bývá rozhořčení okolí místo uznání.",
+  "hard": [
+   {
+    "topics": [
+     "ruin"
+    ],
+    "text": "Tradice tu mluví o vojenských nebo občanských poctách dočasné povahy, po nichž přichází selhání, ztráta cti nebo pád. Starší autoři to chápou jako varování před výsluním, které stojí na přízni druhých a na jediném vítězství."
+   },
+   {
+    "topics": [
+     "violence",
+     "death"
+    ],
+    "text": "Tradice tu mluví také o náhlém nebezpečí a úrazech. V nejostřejších výkladech zmiňuje i prudkou smrt, zvlášť když se Bellatrix pojí s Marsem nebo se Sluncem. Jde o tradiční výrok, ne o předpověď. Jeho váha závisí na celém horoskopu."
+   }
+  ],
+  "traits": {
+   "text": [
+    "courage",
+    "decisiveness",
+    "eloquence",
+    "ambition"
+   ],
+   "shadow": [
+    "impulsiveness",
+    "bluntness",
+    "aggression",
+    "inconstancy"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "star/capella",
+  "title": "Stálice Capella",
+  "keywords": [
+   "zvídavost",
+   "ostrý jazyk",
+   "touha po učení",
+   "čest",
+   "neklid"
+  ],
+  "themes": [
+   "character",
+   "work",
+   "growth"
+  ],
+  "text": "Capella stojí kolem 22° Blíženců a v orbu jednoho stupně se dotýká tvé planety nebo osy. Je to koza Amalthea, kterou Vozka nese v náručí. Podle mýtu kojila malého Dia. Ptolemaios jí přisuzuje povahu Marsu a Merkuru: bystrou mysl, rychlé slovo a odvahu jít s názorem ven. Tradice ji spojuje se zvídavostí, láskou k učení, veřejnou důvěrou a ctí, kterou získáváš vlastním důvtipem.",
+  "shadow": "Capellina zvídavost tě táhne ke všemu novému, a tak opouštíš rozdělané věci dřív, než dozrají. Spojení Marsu a Merkuru dává slovu ostří. Hádka tě láká víc než dohoda a poznámka padne dřív, než ji zvážíš. Tradice tu mluví o okázalosti a touze po uznání. Zmiňuje také neklid, který brzdí dráhu, a podezíravost tam, kde čekáš útok. Pod hbitou řečí se umí skrývat bojácnost.",
+  "hard": [
+   {
+    "topics": [
+     "violence"
+    ],
+    "text": "Tradice tu mluví o sporech a střetech, které mohou přerůst ve fyzický konflikt, zvlášť když Capella stojí s Marsem. Starší autoři u ní zmiňují vojenskou dráhu, pocty z boje i nebezpečí, které z boje plyne. Nejde o jistotu, spíš o sklon ocitat se tam, kde se jedná ostře."
+   },
+   {
+    "topics": [
+     "ruin"
+    ],
+    "text": "Tradice tu mluví o ztrátě postavení kvůli neklidu, ukvapeným slovům a sporům s nadřízenými. Čest, kterou Capella přináší, se podle starých výkladů může obrátit v pomluvu, když řeč předběhne rozvahu."
+   }
+  ],
+  "traits": {
+   "text": [
+    "curiosity",
+    "eloquence",
+    "courage",
+    "ambition"
+   ],
+   "shadow": [
+    "restlessness",
+    "inconstancy",
+    "bluntness",
+    "vanity",
+    "fearfulness"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "star/betelgeuse",
+  "title": "Stálice Betelgeuze",
+  "keywords": [
+   "orion",
+   "martovská odvaha",
+   "pohotový úsudek",
+   "pocty",
+   "chlouba"
+  ],
+  "themes": [
+   "character",
+   "work",
+   "health"
+  ],
+  "text": "Tvá planeta nebo osa stojí na Betelgeuzi, rudém pravém rameni Oriona. Hvězda leží kolem 29° Blíženců, těsně u hranice Raka. Je to rameno, kterým lovec zvedá kyj. Orion v mýtu chodí světem, chlubí se silou a padá až po bodnutí štíra. Ptolemaios hvězdě přisuzuje povahu Marta a Merkura. Ve tvém postavení se tak potkává rychlý úsudek s pohotovou rukou. Myšlenku a čin u tebe dělí jen krátký okamžik.",
+  "shadow": "Tradice spojuje Betelgeuzi s poctami, úspěchem a vzestupem, často skrze boj nebo soutěž. Odvrácenou stranou je Orionova chlouba: síla, která se chce předvádět, a slovo, které řeže dřív, než promyslíš následky. Martovsko-merkurská povaha přináší netrpělivost, prudké hádky a ukvapené jednání. Úspěch přichází rychle, ale stejně rychle může přijít pád. Hrozí ve chvíli, kdy přeceníš vlastní sílu nebo podceníš drobného soupeře, jako Orion podcenil štíra.",
+  "hard": [
+   {
+    "topics": [
+     "violence",
+     "illness"
+    ],
+    "text": "Tradice tu mluví o martovské hvězdě, která ve spojení s poškozenými planetami nese riziko úrazů, ran ostrými předměty a horečnatých nemocí. Starší autoři to čtou jako sklon, ne jako jistotu."
+   },
+   {
+    "topics": [
+     "death",
+     "ruin"
+    ],
+    "text": "Tradice tu mluví o náhlém konci, který může ukončit nabytou slávu. U Slunce nebo os připomíná možnost pádu z vysokého postavení. Orionova smrt po bodnutí štíra slouží jako varování před pýchou, ne jako předpověď."
+   }
+  ],
+  "traits": {
+   "text": [
+    "courage",
+    "decisiveness",
+    "eloquence",
+    "ambition",
+    "leadership"
+   ],
+   "shadow": [
+    "pride",
+    "impulsiveness",
+    "anger",
+    "bluntness",
+    "risk_taking"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "star/sirius",
+  "title": "Stálice Sírius",
+  "keywords": [
+   "čest",
+   "věrnost",
+   "žár",
+   "strážce",
+   "uznání"
+  ],
+  "themes": [
+   "character",
+   "work",
+   "health",
+   "relationships"
+  ],
+  "text": "Sírius leží v tlamě Velkého psa, kolem 14° Raka, a v tvém horoskopu stojí těsně na planetě nebo ose. Je to nejjasnější hvězda noční oblohy. Egypťanům ohlašovala záplavu Nilu, Řekům psí dny plné žáru. Ptolemaios mu dává povahu Jupitera a Marta: velkorysost a ctižádost spojenou s ohněm a bojovností. Tvoje přítomnost je výrazná, vzbuzuje pozornost i respekt. Tradice tu slibuje čest, dobrou pověst a roli strážce, kterému druzí svěřují to cenné.",
+  "shadow": "Síriův jas pálí stejně, jako svítí. Jupiterova velkorysost se u tebe mísí s Martovou prudkostí. Chceš uznání a těžko snášíš, když nepřichází. Věrnost se může zvrhnout v zahořklost a ochrana v dohled nad druhými. Když někdo zpochybní tvoje postavení, reaguješ přehnaně a s pýchou. Staří autoři spojují tuto hvězdu s vášní i s odporem a zášť ti dlouho vydrží. Rychle získaný věhlas umí stejně rychle vyhasnout. Pak zůstává pocit křivdy.",
+  "hard": [
+   {
+    "topics": [
+     "illness",
+     "mental_crisis"
+    ],
+    "text": "Tradice tu mluví o horečkách a nemocech z horka. Psí dny, kdy Sírius vychází se Sluncem, byly v antice spojované s morem, vysilujícími horečkami a pomateností. Jde o starou symboliku, ne o diagnózu."
+   },
+   {
+    "topics": [
+     "violence"
+    ],
+    "text": "Tradice tu mluví o nebezpečí pokousání psem a o zraněních v prudkých střetech. Martova složka hvězdy podle starých výkladů přináší riziko násilí, zvlášť když Sírius stojí na Marsu nebo na ascendentu."
+   }
+  ],
+  "traits": {
+   "text": [
+    "ambition",
+    "loyalty",
+    "protectiveness",
+    "courage",
+    "generosity"
+   ],
+   "shadow": [
+    "pride",
+    "anger",
+    "dominance",
+    "sulking",
+    "drama"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "star/castor",
+  "title": "Stálice Castor",
+  "keywords": [
+   "bystrý rozum",
+   "moc slova",
+   "náhlá sláva",
+   "dvojí tvář",
+   "pád po vzestupu"
+  ],
+  "themes": [
+   "character",
+   "work",
+   "relationships",
+   "health"
+  ],
+  "text": "Castor stojí v těsné konjunkci s planetou nebo osou tvého horoskopu. Leží v hlavě severního z Blíženců, kolem dvaceti stupňů Raka. V mýtu je to smrtelný bratr a krotitel koní, který padl v boji a dělí se s Polluxem o nesmrtelnost. Ptolemaios mu přisuzuje povahu Merkura. Dodává bystrý rozum, cit pro slova a příběhy a schopnost rychle se proslavit tím, co říkáš nebo píšeš.",
+  "shadow": "Castorův merkurovský důvtip se snadno obrací v ostrý jazyk a pohotovou lest. Tradice spojuje tuhle hvězdu se slávou, která přijde rychle a stejně rychle mizí, a s pověstí, kterou ohrozí skandál. Máš sklon tříštit síly, měnit směr a nechávat druhé tápat v tom, co opravdu myslíš. Nepřátelé se tu rodí z řečí a soupeření.",
+  "hard": [
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o zraněních a nemocech hlavy, obličeje a očí. Starší autoři to vztahují hlavně ke konjunkci se Sluncem, Lunou nebo ascendentem a popisují obtíže, které přicházejí náhle."
+   },
+   {
+    "topics": [
+     "violence",
+     "death"
+    ],
+    "text": "Tradice tu mluví o násilí, ranách a v nejtěžších případech o násilné smrti, zvlášť při konjunkci s ascendentem nebo za spolupůsobení Marsu. Mýtus o Castorovi padlém v souboji tento výklad podtrhuje. Jde o tradiční výrok, ne o jistotu."
+   },
+   {
+    "topics": [
+     "ruin",
+     "loss"
+    ],
+    "text": "Tradice tu mluví o náhlé ztrátě postavení, hanbě a uvěznění po období uznání. Pád podle starých textů přichází přes intriky, pomluvy nebo vlastní nerozvážné slovo."
+   }
+  ],
+  "traits": {
+   "text": [
+    "curiosity",
+    "eloquence",
+    "rationality",
+    "wanderlust"
+   ],
+   "shadow": [
+    "deceit",
+    "inconstancy",
+    "restlessness",
+    "criticism"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "star/pollux",
+  "title": "Stálice Pollux",
+  "keywords": [
+   "bojovnost",
+   "odvaha",
+   "bratrská věrnost",
+   "lest",
+   "marsovská síla"
+  ],
+  "themes": [
+   "character",
+   "relationships",
+   "health"
+  ],
+  "text": "Pollux tvoří hlavu jižního z Blíženců (β Geminorum) a počítá se jen tehdy, když stojí do 1° ekliptikální délky od tvé planety nebo osy. V mýtu je to nesmrtelný syn Dia a pěstní zápasník, který se s bratrem Kastorem dělí o nesmrtelnost, aby ho neztratil. Ptolemaios mu dává povahu Marta. Bodu, kterého se dotýká, přináší bojovnost, odvahu, ostrost a sílu prosadit se.",
+  "shadow": "Pollux přidává k bojovnosti lest. Tradice popisuje jeho vliv jako vychytralý, troufalý, krutý a ukvapený. V praxi to může znamenat, že ve sporu jdeš do útoku rychleji, než situace žádá, a ránu vracíš silněji, než přišla. Chytrost se snadno mění v manipulaci a odvaha v hazard. Věrnost blízkým, kterou mýtus oslavuje, může přejít ve slepou stranickost: pro svého člověka obhajuješ i to, co jinak odsuzuješ.",
+  "hard": [
+   {
+    "topics": [
+     "violence",
+     "illness"
+    ],
+    "text": "Tradice tu mluví o sklonu k násilí, zraněním a ostrým střetům, zvlášť když Pollux stojí na Marsu, Saturnu nebo na ascendentu. Starší autoři ho spojují i s nebezpečím otravy. Jde o výrok tradice, ne o předpověď konkrétní události."
+   },
+   {
+    "topics": [
+     "death"
+    ],
+    "text": "Tradice tu mluví také o náhlé nebo násilné smrti. Starší autoři ji u Polluxe čtou ve spojení se Sluncem, Měsícem nebo se zhoubnými planetami. Takový výrok má váhu jen v kontextu celého horoskopu, nikdy sám o sobě."
+   },
+   {
+    "topics": [
+     "ruin"
+    ],
+    "text": "Tradice tu mluví o ostudě a ztrátě postavení, které si člověk přivodí vlastní troufalostí nebo lstí. Pád podle ní přichází spíš z vlastních činů než z vnější náhody."
+   }
+  ],
+  "traits": {
+   "text": [
+    "courage",
+    "competitiveness",
+    "loyalty",
+    "decisiveness",
+    "vitality"
+   ],
+   "shadow": [
+    "aggression",
+    "deceit",
+    "impulsiveness",
+    "risk_taking",
+    "anger"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "star/procyon",
+  "title": "Stálice Prokyon",
+  "keywords": [
+   "pohotovost",
+   "náhlý vzestup",
+   "prudkost",
+   "ostrá mysl",
+   "věrnost"
+  ],
+  "themes": [
+   "character",
+   "work",
+   "health"
+  ],
+  "text": "Prokyon leží kolem 25°–26° Raka a v tvém horoskopu se v orbu jednoho stupně dotýká planety nebo osy. Jméno znamená „před psem“, protože vychází těsně před Siriem. Mýty v něm vidí menšího z Orionových loveckých psů nebo věrnou Mairu, fenu Ikaria. Ptolemaios mu přisuzuje povahu Merkuru a Marsu. Dává rychlou mysl, pohotovou řeč a prudkou energii, která jedná dřív, než stihne zaváhat.",
+  "shadow": "Spojení s Prokyonem nese rychlost, která předbíhá vlastní základy. Tradice mu připisuje náhlý vzestup vlastním přičiněním, po němž přichází stejně náhlý pád. Úspěch tu bývá krátký a křehký. Merkur s Marsem přidávají ostrý jazyk, podrážděnost a sklon k unáhleným slovům i činům. Starší autoři zmiňují vzpurnost a nedůtklivost. Nadšení se rychle rozhoří a stejně rychle vyhasne. Pak zůstává rozdělaná práce a narušené vztahy.",
+  "hard": [
+   {
+    "topics": [
+     "violence"
+    ],
+    "text": "Tradice tu mluví o náhlé zlovolnosti a násilí, ke kterému hvězda s marsovskou povahou svádí nebo které přitahuje. Při spojení s Marsem staré výklady zmiňují prudké střety a zranění."
+   },
+   {
+    "topics": [
+     "illness",
+     "violence"
+    ],
+    "text": "Tradice tu mluví také o pokousání psem a o vzteklině. Staré texty tato rizika spojují se psími hvězdami. Uvádějí je jako možné nebezpečí, ne jako jistotu."
+   },
+   {
+    "topics": [
+     "ruin",
+     "loss"
+    ],
+    "text": "Tradice tu mluví o vzestupu, který končí katastrofou. Postavení, jméno či majetek získané rychle se podle starých výkladů ztrácejí stejně rychle, někdy úplně."
+   }
+  ],
+  "traits": {
+   "text": [
+    "eloquence",
+    "decisiveness",
+    "vitality",
+    "loyalty"
+   ],
+   "shadow": [
+    "impulsiveness",
+    "anger",
+    "inconstancy",
+    "bluntness",
+    "rebellion"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "star/praesepe",
+  "title": "Stálice Praesepe",
+  "keywords": [
+   "jesličky",
+   "mars a měsíc",
+   "mlhavé světlo",
+   "pracovitost",
+   "unáhlenost"
+  ],
+  "themes": [
+   "character",
+   "health",
+   "work"
+  ],
+  "text": "Praesepe, česky Jesličky, je hvězdokupa M44 v srdci souhvězdí Raka. Dnes leží kolem 7° tropického Lva. Ve tvém horoskopu stojí do jednoho stupně u planety nebo osy, a ta tak nese její povahu. Řecký mýtus v ní vidí jesle, u nichž se krmí dva oslíci. Jejich hýkání zahnalo obry v boji s bohy. Ptolemaios jí dává povahu Marta a Měsíce. Citlivost se tu pojí s pohotovým činem, pracovitostí a smyslem pro společný řád.",
+  "shadow": "Mlhavé světlo Jesliček dává tvým reakcím nejasný obrys. Měsíční pohnutí se snadno zvedne v Martův výbuch. Tradice sem řadí drzost, prostopášnost a sklon k dobrodružstvím, která končí ostudou. Často jednáš dřív, než si situaci prohlédneš, a pak neseš pověst, která se těžko smývá. Úzkost se u tebe mění v podrážděnost a náladovost v hádky.",
+  "hard": [
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o nemocech očí a o slepotě. Mlhavé hvězdokupy jako Jesličky pojí staří autoři se slábnoucím zrakem, zvlášť když stojí se Sluncem nebo Měsícem na ose. Uvádějí také horečky."
+   },
+   {
+    "topics": [
+     "violence",
+     "death"
+    ],
+    "text": "Tradice tu mluví také o násilí. U konjunkce se Sluncem zmiňují staré texty zranění obličeje, vraždu a násilnou smrt, a to v roli oběti i pachatele. Čínská astronomie nazývá hvězdokupu výpary nahromaděných mrtvých těl. Jde o tradiční výrok, ne o předpověď."
+   },
+   {
+    "topics": [
+     "loss",
+     "ruin"
+    ],
+    "text": "Tradice tu mluví o ztrátách a hanbě. Jesličky podle ní přinášejí ztrátu majetku či postavení a veřejnou ostudu, která přichází po unáhleném nebo bezohledném činu."
+   }
+  ],
+  "traits": {
+   "text": [
+    "sensitivity",
+    "diligence",
+    "order",
+    "courage"
+   ],
+   "shadow": [
+    "impulsiveness",
+    "anger",
+    "moodiness",
+    "risk_taking",
+    "anxiety"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "star/alphard",
+  "title": "Stálice Alphard",
+  "keywords": [
+   "srdce hydry",
+   "osamělost",
+   "vášeň",
+   "moudrost",
+   "umění"
+  ],
+  "themes": [
+   "character",
+   "relationships",
+   "health"
+  ],
+  "text": "Alphard je nejjasnější hvězda Hydry a leží na srdci vodního hada, v tropickém zvěrokruhu kolem 27° Lva. Arabský název znamená „osamělá“, protože v okolí nemá jasnou sousedku. Hydru přemohl Héraklés, i když jí za každou uťatou hlavu narostly dvě. Ptolemaios jí dává povahu Saturnu a Venuše, tedy vážnost a hloubku spojenou s citem pro krásu. Tradice jí připisuje moudrost, smysl pro hudbu a umění a znalost lidské povahy. Počítá se jen tehdy, když stojí do 1° od tvé planety nebo osy.",
+  "shadow": "Srdce Hydry nese silné vášně a tradice k nim přidává nedostatek sebeovládání. Saturn s Venuší tu svádějí touhu i odříkání do jednoho bodu, takže citové výkyvy mají velkou váhu. Starší autoři mluví o nemravnosti, odpudivých činech a potížích skrze vztahy. V moderním čtení se jméno „osamělá“ ozývá jako odstup od lidí a sklon skrývat, co se v tobě děje. Znalost lidské povahy pak snadno sklouzne k manipulaci.",
+  "hard": [
+   {
+    "topics": [
+     "death"
+    ],
+    "text": "Tradice tu mluví o náhlé smrti utonutím, otravou nebo udušením. Spojuje to s vodním hadem a s jeho jedovatou krví, do které Héraklés namáčel šípy. Jde o tradiční výrok, ne o předpověď. Váhu získává hlavně tehdy, když postavení podporují i jiné faktory horoskopu."
+   },
+   {
+    "topics": [
+     "illness",
+     "addiction"
+    ],
+    "text": "Tradice tu mluví také o otravách a o škodě z nestřídmosti. Vykládá to jako Venuši zatíženou Saturnem, tedy požitek, který se mění v jed. Pozdější autoři tu vidí sklon k náruživostem, které zatěžují tělo. Je to tradiční výrok, ne jistota."
+   }
+  ],
+  "traits": {
+   "text": [
+    "depth",
+    "creativity",
+    "sensuality",
+    "empathy"
+   ],
+   "shadow": [
+    "obsession",
+    "indulgence",
+    "reclusiveness",
+    "secrecy",
+    "deceit"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "star/regulus",
+  "title": "Stálice Regulus",
+  "keywords": [
+   "královská hvězda",
+   "čest",
+   "vzestup",
+   "pomsta",
+   "vůdcovství"
+  ],
+  "themes": [
+   "character",
+   "work",
+   "growth"
+  ],
+  "text": "Regulus, srdce Lva, leží v tvém horoskopu přesně na planetě nebo ose. Hvězda dnes stojí na samém začátku Panny, téměř na ekliptice. Latinské jméno znamená „malý král“. Regulus patří ke čtyřem královským hvězdám, strážcům nebe. Ptolemaios mu dává povahu Marta a Jupitera, tedy odvahu spojenou se štědrostí a smyslem pro čest. Tradice tu slibuje vzestup, uznání a postavení, které ti druzí přiznávají. Máš vůdčí povahu a nebojíš se odpovědnosti.",
+  "shadow": "Regulus dává vzestup s podmínkou. Tradice tu mluví o tom, že pocta trvá jen do chvíle, kdy se člověk dá na pomstu. Martova složka přináší prudký hněv a sklon oplácet křivdy. Jupiterova složka nafukuje pýchu a pocit nároku na první místo. Kritiku snášíš těžko a urážku si dlouho pamatuješ. Panovačnost pak odhání lidi, kteří tě vynesli nahoru.",
+  "hard": [
+   {
+    "topics": [
+     "ruin",
+     "loss"
+    ],
+    "text": "Tradice tu mluví o pádu z výšky. Úspěch podle ní přichází rychle a stejně rychle může skončit ztrátou postavení, cti i majetku. Starší autoři u Regula opakují, že nepřátelé a vlastní pomstychtivost dokážou zničit vše, co bylo vybudováno."
+   },
+   {
+    "topics": [
+     "violence",
+     "death"
+    ],
+    "text": "Tradice tu mluví také o násilí a násilné smrti. Platí to zvlášť tehdy, když hvězda stojí se Sluncem, Měsícem nebo na ascendentu a převáží vliv Marta. Starší texty zmiňují i vojenskou slávu krátkého trvání a uvěznění. Jde o tradiční výrok, ne o jistou předpověď."
+   }
+  ],
+  "traits": {
+   "text": [
+    "leadership",
+    "courage",
+    "generosity",
+    "self_confidence",
+    "ambition"
+   ],
+   "shadow": [
+    "pride",
+    "dominance",
+    "anger",
+    "sulking"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "star/denebola",
+  "title": "Stálice Denebola",
+  "keywords": [
+   "rychlý úsudek",
+   "ušlechtilost",
+   "odvaha",
+   "pád ze cti",
+   "vzdor"
+  ],
+  "themes": [
+   "character",
+   "work",
+   "relationships"
+  ],
+  "text": "Denebola leží v ocasu Lva. Její jméno pochází z arabského označení lvího ocasu. Podle řeckého mýtu je nebeský Lev nemejskou šelmou, kterou přemohl Héraklés. Ptolemaios jí přisuzuje povahu Saturnu a Venuše, tedy chladnou míru spojenou s touhou po kráse a blízkosti. Když stojí do jednoho stupně u tvé planety nebo osy, dodává jejímu tématu ušlechtilost, štědrost a odvahu. Rozhoduješ rychle a za svým úsudkem stojíš.",
+  "shadow": "Ocas Lva přináší rychlý soud, který později mrzí. Saturn v něm chladne a Venuše radost zahořkne. Tradice tu mluví o štěstí, které se mění v hněv, a o hádkách. Uznání získáváš snadno, ale ukvapeným slovem ho můžeš ztratit. Moderní autoři přidávají sklon stavět se proti společnosti a zůstávat stranou. To už je pozdější výklad, ne tradice.",
+  "hard": [
+   {
+    "topics": [
+     "ruin"
+    ],
+    "text": "Tradice tu mluví o poctách, po kterých přichází veřejná hanba, a o bohatství, které se obrátí ve zlobu a spory. Pád z uznávaného postavení se v klasických výkladech Deneboly opakuje, zvlášť když hvězda stojí na ose."
+   },
+   {
+    "topics": [
+     "loss"
+    ],
+    "text": "Tradice tu mluví také o neštěstí od přírodních živlů, o škodách způsobených počasím, vodou nebo ohněm. Jde o starý výrok, ne o předpověď konkrétní události."
+   },
+   {
+    "topics": [
+     "mental_crisis"
+    ],
+    "text": "Klasické seznamy uvádějí u Deneboly zoufalství a lítost. Tradice tu mluví o obdobích, kdy se rychlé rozhodnutí obrátí proti tobě a zůstane po něm hořkost a pocit marnosti."
+   }
+  ],
+  "traits": {
+   "text": [
+    "decisiveness",
+    "generosity",
+    "courage",
+    "independence"
+   ],
+   "shadow": [
+    "impulsiveness",
+    "anger",
+    "rebellion",
+    "melancholy"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "star/vindemiatrix",
+  "title": "Stálice Vindemiatrix",
+  "keywords": [
+   "sklizeň",
+   "vážná mysl",
+   "střízlivý úsudek",
+   "ztráta",
+   "melancholie"
+  ],
+  "themes": [
+   "character",
+   "relationships",
+   "work"
+  ],
+  "text": "Vindemiatrix leží v pravém křídle Panny, v tropickém zvěrokruhu kolem 10° Vah. Jméno znamená vinařka, sběračka hroznů. V antice vycházela ráno před vinobraním. Mýtus ji spojuje s Ampelem, mladíkem milovaným Dionýsem, který spadl z jilmu při trhání hroznů a zemřel. Povaha Saturnu a Merkuru ti dává vážnou, pozornou mysl. Myslíš v souvislostech, sbíráš fakta jako zralé plody a umíš je trpělivě třídit.",
+  "shadow": "Saturnsko-merkurská mysl Vindemiatrix snadno sklouzává k chmurám. Přemýšlíš o tom, co se pokazí, dřív než se cokoli stane. Kritičnost se mění v sarkasmus, mlčení v odtažitost. Tradice tu mluví o nepravdě, ostudě, krádeži a nerozvážné pošetilosti. Chytrost, která slouží výmluvám nebo úskokům, se vrací jako ztráta dobrého jména. Hrozí i pozdní sklizeň: příležitost dozraje a ty ji necháš shnít v pochybnostech.",
+  "hard": [
+   {
+    "topics": [
+     "death",
+     "loss"
+    ],
+    "text": "Tradice tu mluví o hvězdě, která „dělá vdovy“. V konjunkci se Sluncem, Měsícem, Venuší nebo s descendentem se čte jako znamení ztráty partnera nebo dlouhého smutku. Mýtus o Ampelovi přidává motiv náhlého pádu a předčasné smrti. Nejde o jistotu, jen o téma, které k hvězdě vážou starší autoři."
+   },
+   {
+    "topics": [
+     "mental_crisis"
+    ],
+    "text": "Tradice tu mluví také o sklíčenosti, kterou Saturn vnáší do myšlení. Starší výklady zmiňují období těžkomyslnosti a ztráty naděje, zvlášť při konjunkci s Měsícem nebo Merkurem."
+   }
+  ],
+  "traits": {
+   "text": [
+    "rationality",
+    "focus",
+    "patience",
+    "depth"
+   ],
+   "shadow": [
+    "pessimism",
+    "melancholy",
+    "criticism",
+    "deceit",
+    "detachment"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "star/algorab",
+  "title": "Stálice Algorab",
+  "keywords": [
+   "havraní křídlo",
+   "výmluva a lež",
+   "pomstychtivost",
+   "chladná síla",
+   "mars a saturn"
+  ],
+  "themes": [
+   "character",
+   "relationships",
+   "work",
+   "health"
+  ],
+  "text": "Algorab ti stojí přímo na planetě nebo ose, v orbu jednoho stupně. Hvězda leží v křídle souhvězdí Havrana, kolem 13. stupně Vah. Mýtus vypráví o Apollónově havranovi. Měl přinést vodu, ale zdržel se u fíkovníku a vrátil se se lží. Za trest zčernal a navěky žízní na hřbetu Hydry, kousek od poháru. Ptolemaios hvězdě dává povahu Marta a Saturnu: tvrdost, vytrvalost a ostří, které umí čekat na svou chvíli.",
+  "shadow": "Havraní stín Algorabu je pokušení zakrýt vlastní zdržení pohotovou výmluvou. Tradice spojuje hvězdu se lstí, lží, pomstychtivostí a ničivostí. Křivdu v sobě neseš dlouho a vyčkáváš na chvíli k odplatě. Marsovská prudkost a saturnská zatvrzelost spolu dávají chladný, vytrvalý hněv. Umíš těžit z toho, co po druhých zbylo, a vytěžit i cizí pád. Tvou pověst snadno zatíží pomluva, včetně té, kterou šíříš.",
+  "hard": [
+   {
+    "topics": [
+     "violence",
+     "death"
+    ],
+    "text": "Tradice tu mluví o nebezpečí násilí a zranění, hlavně ostrými předměty nebo při střetu. U Marta nebo Ascendentu starší autoři zmiňují i hrozbu násilné smrti. Jde o tradiční výrok, ne o předpověď."
+   },
+   {
+    "topics": [
+     "ruin",
+     "loss"
+    ],
+    "text": "Tradice tu mluví o hanbě, pádu a zničení pověsti, často kvůli prozrazené lži nebo zradě. Na Medium coeli se uvádí ztráta postavení, kterou přivodí vlastní nepoctivost nebo pomstychtivost druhých."
+   }
+  ],
+  "traits": {
+   "text": [
+    "perseverance",
+    "patience",
+    "courage",
+    "discipline"
+   ],
+   "shadow": [
+    "deceit",
+    "aggression",
+    "coldness",
+    "stubbornness"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "star/spica",
+  "title": "Stálice Spica",
+  "keywords": [
+   "klas",
+   "ochrana",
+   "úspěch",
+   "dary",
+   "talent"
+  ],
+  "themes": [
+   "character",
+   "work",
+   "growth",
+   "health"
+  ],
+  "text": "Spica leží kolem 24° Vah. V souhvězdí Panny tvoří klas pšenice, který bohyně drží v ruce. Mýtus ji spojuje s Démétér, dárkyní úrody, i s Astraiou, poslední bohyní spravedlnosti na zemi. Ptolemaios jí přisuzuje povahu Venuše a Marta, tedy vlídnost a krásu spojenou s průbojností. Tradice ji řadí mezi nejšťastnější stálice a spojuje ji s ochranou, uznáním a dary, které přicházejí nečekaně. Tam, kde se dotýká tvé planety nebo osy, přináší cit pro umění, vědění a poctivou práci.",
+  "shadow": "Klas v ruce Panny dává s lehkostí, a právě v tom je jeho past. Úspěch přichází snadno, takže se nemusíš učit, co dělat, když se odmlčí. Venušina vlídnost a Martova síla se mohou spojit v bezohlednost. Jdeš za svým s úsměvem a nevidíš, koho cestou odstrčíš. Tradice tu mluví o bezskrupulóznosti a o nespravedlnosti vůči nevinným. Dary klasu snadno bereš jako samozřejmost a štěstí zaměňuješ za vlastní zásluhu. Odtud je blízko k pýše a marnivosti.",
+  "hard": [
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o neplodnosti. Robson ji uvádí mezi významy Spiky vedle bohatství a slávy. Klas plný zrna tak nese i obraz úrody, která se nedostaví. Jde o tradiční výrok, ne o jistotu, a nehodí se k posuzování zdravotního stavu."
+   }
+  ],
+  "traits": {
+   "text": [
+    "charm",
+    "creativity",
+    "diligence",
+    "justice"
+   ],
+   "shadow": [
+    "selfishness",
+    "pride",
+    "vanity"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "star/arcturus",
+  "title": "Stálice Arcturus",
+  "keywords": [
+   "strážce medvědice",
+   "vlastní cesta",
+   "čest",
+   "iniciativa",
+   "rozhled"
+  ],
+  "themes": [
+   "character",
+   "work",
+   "growth"
+  ],
+  "text": "Arcturus leží zhruba na 24° Vah a patří ke kolenu Pastýře v souhvězdí Bootes. Jeho jméno znamená Strážce medvědice. Pastýř kráčí za Velkým vozem a hlídá ho. Podle jedné báje je Pastýřem Ikarios, kterému Dionýsos svěřil tajemství vína. Ptolemaios mu přisuzuje povahu Jupitera a Marta, tedy ctižádost spojenou s odvahou. Planetě nebo ose, které se dotýká, dodává rozhled, chuť jít vlastní cestou a čest získanou činem.",
+  "shadow": "Arcturova jistota vlastní cestou snadno přechází v neochotu přijmout radu. Jupiter chce vést, Mars chce prosadit, a tak se tvé sebevědomí mění v panovačnost a tlak na okolí. Úspěch tě láká k přehánění, k velkým gestům a ke zbytečnému riskování. Kdo ti oponuje, naráží na tvrdohlavost a pýchu. Ikariův příběh připomíná, že dar nabídnutý bez ohledu na druhé se může obrátit proti dárci.",
+  "hard": [
+   {
+    "topics": [
+     "violence",
+     "death"
+    ],
+    "text": "Tradice tu mluví o Ikariově osudu. Pastýř rozdává víno a opilí sousedé ho ubijí v domnění, že je otrávil. Martova složka hvězdy se proto čte jako riziko sporů, které přerůstají v násilí. Ve vzácných a jinak silně zatížených horoskopech se v ní čte i náznak násilné smrti. Jde o tradiční motiv, ne o předpověď."
+   },
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o horečnatých a zánětlivých stavech, které starší autoři přisuzují hvězdám s povahou Marta. Zmiňuje také úrazy z přílišného spěchu nebo z přepínání sil. U Arctura je tento výrok slabší, protože jupiterská složka bývá považována za ochrannou."
+   }
+  ],
+  "traits": {
+   "text": [
+    "ambition",
+    "leadership",
+    "courage",
+    "independence",
+    "self_confidence"
+   ],
+   "shadow": [
+    "dominance",
+    "stubbornness",
+    "pride",
+    "risk_taking",
+    "extravagance"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "star/zubenelgenubi",
+  "title": "Stálice Zubenelgenubi",
+  "keywords": [
+   "spravedlnost",
+   "jižní klepeto",
+   "boj za pravdu",
+   "neústupnost",
+   "odplata"
+  ],
+  "themes": [
+   "character",
+   "relationships",
+   "health"
+  ],
+  "text": "Zubenelgenubi leží kolem 15° Štíra, téměř přesně na ekliptice. Působí jen tam, kde se k ní planeta nebo osa přiblíží na jeden stupeň. Arabské jméno znamená „jižní klepeto“. Dřív patřila Štírovi, později se z ní stala jižní miska Vah. Ptolemaios jí dává povahu Jupitera a Marta. Ve tvém horoskopu se tak potkává smysl pro spravedlnost s ochotou za ni bojovat. Nejdřív vážíš, pak jednáš.",
+  "shadow": "Klepeto, které se proměnilo v misku, nezapomíná na svůj původ. Tvoje váha se proto snadno mění ve zbraň. Když cítíš křivdu, soudíš rychle a tvrdě a odpuštění přichází pomalu. Jupiter dodává pevné přesvědčení o vlastní pravdě, Mars k němu přidává ostří. Druzí pak u tebe narážejí na neústupnost, výčitky a dlouhou paměť na staré účty. Ze spravedlnosti se tak stává odplata.",
+  "hard": [
+   {
+    "topics": [
+     "violence",
+     "ruin"
+    ],
+    "text": "Tradice tu mluví o hvězdě nepřející a nesmiřitelné. Starší autoři k ní řadí nebezpečí násilí, svárů, pomluv a ztráty dobrého jména. Platí to zvlášť ve spojení s Martem nebo s osami horoskopu."
+   },
+   {
+    "topics": [
+     "illness",
+     "death"
+    ],
+    "text": "Tradice tu mluví také o nebezpečí jedu a o nemocech, které z něj plynou. Některé výklady spojují tuto stálici se Sluncem nebo Měsícem a vidí v tom ohrožení zdraví, v krajním případě i předčasnou smrt. Jde o tradiční výrok, ne o předpověď."
+   }
+  ],
+  "traits": {
+   "text": [
+    "justice",
+    "courage",
+    "decisiveness",
+    "rationality"
+   ],
+   "shadow": [
+    "stubbornness",
+    "sulking",
+    "aggression",
+    "criticism"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "star/zubeneschamali",
+  "title": "Stálice Zubeneschamali",
+  "keywords": [
+   "severní miska vah",
+   "zdravý úsudek",
+   "velkorysost",
+   "ctižádost",
+   "uznání"
+  ],
+  "themes": [
+   "character",
+   "work",
+   "growth"
+  ],
+  "text": "Zubeneschamali, severní miska Vah, je nazelenalá hvězda na pomezí Vah a Štíra. Arabské jméno znamená „severní klepeto“, protože ve starší obloze patřila Štírovi a jeho klepeta držela váhy. Leží na tvé planetě nebo ose do jednoho stupně. Ptolemaios jí přisuzuje povahu Jupitera a Merkura, tedy velkorysost spojenou s bystrým rozumem. Máš schopnost věci zvážit, pojmenovat je a pak jednat s rozhledem.",
+  "shadow": "Severní miska Vah slibuje uznání a právě tím tě může svádět. Tradice tu mluví o vysoké ctižádosti, poctách a dobročinnosti. Ve stínu se z toho stává hlad po potlesku a pýcha na vlastní úsudek. Jupiter přidává sklon k přehánění a rozhazování. Merkur dává obratnost, která se dá použít i k vytáčkám. Dlouhé vážení umí odsunout rozhodnutí, dokud není pozdě. Když se ti daří, snadno přehlédneš, kdo za tvůj zdar platí.",
+  "hard": [
+   {
+    "topics": [
+     "ruin"
+    ],
+    "text": "Tradice tu mluví o tom, že stálice dávají vzestup, který nemusí trvat. Podle starších autorů se zdar Zubeneschamali může zvrátit, hlavně když totéž místo zasahují Mars nebo Saturn. Pak jde o ztrátu postavení nebo dobrého jména. Je to možnost, kterou tradice popisuje, ne jistý pád."
+   }
+  ],
+  "traits": {
+   "text": [
+    "justice",
+    "generosity",
+    "rationality",
+    "optimism",
+    "ambition"
+   ],
+   "shadow": [
+    "pride",
+    "vanity",
+    "extravagance",
+    "deceit",
+    "indecision"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "star/unukalhai",
+  "title": "Stálice Unukalhai",
+  "keywords": [
+   "jed a lék",
+   "tvrdost",
+   "výdrž",
+   "nebezpečí",
+   "ostří"
+  ],
+  "themes": [
+   "character",
+   "health",
+   "relationships"
+  ],
+  "text": "Unukalhai leží kolem 22° Štíra a působí jen tehdy, když planeta nebo osa stojí do jednoho stupně od ní. Je to krk Hada, kterého v rukou drží Hadonoš, léčitel Asklépios. Had tu nese lék i jed zároveň. Ptolemaios jí dává povahu Saturnu a Marsu, tedy tvrdost, výdrž a ostří. Bod v tvém horoskopu, kterého se dotýká, získává houževnatost a schopnost unést tlak bez zhroucení.",
+  "shadow": "Saturn s Marsem v krku Hada dávají ostrý jazyk a sklon odpovídat na tlak tvrdostí. Snadno vzniká nedůvěra a ochota jít do konfliktu tam, kde by stačilo ustoupit. Tradice tu mluví o nemravnosti a o vazbách na lidi, kteří přinášejí nebezpečí. Saturnská složka přidává zatvrzelost a dlouho držené křivdy. Marsovská složka přidává netrpělivost a zbytečné riskování. Lék a jed tu dělí jen tenká čára.",
+  "hard": [
+   {
+    "topics": [
+     "illness",
+     "death"
+    ],
+    "text": "Tradice tu mluví o nebezpečí otravy a o nemocech spojených s jedy. Platí to zvlášť tehdy, když hvězda stojí na Slunci, na Měsíci nebo na Ascendentu. Starší autoři ji řadí mezi stálice, které při silném postavení souvisejí s vážnou nemocí. Jde o tradiční výrok, ne o předpověď."
+   },
+   {
+    "topics": [
+     "violence",
+     "death"
+    ],
+    "text": "Tradice tu mluví také o úrazech, násilí a v nejhorších případech o násilné smrti. Starší autoři to vztahují hlavně ke konjunkci se světly nebo s osami. Vždy to čtou v souvislosti s celým horoskopem."
+   },
+   {
+    "topics": [
+     "ruin",
+     "loss"
+    ],
+    "text": "Tradice tu mluví o hanbě, o ztrátě dobré pověsti a o pádu, který přichází přes špatné společníky nebo přes vlastní bezohlednost."
+   }
+  ],
+  "traits": {
+   "text": [
+    "resilience",
+    "perseverance",
+    "courage",
+    "transformation"
+   ],
+   "shadow": [
+    "bluntness",
+    "aggression",
+    "risk_taking",
+    "stubbornness"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "star/acrab",
+  "title": "Stálice Akrab",
+  "keywords": [
+   "čelo štíra",
+   "přesný úder",
+   "trpělivé čekání",
+   "zášť"
+  ],
+  "themes": [
+   "character",
+   "relationships",
+   "health"
+  ],
+  "text": "Akrab leží na čele Štíra, dnes kolem 3° Střelce. Jméno pochází z arabského slova pro štíra. Podle mýtu poslala štíra bohyně, aby zabil lovce Oriona. Proto oba stojí na obloze daleko od sebe. Ptolemaios hvězdě přisuzuje povahu Marta a Saturnu, tedy ostrost spojenou s chladnou vytrvalostí. Když se těsně dotýká tvé planety nebo osy, umíš čekat, mířit přesně a neustoupit, dokud cíl nepadne.",
+  "shadow": "Na čele Štíra se trpělivost Saturnu a úder Marta snadno spojí v chladnou zášť. Křivdu si pamatuješ dlouho a odplata přichází pozdě a nečekaně. Tradice této hvězdě přisuzuje zlovolnost a zradu, vlastní i cizí. Ostrý jazyk zraňuje víc, než zamýšlíš, a nedůvěra drží lidi venku. Pak přichází lítost, ale slova už nejdou vzít zpět.",
+  "hard": [
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o nakažlivých nemocech a oslabeném zdraví, zvlášť u Slunce, Měsíce nebo Ascendentu. Starší autoři zmiňují i potíže s očima. Je to tradiční výrok, ne předpověď."
+   },
+   {
+    "topics": [
+     "violence",
+     "ruin"
+    ],
+    "text": "Tradice tu mluví o krutosti, sklonu k zločinu a o pádu, který po nich následuje. Robson u této hvězdy uvádí zločin a pozdější lítost. Ber to jako varování, ne jako jistotu."
+   },
+   {
+    "topics": [
+     "loss",
+     "death"
+    ],
+    "text": "Tradice tu mluví o ztrátě dětí, neštěstí v rodině a náhlé smrti. Tyto výroky jsou staré a neplatí jako jistota."
+   }
+  ],
+  "traits": {
+   "text": [
+    "patience",
+    "perseverance",
+    "focus",
+    "courage"
+   ],
+   "shadow": [
+    "aggression",
+    "coldness",
+    "bluntness",
+    "cynicism"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "star/antares",
+  "title": "Stálice Antares",
+  "keywords": [
+   "královská hvězda",
+   "odvaha",
+   "prudkost",
+   "vzestup a pád"
+  ],
+  "themes": [
+   "character",
+   "work",
+   "health"
+  ],
+  "text": "Antares, rudé srdce Štíra, leží zhruba na deseti stupních Střelce a tvá planeta nebo osa se ho dotýká v těsném orbu. Jméno znamená „soupeř Marta“, protože barvou připomíná rudou planetu. Patří ke čtyřem královským hvězdám, Peršané v něm viděli strážce západu. V mýtu je srdcem Štíra, který usmrtil lovce Oriona. Ptolemaios mu dává povahu Marta a Jupitera. Máš v sobě bojovný žár, velkorysé gesto a touhu stát v čele.",
+  "shadow": "Odvrácenou stranou Antara je prudkost, která neumí couvnout. Tradice hvězdě připisuje zbrklost, tvrdohlavost a sklon ničit to, co se předtím pracně vybudovalo. Úspěch přichází rychle a stejně rychle se hroutí, když spor přeroste v boj za každou cenu. Jupiterova velkorysost se mění v okázalá gesta, Martův žár ve vznětlivost. Nepřátele si snadno vytváříš tam, kde stačilo ustoupit.",
+  "hard": [
+   {
+    "topics": [
+     "violence",
+     "death"
+    ],
+    "text": "Tradice tu mluví o nebezpečí násilí, zranění a v krajních případech násilné smrti, zvlášť když Antares stojí na Slunci, Měsíci, Marsu, ascendentu nebo medium coeli. Starší autoři to čtou jako výstrahu před riskem, spory a zbraněmi, ne jako jistý osud."
+   },
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o nemocech očí, které autoři jako Robson spojují s Antarem hlavně ve spojení se Sluncem nebo Měsícem, a to až po slepotu. Jde o tradiční výrok, ne o diagnózu."
+   },
+   {
+    "topics": [
+     "ruin"
+    ],
+    "text": "Tradice tu mluví o pádu po vzestupu. Královská hvězda dává hodnosti a vliv, u Antara se k nim ale váže riziko náhlé ztráty postavení a sebezničujících rozhodnutí, která vybudované dílo rozvrátí."
+   }
+  ],
+  "traits": {
+   "text": [
+    "courage",
+    "leadership",
+    "generosity",
+    "ambition",
+    "vitality"
+   ],
+   "shadow": [
+    "impulsiveness",
+    "stubbornness",
+    "anger",
+    "aggression",
+    "risk_taking"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "star/rasalhague",
+  "title": "Stálice Ras Alhague",
+  "keywords": [
+   "léčení",
+   "had",
+   "jed a lék",
+   "proměna",
+   "skryté vědění"
+  ],
+  "themes": [
+   "character",
+   "health",
+   "relationships",
+   "growth"
+  ],
+  "text": "Ras Alhague je hlava Hadonoše, nejjasnější hvězda tohoto souhvězdí. Na ekliptice leží kolem 23° Střelce a působí jen v těsné konjunkci do 1° s planetou nebo osou. Hadonoš je Asklépios, lékař, kterému had ukázal léčivou bylinu a který pak dokázal vracet mrtvé k životu. Povaha Saturnu a Venuše spojuje vážnost s přitažlivostí. Máš dar zklidnit a dát dohromady to, co je zraněné. Učíš se pomalu, ale do hloubky. Lidé ti svěřují věci, které jinde neříkají.",
+  "shadow": "Ras Alhague dává moc nad lékem i jedem a stín leží v tom, jak s ní zacházíš. Saturn s Venuší umí ze vztahu udělat pole kontroly. Přitahují tě lidé, kterým chceš pomoct, a pak je těžké je pustit. Láska se mísí s povinností a blízkost s odporem. Před ostatními tajíš, co tě opravdu láká. Vědění, které máš, svádí k pocitu, že pravidla platí jen pro druhé.",
+  "hard": [
+   {
+    "topics": [
+     "death"
+    ],
+    "text": "Tradice tu mluví o Asklépiovi, kterého Zeus zabil bleskem, protože vracel mrtvé k životu. Hvězda se proto čte jako překročení hranice mezi životem a smrtí a jako trest, který za takové překročení přichází."
+   },
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice spojuje Hadonoše s hadím jedem a mluví o nebezpečí otravy a o nemocech, které přicházejí skrze nákazu, léky nebo škodlivé látky. Táž hvězda přitom znamená i léčitelský talent."
+   },
+   {
+    "topics": [
+     "mental_crisis",
+     "loss"
+    ],
+    "text": "Tradice tu mluví o neštěstí, které přichází skrze ženy, o zvráceném vkusu a pokřivené mysli. Starší autoři čtou Ras Alhague jako hvězdu, která umí zatemnit úsudek a vést k zálibám, za něž se pak platí ztrátou."
+   }
+  ],
+  "traits": {
+   "text": [
+    "depth",
+    "transformation",
+    "intuition",
+    "responsibility",
+    "patience"
+   ],
+   "shadow": [
+    "secrecy",
+    "obsession",
+    "dominance",
+    "indulgence"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "star/vega",
+  "title": "Stálice Vega",
+  "keywords": [
+   "harmonie",
+   "hudba",
+   "idealismus",
+   "šarm",
+   "proměnlivost"
+  ],
+  "themes": [
+   "character",
+   "relationships",
+   "work",
+   "growth"
+  ],
+  "text": "Vega v těsné konjunkci s tvou planetou nebo osou leží kolem 15. stupně Kozoroha a dává tomuto bodu tón lyry. Je to nejjasnější hvězda souhvězdí Lyry, nástroje, který Hermés vyrobil z želvího krunýře a na který hrál Orfeus. Arabští astronomové ji nazývali padajícím orlem. Ptolemaios jí přisuzuje povahu Venuše a Merkura, tedy krásu spojenou se slovem, hudbou a důvtipem. Do tvé povahy vnáší smysl pro harmonii, jemnost a schopnost okouzlit tónem i řečí.",
+  "shadow": "Kouzlo Vegy má i falešný tón. Tradice jí připisuje proměnlivost, okázalou vážnost a nárok na víc, než kolik ukazuješ. Objevuje se sklon k ješitnosti a k vzletnosti, která nemá pevné podloží. Starší autoři zmiňují i silnou smyslnost až chlípnost, která tě může vést do vztahů bez dobrého konce. Merkur přidává sklon měnit názory podle publika. Venuše láká k pohodlí a k potřebě obdivu.",
+  "hard": [
+   {
+    "topics": [
+     "loss",
+     "ruin"
+    ],
+    "text": "Tradice tu mluví o nestálém štěstí. Jméno padající orel se vykládá jako vzestup, po kterém může přijít pád z postavení, ztráta pověsti nebo majetku. Zvlášť u konjunkce se Sluncem nebo se středem nebe se tento motiv čte jako varování před pýchou."
+   },
+   {
+    "topics": [
+     "loss",
+     "death",
+     "violence"
+    ],
+    "text": "Tradice tu mluví o ztrátě skrze lásku. Mýtus spojený s Lyrou končí ztrátou Eurydiky a Orfeovou násilnou smrtí rukou bakchantek. U Vegy se z toho čte možnost bolestného rozchodu nebo smutku po blízké osobě, nikoli jistota."
+   }
+  ],
+  "traits": {
+   "text": [
+    "charm",
+    "creativity",
+    "idealism",
+    "eloquence",
+    "sensitivity"
+   ],
+   "shadow": [
+    "inconstancy",
+    "vanity",
+    "sensuality",
+    "pride",
+    "superficiality"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "star/altair",
+  "title": "Stálice Altair",
+  "keywords": [
+   "orel",
+   "smělost",
+   "ctižádost",
+   "velení",
+   "pomíjivý vzestup"
+  ],
+  "themes": [
+   "character",
+   "work",
+   "money"
+  ],
+  "text": "Altair, jasné oko souhvězdí Orla, leží zhruba na 2° Vodnáře. Počítá se jen tehdy, když stojí do jednoho stupně od tvé planety nebo osy. Orel nosil Diovy blesky a unesl Ganyméda na Olymp. Ptolemaios mu dává povahu Marta a Jupitera. Je to odvaha, která chce růst, a ctižádost, která míří vysoko. Tradice tu vidí smělost, neústupnost, štědrost a schopnost velet. Do věcí jdeš přímo a s rozmachem.",
+  "shadow": "Orlí výška Altairu s sebou nese i rychlý pád. Tradice popisuje moc a bohatství, které přicházejí náhle a stejně náhle mizí. Neústupnost se mění v tvrdohlavost a smělost v hazard. Marsovská složka přidává vznětlivost, jupiterská pýchu a sklon přeceňovat vlastní síly. Když jde o vítězství, ústup ti připadá jako ponížení. Štědrost může přerůst v rozmach, který nepočítá s cenou.",
+  "hard": [
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o nebezpečí od plazů. Robson u Altairu uvádí riziko uštknutí a kousnutí jedovatými zvířaty. Jde o starý výrok vázaný na tuto hvězdu, ne o jistotu."
+   },
+   {
+    "topics": [
+     "ruin",
+     "loss"
+    ],
+    "text": "Tradice tu mluví o velkém, ale pomíjivém bohatství a o velitelském postavení, které nevydrží. Vzestup bývá prudký a pád stejně rychlý. Starší autoři to spojují s marsovskou smělostí, která riskuje víc, než unese."
+   }
+  ],
+  "traits": {
+   "text": [
+    "courage",
+    "ambition",
+    "leadership",
+    "generosity",
+    "self_confidence"
+   ],
+   "shadow": [
+    "stubbornness",
+    "pride",
+    "risk_taking",
+    "anger",
+    "extravagance"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "star/deneb_algedi",
+  "title": "Stálice Deneb Algedi",
+  "keywords": [
+   "zákon a úsudek",
+   "spravedlnost",
+   "vzestup a pád",
+   "saturn a jupiter"
+  ],
+  "themes": [
+   "character",
+   "work",
+   "growth"
+  ],
+  "text": "Deneb Algedi leží v ocasu Kozoroha, dnes kolem 23° Vodnáře, a s tvou planetou nebo osou stojí v těsném spojení do jednoho stupně. Mýtus spojuje Kozoroha s Panem, který se před obrem Týfónem vrhl do Nilu a napůl se proměnil v rybu. Ptolemaios hvězdě přisuzuje povahu Saturna a Jupitera. Saturnova přísnost a řád se tu potkávají s Jupiterovou velkorysostí a úsudkem. Tradice ji spojuje s rolí zákonodárce, soudce a rádce.",
+  "shadow": "Ocas Kozoroha nese dvojí znamení a stín leží v jeho rozpolcenosti. Saturnská tíha a jupiterská jistota se snadno spojí v moralizování. Máš sklon soudit druhé podle pravidel, která pro sebe ohýbáš. Autorita pak působí chladně a nepřipouští námitky. Úspěch přichází, ale nemusí vydržet. Pýcha na vlastní úsudek brání vidět chybu včas. Tradice tu mluví o střídání štěstí a smutku a o vzestupu, po kterém přichází pád.",
+  "hard": [
+   {
+    "topics": [
+     "ruin",
+     "loss"
+    ],
+    "text": "Tradice tu mluví o hvězdě, která přináší dobrodiní i zkázu, smutek i štěstí. Vivian Robson ji popisuje právě těmito dvojicemi protikladů. Starší výklad počítá se ztrátou postavení nebo majetku po období úspěchu. Je to možnost, ne jistota."
+   },
+   {
+    "topics": [
+     "death"
+    ],
+    "text": "Tradice tu mluví také o životě a smrti. Robson řadí Deneb Algedi mezi hvězdy, které stojí na prahu obojího. Starší autoři z toho vyvozují možnou souvislost konjunkce s úmrtím v blízkém okolí nebo s vážným ohrožením, zvlášť když horoskop zatěžují další faktory."
+   }
+  ],
+  "traits": {
+   "text": [
+    "order",
+    "justice",
+    "responsibility",
+    "generosity",
+    "discipline"
+   ],
+   "shadow": [
+    "rigidity",
+    "pride",
+    "criticism",
+    "coldness",
+    "melancholy"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "star/fomalhaut",
+  "title": "Stálice Fomalhaut",
+  "keywords": [
+   "vize",
+   "idealismus",
+   "krása slova",
+   "královská hvězda",
+   "strážce jihu"
+  ],
+  "themes": [
+   "character",
+   "work",
+   "growth"
+  ],
+  "text": "Fomalhaut leží v tlamě Jižní ryby, kousek pod souhvězdím Vodnáře. Podle mýtu ryba pije vodu, kterou Vodnář lije ze džbánu. Peršané ho řadili mezi čtyři královské hvězdy jako strážce jihu. Ptolemaios mu dává povahu Venuše a Merkura, tedy cit pro krásu, jazyk a obraz. Planeta nebo osa v jeho blízkosti dostává dar vize a schopnost převést sen do slov, hudby nebo tvaru.",
+  "shadow": "Vize, kterou Fomalhaut dává, se snadno odtrhne od skutečnosti. Ideál, který v sobě nosíš, může přerůst v sebeklam nebo v roli hranou pro publikum. Merkurovská výřečnost umí přesvědčit i tehdy, když motivy nejsou čisté. Když dar krásy začne sloužit hlavně vlastnímu prospěchu, přichází zklamání. Do snění navíc snadno utíkáš i tam, kde je potřeba jednat.",
+  "hard": [
+   {
+    "topics": [
+     "ruin",
+     "loss"
+    ],
+    "text": "Tradice tu mluví o slávě a vlivu, které přicházejí rychle a stejně rychle mohou padnout. Robson píše, že Fomalhaut dává štěstí a nesmrtelné jméno, při špatném postavení je však neblahý. Výklady to spojují s pádem z výšky, ztrátou dobrého jména a zánikem vybudovaného, zvlášť když dar slouží nečistým cílům."
+   }
+  ],
+  "traits": {
+   "text": [
+    "idealism",
+    "creativity",
+    "eloquence",
+    "spirituality",
+    "charm"
+   ],
+   "shadow": [
+    "escapism",
+    "deceit",
+    "vanity",
+    "drama"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "star/achernar",
+  "title": "Stálice Achernar",
+  "keywords": [
+   "ústí řeky",
+   "jupiterská přízeň",
+   "veřejné postavení",
+   "víra",
+   "zlom"
+  ],
+  "themes": [
+   "character",
+   "work",
+   "growth"
+  ],
+  "text": "Achernar stojí v tvém horoskopu do jednoho stupně na planetě nebo ose. Je to nejjasnější hvězda souhvězdí Eridanus. Leží na samém ústí nebeské řeky, nízko nad jižním obzorem. Ptolemaios jí dává povahu Jupitera. Dotčená planeta nebo osa tak dostává šíři, důvěru a víru ve smysl věcí. Máš v tomhle bodě sklon k velkorysosti, k nadhledu a k tomu, abys pomáhal dalším lidem dál.",
+  "shadow": "Jupiterská šíře Achernaru na tomhle bodě snadno přeroste v přílišnou důvěru ve vlastní poslání. Tradice tu mluví o úspěchu ve veřejném úřadu a o prospěchu z víry či náboženství. S tím přichází pokušení brát přízeň jako samozřejmost. Máš sklon slibovat víc, než uneseš, a přeceňovat dobré úmysly. Víra se mění v kázání, štědrost v rozhazování. Ústí řeky je i konec cesty: věci, které vedeš, někdy dovedeš až ke zlomu.",
+  "hard": [
+   {
+    "topics": [
+     "death",
+     "ruin"
+    ],
+    "text": "Pozdější výklady spojují Achernar s mýtem o Faethóntovi. Ten neudržel sluneční vůz a mrtvý se zřítil do Eridanu. Tradice tu mluví o riziku krize a náhlého konce tam, kde ctižádost předběhne síly. Nejde o jistotu. Je to varování před pádem z výšky, kterou člověk neunese."
+   }
+  ],
+  "traits": {
+   "text": [
+    "generosity",
+    "optimism",
+    "spirituality",
+    "leadership"
+   ],
+   "shadow": [
+    "pride",
+    "extravagance",
+    "risk_taking"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "star/markab",
+  "title": "Stálice Markab",
+  "keywords": [
+   "rychlý úsudek",
+   "ostré slovo",
+   "vybojovaná čest",
+   "pád z výšky"
+  ],
+  "themes": [
+   "character",
+   "work",
+   "health"
+  ],
+  "text": "Markab leží kolem 23. stupně Ryb a tvoří roh velkého čtverce Pegasa u kořene jeho křídla. Okřídlený kůň se podle mýtu rodí z krve Medúsy a nese hrdinu Bellerofonta do boje s Chimérou. Ptolemaios hvězdě přisuzuje povahu Marta a Merkura. Dává ostrý úsudek, pohotové slovo a rychlé jednání. Tradice tu mluví o cti, úspěchu a jménu, které si vybojuješ vlastním důvtipem.",
+  "shadow": "Markab nese i Bellerofontovu pýchu: kdo se na Pegasovi vznese příliš vysoko, padá. Tvůj ostrý jazyk zraňuje dřív, než si to uvědomíš, a hádka ti jde snadněji než ústup. Rychlé rozhodnutí přechází v ukvapenost a sebejistota v přecenění vlastních sil. Úspěch získaný bojem se ztrácí stejně prudce, jak přichází.",
+  "hard": [
+   {
+    "topics": [
+     "violence",
+     "death"
+    ],
+    "text": "Tradice tu mluví o nebezpečí řezných a bodných ran a úrazů ostrými předměty nebo ohněm. U nejtěžších postavení, hlavně ve spojení s Marsem nebo s osou, starší autoři zmiňují i násilnou smrt. Jde o tradiční výrok, ne o jistotu."
+   },
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o horečkách a prudkých zánětlivých onemocněních, která odpovídají marsovské povaze hvězdy. Starší texty spojují Markab s horkem v těle a s náhlými zdravotními zvraty."
+   },
+   {
+    "topics": [
+     "ruin",
+     "loss"
+    ],
+    "text": "Tradice tu mluví o pádu z výšky. Čest a bohatství, které hvězda dává, se mohou obrátit ve ztrátu postavení. Bellerofontův příběh končí shozením z Pegasova hřbetu, zmrzačením a osamělým bloudě­ním."
+   }
+  ],
+  "traits": {
+   "text": [
+    "eloquence",
+    "decisiveness",
+    "ambition",
+    "courage"
+   ],
+   "shadow": [
+    "pride",
+    "bluntness",
+    "impulsiveness",
+    "anger"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "star/scheat",
+  "title": "Stálice Scheat",
+  "keywords": [
+   "noha pegasa",
+   "ostrá mysl",
+   "troufalost",
+   "pád",
+   "voda"
+  ],
+  "themes": [
+   "character",
+   "health",
+   "growth"
+  ],
+  "text": "Scheat leží v noze Pegasa, okřídleného koně. V ekliptice sedí kolem 29° Ryb, těsně před hranicí Berana. Počítá se jen tehdy, když se s ní v orbu 1° spojí planeta nebo osa tvého horoskopu. Pegas vyskočil z krve Medúzy a kopytem otevřel pramen Múz. Povaha Marsu a Merkuru dává ostrou mysl, rychlý úsudek a odvahu říkat nepohodlné myšlenky nahlas. Máš sklon myslet vlastní hlavou.",
+  "shadow": "Noha Pegasa je místo, kde let končí pádem. Bellerofontés z koně spadl, když chtěl dosáhnout Olympu. Martovsko-merkurská mysl u tebe snadno přechází v ostrá slova, unáhlené závěry a zbytečné spory. Máš sklon přeceňovat vlastní úsudek a podceňovat rizika. Neklid tě žene do plánů, které nemají pevnou půdu. Když věci nejdou podle představ, přichází vznětlivost nebo pýcha, která nedovolí ustoupit.",
+  "hard": [
+   {
+    "topics": [
+     "death",
+     "violence"
+    ],
+    "text": "Tradice tu mluví o krajní smůle, násilné smrti a vraždě. Starší autoři řadí Scheat mezi nejnešťastnější stálice, zvlášť ve spojení s Marsem, Sluncem nebo Měsícem. Bere se to jako varovný znak, ne jako jistý osud."
+   },
+   {
+    "topics": [
+     "death",
+     "mental_crisis"
+    ],
+    "text": "Tradice tu mluví také o sebevraždě a o smrti utonutím. Scheat se pojí s vodou, povodněmi a ztroskotáním lodí. Mars a Merkur tu podle starých textů přinášejí ukvapené činy v chvílích tísně."
+   },
+   {
+    "topics": [
+     "ruin",
+     "loss"
+    ],
+    "text": "Tradice tu mluví o uvěznění, ztrátě postavení a náhlém pádu, podobném Bellerofontovu. Podle starých výkladů se takový pád často váže k vlastní troufalosti."
+   }
+  ],
+  "traits": {
+   "text": [
+    "curiosity",
+    "originality",
+    "courage",
+    "eloquence"
+   ],
+   "shadow": [
+    "impulsiveness",
+    "anger",
+    "restlessness",
+    "risk_taking",
+    "pride"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ }
+]
