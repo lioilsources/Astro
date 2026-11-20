@@ -435,5 +435,93 @@
   "placeholders": {
    "star": {}
   }
+ },
+ "synastryTitle": "Partnerský horoskop",
+ "synastryIntro": "Srovnání dvou uložených profilů: aspekty mezi planetami, planety jedné osoby v domech druhé.",
+ "synastryFirst": "První osoba",
+ "synastrySecond": "Druhá osoba",
+ "synastryRelationship": "Typ vztahu",
+ "relationshipName": "{type, select, partner{Partneři} parentChild{Rodič a dítě} siblings{Sourozenci} friends{Přátelé} colleagues{Kolegové} other{?}}",
+ "@relationshipName": {
+  "placeholders": {
+   "type": {}
+  }
+ },
+ "synastryCompare": "Porovnat",
+ "synastryNeedTwo": "Pro srovnání potřebuješ aspoň dva uložené profily.",
+ "synastrySamePerson": "Vyber dvě různé osoby.",
+ "tabWheel": "Kolo",
+ "synastryWheelLegend": "Vnitřní kruh: {first} · vnější kruh: {second}",
+ "@synastryWheelLegend": {
+  "placeholders": {
+   "first": {},
+   "second": {}
+  }
+ },
+ "synastryAspects": "Aspekty mezi vámi",
+ "synastryNoAspects": "Mezi horoskopy není žádný aspekt v orbech.",
+ "synastryHousesOf": "Planety: {owner} · domy: {host}",
+ "@synastryHousesOf": {
+  "placeholders": {
+   "owner": {},
+   "host": {}
+  }
+ },
+ "synastryNoHouses": "{name}: bez času narození nejsou domy ani osy.",
+ "@synastryNoHouses": {
+  "placeholders": {
+   "name": {}
+  }
+ },
+ "synastryPointOf": "{point} ({name})",
+ "@synastryPointOf": {
+  "placeholders": {
+   "point": {},
+   "name": {}
+  }
+ },
+ "synastryPartnerTitle": "Partnerský dovětek",
+ "sectionSynastryAspects": "Aspekty mezi planetami",
+ "sectionSynastryPoints": "Planety na osách druhého",
+ "sectionSynastryHouses": "Planety v domech druhého",
+ "twinsTitle": "Horoskopy jsou skoro stejné",
+ "twinsBody": "Všechny planety leží do 1° od sebe (nejvíc {diff}), takže místo deseti konjunkcí ukazujeme jen to, co se liší. Narození dělí {minutes} min.",
+ "@twinsBody": {
+  "placeholders": {
+   "diff": {},
+   "minutes": {}
+  }
+ },
+ "twinsAxes": "Ascendent se liší o {asc}, MC o {mc}.",
+ "@twinsAxes": {
+  "placeholders": {
+   "asc": {},
+   "mc": {}
+  }
+ },
+ "twinsCusps": "Hroty domů se liší o {min} až {max}.",
+ "@twinsCusps": {
+  "placeholders": {
+   "min": {},
+   "max": {}
+  }
+ },
+ "twinsNoTime": "Bez času narození nejde říct, jak se liší osy a domy.",
+ "twinsHouseChange": "{planet}: {from}. dům → {to}. dům",
+ "@twinsHouseChange": {
+  "placeholders": {
+   "planet": {},
+   "from": {},
+   "to": {}
+  }
+ },
+ "twinsNoHouseChange": "Všechny planety zůstávají ve stejných domech.",
+ "twinsGlossary": "Proč jsou dvojčata různá",
+ "synastryPairTitle": "{first} a {second}",
+ "@synastryPairTitle": {
+  "placeholders": {
+   "first": {},
+   "second": {}
+  }
  }
 }
