@@ -12,6 +12,9 @@ class AppSettings {
   final bool tightOrbs;
   final bool trueNode;
 
+  /// Void-of-course Moon from the seven traditional planets only (plan 10.2).
+  final bool vocTraditional;
+
   const AppSettings({
     this.hiddenTopics = const {},
     this.hideShadow = false,
@@ -19,6 +22,7 @@ class AppSettings {
     this.defaultHouseSystem,
     this.tightOrbs = false,
     this.trueNode = false,
+    this.vocTraditional = false,
   });
 
   bool get gentle => hiddenTopics.length == hardTopics.length;
@@ -31,6 +35,7 @@ class AppSettings {
     bool clearDefaultHouseSystem = false,
     bool? tightOrbs,
     bool? trueNode,
+    bool? vocTraditional,
   }) =>
       AppSettings(
         hiddenTopics: hiddenTopics ?? this.hiddenTopics,
@@ -39,6 +44,7 @@ class AppSettings {
         defaultHouseSystem: clearDefaultHouseSystem ? null : (defaultHouseSystem ?? this.defaultHouseSystem),
         tightOrbs: tightOrbs ?? this.tightOrbs,
         trueNode: trueNode ?? this.trueNode,
+        vocTraditional: vocTraditional ?? this.vocTraditional,
       );
 
   ChartOptions chartOptions(HouseSystem? profileSystem) => ChartOptions(
@@ -57,6 +63,7 @@ class AppSettings {
       defaultHouseSystem: hs == null ? null : HouseSystem.values.byName(hs),
       tightOrbs: p.getBool('tightOrbs') ?? false,
       trueNode: p.getBool('trueNode') ?? false,
+      vocTraditional: p.getBool('vocTraditional') ?? false,
     );
   }
 
@@ -72,5 +79,6 @@ class AppSettings {
     }
     await p.setBool('tightOrbs', tightOrbs);
     await p.setBool('trueNode', trueNode);
+    await p.setBool('vocTraditional', vocTraditional);
   }
 }

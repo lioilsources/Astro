@@ -393,6 +393,179 @@ class AppLocalizationsCs extends AppLocalizations {
   String get layerHours => 'Hodiny';
 
   @override
+  String get fieldResidence => 'Místo pobytu';
+
+  @override
+  String get residenceSameAsBirth => 'Stejné jako místo narození';
+
+  @override
+  String get residenceHint =>
+      'Kde teď žiješ. Podle něj se počítají planetární hodiny; poloha telefonu se nepoužívá.';
+
+  @override
+  String get settingsVocTraditional =>
+      'Měsíc bez aspektu: jen tradiční planety (Slunce–Saturn)';
+
+  @override
+  String get moonAndHours => 'Měsíc a planetární hodiny';
+
+  @override
+  String moonInSign(String sign) {
+    String _temp0 = intl.Intl.selectLogic(sign, {
+      'aries': 'Měsíc v Beranu',
+      'taurus': 'Měsíc v Býku',
+      'gemini': 'Měsíc v Blížencích',
+      'cancer': 'Měsíc v Raku',
+      'leo': 'Měsíc ve Lvu',
+      'virgo': 'Měsíc v Panně',
+      'libra': 'Měsíc ve Vahách',
+      'scorpio': 'Měsíc ve Štíru',
+      'sagittarius': 'Měsíc ve Střelci',
+      'capricorn': 'Měsíc v Kozorohu',
+      'aquarius': 'Měsíc ve Vodnáři',
+      'pisces': 'Měsíc v Rybách',
+      'other': 'Měsíc',
+    });
+    return '$_temp0';
+  }
+
+  @override
+  String moonPhaseName(String phase) {
+    String _temp0 = intl.Intl.selectLogic(phase, {
+      'new': 'Nov',
+      'crescent': 'Dorůstající srpek',
+      'first_quarter': 'První čtvrť',
+      'gibbous': 'Dorůstající Měsíc',
+      'full': 'Úplněk',
+      'disseminating': 'Couvající Měsíc',
+      'last_quarter': 'Poslední čtvrť',
+      'balsamic': 'Ubývající srpek',
+      'other': '?',
+    });
+    return '$_temp0';
+  }
+
+  @override
+  String natalMoonPhaseTitle(Object phase) {
+    return 'Narození ve fázi: $phase';
+  }
+
+  @override
+  String lunationName(String kind) {
+    String _temp0 = intl.Intl.selectLogic(kind, {
+      'newMoon': 'Nov',
+      'firstQuarter': 'První čtvrť',
+      'fullMoon': 'Úplněk',
+      'lastQuarter': 'Poslední čtvrť',
+      'other': '?',
+    });
+    return '$_temp0';
+  }
+
+  @override
+  String lunationInHouse(int house, Object lunation) {
+    return '$lunation v $house. domě';
+  }
+
+  @override
+  String eclipseName(String kind) {
+    String _temp0 = intl.Intl.selectLogic(kind, {
+      'solar': 'Zatmění Slunce',
+      'lunar': 'Zatmění Měsíce',
+      'other': 'Zatmění',
+    });
+    return '$_temp0';
+  }
+
+  @override
+  String eclipseDegree(String degree) {
+    String _temp0 = intl.Intl.selectLogic(degree, {
+      'penumbral': 'polostínové',
+      'partial': 'částečné',
+      'annular': 'prstencové',
+      'hybrid': 'hybridní',
+      'total': 'úplné',
+      'other': '',
+    });
+    return '$_temp0';
+  }
+
+  @override
+  String get voidOfCourse => 'Měsíc bez aspektu';
+
+  @override
+  String voidRange(Object from, Object to) {
+    return 'Měsíc bez aspektu $from – $to';
+  }
+
+  @override
+  String voidAfter(Object aspect) {
+    return 'po aspektu $aspect';
+  }
+
+  @override
+  String get voidEnds => 'Konec Měsíce bez aspektu';
+
+  @override
+  String planetGenitive(String body) {
+    String _temp0 = intl.Intl.selectLogic(body, {
+      'sun': 'Slunce',
+      'moon': 'Měsíce',
+      'mercury': 'Merkura',
+      'venus': 'Venuše',
+      'mars': 'Marsu',
+      'jupiter': 'Jupitera',
+      'saturn': 'Saturnu',
+      'other': '?',
+    });
+    return '$_temp0';
+  }
+
+  @override
+  String planetaryDay(Object planet) {
+    return 'Den $planet';
+  }
+
+  @override
+  String planetaryHour(Object planet) {
+    return 'Hodina $planet';
+  }
+
+  @override
+  String planetaryHourNumber(int n, Object part) {
+    return '$n. hodina $part';
+  }
+
+  @override
+  String get partDay => 'dne';
+
+  @override
+  String get partNight => 'noci';
+
+  @override
+  String get planetaryHours => 'Planetární hodiny';
+
+  @override
+  String get sunrise => 'Východ Slunce';
+
+  @override
+  String get sunset => 'Západ Slunce';
+
+  @override
+  String get noPlanetaryHours =>
+      'Slunce tu tento den nevychází nebo nezapadá, planetární hodiny nejsou.';
+
+  @override
+  String moonIngressSign(Object sign) {
+    return 'Měsíc vstupuje do znamení $sign';
+  }
+
+  @override
+  String residenceLabel(Object place) {
+    return 'Místo pobytu: $place';
+  }
+
+  @override
   String get noTransits => 'Žádné tranzity v orbu.';
 
   @override

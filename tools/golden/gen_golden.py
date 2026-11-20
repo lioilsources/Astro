@@ -1,18 +1,22 @@
 """Generate reference vectors for astro_core tests (development only).
 
-Planets: JPL DE440 via skyfield (MIT). Houses, nodes, sidereal time:
+Planets, sunrise/sunset, lunations, lunar eclipses: JPL DE440 via skyfield (MIT). Houses, nodes, sidereal time:
 Swiss Ephemeris via pyswisseph (AGPL) — used only here to produce numbers,
 never linked into the app. Output: packages/astro_core/test/golden/*.json
 and packages/astro_core/lib/src/pluto_table.dart.
 
     .venv/bin/python gen_golden.py
+
+DE440_BSP overrides the path of de440.bsp (default: data/ next to this script).
 """
 import json
 import math
+import os
 import pathlib
 
 import swisseph as swe
-from skyfield.api import load
+from skyfield import almanac, eclipselib
+from skyfield.api import load, wgs84
 from skyfield.framelib import ecliptic_frame, ecliptic_J2000_frame
 
 ROOT = pathlib.Path(__file__).resolve().parents[2]
@@ -20,7 +24,7 @@ OUT = ROOT / "packages/astro_core/test/golden"
 OUT.mkdir(parents=True, exist_ok=True)
 
 ts = load.timescale()
-eph = load(str(pathlib.Path(__file__).parent / "data/de440.bsp"))
+eph = load(os.environ.get("DE440_BSP", str(pathlib.Path(__file__).parent / "data/de440.bsp")))
 earth = eph["earth"]
 BODIES = {
     "sun": "sun", "moon": "moon", "mercury": "mercury", "venus": "venus",
@@ -113,4 +117,44 @@ const List<double> _xyz = [
 ];
 """
 (ROOT / "packages/astro_core/lib/src/pluto_table.dart").write_text(dart)
+
+# R2: sunrise/sunset per local mean solar day (Sun's upper limb, -50').
+PLACES = {
+    "prague": (50.0833, 14.4167), "quito": (-0.22, -78.51), "sydney": (-33.87, 151.21),
+    "tokyo": (35.68, 139.69), "los_angeles": (34.05, -118.24), "reykjavik": (64.15, -21.94),
+    "tromso": (69.65, 18.96), "ushuaia": (-54.8, -68.3),
+}
+sun_rows = []
+d0 = 2458850.5  # 2020-01-01
+for name, (plat, plon) in PLACES.items():
+    obs = earth + wgs84.latlon(plat, plon)
+    for k in range(40):
+        jd0 = d0 + k * 91.37  # spread over ten years and all seasons
+        jd0 = math.floor(jd0 - 0.5) + 0.5
+        t0 = jd0 - plon / 360
+        ta, tb = ts.ut1_jd(t0), ts.ut1_jd(t0 + 1)
+        rise, ry = almanac.find_risings(obs, eph["sun"], ta, tb, horizon_degrees=-50 / 60)
+        sets, sy = almanac.find_settings(obs, eph["sun"], ta, tb, horizon_degrees=-50 / 60)
+        r = [t.ut1 for t, ok in zip(rise, ry) if ok]
+        s_ = [t.ut1 for t, ok in zip(sets, sy) if ok]
+        y, m, d = ts.ut1_jd(jd0 + 0.5).ut1_calendar()[:3]
+        sun_rows.append({"place": name, "lat": plat, "lon": plon, "date": [int(y), int(m), int(d)],
+                         "rise": r[0] if r else None, "set": s_[0] if s_ else None})
+(OUT / "sun.json").write_text(json.dumps(sun_rows, indent=1))
+
+# R2: exact lunations (apparent ecliptic longitude of date, Moon - Sun = k * 90).
+lun_rows = []
+spans = [(2024, 2027)] + [(y, y + 1) for y in range(1700, 2151, 25)]
+for y0, y1 in spans:
+    t, ph = almanac.find_discrete(ts.utc(y0, 1, 1), ts.utc(y1, 1, 1), almanac.moon_phases(eph))
+    for ti, pi in zip(t, ph):
+        lun_rows.append({"jdUt": ti.ut1, "kind": int(pi)})
+(OUT / "lunations.json").write_text(json.dumps(lun_rows, indent=1))
+
+# R2: lunar eclipses (0 penumbral, 1 partial, 2 total), 2000-2030.
+t, y, details = eclipselib.lunar_eclipses(ts.utc(2000, 1, 1), ts.utc(2031, 1, 1), eph)
+ecl = [{"jdUt": ti.ut1, "type": int(yi)} for ti, yi in zip(t, y)]
+(OUT / "lunar_eclipses.json").write_text(json.dumps(ecl, indent=1))
+
+print(f"sun {len(sun_rows)}, lunations {len(lun_rows)}, lunar eclipses {len(ecl)}")
 print(f"planets {len(planets)}, houses {len(houses)}, pluto rows {n}")
