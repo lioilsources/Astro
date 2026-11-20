@@ -109,8 +109,9 @@ void main() {
     await t.scrollUntilVisible(row, 300, scrollable: find.descendant(of: find.byType(TablesTab), matching: find.byType(Scrollable)).first);
     await t.tap(row);
     await t.pumpAndSettle();
-    expect(find.text('Uran na vrcholu T-kvadrátu'), findsOneWidget);
-    expect(find.text('Text pro toto postavení zatím chybí.'), findsWidgets);
+    // The sheet shows the generated pattern text, not the missing-text placeholder.
+    expect(find.byType(BottomSheet), findsOneWidget);
+    expect(find.text('Text pro toto postavení zatím chybí.'), findsNothing);
   });
 
   testWidgets('R5: switch to progressions with life timeline, then solar return with place toggle', (t) async {
@@ -149,6 +150,7 @@ void main() {
     expect(find.textContaining('Místo: Praha'), findsOneWidget);
     await t.tap(find.textContaining('Ascendent soláru: '));
     await t.pumpAndSettle();
-    expect(find.text('Text pro toto postavení zatím chybí.'), findsWidgets);
+    expect(find.byType(BottomSheet), findsOneWidget);
+    expect(find.text('Text pro toto postavení zatím chybí.'), findsNothing);
   });
 }
