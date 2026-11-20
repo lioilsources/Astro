@@ -1,4 +1,5 @@
 import 'package:astro_core/astro_core.dart';
+import 'package:astro_core/content.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
@@ -60,6 +61,7 @@ class _ReadingTabState extends ConsumerState<ReadingTab> {
 
   String _fallback(AppLocalizations l, ReadingItem i) {
     final f = i.factor;
+    if (f.kind == FactorKind.moonPhase) return l.natalMoonPhaseTitle(l.moonPhaseName(f.key.split('/').last));
     if (f.aspect != null) return '${l.point(f.aspect!.a)} ${l.aspect(f.aspect!.type)} ${l.point(f.aspect!.b)}';
     if (f.body != null && f.sign != null) return '${l.body(f.body!)} – ${l.sign(f.sign!)}';
     if (f.body != null && f.house != null) return '${l.body(f.body!)} – ${l.houseN(f.house!)}';

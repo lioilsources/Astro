@@ -28,6 +28,12 @@ const glossaryIds = [
   'node', 'transit', 'natal_chart', 'element', 'modality', 'sign', 'planet', 'twins', 'shadow',
 ];
 
+/// R2 (plan 10.2): Moon and planetary hours.
+const moonPhaseIds = ['new', 'crescent', 'first_quarter', 'gibbous', 'full', 'disseminating', 'last_quarter', 'balsamic'];
+const traditionalPlanetIds = ['sun', 'moon', 'mercury', 'venus', 'mars', 'jupiter', 'saturn'];
+const lunationIds = ['new', 'full'];
+const eclipseIds = ['solar', 'lunar'];
+
 /// Content id of a body (both nodes share the `node` texts).
 String contentIdOf(Body b) => b.isNode ? 'node' : b.name;
 
@@ -72,6 +78,14 @@ Map<String, List<String>> allKeysByFamily() {
       for (final e in elementIds) 'emphasis/element_missing/$e',
     ],
     'glossary': [for (final g in glossaryIds) 'glossary/$g'],
+    'planetary_hour': [for (final p in traditionalPlanetIds) 'planetary_hour/$p'],
+    'planetary_day': [for (final p in traditionalPlanetIds) 'planetary_day/$p'],
+    'moon_phase': [for (final f in moonPhaseIds) 'moon_phase/$f'],
+    'natal_moon_phase': [for (final f in moonPhaseIds) 'natal_moon_phase/$f'],
+    'moon_today': [for (final s in signIds) 'moon_today/$s'],
+    'lunation_in_house': [for (final k in lunationIds) for (final h in houseNumbers) 'lunation_in_house/$k/$h'],
+    'void_of_course': ['void_of_course'],
+    'eclipse': [for (final e in eclipseIds) 'eclipse/$e'],
   };
 }
 
@@ -102,6 +116,17 @@ String familyOf(String key) => key.split('/').first;
       return (min: 50, max: 110);
     case 'glossary':
       return (min: 25, max: 130);
+    case 'planetary_hour':
+    case 'planetary_day':
+    case 'moon_phase':
+    case 'moon_today':
+    case 'lunation_in_house':
+    case 'void_of_course':
+      return (min: 35, max: 90);
+    case 'natal_moon_phase':
+      return (min: 110, max: 200);
+    case 'eclipse':
+      return (min: 50, max: 110);
   }
   return (min: 1, max: 10000);
 }
@@ -120,6 +145,10 @@ bool expectsHard(String key) {
       return (p[3] == 'square' || p[3] == 'opposition' || p[3] == 'conjunction') && malefics.contains(p[1]);
     case 'transit_in_house':
       return p[2] == '8' || p[2] == '12';
+    case 'lunation_in_house':
+      return p[2] == '8' || p[2] == '12';
+    case 'eclipse':
+      return true;
   }
   return false;
 }

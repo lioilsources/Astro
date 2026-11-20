@@ -56,6 +56,11 @@ class SettingsScreen extends ConsumerWidget {
         ),
         SwitchListTile(title: Text(l.settingsOrbs), value: s.tightOrbs, onChanged: (v) => n.change((x) => x.copyWith(tightOrbs: v))),
         SwitchListTile(title: Text(l.settingsNode), value: s.trueNode, onChanged: (v) => n.change((x) => x.copyWith(trueNode: v))),
+        SwitchListTile(
+          title: Text(l.settingsVocTraditional),
+          value: s.vocTraditional,
+          onChanged: (v) => n.change((x) => x.copyWith(vocTraditional: v)),
+        ),
         const Divider(),
         ListTile(
           title: Text(l.settingsAbout),

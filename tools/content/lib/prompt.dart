@@ -80,9 +80,61 @@ class PromptBuilder {
         return (title: 'Modifikátor tranzitu: ${p[1]}', facts: 'Krátká vložená věta o fázi tranzitu: ${p[1]}');
       case 'glossary':
         return (title: 'Heslo slovníčku: ${p[1]}', facts: 'Vysvětli astrologický pojem ${p[1]} pro laika.');
+      // R2 (plan 10.2): Moon and planetary hours.
+      case 'planetary_hour':
+        return (
+          title: 'Hodina planety ${pn(p[1])}',
+          facts: 'Planetární hodina (dvanáctina dne nebo noci, tradice podle chaldejského pořadí), které vládne: ${_planet(p[1])}\n'
+              'Krátký text o tom, k čemu se taková hodina podle tradice hodí a čemu se vyhnout.'
+        );
+      case 'planetary_day':
+        return (
+          title: 'Den planety ${pn(p[1])}',
+          facts: 'Planetární den (od východu do východu Slunce, vládce dne v týdnu): ${_planet(p[1])}\nRáz celého dne.'
+        );
+      case 'moon_phase':
+        return (title: 'Fáze Měsíce: ${_phaseCz[p[1]]}', facts: 'Dnešní fáze Měsíce. ${_phaseCz[p[1]]}: ${_phaseCore[p[1]]}. Ráz dnů v této fázi.');
+      case 'natal_moon_phase':
+        return (
+          title: 'Narození ve fázi: ${_phaseCz[p[1]]}',
+          facts: 'Fáze Měsíce při narození (osm typů lunačního cyklu). ${_phaseCz[p[1]]}: ${_phaseCore[p[1]]}. Povaha člověka narozeného v této fázi.'
+        );
+      case 'moon_today':
+        return (title: 'Měsíc dnes ${_s(p[1])['in']}', facts: 'Tranzitující Měsíc (nálada dne, 2–3 dny): ${_planet('moon')}\n${_sign(p[1])}');
+      case 'lunation_in_house':
+        final what = p[1] == 'new' ? 'Nov (začátek, setba)' : 'Úplněk (vrchol, sklizeň, napětí protikladů)';
+        return (title: '${p[1] == 'new' ? 'Nov' : 'Úplněk'} v ${p[2]}. domě', facts: 'Lunace v natálním domě: $what.\n${_house(p[2])}');
+      case 'void_of_course':
+        return (
+          title: 'Měsíc bez aspektu',
+          facts: 'Měsíc bez kurzu: od posledního hlavního aspektu ve znamení do vstupu do dalšího znamení. Tradice radí nic nového nezačínat.'
+        );
+      case 'eclipse':
+        final solar = p[1] == 'solar';
+        return (
+          title: solar ? 'Zatmění Slunce' : 'Zatmění Měsíce',
+          facts: solar
+              ? 'Zatmění Slunce: nov blízko lunárního uzlu, silný začátek, zakrytí vědomé vůle.'
+              : 'Zatmění Měsíce: úplněk blízko lunárního uzlu, vyvrcholení, zakrytí citu a minulosti.'
+        );
     }
     throw ArgumentError(key);
   }
+
+  static const _phaseCz = {
+    'new': 'nov', 'crescent': 'dorůstající srpek', 'first_quarter': 'první čtvrť', 'gibbous': 'dorůstající Měsíc před úplňkem',
+    'full': 'úplněk', 'disseminating': 'couvající Měsíc po úplňku', 'last_quarter': 'poslední čtvrť', 'balsamic': 'ubývající srpek před novem',
+  };
+  static const _phaseCore = {
+    'new': 'impuls, začátek, jednání bez odstupu',
+    'crescent': 'prosazení nového proti setrvačnosti starého',
+    'first_quarter': 'krize jednání, rozhodnutí, stavba',
+    'gibbous': 'zdokonalování, rozbor, příprava na vrchol',
+    'full': 'vyvrcholení, uvědomění, vztah a protiklad',
+    'disseminating': 'předávání, šíření toho, co se ukázalo',
+    'last_quarter': 'krize přesvědčení, přehodnocení, odklon',
+    'balsamic': 'dozrání, uzavírání, odevzdání, semeno budoucího',
+  };
 
   String _elementCz(String e) => {'fire': 'oheň', 'earth': 'země', 'air': 'vzduch', 'water': 'voda'}[e] ?? e;
 

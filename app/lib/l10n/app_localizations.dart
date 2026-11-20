@@ -604,6 +604,174 @@ abstract class AppLocalizations {
   /// **'Hodiny'**
   String get layerHours;
 
+  /// No description provided for @fieldResidence.
+  ///
+  /// In cs, this message translates to:
+  /// **'Místo pobytu'**
+  String get fieldResidence;
+
+  /// No description provided for @residenceSameAsBirth.
+  ///
+  /// In cs, this message translates to:
+  /// **'Stejné jako místo narození'**
+  String get residenceSameAsBirth;
+
+  /// No description provided for @residenceHint.
+  ///
+  /// In cs, this message translates to:
+  /// **'Kde teď žiješ. Podle něj se počítají planetární hodiny; poloha telefonu se nepoužívá.'**
+  String get residenceHint;
+
+  /// No description provided for @settingsVocTraditional.
+  ///
+  /// In cs, this message translates to:
+  /// **'Měsíc bez aspektu: jen tradiční planety (Slunce–Saturn)'**
+  String get settingsVocTraditional;
+
+  /// No description provided for @moonAndHours.
+  ///
+  /// In cs, this message translates to:
+  /// **'Měsíc a planetární hodiny'**
+  String get moonAndHours;
+
+  /// No description provided for @moonInSign.
+  ///
+  /// In cs, this message translates to:
+  /// **'{sign, select, aries{Měsíc v Beranu} taurus{Měsíc v Býku} gemini{Měsíc v Blížencích} cancer{Měsíc v Raku} leo{Měsíc ve Lvu} virgo{Měsíc v Panně} libra{Měsíc ve Vahách} scorpio{Měsíc ve Štíru} sagittarius{Měsíc ve Střelci} capricorn{Měsíc v Kozorohu} aquarius{Měsíc ve Vodnáři} pisces{Měsíc v Rybách} other{Měsíc}}'**
+  String moonInSign(String sign);
+
+  /// No description provided for @moonPhaseName.
+  ///
+  /// In cs, this message translates to:
+  /// **'{phase, select, new{Nov} crescent{Dorůstající srpek} first_quarter{První čtvrť} gibbous{Dorůstající Měsíc} full{Úplněk} disseminating{Couvající Měsíc} last_quarter{Poslední čtvrť} balsamic{Ubývající srpek} other{?}}'**
+  String moonPhaseName(String phase);
+
+  /// No description provided for @natalMoonPhaseTitle.
+  ///
+  /// In cs, this message translates to:
+  /// **'Narození ve fázi: {phase}'**
+  String natalMoonPhaseTitle(Object phase);
+
+  /// No description provided for @lunationName.
+  ///
+  /// In cs, this message translates to:
+  /// **'{kind, select, newMoon{Nov} firstQuarter{První čtvrť} fullMoon{Úplněk} lastQuarter{Poslední čtvrť} other{?}}'**
+  String lunationName(String kind);
+
+  /// No description provided for @lunationInHouse.
+  ///
+  /// In cs, this message translates to:
+  /// **'{lunation} v {house}. domě'**
+  String lunationInHouse(int house, Object lunation);
+
+  /// No description provided for @eclipseName.
+  ///
+  /// In cs, this message translates to:
+  /// **'{kind, select, solar{Zatmění Slunce} lunar{Zatmění Měsíce} other{Zatmění}}'**
+  String eclipseName(String kind);
+
+  /// No description provided for @eclipseDegree.
+  ///
+  /// In cs, this message translates to:
+  /// **'{degree, select, penumbral{polostínové} partial{částečné} annular{prstencové} hybrid{hybridní} total{úplné} other{}}'**
+  String eclipseDegree(String degree);
+
+  /// No description provided for @voidOfCourse.
+  ///
+  /// In cs, this message translates to:
+  /// **'Měsíc bez aspektu'**
+  String get voidOfCourse;
+
+  /// No description provided for @voidRange.
+  ///
+  /// In cs, this message translates to:
+  /// **'Měsíc bez aspektu {from} – {to}'**
+  String voidRange(Object from, Object to);
+
+  /// No description provided for @voidAfter.
+  ///
+  /// In cs, this message translates to:
+  /// **'po aspektu {aspect}'**
+  String voidAfter(Object aspect);
+
+  /// No description provided for @voidEnds.
+  ///
+  /// In cs, this message translates to:
+  /// **'Konec Měsíce bez aspektu'**
+  String get voidEnds;
+
+  /// No description provided for @planetGenitive.
+  ///
+  /// In cs, this message translates to:
+  /// **'{body, select, sun{Slunce} moon{Měsíce} mercury{Merkura} venus{Venuše} mars{Marsu} jupiter{Jupitera} saturn{Saturnu} other{?}}'**
+  String planetGenitive(String body);
+
+  /// No description provided for @planetaryDay.
+  ///
+  /// In cs, this message translates to:
+  /// **'Den {planet}'**
+  String planetaryDay(Object planet);
+
+  /// No description provided for @planetaryHour.
+  ///
+  /// In cs, this message translates to:
+  /// **'Hodina {planet}'**
+  String planetaryHour(Object planet);
+
+  /// No description provided for @planetaryHourNumber.
+  ///
+  /// In cs, this message translates to:
+  /// **'{n}. hodina {part}'**
+  String planetaryHourNumber(int n, Object part);
+
+  /// No description provided for @partDay.
+  ///
+  /// In cs, this message translates to:
+  /// **'dne'**
+  String get partDay;
+
+  /// No description provided for @partNight.
+  ///
+  /// In cs, this message translates to:
+  /// **'noci'**
+  String get partNight;
+
+  /// No description provided for @planetaryHours.
+  ///
+  /// In cs, this message translates to:
+  /// **'Planetární hodiny'**
+  String get planetaryHours;
+
+  /// No description provided for @sunrise.
+  ///
+  /// In cs, this message translates to:
+  /// **'Východ Slunce'**
+  String get sunrise;
+
+  /// No description provided for @sunset.
+  ///
+  /// In cs, this message translates to:
+  /// **'Západ Slunce'**
+  String get sunset;
+
+  /// No description provided for @noPlanetaryHours.
+  ///
+  /// In cs, this message translates to:
+  /// **'Slunce tu tento den nevychází nebo nezapadá, planetární hodiny nejsou.'**
+  String get noPlanetaryHours;
+
+  /// No description provided for @moonIngressSign.
+  ///
+  /// In cs, this message translates to:
+  /// **'Měsíc vstupuje do znamení {sign}'**
+  String moonIngressSign(Object sign);
+
+  /// No description provided for @residenceLabel.
+  ///
+  /// In cs, this message translates to:
+  /// **'Místo pobytu: {place}'**
+  String residenceLabel(Object place);
+
   /// No description provided for @noTransits.
   ///
   /// In cs, this message translates to:

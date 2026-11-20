@@ -1,10 +1,11 @@
 import '../aspects.dart';
 import '../chart.dart';
 import '../model.dart';
+import '../moon.dart';
 import '../transits.dart';
 import 'keys.dart';
 
-enum FactorKind { planetInSign, planetInHouse, aspect, aspectPoint, signOnCusp, emphasis }
+enum FactorKind { planetInSign, planetInHouse, aspect, aspectPoint, signOnCusp, emphasis, moonPhase }
 
 /// One interpretable fact of a chart with the key of its text.
 class Factor {
@@ -72,6 +73,8 @@ List<Factor> factorsOf(Chart c) {
     }
   }
   out.addAll(emphasisOf(c));
+  final phase = natalMoonPhase(c);
+  if (phase != null) out.add(Factor(natalMoonPhaseKey(phase), FactorKind.moonPhase, 0.6));
   return out;
 }
 
@@ -108,3 +111,19 @@ String transitKey(TransitEvent e) => e.target.isAngle
     : 'transit/${e.transiting.name}/${e.target.body!.name}/${e.type.name}';
 
 String transitInHouseKey(Body b, int house) => 'transit_in_house/${b.name}/$house';
+
+// R2 (plan 10.2): Moon and planetary hours.
+String planetaryHourKey(Body ruler) => 'planetary_hour/${ruler.name}';
+String planetaryDayKey(Body ruler) => 'planetary_day/${ruler.name}';
+String moonPhaseKey(MoonPhase p) => 'moon_phase/${p.id}';
+String natalMoonPhaseKey(MoonPhase p) => 'natal_moon_phase/${p.id}';
+String moonTodayKey(Sign s) => 'moon_today/${s.name}';
+const voidOfCourseKey = 'void_of_course';
+String eclipseKey(EclipseKind k) => 'eclipse/${k.name}';
+
+/// Key of a new or full moon in a natal house; null for quarters.
+String? lunationInHouseKey(LunationKind kind, int house) => switch (kind) {
+      LunationKind.newMoon => 'lunation_in_house/new/$house',
+      LunationKind.fullMoon => 'lunation_in_house/full/$house',
+      _ => null,
+    };

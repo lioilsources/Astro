@@ -55,6 +55,38 @@ Za polárním kruhem (|φ| ≥ 90° − ε) Placidus a Koch nejsou definované
 počítá s prohozeným MC a IC; tady MC zůstává nahoře. Výchozí systém je tam
 Porphyry, viz `defaultHouseSystem`.
 
+## Slunce a Měsíc (R2)
+
+- **Východ a západ Slunce** (`SunRiseSet`): horní okraj Slunce na obzoru,
+  tj. střed 50′ pod geometrickým obzorem (refrakce 34′ + poloměr 16′), stejně
+  jako almanachy a skyfield. Poloha Slunce `astronomia` (Meeus kap. 25, zdánlivá),
+  hvězdný čas `astronomia`. Vzorkuje se po 5 min, průchod se půlí pod 0,1 s.
+  „Den“ místa je místní střední sluneční den: od `0 h UT − délka/360`.
+- **Planetární hodiny** (`PlanetaryHours`): den od východu do západu a noc od
+  západu do dalšího východu, každý na 12 stejných dílů. První hodině dne vládne
+  vládce dne v týdnu (ne Slunce, Po Měsíc, Út Mars, St Merkur, Čt Jupiter,
+  Pá Venuše, So Saturn), další jdou v chaldejském pořadí Saturn, Jupiter, Mars,
+  Slunce, Venuše, Merkur, Měsíc. Před východem Slunce běží noc předchozího dne.
+  Když Slunce ten den nevyjde nebo nezapadne (polární den a noc), vrací `null`.
+  Počítá se pro **místo pobytu** z profilu (`GeoLocation`, výchozí místo narození).
+- **Fáze Měsíce** (`MoonPhase`): osm 45° výsečí elongace Měsíc − Slunce, každá
+  začíná svým bodem (lunační cyklus D. Rudhyara): nov 0°–45°, srpek, první čtvrť
+  90°–135°, dorůstající, úplněk 180°–225°, couvající, poslední čtvrť, ubývající
+  srpek 315°–360°. Stejně se počítá fáze při narození (`natalMoonPhase`).
+- **Lunace** (`Lunar.lunations`): elongace po 1 dni, okamžik nov/čtvrť/úplněk
+  půlením na ~0,1 s (polohy VSOP87 a Meeus z `Ephemeris`). Bod lunace je délka
+  Měsíce; dům lunace (`lunationHouse`) je natální dům té délky.
+- **Zatmění** (`Eclipse`): jen příznak u novu a úplňku podle Meeuse kap. 54
+  (`astronomia` `eclipse.solar` a `eclipse.lunar`): druh (sluneční, měsíční)
+  a stupeň (polostínové, částečné, prstencové, hybridní, úplné), bez místní
+  viditelnosti.
+- **Měsíc bez aspektu** (`Lunar.voidOfCourse`): od posledního přesného hlavního
+  aspektu (konjunkce, sextil, kvadrát, trigon, opozice) Měsíce k planetě, dokud je
+  Měsíc ve znamení, do jeho vstupu do dalšího znamení. Výchozí planety Slunce–Pluto,
+  přepínač `traditionalOnly` (v appce v nastavení) bere jen Slunce–Saturn. Když
+  Měsíc ve znamení žádný aspekt nedokoná, je bez aspektu od vstupu do znamení.
+  Stopy: Měsíc po 1 h, planety po 12 h, kubická interpolace, půlení na ~0,2 s.
+
 ## Ověření
 
 `tools/golden/gen_golden.py` (skyfield + DE440, pyswisseph) zapíše
@@ -66,6 +98,9 @@ Porphyry, viz `defaultHouseSystem`.
 | střední a pravý uzel | Swiss Ephemeris | 1′ |
 | hvězdný čas, sklon ekliptiky | Swiss Ephemeris | 3″, 1″ |
 | 9 systémů domů, 8 šířek × 7 RAMC | Swiss Ephemeris | 1′ |
+| východ a západ Slunce, 8 míst (0°–70°) × 40 dní 2020–2030 | skyfield + DE440 | 30 s, nad 60° šířky 1 min; naměřeno nejvýš 4 s, nad 60° 6 s; polární dny a noci souhlasí |
+| nov, čtvrti, úplněk: 2024–2026 + rok každých 25 let 1700–2150 (1086 lunací) | skyfield + DE440 | 60 s v letech 1800–2030 (naměřeno 20 s), jinak 5 min (naměřeno 3,2 min, rozdíl modelů ΔT) |
+| zatmění Měsíce 2000–2030 (71) | skyfield `eclipselib` | stejný druh, maximum do 10 min; Meeus nezná jen okrajové polostínové zatmění 18. 7. 2027 |
 
 Proti Astromatu (1. 1. 2000 12:00 UT, Praha): planety do 1,6′, domy do 0,6′,
 Pluto 4,5′. DE440 ukázalo, že se mýlí Astromat, ne tento engine.

@@ -33,6 +33,7 @@ List<ReadingSection> bySections(List<ReadingItem> items) {
     FactorKind.aspectPoint: 'aspects',
     FactorKind.signOnCusp: 'cusps',
     FactorKind.emphasis: 'emphasis',
+    FactorKind.moonPhase: 'emphasis',
   };
   final out = <String, List<ReadingItem>>{};
   for (final i in items) {

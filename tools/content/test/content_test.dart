@@ -19,6 +19,12 @@ void main() {
     expect(k['transit_point']!.length, 60);
     expect(k['transit_in_house']!.length, 120);
     expect(k['emphasis']!.length, 32);
+    // R2 (plan 10.2)
+    expect(k['planetary_hour']!.length + k['planetary_day']!.length, 14);
+    expect(k['moon_phase']!.length + k['natal_moon_phase']!.length, 16);
+    expect(k['moon_today']!.length, 12);
+    expect(k['lunation_in_house']!.length, 24);
+    expect(k['void_of_course']!.length + k['eclipse']!.length, 3);
   });
 
   test('committed content has no errors', () {
