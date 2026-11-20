@@ -171,7 +171,10 @@ class _ElectionScreenState extends ConsumerState<ElectionScreen> {
       hours: from == 0 && to == 24 ? null : {for (var h = from; h < to; h++) h},
       weekdays: _weekdays.length == 7 ? null : {..._weekdays},
     );
-    setState(() => _result = searchElection(q, book));
+    final result = searchElection(q, book);
+    setState(() {
+      _result = result;
+    });
   }
 }
 
