@@ -106,7 +106,11 @@ void main() {
       final chart = Chart.compute(profile.birth);
       await t.pumpWidget(app(JournalScreen(profile, chart), store));
       await t.pumpAndSettle();
-      await t.runAsync(() => Future<void>.delayed(const Duration(seconds: 2)));
+      // The catalog (with its dated events) loads and the report runs in an isolate: wait for it.
+      for (var i = 0; i < 120 && find.text('Počítám…').evaluate().isNotEmpty; i++) {
+        await t.runAsync(() => Future<void>.delayed(const Duration(milliseconds: 500)));
+        await t.pump();
+      }
       await t.pumpAndSettle();
       expect(find.text('Zatím málo dat: 0 z 60 ohodnocených dní.'), findsOneWidget);
       await t.tap(find.text('Ohodnotit dnešek'));
