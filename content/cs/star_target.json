@@ -1,0 +1,670 @@
+[
+ {
+  "key": "star_target/sun",
+  "title": "Stálice u bodu Slunce",
+  "keywords": [
+   "vůle",
+   "vitalita",
+   "otec",
+   "sebevyjádření",
+   "viditelnost"
+  ],
+  "themes": [
+   "character",
+   "family",
+   "health",
+   "growth"
+  ],
+  "text": "Stálice na tvém Slunci se vpisuje přímo do tvého vědomého já, vůle a životní síly. Barví tvé sebevyjádření a tvořivost, vztah k otci i to, jak tě vidí okolí.",
+  "hard": [
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o tom, že hvězda na Slunci se dotýká srdce, zraku a celkové vitality. U hvězd prudké nebo mlhavé povahy uvádějí staré texty oslabení zraku, horečnaté stavy a potíže se srdcem. Jde o tradiční obraz, ne o jistou předpověď."
+   },
+   {
+    "topics": [
+     "loss",
+     "death"
+    ],
+    "text": "Tradice tu mluví o otci. Těžká stálice na Slunci podle starých autorů oslabuje jeho zdraví, odvádí ho z tvého života nebo předznamenává jeho brzkou smrt. Někdy se tento obraz čte i jako chybějící mužský vzor v dětství."
+   },
+   {
+    "topics": [
+     "ruin",
+     "violence",
+     "death"
+    ],
+    "text": "Tradice tu mluví o vzestupu a pádu. Stálice na Slunci podle starých textů přináší čest a viditelnost, u některých hvězd však s výstrahou: náhlou ztrátu postavení, veřejné ponížení nebo zkázu po období slávy. U nejtěžších hvězd, jako je Algol, zmiňuje tradice i nebezpečí násilí a předčasné smrti."
+   }
+  ],
+  "traits": {
+   "text": [
+    "self_confidence",
+    "vitality",
+    "creativity",
+    "leadership",
+    "ambition"
+   ],
+   "shadow": [
+    "pride",
+    "vanity",
+    "dominance",
+    "selfishness",
+    "drama"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "star_target/moon",
+  "title": "Stálice u bodu Měsíc",
+  "keywords": [
+   "city",
+   "domov",
+   "matka",
+   "tělo",
+   "bezpečí"
+  ],
+  "themes": [
+   "family",
+   "health",
+   "character"
+  ],
+  "text": "Stálice na tvém Měsíci zasahuje do citů, domova a vztahu k matce. Její vliv se projevuje v tělesné pohodě, ve zvycích a v tom, kde hledáš pocit bezpečí.",
+  "hard": [
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o citlivém žaludku a trávení a o potížích s plodností. Podle starých autorů stálice na Měsíci působí na tělo skrze city. Napětí a starosti se tak mohou ukládat do břicha. Jde o tradiční obraz, ne o předpověď."
+   },
+   {
+    "topics": [
+     "mental_crisis"
+    ],
+    "text": "Tradice tu mluví o kolísání duševní rovnováhy. Staré texty spojují stálici na Měsíci s obdobími silné citové rozkolísanosti, úzkosti nebo sklíčenosti. V takových chvílích se nálady obtížně drží v mezích. Ber to jako tradiční výklad, ne jako jistotu."
+   },
+   {
+    "topics": [
+     "loss",
+     "death"
+    ],
+    "text": "Tradice tu mluví o ztrátě matky, předčasné nebo bolestné, a o rozpadu domova. Někdy jde o úmrtí, jindy o odloučení nebo citovou vzdálenost mezi tebou a matkou. Staří autoři tento motiv u Měsíce se stálicí uvádějí často, nejde však o jistotu."
+   }
+  ],
+  "traits": {
+   "text": [
+    "sensitivity",
+    "security_need",
+    "family_attachment",
+    "intuition"
+   ],
+   "shadow": [
+    "moodiness",
+    "dependence",
+    "anxiety"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "star_target/mercury",
+  "title": "Stálice u bodu Merkur",
+  "keywords": [
+   "myšlení",
+   "řeč",
+   "učení",
+   "obchod",
+   "sourozenci"
+  ],
+  "themes": [
+   "character",
+   "work",
+   "family",
+   "health"
+  ],
+  "text": "Stálice na tvém Merkuru zesiluje myšlení, řeč a učení a dává jim výrazný, nezaměnitelný ráz. Zasahuje také do obchodu, krátkých cest a vztahů se sourozenci.",
+  "hard": [
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o tom, že stálice na Merkuru může zatěžovat nervy, plíce a řečové ústrojí. Starší autoři zmiňují vady řeči, zadrhávání, potíže s dechem a nervové vyčerpání. Jde o tradiční motiv, ne o jistotu ani diagnózu."
+   },
+   {
+    "topics": [
+     "mental_crisis"
+    ],
+    "text": "Tradice tu mluví také o neklidné mysli, která se těžko zastaví. U nepříznivé hvězdy uvádí úzkostné stavy, nespavost z přemíry myšlenek a v krajních případech duševní rozrušení. Staré texty k tomu přidávají pomluvy a nepříjemnosti kvůli vyslovenému nebo napsanému slovu."
+   }
+  ],
+  "traits": {
+   "text": [
+    "curiosity",
+    "eloquence",
+    "rationality",
+    "flexibility"
+   ],
+   "shadow": [
+    "restlessness",
+    "anxiety",
+    "superficiality",
+    "deceit"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "star_target/venus",
+  "title": "Stálice u bodu Venuše",
+  "keywords": [
+   "láska",
+   "vkus",
+   "krása",
+   "hodnoty",
+   "potěšení"
+  ],
+  "themes": [
+   "relationships",
+   "money",
+   "character",
+   "health"
+  ],
+  "text": "Stálice na tvé Venuši zesiluje lásku, vkus a vztah k penězům. Zasahuje do vztahů, do toho, co považuješ za krásné, a do způsobu, jakým si užíváš život.",
+  "hard": [
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o citlivosti ledvin a krku. Stálice na Venuši podle starých autorů zvýrazňuje slabiny těchto částí těla, zvlášť v obdobích přemíry požitků. Nejde o jistotu. Jde o oblast, které tradice přisuzuje větší zranitelnost."
+   },
+   {
+    "topics": [
+     "loss",
+     "ruin"
+    ],
+    "text": "Tradice tu mluví o rozchodech a ztrátách v lásce. Hvězda na Venuši podle ní přináší vztahy, které začínají prudce a mohou skončit náhle. Staré texty k tomu přidávají i ztrátu majetku kvůli rozhazovačnosti nebo kvůli vztahu, do kterého vkládáš příliš mnoho."
+   }
+  ],
+  "traits": {
+   "text": [
+    "charm",
+    "sensuality",
+    "creativity",
+    "generosity"
+   ],
+   "shadow": [
+    "indulgence",
+    "vanity",
+    "extravagance",
+    "dependence"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "star_target/mars",
+  "title": "Stálice u bodu Mars",
+  "keywords": [
+   "energie",
+   "odvaha",
+   "boj",
+   "touha",
+   "zranění"
+  ],
+  "themes": [
+   "character",
+   "health",
+   "relationships",
+   "work"
+  ],
+  "text": "Stálice na tvém Marsu zesiluje tvou energii, odvahu a chuť jednat. Zasahuje do toho, jak bojuješ, jak prosazuješ své cíle a jak prožíváš touhu, sexualitu a vlastní iniciativu.",
+  "hard": [
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o zvýšeném sklonu ke zraněním, horečkám a zánětlivým stavům. Staré texty spojují stálici na Marsu také s operacemi a zásahy do těla, které často přicházejí náhle. Jde o tradiční výklad, ne o jistotu. Ukazuje, kde tvé tělo nese nejvíc napětí a horka."
+   },
+   {
+    "topics": [
+     "violence",
+     "death"
+    ],
+    "text": "Tradice tu mluví o střetech, násilí a nehodách. Platí to zvlášť tam, kde hraje roli spěch, oheň, ostré předměty nebo stroje. V krajní podobě staré texty zmiňují i náhlou nebo násilnou smrt. Je to tradiční výklad, ne předpověď. Popisuje sílu, která se při ztrátě kontroly obrací ven a někdy i proti tobě."
+   }
+  ],
+  "traits": {
+   "text": [
+    "courage",
+    "vitality",
+    "decisiveness",
+    "competitiveness",
+    "sensuality"
+   ],
+   "shadow": [
+    "aggression",
+    "impulsiveness",
+    "anger",
+    "risk_taking"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "star_target/jupiter",
+  "title": "Stálice u bodu Jupiter",
+  "keywords": [
+   "víra",
+   "růst",
+   "dálky",
+   "štědrost",
+   "přemíra"
+  ],
+  "themes": [
+   "growth",
+   "character",
+   "health",
+   "money"
+  ],
+  "text": "Stálice na tvém Jupiteru zasahuje víru, vzdělání, cesty a štědrost a dává jim nápadný, osudový ráz. Růst a štěstí se u tebe pojí s velkým, někdy až přehnaným měřítkem.",
+  "hard": [
+   {
+    "topics": [
+     "illness",
+     "addiction"
+    ],
+    "text": "Tradice tu mluví o zátěži jater, o sklonu k tloustnutí a o nemocech z přemíry. Podle starých autorů stálice na Jupiteru zesiluje všechno, čeho je moc: jídlo, pití i požitky. Tělo pak nese následky nestřídmosti a návyků, které začínají jako radost ze života. Jde o tradiční obraz, ne o jistou předpověď."
+   },
+   {
+    "topics": [
+     "ruin",
+     "loss"
+    ],
+    "text": "Tradice tu mluví také o pádu z výšky. Rozmařilost může rozfoukat nabyté štěstí a nadutost předchází ztrátu postavení. Přehnané sliby podle starých výkladů vedou ke ztrátě dobrého jména a důvěry druhých. Velký vzestup a velký pád stojí v tomto obraze blízko sebe."
+   }
+  ],
+  "traits": {
+   "text": [
+    "optimism",
+    "generosity",
+    "spirituality",
+    "wanderlust",
+    "curiosity"
+   ],
+   "shadow": [
+    "extravagance",
+    "pride",
+    "indulgence",
+    "irresponsibility",
+    "vanity"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "star_target/saturn",
+  "title": "Stálice u bodu Saturn",
+  "keywords": [
+   "odpovědnost",
+   "čas",
+   "hranice",
+   "zkouška",
+   "zralost"
+  ],
+  "themes": [
+   "character",
+   "work",
+   "health",
+   "growth"
+  ],
+  "text": "Stálice na tvém Saturnu zasahuje do povinností, práce, vztahu k autoritám a do toho, jak neseš čas a odpovědnost. Zesiluje tvou vytrvalost i strach z nedostatečnosti a zkouškám dává dlouhou ozvěnu.",
+  "hard": [
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o kostech, kloubech, zubech a chronických nemocech, které se táhnou dlouho. Stálice na Saturnu podle starých autorů zvýrazňuje slabá místa těla a jeho pomalé opotřebení. Nejde o jistotu. Je to téma, které se v tvém životě může vracet jako zkouška trpělivosti."
+   },
+   {
+    "topics": [
+     "death",
+     "loss"
+    ],
+    "text": "Tradice tu mluví o ztrátách, smutku a smrti blízkých, často starších lidí nebo těch, kdo pro tebe představují oporu a autoritu. Odchody pak podle ní mají trvalou váhu. Stáří a konečnost se stávají tématem, které tvé myšlení provází. Jde o tradiční obraz, ne o předpověď."
+   },
+   {
+    "topics": [
+     "mental_crisis",
+     "loss"
+    ],
+    "text": "Tradice tu mluví o osamělosti, citovém chladu a melancholii, která se může prohloubit v tíživé období. Pesimismus a pocit nedostatečnosti mají podle ní sklon zakořenit hlouběji než u jiných postavení. Odstup od lidí pak může přerůst v izolaci."
+   },
+   {
+    "topics": [
+     "ruin"
+    ],
+    "text": "Tradice tu mluví o pádu z pracně vybudovaného postavení. To, co roky stavíš, může za nepříznivých okolností ztratit oporu. Uznání pak podle ní přichází pozdě nebo za vysokou cenu. Staří autoři to chápou jako zkoušku, ne jako pevný osud."
+   }
+  ],
+  "traits": {
+   "text": [
+    "responsibility",
+    "perseverance",
+    "discipline",
+    "order",
+    "realism"
+   ],
+   "shadow": [
+    "pessimism",
+    "rigidity",
+    "coldness",
+    "insecurity",
+    "loneliness"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "star_target/uranus",
+  "title": "Stálice u bodu Uran",
+  "keywords": [
+   "svoboda",
+   "originalita",
+   "náhlé změny",
+   "přátelé",
+   "technika"
+  ],
+  "themes": [
+   "character",
+   "relationships",
+   "work",
+   "growth"
+  ],
+  "text": "Stálice na tvém Uranu zesiluje touhu po svobodě a zasahuje do přátelství, práce s technikou i chvil, kdy se život náhle láme jiným směrem. Tvoje originalita a potřeba jít vlastní cestou tu mají silnější hlas.",
+  "hard": [
+   {
+    "topics": [
+     "ruin",
+     "loss"
+    ],
+    "text": "Tradice tu mluví o náhlých zlomech a rozvratech, tedy o změnách, které přicházejí bez varování a převracejí zavedený řád. Může jít o rozpad plánů, vztahů nebo celé životní situace během krátké doby. Jde o starý výklad, ne o jistotu. Ukazuje spíš oblast, kde má život sklon k prudkým obratům."
+   },
+   {
+    "topics": [
+     "death"
+    ],
+    "text": "Tradice tu mluví o nehodách, zvláště náhlých a nečekaných, spojených s technikou nebo rychlým pohybem. Ve starších výkladech se objevují i vážné úrazy a v nejtěžších případech náhlá smrt. Jde o tradiční motiv, ne o předpověď konkrétní události."
+   },
+   {
+    "topics": [
+     "mental_crisis"
+    ],
+    "text": "Tradice tu mluví také o nervovém vypětí. Neustálý vnitřní neklid, napětí a potřeba změny mohou podle ní přerůst v podrážděnost, nespavost nebo stav, kdy nervy přestávají stačit. Jde o tradiční obraz, ne o jistotu."
+   }
+  ],
+  "traits": {
+   "text": [
+    "independence",
+    "originality",
+    "rebellion",
+    "curiosity"
+   ],
+   "shadow": [
+    "inconstancy",
+    "detachment",
+    "restlessness",
+    "anxiety"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "star_target/neptune",
+  "title": "Stálice u bodu Neptun",
+  "keywords": [
+   "inspirace",
+   "soucit",
+   "sny",
+   "mystika",
+   "iluze"
+  ],
+  "themes": [
+   "character",
+   "growth",
+   "relationships",
+   "health"
+  ],
+  "text": "Stálice na tvém Neptunu zasahuje sny, víru, umělecké vidění a soucit s druhými. Tvoje představivost a vnímavost k náladám okolí tu nesou silnější a osudovější náboj.",
+  "hard": [
+   {
+    "topics": [
+     "addiction"
+    ],
+    "text": "Tradice tu mluví o sklonu k závislostem: na alkoholu, drogách, lécích, ale i na lidech a představách, které slibují úlevu. Stálice na Neptunu podle starých výkladů zesiluje touhu uniknout z tíhy reality. Zároveň ztěžuje poznat chvíli, kdy se úleva mění v pouto."
+   },
+   {
+    "topics": [
+     "illness",
+     "death"
+    ],
+    "text": "Tradice tu mluví o otravách a o nebezpečí od jedů, plynů a léků. Zmiňuje také smrt ve vodě a utonutí. Staré texty k tomu přidávají těžko určitelné nemoci, jejichž příčina dlouho zůstává skrytá. Jde o tradiční obraz, ne o jistou předpověď."
+   },
+   {
+    "topics": [
+     "mental_crisis"
+    ],
+    "text": "Tradice tu mluví o duševní mlze a zmatení. Popisuje stavy, kdy se hranice mezi snem a skutečností rozpadá. Staré výklady zmiňují klamné vize, přeludy a ztrátu orientace. Patří sem i období, kdy pod nohama chybí pevná půda."
+   },
+   {
+    "topics": [
+     "loss",
+     "ruin"
+    ],
+    "text": "Tradice tu mluví o klamu, podvodech a falešných slibech. Zmiňuje lidi, kteří zneužijí tvou důvěru, a sklon dostat se do role oběti. Staré texty spojují tohle postavení se ztrátou dobrého jména nebo majetku skrze iluze a tajné intriky."
+   }
+  ],
+  "traits": {
+   "text": [
+    "intuition",
+    "empathy",
+    "creativity",
+    "spirituality",
+    "sensitivity"
+   ],
+   "shadow": [
+    "escapism",
+    "addiction_tendency",
+    "deceit",
+    "trustfulness",
+    "anxiety"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "star_target/pluto",
+  "title": "Stálice u bodu Pluto",
+  "keywords": [
+   "proměna",
+   "moc",
+   "hloubka",
+   "krize a obnova",
+   "skryté věci"
+  ],
+  "themes": [
+   "character",
+   "relationships",
+   "growth"
+  ],
+  "text": "Stálice na tvém Plutu zesiluje oblasti, kde prožíváš proměnu, moc a skryté věci. Zasahuje krize a obnovy, sexualitu i vztahy, v nichž jde o kontrolu a hlubokou důvěru.",
+  "hard": [
+   {
+    "topics": [
+     "death",
+     "loss"
+    ],
+    "text": "Tradice tu mluví o setkáních se smrtí a znovuzrozením. Podle starých výkladů přináší stálice na Plutu období, kdy něco končí natrvalo: vztah, role nebo život blízkého člověka. Taková ztráta tě mění od základu a po ní začíná jiná kapitola. Nejde o jistotu, spíš o téma, které se v životě vrací."
+   },
+   {
+    "topics": [
+     "violence"
+    ],
+    "text": "Tradice tu mluví o moci nad druhými a o násilí. Výklad zmiňuje situace, kdy proti tobě stojí silná cizí vůle, nebo kdy tvoje vlastní touha po kontrole překračuje hranici. Mocenské střety tu mívají ostrý průběh a nechávají stopy. Jde o starý obraz, ne o předpověď."
+   },
+   {
+    "topics": [
+     "ruin"
+    ],
+    "text": "Tradice tu mluví o krachu a pádu z výše. Postavení postavené na velké moci se podle starých textů může náhle zhroutit a vzít s sebou pověst i dlouho držené jistoty. Tradice zároveň vidí, že z trosek roste nová, pevnější podoba. Je to obraz, ne jistota."
+   }
+  ],
+  "traits": {
+   "text": [
+    "transformation",
+    "depth",
+    "resilience",
+    "intuition"
+   ],
+   "shadow": [
+    "obsession",
+    "dominance",
+    "jealousy",
+    "secrecy",
+    "deceit"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "star_target/asc",
+  "title": "Stálice u bodu ascendent",
+  "keywords": [
+   "první dojem",
+   "tělo",
+   "vzhled",
+   "vystupování",
+   "osobní pečeť"
+  ],
+  "themes": [
+   "character",
+   "health"
+  ],
+  "text": "Stálice na tvém ascendentu barví to, jak působíš na první pohled, jak se pohybuješ a jak jednáš. Její povaha se otiskuje do tvého těla, vzhledu i dojmu, který v lidech zanecháváš.",
+  "hard": [
+   {
+    "topics": [
+     "illness",
+     "violence"
+    ],
+    "text": "Tradice tu mluví o tom, že stálice na ascendentu působí přímo na tělo a zdraví. U hvězd násilné povahy zmiňuje zranění, jizvy a úrazy, zvláště v oblasti hlavy, obličeje a očí. Mluví také o zvýšeném riziku násilí. Vždy záleží na povaze konkrétní hvězdy."
+   },
+   {
+    "topics": [
+     "death"
+    ],
+    "text": "Tradice tu mluví o tom, že u výrazně škodlivých stálic na ascendentu může jít i o ohrožení života nebo o náhlou smrt. Klasičtí autoři to ale vždy podmiňují dalšími faktory horoskopu, nikoli touto polohou samotnou."
+   }
+  ],
+  "traits": {
+   "text": [
+    "self_confidence",
+    "charm",
+    "vitality",
+    "leadership"
+   ],
+   "shadow": [
+    "vanity",
+    "drama",
+    "impulsiveness"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "star_target/mc",
+  "title": "Stálice u bodu Medium coeli (MC)",
+  "keywords": [
+   "pověst",
+   "poslání",
+   "vzestup",
+   "veřejný obraz",
+   "osud kariéry"
+  ],
+  "themes": [
+   "work",
+   "character",
+   "growth"
+  ],
+  "text": "Stálice na MC vtiskuje svůj charakter tvé kariéře, poslání a veřejnému obrazu. Lidé tě poznávají podle toho, co děláš, a tvoje pověst nese výrazný otisk povahy této hvězdy.",
+  "hard": [
+   {
+    "topics": [
+     "ruin",
+     "loss"
+    ],
+    "text": "Tradice tu mluví o prudkém vzestupu, po kterém může přijít stejně prudký pád. U hvězd jako Regulus se uvádí, že úspěch trvá, dokud se neobjeví pomsta nebo nepoctivost. Pak hrozí ztráta postavení, cti a dobrého jména, často veřejně a před očima ostatních. Nejde o jistotu, spíš o varování, že vysoká pozice je zranitelná."
+   },
+   {
+    "topics": [
+     "violence",
+     "death"
+    ],
+    "text": "U hvězd násilné povahy, například Algolu nebo Antara, tradice tu mluví o nebezpečí násilí spojeného s povoláním či veřejným působením. Staré texty zmiňují i násilnou smrt nebo popravu z rozhodnutí mocných. Moderní výklad v tom vidí spíš riziko ostrých střetů s autoritami. Hodně záleží na povaze konkrétní hvězdy a na celém horoskopu."
+   }
+  ],
+  "traits": {
+   "text": [
+    "ambition",
+    "leadership",
+    "self_confidence",
+    "responsibility"
+   ],
+   "shadow": [
+    "pride",
+    "vanity",
+    "risk_taking",
+    "dominance"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ }
+]

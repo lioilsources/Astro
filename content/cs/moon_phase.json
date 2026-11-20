@@ -1,0 +1,423 @@
+[
+ {
+  "key": "moon_phase/new",
+  "title": "Fáze Měsíce: nov",
+  "keywords": [
+   "začátek",
+   "impuls",
+   "nový cyklus",
+   "jednání bez odstupu",
+   "zárodek"
+  ],
+  "themes": [
+   "character",
+   "growth",
+   "work"
+  ],
+  "text": "Nov přináší dny, kdy Měsíc není vidět a všechno začíná od nuly. Máš chuť jednat hned, bez dlouhého zvažování. Nápady přicházejí rychle a tlačí k činu. Hodí se udělat první krok, začít první rozhovor, napsat první řádek. Instinkt teď mívá navrch nad rozvahou a často trefí přesně. Energie je syrová, ještě bez tvaru, a právě v tom je její síla. Co dnes zasadíš, nese otisk okamžitého rozhodnutí.",
+  "shadow": "Ve tmě novu chybí odstup, a tak se snadno rozhodneš dřív, než vidíš celek. Impuls se plete s jistotou. Slovo vyletí ostřeji, než zamýšlíš, a krok vede tam, kam se ještě nikdo nepodíval. Rozjetých začátků přibývá, dokončených věcí ne. Únava a nízká energie se střídají s náhlými výpady. Vlastní pohled se zdá jediný možný a cizí názor jen překáží. Netrpělivost s výsledky tě svádí opustit věc dřív, než stihne vyklíčit.",
+  "hard": [
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o novu jako o čase nejslabších životních sil. Staré lékařské kalendáře spojovaly dny kolem novoluní se zhoršením nemocí, s vyčerpáním a s pomalejším hojením. Lidová víra tvrdila, že tělo v tyto dny hůř snáší zátěž a nemoc má snazší cestu dovnitř."
+   },
+   {
+    "topics": [
+     "mental_crisis"
+    ],
+    "text": "Tradice tu mluví o vlivu měsíčních fází na mysl. Slova jako „náměsíčnost“ nebo staré „lunatik“ odkazují k představě, že proměny Měsíce rozkolísají duši. Nov se pojil s propady nálady, s úzkostí a se záchvaty, které se podle starých textů vracely právě v temné fázi."
+   },
+   {
+    "topics": [
+     "death",
+     "illness"
+    ],
+    "text": "Tradice tu mluví o novu i jako o čase konců. Lidová víra říkala, že staří a těžce nemocní odcházejí častěji, když Měsíc mizí z oblohy. Temná fáze se chápala jako práh mezi starým a novým cyklem, na kterém se může uzavřít i život. Jde o víru, ne o jistotu."
+   }
+  ],
+  "traits": {
+   "text": [
+    "impulsiveness",
+    "decisiveness",
+    "courage",
+    "intuition"
+   ],
+   "shadow": [
+    "carelessness",
+    "inconstancy",
+    "exhaustion",
+    "stubbornness",
+    "anger"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "moon_phase/crescent",
+  "title": "Fáze Měsíce: dorůstající srpek",
+  "keywords": [
+   "první kroky",
+   "průlom",
+   "zápas se setrvačností",
+   "růst",
+   "odvaha"
+  ],
+  "themes": [
+   "growth",
+   "character",
+   "work"
+  ],
+  "text": "Dorůstající srpek přináší dny, kdy nové musí přetlačit starou setrvačnost. Záměr z novoluní už má první tvar, ale okolí i staré zvyky se mu ještě brání. Cítíš v sobě tah dopředu a chuť pustit se do práce. Daří se prvním krokům, odvážným rozhodnutím a vytrvalému tlaku proti odporu. Každý drobný úspěch teď posiluje víru v celý plán. Odpor zvenčí funguje jako zkouška pevnosti, ne jako stopka.",
+  "shadow": "Dny dorůstajícího srpku umí proměnit zápas se starým v křečovitou vzdornost. Staré návyky táhnou zpátky a pochybnosti našeptávají, že nový plán nemá šanci. Snadno tě přemůže netrpělivost, protože výsledky ještě nejsou vidět. Pak hrozí dvě krajnosti: vzdát to při prvním odporu, nebo se do boje vrhnout bezhlavě a rozbít i to, co mělo zůstat. Únava z neustálého tlačení se hromadí a nálada kolísá mezi nadšením a skleslostí.",
+  "hard": [
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o tom, že nemoci a obtíže, které začínají za dorůstajícího Měsíce, rostou spolu s jeho světlem a mají sklon sílit až k úplňku. Podle ní se v těchto dnech také snáz vyčerpávají síly, protože tělo i mysl vydávají mnoho energie na překonávání odporu."
+   }
+  ],
+  "traits": {
+   "text": [
+    "courage",
+    "ambition",
+    "perseverance",
+    "decisiveness",
+    "vitality"
+   ],
+   "shadow": [
+    "impulsiveness",
+    "insecurity",
+    "exhaustion",
+    "moodiness",
+    "rebellion"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "moon_phase/first_quarter",
+  "title": "Fáze Měsíce: první čtvrť",
+  "keywords": [
+   "rozhodnutí",
+   "stavba",
+   "napětí",
+   "čin",
+   "překážka"
+  ],
+  "themes": [
+   "character",
+   "work",
+   "growth"
+  ],
+  "text": "První čtvrť přináší dny, kdy se záměr z novoluní poprvé střetává se skutečností. Měsíc je napůl osvětlený a napůl temný. Právě to napětí tě tlačí k činu. Odkládané rozhodnutí teď chce odpověď. Daří se stavbě: zakládáš, přidáváš a posouváš věci o krok dál. Překážky ukazují, kde je potřeba zpevnit základy. Máš víc energie i odvahy jít proti odporu. Zvládáš i první těžší úsek cesty.",
+  "shadow": "Krize první čtvrti se v odvrácené podobě mění v netrpělivý boj s každým odporem. Tlak na rozhodnutí svádí k unáhleným krokům, které později stojí víc práce než chvíle čekání. Drobný nezdar snadno vypadá jako konec celého záměru. Hrozí, že stavbu opustíš v polovině. Napětí se přelévá do podrážděnosti, hádek a tvrdých slov. Jindy se tlak obrací v opak: přešlapuješ, pochybuješ a máš pocit, že každá volba je špatná.",
+  "hard": [
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o kritických dnech nemoci. Lékařská astrologie navazující na Galéna sledovala čtvrti Měsíce jako chvíle, kdy se průběh choroby láme k lepšímu, nebo k horšímu. Starší kalendáře proto spojují první čtvrť s horečnatým zhoršením a úbytkem sil. Jde o dobový výklad, ne o předpověď."
+   },
+   {
+    "topics": [
+     "violence"
+    ],
+    "text": "Tradice tu mluví o dnech sporů a srážek. Napětí dorůstajícího Měsíce se podle starých výkladů snadno mění v hádky, rvačky a úrazy ze spěchu. Kalendáře proto v této fázi varovaly před ukvapeným jednáním a vyhrocenými střety."
+   }
+  ],
+  "traits": {
+   "text": [
+    "decisiveness",
+    "courage",
+    "diligence",
+    "perseverance"
+   ],
+   "shadow": [
+    "impulsiveness",
+    "anger",
+    "indecision",
+    "inconstancy",
+    "restlessness"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "moon_phase/gibbous",
+  "title": "Fáze Měsíce: dorůstající Měsíc před úplňkem",
+  "keywords": [
+   "zdokonalování",
+   "rozbor",
+   "příprava",
+   "dolaďování",
+   "vrchol"
+  ],
+  "themes": [
+   "work",
+   "growth",
+   "character"
+  ],
+  "text": "Dorůstající Měsíc těsně před úplňkem přináší dny dolaďování. To hlavní už stojí a teď přichází čas zpřesnit detaily a najít, co ještě drhne. Máš dnes ostřejší oko pro chyby a víc trpělivosti s drobnou prací. Daří se rozbor, oprava a úprava plánu. Připravuješ půdu pro chvíli, kdy se věci ukážou naplno. Rozhovory míří k podstatě. Otázky „proč“ a „jak lépe“ mají teď větší váhu než nové začátky.",
+  "shadow": "Těsně před úplňkem se touha po dokonalosti snadno mění v nekonečné předělávání. Detail zakryje celek a práce nejde dokončit, protože pořád něco chybí. Kritičnost míří na druhé i na tebe. Roste napětí a netrpělivost. Výsledek je blízko, a přesto působí nedosažitelně. Přichází odkládání pod záminkou další přípravy a podrážděnost z únavy. Když se všechno jen rozebírá, mizí radost z rozdělané věci a slábne důvěra ve vlastní úsudek.",
+  "hard": [
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o tom, že v dorůstajícím Měsíci nemoci sílí a vrcholí s úplňkem. Staré lunární kalendáře spojovaly tuto fázi s otoky, hromaděním tekutin a silnějším krvácením. Šlo o lidovou zkušenost a víru, ne o jistotu."
+   },
+   {
+    "topics": [
+     "mental_crisis"
+    ],
+    "text": "Tradice tu mluví o neklidném spánku, rozjitřených citech a zesílených duševních stavech, které se s blížícím úplňkem stupňují. Odtud pochází staré slovo „náměsíčnost“. Starší výklady připisovaly těmto dnům i výkyvy u lidí s křehkou duší. Jde o tradiční představu, ne o pravidlo."
+   }
+  ],
+  "traits": {
+   "text": [
+    "diligence",
+    "focus",
+    "patience",
+    "rationality"
+   ],
+   "shadow": [
+    "perfectionism",
+    "criticism",
+    "procrastination",
+    "restlessness",
+    "exhaustion"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "moon_phase/full",
+  "title": "Fáze Měsíce: úplněk",
+  "keywords": [
+   "vyvrcholení",
+   "uvědomění",
+   "zrcadlo",
+   "protiklad",
+   "sklizeň"
+  ],
+  "themes": [
+   "relationships",
+   "character",
+   "growth"
+  ],
+  "text": "Úplněk staví Slunce a Měsíc proti sobě a dny v této fázi nesou vrchol toho, co začalo při novoluní. Věci vycházejí na světlo. Vidíš jasněji, co cítíš a co chceš. Druhý člověk ti často nastavuje zrcadlo. Rozhovory dostávají ostrost a vztahy ukazují svou pravou podobu. Je to čas sklizně, dokončení a uznání. Máš silnější intuici a živější sny. Přichází i odvaha pojmenovat to, co dosud zůstávalo nevyslovené.",
+  "shadow": "Na vrcholu úplňku se napětí mezi tvými přáními a přáními druhých snadno mění v přetahovanou. Emoce přetékají. Malé věci dostávají velkou váhu a slova padají ostřeji, než zamýšlíš. Spánek bývá mělký a nervy napjaté. Uvědomění může bolet, protože vidíš pravdu nejen o druhých, ale i o sobě. Láká tě obvinit protějšek. Hrozí dramatické gesto, unáhlený rozchod nebo dovršení, které přichází dřív, než na ně máš sílu.",
+  "hard": [
+   {
+    "topics": [
+     "mental_crisis"
+    ],
+    "text": "Tradice tu mluví o náměsíčnosti a takzvaném lunatismu. Úplněk podle ní přináší dny, kdy sílí neklid mysli, nespavost, úzkost a zmatenost. Staří lékaři s ním spojovali vrcholení duševních krizí a největší vypětí citlivých povah."
+   },
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o tom, že při úplňku tělo zadržuje tekutiny, krvácení bývá silnější a nemoci spějí ke krizi, která rozhodne o jejich dalším běhu. Ranhojiči se proto v těchto dnech vyhýbali zákrokům a pouštění žilou."
+   },
+   {
+    "topics": [
+     "violence"
+    ],
+    "text": "Tradice tu mluví o dnech zvýšené vznětlivosti, hádek a rvaček. Vyhrocené city podle ní mohou přerůst v násilí, neuvážené činy nebo nehody, zvlášť tam, kde se dlouho hromadilo nevyslovené napětí."
+   }
+  ],
+  "traits": {
+   "text": [
+    "intuition",
+    "openness",
+    "sensitivity",
+    "empathy",
+    "decisiveness"
+   ],
+   "shadow": [
+    "drama",
+    "moodiness",
+    "restlessness",
+    "anger",
+    "exhaustion"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "moon_phase/disseminating",
+  "title": "Fáze Měsíce: couvající Měsíc po úplňku",
+  "keywords": [
+   "předávání",
+   "sdílení",
+   "zralost",
+   "učení",
+   "sklizeň"
+  ],
+  "themes": [
+   "character",
+   "relationships",
+   "work",
+   "growth"
+  ],
+  "text": "Dny po úplňku mají povahu předávání: co se za úplňku ukázalo, teď chce jít dál k lidem. Máš chuť vysvětlovat, sdílet zkušenost a dávat jí srozumitelný tvar. Slova teď najdou posluchače snáz než jindy. Daří se učení, psaní, rozhovorům a věcem, které rozvádějí hotové myšlenky. Světla ubývá, takže energie už neroste, ale zraje. Tyhle dny se hodí ke sklízení, rozdávání a dotahování, ne k zakládání nového. Víc ti dává sdílení než hromadění.",
+  "shadow": "Couvající Měsíc po úplňku svádí ke kázání toho, co se ukázalo, i těm, kdo o to nestojí. Z předávání se snadno stane poučování a z nově nabyté jistoty neochota naslouchat. Hrozí přesvědčení, že jediný správný pohled je ten tvůj. Po vrcholu úplňku přichází i únava: energie ubývá a nálada může klesat. Dny pak působí rozptýleně, je v nich hodně slov a málo činů. Co se šíří bez ověření, může být jen polopravda. Snadno taky rozdáváš víc, než ti dovolují síly.",
+  "hard": [
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o ubývajícím světle jako o čase, kdy slábne životní síla a tělo se zotavuje pomaleji. Nemoci, které začnou v této fázi, mají podle starých pravidel sklon postupně odeznívat, ale dávná únava nebo staré potíže se mohou znovu ozvat. Jde o tradiční obraz, ne o jistotu."
+   },
+   {
+    "topics": [
+     "loss"
+    ],
+    "text": "Tradice tu mluví o ubývání i v širším smyslu. Co se ztratí v couvajícím Měsíci, prý se hledá obtížněji, a co začne upadat, upadá dál. Staré texty tuto fázi spojují s rozpadem a odchodem věcí, vztahů i plánů, které už splnily svůj úkol."
+   }
+  ],
+  "traits": {
+   "text": [
+    "eloquence",
+    "generosity",
+    "openness",
+    "sociability"
+   ],
+   "shadow": [
+    "dominance",
+    "rigidity",
+    "exhaustion",
+    "superficiality"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "moon_phase/last_quarter",
+  "title": "Fáze Měsíce: poslední čtvrť",
+  "keywords": [
+   "přehodnocení",
+   "krize přesvědčení",
+   "odklon",
+   "uzavírání",
+   "ubývání"
+  ],
+  "themes": [
+   "character",
+   "growth"
+  ],
+  "text": "Poslední čtvrť Měsíce otevírá dny, kdy se pevná přesvědčení začínají viklat. To, co ještě před týdnem dávalo smysl, teď působí vyčerpaně nebo prázdně. Lépe vidíš, co už dosloužilo. Snáz rozpoznáš zvyky, názory a závazky, které drží už jen setrvačnost. Je to čas třídění, uzavírání a vědomého odklonu. Rozhodnutí vznikají z bilance, ne z nadšení. Síla těchto dnů leží v upřímnosti vůči sobě a v odvaze něco pustit.",
+  "shadow": "Ve dnech poslední čtvrti se přehodnocení snadno zvrhne v rozklad bez nového směru. Zpochybníš všechno a nezůstane nic, o co se opřít. Kritičnost se mění v cynismus a odklon v útěk. Hrozí, že pálíš mosty z únavy, ne z poznání. Vnitřní krize se může projevit podrážděností, nerozhodností nebo pocitem, že dosavadní úsilí bylo marné. Na starém lpíš ze strachu, nebo ho zahazuješ příliš zbrkle. Obojí bere sílu.",
+  "hard": [
+   {
+    "topics": [
+     "loss",
+     "death"
+    ],
+    "text": "Tradice tu mluví o ubývajícím světle jako o čase odcházení. Lidové kalendáře spojovaly poslední čtvrť s konci, rozchody a ztrátami, někde i s umíráním starých a dlouho nemocných. Nejde o předpověď. Je to obraz doby, kdy se věci uzavírají a odcházejí ze života."
+   },
+   {
+    "topics": [
+     "mental_crisis"
+    ],
+    "text": "Tradice tu mluví o krizi přesvědčení. Když se rozpadne to, na čem stála víra nebo smysl, může přijít skleslost, pocit prázdnoty a ztráta orientace. Starší výklady považují tyto dny za náchylné k vnitřním zlomům a těžkomyslnosti."
+   }
+  ],
+  "traits": {
+   "text": [
+    "transformation",
+    "honesty",
+    "realism",
+    "criticism",
+    "decisiveness"
+   ],
+   "shadow": [
+    "cynicism",
+    "pessimism",
+    "indecision",
+    "exhaustion",
+    "impulsiveness"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "moon_phase/balsamic",
+  "title": "Fáze Měsíce: ubývající srpek před novem",
+  "keywords": [
+   "dozrání",
+   "uzavírání",
+   "odevzdání",
+   "semeno budoucího",
+   "ticho"
+  ],
+  "themes": [
+   "growth",
+   "character",
+   "health"
+  ],
+  "text": "Poslední tenký srpek před novem přináší dny, kdy se věci dovírají a dozrávají. Pozornost se stáčí od světa dovnitř. Daří se ti dokončovat, třídit a pouštět to, co už doslouží. Vnímání zjemňuje, sny i náhlá tušení mají větší váhu. Rozhovory se snáz stáčejí k podstatě. Co teď odevzdáš, uvolní místo. Pod povrchem se přitom rodí semeno toho, co vyklíčí s dalším novem. Hodí se ticho, úklid, odpuštění a klidné loučení.",
+  "shadow": "Ubývající srpek před novem umí z uzavírání udělat útěk. Místo dokončení přichází odkládání a pocit, že nemá smysl nic začínat ani řešit. Síly docházejí rychle a podrážděnost roste z únavy. Lpění na tom, co už odchází, bolí víc než samotný konec. Staré křivdy a výčitky se vynořují a táhnou dolů. Hrozí stažení do sebe, melancholie a únik do snění nebo otupení. Nové plány v těchto dnech často vznikají z vyčerpání, ne z jasného pohledu.",
+  "hard": [
+   {
+    "topics": [
+     "death",
+     "loss"
+    ],
+    "text": "Tradice tu mluví o dnech umírání a konců. Staré kalendáře spojovaly tmavnoucí Měsíc s odchody, pohřby a loučením, ať šlo o lidi, vztahy, nebo celé životní etapy. Nečte se to jako předpověď. Jde spíš o ráz doby, kdy se uzavírají cykly a ztráty se člověka snáz dotknou."
+   },
+   {
+    "topics": [
+     "illness",
+     "mental_crisis"
+    ],
+    "text": "Tradice tu mluví o nejnižší životní síle celého měsíčního cyklu. Nemoci podle ní v těchto dnech hůře ustupují a slabost se prohlubuje. Lidová víra také připisovala ubývajícímu Měsíci tíseň, chmurné myšlenky a noční úzkosti. Jde o tradiční obraz, ne o jistotu."
+   }
+  ],
+  "traits": {
+   "text": [
+    "transformation",
+    "intuition",
+    "forgiveness",
+    "depth",
+    "spirituality"
+   ],
+   "shadow": [
+    "procrastination",
+    "exhaustion",
+    "melancholy",
+    "escapism",
+    "guilt"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ }
+]

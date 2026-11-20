@@ -1,0 +1,426 @@
+[
+ {
+  "key": "natal_moon_phase/new",
+  "title": "Narození ve fázi: nov",
+  "keywords": [
+   "impuls",
+   "začátek",
+   "instinkt",
+   "průkopnictví",
+   "subjektivita"
+  ],
+  "themes": [
+   "character",
+   "growth",
+   "work"
+  ],
+  "text": "Narození v novu znamená, že Slunce a Měsíc stojí v okamžiku tvého příchodu u sebe a Měsíc ještě nevrhá žádné světlo. Tvoje povaha proto vychází zevnitř, ne z odrazu u druhých. Jednáš dřív, než si věc rozmyslíš. Často teprve čin ti ukáže, co vlastně chceš. Máš silný instinkt pro začátky. Nový nápad, nové místo nebo nový vztah tě probouzí víc než dokončování starého. Svět vnímáš hodně subjektivně: co cítíš, bereš jako to, co je. Díky tomu máš přímost a sílu strhnout ostatní, protože v tvém zápalu není vypočítavost. Tradice spojuje tuhle fázi s průkopnickou povahou. Patříš k lidem, kteří otevírají cestu, i když ještě nevidí, kam vede. Tvoje energie je čerstvá a nespoutaná. Učíš se pohybem, zkouškou a omylem, ne z návodů. Kolem tebe se věci dávají do pohybu, protože čekání ti nedává smysl. Cítíš potřebu vtisknout světu něco svého, ještě než to dokážeš pojmenovat.",
+  "shadow": "Narození v novu přináší jednání bez odstupu a s ním i odvrácenou stranu. Často nevidíš sebe ani druhé zvenku. Vlastní pohled považuješ za jediný možný a cizí námitky bereš jako překážku. Začínáš víc věcí, než dotáhneš. Když nadšení opadne, přichází zmatek, kdo vlastně jsi. Tvoje přímost může působit bezohledně, i když to tak nemyslíš. Pod tlakem jednáš ukvapeně a důsledky řešíš až potom.",
+  "hard": [
+   {
+    "topics": [
+     "illness",
+     "death"
+    ],
+    "text": "Tradice tu mluví o Měsíci ukrytém ve slunečních paprscích jako o slabším postavení pro tělesnou vitalitu. Starší autoři s ním spojovali křehčí zdraví v dětství a sklon k vyčerpání. V krajních případech, zvlášť při dalších těžkých postaveních, zmiňovali i kratší život. Jde o tradiční výklad, ne o jistotu."
+   }
+  ],
+  "traits": {
+   "text": [
+    "impulsiveness",
+    "originality",
+    "courage",
+    "vitality",
+    "independence"
+   ],
+   "shadow": [
+    "carelessness",
+    "inconstancy",
+    "selfishness",
+    "bluntness",
+    "insecurity"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "natal_moon_phase/crescent",
+  "title": "Narození ve fázi: dorůstající srpek",
+  "keywords": [
+   "průlom",
+   "vytrvalost",
+   "zakládání nového",
+   "zápas s minulostí",
+   "růst"
+  ],
+  "themes": [
+   "character",
+   "growth",
+   "family"
+  ],
+  "text": "Při narození ve fázi dorůstajícího srpku máš povahu, která razí cestu novému proti tíze starého. Světlo Měsíce teprve roste a ty ten pocit znáš zevnitř. Každý tvůj nápad musí nejdřív překonat odpor zvyků, rodiny nebo vlastních pochybností. Právě v tom tkví tvoje síla. Máš houževnatost a vůli zkoušet to znovu. Když něco začneš, cítíš potřebu to obhájit. Umíš rozpoznat, co už dosloužilo, a odvahu to opustit nacházíš krok za krokem. Tvoje nadání leží v zakládání nových projektů, nových zvyklostí a nového způsobu života. Druzí v tobě vidí člověka, kterého neodbude věta „to se vždycky dělalo takhle“. Pomáhá ti konkrétní cíl, protože dává tvému úsilí směr. Rosteš tím, že se prosazuješ. Každé malé vítězství nad setrvačností ti dodává jistotu. Vztah k minulosti je u tebe živý. Táhne tě zpátky, ale zároveň ti ukazuje, odkud odcházíš. V rodině často zastáváš roli toho, kdo jako první mění zavedený řád a otevírá dveře dalším.",
+  "shadow": "Při narození v dorůstajícím srpku se zápas s minulostí snadno mění v posedlost. Vidíš odpor i tam, kde žádný není, a reaguješ vzdorem dřív, než zvážíš argumenty. Jindy tě setrvačnost přemůže. Odkládáš, váháš a vracíš se ke starým vzorcům, protože jsou pohodlné a známé. Pocit viny vůči rodině nebo tradici tě umí svazovat. Nejistota se u tebe maskuje tvrdohlavostí. Neustálé prosazování navíc vyčerpává a bere ti radost z toho, co už se povedlo.",
+  "hard": [
+   {
+    "topics": [
+     "mental_crisis"
+    ],
+    "text": "Tradice tu mluví o vnitřním rozpolcení mezi potřebou odejít a tíhou původu. Při dlouhodobém tlaku se podle starších výkladů může objevit úzkost, pocit uvěznění ve starých poměrech nebo hluboké vyčerpání. Jde o sklon, ne o jistotu. Nejtíživěji se projevuje v obdobích, kdy nové ještě nemá pevnou podobu a staré už nedává oporu."
+   },
+   {
+    "topics": [
+     "loss"
+    ],
+    "text": "Tradice tu mluví o ztrátách spojených s odchodem od původu. Patří k nim rozchod s rodinným prostředím, ochlazení vztahů s blízkými, kteří změnu nepřijmou, nebo ztráta jistot, které staré poměry poskytovaly. Výklad to popisuje jako cenu za samostatný růst, ne jako nevyhnutelný osud."
+   }
+  ],
+  "traits": {
+   "text": [
+    "courage",
+    "perseverance",
+    "originality",
+    "rebellion",
+    "ambition"
+   ],
+   "shadow": [
+    "stubbornness",
+    "guilt",
+    "procrastination",
+    "insecurity",
+    "exhaustion"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "natal_moon_phase/first_quarter",
+  "title": "Narození ve fázi: první čtvrť",
+  "keywords": [
+   "krize jednání",
+   "rozhodnost",
+   "stavba",
+   "vůle",
+   "zkouška"
+  ],
+  "themes": [
+   "character",
+   "work",
+   "growth"
+  ],
+  "text": "Narození v první čtvrti Měsíce dává povahu, která se rodí uprostřed krize jednání. Světlo a tma stojí v tu chvíli v rovnováze a jedno z nich musí ustoupit. Totéž cítíš v sobě: staré formy tě dusí a nové je potřeba postavit vlastníma rukama. Máš silnou vůli a málo trpělivosti s přešlapováním na místě. Když vidíš, že něco nefunguje, nečekáš na svolení. Rozhoduješ se rychle a za svým rozhodnutím pak stojíš. Tvé nadání spočívá ve stavbě. Zakládáš, organizuješ a dotahuješ hrubou stavbu tam, kde ostatní teprve kreslí plány. Překážka tě nebrzdí, spíš probouzí. Tlak zvenčí ti dodává energii a v napjaté situaci máš jasnější hlavu než v klidu. Lidé kolem tebe často zažívají, že s tebou se věci konečně pohnou. Umíš převzít odpovědnost a nést následky. Tradice o této fázi říká, že život tu běží jako řada zkoušek a každá z nich žádá čin. Tvůj růst přichází právě skrze ně: s každou vyřešenou krizí stojí pevněji to, co budeš.",
+  "shadow": "Krize jednání se ve stínu mění v nutkání bourat. Starou formu někdy rozbíjíš dřív, než je hotová ta nová, a pak stojíš v troskách vlastního spěchu. Druhé lidi snadno vidíš jako překážku, ne jako spojence. Netrpělivost přechází ve vznětlivost a rozhodnost v tvrdohlavost. Klid ti může připadat jako ztráta času, a tak vytváříš konflikty i tam, kde nejsou nutné. Napětí, které tě pohání, tě zároveň vyčerpává.",
+  "hard": [
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o napětí, které se ukládá v těle. Starší výklady spojují tuto fázi s přepínáním sil, s vyčerpáním po dlouhém tlaku a s nemocemi z přetížení, hlavně tam, kde člověk odmítá zpomalit. Nejde o jistou předpověď. Jde o sklon žít ve stálém boji a přehlížet únavu."
+   },
+   {
+    "topics": [
+     "ruin",
+     "loss"
+    ],
+    "text": "Tradice tu mluví také o zhroucení toho, co vzniklo příliš rychle nebo v příliš ostrém sporu. Výklady zmiňují ztrátu vztahů a opor, které padly za oběť prosazování vlastní cesty, a projekty rozbité dřív, než stihly zpevnit. Je to varování před cenou neustálého boje, ne pevný osud."
+   }
+  ],
+  "traits": {
+   "text": [
+    "decisiveness",
+    "courage",
+    "diligence",
+    "leadership",
+    "responsibility"
+   ],
+   "shadow": [
+    "anger",
+    "stubbornness",
+    "impulsiveness",
+    "aggression",
+    "exhaustion"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "natal_moon_phase/gibbous",
+  "title": "Narození ve fázi: dorůstající Měsíc před úplňkem",
+  "keywords": [
+   "zdokonalování",
+   "rozbor",
+   "příprava na vrchol",
+   "hledání smyslu"
+  ],
+  "themes": [
+   "character",
+   "work",
+   "growth"
+  ],
+  "text": "Narození v dorůstajícím Měsíci těsně před úplňkem ti dává povahu, která věci dotahuje k plnosti. Světlo už je skoro celé, ale ještě ne úplně. Přesně tak vnímáš svět: vidíš, co chybí, a chceš to doplnit. Máš bystrý analytický rozum a cit pro detail. Než se do něčeho pustíš naplno, potřebuješ pochopit, proč to děláš a kam to vede. Kladeš otázky, zkoumáš a porovnáváš. Rozbor pro tebe není chladná disciplína, ale cesta ke smyslu. Tvé nadání leží ve zdokonalování. Z hrubého nápadu umíš udělat promyšlený celek. Táhnou tě obory, kde se ladí, opravuje a zpřesňuje, třeba výzkum, redakce, řemeslo nebo péče o kvalitu. Věci, které věříš, umíš věnovat roky soustředěného úsilí. Lidé u tebe hledají radu, protože vidíš souvislosti a mluvíš věcně. Učení pro tebe nekončí školou. Tvůj život má tvar přípravy na vrchol. Každý krok je zkouška a každá zkušenost je materiál pro další. K vrcholu stoupáš pozvolna, ale na pevném základu.",
+  "shadow": "Dorůstající Měsíc před úplňkem nese i neklid toho, kdo stojí kousek pod vrcholem a nedokáže se zastavit. Snadno propadáš pocitu, že nic není dost dobré, ani tvá vlastní práce. Kritičnost se obrací proti druhým i proti tobě. Příprava se může nekonečně protahovat a skutečný krok odkládáš, dokud nebude všechno dokonalé. V hlavě se točí pochybnosti a strach z chyby. Chybí ti lehkost a schopnost přijmout věc nedokončenou.",
+  "hard": [
+   {
+    "topics": [
+     "illness",
+     "mental_crisis"
+    ],
+    "text": "Tradice tu mluví o nervovém vyčerpání. Neustálý rozbor a nároky na dokonalost podle ní oslabují spánek a trávení. Mohou vést k vyhoření nebo k úzkostným stavům. Starší výklady spojují tuto fázi s napětím, které se hromadí bez vybití, dokud tělo nebo mysl nevynutí zastavení."
+   }
+  ],
+  "traits": {
+   "text": [
+    "diligence",
+    "focus",
+    "curiosity",
+    "perseverance",
+    "rationality"
+   ],
+   "shadow": [
+    "perfectionism",
+    "criticism",
+    "anxiety",
+    "procrastination",
+    "insecurity"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "natal_moon_phase/full",
+  "title": "Narození ve fázi: úplněk",
+  "keywords": [
+   "vyvrcholení",
+   "uvědomění",
+   "vztah",
+   "protiklad",
+   "zrcadlení"
+  ],
+  "themes": [
+   "character",
+   "relationships",
+   "growth",
+   "health"
+  ],
+  "text": "Narození za úplňku znamená, že Slunce a Měsíc stály při tvém příchodu proti sobě a ty neseš jejich napětí v sobě. Vůle a cit v tobě nesplývají. Dívají se na sebe jako dva protějšky. Z toho roste tvoje hlavní síla, kterou je uvědomění. Věci ti docházejí naplno a často náhle, jako když se rozsvítí. Vidíš obě strany sporu a umíš je pojmenovat. Druzí lidé jsou pro tebe zrcadlo. Ve vztazích poznáváš, kdo opravdu jsi, a proto je bereš vážně. Máš dar dovést věci do konce a ukázat jejich smysl. Tam, kde jiní začínají, ty sklízíš a hodnotíš. Tradice ti přisuzuje jasný úsudek a schopnost zprostředkovat, smiřovat a vysvětlovat. Tvoje city jsou viditelné a silné a dlouho se skrývat nedají. Umíš oslovit publikum, vést rozhovor a pracovat s lidmi. Nejlépe ti je tam, kde se střetávají protiklady a kde je potřeba spojit je do celku. Zralost pro tebe znamená, že se z napětí stává vědomí, ne boj.",
+  "shadow": "Odvrácenou stranou úplňkového napětí je život v neustálém kyvadle mezi dvěma póly. Přecházíš z jednoho extrému do druhého, ve vztazích i v náladách. Co v sobě nepřijmeš, vidíš na druhých a pak s nimi bojuješ. Snadno se upneš na partnera jako na chybějící polovinu sebe. Rozhodování tě trhá, protože vidíš příliš mnoho stran najednou. Emoce vystupují na povrch prudce a před všemi. Po nich přichází vyčerpání.",
+  "hard": [
+   {
+    "topics": [
+     "mental_crisis"
+    ],
+    "text": "Tradice tu mluví o spojení úplňku s náměsíčností a nervovým vypětím. Starší výklady připisují lidem narozeným v této fázi sklon k přecitlivělosti, nespavosti a citovým krizím. Vnitřní napětí v nich podle těchto výkladů může přerůst únosnou míru. Jde o tradiční představu, ne o předpověď."
+   },
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o oslabení těla v obdobích, kdy napětí mezi vůlí a citem zůstává nevyřešené. Staré texty spojují úplňkové narození s poruchami tělesných tekutin, s kolísáním tělesných rytmů a s vyčerpáním po citových vrcholech."
+   },
+   {
+    "topics": [
+     "loss"
+    ],
+    "text": "Tradice tu mluví o rozchodech a odloučeních jako o opakujícím se motivu. Vztahy zatížené příliš mnoha projekcemi se podle starých výkladů rozpadají náhle a před očima všech. Často se to stává právě ve chvíli, kdy se zdají být na vrcholu."
+   }
+  ],
+  "traits": {
+   "text": [
+    "empathy",
+    "cooperation",
+    "eloquence",
+    "depth",
+    "justice"
+   ],
+   "shadow": [
+    "moodiness",
+    "indecision",
+    "dependence",
+    "drama",
+    "exhaustion"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "natal_moon_phase/disseminating",
+  "title": "Narození ve fázi: couvající Měsíc po úplňku",
+  "keywords": [
+   "předávání",
+   "učení",
+   "poselství",
+   "sdílení zkušenosti",
+   "zralost"
+  ],
+  "themes": [
+   "character",
+   "work",
+   "growth",
+   "relationships"
+  ],
+  "text": "Rodíš se v čase, kdy Měsíc už prošel úplňkem. Jeho světlo začíná ubývat, ale pořád svítí skoro celý. Tahle fáze nese úkol předat dál to, co se při úplňku ukázalo. Tvoje povaha proto míří ven: co pochopíš, toužíš sdílet. Nestačí ti něco prožít. Potřebuješ zážitku dát slova a najít pro něj posluchače. Máš dar vysvětlovat, učit a zprostředkovat. Složité věci umíš převést do jazyka, kterému lidé rozumí. Často tě táhne role učitele, novináře, průvodce, překladatele nebo organizátora, který šíří myšlenku mezi lidi. Tvoje přesvědčení mají váhu, protože vycházejí ze zkušenosti, ne z teorie. Lidé u tebe cítí zralost. Působíš dojmem někoho, kdo už něco prožil a teď to vrací dál. Ve vztazích dáváš hodně ze svého poznání a stojíš o to, aby rozhovor měl smysl. Nejlépe se ti daří tam, kde má tvoje slovo dopad na skupinu, komunitu nebo další generaci. Smysl pro tebe nevzniká v soukromí, ale ve chvíli, kdy myšlenka přejde z tvých rukou do cizích.",
+  "shadow": "Touha předávat poznání se u couvajícího Měsíce po úplňku snadno mění v kázání. Máš sklon považovat vlastní pravdu za jedinou a přesvědčovat i tam, kde o to nikdo nestojí. Z myšlenky se pak stává kampaň a z rozhovoru monolog. Hrozí, že se ztotožníš s nějakou věcí tak silně, že přestaneš slyšet pochybnosti, své i cizí. Když posluchači chybí, přichází zklamání, pocit nedocenění a hořkost vůči světu, který nenaslouchá.",
+  "hard": [
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o tom, že narození při ubývajícím světle Měsíce oslabuje zásobu životní síly. Starší autoři u této fáze zmiňují pomalejší zotavování, sklon k vyčerpání a k nemocem z přetížení, zvlášť když člověk dává druhým víc, než stíhá doplnit. Jde o tradiční představu, ne o jistotu."
+   },
+   {
+    "topics": [
+     "mental_crisis",
+     "loss"
+    ],
+    "text": "Tradice tu mluví o nebezpečí, že se člověk této fáze rozplyne ve své věci. Výklady lunačního cyklu popisují sklon k fanatismu a ke krizi smyslu ve chvíli, kdy ideál selže nebo posluchači odejdou. Může přijít vyhoření, prázdnota a ztráta opory, kterou dosud dávalo poslání."
+   }
+  ],
+  "traits": {
+   "text": [
+    "eloquence",
+    "openness",
+    "responsibility",
+    "belonging",
+    "depth"
+   ],
+   "shadow": [
+    "rigidity",
+    "dominance",
+    "obsession",
+    "exhaustion"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "natal_moon_phase/last_quarter",
+  "title": "Narození ve fázi: poslední čtvrť",
+  "keywords": [
+   "přehodnocení",
+   "krize přesvědčení",
+   "odklon",
+   "reforma",
+   "vnitřní kompas"
+  ],
+  "themes": [
+   "character",
+   "growth",
+   "work",
+   "relationships"
+  ],
+  "text": "Narození v poslední čtvrti Měsíce ti dává povahu člověka, který přichází na konec jednoho cyklu a vidí jeho slabá místa. Máš v sobě silný vnitřní kompas a potřebu ověřit si, čemu doopravdy věříš. Převzaté názory ti nestačí. Dřív nebo později je podrobíš zkoušce a necháš odejít to, co neobstojí. Tvoje cesta vede přes krize přesvědčení a každá z nich tě posouvá blíž k vlastním hodnotám. Máš nadání rozpoznat, kdy něco ztratilo smysl, ať jde o instituci, vztah nebo zvyk. Máš také odvahu to nahlas vyslovit. V práci tě přitahuje role reformátora, kritika, učitele nebo člověka, který připravuje půdu pro nové. Nejde ti o rychlý úspěch, jde ti o pravdivost. Navenek působíš klidně a vážně, s nadhledem někoho, kdo už leccos viděl. Uvnitř ale ustavičně přehodnocuješ. Do vztahů vnášíš upřímnost a ochotu měnit zaběhnuté vzorce. Nejlépe se ti daří, když svoje proměny nevnímáš jako útěk, ale jako zrání.",
+  "shadow": "Krize přesvědčení se u tebe snadno mění v trvalé odcházení. Od lidí a plánů se odkláníš dřív, než jim dáš šanci dozrát. Kritičnost přechází v cynismus a nadhled v odtažitost. Můžeš žít s pocitem, že nikam nepatříš, protože stará forma už nesedí a nová ještě nevznikla. Někdy tvrdohlavě držíš vlastní pravdu jen proto, že se liší od té většinové. Z neustálého přehodnocování pak vzniká nestálost, která ti brání něco dotáhnout do konce.",
+  "hard": [
+   {
+    "topics": [
+     "mental_crisis"
+    ],
+    "text": "Tradice tu mluví o obdobích hluboké vnitřní krize, kdy se hroutí dosavadní smysl života. Starší výklady spojují tuto fázi se sklonem k tíživé melancholii a ztrátě orientace, zvlášť když se zpochybní víra nebo celoživotní přesvědčení. Nejde o jistotu, spíš o citlivé místo povahy."
+   },
+   {
+    "topics": [
+     "loss",
+     "death"
+    ],
+    "text": "Tradice tu mluví o životě poznamenaném konci a odchody. Ubývající Měsíc se v ní pojí s loučením, rozpadem vztahů a ztrátou blízkých. Někdy jde i o vědomí konečnosti a smrti, které podle starších výkladů přichází dřív než u lidí narozených v jiných fázích."
+   },
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o slabší vitalitě lidí narozených při ubývajícím Měsíci. Starší autoři jim připisují pomalejší regeneraci a sklon k vyčerpání, zvlášť v obdobích vnitřních zlomů, kdy duševní napětí podle nich dopadá i na tělo."
+   }
+  ],
+  "traits": {
+   "text": [
+    "transformation",
+    "honesty",
+    "independence",
+    "criticism",
+    "depth"
+   ],
+   "shadow": [
+    "cynicism",
+    "detachment",
+    "loneliness",
+    "stubbornness",
+    "inconstancy"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "natal_moon_phase/balsamic",
+  "title": "Narození ve fázi: ubývající srpek před novem",
+  "keywords": [
+   "dozrání",
+   "odevzdání",
+   "uzavírání cyklu",
+   "předtucha",
+   "semeno budoucího"
+  ],
+  "themes": [
+   "character",
+   "growth",
+   "relationships"
+  ],
+  "text": "Narození v tenkém ubývajícím srpku před novem nese povahu konce cyklu. Měsíc tu už skoro mizí a světlo se stahuje dovnitř. Máš v sobě něco starého a dozrálého, jako by část cesty měla za sebou dřív, než začala. Vnímáš, kdy se věc uzavírá, a umíš ji dovést do konce bez zbytečného boje. Odevzdání pro tebe není prohra, ale přirozený krok. Silnou stránkou je intuice. Často tušíš směr dřív, než ho dokážeš vysvětlit. Tradice této fázi připisuje dar předtuchy a vnitřního vedení. Potřebuješ ticho a čas o samotě, protože v něm skládáš smysl prožitého. Lidé k tobě přicházejí v přechodech: při rozchodech, odchodech a změnách. Umíš nabídnout oporu ve chvíli, kdy něco končí. Zároveň v sobě neseš semeno budoucího. Tvoje práce často nese ovoce až později a jinde. Myslíš v dlouhých obloucích a dáváš přednost smyslu před rychlým úspěchem. Tvoje tvořivost roste z hloubky, ne z touhy zaujmout.",
+  "shadow": "Ubývající srpek před novem tě táhne k ústupu dřív, než je nutné. Snadno se v tobě usadí pocit, že tvůj čas už minul nebo ještě nepřišel. Uzavírání se pak mění v únik a místo rozhovoru zmizíš do ticha. Odevzdání může sklouznout k rezignaci a fatalismu. Únava a smutek z konců tě drží déle než ostatní. Přítomnost ti uniká, když žiješ jen ve vzpomínkách nebo předtuchách. Okolí pak tvou zdrženlivost čte jako chlad.",
+  "hard": [
+   {
+    "topics": [
+     "illness",
+     "death"
+    ],
+    "text": "Tradice tu mluví o Měsíci, který se blíží Slunci a ztrácí světlo. Starší autoři spojovali narození v této fázi s oslabenou životní silou, sklonem k vyčerpání a pomalejší regenerací. Některé texty zmiňují i kratší život nebo ohrožení kolem samotného porodu. Jde o tradiční obraz, ne o jistotu."
+   },
+   {
+    "topics": [
+     "loss",
+     "mental_crisis"
+    ],
+    "text": "Tradice tu mluví o životě, který provázejí konce: odchody blízkých, rozpady vztahů a uzavírání celých životních období. Tuto fázi spojuje také s melancholií, pocitem izolace a obdobími hluboké skleslosti, kdy se svět zdá vzdálený a cizí."
+   }
+  ],
+  "traits": {
+   "text": [
+    "intuition",
+    "depth",
+    "spirituality",
+    "transformation",
+    "empathy"
+   ],
+   "shadow": [
+    "escapism",
+    "melancholy",
+    "reclusiveness",
+    "exhaustion",
+    "detachment"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ }
+]

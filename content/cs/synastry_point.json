@@ -1,0 +1,3287 @@
+[
+ {
+  "key": "synastry_point/asc/sun/conjunction",
+  "title": "Slunce a ascendent druhého: konjunkce",
+  "keywords": [
+   "zviditelnění",
+   "sebevědomí",
+   "první dojem",
+   "vitalita",
+   "vůle"
+  ],
+  "themes": [
+   "character",
+   "relationships",
+   "health",
+   "growth"
+  ],
+  "text": "Slunce jednoho z vás svítí přímo na ascendent druhého, tedy na jeho tělo, gesta a první dojem. Druhý se v této blízkosti mění. Stojí rovněji, mluví jasněji a odvažuje se víc ukázat. Nositel Slunce v něm naopak vidí vlastní vůli převedenou do pohybu a činu. Doplňujete se tak, že jeden dává směr a energii a druhý jim dává tvář a tempo. Okolí vás často vnímá jako dvojici, která k sobě patří na první pohled. Jeden druhému připomíná, co je v něm silné, a druhý tu sílu nese ven do světa.",
+  "shadow": "Slunce jednoho z vás může ascendent druhého přezářit. Nositel Slunce pak určuje, jak má druhý vypadat, mluvit a jednat. Jeho vystupování bere jako vlastní vizitku. Druhý se buď začne předvádět kvůli obdivu, nebo naopak zmizí ve stínu. Pýcha se tu projevuje přes vzhled a chování: v kritice oblečení, gest a způsobu řeči. Když se jeden z vás cítí přehlížený, začne o pozornost soupeřit. Mezi vámi pak vzniká přetahování o to, kdo stojí uprostřed místnosti.",
+  "hard": [
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o tom, že Slunce na ascendentu druhého působí přímo na jeho tělo a vitalitu. Povzbuzuje ho, ale při slabém postavení může také vyčerpávat. Starší výklady zmiňují horkost, potíže se zrakem a srdcem a únavu z příliš intenzivní blízkosti. Je-li Slunce v pádu, tradice mluví o oslabeném zdraví a o napětí kolem otce či otcovské role."
+   }
+  ],
+  "traits": {
+   "text": [
+    "self_confidence",
+    "vitality",
+    "leadership",
+    "openness",
+    "creativity"
+   ],
+   "shadow": [
+    "dominance",
+    "pride",
+    "vanity",
+    "competitiveness",
+    "drama"
+   ]
+  },
+  "partner": "Jako pár se navzájem vnímáte nejdřív tělem a vzhledem. Nositel Slunce vidí druhého v jasném světle a obdivuje jeho pohyb, tvář a držení těla. Druhý se v té pozornosti cítí žádoucí a víc se otevírá. Přitažlivost mezi vámi je okamžitá a viditelná i pro okolí. V intimitě přináší teplo, hravost a chuť se jeden druhému ukazovat.",
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "synastry_point/asc/sun/harmonious",
+  "title": "Slunce a ascendent druhého: harmonický aspekt (sextil, trigon)",
+  "keywords": [
+   "vitalita",
+   "první dojem",
+   "vzájemná podpora",
+   "sebevyjádření",
+   "souhra"
+  ],
+  "themes": [
+   "relationships",
+   "character",
+   "growth",
+   "work",
+   "health"
+  ],
+  "text": "Slunce jednoho z vás je v souladu s ascendentem druhého. Vitalita prvního proto přirozeně posiluje to, jak druhý vystupuje navenek. Kdo z vás nese Slunce, vidí druhého v nejlepším světle a umí to říct nahlas. Kdo nese ascendent, díky tomu jedná jistěji a odvážněji se ukazuje. Tělo i výraz mu dostávají víc energie. Na oplátku vrací tvar: myšlenkám a plánům prvního dává tempo a podobu, se kterou se dá vyjít mezi lidi. Spolu působíte čitelně. Okolí vás bere jako dvojici, která si rozumí bez dlouhého vysvětlování. Spolupráce jde hladce, protože vůle jednoho a jednání druhého míří stejným směrem.",
+  "shadow": "Soulad mezi Sluncem jednoho a ascendentem druhého snadno sklouzne k tomu, že jeden z vás svítí a druhý jen odráží. Kdo nese Slunce, může čekat obdiv a brát vystupování druhého jako vlastní vizitku. Kdo nese ascendent, se může přizpůsobovat obrazu, který se líbí druhému, místo vlastního projevu. Protože všechno jde hladce, chybí tření, které by vás posouvalo. Pohodlí se mění v setrvačnost. Pýcha jednoho zůstává bez povšimnutí, dokud ji nezačne cítit okolí.",
+  "hard": [
+   {
+    "topics": [
+     "illness",
+     "loss"
+    ],
+    "text": "Tradice tu mluví o Slunci jako dárci vitality, srdce a zraku a o ascendentu jako o těle. Harmonický aspekt čte jako podporu: přítomnost jednoho z vás má druhému dodávat sílu a chuť do pohybu. Je-li však Slunce v pádu, tradice tu mluví o oslabeném zdraví, potížích se srdcem či zrakem a o otci, jehož vliv slábne nebo chybí. I tehdy jde o náchylnost, ne o jistotu."
+   }
+  ],
+  "traits": {
+   "text": [
+    "vitality",
+    "self_confidence",
+    "cooperation",
+    "creativity",
+    "generosity"
+   ],
+   "shadow": [
+    "pride",
+    "vanity",
+    "submissiveness",
+    "stagnation",
+    "dominance"
+   ]
+  },
+  "partner": "Přitažlivost mezi vámi začíná už u prvního pohledu. Kdo nese Slunce, vnímá tělo a pohyby druhého s obdivem a dává to najevo. Kdo nese ascendent, v té pozornosti rozkvétá a uvolňuje se. Intimita má hřejivou a otevřenou povahu, bez hry na schovávanou. Blízkost vám dodává energii místo únavy a ve dvou se cítíte víc ve svém těle.",
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "synastry_point/asc/sun/tense",
+  "title": "Slunce a ascendent druhého: napěťový aspekt (kvadrát, opozice)",
+  "keywords": [
+   "střet vůle",
+   "první dojem",
+   "sebevyjádření",
+   "souboj o vliv"
+  ],
+  "themes": [
+   "relationships",
+   "character",
+   "health"
+  ],
+  "text": "Vůle jednoho z vás naráží přímo na to, jak druhý vystupuje, mluví a jedná. Kdo má v této dvojici Slunce, chce vést, svítit a mít poslední slovo. Druhý odpovídá tělem a tempem. Zrychlí, ztuhne nebo se vzepře. Mezi vámi je hodně energie a málo klidu. Právě to tření vás ale nutí ukázat se naplno. Jeden z vás dává směr a odvahu k sebevyjádření. Druhý vrací přímou zpětnou vazbu o tom, jak ta síla působí navenek. Učíte se, že výraznost jednoho nemusí přehlušit druhého. Když se to podaří, máte spolu tvořivou a živou dynamiku.",
+  "shadow": "Slunce jednoho z vás snadno přezáří způsob, jakým druhý jedná a vypadá. Padají poznámky o chování, oblečení, tempu nebo vystupování. Druhý se pak cítí pod dohledem a brání se vzdorem nebo stažením. Pýcha na jedné straně a dotčenost na druhé z obyčejných situací dělají souboj o to, kdo má navrch. Každé společné vystoupení se mění ve zkoušku. Vztah tak může víc vyčerpávat než posilovat.",
+  "hard": [
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o tom, že Slunce v napětí s ascendentem doléhá na tělo a vitalitu druhého. Dlouhodobý tlak spojuje s únavou, oslabením srdce, zraku a celkové životní síly. U rodiče a dítěte tradice tento aspekt čte jako přísnou otcovskou autoritu, která zatěžuje zdraví i sebevědomí druhého."
+   }
+  ],
+  "traits": {
+   "text": [
+    "leadership",
+    "self_confidence",
+    "vitality",
+    "creativity"
+   ],
+   "shadow": [
+    "dominance",
+    "pride",
+    "rebellion",
+    "criticism",
+    "exhaustion"
+   ]
+  },
+  "partner": "Přitažlivost je okamžitá a provokativní. Jeden z vás vidí v druhém výzvu. Druhý cítí žár i tlak zároveň. Tělesná blízkost má sílu, ale i soupeřivý podtón. Hádky a usmiřování se snadno prolínají. Intimita funguje, když ani jeden z vás nemusí vyhrávat.",
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "synastry_point/asc/moon/conjunction",
+  "title": "Měsíc a ascendent druhého: konjunkce",
+  "keywords": [
+   "citová blízkost",
+   "pocit domova",
+   "zrcadlení nálad",
+   "první dojem",
+   "péče o tělo"
+  ],
+  "themes": [
+   "relationships",
+   "family",
+   "character",
+   "health"
+  ],
+  "text": "Měsíc jednoho z vás leží přímo na ascendentu druhého, takže city prvního se okamžitě zrcadlí v tom, jak druhý působí a jedná. Jeden z vás vycítí náladu druhého dřív, než ji ten stihne vyslovit. Druhý zase dává těm pocitům tvář, hlas a pohyb. Už od prvního setkání mezi vámi vzniká pocit důvěrné známosti, něco jako návrat domů. Ten, kdo nese Měsíc, nabízí péči, zázemí a starost o pohodlí i tělo druhého. Ten s ascendentem přináší chuť jednat a ukázat se světu. Snadno sdílíte zvyky a rytmus dne a umíte se navzájem uklidnit pouhou přítomností.",
+  "shadow": "Měsíc na ascendentu druhého znamená, že nálady jednoho z vás doléhají přímo na chování a tělo druhého. Ten s ascendentem pak nese odpovědnost za cizí pocity a ztrácí vlastní tvář. Ten s Měsícem zase bere každé zamračení nebo strohé gesto osobně a odpovídá uražeností. Hrozí lpění, vzájemná závislost a tiché citové vydírání typu „když se mračíš, je mi zle“. Mezi vámi se snadno opakují staré rodinné vzorce a nevyřešené vztahy s matkou.",
+  "hard": [
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o tom, že napětí mezi vámi se snadno ukládá do těla, hlavně do žaludku a trávení. Nálada jednoho z vás se u druhého může projevit nechutí k jídlu, únavou nebo neklidným spánkem. Starší autoři spojují toto postavení i s otázkami plodnosti. Jde o tradiční obraz Měsíce jako vládce tělesných šťáv, ne o jistotu."
+   },
+   {
+    "topics": [
+     "mental_crisis"
+    ],
+    "text": "Tradice tu mluví o kolísání duševní rovnováhy. V obdobích stresu se úzkost jednoho z vás přelévá do druhého a navzájem ji zesilujete. Starší výklady varují před rozladěním nervů a citovým vyčerpáním tam, kde mezi vámi chybí odstup."
+   },
+   {
+    "topics": [
+     "loss",
+     "death"
+    ],
+    "text": "Tradice tu mluví o ztrátě matky nebo mateřské postavy jako o tématu, které toto spojení může probudit nebo nést. Někdy se vztah utváří kolem smutku jednoho z vás a druhý se stává jeho svědkem a oporou."
+   }
+  ],
+  "traits": {
+   "text": [
+    "empathy",
+    "protectiveness",
+    "sensitivity",
+    "belonging",
+    "intuition"
+   ],
+   "shadow": [
+    "moodiness",
+    "dependence",
+    "sulking",
+    "family_attachment"
+   ]
+  },
+  "partner": "Mezi vámi funguje silná tělesná blízkost. Ten s Měsícem vnímá druhého všemi smysly: vůni, hlas, způsob pohybu. Přitažlivost roste z pocitu bezpečí a důvěrnosti, ne z napětí. Intimita je něžná, pečující a citově nabitá. Touhu ale silně ovlivňují nálady, takže chlad jednoho z vás druhý okamžitě pocítí v těle.",
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "synastry_point/asc/moon/harmonious",
+  "title": "Měsíc a ascendent druhého: harmonický aspekt (sextil, trigon)",
+  "keywords": [
+   "citové bezpečí",
+   "porozumění beze slov",
+   "společné zvyky",
+   "konejšivá přítomnost"
+  ],
+  "themes": [
+   "relationships",
+   "family",
+   "health",
+   "character"
+  ],
+  "text": "Měsíc jednoho z vás plynule ladí s tím, jak druhý působí a jedná navenek. Způsob, jakým druhý mluví, pohybuje se a vstupuje do místnosti, uklidňuje vnitřní svět prvního. Funguje to i opačně: druhý snadno vyčte nálady a potřeby prvního z tváře a z těla, často beze slov. Máte podobné tempo dne. Sedí vám společné zvyky u jídla, při odpočinku i v domácích drobnostech. Jeden z vás dává pocit domova a bezpečí. Druhý mu vrací jistotu, že jeho nálady nejsou přítěž. Vedle sebe se snadno uvolníte a tělo přestává být ve střehu.",
+  "shadow": "Snadné porozumění mezi Měsícem jednoho a vystupováním druhého svádí k tomu, že se nic nevyslovuje nahlas. Druhý se náladám prvního přizpůsobuje tak ochotně, že jeho vlastní projev postupně ztrácí ostré obrysy. Ten s Měsícem si zvyká, že ho druhý vždy podrží, a opírá se o něj víc, než je zdravé. Pohodlí se mění v rutinu, ve které se nic nehýbe. Drobné citové vydírání tu snadno projde, protože vypadá jako něha.",
+  "hard": [
+   {
+    "topics": [
+     "illness",
+     "loss",
+     "mental_crisis"
+    ],
+    "text": "Tradice tu mluví o tom, že přítomnost druhého působí konejšivě na tělo, trávení a duševní rovnováhu prvního. V době nemoci, duševního otřesu nebo po ztrátě matky může druhý nahradit kus mateřské péče. Harmonický aspekt tradice nespojuje se smrtí ani s vážným neštěstím, spíše s útěchou ve chvíli, kdy těžké období přijde."
+   }
+  ],
+  "traits": {
+   "text": [
+    "empathy",
+    "calm",
+    "protectiveness",
+    "belonging",
+    "intuition"
+   ],
+   "shadow": [
+    "dependence",
+    "stagnation",
+    "submissiveness",
+    "moodiness"
+   ]
+  },
+  "partner": "V milostném páru působí tělo a gesta jednoho na druhého jako známé, bezpečné místo. Přitažlivost je tichá a vytrvalá a vyrůstá z pohodlí, ne z napětí. Dotek přichází přirozeně. Intimita má rytmus společného spánku, pomalých rán a domácího tepla. Jeden z vás se vedle druhého cítí žádoucí bez nutnosti se předvádět.",
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "synastry_point/asc/moon/tense",
+  "title": "Měsíc a ascendent druhého: napěťový aspekt (kvadrát, opozice)",
+  "keywords": [
+   "nálady proti projevu",
+   "citové reakce",
+   "první dojem",
+   "společné tempo"
+  ],
+  "themes": [
+   "relationships",
+   "character",
+   "family",
+   "health"
+  ],
+  "text": "Nálady jednoho z vás okamžitě reagují na to, jak druhý vystupuje, mluví a pohybuje se. Způsob, jakým druhý jedná, se dotýká citových potřeb toho prvního, často jinak, než čeká. Ten s Měsícem chce klid, známý rytmus a pocit bezpečí. Ten s ascendentem jedná po svém a na nálady nečeká. Právě tady se doplňujete. Jeden z vás vnáší do vztahu cit pro to, co se skrývá za vnějším dojmem. Druhý pomáhá vystoupit z nálady a začít jednat. Učíte se navzájem číst, co se děje pod povrchem i na povrchu, a hledáte společné tempo.",
+  "shadow": "Mezi vámi snadno vzniká pocit, že jeden z vás svým chováním zraňuje a druhý svými náladami brzdí. Ten s Měsícem bere obyčejné gesto nebo tón druhého osobně a stahuje se do uraženosti. Ten s ascendentem cítí tlak, že musí hlídat každý svůj krok, a odpovídá odstupem. Hrozí citové vydírání přes výčitky, mlčení nebo připomínání starých křivd. Opozice táhne obě strany do přetahování. Kvadrát přináší drobné, opakované srážky kvůli zvykům a režimu dne.",
+  "hard": [
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o tom, že napětí mezi city jednoho a projevem druhého se ukládá do těla. Spojuje tento aspekt se žaludečními potížemi, nechutenstvím, poruchami spánku a únavou, hlavně u toho s Měsícem v obdobích dlouhých sporů. Jde o tradiční obraz, ne o předpověď."
+   },
+   {
+    "topics": [
+     "mental_crisis"
+    ],
+    "text": "Tradice tu mluví také o rozkolísané duševní rovnováze. Opakované střety nálad jednoho s chováním druhého podle ní mohou přivodit úzkost, sklíčenost nebo stavy, kdy jednoho z vás zaplaví citové vyčerpání."
+   },
+   {
+    "topics": [
+     "loss"
+    ],
+    "text": "Tradice tu mluví i o ztrátě matky nebo mateřské postavy v době, kdy je spojení mezi vámi silně aktivní, a o pocitu ztraceného domova. Podává to jako možný motiv, nikoli jako jistotu."
+   }
+  ],
+  "traits": {
+   "text": [
+    "sensitivity",
+    "intuition",
+    "empathy",
+    "flexibility"
+   ],
+   "shadow": [
+    "moodiness",
+    "sulking",
+    "detachment",
+    "rigidity"
+   ]
+  },
+  "partner": "V milostném vztahu působí vnější projev jednoho z vás na druhého velmi tělesně. Vzhled, pohyb a hlas probouzejí silné city a touhu po blízkosti. Přitažlivost má neklidný náboj a něha se v ní střídá s podrážděností. Intimita se prohlubuje, když nálady nepřevádíte na výčitky o tom, jak se ten druhý chová.",
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "synastry_point/asc/mercury/conjunction",
+  "title": "Merkur a ascendent druhého: konjunkce",
+  "keywords": [
+   "rozhovor",
+   "první dojem",
+   "postřeh",
+   "slova o druhém"
+  ],
+  "themes": [
+   "relationships",
+   "character",
+   "health"
+  ],
+  "text": "Myšlení jednoho z vás dopadá přímo na to, jak druhý působí a jedná. Ten s Merkurem si všímá gest, držení těla i prvního dojmu druhého a hned je pojmenovává. Druhý se díky tomu vidí jasněji. Slyší, jak působí navenek, a může s tím pracovat. Hovor mezi vámi běží snadno, často od první chvíle. Dobře spolu plánujete krátké cesty, vyřizujete věci a sdílíte nápady. Jeden přináší slova a postřehy. Druhý přináší tvar, energii a přímou reakci. Učíte se od sebe rychle a nenudíte se.",
+  "shadow": "Komentáře jednoho z vás míří na vzhled, chování a tělo druhého, a to snadno zraní. Kdo stojí pod drobnohledem, má pocit neustálého hodnocení. Ten s Merkurem přenáší na druhého vlastní neklid a nervozitu. Druhý pak jedná uspěchaně nebo strnule. Hrozí povrchnost: posuzujete se podle prvního dojmu a hlouběji nejdete. Někdy jeden z vás vykládá druhého ostatním po svém. Vznikají drby a zkreslený obraz. Slova mezi vámi pak druhého ovládají místo toho, aby vysvětlovala.",
+  "hard": [
+   {
+    "topics": [
+     "illness",
+     "mental_crisis"
+    ],
+    "text": "Tradice tu mluví o nervovém napětí, které se přenáší do těla. Ten s ascendentem může v blízkosti druhého reagovat nervozitou, zadrháváním řeči, mělkým dechem nebo potížemi s plícemi. Jde o starý obraz Merkura působícího na tělo druhého, ne o jistotu."
+   }
+  ],
+  "traits": {
+   "text": [
+    "eloquence",
+    "curiosity",
+    "openness",
+    "cooperation"
+   ],
+   "shadow": [
+    "criticism",
+    "restlessness",
+    "superficiality",
+    "anxiety",
+    "deceit"
+   ]
+  },
+  "partner": "V milostném páru začíná přitažlivost rozhovorem. Ten s Merkurem popisuje tělo a pohyby druhého slovy, která vzrušují. Flirt je hravý, vtipný a plný narážek. Druhý se cítí viděný, a to probouzí touhu. Intimita stojí na řeči: šepot, dráždivé zprávy a slovní hra předcházejí dotyku. Bez rozhovoru vášeň rychle vyhasíná.",
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "synastry_point/asc/mercury/harmonious",
+  "title": "Merkur a ascendent druhého: harmonický aspekt (sextil, trigon)",
+  "keywords": [
+   "porozumění od první chvíle",
+   "slova a vystupování",
+   "živý rozhovor",
+   "společné plány"
+  ],
+  "themes": [
+   "relationships",
+   "character",
+   "work"
+  ],
+  "text": "Myšlení jednoho z vás přirozeně ladí s tím, jak druhý působí a jedná. Ten s Merkurem umí slovy vystihnout, co druhý dělá a co mu jde z tváře, často dřív, než to druhý vysloví. Druhý má díky tomu pocit, že mu někdo rozumí. Rozhovor mezi vámi naskočí rychle, už při prvním setkání. Dobře se vám spolu plánuje, učí, vyřizuje i cestuje na krátké vzdálenosti. Jeden přináší nápady a slova, druhý jim dává tvar, tempo a tvář navenek. Pochvala nebo rada od toho s Merkurem posiluje druhému jistotu v tom, jak vystupuje. Živost a přímost druhého zase rozhýbe myšlení prvního.",
+  "shadow": "Snadné porozumění mezi Merkurem jednoho a vystupováním druhého svádí k tomu, že slova nahradí skutečný pohled. Ten s Merkurem může druhého neustále komentovat, hodnotit jeho vzhled a chování a dělat z toho vtipy, které časem zraní. Druhý se může začít řídit tím, co o něm první říká, a ztrácet vlastní úsudek. Hovor mezi vámi plyne tak hladce, že zůstává na povrchu a těžké věci se odkládají. Spolu umíte působit přesvědčivě, v horším případě i manipulovat okolím nebo šířit drby.",
+  "hard": [
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o tom, že Merkur souvisí s nervy, plícemi a řečí a ascendent s tělem. Neklid jednoho se tak může přenášet do těla druhého jako nervozita, napětí, mělký dech nebo zadrhávání v řeči. U harmonického aspektu jde podle tradice spíš o mírný sklon než o jistotu."
+   }
+  ],
+  "traits": {
+   "text": [
+    "eloquence",
+    "curiosity",
+    "cooperation",
+    "openness",
+    "self_confidence"
+   ],
+   "shadow": [
+    "superficiality",
+    "criticism",
+    "dependence",
+    "restlessness",
+    "deceit"
+   ]
+  },
+  "partner": "V lásce u vás začíná přitažlivost často slovy. Hlas, vtip a pozornost toho s Merkurem působí na druhého jako dotek. Druhý zase tělem, pohybem a výrazem rozpaluje fantazii prvního. Flirt mezi vámi je hravý, plný narážek a zpráv. Blízkost roste z rozhovoru, i z toho šeptaného.",
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "synastry_point/asc/mercury/tense",
+  "title": "Merkur a ascendent druhého: napěťový aspekt (kvadrát, opozice)",
+  "keywords": [
+   "ostré poznámky",
+   "zrcadlo vystupování",
+   "rychlé tempo",
+   "slova proti činům"
+  ],
+  "themes": [
+   "relationships",
+   "character",
+   "health"
+  ],
+  "text": "Myšlení jednoho z vás míří přímo na to, jak druhý vystupuje, mluví a pohybuje se. Jeden z vás pojmenovává, rozebírá a komentuje, druhý tím dostává nečekané zrcadlo. Rozhovory mezi vámi mají rychlé tempo, ostré otázky a málo prostoru pro zdvořilé mlčení. Doplňujete se tak, že jeden přináší slova a postřehy a druhý energii a činy, na kterých se dá myšlenka hned vyzkoušet. Druhý se díky tomu učí vidět vlastní první dojem zvenku. Jeden z vás zase získává živý protějšek, který nápady nenechá ležet jen na papíře. Spolu rychle řešíte praktické věci, plánujete krátké cesty a vyjednáváte.",
+  "shadow": "Postřeh jednoho z vás snadno sklouzne ke kritice toho, jak druhý vypadá, chodí nebo mluví. Druhý pak slyší poznámky o vlastním těle a vystupování jako útok a odpovídá podrážděně, nebo se stáhne. Vzniká nervózní napětí: jeden mluví víc a rychleji, druhý reaguje tělem, gestem nebo odchodem. Mezi vámi hrozí přerušování, ironie, chytračení a drobné lsti ve slovech. Před ostatními se mohou objevit poznámky a pomluvy o tom, jak druhý působí.",
+  "hard": [
+   {
+    "topics": [
+     "illness",
+     "mental_crisis"
+    ],
+    "text": "Tradice tu mluví o nervovém napětí, které se mezi vámi přenáší do těla. Spojuje toto postavení s podrážděnými nervy, mělkým dechem, potížemi s plícemi a s řečí, například se zadrháváním nebo ztrátou hlasu ve vypjatých chvílích. Jde o tradiční obraz, ne o jistotu."
+   }
+  ],
+  "traits": {
+   "text": [
+    "eloquence",
+    "curiosity",
+    "openness",
+    "rationality"
+   ],
+   "shadow": [
+    "criticism",
+    "restlessness",
+    "anxiety",
+    "deceit",
+    "anger"
+   ]
+  },
+  "partner": "V milostném vztahu mezi vámi jiskří hlavně slova. Jeden z vás popisuje tělo a vzhled druhého, škádlí a provokuje, druhý odpovídá pohybem a blízkostí. Přitažlivost roste z dráždivých rozhovorů a hravých sporů. V intimitě pomáhá otevřeně mluvit o tom, co je příjemné. Jedna nevhodná poznámka o těle ale dokáže náladu rychle zchladit.",
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "synastry_point/asc/venus/conjunction",
+  "title": "Venuše a ascendent druhého: konjunkce",
+  "keywords": [
+   "první dojem",
+   "vkus",
+   "vzájemné ocenění",
+   "krása",
+   "soulad"
+  ],
+  "themes": [
+   "relationships",
+   "character",
+   "money",
+   "health"
+  ],
+  "text": "Venuše jednoho z vás leží přímo na ascendentu druhého. Mezi vámi proto funguje vzájemná libost na pohled i v jednání. Jeden z vás vnímá jako příjemný způsob, jakým druhý vchází do místnosti, mluví a pohybuje se. Druhý v této přítomnosti zažívá ocenění a uvolnění a navenek pak působí jistěji. Máte podobný vkus a snadno se shodnete na prostředí, stylu nebo podobě společné věci. Jeden přináší cit pro krásu a smír. Druhý mu dává tvář a jednání, ve kterých se ten cit projeví. Spory mezi vámi rychle měknou, protože jednat k sobě vlídně je pro vás přirozené.",
+  "shadow": "Venuše jednoho z vás na ascendentu druhého snadno zúží váš vztah na vnějšek: jak kdo vypadá, jak působí, co nosí. Jeden z vás může druhého posuzovat podle vzhledu a rozdávat nevyžádané rady o stylu. Druhý si pak zvyká hledat potvrzení v cizích očích a bez obdivu ztrácí jistotu. Společně sklouzáváte k pohodlí, mlsání a utrácení za hezké věci. Příjemná atmosféra mezi vámi někdy zakrývá to, co je potřeba říct nahlas.",
+  "hard": [
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o tělesné citlivosti krku a ledvin u toho, jehož ascendent Venuše zasahuje. Platí to hlavně tehdy, když váš společný styl života vede k přejídání, sladkému, alkoholu nebo nedostatku pohybu. Jde o tradiční souvislost, ne o předpověď nemoci."
+   },
+   {
+    "topics": [
+     "loss"
+    ],
+    "text": "Tradice tu mluví také o rozchodech. Vztah postavený hlavně na zalíbení a prvním dojmu může skončit, když vnější kouzlo vyprchá nebo se změní vzhled či okolnosti. Ztráta pak bolí o to víc, že na začátku šlo všechno tak snadno."
+   },
+   {
+    "topics": [
+     "addiction"
+    ],
+    "text": "Tradice tu zmiňuje i sklon ke společnému požitkářství a k závislosti na vzájemném obdivu. Jeden z vás může druhého podporovat v pohodlnosti, rozhazování nebo v potřebě neustálého ujišťování, až se z toho stane zvyk, který se těžko opouští."
+   }
+  ],
+  "traits": {
+   "text": [
+    "charm",
+    "gentleness",
+    "cooperation",
+    "self_acceptance",
+    "creativity"
+   ],
+   "shadow": [
+    "vanity",
+    "superficiality",
+    "indulgence",
+    "dependence",
+    "extravagance"
+   ]
+  },
+  "partner": "Jako pár zažíváte silnou přitažlivost od prvního pohledu. Jeden z vás vidí ve druhém ztělesnění toho, co považuje za krásné. Druhý se pod tímto pohledem cítí žádoucí a svůj. Doteky, něžnost a péče o tělo jsou mezi vámi přirozené. Smyslnost roste z obyčejné blízkosti, ze společného jídla, vůní a pohodlí.",
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "synastry_point/asc/venus/harmonious",
+  "title": "Venuše a ascendent druhého: harmonický aspekt (sextil, trigon)",
+  "keywords": [
+   "první dojem",
+   "vkus",
+   "uznání",
+   "lehkost",
+   "soulad"
+  ],
+  "themes": [
+   "relationships",
+   "character",
+   "health"
+  ],
+  "text": "Jeden z vás má radost z toho, jak druhý vystupuje, mluví a působí na první pohled. Druhý cítí, že jeho způsob jednání někdo oceňuje, a proto se chová přirozeněji a s větší jistotou. Vkus jednoho a projev druhého do sebe zapadají. Jeden umí poradit s oblečením, prostředím nebo tónem řeči a druhý ty rady snadno přijme za své. V obyčejných věcech mezi vámi vzniká málo tření. Společné akce, návštěvy i práce mají příjemný průběh, protože vám záleží na klidu a slušné formě. Navenek působíte jako dvojice, se kterou je dobře.",
+  "shadow": "Obdiv jednoho k tomu, jak druhý působí, může zůstat u povrchu. Jeden z vás pak oceňuje obraz a druhý se učí hrát roli, která se líbí. Lichotky nahrazují upřímnost. Nepříjemné věci se odkládají, aby nezkazily dobrou náladu. Společně snadno sklouzáváte k pohodlí: drahé věci, dobré jídlo, odpočinek místo práce. Druhý si může zvyknout na pochvalu a bez ní ztrácet jistotu. Marnivost a rozhazovačnost tu rostou nenápadně, protože je nikdo z vás nebrzdí.",
+  "hard": [
+   {
+    "topics": [
+     "illness",
+     "addiction"
+    ],
+    "text": "Tradice tu mluví o ledvinách a krku jako o místech, kde se projeví přemíra pohodlí. Společné hodování, sladkosti, alkohol a pozdní noci spojuje tradice se zátěží těla toho, kdo má ascendent. U harmonického aspektu jde spíš o mírné sklony než o vážné hrozby."
+   },
+   {
+    "topics": [
+     "loss"
+    ],
+    "text": "Tradice tu mluví i o rozchodech. Vztah postavený hlavně na zalíbení se může rozplynout, když se změní vzhled nebo okolnosti a příjemnost zmizí. Rozchod pak bývá tichý a bez scén, ale zanechává pocit prázdnoty."
+   }
+  ],
+  "traits": {
+   "text": [
+    "charm",
+    "cooperation",
+    "calm",
+    "lightness",
+    "self_confidence"
+   ],
+   "shadow": [
+    "superficiality",
+    "vanity",
+    "indulgence",
+    "dependence",
+    "extravagance"
+   ]
+  },
+  "partner": "Přitažlivost je okamžitá a pohodlná. Jednoho z vás těší vzhled, vůně a pohyby druhého a nemusí to skrývat. Druhý se v té pozornosti cítí krásně a uvolněně. Dotyky přicházejí přirozeně, bez nátlaku. Intimita mezi vámi stojí víc na něžnosti, péči o prostředí a potěšení ze smyslů než na vášnivém boji.",
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "synastry_point/asc/venus/tense",
+  "title": "Venuše a ascendent druhého: napěťový aspekt (kvadrát, opozice)",
+  "keywords": [
+   "střet vkusu",
+   "první dojem",
+   "hodnocení vzhledu",
+   "takt a přímost"
+  ],
+  "themes": [
+   "relationships",
+   "character",
+   "money",
+   "health"
+  ],
+  "text": "Vkus a hodnoty jednoho z vás narážejí na to, jak druhý působí, jedná a vystupuje. V tom, jak druhý chodí, mluví a obléká se, vidí jeden z vás kouzlo i drobné nesoulady. Druhý zase cítí, že jeho první dojem neprochází bez hodnocení. Přesto si navzájem dáváte hodně. Jeden z vás přináší cit pro míru, krásu a takt. Druhý přináší přímost, energii a jasné jednání. Učíte se, že vystupovat jde laskavěji a že vkus snese i odvahu. Drobnosti, jako je oblečení, hlas nebo způsob vstupu do místnosti, vám otevírají rozhovor o tom, na čem komu záleží.",
+  "shadow": "Hodnocení vzhledu a vystupování se mezi vámi snadno mění v tichou kritiku. Jeden z vás dává najevo nelibost nad stylem, hlasitostí nebo tempem druhého, často jen pohledem či úsměškem. Druhý to bere jako odmítnutí celé své osoby. Reaguje vzdorem, nebo přehnanou snahou se zalíbit. Hrozí marnivost a soutěžení o to, kdo působí lépe. Přicházejí i spory o peníze utracené za vzhled, dárky a pohodlí. Za zdvořilostí se pak skrývá nepřiznaná výčitka.",
+  "hard": [
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o citlivosti ledvin a krku. Venuše podle ní tyto oblasti spravuje, a když je v napětí s tělem druhého, staré texty spojují vztah s obdobími, kdy se jeden z vás potýká s obtížemi právě v těchto místech. Jde o symbolický výklad, ne o předpověď."
+   },
+   {
+    "topics": [
+     "loss"
+    ],
+    "text": "Tradice tu mluví o rozchodech. Napětí mezi Venuší a ascendentem druhého podle ní nese riziko, že se vztah rozpadne kvůli neshodě ve vkusu, hodnotách nebo způsobu vystupování. Tak zní tradiční výklad, ne jistota. Rozchod tu nemusí znamenat konec citu, ale únavu z neustálého vzájemného posuzování."
+   }
+  ],
+  "traits": {
+   "text": [
+    "charm",
+    "openness",
+    "flexibility",
+    "creativity"
+   ],
+   "shadow": [
+    "criticism",
+    "vanity",
+    "rebellion",
+    "extravagance",
+    "sulking"
+   ]
+  },
+  "partner": "Ve dvojici působí vzhled a pohyb jednoho z vás na druhého silně, ale neklidně. Přitažlivost je živá, plná škádlení a třecích ploch. Jeden z vás touží druhého zjemnit, druhý se brání, a právě to jiskří. V intimitě se střídá vášeň s pocitem, že by vás ten druhý chtěl mít trochu jinak.",
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "synastry_point/asc/mars/conjunction",
+  "title": "Mars a ascendent druhého: konjunkce",
+  "keywords": [
+   "povzbuzení",
+   "přímost",
+   "tempo",
+   "střet",
+   "tělesná energie"
+  ],
+  "themes": [
+   "relationships",
+   "character",
+   "health"
+  ],
+  "text": "Mars jednoho z vás míří přímo na to, jak druhý vystupuje a jedná. Druhý pak nabírá tempo a odvahu a začne se ozývat. Už první setkání má náboj. Něco se hned rozjede, padne rozhodnutí, vznikne plán. Druhý díky tomu působí rázněji a víc si věří ve vlastním těle i pohybu. Jeden z vás zase dostává okamžitou odezvu na svou iniciativu a vidí, že jeho energie má smysl. Spolu snadno rozjíždíte společné akce, sport nebo práci s jasným cílem. Mezi vámi vládne přímost a na dlouhé vyčkávání nezbývá místo.",
+  "shadow": "Když Mars tlačí na ascendent druhého, druhý snadno získá pocit, že ho jeden z vás neustále popohání, opravuje nebo napadá už za to, jak vypadá a jak se chová. Jeden z vás komentuje, tlačí a vnucuje svoje tempo. Druhý se brání, vrací úder nebo se stáhne. Hádky vznikají z maličkostí a rychle se vyostří. Netrpělivost jednoho naráží na obranu druhého. Soupeření z prvního dojmu pak může určovat celý vztah.",
+  "hard": [
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o zraněních, horečkách, zánětech a operacích, které se týkají těla toho, na jehož ascendent Mars dopadá. Ve vašem společném čase podle starých výkladů roste sklon k úrazům, řezným ranám a popáleninám. Jde o tradiční výklad, ne o jistotu."
+   },
+   {
+    "topics": [
+     "violence"
+    ],
+    "text": "Tradice tu mluví také o fyzických střetech a násilí, kdy se hádka mezi vámi přelije do těla. Starší výklady sem řadí i nehody při společných rizikových činnostech, rychlé jízdě nebo zbrklém jednání. Tradice to uvádí jako možnost vyostření, nikoli jako předpověď."
+   }
+  ],
+  "traits": {
+   "text": [
+    "courage",
+    "vitality",
+    "decisiveness",
+    "self_confidence"
+   ],
+   "shadow": [
+    "aggression",
+    "impulsiveness",
+    "dominance",
+    "anger",
+    "competitiveness"
+   ]
+  },
+  "partner": "V milostném páru je přitažlivost okamžitá a tělesná. Jeden z vás vnímá tělo, pohyby a vzhled druhého jako výzvu. Druhý tu touhu cítí hned při prvním pohledu. Sexualita má rychlé tempo, hodně iniciativy a soutěživý nádech. Vášeň snadno přechází v hádku a z hádky zase zpátky do blízkosti.",
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "synastry_point/asc/mars/harmonious",
+  "title": "Mars a ascendent druhého: harmonický aspekt (sextil, trigon)",
+  "keywords": [
+   "povzbuzení",
+   "společná akce",
+   "odvaha",
+   "tempo",
+   "vitalita"
+  ],
+  "themes": [
+   "relationships",
+   "character",
+   "work",
+   "health"
+  ],
+  "text": "Energie jednoho z vás přirozeně posiluje to, jak druhý vystupuje a jedná. Kde jeden tlačí dopředu, druhý dostává odvahu ukázat se a pustit se do věci. Způsob jednání druhého zase dává té síle tvar a směr, takže se nerozlévá naprázdno. Spolu snadno rozjedete společný plán, sport, stěhování nebo pracovní úkol. Rozhodujete se rychle a bez dlouhých průtahů. Spory mezi vámi nebývají ostré. Často stačí jedna přímá věta a jdete dál. Vedle sebe máte víc sil a chuti do pohybu.",
+  "shadow": "Snadnost téhle souhry svádí k tomu, že jeden z vás udává tempo a druhý se jen veze. Netrpělivost a zbrklost tu nenarážejí na odpor, a tak je nikdo nebrzdí. Spolu snadno přeceníte síly, vrhnete se do rizika bez přípravy nebo přehlédnete únavu těla. Drobné popíchnutí se může zvrhnout v zbytečnou přetahovanou, protože vás oba baví vyhrávat. Druhý časem může mít pocit, že vlastní vystupování přebírá cizí rytmus.",
+  "hard": [
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o horečkách, zraněních a operacích, protože Mars se dotýká těla druhého. U harmonického aspektu ale spíš o rychlé obnově sil a o tom, že přítomnost jednoho dodává druhému při nemoci či zotavení energii. Riziko vidí hlavně v úrazech při společné fyzické činnosti a ve spěchu."
+   },
+   {
+    "topics": [
+     "violence"
+    ],
+    "text": "Tradice tu mluví o násilí spíš jako o ochraně. Ten, jehož Mars se dotýká ascendentu druhého, se v ohrožení snadno staví na jeho stranu a brání ho. Stínem je ochota jít do konfliktu s okolím příliš ochotně a společně se dostat do potyčky, které se dalo vyhnout."
+   }
+  ],
+  "traits": {
+   "text": [
+    "courage",
+    "vitality",
+    "decisiveness",
+    "cooperation",
+    "self_confidence"
+   ],
+   "shadow": [
+    "impulsiveness",
+    "risk_taking",
+    "competitiveness",
+    "dominance",
+    "restlessness"
+   ]
+  },
+  "partner": "Mezi vámi je silná tělesná přitažlivost, která se ale neprojevuje tlakem. Touha jednoho přirozeně odpovídá tomu, jak druhý působí a pohybuje se. Iniciativa přichází snadno a druhý ji přijímá bez obav. V intimitě máte společné tempo, hravost a chuť se navzájem rozpalovat. Vášeň mezi vámi dlouho neochabuje, protože se navzájem probouzíte.",
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "synastry_point/asc/mars/tense",
+  "title": "Mars a ascendent druhého: napěťový aspekt (kvadrát, opozice)",
+  "keywords": [
+   "tření",
+   "tempo",
+   "střet vůle",
+   "odvaha",
+   "podrážděnost"
+  ],
+  "themes": [
+   "relationships",
+   "character",
+   "health"
+  ],
+  "text": "Mars jednoho z vás naráží přímo na způsob, jakým druhý vystupuje a jedná. Jeden z vás přináší tah, tempo a ochotu jít do věcí hned. Druhý to cítí jako tlak na vlastní projev, tělo i první dojem, který dělá na okolí. Mezi vámi proto jiskří už v drobnostech: kdo začne, kdo rozhodne, kdo určí rychlost. Tohle tření má ale sílu. Jeden z vás druhého vyburcuje z váhání a dodá odvahu ukázat se naplno. Druhý zase nastavuje zrcadlo a ukazuje, kde je energie prvního zbytečně ostrá. Spolu umíte rozhýbat věci, které by jinak zůstaly stát.",
+  "shadow": "Napětí mezi Marsem jednoho a ascendentem druhého se snadno mění v přetahovanou o to, kdo má navrch. Jeden z vás tlačí, skáče do řeči a rozhoduje za druhého. Druhý to bere jako útok na vlastní osobu a brání se tvrdě, nebo se stáhne. Hádky vznikají rychle a z maličkostí: tón, gesto, tempo chůze. Netrpělivost jednoho se střetává s potřebou druhého jednat po svém. Bez vědomé brzdy mezi vámi roste podrážděnost a soutěž místo spolupráce.",
+  "hard": [
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o horečkách, zánětech a operacích u toho, jehož ascendent je zasažen, hlavně v obdobích, kdy je napětí mezi vámi nejsilnější. Mars podle ní míří na tělo a zdraví druhého jako na nejzranitelnější místo."
+   },
+   {
+    "topics": [
+     "violence",
+     "death"
+    ],
+    "text": "Tradice tu mluví o riziku zranění, úrazů a nehod ve vzájemné blízkosti, zvlášť při spěchu, sportu, řízení nebo práci s nástroji. V nejtěžších výkladech spojuje tento aspekt i s nebezpečím pro život při nehodě. Jde o krajní podobu, ne o jistotu."
+   },
+   {
+    "topics": [
+     "violence"
+    ],
+    "text": "Tradice tu mluví také o hrubosti a fyzickém násilí, kdy hádka přeroste ve strkání nebo úder. Opozice podle ní přináší otevřený střet tváří v tvář, kvadrát spíš náhlé výbuchy bez varování."
+   }
+  ],
+  "traits": {
+   "text": [
+    "courage",
+    "decisiveness",
+    "competitiveness",
+    "vitality",
+    "impulsiveness"
+   ],
+   "shadow": [
+    "aggression",
+    "anger",
+    "dominance",
+    "stubbornness",
+    "impulsiveness"
+   ]
+  },
+  "partner": "V páru působí tenhle aspekt jako silná, až dráždivá přitažlivost. Jeden z vás vnímá tělo a projev druhého jako výzvu, druhý cítí touhu i tlak zároveň. Intimita mívá prudké tempo a hádky se často přelévají do vášně. Vztah se drží, když se učíte měnit souboj ve hru, ne v boj o moc.",
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "synastry_point/asc/jupiter/conjunction",
+  "title": "Jupiter a ascendent druhého: konjunkce",
+  "keywords": [
+   "povzbuzení",
+   "velkorysost",
+   "důvěra v sebe",
+   "rozlet",
+   "první dojem"
+  ],
+  "themes": [
+   "relationships",
+   "character",
+   "growth"
+  ],
+  "text": "Jupiter jednoho z vás leží přímo na ascendentu druhého. Už první setkání proto nese pocit, že se něco otevírá. Jeden z vás vidí v druhém víc, než druhý zatím ukazuje, a dává to najevo. Druhý v té přítomnosti víc vystupuje, mluví hlasitěji a víc si troufá. Jupiterová strana přináší víru, nadhled a chuť zkoušet nové věci. Ascendentová strana tomu dává tvář a pohyb. Spolu snadno plánujete cesty, kurzy a projekty. Druhý se učí jednat s větší důvěrou v sebe. První vidí, jak jeho naděje dostávají konkrétní podobu.",
+  "shadow": "Jupiter jednoho z vás na ascendentu druhého umí nafukovat obraz, který druhý dělá navenek. Chvála se mění v přehánění a povzbuzení v tlak „zvládneš úplně všechno“. Druhý pak slibuje víc, než unese, a jedná ve velkém stylu bez krytí. Spolu snadno podporujete rozmařilost: větší porce, větší plány, menší soudnost. Jupiterová strana může druhého poučovat o tom, jak má vystupovat. Ascendentová strana zase může brát štědrost toho druhého jako samozřejmost.",
+  "hard": [
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o přemíře, která se ukládá do těla. Jupiter je spojován s játry a tukem, ascendent s tělem a jeho vzhledem. Podle tradičního výkladu se u druhého v době společného života může projevit přibírání na váze, sklon k přejídání nebo zatížení jater. Jde o tradiční obraz, ne o jistotu."
+   },
+   {
+    "topics": [
+     "addiction"
+    ],
+    "text": "Tradice tu mluví také o společném zvyku dopřávat si: jídlo, pití, oslavy bez konce. Jupiter nezná míru a ascendent druhého tuto nemírnost přebírá do svého chování. Starší výklady proto u této vazby varují před společným sklonem k nadbytku alkoholu či jiných požitků. Je to obraz sklonu, ne předpověď."
+   }
+  ],
+  "traits": {
+   "text": [
+    "optimism",
+    "generosity",
+    "self_confidence",
+    "wanderlust",
+    "openness"
+   ],
+   "shadow": [
+    "extravagance",
+    "indulgence",
+    "irresponsibility",
+    "vanity",
+    "dominance"
+   ]
+  },
+  "partner": "V milostném páru působí tato vazba jako velkorysá přitažlivost. Jeden z vás vidí druhého v nejlepším světle a krásu nachází i v těle a pohybu druhého. Druhý se v té pozornosti cítí víc doma ve vlastním těle. Intimita má hravý a štědrý tón, plný chuti si dopřávat a oslavovat jeden druhého.",
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "synastry_point/asc/jupiter/harmonious",
+  "title": "Jupiter a ascendent druhého: harmonický aspekt (sextil, trigon)",
+  "keywords": [
+   "povzbuzení",
+   "sebedůvěra",
+   "velkorysost",
+   "růst",
+   "přemíra"
+  ],
+  "themes": [
+   "character",
+   "relationships",
+   "growth",
+   "health"
+  ],
+  "text": "Jupiter jednoho z vás v souladu s ascendentem druhého rozšiřuje prostor, ve kterém se druhý pohybuje. Vedle Jupiterového člověka druhý jedná odvážněji, mluví jistěji a víc věří vlastnímu tělu i úsudku. Jupiterový člověk vidí v druhém schopnosti dřív, než se ukážou, a nahlas je pojmenuje. Ascendentový člověk mu na oplátku dává živou příležitost uplatnit štědrost, víru a chuť učit. Spolu snadno plánujete cesty, studium nebo nové začátky. První dojem mezi vámi bývá vstřícný a důvěra roste rychle. Máte spolu pocit, že svět je o kus větší.",
+  "shadow": "Stejná podpora, která druhého vytahuje nahoru, ho umí i nafouknout. Jupiterový člověk chválí víc, než odpovídá skutečnosti, a slibuje víc, než unese. Druhý si pak zvyká na obraz sebe, který v běžném světě neobstojí. Společně máte sklon k přemíře: k jídlu, k utrácení, k velkým plánům bez konce. Kritika mezi vámi slábne, protože nikdo nechce kazit dobrou náladu. Lehkomyslnost se tu snadno vydává za optimismus.",
+  "hard": [
+   {
+    "topics": [
+     "illness",
+     "addiction"
+    ],
+    "text": "Tradice tu mluví o přemíře, která se ukládá do těla. Jupiter na ascendentu druhého spojuje s přibýváním na váze, s tukem a se zátěží jater, zvlášť když spolu sdílíte stůl a pohodlí. Starší výklady varují, že společné hodování a pití může přerůst v návyk, který tělo dlouho tiše snáší, než se ozve."
+   }
+  ],
+  "traits": {
+   "text": [
+    "generosity",
+    "optimism",
+    "self_confidence",
+    "trustfulness",
+    "wanderlust"
+   ],
+   "shadow": [
+    "extravagance",
+    "indulgence",
+    "vanity",
+    "irresponsibility",
+    "carelessness"
+   ]
+  },
+  "partner": "V milostném páru působí Jupiterová strana jako zdroj radosti z vlastního těla toho druhého. Obdivuje jeho vzhled a pohyb a dává to najevo velkoryse a bez zdráhání. Druhý se vedle ní cítí přitažlivě a uvolněně. Intimita tu má hravý a štědrý tón, bez studu a bez velkého dramatu.",
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "synastry_point/asc/jupiter/tense",
+  "title": "Jupiter a ascendent druhého: napěťový aspekt (kvadrát, opozice)",
+  "keywords": [
+   "přehánění",
+   "růst",
+   "velká gesta",
+   "první dojem",
+   "sliby"
+  ],
+  "themes": [
+   "relationships",
+   "growth",
+   "character",
+   "health"
+  ],
+  "text": "Jupiter jednoho z vás tlačí na způsob, jakým druhý vystupuje, jedná a působí na první pohled. Ten s Jupiterem vidí v druhém víc, než druhý zatím ukazuje, a chce to vytáhnout ven. Druhý to vnímá jako povzbuzení i jako tlak na vlastní styl a tempo. Mezi vámi se tak otevírá prostor pro nové obzory, cesty, studium a odvážnější vystupování. Jeden z vás dodává víru a velkorysost, druhý jim dává tělo, konkrétní krok a tvář navenek. Navzájem se posouváte dál, než kam vás pustí vlastní opatrnost. Tření vychází z rozdílné míry: jeden měří ve velkém, druhý podle toho, co se dá udělat hned.",
+  "shadow": "Jupiter jednoho z vás snadno přeroste přes vystupování druhého a začne ho poučovat, vylepšovat a hodnotit. Z povzbuzení se stává kázání o tom, jak se nosit, jak mluvit a jak víc věřit. Ten s Jupiterem slibuje víc, než unese, a druhý pak čeká na velká gesta, která nepřijdou. Druhý vedle té velikosti ztrácí jistotu, nebo naopak přebírá nafouknutý styl a hraje roli, která nesedí. Spolu snadno přeháníte v jídle, plánech, výdajích i ve slovech.",
+  "hard": [
+   {
+    "topics": [
+     "illness",
+     "addiction"
+    ],
+    "text": "Tradice tu mluví o přemíře, která se ukládá do těla. Jupiter spojuje s játry, tukem a nadbytkem, ascendent je samotné tělo. Ve společných chvílích se tak může množit jídlo, alkohol a hodování. U toho s ascendentem tradice zmiňuje přibírání a zátěž jater. Nejde o jistotu, jen o starý obraz nestřídmosti."
+   },
+   {
+    "topics": [
+     "ruin",
+     "loss"
+    ],
+    "text": "Tradice tu mluví také o rozmařilosti a lehkomyslných slibech, které mohou vést ke ztrátám. Jeden z vás roztahuje plány i výdaje do velkých rozměrů, druhý je nese navenek svou tváří a pověstí. Starší výklady varují před pádem dobrého jména i majetku z přehnané důvěry. Jde o obraz, ne o předpověď."
+   }
+  ],
+  "traits": {
+   "text": [
+    "optimism",
+    "generosity",
+    "wanderlust",
+    "self_confidence"
+   ],
+   "shadow": [
+    "extravagance",
+    "pride",
+    "dominance",
+    "indulgence",
+    "superficiality"
+   ]
+  },
+  "partner": "V lásce zahrnuje ten s Jupiterem druhého velkorysým obdivem. Oslavuje jeho tělo, styl a přítomnost. Druhého to láká i znejisťuje, protože obdiv přichází ve větší dávce, než se dá najednou přijmout. Intimita má sklon k hostině, k nadbytku a velkým gestům. Napětí přichází, když se okouzlení mění v očekávání, že druhý bude pořád víc.",
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "synastry_point/asc/saturn/conjunction",
+  "title": "Saturn a ascendent druhého: konjunkce",
+  "keywords": [
+   "závazek",
+   "hranice",
+   "první dojem",
+   "zralost",
+   "dohled"
+  ],
+  "themes": [
+   "relationships",
+   "character",
+   "growth",
+   "health"
+  ],
+  "text": "Saturn jednoho z vás leží přímo na ascendentu druhého, a tak mezi vámi od prvního setkání vzniká vážnost a pocit závazku. Ten se Saturnem vnímá, jak druhý vystupuje a jedná, a přirozeně do toho vnáší řád, měřítko a hranice. Druhý díky tomu získává oporu, pevnější postoj a odvahu jednat zodpovědně. Máte společný smysl pro čas: vztah roste pomalu, ale drží. Jeden přináší strukturu a trpělivost, druhý živou tvář a pohyb, který tu strukturu naplňuje. Spolu zvládáte úkoly, které vyžadují vytrvalost.",
+  "shadow": "Saturn na ascendentu druhého snadno působí jako neustálý dohled nad každým gestem a krokem. Druhý pak cítí, že vlastní vzhled, tělo i způsob jednání podléhají hodnocení, a začíná se stahovat a krotit. Spontánnost mizí, přichází nejistota a pocit nedostatečnosti. Ten se Saturnem sklouzává ke chladu, kritice a strohým poznámkám, často ze strachu, ne ze zlé vůle. Mezi vámi pak vzniká strnulost a role učitele a žáka, ze kterých se těžko vystupuje.",
+  "hard": [
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o tlaku na tělo druhého. Saturn na ascendentu spojuje s kostmi, klouby, zuby, kůží a chronickými potížemi. Ve vztahu se to podle starých výkladů projevuje tak, že druhý v blízkosti toho se Saturnem vnímá únavu, ztuhlost nebo tíhu dřívějšího stárnutí. Jde o tradiční symboliku, ne o předpověď."
+   },
+   {
+    "topics": [
+     "mental_crisis"
+    ],
+    "text": "Tradice tu mluví také o sklíčenosti a melancholii. Trvalý pocit, že druhý nikdy nevyhoví nárokům, podle ní vede k vnitřnímu útlaku, pochybnostem o vlastní hodnotě a obdobím smutku, kdy se jeden z vás uzavírá do sebe."
+   },
+   {
+    "topics": [
+     "death",
+     "loss"
+    ],
+    "text": "Tradice tu mluví o poutech, která trvají do stáří a někdy až do smrti, a o vztazích poznamenaných ztrátou, odloučením nebo osamělostí. Ten se Saturnem podle starých výkladů nese za druhého těžkou odpovědnost v době nemoci, stáří nebo umírání. Tradice to chápe jako zkoušku věrnosti a času, ne jako jistý osud."
+   }
+  ],
+  "traits": {
+   "text": [
+    "order",
+    "responsibility",
+    "patience",
+    "perseverance",
+    "protectiveness"
+   ],
+   "shadow": [
+    "criticism",
+    "insecurity",
+    "rigidity",
+    "coldness",
+    "melancholy"
+   ]
+  },
+  "partner": "V milostném páru působí tento kontakt jako vážná, pomalu sílící přitažlivost. Ten se Saturnem vnímá tělo druhého s respektem a touhou chránit, druhý cítí jistotu a hloubku. Intimita potřebuje čas a důvěru. Ostych nebo chlad se rozpouští, když necháte stranou hodnocení a dovolíte si lehkost.",
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "synastry_point/asc/saturn/harmonious",
+  "title": "Saturn a ascendent druhého: harmonický aspekt (sextil, trigon)",
+  "keywords": [
+   "opora",
+   "trvalost",
+   "zralý projev",
+   "důvěra",
+   "pevný rámec"
+  ],
+  "themes": [
+   "relationships",
+   "character",
+   "work",
+   "growth",
+   "health"
+  ],
+  "text": "Saturn jednoho z vás klidně podpírá to, jak druhý vystupuje a jedná. Saturnská strana vidí v druhém někoho, komu lze svěřit úkol. Dává mu oporu, rámec a čas dozrát. Druhý v její blízkosti působí jistěji, méně překotně a víc vydrží. Na oplátku přináší pohyb a první krok. Otevře dveře, které saturnská strana dlouho zvažuje. Doplňujete se v práci i v běžných povinnostech. Jeden z vás plánuje a hlídá hranice, druhý jedná a ukazuje se navenek. Vztah se buduje pomalu a vydrží roky. Důvěra mezi vámi roste s každou splněnou dohodou.",
+  "shadow": "Saturn jednoho z vás může i v plynulém aspektu tiše tlumit spontánnost druhého. Saturnská strana snadno hodnotí, jak druhý vypadá, mluví nebo se chová. Drobné poznámky se hromadí. Druhý se pak začne hlídat, působí strnuleji a ztrácí lehkost prvního kroku. Aspekt je pohodlný, a tak se problém neřeší, jen se usadí. Hrozí role učitele a žáka, ze které se těžko vystupuje. Chlad a pesimismus jednoho se přenášejí do těla a nálady druhého.",
+  "hard": [
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o Saturnu na bodu těla jako o vlivu na kosti, klouby, kůži a chronické potíže. U harmonického aspektu ho čte spíš jako oporu. Jeden z vás umí stát při druhém v dlouhé nemoci, při únavě těla nebo ve stáří. Jde o tradiční obraz, ne o předpověď."
+   },
+   {
+    "topics": [
+     "death",
+     "loss"
+    ],
+    "text": "Tradice tu mluví také o vztahu, který trvá až do stáří a končí ztrátou nebo smrtí jednoho z vás. Saturnská strana bývá v tomto čtení tou, která nese povinnosti kolem odchodu druhého a pečuje o jeho památku. Je to symbol trvání a věrnosti, ne jistota."
+   }
+  ],
+  "traits": {
+   "text": [
+    "order",
+    "patience",
+    "steadiness",
+    "responsibility",
+    "perseverance"
+   ],
+   "shadow": [
+    "criticism",
+    "rigidity",
+    "coldness",
+    "pessimism",
+    "insecurity"
+   ]
+  },
+  "partner": "V lásce působí Saturn jednoho z vás na tělo a vzhled druhého jako klidná jistota. Přitažlivost neroste rychle, ale s časem sílí. Saturnská strana oceňuje zralost a přirozenost druhého. Druhý se v intimitě cítí bezpečně a bez spěchu. Dotek je zdrženlivý, o to víc má váhu. Vztah často zraje do pevného a dlouhého svazku.",
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "synastry_point/asc/saturn/tense",
+  "title": "Saturn a ascendent druhého: napěťový aspekt (kvadrát, opozice)",
+  "keywords": [
+   "kritický pohled",
+   "brzda",
+   "hranice",
+   "zrání",
+   "odpovědnost"
+  ],
+  "themes": [
+   "relationships",
+   "character",
+   "growth",
+   "health"
+  ],
+  "text": "Saturn jednoho z vás stojí v napětí s ascendentem druhého, takže jeden z vás neustále posuzuje, jak druhý vystupuje a jedná. Saturnská strana vnímá každý rychlý krok, každé gesto a první dojem jako něco, co je potřeba usměrnit. Druhý to cítí jako brzdu. Přesto si tu dáváte hodně. Jeden z vás přináší řád, trpělivost a smysl pro důsledky. Druhý vnáší pohyb, přímost a odvahu začít. Když to vydržíte, vaše spojení zraje pomalu, ale pevně. Máte šanci naučit se jednat promyšleně a přitom nepřestat jednat.",
+  "shadow": "Ve stínu tohoto napětí míří kritika saturnské strany přímo na tělo a vystupování druhého. Poznámky k tomu, jak druhý chodí, mluví, vypadá nebo reaguje, padají často a bolí. Druhý se pak v té blízkosti zmenšuje, hlídá každý pohyb a ztrácí přirozenost. Saturnská strana se zase cítí přehlížená a přetížená odpovědností a odpovídá chladem. Vzniká strnulost: místo setkání kontrola, místo spontánnosti opatrnost. Mezi vámi pak roste pocit nedostatečnosti na obou stranách.",
+  "hard": [
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o tíze, která dopadá na tělo toho, jehož ascendent je zasažen: o únavě, ztuhlosti, potížích s kostmi, klouby, zuby a kůží a o chronických obtížích, které se v blízkosti saturnské strany mohou ozývat silněji. Jde o starý obraz Saturnu tlačícího na tělo, ne o předpověď."
+   },
+   {
+    "topics": [
+     "loss",
+     "death"
+    ],
+    "text": "Tradice tu mluví také o vztazích, které začínají nebo se prohlubují v čase ztráty, nemoci či stáří. Saturn na ose ascendentu se pojí se smutkem, osamělostí a odloučením. Staré texty zmiňují i to, že jeden z vás může druhého provázet obdobím umírání nebo truchlení po něčí smrti. Je to obraz, ne jistota."
+   },
+   {
+    "topics": [
+     "mental_crisis"
+    ],
+    "text": "Tradice tu mluví o melancholii, kterou Saturn vrhá na sebeobraz druhého. Dlouhodobá kritika a chlad mohou podle starých výkladů prohlubovat sklíčenost, ztrátu sebedůvěry a pocit, že druhý za nic nestojí. Jde o sklon, ne o nevyhnutelnost."
+   }
+  ],
+  "traits": {
+   "text": [
+    "order",
+    "patience",
+    "responsibility",
+    "perseverance",
+    "restraint"
+   ],
+   "shadow": [
+    "criticism",
+    "coldness",
+    "insecurity",
+    "rigidity",
+    "pessimism"
+   ]
+  },
+  "partner": "V milostném vztahu působí toto napětí jako vážná, téměř slavnostní přitažlivost. Jeden z vás vnímá tělo druhého s velkou pozorností a zároveň s ostychem. Druhý cítí na sobě pohled, který vidí, ale i posuzuje. Intimita se rodí pomalu a potřebuje čas a důvěru. Když chlad povolí, vzniká mezi vámi věrnost a hluboké tělesné bezpečí, které se buduje roky.",
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "synastry_point/asc/uranus/conjunction",
+  "title": "Uran a ascendent druhého: konjunkce",
+  "keywords": [
+   "probuzení",
+   "nečekaný první dojem",
+   "svéráznost",
+   "nervové napětí",
+   "změna stylu"
+  ],
+  "themes": [
+   "relationships",
+   "character",
+   "growth",
+   "health"
+  ],
+  "text": "Uran jednoho z vás leží přímo na ascendentu druhého, takže už samotná přítomnost prvního mění, jak druhý vystupuje a jedná. Vedle sebe se chováte nečekaně, zkoušíte jiné tempo, jiný styl, jiné nápady. Druhý dostává odvahu vystoupit z navyklé role a ukázat svou svéráznost. Jeden z vás zase vidí, jak jeho nápady na druhém hned viditelně ožívají. Spolu nepůsobíte nudně a okolí si vás pamatuje jako dvojici, kde se pořád něco děje. Doplňujete se tak, že jeden přináší jiskru a druhý jí dává tvář a pohyb.",
+  "shadow": "Uran jednoho z vás na ascendentu druhého umí z každého setkání udělat malé zemětřesení. Druhý vedle něj ztrácí klid a jistotu, jak má vlastně vystupovat. Jeden z vás mění plány a tón ze dne na den, druhý na to reaguje podrážděním nebo odtažením. Vzdor se tu snadno stává hrou: každý návrh vyvolá protinávrh jen proto, aby nikdo neměl navrch. Blízkost se pak střídá s náhlým chladem a vztah působí jako stálé napětí bez odpočinku.",
+  "hard": [
+   {
+    "topics": [
+     "illness",
+     "death"
+    ],
+    "text": "Tradice tu mluví o nehodách a náhlých úrazech, protože Uran na ascendentu se dotýká těla a jeho pohybu. Ve společnosti toho, čí Uran ascendent zasahuje, má druhý podle starších výkladů sklon ke spěchu, neopatrnosti a riskantním nápadům. V krajních případech tradice zmiňuje i úraz ohrožující život. Jde o tradiční výklad, ne o jistotu."
+   },
+   {
+    "topics": [
+     "mental_crisis"
+    ],
+    "text": "Tradice tu mluví o nervovém vypětí. Neustálé změny, nepředvídatelnost a napětí mezi vámi mohou podle starších výkladů vést u druhého k nespavosti, podrážděnosti, úzkosti nebo k pocitu, že vlastní nervy nevydrží. Tělo pak reaguje dřív než rozum."
+   },
+   {
+    "topics": [
+     "loss"
+    ],
+    "text": "Tradice tu mluví o náhlých zlomech: vztah s takovým spojením podle ní může začít bleskově a skončit stejně nečekaně, bez varování a bez rozloučení. Odchod jednoho z vás pak druhý prožívá jako šok, který převrátí jeho každodenní život."
+   }
+  ],
+  "traits": {
+   "text": [
+    "originality",
+    "independence",
+    "openness",
+    "creativity",
+    "vitality"
+   ],
+   "shadow": [
+    "restlessness",
+    "inconstancy",
+    "rebellion",
+    "detachment",
+    "anxiety"
+   ]
+  },
+  "partner": "Přitažlivost mezi vámi přichází jako elektrický výboj, často hned při prvním setkání. Jeden z vás druhého probouzí a dává mu pocit, že se smí chovat svobodněji, odvážněji a bez studu. V intimitě hledáte nové a neotřelé cesty a rutina vás rychle omrzí. Jiskra je silná, ale nestálá: střídá se horké sblížení s náhlým odstupem a jistotu musíte stavět znovu a znovu.",
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "synastry_point/asc/uranus/harmonious",
+  "title": "Uran a ascendent druhého: harmonický aspekt (sextil, trigon)",
+  "keywords": [
+   "svoboda projevu",
+   "nečekané nápady",
+   "snadné změny",
+   "originální vystupování"
+  ],
+  "themes": [
+   "character",
+   "relationships",
+   "growth"
+  ],
+  "text": "Uran jednoho z vás je v souladu s ascendentem druhého. Svoboda jednoho proto přirozeně oživuje to, jak druhý vystupuje a jedná. Jeden z vás přináší nečekané nápady, nové techniky, nové přátele a jiné způsoby, jak se pohybovat světem. Druhý je přijímá bez odporu a zkouší je ve vlastním chování, ve stylu i v tom, jak působí na okolí. Mezi vámi nevzniká tlak na změnu, jen pozvánka. Jeden dává odvahu působit originálněji. Druhý dává těm nápadům tvář a praktickou podobu v každodenním jednání. Plány měníte snadno a baví vás to.",
+  "shadow": "Lehkost, s jakou Uran jednoho z vás proměňuje vystupování druhého, může sklouznout k neustálému přestavování bez opory. Druhý pak jedná podle toho, co je zrovna nové, a vlastní styl se mu rozpouští. Uranová strana se nudí, když druhý zůstává stejný, a nenápadně ho tlačí k výstřednosti. Aspekt je pohodlný, takže nestálost nebolí a nikdo ji nebrzdí. Hrozí i odtažitost: jeden z vás vnímá druhého spíš jako zajímavý projekt než jako člověka.",
+  "hard": [
+   {
+    "topics": [
+     "illness",
+     "mental_crisis"
+    ],
+    "text": "Tradice tu mluví o náhlých událostech, které se dotýkají těla a zdraví toho, kdo má ascendent. Při harmonickém aspektu je ale čte spíš jako šťastné zvraty a nečekaná vyváznutí. Přesto zmiňuje nervové vypětí z rychlého tempa změn. Uvádí také sklon k drobným úrazům při společných zbrklých činnostech, hlavně kolem techniky a pohybu."
+   }
+  ],
+  "traits": {
+   "text": [
+    "originality",
+    "flexibility",
+    "independence",
+    "curiosity",
+    "openness"
+   ],
+   "shadow": [
+    "inconstancy",
+    "restlessness",
+    "detachment",
+    "superficiality"
+   ]
+  },
+  "partner": "V lásce vidí jeden z vás druhého pokaždé trochu jinak a ta proměnlivost drží přitažlivost čerstvou. Druhému se vedle uranové strany žije volněji ve vlastním těle a jeho projev je odvážnější. Intimita má prostor pro experiment i volnost a nikoho nesvazuje. Hlídejte, aby vzrušení z nového nevytlačilo obyčejnou blízkost.",
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "synastry_point/asc/uranus/tense",
+  "title": "Uran a ascendent druhého: napěťový aspekt (kvadrát, opozice)",
+  "keywords": [
+   "náhlé zvraty",
+   "první dojem",
+   "nervozita",
+   "svoboda",
+   "provokace"
+  ],
+  "themes": [
+   "relationships",
+   "character",
+   "health",
+   "growth"
+  ],
+  "text": "Uran jednoho z vás stojí v napětí s ascendentem druhého. Právě způsob, jakým druhý vystupuje a jedná, proto ve vašem vztahu vyvolává nečekané zvraty. Ten s Uranem komentuje, překvapuje a mění plány ve chvíli, kdy druhý vyráží. Druhý zase svým tempem a přímým jednáním ukazuje, kde se nápady srážejí s realitou. Nuda mezi vámi nehrozí. Druhý se vedle Uranu učí jednat pružněji a neschovávat se za zaběhnutý první dojem. Ten s Uranem dostává protějšek, o který se nápady musí opřít v praxi. Spolu zkoušíte nové postupy, styly i přístupy. Nejlépe vám to jde, když necháváte místo pro změnu i pro pevnou zem.",
+  "shadow": "Ten s Uranem snadno shazuje, jak druhý vypadá, mluví nebo se chová. Druhý to bere jako útok na vlastní osobnost. Odpovědí bývá obrana, tvrdší postoj nebo náhlé stažení. Ten s Uranem pak mizí, mění dohody nebo provokuje jen kvůli provokaci. Druhý žije v neustálé pohotovosti a nemůže se uvolnit. Vztah se točí v cyklech odchodů a návratů, výbuchů a chladného odstupu. Když chybí respekt k odlišnosti, zůstává mezi vámi jen nervozita.",
+  "hard": [
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o nehodách a úrazech ve společných chvílích, hlavně při spěchu, riskantních nápadech, práci s technikou nebo v dopravě. Ascendent souvisí s tělem. Podle starých výkladů se proto napětí může projevit náhlým zraněním toho, kdo má ascendent. Jde o sklon, ne o jistotu."
+   },
+   {
+    "topics": [
+     "mental_crisis"
+    ],
+    "text": "Tradice tu mluví také o nervovém vypětí. Druhý může vedle nepředvídatelného chování žít v trvalé ostražitosti, s napjatým tělem, horším spánkem a podrážděnými nervy. Ten s Uranem zase cítí tlak a dusno a reaguje útěkem nebo vzdorem."
+   },
+   {
+    "topics": [
+     "loss"
+    ],
+    "text": "Tradice tu mluví o náhlých rozchodech a rozvratech. Vztah může skončit ze dne na den, bez varování a bez vysvětlení. Po takovém zlomu zůstává pocit zmatku a ztráty, který se jen pomalu usazuje."
+   }
+  ],
+  "traits": {
+   "text": [
+    "originality",
+    "flexibility",
+    "independence",
+    "curiosity"
+   ],
+   "shadow": [
+    "rebellion",
+    "restlessness",
+    "inconstancy",
+    "detachment",
+    "anxiety"
+   ]
+  },
+  "partner": "V lásce funguje napětí jako elektřina. Přitahuje vás nepředvídatelnost a pocit, že spolu nic není jisté. Toho s Uranem fascinuje zjev druhého a zároveň v něm budí chuť na něm něco měnit. Druhého láká volnost a vzrušení, ale chybí mu klid. Intimita přichází v náhlých vlnách a stejně rychle mizí. Vášeň vydrží, když oba unesete střídání blízkosti a odstupu.",
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "synastry_point/asc/neptune/conjunction",
+  "title": "Neptun a ascendent druhého: konjunkce",
+  "keywords": [
+   "inspirace",
+   "první dojem",
+   "opar",
+   "idealizace",
+   "soucit"
+  ],
+  "themes": [
+   "relationships",
+   "character",
+   "health",
+   "growth"
+  ],
+  "text": "Neptun jednoho z vás leží přímo na ascendentu druhého. Způsob, jakým se druhý pohybuje, mluví a vystupuje, se tak pro prvního stává zdrojem inspirace. Druhý vedle něj získává měkčí a vnímavější projev. Mezi vámi snadno vzniká tiché porozumění bez slov. Jeden z vás dodává druhému pocit, že jeho přítomnost má zvláštní kouzlo. Druhý mu na oplátku dává konkrétní podobu, ke které se jeho fantazie a soucit mohou upnout. Hodí se vám společná tvorba, hudba, péče o druhé a cokoli, kde se cení cit a představivost.",
+  "shadow": "Neptun na ascendentu druhého rozmazává obraz, který o sobě druhý ukazuje. Jeden z vás vidí spíš to, co vidět chce, než skutečné chování a tělo druhého. Druhý pak ztrácí jistotu, jak vlastně působí, a přizpůsobuje se cizí představě. Dohody mezi vámi bývají mlhavé. Zaznívají polopravdy, aby nikdo nebyl zklamaný. Když iluze praskne, přichází na obou stranách pocit klamu. Snadno se tu rozehrají role zachránce a oběti.",
+  "hard": [
+   {
+    "topics": [
+     "addiction"
+    ],
+    "text": "Tradice tu mluví o tom, že společné chvíle mohou sklouzávat k alkoholu, lékům nebo jiným látkám, které mají udržet příjemný opar. Neptunův člověk může druhého nevědomky vtahovat do vlastních únikových návyků. Druhý je pak přejímá jako součást vztahu."
+   },
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o citlivosti těla druhého na otravy, léky a nejasné obtíže, jejichž příčina se těžko hledá. V přítomnosti Neptunova člověka může druhý působit unaveně, oslabeně nebo zastřeně, jako by ztrácel vlastní sílu."
+   },
+   {
+    "topics": [
+     "mental_crisis"
+    ],
+    "text": "Tradice tu mluví o duševní mlze. Druhý může ztrácet jasný pocit, kým je, a splývat s představou, kterou o něm má Neptunův člověk. V krajním případě přichází zmatek, kde nerozlišuje vlastní vůli od cizí."
+   }
+  ],
+  "traits": {
+   "text": [
+    "intuition",
+    "empathy",
+    "creativity",
+    "gentleness",
+    "spirituality"
+   ],
+   "shadow": [
+    "escapism",
+    "deceit",
+    "insecurity",
+    "self_sacrifice",
+    "addiction_tendency"
+   ]
+  },
+  "partner": "V milostném páru působí tvář a tělo druhého na Neptunova partnera skoro snově. Přitažlivost je jemná, romantická a plná fantazie. Druhý v něm vzbuzuje obdiv jako múza. Intimita připomíná splynutí, při kterém mizí hranice. Krása tohoto spojení stojí na tom, zda vedle snu dokážete vidět i skutečné tělo a skutečné potřeby toho druhého.",
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "synastry_point/asc/neptune/harmonious",
+  "title": "Neptun a ascendent druhého: harmonický aspekt (sextil, trigon)",
+  "keywords": [
+   "inspirace",
+   "soucit",
+   "tichá shoda",
+   "tvořivost",
+   "idealizace"
+  ],
+  "themes": [
+   "relationships",
+   "character",
+   "growth",
+   "health"
+  ],
+  "text": "Neptun jednoho z vás jemně obklopuje to, jak druhý působí a jedná. Ten s Neptunem vidí v druhém víc než první dojem: tušení, talent, skrytou laskavost. Druhý se vedle něj uvolňuje, mluví a pohybuje se přirozeněji a méně se hlídá. Vzniká mezi vámi tichá shoda bez dlouhého vysvětlování. Jeden přináší inspiraci a soucit, druhý dává těm snům tvar a konkrétní čin. Spolu snadno tvoříte, hrajete, pomáháte druhým nebo jen sdílíte nálady. Vztah má mírnost a trpělivost. Napětí se rozpouští dřív, než nabere sílu.",
+  "shadow": "Neptun jednoho z vás může druhého zahalit do mlhy idealizace, až jeho skutečná podoba mizí. Ten s Neptunem vidí, co vidět chce, a druhý se té představě nevědomky přizpůsobuje. Harmonie svádí k mlčení. Nepříjemné věci se nevyslovují, dohody zůstávají vágní, sliby se rozplývají. Druhý pak neví, na čem je, a ten s Neptunem uhýbá do nálad a výmluv. Pohodlí vztahu může zakrývat, že nikdo nic neřeší.",
+  "hard": [
+   {
+    "topics": [
+     "addiction"
+    ],
+    "text": "Tradice tu mluví o sdílených únicích. Alkohol, látky nebo jiné opojení mohou být mezi vámi příliš snadné a příjemné, protože aspekt nic neruší a nikdo nezvedne varovný prst. Společné uvolnění se tak může nenápadně měnit v návyk."
+   },
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o Neptunu na ose těla jako o citlivosti na léky, otravy a nejasné obtíže, které se špatně rozpoznávají. Ten s Neptunem může u druhého takové signály přehlížet nebo zlehčovat."
+   },
+   {
+    "topics": [
+     "mental_crisis"
+    ],
+    "text": "Tradice tu mluví o duševní mlze. Hranice mezi vámi se rozpouštějí a jeden přebírá nálady, úzkosti a zmatek druhého, aniž to včas pozná."
+   }
+  ],
+  "traits": {
+   "text": [
+    "empathy",
+    "creativity",
+    "intuition",
+    "gentleness",
+    "tolerance"
+   ],
+   "shadow": [
+    "escapism",
+    "idealism",
+    "deceit",
+    "irresponsibility",
+    "addiction_tendency"
+   ]
+  },
+  "partner": "Přitažlivost mezi vámi je tichá a snová. Ten s Neptunem vnímá tělo a pohyby druhého jako něco okouzlujícího, skoro nedosažitelného. Druhý se cítí viděn a obdivován, a to bez tlaku. V intimitě převažuje něha, splývání a hra s náladou víc než prudká vášeň. Okouzlení je skutečné. Počítejte jen s tím, že časem odhalí i obyčejného člověka.",
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "synastry_point/asc/neptune/tense",
+  "title": "Neptun a ascendent druhého: napěťový aspekt (kvadrát, opozice)",
+  "keywords": [
+   "závoj",
+   "první dojem",
+   "inspirace",
+   "iluze",
+   "nejasnost"
+  ],
+  "themes": [
+   "relationships",
+   "character",
+   "health",
+   "growth"
+  ],
+  "text": "Neptun jednoho z vás naráží na ascendent druhého, tedy na to, jak druhý působí, jedná a nese se ve vlastním těle. Neptunský člověk vidí druhého skrz závoj: jednou jako inspiraci, jindy jako záhadu, kterou nedokáže přečíst. Druhý vedle něj ztrácí jasné obrysy a přestává věřit vlastnímu prvnímu dojmu. Přesto si toho hodně dáváte. Jeden z vás vnáší do vztahu fantazii, soucit a cit pro umění. Druhý mu nabízí tvar, gesto a přímou akci. Když spolu tvoříte, hrajete nebo pomáháte ostatním, napětí se mění v nápady a jemnou vnímavost.",
+  "shadow": "Neptun jednoho z vás rozmazává obraz, který druhý vysílá navenek. Neptunský člověk si do druhého promítá svá přání. Když skutečnost nesedí, přichází zklamání. Druhý pod jeho vlivem váhá v jednání a nechává se vtlačit do role, která mu nepatří. Mezi vámi vznikají nedorozumění, nedodržené domluvy a mlžení místo přímé řeči. Snadno sklouznete k hře na zachránce a oběť, ve které nikdo neříká, co doopravdy chce.",
+  "hard": [
+   {
+    "topics": [
+     "addiction"
+    ],
+    "text": "Tradice tu mluví o tom, že společné chvíle mohou sklouznout k úniku. Alkohol, omamné látky nebo jiné návyky se pak stávají způsobem, jak rozpustit napětí mezi vámi. Neptun na ascendentu podle ní oslabuje vůli druhého takovým svodům odolat."
+   },
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Ascendent znamená tělo. Tradice tu proto mluví o oslabení zdraví druhého, o nejasných potížích, citlivosti na léky a o otravách. Jde o starý výklad, ne o předpověď."
+   },
+   {
+    "topics": [
+     "mental_crisis"
+    ],
+    "text": "Tradice tu mluví o duševní mlze, zmatku a klamu. Popisuje vztah, ve kterém jeden z vás druhého mate, úmyslně nebo nevědomky. Druhý pak ztrácí jistotu ve vlastním vnímání a v tom, kým skutečně je."
+   }
+  ],
+  "traits": {
+   "text": [
+    "creativity",
+    "empathy",
+    "intuition",
+    "idealism",
+    "sensitivity"
+   ],
+   "shadow": [
+    "deceit",
+    "escapism",
+    "insecurity",
+    "chaos",
+    "self_sacrifice"
+   ]
+  },
+  "partner": "V lásce působí tohle napětí jako opar kouzla. Neptunský partner vidí v těle a pohybech druhého něco snového a nedosažitelného. Druhý se v jeho pohledu cítí jako vysněná postava. Přitažlivost je silná, ale stojí na představě. Intimita vás může vést do hluboké něhy, nebo do zklamání, když iluze opadne. Pomáhá mluvit otevřeně o tom, co skutečně chcete.",
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "synastry_point/asc/pluto/conjunction",
+  "title": "Pluto a ascendent druhého: konjunkce",
+  "keywords": [
+   "proměna",
+   "moc",
+   "první dojem",
+   "prohlédnutí",
+   "hloubka"
+  ],
+  "themes": [
+   "relationships",
+   "character",
+   "growth",
+   "health"
+  ],
+  "text": "Pluto jednoho z vás leží přímo na ascendentu druhého. Proto má už první setkání váhu, kterou nejde přehlédnout. Ten s Plutem vidí pod povrch. Pozná, co druhý skrývá za úsměvem, za držením těla, za způsobem, jak vchází do místnosti. Ten s ascendentem se v této blízkosti mění. Odkládá masky, zkouší nové jednání, někdy i jiný vzhled. Dostává odvahu ukázat skutečnou tvář. Na oplátku vnáší do vztahu otevřenost a pohyb. Ten s Plutem dává hloubku, sílu a ochotu jít k jádru věci. Spolu obstojíte v krizích, protože se nebojíte dívat tam, kam jiní nechtějí.",
+  "shadow": "Pohled toho s Plutem na tělo a vystupování druhého se snadno mění v dohled. Chce řídit, jak druhý vypadá, s kým mluví a jak jedná. Nepřímými poznámkami tlačí na jeho sebeobraz. Ten s ascendentem má pocit, že je pod drobnohledem a bez ochrany. Buď ustupuje, nebo se vzpírá a uzavírá. Vzniká tichý boj o moc, plný žárlivosti, zkoušek loajality a nevyslovených výčitek. Kdo se cítí odhalený, umí to vrátit chladem i pomstou.",
+  "hard": [
+   {
+    "topics": [
+     "violence"
+    ],
+    "text": "Tradice tu mluví o moci nad tělem druhého. Starší výklady u této konjunkce varují před fyzickým nátlakem, hrubostí a násilím. Ten s Plutem v nich prosazuje svou vůli silou a ten s ascendentem nese následky na vlastním těle. Jde o možnost, kterou tradice zmiňuje, ne o jistotu."
+   },
+   {
+    "topics": [
+     "death",
+     "loss"
+    ],
+    "text": "Tradice tu spojuje setkání se smrtí a znovuzrozením. Vztah podle ní často přichází v době, kdy jeden z vás prochází koncem, ztrátou nebo úmrtím v blízkém okolí. Druhý se pak stává svědkem této proměny, nebo ji sám spouští."
+   },
+   {
+    "topics": [
+     "illness",
+     "mental_crisis"
+    ],
+    "text": "Tradice tu mluví také o tělesných a duševních krizích toho s ascendentem v obdobích intenzivního kontaktu. Uvádí vyčerpání, nemoc nebo pocit, že vlastní identita se rozpadá a skládá znovu. Výklad to podává jako sklon, ne jako jistotu."
+   }
+  ],
+  "traits": {
+   "text": [
+    "transformation",
+    "depth",
+    "intuition",
+    "resilience",
+    "courage"
+   ],
+   "shadow": [
+    "dominance",
+    "obsession",
+    "jealousy",
+    "secrecy",
+    "insecurity"
+   ]
+  },
+  "partner": "Mezi vámi je silná přitažlivost od prvního pohledu. Ten s Plutem vnímá tělo druhého s intenzitou, kterou nejde ignorovat. Ten s ascendentem má pocit, že před ním nic neskryje. Sexualita má hloubku, sílu i temné tóny. Intimita vás proměňuje, ale snadno sklouzne k posedlosti, žárlivosti a touze druhého vlastnit.",
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "synastry_point/asc/pluto/harmonious",
+  "title": "Pluto a ascendent druhého: harmonický aspekt (sextil, trigon)",
+  "keywords": [
+   "hluboký vliv",
+   "proměna vystupování",
+   "tichá síla",
+   "obnova"
+  ],
+  "themes": [
+   "character",
+   "relationships",
+   "growth",
+   "health"
+  ],
+  "text": "Pluto jednoho z vás je v souladu s ascendentem druhého, a tak hloubka jednoho přirozeně posiluje způsob, jakým druhý vystupuje a jedná. Jeden z vás vidí pod povrch prvního dojmu a pomáhá druhému odložit masku, která už neslouží. Druhý se vedle toho zpevňuje: mluví jistěji, drží se rovněji a víc věří vlastnímu tělu i úsudku. Proměna tu nebolí, probíhá postupně a bez nátlaku. Na oplátku přináší ten s ascendentem do vztahu přímost a pohyb, které vytahují plutonskou vážnost ven do světa. Spolu zvládáte krize klidněji než každý zvlášť.",
+  "shadow": "Soulad Pluta s ascendentem druhého je tak hladký, že vliv jednoho z vás na vystupování druhého snadno zůstává nepovšimnutý. Jemné usměrňování se pak mění v tichou kontrolu nad tím, co druhý nosí, jak mluví a s kým se stýká. Druhý přebírá cizí postoje a považuje je za vlastní. Ten s Plutem zase může pohodlně zůstávat ve stínu a nikdy neukázat vlastní slabiny. Klid vztahu pak zakrývá žárlivost a skryté soupeření o vliv.",
+  "hard": [
+   {
+    "topics": [
+     "death",
+     "loss"
+    ],
+    "text": "Tradice tu mluví o pouto, které se nejvíc projeví v časech smrti a ztráty. Jeden z vás stojí při druhém, když umře někdo blízký nebo končí důležitá životní etapa, a pomáhá mu projít symbolickým znovuzrozením. Nejde o předpověď. Spíš to říká, že tohle spojení ukazuje svou hodnotu v nejtěžších chvílích."
+   },
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Ascendent souvisí s tělem, a proto tradice tu mluví i o obdobích nemoci, oslabení nebo velké tělesné změny. Přítomnost jednoho z vás pomáhá druhému taková období vydržet a znovu nabrat sílu. Staré výklady čtou harmonický aspekt spíš jako znamení obnovy než úpadku."
+   },
+   {
+    "topics": [
+     "mental_crisis"
+    ],
+    "text": "Tradice spojuje Pluto s mocí nad myslí druhých. V harmonickém aspektu tu mluví spíš o opoře během psychické krize. Jeden z vás dokáže druhého provést temným obdobím a pomoci mu najít novou podobu sebe. Stejná moc ale může nenápadně svazovat, pokud se z opory stane vedení."
+   }
+  ],
+  "traits": {
+   "text": [
+    "transformation",
+    "depth",
+    "self_confidence",
+    "resilience",
+    "intuition"
+   ],
+   "shadow": [
+    "dominance",
+    "secrecy",
+    "jealousy",
+    "submissiveness"
+   ]
+  },
+  "partner": "V milostném páru působí tento aspekt jako tichý, vytrvalý magnetismus. Jeden z vás vnímá tělo a gesta druhého s nezvyklou pozorností. Druhému tento pohled dává pocit, že ho někdo vidí až na dno. Intimita roste pomalu, ale do hloubky, a sexualita se stává místem proměny, nejen rozkoše. Vzájemná důvěra vám dovoluje odložit ostych.",
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "synastry_point/asc/pluto/tense",
+  "title": "Pluto a ascendent druhého: napěťový aspekt (kvadrát, opozice)",
+  "keywords": [
+   "tlak na vystupování",
+   "proměna tváře",
+   "boj o moc",
+   "pohled pod povrch"
+  ],
+  "themes": [
+   "relationships",
+   "character",
+   "growth"
+  ],
+  "text": "Pluto jednoho z vás tlačí přímo na to, jak druhý vystupuje, jak se drží a jak působí na okolí. Jeden z vás vidí pod povrch. Pozná masku, nacvičený úsměv i strach schovaný za jistým postojem. Druhý cítí tlak, který nejde přehlédnout. Mezi vámi nejde dlouho hrát roli. Právě tady se doplňujete. Jeden přináší hloubku a vytrvalost, druhý pohyb, tvář a schopnost jednat navenek. Když tlak vydržíte, druhý mění styl, postoj i způsob, jak vstupuje mezi lidi. Jeden z vás se zase učí, že síla jde ukázat i bez nátlaku.",
+  "shadow": "Napětí mezi Plutem jednoho a ascendentem druhého snadno sklouzne k boji o to, kdo koho přetvoří. Jeden z vás má sklon druhého hlídat a komentovat jeho vzhled, oblečení, gesta i přátele. Druhý se brání vzdorem a chladem, nebo naopak ustupuje, až ztrácí vlastní tvář. Objevuje se podezíravost, žárlivost, tichá manipulace a dlouho schovávané křivdy. Kdo prohraje, myslí na odvetu. Ze vztahu se pak stává zkouška síly místo setkání.",
+  "hard": [
+   {
+    "topics": [
+     "violence"
+    ],
+    "text": "Tradice tu mluví o nebezpečí násilí. Tlak Pluta na ascendent, tedy na tělo a vystupování druhého, čtou starší výklady jako riziko fyzického nátlaku, zastrašování nebo ublížení na těle. Platí to hlavně tehdy, když jeden z vás potřebuje druhého ovládat. Jde o varovný obraz, ne o jistou předpověď."
+   },
+   {
+    "topics": [
+     "death",
+     "illness"
+    ],
+    "text": "Tradice tu mluví také o smrti a znovuzrození. Ascendent znamená tělo a život v něm, Pluto znamená konec a obnovu. Staré výklady proto spojují tuhle vazbu s obdobími, kdy se jednoho z vás dotýká smrt, vážná nemoc nebo velké ohrožení těla. Vztah se kolem takové zkušenosti láme a rodí znovu."
+   },
+   {
+    "topics": [
+     "mental_crisis",
+     "ruin"
+    ],
+    "text": "Tradice tu mluví o krizi identity. Druhý pod tlakem Pluta může ztratit pocit, kdo je a jak má působit, a prožívá rozpad dosavadního obrazu sebe. Starší texty zmiňují i krach postavení nebo pověsti, když se boj o moc mezi vámi přenese ven."
+   }
+  ],
+  "traits": {
+   "text": [
+    "depth",
+    "transformation",
+    "intuition",
+    "perseverance"
+   ],
+   "shadow": [
+    "dominance",
+    "jealousy",
+    "obsession",
+    "rebellion",
+    "deceit"
+   ]
+  },
+  "partner": "V lásce působí tahle vazba jako silný magnet. Jeden z vás vnímá tělo druhého s intenzitou, která vzrušuje i znepokojuje. Druhý má pod tímhle pohledem pocit odhalení a zároveň silného života. Sexualita je hluboká, vášnivá a proměňující. Snadno se v ní ale mísí touha s potřebou vlastnit. Žárlivost na pohledy a gesta druhého tu přichází rychle.",
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "synastry_point/mc/sun/conjunction",
+  "title": "Slunce a Medium coeli (MC) druhého: konjunkce",
+  "keywords": [
+   "kariéra",
+   "uznání",
+   "společné cíle",
+   "veřejný obraz",
+   "poslání"
+  ],
+  "themes": [
+   "work",
+   "relationships",
+   "character",
+   "growth"
+  ],
+  "text": "Slunce jednoho z vás stojí přímo na vrcholu horoskopu druhého, na místě kariéry a veřejného obrazu. Jeden z vás vidí v druhém jeho poslání a podporuje ho, aby jeho práce byla vidět. Druhý díky tomu získává odvahu ukázat se světu a jasněji ví, kam míří. Ten se Sluncem zase v cílech druhého nachází prostor pro vlastní tvořivost a vůli. Často spolu něco budujete, plánujete nebo navenek reprezentujete. Působíte jako dvojice, která ví, co chce. Dáváte si uznání, směr a chuť pracovat na něčem, co přesahuje všední den.",
+  "shadow": "Slunce jednoho z vás umí kariéru druhého nejen osvítit, ale i zastínit. Ten se Sluncem snadno začne rozhodovat o cestě druhého. Chválí ji jen tehdy, když odpovídá jeho představě, nebo si přivlastňuje cizí úspěchy. Druhý pak žije pro obdiv a souhlas, ne pro vlastní poslání. Veřejný obraz se stává důležitějším než to, co mezi vámi skutečně je. Pýcha na obou stranách vede k soupeření o to, kdo je víc vidět. Když uznání vyschne, přichází zklamání a pocit vzájemného dluhu.",
+  "hard": [
+   {
+    "topics": [
+     "ruin",
+     "loss"
+    ],
+    "text": "Tradice tu mluví o pádu z výšky. Slunce na vrcholu horoskopu znamená moc a viditelnost, a s nimi i riziko, že pýcha jednoho z vás přivede veřejné postavení druhého ke ztrátě dobrého jména nebo ke zhroucení kariéry. Ztráta pozice pak dopadá na oba."
+   },
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice spojuje Slunce se srdcem, zrakem a životní silou. Při napjatém postavení tu mluví o vyčerpání z neustálé snahy obstát a být vidět. Hnaní se za úspěchem druhého tradičně ohrožuje vitalitu, srdce a zrak toho, kdo nese tíhu ambicí."
+   },
+   {
+    "topics": [
+     "loss"
+    ],
+    "text": "Tradice čte Slunce i jako otce a autoritu. Ten se Sluncem může pro druhého zastoupit roli otcovské postavy v otázkách povolání. Tradice tu mluví o bolestné ztrátě opory, když tato postava odejde nebo zklame."
+   }
+  ],
+  "traits": {
+   "text": [
+    "ambition",
+    "leadership",
+    "cooperation",
+    "self_confidence",
+    "creativity"
+   ],
+   "shadow": [
+    "dominance",
+    "pride",
+    "vanity",
+    "competitiveness"
+   ]
+  },
+  "partner": "V milostném vztahu působí ten se Sluncem na druhého jako člověk, s nímž se druhý cítí hrdě a silněji. Přitažlivost roste z obdivu. Jeden z vás je zdrojem světla a jistoty, druhý v sobě nese příslib vzestupu. Intimitu prohlubují chvíle, kdy spolu sdílíte plány, sny a malá vítězství, nejen veřejnou tvář.",
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "synastry_point/mc/sun/harmonious",
+  "title": "Slunce a Medium coeli (MC) druhého: harmonický aspekt (sextil, trigon)",
+  "keywords": [
+   "podpora poslání",
+   "veřejné uznání",
+   "povzbuzení",
+   "společný cíl"
+  ],
+  "themes": [
+   "work",
+   "relationships",
+   "growth",
+   "character"
+  ],
+  "text": "Vůle a tvořivost jednoho z vás přirozeně podporují poslání druhého. Jeden z vás vidí schopnosti druhého jasně a umí je pojmenovat. Druhý díky tomu nachází odvahu ukázat se veřejně a jít za cílem, který dosud odkládá. Mezi vámi to funguje bez tlaku. Povzbuzení přichází samo, ne jako rozkaz. Jeden z vás přináší energii, sebejistotu a nápady, druhý jim dává směr a místo ve světě. Máte společnou chuť něco vybudovat a ukázat ostatním. V práci, v rodině i v přátelství působíte jako tým, ve kterém jeden svítí a druhý stoupá.",
+  "shadow": "Podpora kariéry druhého se může změnit v tichou potřebu sklízet obdiv za jeho úspěch. Jeden z vás pak radí víc, než je žádáno, a připisuje si zásluhy. Druhý si zvyká, že směr určuje někdo jiný, a ztrácí vlastní úsudek. Protože spojení je snadné, ani jeden z vás necítí důvod něco měnit. Harmonie tak přechází v pohodlí, kde se nikdo nevystavuje skutečné zkoušce. Veřejný obraz jednoho se pak stává spíš odrazem pýchy druhého.",
+  "traits": {
+   "text": [
+    "self_confidence",
+    "ambition",
+    "cooperation",
+    "creativity",
+    "leadership"
+   ],
+   "shadow": [
+    "pride",
+    "dominance",
+    "dependence",
+    "vanity",
+    "stagnation"
+   ]
+  },
+  "partner": "Jako pár působíte jako vzájemná vizitka. Jeden z vás obdivuje druhého za to, kam míří, a ten obdiv hřeje i v soukromí. Přitažlivost roste s každým úspěchem, který spolu prožíváte. V intimitě je mezi vámi hrdost a pocit, že stojíte na správném místě vedle správného člověka.",
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "synastry_point/mc/sun/tense",
+  "title": "Slunce a Medium coeli (MC) druhého: napěťový aspekt (kvadrát, opozice)",
+  "keywords": [
+   "soupeření o uznání",
+   "kariéra",
+   "vůle",
+   "veřejný obraz",
+   "směr"
+  ],
+  "themes": [
+   "work",
+   "relationships",
+   "character",
+   "growth"
+  ],
+  "text": "Vůle a sebevyjádření jednoho z vás naráží na cestu, kterou druhý vede ke svému povolání a veřejnému obrazu. Kdo z vás nese Slunce, chce svítit po svém. Kdo nese MC, má vlastní představu o tom, kam míří a jak působí navenek. Proto mezi vámi jiskří hlavně u práce, ambic a uznání. Přitom si dáváte hodně. Jeden přináší energii, odvahu a tvořivé nápady. Druhý ukazuje směr a měřítko výsledku. Když se dohodnete, kdo vede kterou oblast, vzniká z tření silný tah. Navzájem se ženete výš a vidíte vlastní cíle jasněji.",
+  "shadow": "Napětí mezi Sluncem jednoho a MC druhého se nejčastěji láme v soupeření o to, čí cíle mají přednost. Kdo nese Slunce, může brát kariéru druhého jako jeviště pro vlastní pýchu. Radí, přebírá zásluhy, zastiňuje. Druhý pak cítí, že jeho poslání ztrácí prostor, a odpovídá chladem nebo tvrdohlavostí. Snadno z toho vzniká tichá válka o uznání a veřejnou tvář. Kdo ustoupí, ten si to pamatuje. Obdiv, který si navzájem odpíráte, pak chybí vám oběma.",
+  "hard": [
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o Slunci jako o srdci, zraku a vitalitě. Podle ní se při dlouhém tlaku na veřejné postavení druhého může vyčerpávat životní síla toho, kdo nese Slunce. Může se pak objevit slabost srdce nebo zraku. Jde o starý obraz, ne o jistotu."
+   },
+   {
+    "topics": [
+     "loss",
+     "ruin"
+    ],
+    "text": "Tradice tu mluví také o otci a o pádu postavení. Opozice k MC dopadá na kořeny a domov druhého. Staré texty proto spojují tuto vazbu se ztrátou otce, s otřesem rodinné pověsti nebo se zhroucením kariéry, když pýcha přeroste rozum. Čte se to jako varovný motiv, ne jako předpověď."
+   }
+  ],
+  "traits": {
+   "text": [
+    "ambition",
+    "leadership",
+    "creativity",
+    "vitality",
+    "competitiveness"
+   ],
+   "shadow": [
+    "pride",
+    "dominance",
+    "competitiveness",
+    "stubbornness",
+    "coldness"
+   ]
+  },
+  "partner": "Jako pár se přitahujete i přes tření kolem ambic. Jas a síla jednoho druhého vzrušují. Druhý zase okouzluje tím, jak jde za svým cílem. Spor o to, kdo vede, se přenáší i do intimity. Když ho necháte proměnit ve hru místo boje, dodává vášni ostří. Důležité je, aby se nikdo z vás necítil jen ozdobou života toho druhého.",
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "synastry_point/mc/moon/conjunction",
+  "title": "Měsíc a Medium coeli (MC) druhého: konjunkce",
+  "keywords": [
+   "citová podpora",
+   "kariéra",
+   "veřejný obraz",
+   "domov a poslání",
+   "zázemí"
+  ],
+  "themes": [
+   "relationships",
+   "work",
+   "family",
+   "character"
+  ],
+  "text": "Měsíc jednoho z vás stojí přímo na kariérním vrcholu druhého. City jednoho se tak dotýkají toho, kam druhý míří a jak ho vidí svět. Jeden z vás bere cíle druhého jako vlastní starost a hlídá mu zázemí. Druhý přináší směr, řád a viditelnost. Domov a práce se mezi vámi snadno prolínají. Plány řešíte u kuchyňského stolu a před důležitým rozhodnutím se o sebe opíráte. Druhý u vás cítí, že jeho poslání má citový smysl. Jeden z vás zase dostává místo, kde je péče vidět a má váhu. Okolí vás vnímá jako dvojici, která k sobě patří.",
+  "shadow": "Když Měsíc jednoho z vás leží na kariérním bodě druhého, nálady jednoho se rychle propisují do veřejného života druhého. Špatný den doma pak poznamená jednání v práci. Jeden z vás může lpět na blízkosti a ambice druhého brát jako hrozbu. Druhý zase může péči jen přijímat a city jednoho brát jako samozřejmé zázemí. Kolem kariérních rozhodnutí hrozí citové vydírání. Soukromé věci se snadno ocitají na očích.",
+  "hard": [
+   {
+    "topics": [
+     "mental_crisis",
+     "illness"
+    ],
+    "text": "Tradice tu mluví o citovém vyčerpání toho z vás, jehož Měsíc stojí na vrcholu druhého. Tlak cizích ambicí se podle ní ukládá do žaludku, spánku a duševní rovnováhy. Staré texty zmiňují i období, kdy se nálady mění v úzkost nebo sklíčenost."
+   },
+   {
+    "topics": [
+     "loss",
+     "death"
+    ],
+    "text": "Tradice tu mluví o ztrátě matky nebo mateřské postavy, která zasáhne dráhu druhého. Smrt či odchod blízké ženy z rodiny se podle ní stává zlomem, po kterém druhý mění směr. Jeden z vás pak bývá oporou v smutku i ve veřejných povinnostech."
+   },
+   {
+    "topics": [
+     "ruin"
+    ],
+    "text": "Tradice tu mluví o nestálé pověsti. Rodinné spory nebo citové výkyvy se podle ní dostávají na veřejnost a oslabují postavení druhého. Staré výklady tu varují před ztrátou dobrého jména, ne před jistým pádem."
+   }
+  ],
+  "traits": {
+   "text": [
+    "protectiveness",
+    "empathy",
+    "belonging",
+    "ambition",
+    "cooperation"
+   ],
+   "shadow": [
+    "moodiness",
+    "dependence",
+    "jealousy",
+    "security_need"
+   ]
+  },
+  "partner": "Jako milenci máte pocit, že váš vztah patří i do veřejného života. Jeden z vás obdivuje druhého v jeho roli a ten obdiv probouzí touhu. Druhý hledá u jednoho z vás něhu a místo, kde nemusí nic hrát. Intimita mezi vámi roste z bezpečí a z toho, že se navzájem znáte v práci i doma.",
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "synastry_point/mc/moon/harmonious",
+  "title": "Měsíc a Medium coeli (MC) druhého: harmonický aspekt (sextil, trigon)",
+  "keywords": [
+   "zázemí pro poslání",
+   "citová podpora",
+   "domov a kariéra",
+   "veřejná pověst"
+  ],
+  "themes": [
+   "relationships",
+   "work",
+   "family",
+   "character"
+  ],
+  "text": "Měsíc jednoho z vás podporuje cestu, kterou druhý ukazuje světu. Ten s Měsícem vnímá poslání druhého jako něco blízkého a srozumitelného, ne jako cizí ctižádost. Dává mu zázemí: klid po náročném dni, jídlo, pochopení pro únavu i nervozitu před důležitým krokem. Druhý na oplátku vnáší do citového světa prvního směr a strukturu. Domov a práce se u vás nepřetahují, spíš se doplňují. Pověst jednoho z vás často nese stopu péče druhého. Umíte spolu plánovat budoucnost tak, aby v ní bylo místo pro bezpečí i pro úspěch.",
+  "shadow": "Podpora poslání druhého se může změnit v tichou službu, kterou nikdo nevidí. Ten s Měsícem pak měří vlastní pohodu podle úspěchů druhého a jeho nálada stoupá a klesá s každou pracovní zprávou. Druhý si na zázemí zvykne jako na samozřejmost a citové potřeby obou odkládá na později. Pohodlí mezi vámi někdy tlumí odvahu ke změně: proč riskovat, když je doma dobře. Do kariérních rozhodnutí také snadno mluví rodinná očekávání a staré zvyky.",
+  "hard": [
+   {
+    "topics": [
+     "loss"
+    ],
+    "text": "Tradice tu mluví o ztrátě matky nebo rodinné opory v době, kdy se rozhoduje o povolání či veřejném postavení. U harmonického aspektu ji čte jako období, kdy ten s Měsícem dokáže druhého podržet a pomoct mu nést odpovědnost dál."
+   },
+   {
+    "topics": [
+     "illness",
+     "mental_crisis"
+    ],
+    "text": "Tradice tu mluví o žaludku a duševní rovnováze jako o místech, kam se ukládá tlak spojený s kariérou a pověstí. Když jeden z vás nese velkou veřejnou zátěž, napětí se podle ní může projevit nespavostí, trávicími potížemi nebo citovým vyčerpáním u obou."
+   }
+  ],
+  "traits": {
+   "text": [
+    "protectiveness",
+    "empathy",
+    "cooperation",
+    "belonging",
+    "ambition"
+   ],
+   "shadow": [
+    "dependence",
+    "moodiness",
+    "self_sacrifice",
+    "security_need",
+    "stagnation"
+   ]
+  },
+  "partner": "Jako pár máte pocit, že k sobě patříte i navenek. Ten s Měsícem obdivuje druhého v jeho roli a tahle úcta probouzí něhu. Druhý u něj nachází místo, kde může odložit veřejnou masku a být jen tělem a citem. Intimita mezi vámi roste z bezpečí a ze společné představy o budoucnosti.",
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "synastry_point/mc/moon/tense",
+  "title": "Měsíc a Medium coeli (MC) druhého: napěťový aspekt (kvadrát, opozice)",
+  "keywords": [
+   "domov a kariéra",
+   "citové potřeby",
+   "veřejný obraz",
+   "priority",
+   "rodinné kořeny"
+  ],
+  "themes": [
+   "relationships",
+   "family",
+   "work",
+   "health"
+  ],
+  "text": "Citové potřeby jednoho z vás narážejí na kariérní směr druhého. Ten, jehož Měsíc se dotýká osy, potřebuje blízkost, pravidelnost a pocit domova. Ten s MC má v hlavě práci, cíle a to, jak působí navenek. Mezi vámi proto často vzniká otázka, kolik času a síly patří domovu a kolik povinnostem venku. Doplňujete se tím, že jeden připomíná, proč se vůbec snažit, a druhý dává citům směr a tvar. Kariérní člověk díky vám vidí lidskou stránku svých rozhodnutí. Citlivější z vás zase poznává, že úspěch druhého neznamená odmítnutí.",
+  "shadow": "Když spor mezi domovem a kariérou přeroste, jeden z vás má pocit, že práce druhého má vždycky přednost. Přicházejí výčitky, uražené mlčení a nálady, které druhému berou soustředění i jistotu při veřejném vystupování. Ten s MC pak city druhého vnímá jako překážku a odpovídá chladem nebo útěkem do povinností. Hrozí i citové vydírání, kdy se domov stává zbraní proti ambicím. Staré rodinné křivdy se snadno promítají do hádek o čas a priority.",
+  "hard": [
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o tom, že dlouhý spor mezi citovým bezpečím a veřejnými nároky se ukládá do těla, hlavně do žaludku a trávení. Nevyslovené napětí se podle starých výkladů projevuje nevolností a nechutenstvím u toho, jehož Měsíc je zasažen. Zmiňuje i obtíže s plodností v obdobích velkého pracovního tlaku."
+   },
+   {
+    "topics": [
+     "mental_crisis"
+    ],
+    "text": "Tradice tu mluví o ohrožení duševní rovnováhy, když jeden z vás dlouho potlačuje své potřeby kvůli kariéře druhého. Náladovost se pak může prohloubit v úzkost, citové vyčerpání nebo pocit ztráty vlastního místa."
+   },
+   {
+    "topics": [
+     "loss"
+    ],
+    "text": "Tradice tu mluví o ztrátě matky nebo domova v době, kdy se láme kariérní dráha jednoho z vás. Osa MC a IC podle starých výkladů zvýrazňuje rodinné kořeny, a tak se ztráta v rodině může časově potkat s velkou veřejnou změnou."
+   }
+  ],
+  "traits": {
+   "text": [
+    "security_need",
+    "ambition",
+    "empathy",
+    "responsibility"
+   ],
+   "shadow": [
+    "moodiness",
+    "sulking",
+    "coldness",
+    "guilt",
+    "family_attachment"
+   ]
+  },
+  "partner": "V milostném vztahu toužíte po blízkosti, ale denní rytmus vám ji často krade. Jeden z vás chce večer klid, objetí a pocit sdíleného domova. Druhý přichází s hlavou plnou práce. Intimita mezi vámi roste, když práce zůstane za dveřmi a něha dostane svůj čas. Přitažlivost živí i obdiv k tomu, co druhý dokáže navenek.",
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "synastry_point/mc/mercury/conjunction",
+  "title": "Merkur a Medium coeli (MC) druhého: konjunkce",
+  "keywords": [
+   "slovo a kariéra",
+   "rady k poslání",
+   "veřejný obraz",
+   "pracovní kontakty"
+  ],
+  "themes": [
+   "work",
+   "relationships",
+   "character"
+  ],
+  "text": "Myšlení jednoho z vás míří přímo k poslání a veřejné dráze druhého. Ten s Merkurem pojmenovává cíle, které druhý zatím jen tuší, a převádí je do jasných slov. Druhý díky tomu ví, jak o své práci mluvit a jak se představit navenek. Vaše rozhovory se často točí kolem plánů, kontaktů, nabídek a dalších kroků. Jeden z vás dodává nápady, informace a přesné formulace. Druhý jim dává směr a váhu. Spolu umíte připravit prezentaci, žádost nebo projekt. Navzájem se učíte spojit chytrou myšlenku s viditelným výsledkem.",
+  "shadow": "Rady jednoho z vás se snadno mění v neustálé komentování kariéry druhého. Každé pracovní rozhodnutí pak prochází rozborem, pochybnostmi a novými variantami. Místo jasného směru vzniká neklid. Ten s Merkurem může o úspěších a chybách druhého mluvit před ostatními víc, než je druhému milé. Řeči a drby se pak lepí na veřejný obraz. Druhý zase může nápady prvního přebírat jako vlastní nebo ho brát jen jako mluvčího a zdroj informací. V pracovních věcech hrozí chytračení a drobné lsti.",
+  "hard": [
+   {
+    "topics": [
+     "mental_crisis",
+     "illness"
+    ],
+    "text": "Tradice tu mluví o nervovém vyčerpání, které vzniká z neustálého řešení práce a postavení. Merkur je tradičně spojen s nervy, plícemi a řečí. Výklad proto zmiňuje nespavost, stažený dech nebo zadrhávání řeči v obdobích velkého pracovního tlaku. Jde o tradiční obraz, ne o jistou předpověď."
+   },
+   {
+    "topics": [
+     "ruin",
+     "loss"
+    ],
+    "text": "Tradice tu mluví také o poškození pověsti slovem. Pomluva, neuvážená věta nebo vyzrazená informace od jednoho z vás může podle starých výkladů otřást veřejným postavením druhého. Krajní obraz počítá i se ztrátou místa nebo dobrého jména."
+   }
+  ],
+  "traits": {
+   "text": [
+    "eloquence",
+    "curiosity",
+    "cooperation",
+    "ambition",
+    "rationality"
+   ],
+   "shadow": [
+    "restlessness",
+    "criticism",
+    "deceit",
+    "anxiety",
+    "superficiality"
+   ]
+  },
+  "partner": "V milostném vztahu mezi vámi vzniká přitažlivost přes slova a společné ambice. Jednoho z vás přitahuje, jak druhý působí navenek a jak jde za svým cílem. Druhého okouzluje bystrost a vtip. Intimita roste z dlouhých nočních rozhovorů o budoucnosti a ze škádlení slovy. Sílí také z pocitu, že spolu tvoříte něco, co je vidět.",
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "synastry_point/mc/mercury/harmonious",
+  "title": "Merkur a Medium coeli (MC) druhého: harmonický aspekt (sextil, trigon)",
+  "keywords": [
+   "slova pro povolání",
+   "rada v kariéře",
+   "společné plány",
+   "veřejný obraz",
+   "výměna informací"
+  ],
+  "themes": [
+   "work",
+   "relationships",
+   "character",
+   "growth"
+  ],
+  "text": "Myšlení jednoho z vás přirozeně slouží povolání a cílům druhého. Kdo má Merkura, umí pojmenovat, kam druhý míří, a najít pro to přesná slova. Pomáhá s formulací plánů, s důležitým dopisem, prezentací nebo přípravou na zkoušku či pohovor. Druhý díky tomu působí navenek jasněji a jistěji. Oplátkou dává Merkurovi směr. Jeho nápady dostávají konkrétní cíl a skutečné uplatnění. Rozhovory mezi vámi se často stáčejí k práci, studiu a budoucnosti a neunavují vás. Hodí se vám společné projekty, kde jeden plánuje a vyjednává a druhý nese jméno a odpovědnost. Snadno si předáváte kontakty, informace a praktické tipy.",
+  "shadow": "Ochota jednoho z vás radit druhému v kariéře se může změnit v neustálé mluvení do jeho cest. Merkur pak chrlí nápady, ale nedotahuje je, a druhý dostává spoustu slov a málo opory. Hrozí i povrchnost: hezky znějící plán bez obsahu, dojem místo skutečné práce. Lehkost aspektu svádí k tomu, že pracovní problémy jen obratně zamluvíte. Někdy si druhý přivlastní Merkurovy myšlenky bez uznání. Jindy Merkur pustí ven informaci, která měla zůstat neveřejná, a drby pak poškodí pověst.",
+  "hard": [
+   {
+    "topics": [
+     "illness",
+     "mental_crisis"
+    ],
+    "text": "Tradice tu mluví o nervech, plících a řeči. Když jeden z vás nese starosti o kariéru druhého a vyjednává za oba, může to u něj vést k nervovému přetížení, nespavosti, potížím s dechem nebo hlasem. Harmonický aspekt to spíše tlumí, ale v obdobích pracovního tlaku se napětí ukládá právě sem."
+   },
+   {
+    "topics": [
+     "ruin"
+    ],
+    "text": "Tradice tu mluví také o pomluvách a lstivém slově, které zasahují dobré jméno. Neopatrně vyslovená informace nebo pracovní nepravda může druhého připravit o postavení či pověst. U harmonického aspektu jde spíše o šrámy než o pád, ale tradice tuto možnost nevynechává."
+   }
+  ],
+  "traits": {
+   "text": [
+    "eloquence",
+    "cooperation",
+    "curiosity",
+    "ambition",
+    "rationality"
+   ],
+   "shadow": [
+    "superficiality",
+    "restlessness",
+    "deceit",
+    "inconstancy",
+    "dominance"
+   ]
+  },
+  "partner": "V lásce vás spojuje přitažlivost inteligence a jasného cíle. Ten, kdo má Merkura, obdivuje ambice druhého a umí je vyslovit tak, že to druhého okouzluje. Druhý zase vnímá Merkurův bystrý jazyk jako svůdný. Flirt mezi vámi začíná rozhovorem o plánech a blízkost roste ze společné budoucnosti, o které spolu mluvíte i v nejintimnějších chvílích.",
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "synastry_point/mc/mercury/tense",
+  "title": "Merkur a Medium coeli (MC) druhého: napěťový aspekt (kvadrát, opozice)",
+  "keywords": [
+   "slova a kariéra",
+   "kritika plánů",
+   "pracovní debaty",
+   "veřejná pověst"
+  ],
+  "themes": [
+   "work",
+   "relationships",
+   "character"
+  ],
+  "text": "Myšlenky a slova jednoho z vás narážejí na kariéru a veřejné cíle druhého. Ten s Merkurem komentuje, ptá se, zpochybňuje plány a hledá v nich mezery. Druhý tak musí své poslání vysvětlit nahlas a obhájit ho. Je to nepohodlné, ale směr se tím zpřesňuje. Často spolu řešíte práci, pohovory, prezentace, obchodní nápady nebo krátké cesty kvůli povinnostem. Jeden přináší rychlé nápady a kontakty. Druhý ukazuje, co z nich obstojí před světem. Debaty mezi vámi bývají ostré a časté, ale oba vás nutí myslet jasněji. Nejlépe fungují, když se drží konkrétních kroků.",
+  "shadow": "Rady jednoho z vás k práci druhého snadno znějí jako zlehčování. Merkurová strana mluví do věcí, které druhý buduje léta, často v nevhodnou chvíli nebo před lidmi. Druhý pak slyší kritiku i tam, kde jde jen o zvědavost. Hrozí neklidné přeskakování plánů, polopravdy o pracovních věcech a řeči za zády. Jeden se cítí přehlížený, druhý ohrožený na pověsti. Spory o to, kdo má pravdu, pak odvádějí sílu od skutečného cíle.",
+  "hard": [
+   {
+    "topics": [
+     "ruin"
+    ],
+    "text": "Tradice tu mluví o pomluvách a neuvážených slovech, která mohou poškodit dobré jméno nebo postavení druhého. Vyzrazená informace, nepřesná zpráva nebo řeči mezi kolegy podle ní mohou vést ke ztrátě důvěry v práci. Jde o možné riziko, ne o předpověď."
+   },
+   {
+    "topics": [
+     "mental_crisis",
+     "illness"
+    ],
+    "text": "Tradice tu mluví o nervovém napětí z neustálých sporů o práci a životní směr. Spojuje Merkur s nervy, plícemi a řečí, a proto při dlouhém tlaku zmiňuje nespavost, vyčerpání, potíže s dechem nebo zadrhávání v řeči. Popisuje to jako sklon, ne jako jistotu."
+   }
+  ],
+  "traits": {
+   "text": [
+    "curiosity",
+    "eloquence",
+    "rationality",
+    "ambition"
+   ],
+   "shadow": [
+    "criticism",
+    "restlessness",
+    "deceit",
+    "superficiality",
+    "anxiety"
+   ]
+  },
+  "partner": "V páru vás přitahuje ostrost myšlení toho druhého. Hádky o práci a ambicích umí přejít v jiskření a smíření má podobu dlouhého nočního rozhovoru. Blízkost roste, když slova přestanou hodnotit a začnou se zajímat. Pokud doma pokračuje pracovní porada, intimita chladne a ložnice se mění v místo sporů.",
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "synastry_point/mc/venus/conjunction",
+  "title": "Venuše a Medium coeli (MC) druhého: konjunkce",
+  "keywords": [
+   "vkus v kariéře",
+   "veřejný obraz",
+   "uznání",
+   "společná reprezentace",
+   "sehranost"
+  ],
+  "themes": [
+   "work",
+   "relationships",
+   "money",
+   "character"
+  ],
+  "text": "Venuše jednoho z vás stojí přesně na místě, kde druhý ukazuje světu svou práci a své poslání. Kdo má Venuši, vnáší do kariéry druhého vkus, takt a cit pro to, co působí dobře. Umí poradit s vystupováním, s formou i s lidmi. Druhý na oplátku otevírá prostor, kde smysl pro krásu a hodnoty dostává uznání a konkrétní uplatnění. Navenek působíte jako sehraná dvojice, kterou okolí bere vážně. Společné projekty mají styl i vlídnou tvář. Jeden přináší eleganci, druhý směr a cíl.",
+  "shadow": "Venuše na vrcholu kariéry druhého snadno udělá ze vztahu výkladní skříň. Jeden z vás může fungovat jako ozdoba postavení druhého: příjemná vizitka, ne rovnocenný hlas. Víc pak záleží na tom, jak spolu vypadáte, než jak spolu opravdu jste. Objevuje se marnivost, utrácení za prestiž a hlad po pochvale okolí. Kdo má Venuši, může čekat lásku za to, že druhého zdobí, a pociťovat přehlížení. Druhý se zase snadno opírá o cizí šarm místo vlastní práce.",
+  "hard": [
+   {
+    "topics": [
+     "loss"
+    ],
+    "text": "Tradice tu mluví o rozchodu, který se odehraje před očima veřejnosti a poznamená pověst nebo postavení jednoho z vás. Spojení Venuše s vrcholem kariéry podle ní nese riziko, že konec vztahu zasáhne i pracovní jméno."
+   },
+   {
+    "topics": [
+     "ruin"
+    ],
+    "text": "Tradice tu mluví o rozhazovačnosti kvůli vnější prestiži. Výdaje na reprezentaci, vzhled a společenské postavení podle ní mohou přerůst možnosti. Starší výklady spojují tuto vazbu s úpadkem dobrého jména kvůli požitkářství."
+   },
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o krku a ledvinách jako o místech, kterým Venuše vládne. Při napětí kolem společného veřejného působení se podle ní potíže ozývají právě tam, třeba přes hlas nebo přes vyčerpání z neustálé reprezentace."
+   }
+  ],
+  "traits": {
+   "text": [
+    "charm",
+    "ambition",
+    "cooperation",
+    "sociability",
+    "creativity"
+   ],
+   "shadow": [
+    "vanity",
+    "extravagance",
+    "superficiality",
+    "dependence"
+   ]
+  },
+  "partner": "Jako pár se přitahujete i tím, jak spolu působíte navenek. Kdo má Venuši, obdivuje ctižádost a postavení druhého a právě to probouzí touhu. Druhý v té blízkosti nachází krásu a něhu, kterou chce mít po boku. Intimita roste s uznáním: když si navzájem fandíte v práci, sbližujete se i v soukromí. Láska tu má ráda styl a společné chvíle, na které se dá být hrdý.",
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "synastry_point/mc/venus/harmonious",
+  "title": "Venuše a Medium coeli (MC) druhého: harmonický aspekt (sextil, trigon)",
+  "keywords": [
+   "podpora kariéry",
+   "vkus",
+   "veřejný obraz",
+   "uznání",
+   "spolupráce"
+  ],
+  "themes": [
+   "work",
+   "relationships",
+   "money",
+   "character"
+  ],
+  "text": "Jeden z vás dodává kariéře a veřejnému obrazu druhého vkus, klid a půvab. Pomáhá mu ukázat se světu v lepším světle a jeho poslání působí vedle něj přívětivěji. Druhý zase dává hodnotám prvního místo, kde mohou být vidět a mít smysl. Spolu působíte uhlazeně a důvěryhodně. Společné dílo jde hladce, protože jeden z vás vycítí, co se bude líbit, a druhý ví, kam to dovést. Uznání, které jeden z vás získává, druhý přijímá bez závisti a s radostí. Podpora tu nepůsobí jako dluh, ale jako přirozená součást vztahu.",
+  "shadow": "Snadná podpora jednoho může z vaší spolupráce udělat hlavně výkladní skříň druhého. Vzhled úspěchu pak vážíte víc než jeho obsah. Jeden z vás začne kariéru druhého spíš zdobit, než aby ji pomáhal nést. Druhý si zvykne na obdiv a přestane se namáhat. Peníze mohou odcházet na reprezentaci a dobrý dojem. Protože mezi vámi nic neskřípe, těžké otázky o směru a hodnotách se snadno odkládají. Jeden z vás pak může měřit svou cenu jen tím, jak se daří druhému.",
+  "hard": [
+   {
+    "topics": [
+     "loss",
+     "ruin"
+    ],
+    "text": "Tradice tu mluví o rozchodu, který přichází tiše, když se profesní cesty rozejdou a obdiv k postavení druhého vyprchá. Zmiňuje také ztrátu dobrého jména kvůli marnivosti nebo rozhazovačnosti na reprezentaci. Jde o tradiční motiv, ne o jistotu."
+   }
+  ],
+  "traits": {
+   "text": [
+    "charm",
+    "cooperation",
+    "ambition",
+    "generosity",
+    "creativity"
+   ],
+   "shadow": [
+    "vanity",
+    "superficiality",
+    "extravagance",
+    "procrastination",
+    "dependence"
+   ]
+  },
+  "partner": "Jednoho z vás přitahuje, jak druhý stojí ve světě: jeho postavení, rozhodnost a směr. Druhý v tom prvním nachází půvab a něhu, které mu v práci chybějí. Společné vystupování na veřejnosti vás oba těší a sbližuje. Intimita roste ze vzájemného obdivu a z pocitu, že jeden druhému sluší.",
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "synastry_point/mc/venus/tense",
+  "title": "Venuše a Medium coeli (MC) druhého: napěťový aspekt (kvadrát, opozice)",
+  "keywords": [
+   "hodnoty proti kariéře",
+   "vkus",
+   "veřejný obraz",
+   "tření",
+   "takt"
+  ],
+  "themes": [
+   "relationships",
+   "work",
+   "money"
+  ],
+  "text": "Hodnoty a vkus jednoho z vás narážejí na kariéru a veřejný obraz druhého. Jeden z vás přesně ví, co je krásné, příjemné a co má cenu. Druhý sleduje svůj cíl, své postavení a to, jak působí navenek. Mezi vámi proto vzniká tření. Jeden chce klid a radost, druhý výkon a uznání. Přesto si máte co dát. Venuše přináší do práce druhého vkus, takt a cit pro lidi. MC zase dává potěšení jednoho z vás směr a měřítko. Když o rozdílech mluvíte otevřeně, umíte spojit užitečné s příjemným.",
+  "shadow": "Vkus jednoho z vás snadno zpochybňuje veřejný obraz druhého a spor o hodnoty se mění ve spor o postavení. Jeden z vás má pocit, že kariéra druhého bere čas, který patří radosti a společnému klidu. Druhý vnímá pohodlí a požitky jako brzdu. Objevuje se i marnivost: touha zazářit díky úspěchu druhého, nebo naopak stydět se za jeho volby. Rozhazovačnost jednoho může poškodit pověst druhého. Šarm se tu někdy stává nástrojem nátlaku.",
+  "hard": [
+   {
+    "topics": [
+     "loss"
+    ],
+    "text": "Tradice tu mluví o rozchodu nebo odcizení kvůli kariéře a veřejnému postavení. Pracovní ambice jednoho z vás a potřeba blízkosti a potěšení druhého se mohou rozejít natolik, že vztah ustoupí povinnostem nebo pověsti. Nejde o jistotu, spíš o napětí, které je dobré pojmenovat včas."
+   },
+   {
+    "topics": [
+     "ruin"
+    ],
+    "text": "Tradice tu mluví o poškozené pověsti kvůli požitkářství, marnivosti nebo nevhodnému vztahu. Okázalost či rozhazovačnost jednoho z vás může v očích okolí dopadnout na postavení druhého. Starší výklady zmiňují i skandál, který zasáhne kariéru. Jde o možnost, ne o předpověď."
+   },
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice spojuje Venuši s ledvinami a krkem. Pod tlakem dlouhodobého sporu o hodnoty a postavení zde starší výklady mluví o oslabení právě těchto oblastí. Je to tradiční symbolika, ne lékařské tvrzení."
+   }
+  ],
+  "traits": {
+   "text": [
+    "charm",
+    "ambition",
+    "cooperation",
+    "creativity"
+   ],
+   "shadow": [
+    "vanity",
+    "indulgence",
+    "extravagance",
+    "criticism",
+    "jealousy"
+   ]
+  },
+  "partner": "Jako pár vás přitahuje právě ten rozdíl. Jednoho z vás láká postavení a cílevědomost druhého. Druhý v jeho blízkosti nachází krásu, něhu a odpočinek od výkonu. Napětí mezi soukromím a veřejným životem dodává vztahu jiskru. Intimita ale potřebuje čas, který kariéra snadno spotřebuje. Když si ho vědomě chráníte, sbližuje vás touha i obdiv.",
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "synastry_point/mc/mars/conjunction",
+  "title": "Mars a Medium coeli (MC) druhého: konjunkce",
+  "keywords": [
+   "kariérní tah",
+   "odvaha k úspěchu",
+   "ctižádost",
+   "soupeření",
+   "společný výkon"
+  ],
+  "themes": [
+   "relationships",
+   "work",
+   "growth"
+  ],
+  "text": "Energie jednoho z vás míří přímo do cílů a veřejné dráhy druhého. Jeden z vás přináší odvahu, tah a iniciativu tam, kde druhý hledá své poslání. Druhý díky tomu přestává odkládat velká rozhodnutí. Dostává chuť se ukázat a jít za tím, čím chce ve světě být. Jeden z vás zase vidí, kam vložit svou sílu, a jeho iniciativa získává směr a smysl. Spolu se dobře pouštíte do projektů s viditelným výsledkem. Máte společné tempo, umíte se navzájem hnát dopředu a zdravé soupeření vás spíš posiluje.",
+  "shadow": "Tlak jednoho z vás na kariéru druhého snadno přeroste v řízení cizího života. Jeden z vás spěchá, určuje tempo a tlačí, druhý se cítí hnaný nebo veřejně zpochybněný. Kritika míří na nejcitlivější místo: na postavení, úspěch a pověst. Spory mezi vámi se snadno odehrávají před ostatními, a tím víc pálí. Objevuje se soupeření o to, kdo má víc uznání. Zbrklé zásahy do práce druhého mají následky, které pak nese hlavně druhý.",
+  "hard": [
+   {
+    "topics": [
+     "violence"
+    ],
+    "text": "Tradice tu mluví o hádkách, které se mohou vyhrotit až do hrubosti nebo fyzického násilí, zvlášť když jde o čest, postavení a uznání. Zmiňuje také zranění a nehody spojené s prací nebo riskantním výkonem, k nimž vede společný spěch a hnaní se za výsledkem."
+   },
+   {
+    "topics": [
+     "ruin",
+     "loss"
+    ],
+    "text": "Tradice tu mluví o pádu z postavení, veřejném skandálu nebo ztrátě pověsti. Spouštěčem může být zbrklý čin či otevřený konflikt jednoho z vás. Kariéra druhého podle starých výkladů nese riziko náhlého zlomu, ztráty místa nebo zničeného jména."
+   },
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví také o vyčerpání z přepínání sil, o horečkách, zánětech a operacích. Spojuje je s obdobím, kdy jeden z vás žene druhého k výkonu nad jeho možnosti a tělo platí za ctižádost."
+   }
+  ],
+  "traits": {
+   "text": [
+    "courage",
+    "ambition",
+    "leadership",
+    "decisiveness",
+    "vitality"
+   ],
+   "shadow": [
+    "dominance",
+    "aggression",
+    "impulsiveness",
+    "competitiveness",
+    "criticism"
+   ]
+  },
+  "partner": "V milostném páru vzniká touha z obdivu k síle a ctižádosti. Jeden z vás vnímá úspěch a postavení druhého jako silný zdroj přitažlivosti. Druhý v té blízkosti cítí vlastní sílu a sebevědomí. Intimita má náboj, dynamiku a soutěživou jiskru. Vášeň mezi vámi roste s tím, jak spolu dobýváte svět.",
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "synastry_point/mc/mars/harmonious",
+  "title": "Mars a Medium coeli (MC) druhého: harmonický aspekt (sextil, trigon)",
+  "keywords": [
+   "pracovní tah",
+   "podpora kariéry",
+   "odvaha k cílům",
+   "společné úsilí",
+   "veřejný úspěch"
+  ],
+  "themes": [
+   "work",
+   "relationships",
+   "growth"
+  ],
+  "text": "Mars jednoho z vás přímo pohání kariéru a veřejné cíle druhého. Kdo má Mars, dodává odvahu udělat krok, který by druhý ještě odkládal: přihlásit se, ozvat se, prosadit vlastní nápad. Druhý zase dává té energii směr a smysl. Síla tak nekončí v zbytečných šarvátkách, ale míří k viditelnému výsledku. Spolu snadno rozjíždíte projekt nebo společné úsilí, které má být vidět navenek. Jeden z vás přináší tah a iniciativu, druhý cíl a dobré jméno. Vzájemně si posilujete jistotu v práci. Ve chvílích rozhodování se rychle shodujete, co dál.",
+  "shadow": "Snadná souhra Marsu s posláním druhého svádí k tomu, že ten s Marsem tlačí cizí kariéru vlastním tempem. Přichází netrpělivost s pomalejším postupem, rady znějí jako rozkazy a na veřejnosti padají zbrklé kroky. Druhý si zvyká, že odvahu za něj dodává někdo jiný, a vlastní rozhodnost ochabuje. Občas vzniká tichá soutěž o to, komu patří zásluha za úspěch. Hádky o pracovní věci pak snadno vytékají mimo soukromí a poškozují pověst, kterou společně budujete.",
+  "hard": [
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o riziku přepracování a úrazů, když jeden z vás žene druhého k výkonu bez odpočinku. Klasické výklady spojují Mars v kontaktu s vrcholem horoskopu s horečkami z vyčerpání a s nehodami při práci. U harmonického aspektu jde spíš o varování před spěchem než o předpověď."
+   }
+  ],
+  "traits": {
+   "text": [
+    "courage",
+    "ambition",
+    "decisiveness",
+    "cooperation",
+    "leadership"
+   ],
+   "shadow": [
+    "impulsiveness",
+    "dominance",
+    "competitiveness",
+    "dependence"
+   ]
+  },
+  "partner": "Mezi vámi jiskří, když jeden z vás vidí druhého v plné síle na veřejnosti. Úspěch, výkon a ambice partnera působí jako silné afrodiziakum. Touha se zapaluje při společných výzvách a tělesná vášeň má rychlý, odvážný rytmus. Kdo má Mars, chce partnera dobývat a zároveň obdivovat. Druhý v té touze nachází uznání toho, kým je navenek.",
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "synastry_point/mc/mars/tense",
+  "title": "Mars a Medium coeli (MC) druhého: napěťový aspekt (kvadrát, opozice)",
+  "keywords": [
+   "soupeření o směr",
+   "tlak na kariéru",
+   "ostruha k činu",
+   "spor o autoritu"
+  ],
+  "themes": [
+   "work",
+   "relationships",
+   "character"
+  ],
+  "text": "Energie jednoho z vás naráží přímo na cíle a veřejnou cestu druhého. Kdo má Mars, tlačí, popichuje a zpochybňuje směr, kterým se druhý ubírá v práci i ve světě. Není to pohodlné, ale funguje to jako ostruha. Druhý musí své plány obhájit, zpřesnit je a jednat rychleji. Jeden z vás dodává odvahu, tah a ochotu jít do rizika. Druhý ukazuje, kam tu sílu nasměrovat, aby měla smysl a výsledek. Ve společném projektu, rodinné firmě nebo týmu tak mezi vámi vzniká tempo, které každému z vás zvlášť chybí.",
+  "shadow": "Kdo má Mars, snadno bere ambice druhého jako výzvu k souboji. Místo podpory přichází kritika, skákání do řeči a přetahování o to, kdo určuje směr. Druhý má pocit, že mu někdo šlape do kariéry nebo podkopává jeho autoritu před ostatními. Hádky o práci a postavení se snadno odehrávají veřejně. Netrpělivost jednoho tlačí druhého k unáhleným rozhodnutím, která pak poškozují jeho pověst. Z obou stran roste zatrpklost a potřeba dokazovat, kdo má navrch.",
+  "hard": [
+   {
+    "topics": [
+     "violence"
+    ],
+    "text": "Tradice tu mluví o otevřených sporech, které mohou přerůst v agresi, výhrůžky nebo fyzické násilí. Hněv toho, kdo má Mars, se podle ní obrací hlavně proti postavení, plánům a veřejné důstojnosti druhého."
+   },
+   {
+    "topics": [
+     "ruin"
+    ],
+    "text": "Tradice tu mluví o poškozené pověsti, ztrátě místa nebo pádu z postavení. Přispět k němu může unáhlené jednání, veřejný konflikt mezi vámi nebo zásah jednoho z vás do kariéry druhého."
+   },
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví také o úrazech, zraněních a operacích spojených s prací nebo veřejným působením, zvlášť při spěchu a zbytečném riskování. Zmiňuje i horečky a vyčerpání z dlouhého soupeření a stálého tlaku na výkon."
+   }
+  ],
+  "traits": {
+   "text": [
+    "competitiveness",
+    "ambition",
+    "courage",
+    "decisiveness"
+   ],
+   "shadow": [
+    "aggression",
+    "dominance",
+    "impulsiveness",
+    "criticism",
+    "anger"
+   ]
+  },
+  "partner": "Mars jednoho z vás silně reaguje na to, jak druhý působí navenek: na jeho postavení, sebejistotu a autoritu. To probouzí touhu i chuť dobývat. Spor o ambice se snadno přenese do intimity jako vášeň, ale také jako souboj o převahu. Přitažlivost tu žije z výzvy a napětí. Pokud se z ní stane jen boj, rychle se vyčerpá.",
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "synastry_point/mc/jupiter/conjunction",
+  "title": "Jupiter a Medium coeli (MC) druhého: konjunkce",
+  "keywords": [
+   "podpora kariéry",
+   "víra v poslání",
+   "otevřené dveře",
+   "velké plány"
+  ],
+  "themes": [
+   "work",
+   "growth",
+   "relationships"
+  ],
+  "text": "Jeden z vás přináší do pracovní cesty a veřejného obrazu druhého víru, že to jde. Tam, kde druhý váhá s velkým krokem, ten první vidí smysl a širší souvislosti. Povzbuzuje, doporučuje a otevírá dveře k lidem, ke studiu nebo k práci v zahraničí. Druhý mu zase dává konkrétní cíl, na kterém se jeho štědrost a optimismus mohou ukázat. Spolu dobře plánujete a mluvíte o tom, kam kdo směřuje. Vedle sebe působíte důvěryhodně i navenek. Úspěch jednoho z vás bývá společnou radostí a u obou roste pocit, že práce má smysl.",
+  "shadow": "Jeden z vás snadno nafukuje plány druhého víc, než unese realita. Sliby o skvělé kariéře, kontaktech nebo příležitostech někdy zůstávají jen sliby. Druhý pak cítí tlak dostát obrazu, který vznikl z cizího nadšení. Ten s Jupiterem se navíc může chlubit úspěchy druhého jako vlastními nebo radit i v oboru, kterému nerozumí. Navenek můžete působit okázaleji a sebejistěji, než odpovídá skutečnosti. Lehkomyslný skok do velkého projektu se pak vymstí oběma.",
+  "hard": [
+   {
+    "topics": [
+     "ruin"
+    ],
+    "text": "Tradice tu mluví o pádu z výšky. Kariéra může růst příliš rychle na přehnaných slibech a pověst může poškodit rozmařilost nebo velké gesto bez krytí. Jde o varování před přemírou, ne o jistotu."
+   },
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o nemocech z přemíry, zvlášť o játrech, tuku a přibývání na váze. U této kombinace je spojuje s pracovním stylem plným hostin, oslav a reprezentace, kde se nadbytek stává zvykem."
+   }
+  ],
+  "traits": {
+   "text": [
+    "optimism",
+    "generosity",
+    "ambition",
+    "leadership"
+   ],
+   "shadow": [
+    "extravagance",
+    "vanity",
+    "irresponsibility",
+    "pride"
+   ]
+  },
+  "partner": "V milostném páru ten s Jupiterem vidí druhého v plné velikosti. Přitažlivost roste z obdivu k tomu, co druhý dokáže, a z pocitu, že spolu jste víc. Blízkost nese vzájemnou hrdost a představu společné budoucnosti, ve které má místo práce i láska.",
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "synastry_point/mc/jupiter/harmonious",
+  "title": "Jupiter a Medium coeli (MC) druhého: harmonický aspekt (sextil, trigon)",
+  "keywords": [
+   "podpora kariéry",
+   "víra v poslání",
+   "otevřené dveře",
+   "společný smysl"
+  ],
+  "themes": [
+   "work",
+   "growth",
+   "relationships"
+  ],
+  "text": "Jupiter jednoho z vás podporuje poslání a kariéru druhého. Kdo z vás má Jupiter, věří v cestu druhého dřív, než se ukáže výsledek. Přináší odvahu, nápady a kontakty, někdy i cestu do ciziny nebo ke studiu. Druhý díky tomu dostává chuť jít výš a vidí svou práci v širším smyslu. Na oplátku dává Jupiteru konkrétní cíl, do kterého může vložit svou štědrost a víru. Pochvala od jednoho z vás má pro druhého váhu a otevírá dveře. Mezi vámi vzniká pocit, že společné plány dávají smysl a že úspěch jednoho těší oba. Podpora přichází přirozeně, bez tlaku a bez soupeření.",
+  "shadow": "Jupiter jednoho z vás umí kariéru druhého nafouknout víc, než unese. Padají velké sliby, přehnaná chvála a plány bez pevného základu. Druhý pak staví veřejný obraz na nadšení místo na práci. Snadnost téhle vazby svádí k lehkomyslnosti. Věci jdou samy, a tak se nepříjemné kroky odkládají. Hrozí i nadutost navenek, kdy si oba užíváte prestiž víc než samotnou práci. Kdo podporu dává, může začít čekat vděk a podíl na cizím úspěchu.",
+  "hard": [
+   {
+    "topics": [
+     "ruin"
+    ],
+    "text": "Tradice tu mluví o pádu z přemíry: o kariéře rozšířené nad síly, o slibech, které nejde splnit, a o ztrátě postavení, kam vás vyneslo nadšení bez opory. U harmonického aspektu jde podle tradice spíš o varování před lehkomyslností než o jistý osud."
+   },
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o játrech, tuku a přemíře. Úspěch se mezi vámi snadno slaví hostinami a hojností. Tradice tvrdí, že účet za takové společné oslavy pak nese tělo."
+   }
+  ],
+  "traits": {
+   "text": [
+    "optimism",
+    "generosity",
+    "ambition",
+    "trustfulness",
+    "cooperation"
+   ],
+   "shadow": [
+    "extravagance",
+    "vanity",
+    "carelessness",
+    "irresponsibility",
+    "pride"
+   ]
+  },
+  "partner": "V milostném páru přitahuje Jupiter u druhého jeho cesta a místo ve světě. Obdiv k tomu, co druhý buduje, se mění v něhu a touhu. Intimita roste z velkorysosti, z dárků, cest a společných snů o budoucnosti. Druhý vedle Jupiteru zažívá pocit, že je vidět v nejlepším světle, a odpovídá vřelostí.",
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "synastry_point/mc/jupiter/tense",
+  "title": "Jupiter a Medium coeli (MC) druhého: napěťový aspekt (kvadrát, opozice)",
+  "keywords": [
+   "kariéra",
+   "velké vize",
+   "přehnaná očekávání",
+   "veřejný obraz",
+   "růst"
+  ],
+  "themes": [
+   "work",
+   "growth",
+   "relationships"
+  ],
+  "text": "Jupiter jednoho z vás tlačí na kariéru a veřejný obraz druhého a chce z nich udělat něco většího. Mezi vámi tak běží stálá debata o smyslu práce, o cílech a o tom, kam vede další krok. Jeden z vás přináší víru, nadhled a chuť mířit výš. Druhý dostává odvahu ke studiu, cestám nebo změně oboru, na kterou jinak nemá dost důvěry. Dáváte si navzájem tah: jeden rozšiřuje obzor, druhý ho převádí do konkrétních kroků a výsledků. Napětí vás nebrzdí, spíš vás nutí růst. Uznání a úspěch druhého jsou pro vás oba společné téma.",
+  "shadow": "Jupiter jednoho z vás nafukuje očekávání od kariéry druhého víc, než unese skutečnost. Padají velké sliby, rady a plány, které se nedotahují. Druhý pak cítí tlak, že musí dosahovat víc. Nebo naopak dostává chválu, která zakrývá slabá místa. Snadno vzniká spor o to, čí představa o úspěchu platí. Jeden z vás moralizuje a poučuje, druhý se brání nebo se nechá strhnout k riskantním krokům. Navenek pak působíte okázaleji, než odpovídá realitě.",
+  "hard": [
+   {
+    "topics": [
+     "ruin",
+     "loss"
+    ],
+    "text": "Tradice tu mluví o pádu z vysoké pozice kvůli přehnané sebedůvěře. Jupiter v napětí k MC druhého podle starých výkladů vede k přeceněným ambicím, k rozšiřování nad síly a ke ztrátě dobrého jména, když se sliby nesplní. Riziko leží v tom, že jeden z vás druhého ve velkých sázkách podporuje místo toho, aby varoval."
+   },
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví také o přemíře, která se ukládá do těla. Jupiter spojuje s játry, tukem a nestřídmostí. Životní styl kolem pracovních úspěchů, oslav a hostin podle ní může zatěžovat tělo toho, kdo nese tlak veřejné role."
+   }
+  ],
+  "traits": {
+   "text": [
+    "optimism",
+    "ambition",
+    "generosity",
+    "idealism"
+   ],
+   "shadow": [
+    "extravagance",
+    "pride",
+    "risk_taking",
+    "dominance",
+    "irresponsibility"
+   ]
+  },
+  "partner": "V milostném páru přitahuje velkorysost a víra, kterou jeden z vás vkládá do budoucnosti druhého. Obdiv k úspěchu a ambicím funguje jako jiskra. Intimita roste s pocitem, že spolu stoupáte. Když ale obdiv nahradí tlak na výkon, láska se mění v hodnocení a blízkost chladne.",
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "synastry_point/mc/saturn/conjunction",
+  "title": "Saturn a Medium coeli (MC) druhého: konjunkce",
+  "keywords": [
+   "autorita",
+   "kariéra",
+   "odpovědnost",
+   "veřejný obraz",
+   "dlouhá trať"
+  ],
+  "themes": [
+   "work",
+   "relationships",
+   "growth",
+   "character"
+  ],
+  "text": "Saturn jednoho z vás stojí přímo na vrcholu horoskopu druhého, v bodě kariéry a veřejného obrazu. Jeden z vás se tak pro druhého stává měřítkem, učitelem a pozorným hodnotitelem cílů. Klade otázky, které nutí plány zpřesnit a domyslet. Druhý díky tomu získává strukturu, trpělivost a jistotu, že ambice stojí na pevné půdě. Saturnská strana zase dostává možnost předat zkušenost a vidět, jak její rady nesou výsledky. Mezi vámi vzniká pracovní tah i tam, kde o práci nejde. Společně plánujete a stavíte na dlouhou trať. Úspěch přichází pomalu, ale vydrží.",
+  "shadow": "Saturn na vrcholu horoskopu druhého může z opory udělat strop. Jeden z vás má sklon hodnotit cesty druhého příliš přísně a brzdit je opatrností. Druhý pak cítí, že žádný výsledek nestačí, a před veřejným krokem se nejdřív ptá, co na to ten přísný hlas řekne. Do vztahu se může vkrást chlad, soupeření o autoritu i tichá výčitka. Nenaplněné ambice saturnské strany se snadno promítají do nároků na druhého. Pak místo růstu přichází strnulost a odkládání.",
+  "hard": [
+   {
+    "topics": [
+     "ruin",
+     "loss"
+    ],
+    "text": "Tradice tu mluví o Saturnu na vrcholu jako o riziku pádu z dosaženého místa. Podle ní může přítomnost jednoho z vás souviset s obdobím, kdy druhý ztrácí postavení, pověst nebo dlouho budovanou práci. Nejde o jistotu, spíš o upozornění na zkoušku vytrvalosti a na to, co skutečně obstojí."
+   },
+   {
+    "topics": [
+     "illness",
+     "death",
+     "loss"
+    ],
+    "text": "Medium coeli tradice spojuje i s rodičovskou autoritou a Saturn se stářím, chronickou nemocí a smrtí. Tradice tu mluví o tom, že vztah může souviset s obdobím nemoci, stárnutí nebo ztráty rodiče. Jeden z vás pak přebírá roli opory, nebo nemoc a péče zbrzdí veřejnou dráhu druhého."
+   }
+  ],
+  "traits": {
+   "text": [
+    "responsibility",
+    "discipline",
+    "perseverance",
+    "ambition",
+    "realism"
+   ],
+   "shadow": [
+    "criticism",
+    "dominance",
+    "insecurity",
+    "rigidity",
+    "pessimism"
+   ]
+  },
+  "partner": "V milostném páru má vztah od začátku vážnost a váhu. Přitažlivost vychází z obdivu ke zralosti a z pocitu, že vedle sebe máte někoho spolehlivého. Intimita roste pomalu, přes důvěru a sdílené cíle. Riziko nastává, když se z partnera stane šéf a z blízkosti hodnocení. Něha pak potřebuje prostor bez výkonu a bez plánů.",
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "synastry_point/mc/saturn/harmonious",
+  "title": "Saturn a Medium coeli (MC) druhého: harmonický aspekt (sextil, trigon)",
+  "keywords": [
+   "opora v povolání",
+   "dlouhodobé cíle",
+   "zralá autorita",
+   "trpělivý růst"
+  ],
+  "themes": [
+   "work",
+   "growth",
+   "relationships"
+  ],
+  "text": "Jeden z vás přináší do cesty druhého za povoláním klidný řád. Saturn prvního podpírá kariéru a veřejný obraz druhého bez tlaku a bez soupeření. Společně poznáte, co stojí za to stavět dlouho, a máte trpělivost čekat na výsledek. První dává druhému strukturu, realistický odhad sil a odvahu nespěchat. Druhý mu na oplátku dává smysl. Jeho vytrvalost a zkušenost tu mají konkrétní cíl a viditelný výsledek. Mezi vámi roste důvěra, která stojí na činech, ne na slovech. Dokážete dotáhnout věci, které jinak zůstávají v půli. Čas tu pracuje pro vás.",
+  "shadow": "Opora jednoho z vás se může změnit v tichou kontrolu nad cestou druhého. Saturn pak brzdí ambice opatrností, kritikou a věčným „ještě není čas“. Druhý si zvyká měřit vlastní úspěch souhlasem toho prvního a ztrácí odvahu riskovat. Shoda vás svádí k tomu, že váš vztah stojí hlavně na výkonu a povinnostech. Chlad a pesimismus se pak skrývají za rozumné rady. Pocit nedostatečnosti se snadno přelévá z jednoho na druhého.",
+  "hard": [
+   {
+    "topics": [
+     "loss",
+     "ruin"
+    ],
+    "text": "Tradice tu mluví o tom, že Saturn na ose povolání nese i pády z postavení, ztrátu práce a pomalý úpadek pověsti. Harmonický aspekt podle ní neznamená zkázu. Spíš ukazuje, že jeden z vás pomáhá druhému takovou ztrátu unést a začít znovu na pevnějších základech."
+   },
+   {
+    "topics": [
+     "illness",
+     "death"
+    ],
+    "text": "Tradice tu mluví i o stáří, chronických nemocech a smrti. Váš vztah se podle ní nejvíc prověřuje v době dlouhé nemoci, úmrtí v rodině nebo stárnutí jednoho z vás. Saturn pak ukazuje, kdo zůstává a nese povinnosti ve chvíli, kdy veřejné úspěchy ztrácejí váhu."
+   }
+  ],
+  "traits": {
+   "text": [
+    "responsibility",
+    "patience",
+    "perseverance",
+    "ambition",
+    "realism"
+   ],
+   "shadow": [
+    "criticism",
+    "pessimism",
+    "insecurity",
+    "rigidity",
+    "dependence"
+   ]
+  },
+  "partner": "V lásce vás spojuje pocit jistoty a vzájemného respektu. Přitažlivost roste pomalu, z obdivu k tomu, jak druhý obstojí ve světě. Intimita je tichá a spolehlivá a budujete ji léta. Jeden z vás v druhém probouzí touhu po uznání. Druhý nachází klid v tom, že může chránit a podpírat. Dejte si jen pozor, aby se z blízkosti nestala porada o plánech.",
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "synastry_point/mc/saturn/tense",
+  "title": "Saturn a Medium coeli (MC) druhého: napěťový aspekt (kvadrát, opozice)",
+  "keywords": [
+   "zkouška ambicí",
+   "kariéra pod dohledem",
+   "autorita",
+   "odpovědnost",
+   "pomalý vzestup"
+  ],
+  "themes": [
+   "work",
+   "relationships",
+   "growth",
+   "health"
+  ],
+  "text": "Saturn jednoho z vás svírá napjatý úhel s osou poslání druhého. Jeden z vás proto přirozeně hodnotí kariéru a veřejné kroky toho druhého. Ptá se: Je to promyšlené? Vydrží to? Druhý tak dostává zkoušku reality dřív, než ji přinese okolí. Plány procházejí sítem a slabá místa se ukážou včas. Kdo má MC, učí se vytrvalosti a trpělivé stavbě postavení. Kdo má Saturn, vidí na druhém, jak vypadá odvaha vystoupit na veřejnost. Mezi vámi vzniká pracovní vztah s jasnými měřítky. Úspěch tu nepřichází rychle, ale stojí na pevných základech.",
+  "shadow": "Saturn jednoho z vás může na ambice druhého působit jako stálá brzda. Každý nový krok narazí na pochybnost, každý úspěch na poznámku, co ještě chybí. Druhý pak přestává ukazovat své plány a zažívá pocit nedostatečnosti. Kdo má Saturn, za kritikou někdy skrývá vlastní strach nebo nevyslovenou závist. Hrozí mocenský zápas o to, kdo určuje směr. Z opatrnosti se stává kontrola, z rady chladné řízení a z podpory dohled.",
+  "hard": [
+   {
+    "topics": [
+     "ruin",
+     "loss"
+    ],
+    "text": "Tradice tu mluví o pádu z postavení, ztrátě pověsti nebo zaměstnání v obdobích, kdy vztah mezi vámi nese velkou tíhu. Saturn na ose MC se v klasických textech pojí se zbrzděným uznáním a s tím, že dlouho budovaná pozice může náhle ztratit oporu. Jde o téma, které se může vynořit, ne o jistotu."
+   },
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o chronickém vyčerpání z dlouhodobé odpovědnosti a o potížích s kostmi, klouby a zády u toho, kdo nese tíhu cizích očekávání. Pracovní tlak mezi vámi se podle starých výkladů může ukládat do těla jako únava a strnulost."
+   },
+   {
+    "topics": [
+     "death",
+     "loss"
+    ],
+    "text": "MC v tradici představuje také jednoho z rodičů a autoritu nad člověkem. Tradice tu mluví o ztrátě nebo smrti rodiče či jiné opory v době, kdy se vaše cesty potkávají, a o osamělosti na vrcholu. Je to starý obraz, ne předpověď."
+   }
+  ],
+  "traits": {
+   "text": [
+    "order",
+    "perseverance",
+    "realism",
+    "responsibility",
+    "ambition"
+   ],
+   "shadow": [
+    "criticism",
+    "dominance",
+    "pessimism",
+    "insecurity",
+    "coldness"
+   ]
+  },
+  "partner": "V milostném páru má tento aspekt vážnou, dospělou přitažlivost. Jeden z vás obdivuje cíle druhého a ten druhý v něm hledá pevnou oporu. Intimita roste pomalu a stojí na důvěře, ne na vzrušení. Když se do ložnice přenese hodnocení a výkon, blízkost chladne. Něha tu potřebuje čas, klid a jistotu, že nikdo nikoho neposuzuje.",
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "synastry_point/mc/uranus/conjunction",
+  "title": "Uran a Medium coeli (MC) druhého: konjunkce",
+  "keywords": [
+   "náhlé změny v kariéře",
+   "originální poslání",
+   "nový směr",
+   "veřejný obraz",
+   "probuzení"
+  ],
+  "themes": [
+   "work",
+   "growth",
+   "relationships"
+  ],
+  "text": "Uran jednoho z vás leží přímo na vrcholu dráhy druhého. Mezi vámi to znamená probuzení v otázce poslání. Jeden z vás přináší nápady, nové technické postupy a odvahu k neobvyklé cestě. Druhý dostává impuls opustit dráhu, která už nesedí, a ukázat se světu jinak. Díky tomuto spojení se často mění obor, role nebo způsob práce. Druhý na oplátku nabízí cíl a směr. Originalita prvního tak nezůstává jen v hlavě, ale dostává konkrétní podobu a veřejné uplatnění. Spolu hledáte, co je pro každého z vás skutečně vlastní.",
+  "shadow": "Uran jednoho z vás naráží na kariéru druhého, a tak přichází neklid i do toho nejviditelnějšího. Jeden z vás zpochybňuje plány druhého, hlavně tam, kde jde o pověst a postavení. Změny přicházejí náhle a bez ohledu na závazky, které druhý veřejně nese. Druhý pak cítí nejistotu a ztrácí půdu pod nohama. Vzdor kvůli vzdoru mění podporu v neustálé převracení. Nejvíc bolí odtažitost prvního ve chvíli, kdy druhý potřebuje stabilitu. Je to horší než otevřený nesouhlas.",
+  "hard": [
+   {
+    "topics": [
+     "ruin",
+     "loss"
+    ],
+    "text": "Tradice tu mluví o náhlých zlomech v postavení toho, jehož MC je zasaženo. Popisuje nečekanou ztrátu místa, rozvrat pověsti nebo pád z dosažené pozice, k nimž vztah s druhým přispívá. Zmiňuje také nehody spojené s prací, technikou nebo cestami za povinnostmi. Jde o tradiční výklad, ne o jistotu."
+   },
+   {
+    "topics": [
+     "mental_crisis"
+    ],
+    "text": "Tradice tu mluví o nervovém vypětí kolem kariéry a veřejného obrazu. Neustálé změny, nejistota a tlak na převrat mohou podle ní vést k vyčerpání, nespavosti a nervové krizi. Ohrožen je hlavně ten, jehož poslání se ocitá v pohybu. Jde o možnost, ne o předpověď."
+   }
+  ],
+  "traits": {
+   "text": [
+    "originality",
+    "independence",
+    "transformation",
+    "creativity",
+    "curiosity"
+   ],
+   "shadow": [
+    "inconstancy",
+    "rebellion",
+    "insecurity",
+    "detachment",
+    "restlessness"
+   ]
+  },
+  "partner": "V milostném páru působí toto spojení jako jiskra. Jeden z vás obdivuje druhého za to, kým se teprve může stát. Vidí v něm nečekaný potenciál a druhého to přitahuje i znejisťuje. Vášeň živí novost, společné vize a překvapení. Všední rutina ji rychle tlumí. Blízkost tu potřebuje volnost a prostor pro změnu.",
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "synastry_point/mc/uranus/harmonious",
+  "title": "Uran a Medium coeli (MC) druhého: harmonický aspekt (sextil, trigon)",
+  "keywords": [
+   "profesní svoboda",
+   "originální cesta",
+   "nečekané příležitosti",
+   "nové obory"
+  ],
+  "themes": [
+   "work",
+   "growth",
+   "relationships"
+  ],
+  "text": "Uran jednoho z vás oživuje kariérní cestu a veřejný obraz druhého. Přináší nápady, nečekané kontakty a odvahu zkusit něco jiného, než okolí čeká. Vedle něj druhý snáz rozpozná, co ve své práci opravdu chce dělat. Změny tu nepřicházejí jako otřes, spíš jako otevřené dveře. Jeden z vás dodává svobodu a originalitu, druhý cíl, kam tu energii nasměrovat. Vzájemně si dáváte odvahu jít vlastní cestou a nebát se odlišnosti. Dobře funguje společný projekt, technika, nové obory nebo práce s lidmi, kteří myslí jinak. Mezi vámi platí, že veřejná role nemusí být klec.",
+  "shadow": "Uran jednoho z vás může druhého lákat k profesním skokům bez pevné půdy pod nohama. Snadnost aspektu svádí k podcenění: nápadů přibývá, ale dotažení chybí. Jeden z vás občas mění plány druhého rychleji, než je zdrávo, a druhý si zvyká na neklid místo stálého směru. Hrozí i odtažitost: ten s Uranem fandí změně, ale na dlouhou práci na pověsti druhého mu chybí trpělivost. Originalita se pak mění ve výstřednost, která veřejnému obrazu spíš škodí.",
+  "hard": [
+   {
+    "topics": [
+     "ruin",
+     "mental_crisis"
+    ],
+    "text": "Tradice tu mluví o náhlých zlomech v kariéře a postavení. Uran je podle ní přináší i v harmonickém aspektu, jen mírněji. Spojuje je s nervovým vypětím z příliš rychlých změn a se ztrátou pozice, když se druhý vrhne do nejistého podniku. Jde o tradiční varování, ne o jistotu."
+   }
+  ],
+  "traits": {
+   "text": [
+    "originality",
+    "independence",
+    "creativity",
+    "flexibility",
+    "curiosity"
+   ],
+   "shadow": [
+    "inconstancy",
+    "restlessness",
+    "detachment",
+    "risk_taking"
+   ]
+  },
+  "partner": "V milostném páru působí jeden z vás na druhého jako osvěžení, které probouzí chuť žít jinak. Přitažlivost roste z obdivu k odvaze a nezávislosti, ze společných plánů a z pocitu, že spolu můžete zůstat svoji. Intimita má nečekané, hravé chvíle. Daří se jí, když má prostor, a ne kontrolu.",
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "synastry_point/mc/uranus/tense",
+  "title": "Uran a Medium coeli (MC) druhého: napěťový aspekt (kvadrát, opozice)",
+  "keywords": [
+   "náhlá změna směru",
+   "kariéra",
+   "originalita",
+   "veřejný obraz",
+   "neklid"
+  ],
+  "themes": [
+   "work",
+   "relationships",
+   "growth",
+   "character"
+  ],
+  "text": "Uran jednoho z vás stojí v napětí k vrcholu horoskopu druhého, tedy ke kariéře, poslání a veřejnému obrazu. Ten s Uranem vnáší do pracovní cesty druhého nečekané podněty, neobvyklé nápady a chuť změnit směr. Druhý tak dostává odvahu opustit zaběhnutou dráhu nebo zkusit roli, o které dosud neuvažuje. Nositel Uranu naopak vidí, jak jeho nápady dostávají ve světě konkrétní podobu. Mezi vámi vzniká živé tření: co jeden buduje, druhý zpochybňuje. Pokud to tření unesete, máte silný motor změny. Projeví se v práci, ve škole i v tom, jak vás vnímá okolí.",
+  "shadow": "Uran jednoho z vás umí rozkolísat to, co druhý pracně staví na veřejnosti. Nápady přicházejí ve špatnou chvíli a plány se mění bez varování. Vzdor míří proti autoritám a pravidlům, na kterých druhému záleží. Druhý pak má pocit, že jeho úsilí nikdo nebere vážně a že je ohrožená jeho pověst. Nositel Uranu zase vnímá potřebu jistoty a postupu jako svazování. Výsledkem je odtažitost, nevyzpytatelnost a spory o to, čí směr platí.",
+  "hard": [
+   {
+    "topics": [
+     "ruin",
+     "loss"
+    ],
+    "text": "Tradice tu mluví o náhlých zlomech v kariéře toho, jehož MC je zasaženo: o ztrátě postavení, rozpadu podniku nebo nečekaném veřejném skandálu. Spouštěčem bývá podle ní vliv druhého, jeho rozhodnutí nebo jeho přítomnost ve hře. Jde o tradiční výklad, ne o jistotu."
+   },
+   {
+    "topics": [
+     "mental_crisis"
+    ],
+    "text": "Tradice tu mluví také o nervovém vypětí z trvalé nejistoty. Neustálé změny plánů a otřesy v postavení podle ní vedou k napětí, nespavosti a vyčerpání nervů, hlavně u toho, jehož cesta se opakovaně boří."
+   }
+  ],
+  "traits": {
+   "text": [
+    "originality",
+    "independence",
+    "transformation",
+    "courage",
+    "creativity"
+   ],
+   "shadow": [
+    "inconstancy",
+    "rebellion",
+    "restlessness",
+    "detachment",
+    "chaos"
+   ]
+  },
+  "partner": "V milostném páru působí toto napětí jako elektrický náboj. Jeden z vás fascinuje druhého nevšedností a volností. Druhý zase přitahuje cílevědomostí a pevným místem ve světě. Jiskření je silné, ale nestálé. Intimita kolísá podle toho, kolik volnosti a kolik jistoty právě potřebujete. Nejvíc vás sbližují chvíle, kdy spolu riskujete něco nového.",
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "synastry_point/mc/neptune/conjunction",
+  "title": "Neptun a Medium coeli (MC) druhého: konjunkce",
+  "keywords": [
+   "inspirované poslání",
+   "vize",
+   "idealizace",
+   "tvůrčí cesta",
+   "mlha v cílech"
+  ],
+  "themes": [
+   "work",
+   "relationships",
+   "growth"
+  ],
+  "text": "Neptun jednoho z vás stojí přímo na vrcholu horoskopu druhého, v místě poslání a veřejného obrazu. Ten s Neptunem vidí v cestě druhého víc než práci. Vidí v ní smysl, příběh a skoro povolání. Druhý z toho čerpá odvahu k tvůrčím, pomáhajícím nebo duchovním směrům. Jeden z vás přináší vizi a inspiraci, druhý jí dává tvar ve světě. Společné projekty mají atmosféru a přesah. Navenek působíte jako dvojice, která věří v něco většího než výsledek. Druhý se díky tomu učí ukázat před lidmi i svou jemnější a soucitnější stránku.",
+  "shadow": "Neptun na MC druhého rozmazává hranici mezi skutečnou kariérou a vysněným obrazem. Jeden z vás snadno idealizuje postavení druhého. Nebo do jeho cesty promítá vlastní nesplněné sny. Cíle se pak rozplývají, plány zůstávají v mlze a rozhodnutí se odkládají. Vznikají nejasnosti, kdo za co odpovídá. Nespolehlivost na straně Neptuna může podkopávat pověst druhého. Někdy jeden z vás obětuje vlastní směr pro úspěch toho druhého a později v tom cítí křivdu.",
+  "hard": [
+   {
+    "topics": [
+     "ruin",
+     "loss"
+    ],
+    "text": "Tradice tu mluví o klamu, který zasahuje veřejné jméno. Jde o skandál, pomluvu nebo podvod, kvůli nimž druhý ztrácí postavení a důvěru okolí. Nejde o jistotu. Spíš o varování před nejasnými dohodami a tajemstvími v pracovních věcech."
+   },
+   {
+    "topics": [
+     "addiction",
+     "mental_crisis",
+     "illness"
+    ],
+    "text": "Tradice tu mluví také o závislostech, otravách a duševní mlze, které se promítají do kariéry. Alkohol, návykové látky nebo únik do snění podle starých výkladů oslabují schopnost jednoho z vás nést odpovědnost. Druhého pak stahují s sebou a jeho cesta ztrácí pevnou půdu."
+   }
+  ],
+  "traits": {
+   "text": [
+    "idealism",
+    "creativity",
+    "spirituality",
+    "empathy",
+    "intuition"
+   ],
+   "shadow": [
+    "escapism",
+    "deceit",
+    "indecision",
+    "self_sacrifice",
+    "chaos"
+   ]
+  },
+  "partner": "Jako pár na sebe působíte jako snový obraz. Jeden z vás vidí v druhém postavu z vlastního příběhu. Přitažlivost má romantický, téměř posvátný nádech, zvlášť když druhý stojí v roli, kterou okolí obdivuje. Intimita roste ze sdíleného snu o společné cestě. Pozor na lásku k ideálu místo ke skutečnému člověku.",
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "synastry_point/mc/neptune/harmonious",
+  "title": "Neptun a Medium coeli (MC) druhého: harmonický aspekt (sextil, trigon)",
+  "keywords": [
+   "inspirované poslání",
+   "tvůrčí vize",
+   "veřejný obraz",
+   "práce jako služba",
+   "intuice v kariéře"
+  ],
+  "themes": [
+   "work",
+   "growth",
+   "relationships"
+  ],
+  "text": "Neptun jednoho z vás tiše podporuje poslání a kariéru druhého. Kdo nese Neptun, vidí v cestě druhého smysl, který přesahuje výkon a postavení. Dodává mu inspiraci, obrazotvornost a cit pro to, co lidi skutečně osloví. Druhý pak snáz najde práci s duší a veřejnou tvář, která působí lidsky a přirozeně. Mezi vámi panuje tichá důvěra, že povolání může být službou nebo uměním. Jeden přináší vizi, druhý jí dává směr a místo ve světě. Daří se vám společné tvůrčí, pomáhající nebo duchovně laděné projekty.",
+  "shadow": "Neptun jednoho z vás může kariéru druhého zahalit do mlhy krásných, ale neověřených představ. Vize se snadno odtrhne od reality a plány zůstávají ve fázi snu. Kdo nese Neptun, někdy idealizuje veřejný obraz druhého nebo přehlédne, o co druhý skutečně usiluje. Druhý se pak nechá vést cizí inspirací místo vlastního úsudku. Objevují se nejasné dohody, nevyslovená očekávání a pocit, že se cíle rozplývají. Harmonický aspekt to tlumí, nespolehlivost v pracovních věcech se ale může objevit.",
+  "hard": [
+   {
+    "topics": [
+     "addiction",
+     "mental_crisis"
+    ],
+    "text": "Tradice tu mluví o tom, že Neptun ve styku s MC může do pracovního života vnášet alkohol, návykové látky nebo jiné únikové zvyky a také duševní mlhu z přetížení či rozčarování z povolání. U sextilu a trigonu jde spíš o slabší sklon než o pravidlo, jen o možnost, nikoli jistotu."
+   },
+   {
+    "topics": [
+     "ruin"
+    ],
+    "text": "Tradice tu mluví také o klamu, pomluvách a falešných slibech, které mohou poškodit pověst nebo postavení. U harmonického aspektu se to obvykle projevuje jako nedorozumění nebo přehnaná důvěra v nepravdivé informace, ne nutně jako skutečný pád."
+   }
+  ],
+  "traits": {
+   "text": [
+    "creativity",
+    "intuition",
+    "idealism",
+    "empathy",
+    "spirituality"
+   ],
+   "shadow": [
+    "escapism",
+    "chaos",
+    "irresponsibility",
+    "indecision"
+   ]
+  },
+  "partner": "Přitažlivost tu vzniká z obdivu. Kdo nese Neptun, vidí v druhém člověka s posláním. Druhému ten pohled dodává sebevědomí a něhu. Intimita má jemný, snový nádech a společné sny o budoucnosti vás sbližují. Pozor jen na to, aby obdiv nenahradil skutečné poznání toho, kým je druhý mimo svou veřejnou roli.",
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "synastry_point/mc/neptune/tense",
+  "title": "Neptun a Medium coeli (MC) druhého: napěťový aspekt (kvadrát, opozice)",
+  "keywords": [
+   "zamlžené poslání",
+   "idealizace kariéry",
+   "inspirace pro práci",
+   "pověst",
+   "nejasné cíle"
+  ],
+  "themes": [
+   "work",
+   "relationships",
+   "growth",
+   "health"
+  ],
+  "text": "Neptun jednoho z vás naráží na kariéru a veřejný obraz druhého. Ten, kdo nese Neptun, vidí v práci a poslání druhého víc, než je na první pohled patrné: skrytý talent, umělecký rozměr, smysl, který přesahuje výplatu. Druhý díky tomu zkouší cesty, které by jinak zůstaly stranou. Zároveň se mezi vámi míchají sny s konkrétními cíli. Jeden přináší fantazii a soucit, druhý potřebu jasného směru a jména ve světě. Když si to přiznáte, doplňujete se: vize dostává tvar a ambice dostává duši. Pomáhá mluvit o plánech nahlas a ověřovat je ve skutečnosti.",
+  "shadow": "Neptun jednoho z vás snadno zamlží, kam má kariéra druhého vlastně vést. Ten s Neptunem nevědomky podkopává plány druhého nejasnými sliby, nespolehlivostí a rozmazanými dohodami. Druhý pak ztrácí jistotu ve vlastních cílech nebo honí obraz úspěchu, který existuje jen v představách. Přichází idealizace a po ní zklamání. Hrozí i to, že jeden obětuje svou dráhu snům toho druhého, nebo že veřejnost vnímá druhého zkresleně kvůli tomu, s kým se spojuje.",
+  "hard": [
+   {
+    "topics": [
+     "ruin",
+     "loss"
+    ],
+    "text": "Tradice tu mluví o klamu a skandálech kolem jména a pověsti. Starší výklady zmiňují pomluvy, nejasné obchody nebo podvod, který může poškodit postavení druhého ve světě. Mluví také o ztrátě místa či dobrého jména kvůli zmatku, který do jeho práce vnáší ten s Neptunem. Jde o možné riziko, ne o jistotu."
+   },
+   {
+    "topics": [
+     "addiction",
+     "mental_crisis"
+    ],
+    "text": "Tradice tu mluví také o závislostech a duševní mlze. Výklady spojují tento aspekt s alkoholem, drogami či jinými látkami, které rozmělňují pracovní ambice. Zmiňují i období zmatku, kdy se ztrácí smysl vlastního poslání a přichází bezradnost ohledně budoucnosti. Jde o sklon, ne o předurčení."
+   },
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu zmiňuje i otravy a nejasné, těžko rozpoznatelné nemoci, které mohou narušit nebo přerušit pracovní dráhu druhého. Takové výklady jsou ale jen tradičním obrazem a nic nepředpovídají jistě."
+   }
+  ],
+  "traits": {
+   "text": [
+    "idealism",
+    "creativity",
+    "empathy",
+    "intuition",
+    "ambition"
+   ],
+   "shadow": [
+    "escapism",
+    "deceit",
+    "irresponsibility",
+    "insecurity",
+    "inconstancy"
+   ]
+  },
+  "partner": "V milostném vztahu působí ten s Neptunem na druhého jako tajemná múza, která slibuje jiný, krásnější život mimo běžné povinnosti. Přitažlivost má snový nádech a intimita se stává útočištěm před tlakem kariéry. Riziko spočívá v tom, že romantika začne soupeřit s pracovními cíli, nebo že jeden z vás obětuje vlastní dráhu kvůli iluzi o společné budoucnosti.",
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "synastry_point/mc/pluto/conjunction",
+  "title": "Pluto a Medium coeli (MC) druhého: konjunkce",
+  "keywords": [
+   "proměna poslání",
+   "vliv na životní dráhu",
+   "veřejný obraz",
+   "moc a postavení",
+   "hluboká stopa"
+  ],
+  "themes": [
+   "work",
+   "growth",
+   "relationships"
+  ],
+  "text": "Pluto jednoho z vás leží přímo na vrcholu horoskopu druhého, v místě kariéry a veřejného obrazu. Nositel Pluta proto zasahuje do životní dráhy druhého hlouběji než kdokoli jiný. Vidí v druhém sílu, kterou ten zatím nepoužívá, a vytahuje ji na povrch. Druhý pak mění směr, opouští cesty bez smyslu a hledá poslání s větší vahou. Nositel Pluta zase dostává místo, kde jeho hloubka nabírá viditelný tvar. Spolu umíte projít krizí v práci i v pověsti a vyjít z ní silnější. Tenhle vztah nechává trvalou stopu na tom, kým se druhý stává navenek.",
+  "shadow": "Pluto jednoho z vás na MC druhého snadno přechází v boj o to, kdo druhému určuje směr. Nositel Pluta může kontrolovat kariérní rozhodnutí, hodnotit každý veřejný krok a tlačit k proměně, o kterou druhý nestojí. Druhý pak cítí, že jeho úspěch nepatří jen jemu. Objevuje se žárlivost na postavení, tiché soupeření a manipulace přes pověst. Při rozchodu hrozí pomstychtivost: znalost slabin druhého se mění ve zbraň proti jeho dobrému jménu.",
+  "hard": [
+   {
+    "topics": [
+     "ruin",
+     "loss"
+    ],
+    "text": "Tradice tu mluví o pádu z postavení, krachu kariéry nebo ztrátě dobrého jména, na kterém se nositel Pluta podílí, ať záměrně, nebo nechtěně. Zmiňuje i konec jedné životní dráhy, po kterém teprve přichází nová."
+   },
+   {
+    "topics": [
+     "death"
+    ],
+    "text": "Tradice tu mluví o smrti a znovuzrození veřejné identity druhého. Starší výklady spojují tento kontakt i se skutečným úmrtím v okolí, například v rodině, které obrátí životní směr druhého."
+   },
+   {
+    "topics": [
+     "violence"
+    ],
+    "text": "Tradice tu mluví o moci nad druhými a jejím zneužití: o nátlaku, zastrašování a ponížení, které míří na postavení a práci druhého. V krajních výkladech zmiňuje i násilí spojené s bojem o vliv."
+   }
+  ],
+  "traits": {
+   "text": [
+    "transformation",
+    "depth",
+    "ambition",
+    "resilience",
+    "leadership"
+   ],
+   "shadow": [
+    "dominance",
+    "obsession",
+    "jealousy",
+    "competitiveness",
+    "deceit"
+   ]
+  },
+  "partner": "V milostném vztahu působí moc a postavení jako silný magnet. Nositele Pluta přitahuje ambice a veřejná tvář druhého. Druhého zase přitahuje hloubka a intenzita, která ho proměňuje. Intimita mezi vámi nese vášeň i soupeření zároveň. Sexualita bývá silná a provází ji pocit, že vás vztah mění od základu.",
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "synastry_point/mc/pluto/harmonious",
+  "title": "Pluto a Medium coeli (MC) druhého: harmonický aspekt (sextil, trigon)",
+  "keywords": [
+   "proměna kariéry",
+   "skrytá síla",
+   "podpora poslání",
+   "vliv"
+  ],
+  "themes": [
+   "work",
+   "growth",
+   "relationships"
+  ],
+  "text": "Pluto jednoho z vás podporuje kariéru a veřejnou cestu druhého a dodává jí hloubku a sílu. Ten s Plutem vidí v práci druhého skrytý potenciál a pomáhá ho vynést na světlo. Druhý se díky tomu odvažuje k větším změnám: mění obor, přijímá odpovědnost, ukazuje se veřejně s větší vahou. Vliv nepůsobí jako tlak, spíš jako tichá jistota v zádech. Máte společnou schopnost proměnit krizi v pracovní příležitost. Jeden z vás přináší vhled do moci a zákulisí, druhý strukturu a cíl. Spolu dokážete budovat něco trvalého, co přežije i těžká období.",
+  "shadow": "Snadnost tohoto spojení zakrývá, že ten s Plutem může nenápadně řídit kariérní rozhodnutí druhého. Rady se mění v kontrolu a podpora v očekávání, že úspěch bude odpovídat jeho představě. Druhý pak těžko rozlišuje, které cíle jsou opravdu jeho vlastní. Harmonie svádí k tomu, že mocenské hry mezi vámi nikdo nepojmenuje. Při neúspěchu se může objevit tichá zatrpklost nebo žárlivost na veřejné uznání. Tajnosti z pracovního zákulisí pak vytvářejí nerovnováhu.",
+  "hard": [
+   {
+    "topics": [
+     "ruin",
+     "loss"
+    ],
+    "text": "Tradice tu mluví o tom, že Pluto na ose kariéry souvisí s krachem, pádem z postavení a mocí nad druhými. U harmonického aspektu ho spíš popisuje jako konec, po kterém přichází nový začátek: jeden z vás pomáhá druhému přežít ztrátu místa nebo pověsti a postavit se znovu."
+   },
+   {
+    "topics": [
+     "death"
+    ],
+    "text": "Tradice tu mluví i o smrti a znovuzrození ve vztahu k poslání. Úmrtí v okolí, často v rodině nebo mezi učiteli, podle ní může druhému otevřít novou profesní cestu, na které ten s Plutem stojí jako opora. Jde o starý motiv, ne o jistotu."
+   }
+  ],
+  "traits": {
+   "text": [
+    "transformation",
+    "depth",
+    "ambition",
+    "perseverance",
+    "resilience"
+   ],
+   "shadow": [
+    "dominance",
+    "obsession",
+    "secrecy",
+    "jealousy"
+   ]
+  },
+  "partner": "V milostném páru se přitažlivost váže k tomu, kým se ten druhý stává ve světě. Ten s Plutem cítí silnou touhu právě ve chvílích, kdy druhý roste a prosazuje se. Druhý vnímá jeho hloubku jako bezpečné a vášnivé zázemí. Intimita mezi vámi má vážnost a dodává sílu i do veřejného života.",
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "synastry_point/mc/pluto/tense",
+  "title": "Pluto a Medium coeli (MC) druhého: napěťový aspekt (kvadrát, opozice)",
+  "keywords": [
+   "moc",
+   "kariéra",
+   "proměna",
+   "veřejný obraz",
+   "boj o vliv"
+  ],
+  "themes": [
+   "work",
+   "relationships",
+   "growth",
+   "character"
+  ],
+  "text": "Pluto jednoho z vás tlačí přímo do kariéry, poslání a veřejného obrazu druhého a nenechá je stát na místě. Druhý cítí, že jeho pracovní cesta je pod drobnohledem, a to včetně slabých míst, která jinak nikdo nevidí. Vzniká z toho tlak, ale také velká hnací síla. Plutonská strana odhaluje, co je v dosavadním směřování prázdné nebo převzaté od jiných, a pomáhá to opustit. Strana s MC dává té intenzitě konkrétní cíl a viditelný výsledek. Spolu umíte přestavět profesní plán od základů, projít krizí v práci a vyjít z ní s jasnějším posláním.",
+  "shadow": "Pluto jednoho z vás může chtít řídit kariéru druhého a rozhodovat o tom, jak působí navenek. Druhý pak má pocit, že mu někdo podkopává postavení nebo si přivlastňuje jeho úspěch. Objevuje se žárlivost na pracovní výsledky, tichá kontrola a nátlak skrz informace, které by mohly poškodit pověst. Opozice vede spíš k otevřenému boji o vliv, kvadrát k dlouhému tření. Kdo prohraje, může to splácet pomstou nebo tvrdohlavým odporem.",
+  "hard": [
+   {
+    "topics": [
+     "ruin",
+     "loss"
+    ],
+    "text": "Tradice tu mluví o pádu z postavení, krachu podniku nebo veřejném skandálu, který se rozhoří v době, kdy jsou vaše životy propojené. Plutonská strana může být spouštěčem i svědkem takového otřesu. Výklad to nebere jako jistotu, spíš jako varování před mocenskými hrami kolem cizí kariéry."
+   },
+   {
+    "topics": [
+     "death",
+     "loss"
+    ],
+    "text": "Tradice spojuje MC i s jedním z rodičů a tu mluví o tom, že tento kontakt se může ozvat v obdobích úmrtí, vážné nemoci nebo hlubokých otřesů v rodině toho, komu MC patří. Plutonská strana bývá podle tradice přítomna při takové proměně rodinného řádu. Jde o tradiční motiv, nikoli o předpověď."
+   },
+   {
+    "topics": [
+     "violence"
+    ],
+    "text": "Tradice tu mluví o moci nad druhými, nátlaku, vydírání a v krajních případech i o násilí, které vyrůstá z boje o vliv a postavení. Jde hlavně o psychický tlak, výhrůžky ztrátou pověsti nebo práce. Tradice to uvádí jako možnost stínu, ne jako danost."
+   }
+  ],
+  "traits": {
+   "text": [
+    "transformation",
+    "ambition",
+    "depth",
+    "perseverance",
+    "resilience"
+   ],
+   "shadow": [
+    "dominance",
+    "obsession",
+    "jealousy",
+    "secrecy",
+    "deceit"
+   ]
+  },
+  "partner": "V milostném páru má tenhle kontakt silný náboj spojený s mocí. Přitažlivost roste z toho, jak jeden z vás vnímá ambice a postavení druhého, a z napětí, kdo má navrch. Intimita je hluboká a pohlcující, ale snadno se mísí s kontrolou. Hrozí žárlivost na práci a na lidi kolem ní. Vášeň vydrží, když se nestane bojištěm o vliv.",
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ }
+]

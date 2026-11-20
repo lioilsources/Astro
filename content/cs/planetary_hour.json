@@ -1,0 +1,379 @@
+[
+ {
+  "key": "planetary_hour/sun",
+  "title": "Hodina planety Slunce",
+  "keywords": [
+   "uznání",
+   "vůle",
+   "autorita",
+   "viditelnost",
+   "vitalita"
+  ],
+  "themes": [
+   "character",
+   "work",
+   "family",
+   "health"
+  ],
+  "text": "Hodina Slunce je podle tradice čas, kdy se věci dějí na očích. Hodí se k jednání s nadřízenými, úřady a lidmi, od kterých potřebuješ přízeň nebo uznání. Dobře v ní začínáš to, co má být vidět: vystoupení, prezentaci, tvůrčí dílo, žádost o místo. Tvoje vůle má víc tahu a tvá slova víc váhy. Tradice tuto hodinu doporučuje i pro posílení životní síly, pobyt na světle a smíření s otcem.",
+  "shadow": "Hodina Slunce nepřeje tomu, co potřebuje ticho a stín: tajným dohodám, intrikám a zakrývání chyb. Co v ní tajíš, podle tradice snadno vyjde najevo. Zesiluje také pýchu. Snadno přeceníš vlastní význam, chceš obdiv místo spolupráce a druhé přehlasuješ. Spor s autoritou nebo s otcem se v ní rychle vyostří, protože ani jedna strana nechce ustoupit. Tradice proto radí nežádat o přízeň s nárokem a nepouštět se do soubojů ega.",
+  "hard": [
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o srdci, zraku a životní síle. Když je Slunce v pádu nebo poškozené, spojuje jeho hodinu s oslabeným zdravím, únavou a potížemi s očima či srdcem. Zmiňuje také oslabené zdraví otce. Jde o tradiční výklad, ne o jistou předpověď."
+   },
+   {
+    "topics": [
+     "ruin",
+     "loss"
+    ],
+    "text": "Tradice tu mluví i o pádu z výsluní. Při poškozeném Slunci hodina podle ní nese riziko ztráty postavení, dobrého jména nebo přízně mocných. Ztrátu přisuzuje hlavně pýše a otevřenému střetu s autoritou."
+   }
+  ],
+  "traits": {
+   "text": [
+    "self_confidence",
+    "leadership",
+    "creativity",
+    "vitality",
+    "openness"
+   ],
+   "shadow": [
+    "pride",
+    "dominance",
+    "vanity",
+    "stubbornness"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "planetary_hour/moon",
+  "title": "Hodina planety Měsíc",
+  "keywords": [
+   "domov",
+   "city",
+   "péče",
+   "tělo",
+   "matka"
+  ],
+  "themes": [
+   "family",
+   "health",
+   "character"
+  ],
+  "text": "Měsíční hodina patří domovu, tělu a citům. Tradice ji doporučuje pro péči o domácnost, vaření, úklid, koupel a odpočinek. Hodí se na rozhovor s matkou nebo s blízkými, na návštěvu rodiny i na krátké cesty. Daří se v ní činnostem, které se opakují a vyživují: zalévání rostlin, příprava jídla, ukládání dětí ke spánku. Snáz vnímáš vlastní potřeby a únavu. Intuice teď mluví hlasitěji než rozum.",
+  "shadow": "V měsíční hodině tradice nedoporučuje začínat věci, které mají vydržet, ani dávat sliby, protože se mění jako Měsíc. Nálada kolísá rychleji než obvykle a drobná výtka zabolí víc, než by měla. Ruka snadno sahá po jídle pro útěchu a mysl se vrací ke starým křivdám. Hrozí, že city použiješ jako páku: mlčením, výčitkou nebo hrou na oběť. Nehodí se ani pro rozhodnutí podle prvního dojmu a pro vystoupení, kde je potřeba chladná hlava.",
+  "hard": [
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o žaludku a trávení. Podle starých textů se v měsíční hodině snadno rozruší zažívání a tělo hůř snáší těžké jídlo. Zmiňuje také plodnost, těhotenství a ženské cykly jako oblasti, které Měsíc řídí a které jsou v jeho hodině citlivější."
+   },
+   {
+    "topics": [
+     "mental_crisis"
+    ],
+    "text": "Tradice tu mluví o duševní rovnováze. Měsíc podle ní vládne náladám a spánku. Když je oslabený, přináší úzkost, rozladění a neklidné noci. Staré texty spojují měsíční vlivy i s pomateností mysli. Slovo lunatik pochází právě odtud."
+   },
+   {
+    "topics": [
+     "death",
+     "loss"
+    ],
+    "text": "Tradice tu mluví o ztrátě matky nebo ženy, která o tebe pečovala. Měsíční hodina podle starých výkladů nese zprávy o domově a rodině, včetně těch smutných: nemoc matky, její smrt nebo odchod z rodného místa."
+   }
+  ],
+  "traits": {
+   "text": [
+    "sensitivity",
+    "protectiveness",
+    "intuition",
+    "family_attachment",
+    "security_need"
+   ],
+   "shadow": [
+    "moodiness",
+    "dependence",
+    "sulking",
+    "inconstancy",
+    "indecision"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "planetary_hour/mercury",
+  "title": "Hodina planety Merkur",
+  "keywords": [
+   "slovo",
+   "učení",
+   "obchod",
+   "krátké cesty",
+   "neklid"
+  ],
+  "themes": [
+   "character",
+   "work",
+   "family",
+   "health"
+  ],
+  "text": "Merkurova hodina, jedna z dvanácti částí dne či noci podle chaldejského pořadí, otevírá podle tradice prostor pro slova a čísla. Hodí se k psaní dopisů, učení, čtení, počítání a smlouvání. Dobře v ní jdou krátké cesty, pochůzky po městě a rozhovor se sourozencem. Myšlenky běží rychle a nápady přicházejí jeden za druhým. Tradice ji doporučuje i pro začátek studia, přípravu proslovu nebo první jednání s obchodním partnerem.",
+  "shadow": "Rychlost Merkurovy hodiny snadno přechází v roztěkanost. Tradice varuje před dohodami, u kterých chybí čas na kontrolu. V této hodině se prý snadno přehlédne drobné písmo nebo podlehne lstivé řeči. Hrozí povrchní úsudky, klepy a slova vyřčená z nervozity. Mysl přeskakuje mezi úkoly a žádný nedotáhne do konce. Podle tradice se jí vyhni u věcí, které vyžadují klid, hloubku a trpělivost. Nešiř v ní cizí tajemství a nevěř každé lichotce.",
+  "hard": [
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o nervech, plicích a řeči. Staré texty spojují Merkurovu hodinu s nervovým vyčerpáním, potížemi s dechem a zadrhávající řečí. Nemoci, které v této hodině začínají, podle nich zasahují právě tyto oblasti. Jde o tradiční představu, ne o jistotu."
+   },
+   {
+    "topics": [
+     "mental_crisis"
+    ],
+    "text": "Tradice tu mluví také o přetížené mysli. Merkurův neklid může podle starých výkladů přerůst v úzkost, nespavost a spirálu myšlenek, kterou nelze zastavit. Tradice tento obraz chápe jako možnost, ne jako předpověď."
+   }
+  ],
+  "traits": {
+   "text": [
+    "curiosity",
+    "eloquence",
+    "rationality",
+    "flexibility"
+   ],
+   "shadow": [
+    "restlessness",
+    "superficiality",
+    "deceit",
+    "anxiety",
+    "inconstancy"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "planetary_hour/venus",
+  "title": "Hodina planety Venuše",
+  "keywords": [
+   "láska",
+   "krása",
+   "smíření",
+   "vkus",
+   "potěšení"
+  ],
+  "themes": [
+   "relationships",
+   "character",
+   "money",
+   "health"
+  ],
+  "text": "Hodina Venuše je podle chaldejské tradice čas pro smíření, vyznání a krásu. Hodí se ke schůzce, k první zprávě po hádce, k prosbě o laskavost nebo k návštěvě, kde chceš udělat dobrý dojem. Tradice ji doporučuje pro výběr oblečení, úpravu vzhledu, zdobení domova, hudbu a malování. Rozhovory v ní plynou měkčeji a lidé snáz přistupují na kompromis. Tvůj vkus má v téhle hodině jistější ruku a drobná gesta pozornosti mají větší váhu než jindy.",
+  "shadow": "Tatáž sladkost, která v hodině Venuše usmiřuje, svádí i k přejídání, k nákupům bez rozmyslu a k odkládání všeho nepříjemného. Tradice ji nedoporučuje pro spory, tvrdá vyjednávání, výpovědi ani rozhodnutí, která vyžadují chladnou hlavu. Lichotka v ní zní pravdivěji, než ve skutečnosti je. Snadno slíbíš víc, než chceš dodržet, a zalíbení v někom si spleteš s jistotou. Marnivost tu dostává prostor: řešíš, jak působíš, víc než to, co říkáš. Touha po potvrzení lásky se v téhle hodině mění v dotěrné vyžadování.",
+  "hard": [
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o ledvinách a krku jako o částech těla, které Venuše ovládá. Staré hodinové tabulky spojovaly její hodinu s nestřídmostí v jídle a pití a nemoci těchto orgánů vykládaly jako daň za přemíru požitků, kterou Venuše podporuje."
+   },
+   {
+    "topics": [
+     "loss"
+    ],
+    "text": "Tradice tu mluví také o rozchodech. Vztah začatý nebo ukončený v hodině Venuše se podle starých textů láme kvůli marnivosti, nevěře nebo prázdné pohodlnosti. Rozchod v tomto čase popisují jako zvlášť bolestný, protože přichází v hodině, která patří citu, a zanechává dlouhý stesk."
+   }
+  ],
+  "traits": {
+   "text": [
+    "charm",
+    "gentleness",
+    "sensuality",
+    "creativity",
+    "forgiveness"
+   ],
+   "shadow": [
+    "indulgence",
+    "extravagance",
+    "vanity",
+    "procrastination",
+    "dependence"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "planetary_hour/mars",
+  "title": "Hodina planety Mars",
+  "keywords": [
+   "odvaha",
+   "iniciativa",
+   "boj",
+   "vášeň",
+   "spěch"
+  ],
+  "themes": [
+   "character",
+   "relationships",
+   "work",
+   "health"
+  ],
+  "text": "Hodina Marsu otevírá krátké okno ostré a rozhodné síly. Tradice ji doporučuje pro začátky, které chtějí odvahu: těžký rozhovor, sportovní výkon, fyzickou dřinu, obranu vlastní hranice nebo první krok tam, kde dlouho váháš. Hodí se k soutěži, k práci s ohněm a železem, k řezání, štípání i k opravám nářadí. Energie teče rychle a touha sílí, takže vášeň v milostném životě dostává volný průchod. Rozhoduješ se rychleji a odpor tě spíš burcuje, než brzdí.",
+  "shadow": "V hodině Marsu se krátí trpělivost a slovo padá dřív, než ho stihneš zvážit. Tradice radí nezačínat v ní usmiřování, svatby, žádosti o laskavost ani nic, co potřebuje klid a čas na dozrání. Malá výtka snadno přeroste v hádku a spěch v chybu. City druhých přehlížíš a na výsledek tlačíš silou. Vášeň se mění v bezohlednost, iniciativa v útok. Rozchody v afektu, urážky a zbrklá rozhodnutí patří k tomu, co tahle hodina nejčastěji pokazí.",
+  "hard": [
+   {
+    "topics": [
+     "violence",
+     "death"
+    ],
+    "text": "Tradice tu mluví o hodině, která přeje zraněním, řezným ranám a nehodám, zvlášť při práci s ostrými nástroji, ohněm nebo při rychlé jízdě. Spory v ní podle starých textů snáz končí rvačkou a krveprolitím, v krajních případech až násilnou smrtí."
+   },
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o horečkách, zánětech a náhlých akutních potížích, které v hodině Marsu začínají nebo se zhoršují. Staří astrologové v ní neplánovali operace ani pouštění žilou, protože Mars spojovali s krvácením, ranami a komplikacemi po zákroku."
+   }
+  ],
+  "traits": {
+   "text": [
+    "courage",
+    "decisiveness",
+    "vitality",
+    "competitiveness",
+    "sensuality"
+   ],
+   "shadow": [
+    "aggression",
+    "impulsiveness",
+    "anger",
+    "selfishness",
+    "risk_taking"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "planetary_hour/jupiter",
+  "title": "Hodina planety Jupiter",
+  "keywords": [
+   "růst",
+   "štědrost",
+   "víra",
+   "vzdělání",
+   "dálky"
+  ],
+  "themes": [
+   "growth",
+   "character",
+   "health"
+  ],
+  "text": "Hodina Jupitera je podle tradice nejlepší chvíle dne pro začátky, které mají růst. Hodí se ke studiu, k zápisu do kurzu, k prosbě o radu u zkušenějšího člověka a k plánování dalekých cest. Přeje také rozhovorům o víře a smyslu. Dar, pochvala nebo nabídnutá pomoc teď váží víc než jindy. Máš v ní širší pohled, snadněji vidíš souvislosti a drobné křivdy pouštíš z hlavy bez námahy.",
+  "shadow": "Stín Jupiterovy hodiny leží v míře, která se v ní snadno ztrácí. Tradice varuje před sliby danými v nadšení, před velkými gesty bez krytí a před rozhodnutími postavenými jen na dobrém pocitu. Hostina se tu snadno mění v přejídání, sebedůvěra v nadutost a velkorysost v rozhazování. Tahle hodina se nehodí ke slibům, které nemáš promyšlené, ani k poučování druhých. Kdo v ní káže, snadno přeslechne, že už nikdo neposlouchá.",
+  "hard": [
+   {
+    "topics": [
+     "illness",
+     "addiction"
+    ],
+    "text": "Tradice tu mluví o játrech, tuku a krevním přebytku. Nemoci z přemíry, tedy z tučného jídla, vína, nadváhy a zatížených jater, podle starých textů začínají v hodinách Jupitera, kdy chuť nezná konec. Proto tradice radí v této hodině nezačínat hodokvasy ani pitky."
+   },
+   {
+    "topics": [
+     "ruin"
+    ],
+    "text": "Tradice tu mluví i o pádu z výšky. Popisuje domy a rody, které upadly kvůli hostinám, okázalosti a slibům nad vlastní síly. Jupiterova hodina podle ní nese pokušení žít na víc, než unese základ, a stavět na štěstí místo na práci."
+   }
+  ],
+  "traits": {
+   "text": [
+    "optimism",
+    "generosity",
+    "curiosity",
+    "spirituality",
+    "wanderlust"
+   ],
+   "shadow": [
+    "extravagance",
+    "pride",
+    "indulgence",
+    "irresponsibility"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "planetary_hour/saturn",
+  "title": "Hodina planety Saturn",
+  "keywords": [
+   "řád",
+   "trpělivost",
+   "hranice",
+   "dokončování",
+   "tíha"
+  ],
+  "themes": [
+   "work",
+   "character",
+   "growth",
+   "health"
+  ],
+  "text": "Saturnova hodina otevírá chaldejské pořadí a podle tradice svědčí práci, která má vydržet. Hodí se k dokončování, uklízení, třídění a k úkolům, které vyžadují trpělivost. Dobře se v ní plánuje na dlouho dopředu, stanovují hranice a jedná s lidmi, kteří nesou autoritu. Tradice ji doporučuje ke studiu, k pokládání základů a k řemeslu, které se nedá uspěchat. Soustředění přichází snáz a odpovědnost nepůsobí jako břemeno, ale jako opora.",
+  "shadow": "Saturnova hodina podle tradice nepřeje začátkům: svatbám, cestám, novým známostem ani ničemu, co má rychle růst. Co v ní začneš, se snadno zadrhává a táhne. Tíha doby se přenáší do nálady. Přichází strach, pocit nedostatečnosti a sklon vidět vše černě. Rozhovory chladnou a odmítnutí zní tvrději, než je myšleno. Snaha o řád se mění ve strnulost a pravidla v úkryt před životem. Tradice proto radí nežádat v ní o přízeň a nevyvolávat spory.",
+  "hard": [
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o kostech, kloubech, zubech a nemocech, které trvají dlouho. Podle starých textů se v Saturnově hodině ozývají chronické potíže a stáří dává o sobě vědět víc než jindy. Jde o symbolický výklad doby, ne o předpověď."
+   },
+   {
+    "topics": [
+     "death",
+     "loss"
+    ],
+    "text": "Tradice tu mluví o smrti, ztrátách a osamělosti. Saturnova hodina se ve starých textech pojí s pohřby, s koncem věcí a s rozloučením. Smutek v ní doléhá silněji a pocit opuštěnosti se prohlubuje. Výklad to podává jako ráz doby, nikoli jako jistotu."
+   }
+  ],
+  "traits": {
+   "text": [
+    "order",
+    "patience",
+    "responsibility",
+    "focus",
+    "perseverance"
+   ],
+   "shadow": [
+    "fearfulness",
+    "pessimism",
+    "rigidity",
+    "coldness",
+    "insecurity"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ }
+]
