@@ -86,6 +86,39 @@ Porphyry, viz `defaultHouseSystem`.
   přepínač `traditionalOnly` (v appce v nastavení) bere jen Slunce–Saturn. Když
   Měsíc ve znamení žádný aspekt nedokoná, je bez aspektu od vstupu do znamení.
   Stopy: Měsíc po 1 h, planety po 12 h, kubická interpolace, půlení na ~0,2 s.
+## Stálice (R6)
+
+32 hvězd z plánu 10.6 (rozhodnutí 18), tabulka `lib/src/star_catalog.dart`.
+Soubor je generovaný skriptem `tools/golden/gen_stars.py`, ručně se needituje.
+
+- **Zdroj:** Hipparcos Main Catalogue (ESA 1997, ESA SP-1200; CDS I/239),
+  staženo z VizieR. Praesepe je hvězdokupa, ne hvězda: střed a střední vlastní
+  pohyb jsou z Cantat-Gaudin et al. 2018, A&A 618, A93 (CDS J/A+A/618/A93,
+  NGC 2632).
+- **Licence:** CDS/VizieR data volně šíří s podmínkou citace zdroje (licence
+  VizieR, `rights_uri` v hlavičce odpovědi). Appka nese jen 32 řádků čísel
+  a citaci výše.
+- **Uložené hodnoty:** RA a Dec pro J2000.0 (ICRS), lineárně posunuté z epochy
+  katalogu (Hipparcos J1991.25, Gaia DR2 J2015.5), vlastní pohyb μα·cos δ a μδ
+  v mas/rok, jasnost V.
+- **Výpočet k datu:** vlastní pohyb lineárně + precese Meeus kap. 21
+  (`astronomia` `precess.position`), převod na ekliptiku se středním sklonem
+  k datu, roční aberace (Meeus 23.2) a nutace v délce. Paralaxa (pod 0,4″)
+  a gravitační ohyb se zanedbávají.
+- **Konjunkce:** jen podle ekliptikální délky, orb 1° (`starOrb`), s planetami
+  Slunce až Pluto, s ASC a MC (`findStarContacts`, `Chart.starContacts`).
+  Šířka hvězdy se nebere v úvahu, takže Sírius, Vega nebo Algol se počítají
+  stejně jako hvězdy u ekliptiky. Uzly, parany, tranzity na hvězdy a hvězdy
+  v synastrii se nepočítají.
+- **Obsah:** `star/{hvězda}` (32) a `star_target/{bod}` (12). Ve výkladu je jeden
+  faktor na hvězdu podle nejtěsnějšího dotyku.
+
+Přegenerování (potřebuje `data/de440.bsp`; složku dat lze přesměrovat proměnnou
+`GOLDEN_DATA`):
+
+```
+tools/golden/.venv/bin/python tools/golden/gen_stars.py
+```
 
 ## Ověření
 
@@ -101,6 +134,7 @@ Porphyry, viz `defaultHouseSystem`.
 | východ a západ Slunce, 8 míst (0°–70°) × 40 dní 2020–2030 | skyfield + DE440 | 30 s, nad 60° šířky 1 min; naměřeno nejvýš 4 s, nad 60° 6 s; polární dny a noci souhlasí |
 | nov, čtvrti, úplněk: 2024–2026 + rok každých 25 let 1700–2150 (1086 lunací) | skyfield + DE440 | 60 s v letech 1800–2030 (naměřeno 20 s), jinak 5 min (naměřeno 3,2 min, rozdíl modelů ΔT) |
 | zatmění Měsíce 2000–2030 (71) | skyfield `eclipselib` | stejný druh, maximum do 10 min; Meeus nezná jen okrajové polostínové zatmění 18. 7. 2027 |
+| 32 stálic, roky 1800, 1900, 2000, 2050 (`gen_stars.py`) | skyfield + DE440 + katalog | 5″ (pět hvězd 1800 a 2000: 2″); skutečně do 0,9″ |
 
 Proti Astromatu (1. 1. 2000 12:00 UT, Praha): planety do 1,6′, domy do 0,6′,
 Pluto 4,5′. DE440 ukázalo, že se mýlí Astromat, ne tento engine.

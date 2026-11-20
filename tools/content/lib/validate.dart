@@ -64,6 +64,14 @@ List<Finding> validate(Map<String, ContentEntry> entries, List<Trait> traits, {b
     final range = lengthRange(e.key);
     final n = wordCount(e.text);
     if (n < range.min || n > range.max) warn('base layer $n words, expected ${range.min}–${range.max}');
+    if (family == 'star') {
+      // Plan 10.6: 150–250 words including layers; the hard intro is mandatory.
+      final total = wordCount(all);
+      if (total < 150 || total > 250) warn('star text $total words with layers, expected 150–250');
+      for (final h in e.hard) {
+        if (!h.text.toLowerCase().contains('tradice')) warn('hard passage without the "tradice tu mluví o…" intro');
+      }
+    }
     final ns = wordCount(e.shadow);
     final shadowMin = range.max <= 110 ? 20 : 30;
     if (!shadowExempt.contains(family) && (ns < shadowMin || ns > 130)) warn('shadow $ns words, expected $shadowMin–100');

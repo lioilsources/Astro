@@ -713,4 +713,69 @@ class AppLocalizationsCs extends AppLocalizations {
   String transitTitle(Object planet, Object aspect, Object target) {
     return '$planet $aspect natální $target';
   }
+
+  @override
+  String get stars => 'Stálice';
+
+  @override
+  String get sectionStars => 'Stálice';
+
+  @override
+  String get starsOnWheel => 'Stálice na kole';
+
+  @override
+  String get starsFilterNote =>
+      'Se zapnutým filtrem zbude u většiny stálic jen základní text, protože tradice o nich mluví hlavně ve stinné vrstvě a v těžkých tématech.';
+
+  @override
+  String get starsNone =>
+      'Žádná planeta ani osa neleží do 1° od některé z 32 stálic.';
+
+  @override
+  String get starsAll => 'Všech 32 stálic';
+
+  @override
+  String starContact(Object point, Object orb) {
+    return 'konjunkce: $point · orb $orb';
+  }
+
+  @override
+  String starName(String star) {
+    String _temp0 = intl.Intl.selectLogic(star, {
+      'algol': 'Algol',
+      'alcyone': 'Alkyone',
+      'aldebaran': 'Aldebaran',
+      'rigel': 'Rigel',
+      'bellatrix': 'Bellatrix',
+      'capella': 'Capella',
+      'betelgeuse': 'Betelgeuze',
+      'sirius': 'Sírius',
+      'castor': 'Castor',
+      'pollux': 'Pollux',
+      'procyon': 'Prokyon',
+      'praesepe': 'Praesepe',
+      'alphard': 'Alphard',
+      'regulus': 'Regulus',
+      'denebola': 'Denebola',
+      'vindemiatrix': 'Vindemiatrix',
+      'algorab': 'Algorab',
+      'spica': 'Spica',
+      'arcturus': 'Arcturus',
+      'zubenelgenubi': 'Zubenelgenubi',
+      'zubeneschamali': 'Zubeneschamali',
+      'unukalhai': 'Unukalhai',
+      'acrab': 'Akrab',
+      'antares': 'Antares',
+      'rasalhague': 'Ras Alhague',
+      'vega': 'Vega',
+      'altair': 'Altair',
+      'deneb_algedi': 'Deneb Algedi',
+      'fomalhaut': 'Fomalhaut',
+      'achernar': 'Achernar',
+      'markab': 'Markab',
+      'scheat': 'Scheat',
+      'other': '?',
+    });
+    return '$_temp0';
+  }
 }

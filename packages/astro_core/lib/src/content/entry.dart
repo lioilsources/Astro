@@ -2,7 +2,7 @@ const hardTopics = ['death', 'illness', 'mental_crisis', 'addiction', 'violence'
 const themeIds = ['character', 'relationships', 'family', 'work', 'money', 'health', 'growth'];
 
 /// Families whose texts are fragments for composing (no shadow layer required).
-const shadowExempt = {'glossary', 'house_area', 'transit_modifier'};
+const shadowExempt = {'glossary', 'house_area', 'transit_modifier', 'star_target'};
 
 class HardPassage {
   final List<String> topics;

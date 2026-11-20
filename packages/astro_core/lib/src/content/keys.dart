@@ -1,4 +1,5 @@
 import '../model.dart';
+import '../stars.dart';
 
 /// Content ids of planets: the ten planets + the lunar node (mean or true alike).
 const planetIds = ['sun', 'moon', 'mercury', 'venus', 'mars', 'jupiter', 'saturn', 'uranus', 'neptune', 'pluto'];
@@ -26,6 +27,7 @@ const glossaryIds = [
   'aspect', 'orb', 'applying', 'conjunction', 'sextile', 'square', 'trine', 'opposition',
   'ruler', 'domicile', 'exaltation', 'detriment', 'fall', 'retrograde', 'station',
   'node', 'transit', 'natal_chart', 'element', 'modality', 'sign', 'planet', 'twins', 'shadow',
+  'fixed_star', 'precession', 'royal_stars',
 ];
 
 /// R2 (plan 10.2): Moon and planetary hours.
@@ -86,6 +88,8 @@ Map<String, List<String>> allKeysByFamily() {
     'lunation_in_house': [for (final k in lunationIds) for (final h in houseNumbers) 'lunation_in_house/$k/$h'],
     'void_of_course': ['void_of_course'],
     'eclipse': [for (final e in eclipseIds) 'eclipse/$e'],
+    'star': [for (final s in starIds) 'star/$s'],
+    'star_target': [for (final t in starTargetIds) 'star_target/$t'],
   };
 }
 
@@ -127,6 +131,11 @@ String familyOf(String key) => key.split('/').first;
       return (min: 110, max: 200);
     case 'eclipse':
       return (min: 50, max: 110);
+    case 'star':
+      // Most of a star text lives in shadow and hard (plan 10.6): no minimum for the base.
+      return (min: 0, max: 250);
+    case 'star_target':
+      return (min: 8, max: 40);
   }
   return (min: 1, max: 10000);
 }
@@ -148,6 +157,7 @@ bool expectsHard(String key) {
     case 'lunation_in_house':
       return p[2] == '8' || p[2] == '12';
     case 'eclipse':
+    case 'star':
       return true;
   }
   return false;

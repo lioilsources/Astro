@@ -34,12 +34,13 @@ List<ReadingSection> bySections(List<ReadingItem> items) {
     FactorKind.signOnCusp: 'cusps',
     FactorKind.emphasis: 'emphasis',
     FactorKind.moonPhase: 'emphasis',
+    FactorKind.star: 'stars',
   };
   final out = <String, List<ReadingItem>>{};
   for (final i in items) {
     out.putIfAbsent(order[i.factor.kind]!, () => []).add(i);
   }
-  return [for (final id in ['signs', 'houses', 'aspects', 'cusps', 'emphasis']) if (out[id] != null) ReadingSection(id, out[id]!)];
+  return [for (final id in ['signs', 'houses', 'aspects', 'cusps', 'emphasis', 'stars']) if (out[id] != null) ReadingSection(id, out[id]!)];
 }
 
 /// Grouped by themes of the texts; items without a text are left out.

@@ -33,7 +33,7 @@ tools/golden/.venv/bin/python tools/golden/gen_golden.py   # přegenerovat golde
 - Texty Astromatu ani knihy se nekopírují, ani jako předloha k parafrázi.
 - Obsah se generuje nefiltrovaný; filtruje až uživatel v appce (plán 5.1).
 - Štítky `hard` jen z výčtu: death, illness, mental_crisis, addiction, violence, loss, ruin.
-- `lib/src/pluto_table.dart` je generovaný soubor, needitovat ručně.
+- `lib/src/pluto_table.dart` a `lib/src/star_catalog.dart` (`gen_stars.py`) jsou generované, needitovat ručně.
 
 ## Odchylky
 Žádné.
