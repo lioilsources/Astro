@@ -762,6 +762,177 @@ class AppLocalizationsCs extends AppLocalizations {
   String get pickProfile => 'Vyber profil';
 
   @override
+  String get electionTitle => 'Najdi termín';
+
+  @override
+  String get electionIntent => 'Záměr';
+
+  @override
+  String get electionAboutIntent => 'O záměru';
+
+  @override
+  String get electionProfile => 'Profil (místo pobytu)';
+
+  @override
+  String get electionPersonal => 'Zahrnout můj horoskop';
+
+  @override
+  String get electionPersonalHint =>
+      'Přidá napětí tranzitů dne a aspekty Měsíce k tvému Slunci, Měsíci a ascendentu.';
+
+  @override
+  String get electionStart => 'Od';
+
+  @override
+  String electionDays(int days) {
+    return 'Období: $days dní';
+  }
+
+  @override
+  String electionHours(int from, int to) {
+    return 'Hodiny dne: $from–$to';
+  }
+
+  @override
+  String get electionWeekdays => 'Dny v týdnu';
+
+  @override
+  String weekdayShort(String day) {
+    String _temp0 = intl.Intl.selectLogic(day, {
+      '1': 'Po',
+      '2': 'Út',
+      '3': 'St',
+      '4': 'Čt',
+      '5': 'Pá',
+      '6': 'So',
+      '7': 'Ne',
+      'other': '?',
+    });
+    return '$_temp0';
+  }
+
+  @override
+  String get electionSearch => 'Hledat';
+
+  @override
+  String electionPlace(Object place) {
+    return 'Místo: $place';
+  }
+
+  @override
+  String get electionDisclaimer =>
+      'Okna jsou podle tradičních pravidel nejvhodnější, nejsou zárukou výsledku. Okno s Měsícem bez aspektu se nikdy nenabízí.';
+
+  @override
+  String get electionFound => 'Podle tradičních pravidel nejvhodnější okna';
+
+  @override
+  String get electionNonePassed =>
+      'V tomto období neprošlo žádné okno. Nejméně špatné je toto, s důvody proti:';
+
+  @override
+  String get electionHealthNote =>
+      'U zdravotních záměrů appka termín nehledá. Tradiční pravidla popisuje slovníček.';
+
+  @override
+  String electionScore(int score) {
+    return 'skóre $score';
+  }
+
+  @override
+  String get electionFor => 'Pro';
+
+  @override
+  String get electionAgainst => 'Proti';
+
+  @override
+  String get electionOpenChart => 'Horoskop okamžiku';
+
+  @override
+  String get electionCalendar => 'Do kalendáře';
+
+  @override
+  String get electionCalendarAll => 'Všechna okna do kalendáře';
+
+  @override
+  String electionEventTitle(Object intent) {
+    return 'Termín: $intent';
+  }
+
+  @override
+  String electionMomentName(Object when) {
+    return 'Okamžik $when';
+  }
+
+  @override
+  String get electionNeedsProfile =>
+      'Pro místo pobytu potřebuješ aspoň jeden profil.';
+
+  @override
+  String electionRule(String rule) {
+    String _temp0 = intl.Intl.selectLogic(rule, {
+      'moon_void': 'Měsíc bez aspektu',
+      'moon_waxing': 'Dorůstající Měsíc',
+      'moon_next_venus': 'Měsíc míří k Venuši',
+      'moon_next_jupiter': 'Měsíc míří k Jupiteru',
+      'venus_angle': 'Venuše u osy',
+      'jupiter_angle': 'Jupiter u osy',
+      'asc_ruler_dignified': 'Vládce ascendentu silný a přímý',
+      'hour_of_intent': 'Hodina planety záměru',
+      'intent_planet_dignified': 'Planeta záměru silná',
+      'benefic_in_intent_house': 'Dobroděj v domě záměru',
+      'personal_moon_harmonious': 'Měsíc ladí s tvým horoskopem',
+      'personal_calm_day': 'Klidný den v tvých tranzitech',
+      'moon_next_mars_hard': 'Měsíc míří do napětí s Marsem',
+      'moon_next_saturn_hard': 'Měsíc míří do napětí se Saturnem',
+      'mars_angle': 'Mars u osy',
+      'saturn_angle': 'Saturn u osy',
+      'intent_planet_retrograde': 'Planeta záměru retrográdní',
+      'intent_planet_fall': 'Planeta záměru v pádu',
+      'intent_planet_detriment': 'Planeta záměru ve zničení',
+      'asc_ruler_bad_house': 'Vládce ascendentu v 6., 8. nebo 12. domě',
+      'asc_ruler_retrograde': 'Vládce ascendentu retrográdní',
+      'eclipse': 'Blízko zatmění',
+      'via_combusta': 'Měsíc ve spálené cestě',
+      'malefic_in_intent_house': 'Zhoubce v domě záměru',
+      'personal_moon_tense': 'Měsíc v napětí s tvým horoskopem',
+      'personal_tension_high': 'Napjatý den v tvých tranzitech',
+      'other': '?',
+    });
+    return '$_temp0';
+  }
+
+  @override
+  String electionIntentName(String intent) {
+    String _temp0 = intl.Intl.selectLogic(intent, {
+      'relationship': 'Svatba, vztah',
+      'contract': 'Smlouva, podpis, jednání',
+      'launch': 'Zahájení podnikání, projektu',
+      'money': 'Peníze, nákup',
+      'move': 'Stěhování, nemovitost',
+      'travel': 'Cesta',
+      'study': 'Zkouška, studium',
+      'application': 'Žádost, pohovor',
+      'surgery': 'Operace, zákrok',
+      'other': '?',
+    });
+    return '$_temp0';
+  }
+
+  @override
+  String electionVerdict(String verdict) {
+    String _temp0 = intl.Intl.selectLogic(verdict, {
+      'strong': 'Velmi vhodné',
+      'good': 'Vhodné',
+      'weak': 'Slabé',
+      'none': 'Nejméně špatné',
+      'health': 'Termín se nehledá',
+      'other': '?',
+    });
+    return '$_temp0';
+  }
+
+  @override
   String dayPercentile(int p) {
     return 'Napětí dne: víc než $p % dnů života';
   }

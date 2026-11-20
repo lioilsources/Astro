@@ -1,6 +1,7 @@
 import 'dart:io';
 
 import 'package:astro_content/prompt.dart';
+import 'package:astro_content/rules.dart';
 import 'package:astro_content/schema.dart';
 import 'package:astro_content/validate.dart';
 import 'package:test/test.dart';
@@ -28,6 +29,10 @@ void main() {
     expect(k['pattern']!.length, 56);
     expect(k['star']!.length, 32);
     expect(k['star_target']!.length, 12);
+    // R7 (plan 10.7): ~25 rules, 8 intents, ~5 verdicts.
+    expect(k['election']!.where((x) => x.startsWith('election/rule/')).length, 26);
+    expect(k['election']!.where((x) => x.startsWith('election/intent/')).length, 8);
+    expect(k['election']!.where((x) => x.startsWith('election/verdict/')).length, 5);
     // R5 (plan 10.5)
     expect(k['progressed']!.length, 46);
     expect(k['solar_return']!.length, 64);
@@ -66,6 +71,25 @@ void main() {
         expect(f.where((x) => x.error).map((x) => x.message).join(' '), contains('romantic word'), reason: leak.key);
       }
     });
+  });
+
+  test('election rule file passes its schema', () {
+    final f = validateElectionRules(loadElectionRules(Directory('../../content')));
+    expect(f, isEmpty, reason: f.join('\n'));
+  });
+
+  test('rule schema catches missing weight, unknown condition and wrong text key', () {
+    final f = validateElectionRules({
+      'version': 1,
+      'thresholds': {'good': 4},
+      'rules': [
+        {'id': 'moon_waxing', 'kind': 'plus', 'when': 'moon_waxing', 'text': 'election/rule/moon_waxing', 'about': 'x'},
+        {'id': 'eclipse', 'kind': 'minus', 'weight': 2, 'when': 'nope', 'text': 'election/rule/x', 'about': 'x'},
+        {'id': 'moon_void', 'kind': 'exclude', 'weight': 5, 'when': 'moon_void', 'text': 'election/rule/moon_void', 'about': ''},
+      ],
+    }).map((x) => x.message).join(' | ');
+    expect(f, allOf(contains('weight missing'), contains('unknown condition'), contains('text must be'), contains('weight 0'), contains('empty about'),
+        contains('missing in the rule file')));
   });
 
   test('star texts need no minimum base length, but the whole text is checked', () {

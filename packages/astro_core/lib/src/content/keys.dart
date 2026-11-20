@@ -1,3 +1,4 @@
+import '../election.dart';
 import '../model.dart';
 import '../patterns.dart';
 import '../progressions.dart';
@@ -31,6 +32,8 @@ const glossaryIds = [
   'ruler', 'domicile', 'exaltation', 'detriment', 'fall', 'retrograde', 'station',
   'node', 'transit', 'natal_chart', 'element', 'modality', 'sign', 'planet', 'twins', 'shadow',
   'fixed_star', 'precession', 'royal_stars',
+  // R7 (plan 10.7, owner decision 19)
+  'election', 'via_combusta', 'reception', 'medical_election',
   'synastry',
 ];
 
@@ -57,6 +60,21 @@ final patternKeys = [
   for (final p in planetIds) 'pattern/unaspected/$p',
 ];
 
+/// Election rules (plan 10.7): ids of `content/rules/election.json`, which a
+/// tools/content test keeps in sync with this list.
+const electionRuleIds = [
+  'moon_void',
+  'moon_waxing', 'moon_next_venus', 'moon_next_jupiter', 'venus_angle', 'jupiter_angle', 'asc_ruler_dignified',
+  'hour_of_intent', 'intent_planet_dignified', 'benefic_in_intent_house', 'personal_moon_harmonious', 'personal_calm_day',
+  'moon_next_mars_hard', 'moon_next_saturn_hard', 'mars_angle', 'saturn_angle', 'intent_planet_retrograde',
+  'intent_planet_fall', 'intent_planet_detriment', 'asc_ruler_bad_house', 'asc_ruler_retrograde', 'eclipse',
+  'via_combusta', 'malefic_in_intent_house', 'personal_moon_tense', 'personal_tension_high',
+];
+final electionKeys = [
+  for (final r in electionRuleIds) 'election/rule/$r',
+  for (final i in ElectionIntent.values) 'election/intent/${i.id}',
+  for (final v in electionVerdictIds) 'election/verdict/$v',
+];
 /// R5 (plan 10.5): secondary progressions and solar returns.
 const progressedModifierIds = ['applying', 'separating'];
 final returnAngleIds = ReturnAngle.values.map((a) => a.name).toList();
@@ -153,6 +171,7 @@ Map<String, List<String>> allKeysByFamily() {
     'eclipse': [for (final e in eclipseIds) 'eclipse/$e'],
     'star': [for (final s in starIds) 'star/$s'],
     'star_target': [for (final t in starTargetIds) 'star_target/$t'],
+    'election': electionKeys,
     'progressed': progressedKeys,
     'solar_return': solarReturnKeys,
     'journal': [for (final j in journalIds) 'journal/$j'],
@@ -206,6 +225,12 @@ String familyOf(String key) => key.split('/').first;
       return (min: 0, max: 250);
     case 'star_target':
       return (min: 8, max: 40);
+    case 'election':
+      return switch (parts[1]) {
+        'rule' => (min: 25, max: 70),
+        'intent' => (min: 30, max: 80),
+        _ => (min: 15, max: 50),
+      };
     case 'progressed':
       return switch (parts[1]) {
         'modifier' => (min: 10, max: 35),

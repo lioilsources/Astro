@@ -8,6 +8,7 @@ import '../l10n/app_localizations.dart';
 import '../logic/compute.dart';
 import '../logic/queries.dart';
 import '../state.dart';
+import 'election_screen.dart';
 import 'entry_view.dart';
 import 'format.dart';
 
@@ -33,7 +34,13 @@ class _AskScreenState extends ConsumerState<AskScreen> {
     final profiles = ref.watch(profilesProvider).value ?? const <Profile>[];
     final profile = profiles.where((p) => p.id == _profileId).firstOrNull ?? profiles.firstOrNull;
     return Scaffold(
-      appBar: AppBar(title: Text(l.navAsk)),
+      appBar: AppBar(title: Text(l.navAsk), actions: [
+        IconButton(
+          tooltip: l.electionTitle,
+          icon: const Icon(Icons.event_available),
+          onPressed: () => Navigator.push(context, MaterialPageRoute(builder: (_) => const ElectionScreen())),
+        ),
+      ]),
       body: profile == null
           ? Center(child: Padding(padding: const EdgeInsets.all(32), child: Text(l.profilesEmpty, textAlign: TextAlign.center)))
           : ListView(padding: const EdgeInsets.all(16), children: [

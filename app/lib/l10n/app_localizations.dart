@@ -1144,6 +1144,180 @@ abstract class AppLocalizations {
   /// **'Vyber profil'**
   String get pickProfile;
 
+  /// No description provided for @electionTitle.
+  ///
+  /// In cs, this message translates to:
+  /// **'Najdi termín'**
+  String get electionTitle;
+
+  /// No description provided for @electionIntent.
+  ///
+  /// In cs, this message translates to:
+  /// **'Záměr'**
+  String get electionIntent;
+
+  /// No description provided for @electionAboutIntent.
+  ///
+  /// In cs, this message translates to:
+  /// **'O záměru'**
+  String get electionAboutIntent;
+
+  /// No description provided for @electionProfile.
+  ///
+  /// In cs, this message translates to:
+  /// **'Profil (místo pobytu)'**
+  String get electionProfile;
+
+  /// No description provided for @electionPersonal.
+  ///
+  /// In cs, this message translates to:
+  /// **'Zahrnout můj horoskop'**
+  String get electionPersonal;
+
+  /// No description provided for @electionPersonalHint.
+  ///
+  /// In cs, this message translates to:
+  /// **'Přidá napětí tranzitů dne a aspekty Měsíce k tvému Slunci, Měsíci a ascendentu.'**
+  String get electionPersonalHint;
+
+  /// No description provided for @electionStart.
+  ///
+  /// In cs, this message translates to:
+  /// **'Od'**
+  String get electionStart;
+
+  /// No description provided for @electionDays.
+  ///
+  /// In cs, this message translates to:
+  /// **'Období: {days} dní'**
+  String electionDays(int days);
+
+  /// No description provided for @electionHours.
+  ///
+  /// In cs, this message translates to:
+  /// **'Hodiny dne: {from}–{to}'**
+  String electionHours(int from, int to);
+
+  /// No description provided for @electionWeekdays.
+  ///
+  /// In cs, this message translates to:
+  /// **'Dny v týdnu'**
+  String get electionWeekdays;
+
+  /// No description provided for @weekdayShort.
+  ///
+  /// In cs, this message translates to:
+  /// **'{day, select, 1{Po} 2{Út} 3{St} 4{Čt} 5{Pá} 6{So} 7{Ne} other{?}}'**
+  String weekdayShort(String day);
+
+  /// No description provided for @electionSearch.
+  ///
+  /// In cs, this message translates to:
+  /// **'Hledat'**
+  String get electionSearch;
+
+  /// No description provided for @electionPlace.
+  ///
+  /// In cs, this message translates to:
+  /// **'Místo: {place}'**
+  String electionPlace(Object place);
+
+  /// No description provided for @electionDisclaimer.
+  ///
+  /// In cs, this message translates to:
+  /// **'Okna jsou podle tradičních pravidel nejvhodnější, nejsou zárukou výsledku. Okno s Měsícem bez aspektu se nikdy nenabízí.'**
+  String get electionDisclaimer;
+
+  /// No description provided for @electionFound.
+  ///
+  /// In cs, this message translates to:
+  /// **'Podle tradičních pravidel nejvhodnější okna'**
+  String get electionFound;
+
+  /// No description provided for @electionNonePassed.
+  ///
+  /// In cs, this message translates to:
+  /// **'V tomto období neprošlo žádné okno. Nejméně špatné je toto, s důvody proti:'**
+  String get electionNonePassed;
+
+  /// No description provided for @electionHealthNote.
+  ///
+  /// In cs, this message translates to:
+  /// **'U zdravotních záměrů appka termín nehledá. Tradiční pravidla popisuje slovníček.'**
+  String get electionHealthNote;
+
+  /// No description provided for @electionScore.
+  ///
+  /// In cs, this message translates to:
+  /// **'skóre {score}'**
+  String electionScore(int score);
+
+  /// No description provided for @electionFor.
+  ///
+  /// In cs, this message translates to:
+  /// **'Pro'**
+  String get electionFor;
+
+  /// No description provided for @electionAgainst.
+  ///
+  /// In cs, this message translates to:
+  /// **'Proti'**
+  String get electionAgainst;
+
+  /// No description provided for @electionOpenChart.
+  ///
+  /// In cs, this message translates to:
+  /// **'Horoskop okamžiku'**
+  String get electionOpenChart;
+
+  /// No description provided for @electionCalendar.
+  ///
+  /// In cs, this message translates to:
+  /// **'Do kalendáře'**
+  String get electionCalendar;
+
+  /// No description provided for @electionCalendarAll.
+  ///
+  /// In cs, this message translates to:
+  /// **'Všechna okna do kalendáře'**
+  String get electionCalendarAll;
+
+  /// No description provided for @electionEventTitle.
+  ///
+  /// In cs, this message translates to:
+  /// **'Termín: {intent}'**
+  String electionEventTitle(Object intent);
+
+  /// No description provided for @electionMomentName.
+  ///
+  /// In cs, this message translates to:
+  /// **'Okamžik {when}'**
+  String electionMomentName(Object when);
+
+  /// No description provided for @electionNeedsProfile.
+  ///
+  /// In cs, this message translates to:
+  /// **'Pro místo pobytu potřebuješ aspoň jeden profil.'**
+  String get electionNeedsProfile;
+
+  /// No description provided for @electionRule.
+  ///
+  /// In cs, this message translates to:
+  /// **'{rule, select, moon_void{Měsíc bez aspektu} moon_waxing{Dorůstající Měsíc} moon_next_venus{Měsíc míří k Venuši} moon_next_jupiter{Měsíc míří k Jupiteru} venus_angle{Venuše u osy} jupiter_angle{Jupiter u osy} asc_ruler_dignified{Vládce ascendentu silný a přímý} hour_of_intent{Hodina planety záměru} intent_planet_dignified{Planeta záměru silná} benefic_in_intent_house{Dobroděj v domě záměru} personal_moon_harmonious{Měsíc ladí s tvým horoskopem} personal_calm_day{Klidný den v tvých tranzitech} moon_next_mars_hard{Měsíc míří do napětí s Marsem} moon_next_saturn_hard{Měsíc míří do napětí se Saturnem} mars_angle{Mars u osy} saturn_angle{Saturn u osy} intent_planet_retrograde{Planeta záměru retrográdní} intent_planet_fall{Planeta záměru v pádu} intent_planet_detriment{Planeta záměru ve zničení} asc_ruler_bad_house{Vládce ascendentu v 6., 8. nebo 12. domě} asc_ruler_retrograde{Vládce ascendentu retrográdní} eclipse{Blízko zatmění} via_combusta{Měsíc ve spálené cestě} malefic_in_intent_house{Zhoubce v domě záměru} personal_moon_tense{Měsíc v napětí s tvým horoskopem} personal_tension_high{Napjatý den v tvých tranzitech} other{?}}'**
+  String electionRule(String rule);
+
+  /// No description provided for @electionIntentName.
+  ///
+  /// In cs, this message translates to:
+  /// **'{intent, select, relationship{Svatba, vztah} contract{Smlouva, podpis, jednání} launch{Zahájení podnikání, projektu} money{Peníze, nákup} move{Stěhování, nemovitost} travel{Cesta} study{Zkouška, studium} application{Žádost, pohovor} surgery{Operace, zákrok} other{?}}'**
+  String electionIntentName(String intent);
+
+  /// No description provided for @electionVerdict.
+  ///
+  /// In cs, this message translates to:
+  /// **'{verdict, select, strong{Velmi vhodné} good{Vhodné} weak{Slabé} none{Nejméně špatné} health{Termín se nehledá} other{?}}'**
+  String electionVerdict(String verdict);
+
   /// No description provided for @dayPercentile.
   ///
   /// In cs, this message translates to:
