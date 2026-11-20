@@ -9,6 +9,7 @@ import '../../state.dart';
 import '../entry_view.dart';
 import '../format.dart';
 import 'house_compare.dart';
+import 'stars_view.dart';
 
 class TablesTab extends ConsumerStatefulWidget {
   final Chart chart;
@@ -121,6 +122,7 @@ class _TablesTabState extends ConsumerState<TablesTab> {
             subtitle: Text(l.dignityName(c.states[b]!.dignity.name)),
             trailing: Text('${c.states[b]!.score > 0 ? '+' : ''}${c.states[b]!.score}', style: t.titleSmall),
           ),
+      StarsTable(c, header: header(l.stars, 'fixed_star')),
       const SizedBox(height: 32),
     ]);
   }

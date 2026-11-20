@@ -598,5 +598,50 @@
    "model": "claude-opus-5-5",
    "generated": "2026-11-19"
   }
+ },
+ {
+  "key": "glossary/fixed_star",
+  "title": "Stálice",
+  "keywords": [],
+  "themes": [],
+  "text": "Stálice jsou hvězdy, které se vůči sobě na obloze téměř nehýbou, na rozdíl od planet. Appka počítá 32 jasných hvězd ze starých seznamů. Hvězda se počítá, jen když leží do 1° od planety, ascendentu nebo MC, a to podle délky na ekliptice. Hvězdy daleko od ekliptiky, třeba Sírius nebo Vega, bere tradice stejně, i když na obloze leží vysoko nad dráhou Slunce. Společné východy hvězd s planetami appka nepočítá. Tradiční významy stálic patří k nejtemnějším v celé astrologii, proto většina textu leží ve stinné vrstvě a v těžkých tématech.",
+  "traits": {
+   "text": [],
+   "shadow": []
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "glossary/precession",
+  "title": "Precese",
+  "keywords": [],
+  "themes": [],
+  "text": "Precese je pomalé kolébání zemské osy. Kvůli ní se jarní bod, od kterého se měří zvěrokruh, posouvá mezi hvězdami zhruba o 1° za 72 let. Proto stálice ve zvěrokruhu pomalu postupují: Regulus přešel ze Lva do Panny kolem roku 2012. Appka polohy hvězd přepočítává na datum narození, takže u horoskopu z 19. století leží hvězda jinde než dnes. Znamení se tu měří od jarního bodu, ne podle souhvězdí.",
+  "traits": {
+   "text": [],
+   "shadow": []
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "glossary/royal_stars",
+  "title": "Královské hvězdy",
+  "keywords": [],
+  "themes": [],
+  "text": "Královské hvězdy jsou čtyři jasné stálice, které perská tradice považovala za strážce nebe: Aldebaran, Regulus, Antares a Fomalhaut. Leží zhruba ve čtyřech čtvrtinách zvěrokruhu, a proto je spojovali se čtyřmi světovými stranami. Tradice o nich říká, že slibují velký vzestup, ale s podmínkou; kdo ji poruší, tomu se vzestup mění v pád. U Regula to bývá varování před pomstou, u Aldebaranu před nepoctivostí.",
+  "traits": {
+   "text": [],
+   "shadow": []
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
  }
 ]

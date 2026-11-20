@@ -1,4 +1,5 @@
 import '../model.dart';
+import '../stars.dart';
 
 /// Content ids of planets: the ten planets + the lunar node (mean or true alike).
 const planetIds = ['sun', 'moon', 'mercury', 'venus', 'mars', 'jupiter', 'saturn', 'uranus', 'neptune', 'pluto'];
@@ -26,6 +27,7 @@ const glossaryIds = [
   'aspect', 'orb', 'applying', 'conjunction', 'sextile', 'square', 'trine', 'opposition',
   'ruler', 'domicile', 'exaltation', 'detriment', 'fall', 'retrograde', 'station',
   'node', 'transit', 'natal_chart', 'element', 'modality', 'sign', 'planet', 'twins', 'shadow',
+  'fixed_star', 'precession', 'royal_stars',
 ];
 
 /// Content id of a body (both nodes share the `node` texts).
@@ -72,6 +74,8 @@ Map<String, List<String>> allKeysByFamily() {
       for (final e in elementIds) 'emphasis/element_missing/$e',
     ],
     'glossary': [for (final g in glossaryIds) 'glossary/$g'],
+    'star': [for (final s in starIds) 'star/$s'],
+    'star_target': [for (final t in starTargetIds) 'star_target/$t'],
   };
 }
 
@@ -102,6 +106,11 @@ String familyOf(String key) => key.split('/').first;
       return (min: 50, max: 110);
     case 'glossary':
       return (min: 25, max: 130);
+    case 'star':
+      // Most of a star text lives in shadow and hard (plan 10.6): no minimum for the base.
+      return (min: 0, max: 250);
+    case 'star_target':
+      return (min: 8, max: 40);
   }
   return (min: 1, max: 10000);
 }
@@ -120,6 +129,8 @@ bool expectsHard(String key) {
       return (p[3] == 'square' || p[3] == 'opposition' || p[3] == 'conjunction') && malefics.contains(p[1]);
     case 'transit_in_house':
       return p[2] == '8' || p[2] == '12';
+    case 'star':
+      return true;
   }
   return false;
 }
