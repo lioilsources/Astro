@@ -209,7 +209,7 @@ class AppLocalizationsCs extends AppLocalizations {
 
   @override
   String get helpLink =>
-      'Potřebuješ si promluvit? Linka první psychické pomoci';
+      'Potřebuješ si promluvit? Linka první psychické pomoci 116 123, nonstop, zdarma a anonymně';
 
   @override
   String get traditionNote =>

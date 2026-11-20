@@ -463,7 +463,7 @@ abstract class AppLocalizations {
   /// No description provided for @helpLink.
   ///
   /// In cs, this message translates to:
-  /// **'Potřebuješ si promluvit? Linka první psychické pomoci'**
+  /// **'Potřebuješ si promluvit? Linka první psychické pomoci 116 123, nonstop, zdarma a anonymně'**
   String get helpLink;
 
   /// No description provided for @traditionNote.
