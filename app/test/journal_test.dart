@@ -129,7 +129,7 @@ void main() {
       final store = MemoryJournalStore({profile.id: Journal().startBlind(DateTime(2026, 11, 1))});
       await t.pumpWidget(app(const ChartScreen(profile), store));
       await t.pumpAndSettle();
-      await t.tap(find.text('Tranzity'));
+      DefaultTabController.of(t.element(find.byType(TabBar))).index = 3;
       await t.pumpAndSettle();
       expect(find.text('Slepý test: tranzity se odemknou, až ohodnotíš dnešek.'), findsOneWidget);
       await t.tap(find.text('Ohodnotit dnešek'));
