@@ -135,6 +135,8 @@ tools/golden/.venv/bin/python tools/golden/gen_stars.py
 | nov, čtvrti, úplněk: 2024–2026 + rok každých 25 let 1700–2150 (1086 lunací) | skyfield + DE440 | 60 s v letech 1800–2030 (naměřeno 20 s), jinak 5 min (naměřeno 3,2 min, rozdíl modelů ΔT) |
 | zatmění Měsíce 2000–2030 (71) | skyfield `eclipselib` | stejný druh, maximum do 10 min; Meeus nezná jen okrajové polostínové zatmění 18. 7. 2027 |
 | 32 stálic, roky 1800, 1900, 2000, 2050 (`gen_stars.py`) | skyfield + DE440 + katalog | 5″ (pět hvězd 1800 a 2000: 2″); skutečně do 0,9″ |
+| progresní Měsíc a Slunce, 3 natály × 7 věků 0–90 let (`gen_progressions.py`) | skyfield + DE440 | 15″; naměřeno nejvýš 9″ |
+| okamžik soláru, 3 natály × 5 let (1953–2045) | skyfield + DE440 | 15 s; naměřeno nejvýš 5,7 s |
 
 Proti Astromatu (1. 1. 2000 12:00 UT, Praha): planety do 1,6′, domy do 0,6′,
 Pluto 4,5′. DE440 ukázalo, že se mýlí Astromat, ne tento engine.

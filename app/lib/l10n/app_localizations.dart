@@ -520,6 +520,222 @@ abstract class AppLocalizations {
   /// **'Text pro toto postavení zatím chybí.'**
   String get textMissing;
 
+  /// No description provided for @timeModeTransits.
+  ///
+  /// In cs, this message translates to:
+  /// **'Tranzity'**
+  String get timeModeTransits;
+
+  /// No description provided for @timeModeProgressions.
+  ///
+  /// In cs, this message translates to:
+  /// **'Progrese'**
+  String get timeModeProgressions;
+
+  /// No description provided for @timeModeSolar.
+  ///
+  /// In cs, this message translates to:
+  /// **'Solár'**
+  String get timeModeSolar;
+
+  /// No description provided for @progressionsAge.
+  ///
+  /// In cs, this message translates to:
+  /// **'Věk {age} let · progresní den {date}'**
+  String progressionsAge(Object age, Object date);
+
+  /// No description provided for @progressedMoon.
+  ///
+  /// In cs, this message translates to:
+  /// **'Progresní Měsíc'**
+  String get progressedMoon;
+
+  /// No description provided for @progressedSun.
+  ///
+  /// In cs, this message translates to:
+  /// **'Progresní Slunce'**
+  String get progressedSun;
+
+  /// No description provided for @progressedPhase.
+  ///
+  /// In cs, this message translates to:
+  /// **'Progresní fáze Měsíce'**
+  String get progressedPhase;
+
+  /// No description provided for @progressedAngles.
+  ///
+  /// In cs, this message translates to:
+  /// **'Progresní osy (sluneční oblouk {arc})'**
+  String progressedAngles(Object arc);
+
+  /// No description provided for @progressedAspects.
+  ///
+  /// In cs, this message translates to:
+  /// **'Progresní aspekty k natálu (orb 1°)'**
+  String get progressedAspects;
+
+  /// No description provided for @progressedAspectsNone.
+  ///
+  /// In cs, this message translates to:
+  /// **'Žádná progresní planeta není do 1° od aspektu k natální poloze.'**
+  String get progressedAspectsNone;
+
+  /// No description provided for @progressedAspectTitle.
+  ///
+  /// In cs, this message translates to:
+  /// **'Progresní {planet} {aspect} natální {target}'**
+  String progressedAspectTitle(Object planet, Object aspect, Object target);
+
+  /// No description provided for @progressedApplying.
+  ///
+  /// In cs, this message translates to:
+  /// **'{orb} · sbíhá se'**
+  String progressedApplying(Object orb);
+
+  /// No description provided for @progressedSeparating.
+  ///
+  /// In cs, this message translates to:
+  /// **'{orb} · rozbíhá se'**
+  String progressedSeparating(Object orb);
+
+  /// No description provided for @progressedNoTime.
+  ///
+  /// In cs, this message translates to:
+  /// **'Bez času narození je progresní Měsíc přesný jen asi na ±6° a osy ani domy se nepočítají.'**
+  String get progressedNoTime;
+
+  /// No description provided for @lifeTimeline.
+  ///
+  /// In cs, this message translates to:
+  /// **'Časová osa života'**
+  String get lifeTimeline;
+
+  /// No description provided for @milestoneMoonSign.
+  ///
+  /// In cs, this message translates to:
+  /// **'Progresní Měsíc vstupuje do znamení {sign}'**
+  String milestoneMoonSign(Object sign);
+
+  /// No description provided for @milestoneMoonHouse.
+  ///
+  /// In cs, this message translates to:
+  /// **'Progresní Měsíc vstupuje do {house}. domu'**
+  String milestoneMoonHouse(int house);
+
+  /// No description provided for @milestoneSunSign.
+  ///
+  /// In cs, this message translates to:
+  /// **'Progresní Slunce vstupuje do znamení {sign}'**
+  String milestoneSunSign(Object sign);
+
+  /// No description provided for @milestoneLunarPhase.
+  ///
+  /// In cs, this message translates to:
+  /// **'Progresní fáze: {phase}'**
+  String milestoneLunarPhase(Object phase);
+
+  /// No description provided for @milestoneSolarReturn.
+  ///
+  /// In cs, this message translates to:
+  /// **'Solár {year}'**
+  String milestoneSolarReturn(int year);
+
+  /// No description provided for @milestoneAge.
+  ///
+  /// In cs, this message translates to:
+  /// **'{age} let'**
+  String milestoneAge(Object age);
+
+  /// No description provided for @timelineMoonHouses.
+  ///
+  /// In cs, this message translates to:
+  /// **'Domy progresního Měsíce'**
+  String get timelineMoonHouses;
+
+  /// No description provided for @timelineSolarReturns.
+  ///
+  /// In cs, this message translates to:
+  /// **'Soláry'**
+  String get timelineSolarReturns;
+
+  /// No description provided for @solarReturnTitle.
+  ///
+  /// In cs, this message translates to:
+  /// **'Solár {year}'**
+  String solarReturnTitle(int year);
+
+  /// No description provided for @solarReturnMoment.
+  ///
+  /// In cs, this message translates to:
+  /// **'Slunce zpět na {lon}: {date}'**
+  String solarReturnMoment(Object lon, Object date);
+
+  /// No description provided for @solarPlaceResidence.
+  ///
+  /// In cs, this message translates to:
+  /// **'Bydliště'**
+  String get solarPlaceResidence;
+
+  /// No description provided for @solarPlaceBirth.
+  ///
+  /// In cs, this message translates to:
+  /// **'Místo narození'**
+  String get solarPlaceBirth;
+
+  /// No description provided for @solarPlace.
+  ///
+  /// In cs, this message translates to:
+  /// **'Místo: {place}'**
+  String solarPlace(Object place);
+
+  /// No description provided for @solarAsc.
+  ///
+  /// In cs, this message translates to:
+  /// **'Ascendent soláru'**
+  String get solarAsc;
+
+  /// No description provided for @solarSunHouse.
+  ///
+  /// In cs, this message translates to:
+  /// **'Slunce soláru'**
+  String get solarSunHouse;
+
+  /// No description provided for @solarOnAngles.
+  ///
+  /// In cs, this message translates to:
+  /// **'Planety na osách soláru (orb 5°)'**
+  String get solarOnAngles;
+
+  /// No description provided for @solarNoAngles.
+  ///
+  /// In cs, this message translates to:
+  /// **'Žádná planeta neleží do 5° od osy soláru.'**
+  String get solarNoAngles;
+
+  /// No description provided for @solarPlanets.
+  ///
+  /// In cs, this message translates to:
+  /// **'Planety soláru'**
+  String get solarPlanets;
+
+  /// No description provided for @solarNoTime.
+  ///
+  /// In cs, this message translates to:
+  /// **'Bez času narození je natální Slunce známé jen asi na ±0,5°, okamžik soláru proto jen asi na ±12 hodin.'**
+  String get solarNoTime;
+
+  /// No description provided for @returnAngleName.
+  ///
+  /// In cs, this message translates to:
+  /// **'{angle, select, asc{ascendentu} ic{IC} dsc{descendentu} mc{MC} other{?}}'**
+  String returnAngleName(String angle);
+
+  /// No description provided for @planetOnAngle.
+  ///
+  /// In cs, this message translates to:
+  /// **'{planet} na {angle}'**
+  String planetOnAngle(Object planet, Object angle);
+
   /// No description provided for @shadowTitle.
   ///
   /// In cs, this message translates to:

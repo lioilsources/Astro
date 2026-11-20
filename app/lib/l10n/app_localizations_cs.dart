@@ -296,6 +296,156 @@ class AppLocalizationsCs extends AppLocalizations {
   String get textMissing => 'Text pro toto postavení zatím chybí.';
 
   @override
+  String get timeModeTransits => 'Tranzity';
+
+  @override
+  String get timeModeProgressions => 'Progrese';
+
+  @override
+  String get timeModeSolar => 'Solár';
+
+  @override
+  String progressionsAge(Object age, Object date) {
+    return 'Věk $age let · progresní den $date';
+  }
+
+  @override
+  String get progressedMoon => 'Progresní Měsíc';
+
+  @override
+  String get progressedSun => 'Progresní Slunce';
+
+  @override
+  String get progressedPhase => 'Progresní fáze Měsíce';
+
+  @override
+  String progressedAngles(Object arc) {
+    return 'Progresní osy (sluneční oblouk $arc)';
+  }
+
+  @override
+  String get progressedAspects => 'Progresní aspekty k natálu (orb 1°)';
+
+  @override
+  String get progressedAspectsNone =>
+      'Žádná progresní planeta není do 1° od aspektu k natální poloze.';
+
+  @override
+  String progressedAspectTitle(Object planet, Object aspect, Object target) {
+    return 'Progresní $planet $aspect natální $target';
+  }
+
+  @override
+  String progressedApplying(Object orb) {
+    return '$orb · sbíhá se';
+  }
+
+  @override
+  String progressedSeparating(Object orb) {
+    return '$orb · rozbíhá se';
+  }
+
+  @override
+  String get progressedNoTime =>
+      'Bez času narození je progresní Měsíc přesný jen asi na ±6° a osy ani domy se nepočítají.';
+
+  @override
+  String get lifeTimeline => 'Časová osa života';
+
+  @override
+  String milestoneMoonSign(Object sign) {
+    return 'Progresní Měsíc vstupuje do znamení $sign';
+  }
+
+  @override
+  String milestoneMoonHouse(int house) {
+    return 'Progresní Měsíc vstupuje do $house. domu';
+  }
+
+  @override
+  String milestoneSunSign(Object sign) {
+    return 'Progresní Slunce vstupuje do znamení $sign';
+  }
+
+  @override
+  String milestoneLunarPhase(Object phase) {
+    return 'Progresní fáze: $phase';
+  }
+
+  @override
+  String milestoneSolarReturn(int year) {
+    return 'Solár $year';
+  }
+
+  @override
+  String milestoneAge(Object age) {
+    return '$age let';
+  }
+
+  @override
+  String get timelineMoonHouses => 'Domy progresního Měsíce';
+
+  @override
+  String get timelineSolarReturns => 'Soláry';
+
+  @override
+  String solarReturnTitle(int year) {
+    return 'Solár $year';
+  }
+
+  @override
+  String solarReturnMoment(Object lon, Object date) {
+    return 'Slunce zpět na $lon: $date';
+  }
+
+  @override
+  String get solarPlaceResidence => 'Bydliště';
+
+  @override
+  String get solarPlaceBirth => 'Místo narození';
+
+  @override
+  String solarPlace(Object place) {
+    return 'Místo: $place';
+  }
+
+  @override
+  String get solarAsc => 'Ascendent soláru';
+
+  @override
+  String get solarSunHouse => 'Slunce soláru';
+
+  @override
+  String get solarOnAngles => 'Planety na osách soláru (orb 5°)';
+
+  @override
+  String get solarNoAngles => 'Žádná planeta neleží do 5° od osy soláru.';
+
+  @override
+  String get solarPlanets => 'Planety soláru';
+
+  @override
+  String get solarNoTime =>
+      'Bez času narození je natální Slunce známé jen asi na ±0,5°, okamžik soláru proto jen asi na ±12 hodin.';
+
+  @override
+  String returnAngleName(String angle) {
+    String _temp0 = intl.Intl.selectLogic(angle, {
+      'asc': 'ascendentu',
+      'ic': 'IC',
+      'dsc': 'descendentu',
+      'mc': 'MC',
+      'other': '?',
+    });
+    return '$_temp0';
+  }
+
+  @override
+  String planetOnAngle(Object planet, Object angle) {
+    return '$planet na $angle';
+  }
+
+  @override
   String get shadowTitle => 'Stinná stránka';
 
   @override

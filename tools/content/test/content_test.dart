@@ -28,6 +28,9 @@ void main() {
     expect(k['pattern']!.length, 56);
     expect(k['star']!.length, 32);
     expect(k['star_target']!.length, 12);
+    // R5 (plan 10.5)
+    expect(k['progressed']!.length, 46);
+    expect(k['solar_return']!.length, 64);
     expect(k['journal']!.length, 10);
     expect(k['synastry']!.length, 165);
     expect(k['synastry_point']!.length, 60);
