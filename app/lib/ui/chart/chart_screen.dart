@@ -12,7 +12,7 @@ import 'patterns_view.dart';
 import 'reading_tab.dart';
 import 'stars_view.dart';
 import 'tables_tab.dart';
-import 'transits_tab.dart';
+import 'time_tab.dart';
 
 class ChartScreen extends ConsumerWidget {
   final Profile profile;
@@ -55,7 +55,7 @@ class ChartScreen extends ConsumerWidget {
           _Overview(chart, current),
           TablesTab(chart),
           ReadingTab(chart, current),
-          TransitsTab(chart, current),
+          TimeTab(chart, current),
         ]),
       ),
     );

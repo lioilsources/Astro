@@ -128,6 +128,133 @@
   }
  },
  "textMissing": "Text pro toto postavení zatím chybí.",
+ "timeModeTransits": "Tranzity",
+ "timeModeProgressions": "Progrese",
+ "timeModeSolar": "Solár",
+ "progressionsAge": "Věk {age} let · progresní den {date}",
+ "@progressionsAge": {
+  "placeholders": {
+   "age": {},
+   "date": {}
+  }
+ },
+ "progressedMoon": "Progresní Měsíc",
+ "progressedSun": "Progresní Slunce",
+ "progressedPhase": "Progresní fáze Měsíce",
+ "progressedAngles": "Progresní osy (sluneční oblouk {arc})",
+ "@progressedAngles": {
+  "placeholders": {
+   "arc": {}
+  }
+ },
+ "progressedAspects": "Progresní aspekty k natálu (orb 1°)",
+ "progressedAspectsNone": "Žádná progresní planeta není do 1° od aspektu k natální poloze.",
+ "progressedAspectTitle": "Progresní {planet} {aspect} natální {target}",
+ "@progressedAspectTitle": {
+  "placeholders": {
+   "planet": {},
+   "aspect": {},
+   "target": {}
+  }
+ },
+ "progressedApplying": "{orb} · sbíhá se",
+ "@progressedApplying": {
+  "placeholders": {
+   "orb": {}
+  }
+ },
+ "progressedSeparating": "{orb} · rozbíhá se",
+ "@progressedSeparating": {
+  "placeholders": {
+   "orb": {}
+  }
+ },
+ "progressedNoTime": "Bez času narození je progresní Měsíc přesný jen asi na ±6° a osy ani domy se nepočítají.",
+ "lifeTimeline": "Časová osa života",
+ "milestoneMoonSign": "Progresní Měsíc vstupuje do znamení {sign}",
+ "@milestoneMoonSign": {
+  "placeholders": {
+   "sign": {}
+  }
+ },
+ "milestoneMoonHouse": "Progresní Měsíc vstupuje do {house}. domu",
+ "@milestoneMoonHouse": {
+  "placeholders": {
+   "house": {
+    "type": "int"
+   }
+  }
+ },
+ "milestoneSunSign": "Progresní Slunce vstupuje do znamení {sign}",
+ "@milestoneSunSign": {
+  "placeholders": {
+   "sign": {}
+  }
+ },
+ "milestoneLunarPhase": "Progresní fáze: {phase}",
+ "@milestoneLunarPhase": {
+  "placeholders": {
+   "phase": {}
+  }
+ },
+ "milestoneSolarReturn": "Solár {year}",
+ "@milestoneSolarReturn": {
+  "placeholders": {
+   "year": {
+    "type": "int"
+   }
+  }
+ },
+ "milestoneAge": "{age} let",
+ "@milestoneAge": {
+  "placeholders": {
+   "age": {}
+  }
+ },
+ "timelineMoonHouses": "Domy progresního Měsíce",
+ "timelineSolarReturns": "Soláry",
+ "solarReturnTitle": "Solár {year}",
+ "@solarReturnTitle": {
+  "placeholders": {
+   "year": {
+    "type": "int"
+   }
+  }
+ },
+ "solarReturnMoment": "Slunce zpět na {lon}: {date}",
+ "@solarReturnMoment": {
+  "placeholders": {
+   "lon": {},
+   "date": {}
+  }
+ },
+ "solarPlaceResidence": "Bydliště",
+ "solarPlaceBirth": "Místo narození",
+ "solarPlace": "Místo: {place}",
+ "@solarPlace": {
+  "placeholders": {
+   "place": {}
+  }
+ },
+ "solarAsc": "Ascendent soláru",
+ "solarSunHouse": "Slunce soláru",
+ "solarOnAngles": "Planety na osách soláru (orb 5°)",
+ "solarNoAngles": "Žádná planeta neleží do 5° od osy soláru.",
+ "solarPlanets": "Planety soláru",
+ "solarNoTime": "Bez času narození je natální Slunce známé jen asi na ±0,5°, okamžik soláru proto jen asi na ±12 hodin.",
+ "returnAngleName": "{angle, select, asc{ascendentu} ic{IC} dsc{descendentu} mc{MC} other{?}}",
+ "@returnAngleName": {
+  "placeholders": {
+   "angle": {}
+  }
+ },
+ "planetOnAngle": "{planet} na {angle}",
+ "@planetOnAngle": {
+  "placeholders": {
+   "planet": {},
+   "angle": {}
+  }
+ },
  "shadowTitle": "Stinná stránka",
  "hiddenPassages": "Skryto: {count, plural, =1{1 pasáž} few{{count} pasáže} other{{count} pasáží}} ({topics})",
  "@hiddenPassages": {

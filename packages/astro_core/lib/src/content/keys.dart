@@ -1,6 +1,8 @@
 import '../model.dart';
 import '../patterns.dart';
+import '../progressions.dart';
 import '../stars.dart';
+import 'entry.dart';
 
 /// Content ids of planets: the ten planets + the lunar node (mean or true alike).
 const planetIds = ['sun', 'moon', 'mercury', 'venus', 'mars', 'jupiter', 'saturn', 'uranus', 'neptune', 'pluto'];
@@ -53,6 +55,29 @@ final patternKeys = [
   for (final h in hemisphereIds) 'pattern/hemisphere/$h',
   for (final p in planetIds) 'pattern/unaspected/$p',
 ];
+
+/// R5 (plan 10.5): secondary progressions and solar returns.
+const progressedModifierIds = ['applying', 'separating'];
+final returnAngleIds = ReturnAngle.values.map((a) => a.name).toList();
+final progressedKeys = [
+  for (final s in signIds) 'progressed/moon_in_sign/$s',
+  for (final h in houseNumbers) 'progressed/moon_in_house/$h',
+  for (final s in signIds) 'progressed/sun_in_sign/$s',
+  for (final f in moonPhaseIds) 'progressed/lunar_phase/$f',
+  for (final m in progressedModifierIds) 'progressed/modifier/$m',
+];
+final solarReturnKeys = [
+  for (final s in signIds) 'solar_return/asc/$s',
+  for (final h in houseNumbers) 'solar_return/sun_in_house/$h',
+  for (final p in planetIds)
+    for (final a in returnAngleIds) 'solar_return/planet_on_angle/$p/$a',
+];
+
+/// Keys of composing fragments inside a family that otherwise has a shadow layer.
+const shadowExemptPrefixes = ['progressed/modifier/'];
+
+/// No shadow layer required (fragments for composing).
+bool isShadowExempt(String key) => shadowExempt.contains(familyOf(key)) || shadowExemptPrefixes.any(key.startsWith);
 
 /// Content id of a body (both nodes share the `node` texts).
 String contentIdOf(Body b) => b.isNode ? 'node' : b.name;
@@ -109,6 +134,8 @@ Map<String, List<String>> allKeysByFamily() {
     'eclipse': [for (final e in eclipseIds) 'eclipse/$e'],
     'star': [for (final s in starIds) 'star/$s'],
     'star_target': [for (final t in starTargetIds) 'star_target/$t'],
+    'progressed': progressedKeys,
+    'solar_return': solarReturnKeys,
   };
 }
 
@@ -156,6 +183,14 @@ String familyOf(String key) => key.split('/').first;
       return (min: 0, max: 250);
     case 'star_target':
       return (min: 8, max: 40);
+    case 'progressed':
+      return switch (parts[1]) {
+        'modifier' => (min: 10, max: 35),
+        'lunar_phase' => (min: 70, max: 140),
+        _ => (min: 50, max: 110),
+      };
+    case 'solar_return':
+      return parts[1] == 'planet_on_angle' ? (min: 35, max: 90) : (min: 50, max: 110);
   }
   return (min: 1, max: 10000);
 }
@@ -179,6 +214,9 @@ bool expectsHard(String key) {
     case 'eclipse':
     case 'star':
       return true;
+    case 'solar_return':
+      return (p[1] == 'sun_in_house' && (p[2] == '8' || p[2] == '12')) ||
+          (p[1] == 'planet_on_angle' && malefics.contains(p[2]));
   }
   return false;
 }

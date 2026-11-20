@@ -12,6 +12,7 @@ export 'src/model.dart';
 export 'src/moon.dart';
 export 'src/patterns.dart';
 export 'src/planetary_hours.dart';
+export 'src/progressions.dart';
 export 'src/stars.dart';
 export 'src/sun.dart';
 export 'src/time.dart';

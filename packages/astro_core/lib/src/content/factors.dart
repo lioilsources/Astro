@@ -3,11 +3,12 @@ import '../chart.dart';
 import '../model.dart';
 import '../moon.dart';
 import '../patterns.dart';
+import '../progressions.dart';
 import '../stars.dart';
 import '../transits.dart';
 import 'keys.dart';
 
-enum FactorKind { planetInSign, planetInHouse, aspect, aspectPoint, signOnCusp, emphasis, pattern, star, moonPhase }
+enum FactorKind { planetInSign, planetInHouse, aspect, aspectPoint, signOnCusp, emphasis, pattern, star, moonPhase, progression, solarReturn }
 
 /// One interpretable fact of a chart with the key of its text.
 class Factor {
@@ -178,3 +179,47 @@ String? lunationInHouseKey(LunationKind kind, int house) => switch (kind) {
       LunationKind.fullMoon => 'lunation_in_house/full/$house',
       _ => null,
     };
+
+// R5 (plan 10.5): secondary progressions and solar returns.
+
+/// Text of a progressed aspect: the transit text of the same pair (no own texts).
+String progressedAspectKey(ProgressedAspect a) => a.natal.isAngle
+    ? 'transit_point/${a.progressed.name}/${a.natal.angle!.name}/${qualityId(a.type)}'
+    : 'transit/${a.progressed.name}/${a.natal.body!.name}/${a.type.name}';
+
+/// Intro sentence put before the transit text of a progressed aspect.
+String progressedModifierKey(ProgressedAspect a) => 'progressed/modifier/${a.applying ? 'applying' : 'separating'}';
+
+String progressedMoonSignKey(Sign s) => 'progressed/moon_in_sign/${s.name}';
+String progressedMoonHouseKey(int h) => 'progressed/moon_in_house/$h';
+String progressedSunSignKey(Sign s) => 'progressed/sun_in_sign/${s.name}';
+String progressedLunarPhaseKey(MoonPhase p) => 'progressed/lunar_phase/${p.id}';
+
+/// Progressed Moon (sign, house), Sun sign, lunar phase and aspects in reading order.
+List<Factor> progressionFactorsOf(Progression p) {
+  final h = p.moonHouse;
+  return [
+    Factor(progressedMoonSignKey(p.moon.sign), FactorKind.progression, 1.0, body: Body.moon, sign: p.moon.sign),
+    if (h != null) Factor(progressedMoonHouseKey(h), FactorKind.progression, 0.9, body: Body.moon, house: h),
+    Factor(progressedSunSignKey(p.sun.sign), FactorKind.progression, 0.8, body: Body.sun, sign: p.sun.sign),
+    Factor(progressedLunarPhaseKey(p.lunarPhase), FactorKind.progression, 0.7),
+    for (final a in p.aspects)
+      Factor(progressedAspectKey(a), FactorKind.progression, _bodyWeight[a.progressed]! * (1 - 0.5 * a.orb / progressedOrb), body: a.progressed),
+  ];
+}
+
+String solarReturnAscKey(Sign s) => 'solar_return/asc/${s.name}';
+String solarReturnSunHouseKey(int h) => 'solar_return/sun_in_house/$h';
+String planetOnAngleKey(Body b, ReturnAngle a) => 'solar_return/planet_on_angle/${b.name}/${a.name}';
+
+/// ASC sign, house of the Sun and planets on angles of a solar-return chart.
+List<Factor> solarReturnFactorsOf(Chart sr) {
+  final asc = sr.asc;
+  final h = sr.houseOf(Body.sun);
+  return [
+    if (asc != null) Factor(solarReturnAscKey(Sign.ofLongitude(asc)), FactorKind.solarReturn, 1.0, sign: Sign.ofLongitude(asc)),
+    if (h != null) Factor(solarReturnSunHouseKey(h), FactorKind.solarReturn, 1.0, body: Body.sun, house: h),
+    for (final x in planetsOnAngles(sr))
+      Factor(planetOnAngleKey(x.body, x.angle), FactorKind.solarReturn, _bodyWeight[x.body]! * (1 - 0.5 * x.orb / solarReturnAngleOrb), body: x.body),
+  ];
+}

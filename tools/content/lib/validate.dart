@@ -39,7 +39,7 @@ List<Finding> validate(Map<String, ContentEntry> entries, List<Trait> traits, {b
     if (!known.contains(e.key)) err('unknown key');
     if (e.title.trim().isEmpty) err('empty title');
     if (e.text.trim().isEmpty) err('empty text');
-    if (!shadowExempt.contains(family) && e.shadow.trim().isEmpty) err('empty shadow');
+    if (!isShadowExempt(e.key) && e.shadow.trim().isEmpty) err('empty shadow');
     for (final th in e.themes) {
       if (!themeIds.contains(th)) err('unknown theme $th');
     }
@@ -74,7 +74,7 @@ List<Finding> validate(Map<String, ContentEntry> entries, List<Trait> traits, {b
     }
     final ns = wordCount(e.shadow);
     final shadowMin = range.max <= 110 ? 20 : 30;
-    if (!shadowExempt.contains(family) && (ns < shadowMin || ns > 130)) warn('shadow $ns words, expected $shadowMin–100');
+    if (!isShadowExempt(e.key) && (ns < shadowMin || ns > 130)) warn('shadow $ns words, expected $shadowMin–100');
     if (expectsHard(e.key) && e.hard.isEmpty) warn('tradition has hard topics here but `hard` is empty');
   }
 
