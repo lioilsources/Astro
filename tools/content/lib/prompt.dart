@@ -152,6 +152,14 @@ class PromptBuilder {
         final name = pt?['name'] ?? pn(p[1]);
         final facts = pt != null ? 'Bod ${pt['name']}: ${pt['core']}.' : _planet(p[1]);
         return (title: 'Stálice u bodu $name', facts: '$facts\nJedna věta o tom, co znamená, když na tomto bodě leží stálice.');
+      case 'journal':
+        final j = _journal[p[1]]!;
+        return (
+          title: j.title,
+          facts: 'Deník předpovědí: uživatel hodnotí své dny −2 až +2 a appka porovnává hodnocení se skóre napětí '
+              'tranzitů. ${j.facts}\nPravidla navíc: nikdy slovo "důkaz"; výsledek "žádná souvislost" je stejně '
+              'platný jako opačný; žádná čísla (doplní je appka), text se zobrazí pod větou s čísly.',
+        );
     }
     throw ArgumentError(key);
   }
@@ -232,6 +240,50 @@ class PromptBuilder {
   }
 
 
+  /// Prediction journal texts (plan 10.3).
+  static const _journal = {
+    'method': (
+      title: 'Jak deník vyhodnocuje',
+      facts: 'Vysvětli metodu: pořadová korelace napětí a hodnocení, test proti náhodě přeházením celých týdnů '
+          '10 000×, kontrola horoskopy dvaceti cizích osob. Hypotéza zapsaná předem, záznam bez přepisování.'
+    ),
+    'too_few': (title: 'Zatím málo dat', facts: 'Ohodnocených dní je méně než 60; vysvětli, proč na vyhodnocení ještě nestačí.'),
+    'relation_expected': (
+      title: 'Napjaté dny vycházejí hůř',
+      facts: 'Ve dnech s vyšším napětím hodnotí uživatel den hůř, a to víc, než dávají náhodná přeházení. '
+          'Je to souvislost, ne příčina; vysvětli, co ji může způsobit (očekávání, náhoda, pár výrazných týdnů).'
+    ),
+    'relation_opposite': (
+      title: 'Napjaté dny vycházejí líp',
+      facts: 'Ve dnech s vyšším napětím hodnotí uživatel den lépe, opak toho, co čeká tradice.'
+    ),
+    'no_relation': (
+      title: 'Souvislost se neukázala',
+      facts: 'Hodnocení dní nesouvisí se skóre napětí víc než při náhodném přeházení týdnů. '
+          'Je to platný a důležitý výsledek, ne selhání deníku.'
+    ),
+    'control_better': (
+      title: 'Vlastní horoskop sedí líp než cizí',
+      facts: 'Tranzity k vlastnímu horoskopu odpovídají hodnocení lépe než tranzity k horoskopům cizích osob z katalogu.'
+    ),
+    'control_not_better': (
+      title: 'Cizí horoskopy sedí stejně dobře',
+      facts: 'Tranzity k cizím horoskopům odpovídají hodnocení stejně dobře nebo lépe; shoda tedy není vázaná na vlastní horoskop.'
+    ),
+    'hypothesis_more': (
+      title: 'Hypotéza: štítek častěji při tranzitu',
+      facts: 'Ve dnech s tranzitem z hypotézy dává uživatel štítek častěji než ve dnech bez něj, víc, než by čekala náhoda.'
+    ),
+    'hypothesis_not_more': (
+      title: 'Hypotéza: štítek ne častěji',
+      facts: 'Ve dnech s tranzitem z hypotézy se štítek neobjevuje častěji než jindy (nebo rozdíl nepřesahuje náhodu).'
+    ),
+    'blind': (
+      title: 'Slepý test',
+      facts: 'Dobrovolný režim na 90 dní: pohled na tranzity se odemkne až po ohodnocení dne, aby předpověď neovlivnila '
+          'hodnocení. Hodnocení mimo test se vyhodnocují zvlášť.'
+    ),
+  };
   String _qualityName(String q) =>
       {'conjunction': 'konjunkce', 'harmonious': 'harmonický aspekt (sextil, trigon)', 'tense': 'napěťový aspekt (kvadrát, opozice)'}[q] ?? q;
 
@@ -257,7 +309,9 @@ class PromptBuilder {
             '  Moderní psychologický přepis nevydávej za tradici.'
         : family == 'star_target'
             ? '- "text": ${len.min}–${len.max} slov: jedna až dvě věty o tom, které oblasti života hvězda na tomto bodě zasahuje.'
-            : '- "text": ${len.min}–${len.max} slov: povaha, nadání, projevy.';
+            : family == 'journal'
+                ? '- "text": ${len.min}–${len.max} slov: věcné vysvětlení výsledku pro laika, bez astrologického výkladu povahy.'
+                : '- "text": ${len.min}–${len.max} slov: povaha, nadání, projevy.';
     return '''
 Napiš český text astrologického výkladu pro mobilní appku.
 

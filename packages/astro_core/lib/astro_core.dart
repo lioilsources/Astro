@@ -18,3 +18,4 @@ export 'src/synastry.dart';
 export 'src/time.dart';
 export 'src/transits.dart';
 export 'src/track.dart';
+export 'src/version.dart';

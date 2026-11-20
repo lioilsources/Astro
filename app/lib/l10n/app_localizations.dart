@@ -1174,6 +1174,403 @@ abstract class AppLocalizations {
   /// **'{star, select, algol{Algol} alcyone{Alkyone} aldebaran{Aldebaran} rigel{Rigel} bellatrix{Bellatrix} capella{Capella} betelgeuse{Betelgeuze} sirius{Sírius} castor{Castor} pollux{Pollux} procyon{Prokyon} praesepe{Praesepe} alphard{Alphard} regulus{Regulus} denebola{Denebola} vindemiatrix{Vindemiatrix} algorab{Algorab} spica{Spica} arcturus{Arcturus} zubenelgenubi{Zubenelgenubi} zubeneschamali{Zubeneschamali} unukalhai{Unukalhai} acrab{Akrab} antares{Antares} rasalhague{Ras Alhague} vega{Vega} altair{Altair} deneb_algedi{Deneb Algedi} fomalhaut{Fomalhaut} achernar{Achernar} markab{Markab} scheat{Scheat} other{?}}'**
   String starName(String star);
 
+  /// No description provided for @journalTitle.
+  ///
+  /// In cs, this message translates to:
+  /// **'Deník předpovědí'**
+  String get journalTitle;
+
+  /// No description provided for @journalRateToday.
+  ///
+  /// In cs, this message translates to:
+  /// **'Ohodnotit dnešek'**
+  String get journalRateToday;
+
+  /// No description provided for @journalRateYesterday.
+  ///
+  /// In cs, this message translates to:
+  /// **'Ohodnotit včerejšek'**
+  String get journalRateYesterday;
+
+  /// No description provided for @journalChangeRating.
+  ///
+  /// In cs, this message translates to:
+  /// **'Změnit hodnocení'**
+  String get journalChangeRating;
+
+  /// No description provided for @journalAddCorrection.
+  ///
+  /// In cs, this message translates to:
+  /// **'Přidat opravu'**
+  String get journalAddCorrection;
+
+  /// No description provided for @journalClosedNote.
+  ///
+  /// In cs, this message translates to:
+  /// **'Den je uzavřený. Změna se zapíše jako oprava s odkazem na původní záznam; vyhodnocuje se původní hodnocení.'**
+  String get journalClosedNote;
+
+  /// No description provided for @journalOpenUntil.
+  ///
+  /// In cs, this message translates to:
+  /// **'Hodnocení jde měnit do konce dne {day}.'**
+  String journalOpenUntil(Object day);
+
+  /// No description provided for @journalRatingLabel.
+  ///
+  /// In cs, this message translates to:
+  /// **'Jaký byl den {day}?'**
+  String journalRatingLabel(Object day);
+
+  /// No description provided for @journalRatingValue.
+  ///
+  /// In cs, this message translates to:
+  /// **'{value, select, m2{velmi špatný} m1{spíš špatný} zero{běžný} p1{spíš dobrý} p2{velmi dobrý} other{?}}'**
+  String journalRatingValue(String value);
+
+  /// No description provided for @journalTags.
+  ///
+  /// In cs, this message translates to:
+  /// **'Štítky'**
+  String get journalTags;
+
+  /// No description provided for @journalTagSearch.
+  ///
+  /// In cs, this message translates to:
+  /// **'Přidat štítek (např. únava)'**
+  String get journalTagSearch;
+
+  /// No description provided for @journalNote.
+  ///
+  /// In cs, this message translates to:
+  /// **'Poznámka'**
+  String get journalNote;
+
+  /// No description provided for @journalSave.
+  ///
+  /// In cs, this message translates to:
+  /// **'Uložit'**
+  String get journalSave;
+
+  /// No description provided for @journalHistory.
+  ///
+  /// In cs, this message translates to:
+  /// **'Ohodnocené dny'**
+  String get journalHistory;
+
+  /// No description provided for @journalEmpty.
+  ///
+  /// In cs, this message translates to:
+  /// **'Zatím žádné hodnocení.'**
+  String get journalEmpty;
+
+  /// No description provided for @journalSawPrediction.
+  ///
+  /// In cs, this message translates to:
+  /// **'předpověď byla vidět'**
+  String get journalSawPrediction;
+
+  /// No description provided for @journalBlindFlag.
+  ///
+  /// In cs, this message translates to:
+  /// **'naslepo'**
+  String get journalBlindFlag;
+
+  /// No description provided for @journalCorrectionOf.
+  ///
+  /// In cs, this message translates to:
+  /// **'oprava, původně {value}'**
+  String journalCorrectionOf(Object value);
+
+  /// No description provided for @journalTension.
+  ///
+  /// In cs, this message translates to:
+  /// **'napětí {value}'**
+  String journalTension(Object value);
+
+  /// No description provided for @journalExport.
+  ///
+  /// In cs, this message translates to:
+  /// **'Exportovat CSV'**
+  String get journalExport;
+
+  /// No description provided for @journalBlindTitle.
+  ///
+  /// In cs, this message translates to:
+  /// **'Slepý test'**
+  String get journalBlindTitle;
+
+  /// No description provided for @journalBlindOff.
+  ///
+  /// In cs, this message translates to:
+  /// **'Na 90 dní skryje tranzity, dokud dnešek neohodnotíš. Dobrovolné, výchozí vypnuto.'**
+  String get journalBlindOff;
+
+  /// No description provided for @journalBlindRunning.
+  ///
+  /// In cs, this message translates to:
+  /// **'Běží do {day}. Tranzity se odemknou po ohodnocení dne.'**
+  String journalBlindRunning(Object day);
+
+  /// No description provided for @journalBlindLocked.
+  ///
+  /// In cs, this message translates to:
+  /// **'Slepý test: tranzity se odemknou, až ohodnotíš dnešek.'**
+  String get journalBlindLocked;
+
+  /// No description provided for @journalBlindStopConfirm.
+  ///
+  /// In cs, this message translates to:
+  /// **'Ukončit slepý test předčasně? Další hodnocení ponesou příznak, že předpověď byla vidět.'**
+  String get journalBlindStopConfirm;
+
+  /// No description provided for @journalEvaluation.
+  ///
+  /// In cs, this message translates to:
+  /// **'Vyhodnocení'**
+  String get journalEvaluation;
+
+  /// No description provided for @journalGroupBlind.
+  ///
+  /// In cs, this message translates to:
+  /// **'Hodnocení naslepo'**
+  String get journalGroupBlind;
+
+  /// No description provided for @journalGroupSeen.
+  ///
+  /// In cs, this message translates to:
+  /// **'Hodnocení s viditelnou předpovědí'**
+  String get journalGroupSeen;
+
+  /// No description provided for @journalTooFew.
+  ///
+  /// In cs, this message translates to:
+  /// **'Zatím málo dat: {n} z {min} ohodnocených dní.'**
+  String journalTooFew(Object n, Object min);
+
+  /// No description provided for @journalUndefined.
+  ///
+  /// In cs, this message translates to:
+  /// **'Hodnocení nebo napětí se nemění, souvislost nejde spočítat.'**
+  String get journalUndefined;
+
+  /// No description provided for @journalResultExpected.
+  ///
+  /// In cs, this message translates to:
+  /// **'Ve dnech s vyšším napětím hodnotíš den hůř.'**
+  String get journalResultExpected;
+
+  /// No description provided for @journalResultOpposite.
+  ///
+  /// In cs, this message translates to:
+  /// **'Ve dnech s vyšším napětím hodnotíš den lépe.'**
+  String get journalResultOpposite;
+
+  /// No description provided for @journalResultNone.
+  ///
+  /// In cs, this message translates to:
+  /// **'Souvislost mezi napětím a hodnocením se neukázala.'**
+  String get journalResultNone;
+
+  /// No description provided for @journalResultNumbers.
+  ///
+  /// In cs, this message translates to:
+  /// **'Pořadová korelace ρ = {rho}, {size} efekt. Stejnou nebo silnější shodu dalo náhodné přeházení celých týdnů v {p} pokusů z {perms} ({n} dní, {weeks} týdnů).'**
+  String journalResultNumbers(
+    Object rho,
+    Object size,
+    Object p,
+    Object perms,
+    Object n,
+    Object weeks,
+  );
+
+  /// No description provided for @journalEffect.
+  ///
+  /// In cs, this message translates to:
+  /// **'{size, select, negligible{zanedbatelný} small{malý} moderate{střední} large{velký} other{?}}'**
+  String journalEffect(String size);
+
+  /// No description provided for @journalControl.
+  ///
+  /// In cs, this message translates to:
+  /// **'Kontrola cizím horoskopem'**
+  String get journalControl;
+
+  /// No description provided for @journalControlResult.
+  ///
+  /// In cs, this message translates to:
+  /// **'Tranzity k {persons} cizím horoskopům z katalogu: stejně dobře nebo lépe sedí {k} z nich (tvoje ρ = {own}, medián cizích ρ = {median}).'**
+  String journalControlResult(
+    Object persons,
+    Object k,
+    Object own,
+    Object median,
+  );
+
+  /// No description provided for @journalControlFew.
+  ///
+  /// In cs, this message translates to:
+  /// **'V katalogu je zatím {n} osob; kontrola potřebuje aspoň {min}.'**
+  String journalControlFew(Object n, Object min);
+
+  /// No description provided for @journalControlPartial.
+  ///
+  /// In cs, this message translates to:
+  /// **'Katalog má zatím jen {n} osob místo {want}.'**
+  String journalControlPartial(Object n, Object want);
+
+  /// No description provided for @journalControlBetter.
+  ///
+  /// In cs, this message translates to:
+  /// **'Vlastní horoskop sedí líp než cizí.'**
+  String get journalControlBetter;
+
+  /// No description provided for @journalControlNotBetter.
+  ///
+  /// In cs, this message translates to:
+  /// **'Vlastní horoskop nesedí líp než cizí.'**
+  String get journalControlNotBetter;
+
+  /// No description provided for @journalHypotheses.
+  ///
+  /// In cs, this message translates to:
+  /// **'Vlastní hypotézy'**
+  String get journalHypotheses;
+
+  /// No description provided for @journalHypothesisAdd.
+  ///
+  /// In cs, this message translates to:
+  /// **'Zapsat hypotézu'**
+  String get journalHypothesisAdd;
+
+  /// No description provided for @journalHypothesisRule.
+  ///
+  /// In cs, this message translates to:
+  /// **'{transit} → {tag}'**
+  String journalHypothesisRule(Object transit, Object tag);
+
+  /// No description provided for @journalHypothesisSince.
+  ///
+  /// In cs, this message translates to:
+  /// **'Zapsáno {day}; počítají se jen dny potom.'**
+  String journalHypothesisSince(Object day);
+
+  /// No description provided for @journalHypothesisResult.
+  ///
+  /// In cs, this message translates to:
+  /// **'S tranzitem: štítek {a} z {n} dní ({pa}). Bez tranzitu: {b} z {m} dní ({pb}).'**
+  String journalHypothesisResult(
+    Object a,
+    Object n,
+    Object pa,
+    Object b,
+    Object m,
+    Object pb,
+  );
+
+  /// No description provided for @journalHypothesisFew.
+  ///
+  /// In cs, this message translates to:
+  /// **'Zatím málo dní: potřeba aspoň {min} s tranzitem i bez něj.'**
+  String journalHypothesisFew(Object min);
+
+  /// No description provided for @journalHypothesisMore.
+  ///
+  /// In cs, this message translates to:
+  /// **'Štítek se při tranzitu objevuje častěji, než by dala náhoda (p = {p}).'**
+  String journalHypothesisMore(Object p);
+
+  /// No description provided for @journalHypothesisNotMore.
+  ///
+  /// In cs, this message translates to:
+  /// **'Štítek se při tranzitu neobjevuje častěji, než by dala náhoda (p = {p}).'**
+  String journalHypothesisNotMore(Object p);
+
+  /// No description provided for @journalHypothesisTransiting.
+  ///
+  /// In cs, this message translates to:
+  /// **'Tranzitující planeta'**
+  String get journalHypothesisTransiting;
+
+  /// No description provided for @journalHypothesisAspect.
+  ///
+  /// In cs, this message translates to:
+  /// **'Aspekt'**
+  String get journalHypothesisAspect;
+
+  /// No description provided for @journalHypothesisTarget.
+  ///
+  /// In cs, this message translates to:
+  /// **'Natální bod'**
+  String get journalHypothesisTarget;
+
+  /// No description provided for @journalHypothesisTag.
+  ///
+  /// In cs, this message translates to:
+  /// **'Štítek'**
+  String get journalHypothesisTag;
+
+  /// No description provided for @journalHypothesisDelete.
+  ///
+  /// In cs, this message translates to:
+  /// **'Smazat hypotézu'**
+  String get journalHypothesisDelete;
+
+  /// No description provided for @journalHypothesisNoTag.
+  ///
+  /// In cs, this message translates to:
+  /// **'Vyber štítek ze slovníku.'**
+  String get journalHypothesisNoTag;
+
+  /// No description provided for @journalTextMissing.
+  ///
+  /// In cs, this message translates to:
+  /// **'Text zatím chybí.'**
+  String get journalTextMissing;
+
+  /// No description provided for @journalMethod.
+  ///
+  /// In cs, this message translates to:
+  /// **'Jak to funguje'**
+  String get journalMethod;
+
+  /// No description provided for @journalReminder.
+  ///
+  /// In cs, this message translates to:
+  /// **'Večerní připomínka deníku'**
+  String get journalReminder;
+
+  /// No description provided for @journalReminderDesc.
+  ///
+  /// In cs, this message translates to:
+  /// **'Místní oznámení v telefonu, bez sítě. Čas: {time}.'**
+  String journalReminderDesc(Object time);
+
+  /// No description provided for @journalReminderTitle.
+  ///
+  /// In cs, this message translates to:
+  /// **'Deník předpovědí'**
+  String get journalReminderTitle;
+
+  /// No description provided for @journalReminderBody.
+  ///
+  /// In cs, this message translates to:
+  /// **'Jaký byl dnešek? Ohodnoť den.'**
+  String get journalReminderBody;
+
+  /// No description provided for @journalReminderDenied.
+  ///
+  /// In cs, this message translates to:
+  /// **'Oznámení nejsou povolená. Povol je v nastavení telefonu.'**
+  String get journalReminderDenied;
+
+  /// No description provided for @journalErrorNewer.
+  ///
+  /// In cs, this message translates to:
+  /// **'Deník uložila novější verze appky. Aktualizuj appku; data zůstávají beze změny.'**
+  String get journalErrorNewer;
+
   /// No description provided for @synastryTitle.
   ///
   /// In cs, this message translates to:

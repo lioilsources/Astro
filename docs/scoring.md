@@ -137,6 +137,10 @@ Merkur 2, Venuše 4, Mars 8, ostatní 8–10 dní) dávají proti přímému vý
 odchylku do 6 bodů. 80 let trvá na Macu asi 7 s, v appce běží v isolate a výsledek
 se ukládá.
 
+Verze vzorce: `tensionFormulaVersion` v `packages/astro_core/lib/src/version.dart`
+(teď 1). Při každé změně vzorce ji zvyš; deník předpovědí pak napětí starších
+záznamů pro vyhodnocení přepočítá.
+
 ## Měsíc a planetární hodiny (R2)
 
 Bez bodů: denní osa jen ukazuje. Pravidla jsou v `docs/ephemeris.md` (oddíl
@@ -145,3 +149,65 @@ Slunce a Měsíc). Texty: `planetary_hour/{planeta}`, `planetary_day/{planeta}`
 `moon_today/{znamení}`, `lunation_in_house/{new, full}/{dům}`, `void_of_course`,
 `eclipse/{solar, lunar}`. Fáze při narození je ve výkladu faktor `moonPhase`
 s vahou 0,6 (oddíl „Přemíra a nedostatek“).
+
+## Deník předpovědí (`package:astro_core/journal.dart`, plán 10.3)
+
+Metodika převzatá z projektu heliograf: hypotéza zapsaná předem, srovnání se
+základním odhadem, záznam bez přepisování. Výsledek se uvádí větou a velikostí
+efektu, nikdy slovem „důkaz“; „žádná souvislost“ se ukazuje stejně výrazně.
+
+### Záznam
+
+- Hodnocení dne −2 až +2, volitelně štítky ze slovníku rysů a poznámka.
+- Uloží se hodnocení, napětí dne (`tensionAt` v místním poledni, převedeném na UT),
+  verze enginu (`engineVersion`) a verze vzorce. Tranzity se neukládají.
+- Den (místní kalendářní datum) jde hodnotit od svého začátku do konce
+  následujícího dne. Novější záznam téhož dne v tom okně platí místo staršího,
+  starší v logu zůstává. Pak je den uzavřený a jde k němu jen **oprava**: nový
+  záznam s odkazem na poslední původní. Vyhodnocuje se vždy původní hodnocení;
+  oprava může být ovlivněná zpětným pohledem.
+- Obecný log (`AppendOnlyLog` + `ClosePolicy`) nese i horární otázky (R8).
+- Úložiště: jeden šifrovaný soubor na profil (AES-GCM, klíč v klíčence), dokument
+  se `schema`. Soubor s novějším schématem appka odmítne a nepřepíše; chybějící
+  pole starších záznamů dostanou „neznámá verze“ a napětí se přepočítá.
+
+### Slepý test
+
+Dobrovolný, 90 dní (rozhodnutí 16: výchozí vypnuto). Záložka Tranzity je zamčená,
+dokud není ohodnocený dnešek. Hodnocení je slepé, když test běží a pohled byl
+ještě zamčený (hodnotí se dnešek, nebo včerejšek před dneškem). Ostatní nesou
+příznak „předpověď byla vidět“. Obě skupiny se vyhodnocují zvlášť, každá s vlastním
+prahem 60 dní.
+
+### Vyhodnocení (od 60 ohodnocených dní)
+
+1. **Pořadová korelace** (Spearmanovo ρ, shody průměrným pořadím) mezi napětím
+   a hodnocením. Tradice čeká záporné ρ: vyšší napětí, horší den.
+2. **Test proti náhodě**: hodnocení se rozdělí do bloků po 7 kalendářních dnech
+   od prvního ohodnoceného dne. Bloky se 10 000× náhodně přeházejí (uvnitř bloku
+   zůstává pořadí) a položí zpět na ohodnocené dny v pořadí; napětí zůstává.
+   p = podíl přeházení, kde ρ vyjde stejně nebo víc záporné než pozorované (bez
+   korekce +1). Souvislost „napjaté dny hůř“ platí při p ≤ 0,05; obrácená
+   („napjaté dny líp“) při p ≤ 0,05 pro opačný směr; jinak „souvislost se
+   neukázala“. Týdny místo dnů: pomalé tranzity i nálada drží několik dní, přeházení
+   po dnech by shodu nadhodnotilo.
+3. **Velikost efektu**: |ρ| pod 0,1 zanedbatelný, pod 0,3 malý, pod 0,5 střední,
+   jinak velký.
+4. **Kontrola cizím horoskopem**: 20 náhodných osob z katalogu (bez profilu
+   samého), stejné dny, napětí jejich tranzitů. Počítá se, kolik cizích horoskopů
+   dá ρ stejné nebo zápornější než vlastní. Vlastní sedí líp, když je to nejvýš 5 %
+   z nich (u 20 osob nejvýš jedna). Pod 5 osobami se kontrola nedělá a appka to
+   řekne; pod 20 uvede, kolik jich je.
+5. **Vlastní hypotézy** („tranzit X aspekt natální Y → štítek Z“): jen dny po dni
+   zápisu. Tranzit platí pro den, když je v orbu kdykoli během místního dne
+   (poledne ± 12 h). Výsledek: podíl dní se štítkem při tranzitu proti podílu bez
+   tranzitu (základní odhad) a jednostranný Fisherův exaktní test; potřeba aspoň
+   5 dní s tranzitem i bez něj.
+
+Náhodu řídí seed odvozený z id hodnocených záznamů, takže tentýž deník dá vždy
+tatáž čísla; testy seed zadávají přímo. Výpočet běží v isolate.
+
+Testy (`packages/astro_core/test/journal_test.dart`): syntetický deník s náhodným
+hodnocením nevyjde jako souvislost (20 seedů, nejvýš 3 falešné poplachy, a pevný
+seed vyjde „žádná souvislost“); deník odvozený ze skóre vyjde jako souvislost
+s p < 0,01 a líp než šest cizích horoskopů.

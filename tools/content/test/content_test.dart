@@ -28,6 +28,7 @@ void main() {
     expect(k['pattern']!.length, 56);
     expect(k['star']!.length, 32);
     expect(k['star_target']!.length, 12);
+    expect(k['journal']!.length, 10);
     expect(k['synastry']!.length, 165);
     expect(k['synastry_point']!.length, 60);
     expect(k['synastry_house']!.length, 120);

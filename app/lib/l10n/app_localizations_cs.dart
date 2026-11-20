@@ -883,6 +883,277 @@ class AppLocalizationsCs extends AppLocalizations {
   }
 
   @override
+  String get journalTitle => 'Deník předpovědí';
+
+  @override
+  String get journalRateToday => 'Ohodnotit dnešek';
+
+  @override
+  String get journalRateYesterday => 'Ohodnotit včerejšek';
+
+  @override
+  String get journalChangeRating => 'Změnit hodnocení';
+
+  @override
+  String get journalAddCorrection => 'Přidat opravu';
+
+  @override
+  String get journalClosedNote =>
+      'Den je uzavřený. Změna se zapíše jako oprava s odkazem na původní záznam; vyhodnocuje se původní hodnocení.';
+
+  @override
+  String journalOpenUntil(Object day) {
+    return 'Hodnocení jde měnit do konce dne $day.';
+  }
+
+  @override
+  String journalRatingLabel(Object day) {
+    return 'Jaký byl den $day?';
+  }
+
+  @override
+  String journalRatingValue(String value) {
+    String _temp0 = intl.Intl.selectLogic(value, {
+      'm2': 'velmi špatný',
+      'm1': 'spíš špatný',
+      'zero': 'běžný',
+      'p1': 'spíš dobrý',
+      'p2': 'velmi dobrý',
+      'other': '?',
+    });
+    return '$_temp0';
+  }
+
+  @override
+  String get journalTags => 'Štítky';
+
+  @override
+  String get journalTagSearch => 'Přidat štítek (např. únava)';
+
+  @override
+  String get journalNote => 'Poznámka';
+
+  @override
+  String get journalSave => 'Uložit';
+
+  @override
+  String get journalHistory => 'Ohodnocené dny';
+
+  @override
+  String get journalEmpty => 'Zatím žádné hodnocení.';
+
+  @override
+  String get journalSawPrediction => 'předpověď byla vidět';
+
+  @override
+  String get journalBlindFlag => 'naslepo';
+
+  @override
+  String journalCorrectionOf(Object value) {
+    return 'oprava, původně $value';
+  }
+
+  @override
+  String journalTension(Object value) {
+    return 'napětí $value';
+  }
+
+  @override
+  String get journalExport => 'Exportovat CSV';
+
+  @override
+  String get journalBlindTitle => 'Slepý test';
+
+  @override
+  String get journalBlindOff =>
+      'Na 90 dní skryje tranzity, dokud dnešek neohodnotíš. Dobrovolné, výchozí vypnuto.';
+
+  @override
+  String journalBlindRunning(Object day) {
+    return 'Běží do $day. Tranzity se odemknou po ohodnocení dne.';
+  }
+
+  @override
+  String get journalBlindLocked =>
+      'Slepý test: tranzity se odemknou, až ohodnotíš dnešek.';
+
+  @override
+  String get journalBlindStopConfirm =>
+      'Ukončit slepý test předčasně? Další hodnocení ponesou příznak, že předpověď byla vidět.';
+
+  @override
+  String get journalEvaluation => 'Vyhodnocení';
+
+  @override
+  String get journalGroupBlind => 'Hodnocení naslepo';
+
+  @override
+  String get journalGroupSeen => 'Hodnocení s viditelnou předpovědí';
+
+  @override
+  String journalTooFew(Object n, Object min) {
+    return 'Zatím málo dat: $n z $min ohodnocených dní.';
+  }
+
+  @override
+  String get journalUndefined =>
+      'Hodnocení nebo napětí se nemění, souvislost nejde spočítat.';
+
+  @override
+  String get journalResultExpected =>
+      'Ve dnech s vyšším napětím hodnotíš den hůř.';
+
+  @override
+  String get journalResultOpposite =>
+      'Ve dnech s vyšším napětím hodnotíš den lépe.';
+
+  @override
+  String get journalResultNone =>
+      'Souvislost mezi napětím a hodnocením se neukázala.';
+
+  @override
+  String journalResultNumbers(
+    Object rho,
+    Object size,
+    Object p,
+    Object perms,
+    Object n,
+    Object weeks,
+  ) {
+    return 'Pořadová korelace ρ = $rho, $size efekt. Stejnou nebo silnější shodu dalo náhodné přeházení celých týdnů v $p pokusů z $perms ($n dní, $weeks týdnů).';
+  }
+
+  @override
+  String journalEffect(String size) {
+    String _temp0 = intl.Intl.selectLogic(size, {
+      'negligible': 'zanedbatelný',
+      'small': 'malý',
+      'moderate': 'střední',
+      'large': 'velký',
+      'other': '?',
+    });
+    return '$_temp0';
+  }
+
+  @override
+  String get journalControl => 'Kontrola cizím horoskopem';
+
+  @override
+  String journalControlResult(
+    Object persons,
+    Object k,
+    Object own,
+    Object median,
+  ) {
+    return 'Tranzity k $persons cizím horoskopům z katalogu: stejně dobře nebo lépe sedí $k z nich (tvoje ρ = $own, medián cizích ρ = $median).';
+  }
+
+  @override
+  String journalControlFew(Object n, Object min) {
+    return 'V katalogu je zatím $n osob; kontrola potřebuje aspoň $min.';
+  }
+
+  @override
+  String journalControlPartial(Object n, Object want) {
+    return 'Katalog má zatím jen $n osob místo $want.';
+  }
+
+  @override
+  String get journalControlBetter => 'Vlastní horoskop sedí líp než cizí.';
+
+  @override
+  String get journalControlNotBetter => 'Vlastní horoskop nesedí líp než cizí.';
+
+  @override
+  String get journalHypotheses => 'Vlastní hypotézy';
+
+  @override
+  String get journalHypothesisAdd => 'Zapsat hypotézu';
+
+  @override
+  String journalHypothesisRule(Object transit, Object tag) {
+    return '$transit → $tag';
+  }
+
+  @override
+  String journalHypothesisSince(Object day) {
+    return 'Zapsáno $day; počítají se jen dny potom.';
+  }
+
+  @override
+  String journalHypothesisResult(
+    Object a,
+    Object n,
+    Object pa,
+    Object b,
+    Object m,
+    Object pb,
+  ) {
+    return 'S tranzitem: štítek $a z $n dní ($pa). Bez tranzitu: $b z $m dní ($pb).';
+  }
+
+  @override
+  String journalHypothesisFew(Object min) {
+    return 'Zatím málo dní: potřeba aspoň $min s tranzitem i bez něj.';
+  }
+
+  @override
+  String journalHypothesisMore(Object p) {
+    return 'Štítek se při tranzitu objevuje častěji, než by dala náhoda (p = $p).';
+  }
+
+  @override
+  String journalHypothesisNotMore(Object p) {
+    return 'Štítek se při tranzitu neobjevuje častěji, než by dala náhoda (p = $p).';
+  }
+
+  @override
+  String get journalHypothesisTransiting => 'Tranzitující planeta';
+
+  @override
+  String get journalHypothesisAspect => 'Aspekt';
+
+  @override
+  String get journalHypothesisTarget => 'Natální bod';
+
+  @override
+  String get journalHypothesisTag => 'Štítek';
+
+  @override
+  String get journalHypothesisDelete => 'Smazat hypotézu';
+
+  @override
+  String get journalHypothesisNoTag => 'Vyber štítek ze slovníku.';
+
+  @override
+  String get journalTextMissing => 'Text zatím chybí.';
+
+  @override
+  String get journalMethod => 'Jak to funguje';
+
+  @override
+  String get journalReminder => 'Večerní připomínka deníku';
+
+  @override
+  String journalReminderDesc(Object time) {
+    return 'Místní oznámení v telefonu, bez sítě. Čas: $time.';
+  }
+
+  @override
+  String get journalReminderTitle => 'Deník předpovědí';
+
+  @override
+  String get journalReminderBody => 'Jaký byl dnešek? Ohodnoť den.';
+
+  @override
+  String get journalReminderDenied =>
+      'Oznámení nejsou povolená. Povol je v nastavení telefonu.';
+
+  @override
+  String get journalErrorNewer =>
+      'Deník uložila novější verze appky. Aktualizuj appku; data zůstávají beze změny.';
+
+  @override
   String get synastryTitle => 'Partnerský horoskop';
 
   @override

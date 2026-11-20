@@ -436,6 +436,181 @@
    "star": {}
   }
  },
+ "journalTitle": "Deník předpovědí",
+ "journalRateToday": "Ohodnotit dnešek",
+ "journalRateYesterday": "Ohodnotit včerejšek",
+ "journalChangeRating": "Změnit hodnocení",
+ "journalAddCorrection": "Přidat opravu",
+ "journalClosedNote": "Den je uzavřený. Změna se zapíše jako oprava s odkazem na původní záznam; vyhodnocuje se původní hodnocení.",
+ "journalOpenUntil": "Hodnocení jde měnit do konce dne {day}.",
+ "@journalOpenUntil": {
+  "placeholders": {
+   "day": {}
+  }
+ },
+ "journalRatingLabel": "Jaký byl den {day}?",
+ "@journalRatingLabel": {
+  "placeholders": {
+   "day": {}
+  }
+ },
+ "journalRatingValue": "{value, select, m2{velmi špatný} m1{spíš špatný} zero{běžný} p1{spíš dobrý} p2{velmi dobrý} other{?}}",
+ "@journalRatingValue": {
+  "placeholders": {
+   "value": {}
+  }
+ },
+ "journalTags": "Štítky",
+ "journalTagSearch": "Přidat štítek (např. únava)",
+ "journalNote": "Poznámka",
+ "journalSave": "Uložit",
+ "journalHistory": "Ohodnocené dny",
+ "journalEmpty": "Zatím žádné hodnocení.",
+ "journalSawPrediction": "předpověď byla vidět",
+ "journalBlindFlag": "naslepo",
+ "journalCorrectionOf": "oprava, původně {value}",
+ "@journalCorrectionOf": {
+  "placeholders": {
+   "value": {}
+  }
+ },
+ "journalTension": "napětí {value}",
+ "@journalTension": {
+  "placeholders": {
+   "value": {}
+  }
+ },
+ "journalExport": "Exportovat CSV",
+ "journalBlindTitle": "Slepý test",
+ "journalBlindOff": "Na 90 dní skryje tranzity, dokud dnešek neohodnotíš. Dobrovolné, výchozí vypnuto.",
+ "journalBlindRunning": "Běží do {day}. Tranzity se odemknou po ohodnocení dne.",
+ "@journalBlindRunning": {
+  "placeholders": {
+   "day": {}
+  }
+ },
+ "journalBlindLocked": "Slepý test: tranzity se odemknou, až ohodnotíš dnešek.",
+ "journalBlindStopConfirm": "Ukončit slepý test předčasně? Další hodnocení ponesou příznak, že předpověď byla vidět.",
+ "journalEvaluation": "Vyhodnocení",
+ "journalGroupBlind": "Hodnocení naslepo",
+ "journalGroupSeen": "Hodnocení s viditelnou předpovědí",
+ "journalTooFew": "Zatím málo dat: {n} z {min} ohodnocených dní.",
+ "@journalTooFew": {
+  "placeholders": {
+   "n": {},
+   "min": {}
+  }
+ },
+ "journalUndefined": "Hodnocení nebo napětí se nemění, souvislost nejde spočítat.",
+ "journalResultExpected": "Ve dnech s vyšším napětím hodnotíš den hůř.",
+ "journalResultOpposite": "Ve dnech s vyšším napětím hodnotíš den lépe.",
+ "journalResultNone": "Souvislost mezi napětím a hodnocením se neukázala.",
+ "journalResultNumbers": "Pořadová korelace ρ = {rho}, {size} efekt. Stejnou nebo silnější shodu dalo náhodné přeházení celých týdnů v {p} pokusů z {perms} ({n} dní, {weeks} týdnů).",
+ "@journalResultNumbers": {
+  "placeholders": {
+   "rho": {},
+   "size": {},
+   "p": {},
+   "perms": {},
+   "n": {},
+   "weeks": {}
+  }
+ },
+ "journalEffect": "{size, select, negligible{zanedbatelný} small{malý} moderate{střední} large{velký} other{?}}",
+ "@journalEffect": {
+  "placeholders": {
+   "size": {}
+  }
+ },
+ "journalControl": "Kontrola cizím horoskopem",
+ "journalControlResult": "Tranzity k {persons} cizím horoskopům z katalogu: stejně dobře nebo lépe sedí {k} z nich (tvoje ρ = {own}, medián cizích ρ = {median}).",
+ "@journalControlResult": {
+  "placeholders": {
+   "persons": {},
+   "k": {},
+   "own": {},
+   "median": {}
+  }
+ },
+ "journalControlFew": "V katalogu je zatím {n} osob; kontrola potřebuje aspoň {min}.",
+ "@journalControlFew": {
+  "placeholders": {
+   "n": {},
+   "min": {}
+  }
+ },
+ "journalControlPartial": "Katalog má zatím jen {n} osob místo {want}.",
+ "@journalControlPartial": {
+  "placeholders": {
+   "n": {},
+   "want": {}
+  }
+ },
+ "journalControlBetter": "Vlastní horoskop sedí líp než cizí.",
+ "journalControlNotBetter": "Vlastní horoskop nesedí líp než cizí.",
+ "journalHypotheses": "Vlastní hypotézy",
+ "journalHypothesisAdd": "Zapsat hypotézu",
+ "journalHypothesisRule": "{transit} → {tag}",
+ "@journalHypothesisRule": {
+  "placeholders": {
+   "transit": {},
+   "tag": {}
+  }
+ },
+ "journalHypothesisSince": "Zapsáno {day}; počítají se jen dny potom.",
+ "@journalHypothesisSince": {
+  "placeholders": {
+   "day": {}
+  }
+ },
+ "journalHypothesisResult": "S tranzitem: štítek {a} z {n} dní ({pa}). Bez tranzitu: {b} z {m} dní ({pb}).",
+ "@journalHypothesisResult": {
+  "placeholders": {
+   "a": {},
+   "n": {},
+   "pa": {},
+   "b": {},
+   "m": {},
+   "pb": {}
+  }
+ },
+ "journalHypothesisFew": "Zatím málo dní: potřeba aspoň {min} s tranzitem i bez něj.",
+ "@journalHypothesisFew": {
+  "placeholders": {
+   "min": {}
+  }
+ },
+ "journalHypothesisMore": "Štítek se při tranzitu objevuje častěji, než by dala náhoda (p = {p}).",
+ "@journalHypothesisMore": {
+  "placeholders": {
+   "p": {}
+  }
+ },
+ "journalHypothesisNotMore": "Štítek se při tranzitu neobjevuje častěji, než by dala náhoda (p = {p}).",
+ "@journalHypothesisNotMore": {
+  "placeholders": {
+   "p": {}
+  }
+ },
+ "journalHypothesisTransiting": "Tranzitující planeta",
+ "journalHypothesisAspect": "Aspekt",
+ "journalHypothesisTarget": "Natální bod",
+ "journalHypothesisTag": "Štítek",
+ "journalHypothesisDelete": "Smazat hypotézu",
+ "journalHypothesisNoTag": "Vyber štítek ze slovníku.",
+ "journalTextMissing": "Text zatím chybí.",
+ "journalMethod": "Jak to funguje",
+ "journalReminder": "Večerní připomínka deníku",
+ "journalReminderDesc": "Místní oznámení v telefonu, bez sítě. Čas: {time}.",
+ "@journalReminderDesc": {
+  "placeholders": {
+   "time": {}
+  }
+ },
+ "journalReminderTitle": "Deník předpovědí",
+ "journalReminderBody": "Jaký byl dnešek? Ohodnoť den.",
+ "journalReminderDenied": "Oznámení nejsou povolená. Povol je v nastavení telefonu.",
+ "journalErrorNewer": "Deník uložila novější verze appky. Aktualizuj appku; data zůstávají beze změny.",
  "synastryTitle": "Partnerský horoskop",
  "synastryIntro": "Srovnání dvou uložených profilů: aspekty mezi planetami, planety jedné osoby v domech druhé.",
  "synastryFirst": "První osoba",

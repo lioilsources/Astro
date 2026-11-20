@@ -55,6 +55,11 @@ final patternKeys = [
   for (final p in planetIds) 'pattern/unaspected/$p',
 ];
 
+/// Prediction journal texts (plan 10.3): method, result templates, blind test.
+const journalIds = [
+  'method', 'too_few', 'relation_expected', 'relation_opposite', 'no_relation',
+  'control_better', 'control_not_better', 'hypothesis_more', 'hypothesis_not_more', 'blind',
+];
 /// Partner charts (plan 10.4): unordered pairs including the same planet × quality,
 /// ASC/MC × planet × quality, planet of one person in a house of the other.
 final synastryKeys = [
@@ -124,6 +129,7 @@ Map<String, List<String>> allKeysByFamily() {
     'eclipse': [for (final e in eclipseIds) 'eclipse/$e'],
     'star': [for (final s in starIds) 'star/$s'],
     'star_target': [for (final t in starTargetIds) 'star_target/$t'],
+    'journal': [for (final j in journalIds) 'journal/$j'],
     'synastry': synastryKeys,
     'synastry_point': synastryPointKeys,
     'synastry_house': synastryHouseKeys,
@@ -174,6 +180,8 @@ String familyOf(String key) => key.split('/').first;
       return (min: 0, max: 250);
     case 'star_target':
       return (min: 8, max: 40);
+    case 'journal':
+      return (min: 25, max: 90);
     case 'synastry':
       return (min: 70, max: 160);
     case 'synastry_point':
