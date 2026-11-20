@@ -43,11 +43,12 @@ class _ElectionScreenState extends ConsumerState<ElectionScreen> {
       appBar: AppBar(title: Text(l.electionTitle)),
       body: ListView(padding: const EdgeInsets.all(16), children: [
         DropdownButtonFormField<String>(
+          isExpanded: true,
           initialValue: _intent,
           decoration: InputDecoration(labelText: l.electionIntent),
           items: [
             for (final id in [...ElectionIntent.values.map((i) => i.id), ...electionHealthIntentIds])
-              DropdownMenuItem(value: id, child: Text(l.electionIntentName(id))),
+              DropdownMenuItem(value: id, child: Text(l.electionIntentName(id), overflow: TextOverflow.ellipsis)),
           ],
           onChanged: (v) => setState(() {
             _intent = v ?? _intent;
@@ -82,9 +83,10 @@ class _ElectionScreenState extends ConsumerState<ElectionScreen> {
     final place = profile.residencePlace;
     return [
       DropdownButtonFormField<String>(
+        isExpanded: true,
         initialValue: profile.id,
         decoration: InputDecoration(labelText: l.electionProfile),
-        items: [for (final p in profiles) DropdownMenuItem(value: p.id, child: Text(p.name))],
+        items: [for (final p in profiles) DropdownMenuItem(value: p.id, child: Text(p.name, overflow: TextOverflow.ellipsis))],
         onChanged: (v) => setState(() {
           _profileId = v;
           _result = null;
@@ -99,8 +101,7 @@ class _ElectionScreenState extends ConsumerState<ElectionScreen> {
         onChanged: (v) => setState(() => _personal = v),
       ),
       Row(children: [
-        Text('${l.electionStart} ${fmtDate(_start)}'),
-        const Spacer(),
+        Expanded(child: Text('${l.electionStart} ${fmtDate(_start)}')),
         TextButton(
           onPressed: () async {
             final now = DateTime.now();
