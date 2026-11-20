@@ -1,5 +1,110 @@
 [
  {
+  "key": "aspect/sun/moon/conjunction",
+  "title": "Slunce konjunkce Měsíc",
+  "keywords": [
+   "celistvost",
+   "nový začátek",
+   "vůle a cit",
+   "intuice"
+  ],
+  "themes": [
+   "character",
+   "family",
+   "health",
+   "growth"
+  ],
+  "text": "Vůle a city u tebe táhnou za jeden provaz. Co chceš, to zároveň potřebuješ, a co cítíš, to rovnou děláš. Máš celistvou povahu bez velkých vnitřních sporů. Do věcí vstupuješ celou bytostí a nic neděláš napůl. Tradice tuto konjunkci spojuje s narozením při novoluní, tedy s novým začátkem a se semínkem, které teprve klíčí. Odtud plyne tvůj sklon začínat, zakládat a přinášet nápady. Máš silnou intuici a tvořivost, která vychází z niterných potřeb. Domov a osobní cesta pro tebe znamenají jedno. Často v sobě neseš otcovský i mateřský vliv spojený v jediný obraz. Ve vztazích dáváš jasně najevo, co potřebuješ. Umíš se postarat o sebe i o druhé a tvoje přítomnost působí soustředěně a přímo.",
+  "shadow": "Odvrácenou stranou téhož splynutí je zahleděnost do sebe. Chybí ti odstup od vlastních pocitů, a tak je snadno vydáváš za pravdu. Nálada řídí vůli a vůle zase náladu. Kritika se tě dotýká osobně a hluboko. Hrozí panovačnost v citech: druzí mají cítit totéž co ty. K pohledu zvenčí se dostáváš těžko, protože ti chybí vnitřní zrcadlo. Lpíš na zvycích a staré křivdy v sobě nosíš dlouho.",
+  "hard": [
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o oslabené vitalitě u lidí narozených při novoluní, kdy Měsíc stojí spálený Sluncem. Starší autoři zmiňují křehčí zdraví v dětství a potíže se zrakem, protože obě světla vládnou očím. Uvádějí také citlivý žaludek a obtíže s plodností."
+   },
+   {
+    "topics": [
+     "loss",
+     "death"
+    ],
+    "text": "Tradice tu mluví o splynutí obou rodičů v jediném bodě a vykládá ho jako nerovnováhu mezi nimi. Starší texty uvádějí odloučení od rodiče, ztrátu matky nebo otce, případně předčasnou smrt jednoho z nich. Jde o tradiční motiv, ne o jistotu."
+   },
+   {
+    "topics": [
+     "mental_crisis"
+    ],
+    "text": "Tradice tu mluví o Měsíci přehlušeném Sluncem jako o oslabení duševní rovnováhy. Uvádí sklon k vnitřnímu vyčerpání, citovým výkyvům a obdobím, kdy se city nedostávají ke slovu a hromadí se pod povrchem."
+   }
+  ],
+  "traits": {
+   "text": [
+    "creativity",
+    "intuition",
+    "decisiveness",
+    "self_confidence",
+    "family_attachment"
+   ],
+   "shadow": [
+    "selfishness",
+    "moodiness",
+    "dominance",
+    "stubbornness"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "aspect/sun/moon/sextile",
+  "title": "Slunce sextil Měsíc",
+  "keywords": [
+   "vnitřní souhra",
+   "vyrovnanost",
+   "příležitost",
+   "citová jistota",
+   "spolupráce"
+  ],
+  "themes": [
+   "character",
+   "family",
+   "relationships",
+   "growth"
+  ],
+  "text": "Tvoje vůle a tvoje city spolu většinou dobře vycházejí. Víš, co chceš, a zároveň cítíš, co potřebuješ. Tahle shoda ti dává vnitřní klid a přirozenou jistotu. Lidé k tobě snadno nacházejí cestu, protože působíš upřímně a vyrovnaně. Máš nadání spojovat lidi a urovnávat napětí doma i v práci. Tvoje tvořivost vychází z citu, ne jen z ambice. Dobře vnímáš vlastní tělo a jeho rytmus. Obraz otce a matky v tobě nese spíš spolupráci než boj. Sextil je ale příležitost, ne dar zadarmo. Harmonie se rozvine, když jí věnuješ pozornost. Pomáhá, když své potřeby vyslovíš a svá rozhodnutí opřeš o to, co cítíš. Pak se z pohody stává síla.",
+  "shadow": "Věci ti jdou docela hladce, a tak se snadno spokojíš s pohodlím. Úsilí, které sextil žádá, můžeš odkládat. Konfliktům se vyhýbáš a napětí raději přikryješ úsměvem. V tom je riziko povrchnosti a stagnace. Pýcha se tu projevuje tiše: jako přesvědčení, že tvoje rovnováha je samozřejmost. Potřeba mít doma klid může přerůst v lpění na zvycích a na minulosti. Když se cítíš ohroženě, nálady se mění rychleji, než si přiznáš.",
+  "hard": [
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o dobrém zdraví a vitalitě, když se Slunce a Měsíc navzájem podporují. Zároveň upozorňuje, že při dlouhém přetížení se oslabení projeví tam, kam tato světla ukazují: na srdci, zraku, žaludku a duševní rovnováze. Tradice to chápe jako slabá místa, ne jako předpověď."
+   }
+  ],
+  "traits": {
+   "text": [
+    "calm",
+    "cooperation",
+    "self_acceptance",
+    "empathy",
+    "creativity"
+   ],
+   "shadow": [
+    "procrastination",
+    "superficiality",
+    "stagnation",
+    "family_attachment",
+    "moodiness"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
   "key": "aspect/sun/saturn/trine",
   "title": "Slunce trigon Saturn",
   "keywords": [
@@ -13,7 +118,6 @@
   ],
   "text": "Trigon Slunce a Saturnu dává vůli s pevnými základy. Umíš si stanovit cíl a vytrvat, aniž by tě to stálo velké přemáhání. Odpovědnost ti nepřipadá jako břemeno, ale jako přirozená součást života. Autority tě respektují a ty respektuješ je, takže s nadřízenými i úřady vycházíš bez zbytečného tření. Zralost přichází brzy a s věkem tvoje síla roste. Máš talent pro dlouhodobé projekty, řemeslo a vedení. Vztah s otcem nebo s mentorem bývá oporou.",
   "shadow": "Stinnou stránkou trigonu je pohodlí v jistotě. Riziko nevyhledáváš a příležitosti, které chtějí skok do neznáma, můžeš propásnout. Vážnost tě může připravit o hravost a spontánnost. Konzervativnost a pocit, že pravidla platí vždy, vedou ke strnulosti.",
-  "hard": [],
   "traits": {
    "text": [
     "discipline",
@@ -91,6 +195,49 @@
   }
  },
  {
+  "key": "aspect/venus/jupiter/conjunction",
+  "title": "Venuše konjunkce Jupiter",
+  "keywords": [
+   "štěstí",
+   "štědrost",
+   "hojnost",
+   "láska"
+  ],
+  "themes": [
+   "relationships",
+   "money"
+  ],
+  "text": "Konjunkce Venuše a Jupiteru patří v tradici k nejšťastnějším postavením. Máš velké srdce, štědrost a radost ze života a lidé se kolem tebe cítí vítáni. Láska, přátelství a krása přicházejí snadno, často i peníze. Máš vkus pro hojnost: dobré jídlo, umění, cestování, oslavy. Ve vztazích hledáš nejen city, ale i společný smysl a růst. Tvůj optimismus pomáhá druhým a otevírá ti dveře. Umění a kultura ti přinášejí radost i obživu.",
+  "shadow": "Ve stínu je přemíra v jídle, v utrácení, ve slibech i v lásce. Říct ne je těžké a hranice, kdy přestat, se ztrácí. Pohodlí může vést k lenosti a ke spoléhání na štěstí. Ve vztazích idealizuješ a pak přichází zklamání. Velkorysost se snadno změní v marnivost.",
+  "hard": [
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o nemocech z přemíry: o přibývání na váze, o játrech, cukru a krevním tlaku."
+   }
+  ],
+  "traits": {
+   "text": [
+    "generosity",
+    "optimism",
+    "charm",
+    "sociability"
+   ],
+   "shadow": [
+    "indulgence",
+    "extravagance",
+    "vanity",
+    "superficiality"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-19",
+   "pilot": true
+  }
+ },
+ {
   "key": "aspect/mars/neptune/opposition",
   "title": "Mars opozice Neptun",
   "keywords": [
@@ -138,49 +285,6 @@
     "deceit",
     "indecision",
     "exhaustion"
-   ]
-  },
-  "meta": {
-   "model": "claude-opus-5-5",
-   "generated": "2026-11-19",
-   "pilot": true
-  }
- },
- {
-  "key": "aspect/venus/jupiter/conjunction",
-  "title": "Venuše konjunkce Jupiter",
-  "keywords": [
-   "štěstí",
-   "štědrost",
-   "hojnost",
-   "láska"
-  ],
-  "themes": [
-   "relationships",
-   "money"
-  ],
-  "text": "Konjunkce Venuše a Jupiteru patří v tradici k nejšťastnějším postavením. Máš velké srdce, štědrost a radost ze života a lidé se kolem tebe cítí vítáni. Láska, přátelství a krása přicházejí snadno, často i peníze. Máš vkus pro hojnost: dobré jídlo, umění, cestování, oslavy. Ve vztazích hledáš nejen city, ale i společný smysl a růst. Tvůj optimismus pomáhá druhým a otevírá ti dveře. Umění a kultura ti přinášejí radost i obživu.",
-  "shadow": "Ve stínu je přemíra v jídle, v utrácení, ve slibech i v lásce. Říct ne je těžké a hranice, kdy přestat, se ztrácí. Pohodlí může vést k lenosti a ke spoléhání na štěstí. Ve vztazích idealizuješ a pak přichází zklamání. Velkorysost se snadno změní v marnivost.",
-  "hard": [
-   {
-    "topics": [
-     "illness"
-    ],
-    "text": "Tradice tu mluví o nemocech z přemíry: o přibývání na váze, o játrech, cukru a krevním tlaku."
-   }
-  ],
-  "traits": {
-   "text": [
-    "generosity",
-    "optimism",
-    "charm",
-    "sociability"
-   ],
-   "shadow": [
-    "indulgence",
-    "extravagance",
-    "vanity",
-    "superficiality"
    ]
   },
   "meta": {

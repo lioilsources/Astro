@@ -4,9 +4,12 @@
 library;
 
 import 'dart:io';
+import 'dart:ui' as ui;
 
 import 'package:astro/ui/chart/chart_screen.dart';
+import 'package:flutter/rendering.dart';
 import 'package:flutter/services.dart';
+import 'package:flutter/widgets.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
@@ -22,6 +25,8 @@ void main() {
     await _font('Roboto', 'assets/fonts/NotoSans-Regular.ttf');
     await _font('NotoSansSymbols', 'assets/fonts/NotoSansSymbols-Regular.ttf');
     await _font('NotoSansSymbols2', 'assets/fonts/NotoSansSymbols2-Regular.ttf');
+    await _font('MaterialIcons',
+        '${Platform.environment['FLUTTER_ROOT']}/bin/cache/artifacts/material_fonts/MaterialIcons-Regular.otf');
   });
   setUp(() => SharedPreferences.setMockInitialValues({'onboardingDone': true}));
 
@@ -38,6 +43,14 @@ void main() {
     await t.runAsync(() => Future<void>.delayed(const Duration(seconds: 3)));
     await t.pumpAndSettle();
     await expectLater(find.byType(ChartScreen), matchesGoldenFile('../../../run/screens/$name.png'));
+    // Full-resolution copy (1179×2556) for store pages.
+    final boundary = t.renderObject<RenderRepaintBoundary>(
+        find.ancestor(of: find.byType(ChartScreen), matching: find.byType(RepaintBoundary)).first);
+    await t.runAsync(() async {
+      final image = await boundary.toImage(pixelRatio: 3);
+      final bytes = await image.toByteData(format: ui.ImageByteFormat.png);
+      File('../run/screens/$name@3x.png').writeAsBytesSync(bytes!.buffer.asUint8List());
+    });
   }
 
   testWidgets('overview', (t) => shot(t, '', 'overview'));

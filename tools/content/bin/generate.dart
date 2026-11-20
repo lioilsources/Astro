@@ -1,7 +1,7 @@
 // Generates missing texts through an OpenAI-compatible endpoint (SPARK gateway via
 // sparkctl lease) or the Anthropic API. Idempotent: done keys are skipped.
 //
-//   LLM_BASE_URL=… LLM_API_KEY=… LLM_MODEL=… dart run astro_content:generate --family aspect [--limit 20] [--keys k1,k2]
+//   LLM_BASE_URL=… LLM_API_KEY=… LLM_MODEL=… dart run astro_content:generate --family aspect [--limit 20] [--keys k1,k2] [--jobs 6]
 //   LLM_PROVIDER=anthropic ANTHROPIC_API_KEY=… LLM_MODEL=claude-opus-5-5 dart run astro_content:generate …
 import 'dart:convert';
 import 'dart:io';
@@ -33,37 +33,71 @@ Future<void> main(List<String> args) async {
   final provider = env['LLM_PROVIDER'] ?? 'openai';
   final model = env['LLM_MODEL'] ?? (provider == 'anthropic' ? 'claude-opus-5-5' : 'qwen36');
   stdout.writeln('${todo.length} texts to generate with $provider/$model');
+  final jobs = int.tryParse(opt('jobs') ?? '') ?? 1;
+  final traits = loadTraits(contentDir);
   var ok = 0, failed = 0;
-  for (final key in todo) {
-    try {
+  final queue = todo.iterator;
+  // Workers share one isolate, so the synchronous family writes never interleave.
+  Future<void> worker() async {
+    while (queue.moveNext()) {
+      final key = queue.current;
+      for (var attempt = 1;; attempt++) {
+        try {
+          await _one(key, provider, model, builder, env, entries, contentDir, traits);
+          ok++;
+          stdout.writeln('ok   $key');
+          break;
+        } catch (e) {
+          if (attempt < 3) {
+            await Future<void>.delayed(Duration(seconds: 20 * attempt));
+            continue;
+          }
+          failed++;
+          stdout.writeln('fail $key: $e');
+          break;
+        }
+      }
+    }
+  }
+
+  await Future.wait([for (var i = 0; i < jobs; i++) worker()]);
+  stdout.writeln(jsonEncode({'texts': {'ok': ok, 'failed': failed}}));
+  if (failed > 0 && ok == 0) exit(1);
+}
+
+Future<void> _one(String key, String provider, String model, PromptBuilder builder, Map<String, String> env,
+    Map<String, ContentEntry> entries, Directory contentDir, List<Trait> traits) async {
+  {
+    {
       final raw = await _complete(provider, model, builder.build(key), env);
       final json = jsonDecode(_extractJson(raw)) as Map<String, dynamic>;
       json['key'] = key;
       json['meta'] = {'model': model, 'generated': DateTime.now().toUtc().toIso8601String().substring(0, 10)};
       final entry = ContentEntry.fromJson(json);
-      final errors = validate({key: entry}, loadTraits(contentDir)).where((f) => f.error).toList();
+      final errors = validate({key: entry}, traits).where((f) => f.error).toList();
       if (errors.isNotEmpty) throw FormatException(errors.join('; '));
       entries[key] = entry;
       final fam = familyOf(key);
       writeFamily(contentDir, fam, entries.values.where((e) => familyOf(e.key) == fam));
-      ok++;
-      stdout.writeln('ok   $key');
-    } catch (e) {
-      failed++;
-      stdout.writeln('fail $key: $e');
     }
   }
-  stdout.writeln(jsonEncode({'texts': {'ok': ok, 'failed': failed}}));
-  if (failed > 0 && ok == 0) exit(1);
 }
 
 Future<String> _complete(String provider, String model, String prompt, Map<String, String> env) async {
   if (provider == 'anthropic') {
     final r = await http.post(Uri.parse('https://api.anthropic.com/v1/messages'),
         headers: {'x-api-key': env['ANTHROPIC_API_KEY']!, 'anthropic-version': '2023-06-01', 'content-type': 'application/json'},
-        body: jsonEncode({'model': model, 'max_tokens': 4000, 'messages': [{'role': 'user', 'content': prompt}]}));
+        body: jsonEncode({'model': model, 'max_tokens': 16000, 'messages': [{'role': 'user', 'content': prompt}]}));
     if (r.statusCode != 200) throw HttpException('${r.statusCode} ${r.body}');
-    return ((jsonDecode(utf8.decode(r.bodyBytes))['content'] as List).first as Map)['text'] as String;
+    final body = jsonDecode(utf8.decode(r.bodyBytes)) as Map<String, dynamic>;
+    if (body['stop_reason'] == 'max_tokens') throw StateError('answer truncated at max_tokens');
+    // Newer models may prepend thinking blocks; only text blocks carry the answer.
+    final text = [
+      for (final b in (body['content'] as List).cast<Map<String, dynamic>>())
+        if (b['type'] == 'text') b['text'] as String,
+    ].join();
+    if (text.isEmpty) throw StateError('no text block in answer: ${(body['content'] as List).map((b) => b['type']).toList()}');
+    return text;
   }
   final base = env['LLM_BASE_URL'] ?? (throw StateError('LLM_BASE_URL not set'));
   final r = await http.post(Uri.parse('$base/chat/completions'),
