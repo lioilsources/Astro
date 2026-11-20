@@ -3,6 +3,7 @@ import 'package:astro/data/profile.dart';
 import 'package:astro/l10n/app_localizations.dart';
 import 'package:astro/state.dart';
 import 'package:astro/ui/chart/chart_screen.dart';
+import 'package:astro/ui/chart/transits_tab.dart';
 import 'package:astro/ui/chart/tables_tab.dart';
 import 'package:astro_core/astro_core.dart';
 import 'package:flutter/material.dart';
@@ -66,6 +67,26 @@ void main() {
     await t.pumpAndSettle();
     expect(find.text('Planety ve znameních'), findsOneWidget);
     expect(find.text('Slunce v Kozorohu'), findsOneWidget);
+  });
+
+  testWidgets('transits show the Moon, void of course and planetary hours', (t) async {
+    t.view.physicalSize = const Size(1170, 2532);
+    t.view.devicePixelRatio = 3;
+    addTearDown(t.view.reset);
+    await t.pumpWidget(wrap(Scaffold(body: TransitsTab(Chart.compute(profile.birth), profile))));
+    await t.pump();
+    expect(find.text('Počítám…'), findsOneWidget);
+    // Month data comes from isolates: let real time pass.
+    for (var i = 0; i < 240 && find.text('Počítám…').evaluate().isNotEmpty; i++) {
+      await t.runAsync(() => Future<void>.delayed(const Duration(milliseconds: 500)));
+      await t.pump();
+    }
+    expect(find.text('Počítám…'), findsNothing);
+    final dayRuler = find.textContaining(RegExp(r'^Den (Slunce|Měsíce|Merkura|Venuše|Marsu|Jupitera|Saturnu)$'));
+    await t.dragUntilVisible(dayRuler, find.byType(ListView).last, const Offset(0, -300));
+    await t.tap(find.text('Den po hodinách'));
+    await t.pumpAndSettle();
+    expect(find.textContaining('Hodina '), findsWidgets);
   });
 
   testWidgets('patterns: chip highlights the wheel, table row opens the sheet', (t) async {

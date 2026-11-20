@@ -191,6 +191,116 @@
  "layerWeeks": "Týdny",
  "layerDays": "Dny",
  "layerHours": "Hodiny",
+ "fieldResidence": "Místo pobytu",
+ "residenceSameAsBirth": "Stejné jako místo narození",
+ "residenceHint": "Kde teď žiješ. Podle něj se počítají planetární hodiny; poloha telefonu se nepoužívá.",
+ "settingsVocTraditional": "Měsíc bez aspektu: jen tradiční planety (Slunce–Saturn)",
+ "moonAndHours": "Měsíc a planetární hodiny",
+ "moonInSign": "{sign, select, aries{Měsíc v Beranu} taurus{Měsíc v Býku} gemini{Měsíc v Blížencích} cancer{Měsíc v Raku} leo{Měsíc ve Lvu} virgo{Měsíc v Panně} libra{Měsíc ve Vahách} scorpio{Měsíc ve Štíru} sagittarius{Měsíc ve Střelci} capricorn{Měsíc v Kozorohu} aquarius{Měsíc ve Vodnáři} pisces{Měsíc v Rybách} other{Měsíc}}",
+ "@moonInSign": {
+  "placeholders": {
+   "sign": {}
+  }
+ },
+ "moonPhaseName": "{phase, select, new{Nov} crescent{Dorůstající srpek} first_quarter{První čtvrť} gibbous{Dorůstající Měsíc} full{Úplněk} disseminating{Couvající Měsíc} last_quarter{Poslední čtvrť} balsamic{Ubývající srpek} other{?}}",
+ "@moonPhaseName": {
+  "placeholders": {
+   "phase": {}
+  }
+ },
+ "natalMoonPhaseTitle": "Narození ve fázi: {phase}",
+ "@natalMoonPhaseTitle": {
+  "placeholders": {
+   "phase": {}
+  }
+ },
+ "lunationName": "{kind, select, newMoon{Nov} firstQuarter{První čtvrť} fullMoon{Úplněk} lastQuarter{Poslední čtvrť} other{?}}",
+ "@lunationName": {
+  "placeholders": {
+   "kind": {}
+  }
+ },
+ "lunationInHouse": "{lunation} v {house}. domě",
+ "@lunationInHouse": {
+  "placeholders": {
+   "house": {
+    "type": "int"
+   },
+   "lunation": {}
+  }
+ },
+ "eclipseName": "{kind, select, solar{Zatmění Slunce} lunar{Zatmění Měsíce} other{Zatmění}}",
+ "@eclipseName": {
+  "placeholders": {
+   "kind": {}
+  }
+ },
+ "eclipseDegree": "{degree, select, penumbral{polostínové} partial{částečné} annular{prstencové} hybrid{hybridní} total{úplné} other{}}",
+ "@eclipseDegree": {
+  "placeholders": {
+   "degree": {}
+  }
+ },
+ "voidOfCourse": "Měsíc bez aspektu",
+ "voidRange": "Měsíc bez aspektu {from} – {to}",
+ "@voidRange": {
+  "placeholders": {
+   "from": {},
+   "to": {}
+  }
+ },
+ "voidAfter": "po aspektu {aspect}",
+ "@voidAfter": {
+  "placeholders": {
+   "aspect": {}
+  }
+ },
+ "voidEnds": "Konec Měsíce bez aspektu",
+ "planetGenitive": "{body, select, sun{Slunce} moon{Měsíce} mercury{Merkura} venus{Venuše} mars{Marsu} jupiter{Jupitera} saturn{Saturnu} other{?}}",
+ "@planetGenitive": {
+  "placeholders": {
+   "body": {}
+  }
+ },
+ "planetaryDay": "Den {planet}",
+ "@planetaryDay": {
+  "placeholders": {
+   "planet": {}
+  }
+ },
+ "planetaryHour": "Hodina {planet}",
+ "@planetaryHour": {
+  "placeholders": {
+   "planet": {}
+  }
+ },
+ "planetaryHourNumber": "{n}. hodina {part}",
+ "@planetaryHourNumber": {
+  "placeholders": {
+   "n": {
+    "type": "int"
+   },
+   "part": {}
+  }
+ },
+ "partDay": "dne",
+ "partNight": "noci",
+ "planetaryHours": "Planetární hodiny",
+ "sunrise": "Východ Slunce",
+ "sunset": "Západ Slunce",
+ "noPlanetaryHours": "Slunce tu tento den nevychází nebo nezapadá, planetární hodiny nejsou.",
+ "moonIngressSign": "Měsíc vstupuje do znamení {sign}",
+ "@moonIngressSign": {
+  "placeholders": {
+   "sign": {}
+  }
+ },
+ "residenceLabel": "Místo pobytu: {place}",
+ "@residenceLabel": {
+  "placeholders": {
+   "place": {}
+  }
+ },
  "noTransits": "Žádné tranzity v orbu.",
  "computing": "Počítám…",
  "ingress": "{planet} vstupuje do {house}. domu",

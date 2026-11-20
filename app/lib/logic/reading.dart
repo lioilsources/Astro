@@ -33,6 +33,7 @@ List<ReadingSection> bySections(List<ReadingItem> items) {
     FactorKind.aspectPoint: 'aspects',
     FactorKind.signOnCusp: 'cusps',
     FactorKind.emphasis: 'emphasis',
+    FactorKind.moonPhase: 'emphasis',
     FactorKind.pattern: 'patterns',
     FactorKind.star: 'stars',
   };

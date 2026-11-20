@@ -116,6 +116,15 @@ Verze vzorce: `tensionFormulaVersion` v `packages/astro_core/lib/src/version.dar
 (teď 1). Při každé změně vzorce ji zvyš; deník předpovědí pak napětí starších
 záznamů pro vyhodnocení přepočítá.
 
+## Měsíc a planetární hodiny (R2)
+
+Bez bodů: denní osa jen ukazuje. Pravidla jsou v `docs/ephemeris.md` (oddíl
+Slunce a Měsíc). Texty: `planetary_hour/{planeta}`, `planetary_day/{planeta}`
+(sedm tradičních planet), `moon_phase/{fáze}`, `natal_moon_phase/{fáze}`,
+`moon_today/{znamení}`, `lunation_in_house/{new, full}/{dům}`, `void_of_course`,
+`eclipse/{solar, lunar}`. Fáze při narození je ve výkladu faktor `moonPhase`
+s vahou 0,6 (oddíl „Přemíra a nedostatek“).
+
 ## Deník předpovědí (`package:astro_core/journal.dart`, plán 10.3)
 
 Metodika převzatá z projektu heliograf: hypotéza zapsaná předem, srovnání se
