@@ -306,5 +306,24 @@
    "aspect": {},
    "target": {}
   }
+ },
+ "stars": "Stálice",
+ "sectionStars": "Stálice",
+ "starsOnWheel": "Stálice na kole",
+ "starsFilterNote": "Se zapnutým filtrem zbude u většiny stálic jen základní text, protože tradice o nich mluví hlavně ve stinné vrstvě a v těžkých tématech.",
+ "starsNone": "Žádná planeta ani osa neleží do 1° od některé z 32 stálic.",
+ "starsAll": "Všech 32 stálic",
+ "starContact": "konjunkce: {point} · orb {orb}",
+ "@starContact": {
+  "placeholders": {
+   "point": {},
+   "orb": {}
+  }
+ },
+ "starName": "{star, select, algol{Algol} alcyone{Alkyone} aldebaran{Aldebaran} rigel{Rigel} bellatrix{Bellatrix} capella{Capella} betelgeuse{Betelgeuze} sirius{Sírius} castor{Castor} pollux{Pollux} procyon{Prokyon} praesepe{Praesepe} alphard{Alphard} regulus{Regulus} denebola{Denebola} vindemiatrix{Vindemiatrix} algorab{Algorab} spica{Spica} arcturus{Arcturus} zubenelgenubi{Zubenelgenubi} zubeneschamali{Zubeneschamali} unukalhai{Unukalhai} acrab{Akrab} antares{Antares} rasalhague{Ras Alhague} vega{Vega} altair{Altair} deneb_algedi{Deneb Algedi} fomalhaut{Fomalhaut} achernar{Achernar} markab{Markab} scheat{Scheat} other{?}}",
+ "@starName": {
+  "placeholders": {
+   "star": {}
+  }
  }
 }

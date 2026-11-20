@@ -4,6 +4,7 @@ import 'ephemeris.dart';
 import 'houses.dart';
 import 'model.dart';
 import 'patterns.dart';
+import 'stars.dart';
 import 'time.dart';
 
 enum NodeKind { mean, trueNode }
@@ -68,6 +69,17 @@ class Chart {
     if (h == null || !h.defined) return null;
     return h.houseOf(positions[b]!.lon);
   }
+
+  /// Fixed-star longitudes of date (plan 10.6).
+  late final Map<FixedStar, double> starLons = starLongitudes(time.jdTt);
+
+  /// Conjunctions of Sun–Pluto, ASC and MC with fixed stars, orb 1°.
+  late final List<StarContact> starContacts = findStarContacts({
+    for (final b in Body.planets)
+      if (positions[b] != null) ChartPoint.body(b): positions[b]!.lon,
+    if (houses != null) const ChartPoint.angle(Angle.asc): houses!.asc,
+    if (houses != null) const ChartPoint.angle(Angle.mc): houses!.mc,
+  }, starLons);
 
   double? get asc => houses?.asc;
   double? get mc => houses?.mc;

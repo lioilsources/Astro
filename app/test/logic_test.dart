@@ -68,10 +68,23 @@ void main() {
     final items = readingItems(chart, content);
     final patterns = items.where((i) => i.factor.kind == FactorKind.pattern).toList();
     expect(patterns.map((i) => i.factor.key).toSet(), {for (final p in chart.patterns) ...patternKeysOf(p)});
-    if (patterns.isNotEmpty) expect(bySections(items).last.id, 'patterns');
+    if (patterns.isNotEmpty) expect(bySections(items).map((s) => s.id), contains('patterns'));
     for (final i in patterns) {
       expect(i.entry, content[i.factor.key]);
     }
+  });
+
+  test('star conjunctions form the last reading section, one item per star', () {
+    // Sun at Regulus (~29°50′ Leo in 2000) around 22 August.
+    final c = Chart.compute(const BirthData(
+      moment: LocalMoment(year: 2000, month: 8, day: 22, hour: 12, minute: 0, basis: TimeBasis.ut),
+      lat: 50.0833,
+      lon: 14.4167,
+    ));
+    expect(c.starContacts.any((s) => s.star.id == 'regulus' && s.point == const ChartPoint.body(Body.sun)), isTrue);
+    final sections = bySections(readingItems(c, content));
+    expect(sections.last.id, 'stars');
+    expect(sections.last.items.length, c.starContacts.map((s) => s.star.id).toSet().length);
   });
 
   group('trait query (plan 3.5 A)', () {

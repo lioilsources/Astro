@@ -957,6 +957,54 @@ abstract class AppLocalizations {
   /// In cs, this message translates to:
   /// **'{planet} {aspect} natální {target}'**
   String transitTitle(Object planet, Object aspect, Object target);
+
+  /// No description provided for @stars.
+  ///
+  /// In cs, this message translates to:
+  /// **'Stálice'**
+  String get stars;
+
+  /// No description provided for @sectionStars.
+  ///
+  /// In cs, this message translates to:
+  /// **'Stálice'**
+  String get sectionStars;
+
+  /// No description provided for @starsOnWheel.
+  ///
+  /// In cs, this message translates to:
+  /// **'Stálice na kole'**
+  String get starsOnWheel;
+
+  /// No description provided for @starsFilterNote.
+  ///
+  /// In cs, this message translates to:
+  /// **'Se zapnutým filtrem zbude u většiny stálic jen základní text, protože tradice o nich mluví hlavně ve stinné vrstvě a v těžkých tématech.'**
+  String get starsFilterNote;
+
+  /// No description provided for @starsNone.
+  ///
+  /// In cs, this message translates to:
+  /// **'Žádná planeta ani osa neleží do 1° od některé z 32 stálic.'**
+  String get starsNone;
+
+  /// No description provided for @starsAll.
+  ///
+  /// In cs, this message translates to:
+  /// **'Všech 32 stálic'**
+  String get starsAll;
+
+  /// No description provided for @starContact.
+  ///
+  /// In cs, this message translates to:
+  /// **'konjunkce: {point} · orb {orb}'**
+  String starContact(Object point, Object orb);
+
+  /// No description provided for @starName.
+  ///
+  /// In cs, this message translates to:
+  /// **'{star, select, algol{Algol} alcyone{Alkyone} aldebaran{Aldebaran} rigel{Rigel} bellatrix{Bellatrix} capella{Capella} betelgeuse{Betelgeuze} sirius{Sírius} castor{Castor} pollux{Pollux} procyon{Prokyon} praesepe{Praesepe} alphard{Alphard} regulus{Regulus} denebola{Denebola} vindemiatrix{Vindemiatrix} algorab{Algorab} spica{Spica} arcturus{Arcturus} zubenelgenubi{Zubenelgenubi} zubeneschamali{Zubeneschamali} unukalhai{Unukalhai} acrab{Akrab} antares{Antares} rasalhague{Ras Alhague} vega{Vega} altair{Altair} deneb_algedi{Deneb Algedi} fomalhaut{Fomalhaut} achernar{Achernar} markab{Markab} scheat{Scheat} other{?}}'**
+  String starName(String star);
 }
 
 class _AppLocalizationsDelegate

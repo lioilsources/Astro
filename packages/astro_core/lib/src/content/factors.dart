@@ -2,10 +2,11 @@ import '../aspects.dart';
 import '../chart.dart';
 import '../model.dart';
 import '../patterns.dart';
+import '../stars.dart';
 import '../transits.dart';
 import 'keys.dart';
 
-enum FactorKind { planetInSign, planetInHouse, aspect, aspectPoint, signOnCusp, emphasis, pattern }
+enum FactorKind { planetInSign, planetInHouse, aspect, aspectPoint, signOnCusp, emphasis, pattern, star }
 
 /// One interpretable fact of a chart with the key of its text.
 class Factor {
@@ -19,7 +20,10 @@ class Factor {
   final int? house;
   final Aspect? aspect;
   final ChartPattern? pattern;
-  const Factor(this.key, this.kind, this.weight, {this.body, this.sign, this.house, this.aspect, this.pattern});
+
+  /// Star conjunction (kind [FactorKind.star]): the tightest contact of the star.
+  final StarContact? star;
+  const Factor(this.key, this.kind, this.weight, {this.body, this.sign, this.house, this.aspect, this.pattern, this.star});
   @override
   String toString() => '$key (${weight.toStringAsFixed(2)})';
 }
@@ -75,6 +79,7 @@ List<Factor> factorsOf(Chart c) {
   }
   out.addAll(emphasisOf(c));
   out.addAll(patternFactorsOf(c));
+  out.addAll(starFactorsOf(c));
   return out;
 }
 
@@ -107,6 +112,19 @@ List<Factor> patternFactorsOf(Chart c) {
   }
   return out;
 }
+
+/// One factor per fixed star in conjunction (plan 10.6), from its tightest contact.
+List<Factor> starFactorsOf(Chart c) {
+  final seen = <String>{};
+  return [
+    for (final s in c.starContacts)
+      if (seen.add(s.star.id))
+        Factor('star/${s.star.id}', FactorKind.star, _pointWeight(s.point) * (1 - 0.5 * s.orb / starOrb), star: s),
+  ];
+}
+
+/// Key of the sentence about a star at a given point (`star_target/{point}`).
+String starTargetKey(ChartPoint p) => 'star_target/${p.id}';
 
 /// Stellia (3+ planets in a sign or house) and dominant (5+) or missing (0) elements.
 List<Factor> emphasisOf(Chart c) {

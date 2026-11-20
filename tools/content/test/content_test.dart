@@ -20,6 +20,23 @@ void main() {
     expect(k['transit_in_house']!.length, 120);
     expect(k['emphasis']!.length, 32);
     expect(k['pattern']!.length, 56);
+    expect(k['star']!.length, 32);
+    expect(k['star_target']!.length, 12);
+  });
+
+  test('star texts need no minimum base length, but the whole text is checked', () {
+    const e = ContentEntry(
+      key: 'star/algol',
+      title: 'Algol',
+      text: 'Algol leží v hlavě Medúzy.',
+      shadow: 'Krátký stín.',
+      hard: [HardPassage(['violence'], 'Násilí bez uvození.')],
+    );
+    final f = validate({e.key: e}, const []);
+    expect(f.where((x) => x.error), isEmpty);
+    expect(f.any((x) => x.message.startsWith('base layer')), isFalse);
+    expect(f.any((x) => x.message.contains('150–250')), isTrue);
+    expect(f.any((x) => x.message.contains('tradice tu mluví')), isTrue);
   });
 
   test('committed content has no errors', () {

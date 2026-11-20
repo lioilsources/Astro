@@ -8,9 +8,9 @@ import '../../l10n/app_localizations.dart';
 import '../../state.dart';
 import '../format.dart';
 import '../profile_form.dart';
-import '../wheel.dart';
 import 'patterns_view.dart';
 import 'reading_tab.dart';
+import 'stars_view.dart';
 import 'tables_tab.dart';
 import 'transits_tab.dart';
 
@@ -86,7 +86,7 @@ class _OverviewState extends State<_Overview> {
     final shapes = chart.patterns.where((p) => p.kind.isShape).toList();
     final highlight = shapes.contains(_highlight) ? _highlight : null;
     return ListView(padding: const EdgeInsets.all(16), children: [
-      ChartWheel(chart, highlight: highlight),
+      WheelWithStars(chart, highlight: highlight),
       if (shapes.isNotEmpty) ...[
         const SizedBox(height: 8),
         Wrap(spacing: 6, runSpacing: 4, children: [

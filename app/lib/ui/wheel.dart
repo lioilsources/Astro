@@ -15,14 +15,18 @@ class ChartWheel extends StatelessWidget {
 
   /// Aspect pattern to stand out: its sides drawn bold, its planets in the accent colour.
   final ChartPattern? highlight;
-  const ChartWheel(this.chart, {super.key, this.outer, this.highlight});
+
+  /// Fixed-star longitudes to mark on the outer rim; [starHits] are the ids in conjunction.
+  final Map<FixedStar, double>? stars;
+  final Set<String> starHits;
+  const ChartWheel(this.chart, {super.key, this.outer, this.stars, this.starHits = const {}, this.highlight});
 
   @override
   Widget build(BuildContext context) {
     final scheme = Theme.of(context).colorScheme;
     return AspectRatio(
       aspectRatio: 1,
-      child: CustomPaint(painter: WheelPainter(chart, scheme, outer: outer, highlight: highlight, textStyle: Theme.of(context).textTheme.bodySmall ?? const TextStyle())),
+      child: CustomPaint(painter: WheelPainter(chart, scheme, outer: outer, stars: stars, starHits: starHits, highlight: highlight, textStyle: Theme.of(context).textTheme.bodySmall ?? const TextStyle())),
     );
   }
 }
@@ -33,7 +37,9 @@ class WheelPainter extends CustomPainter {
   final Map<Body, double>? outer;
   final TextStyle textStyle;
   final ChartPattern? highlight;
-  WheelPainter(this.chart, this.scheme, {this.outer, this.highlight, this.textStyle = const TextStyle()});
+  final Map<FixedStar, double>? stars;
+  final Set<String> starHits;
+  WheelPainter(this.chart, this.scheme, {this.outer, this.stars, this.starHits = const {}, this.highlight, this.textStyle = const TextStyle()});
 
   static const _elementColors = [Color(0xFFD9534F), Color(0xFF5B8C3A), Color(0xFFD4A82A), Color(0xFF3E7CB1)];
 
@@ -159,6 +165,19 @@ class WheelPainter extends CustomPainter {
       _text(canvas, bodyGlyph[bodies[i]]!, at(shown[i], rPlanet), r * 0.08, color);
     }
 
+    // Fixed stars: dots on the outer rim, larger and highlighted when in conjunction.
+    final st = stars;
+    if (st != null) {
+      st.forEach((s, lon) {
+        final hit = starHits.contains(s.id);
+        canvas.drawLine(at(lon, rSignOut), at(lon, rSignOut - r * (hit ? 0.05 : 0.025)),
+            Paint()
+              ..color = hit ? scheme.error : scheme.outline
+              ..strokeWidth = hit ? 1.5 : 1);
+        canvas.drawCircle(at(lon, rSignOut), hit ? r * 0.018 : r * 0.008, Paint()..color = hit ? scheme.error : scheme.outline);
+      });
+    }
+
     final o = outer;
     if (o != null) {
       final ob = o.keys.toList();
@@ -180,5 +199,5 @@ class WheelPainter extends CustomPainter {
   }
 
   @override
-  bool shouldRepaint(WheelPainter old) => old.chart != chart || old.scheme != scheme || old.outer != outer || old.highlight != highlight;
+  bool shouldRepaint(WheelPainter old) => old.chart != chart || old.scheme != scheme || old.outer != outer || old.stars != stars || old.starHits != starHits || old.highlight != highlight;
 }
