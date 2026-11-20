@@ -9,6 +9,8 @@ import '../../state.dart';
 import '../entry_view.dart';
 import '../format.dart';
 import 'house_compare.dart';
+import 'patterns_view.dart';
+import 'stars_view.dart';
 
 class TablesTab extends ConsumerStatefulWidget {
   final Chart chart;
@@ -111,6 +113,17 @@ class _TablesTabState extends ConsumerState<TablesTab> {
           },
           onLongPress: () => showEntry(context, content['glossary/${a.type.name}'], title: l.aspect(a.type)),
         ),
+      header(l.patterns, 'aspect'),
+      if (c.patterns.isEmpty) Padding(padding: const EdgeInsets.symmetric(horizontal: 16), child: Text(l.noPatterns)),
+      for (final p in c.patterns)
+        ListTile(
+          dense: true,
+          leading: SizedBox(
+              width: 28, child: Center(child: glyphText(p.kind.isShape ? '△' : (p.bodies.length == 1 ? bodyGlyph[p.bodies.single]! : '◐'), size: 18))),
+          title: Text(l.pattern(p)),
+          subtitle: Text(l.patternMembers(p)),
+          onTap: () => showPattern(context, c, p, content),
+        ),
       header(l.planetStates, 'domicile'),
       for (final b in Body.planets)
         if (c.states[b] != null)
@@ -121,6 +134,7 @@ class _TablesTabState extends ConsumerState<TablesTab> {
             subtitle: Text(l.dignityName(c.states[b]!.dignity.name)),
             trailing: Text('${c.states[b]!.score > 0 ? '+' : ''}${c.states[b]!.score}', style: t.titleSmall),
           ),
+      StarsTable(c, header: header(l.stars, 'fixed_star')),
       const SizedBox(height: 32),
     ]);
   }

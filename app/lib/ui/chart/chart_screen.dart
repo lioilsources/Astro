@@ -7,11 +7,13 @@ import '../../export/pdf_export.dart';
 import '../../l10n/app_localizations.dart';
 import '../../state.dart';
 import '../format.dart';
+import '../journal/journal_screen.dart';
 import '../profile_form.dart';
-import '../wheel.dart';
+import 'patterns_view.dart';
 import 'reading_tab.dart';
+import 'stars_view.dart';
 import 'tables_tab.dart';
-import 'transits_tab.dart';
+import 'time_tab.dart';
 
 class ChartScreen extends ConsumerWidget {
   final Profile profile;
@@ -39,6 +41,12 @@ class ChartScreen extends ConsumerWidget {
             ),
             if (current.catalogId == null)
               IconButton(
+                tooltip: l.journalTitle,
+                icon: const Icon(Icons.event_note_outlined),
+                onPressed: () => Navigator.push(context, MaterialPageRoute(builder: (_) => JournalScreen(current, chart))),
+              ),
+            if (current.catalogId == null)
+              IconButton(
                 icon: const Icon(Icons.edit_outlined),
                 onPressed: () => Navigator.push(context, MaterialPageRoute(builder: (_) => ProfileForm(existing: current))),
               ),
@@ -54,27 +62,49 @@ class ChartScreen extends ConsumerWidget {
           _Overview(chart, current),
           TablesTab(chart),
           ReadingTab(chart, current),
-          TransitsTab(chart, current),
+          BlindGate(current, chart, child: TimeTab(chart, current)),
         ]),
       ),
     );
   }
 }
 
-class _Overview extends StatelessWidget {
+class _Overview extends StatefulWidget {
   final Chart chart;
   final Profile profile;
   const _Overview(this.chart, this.profile);
 
   @override
+  State<_Overview> createState() => _OverviewState();
+}
+
+class _OverviewState extends State<_Overview> {
+  /// Pattern highlighted on the wheel (tap a chip to toggle).
+  ChartPattern? _highlight;
+
+  @override
   Widget build(BuildContext context) {
+    final chart = widget.chart, profile = widget.profile;
     final l = AppLocalizations.of(context);
     final t = Theme.of(context).textTheme;
     final sun = chart.positions[Body.sun]!, moon = chart.positions[Body.moon]!;
     final asc = chart.asc;
     final moonDayChange = !chart.timeKnown && _moonChangesSign(chart);
+    final shapes = chart.patterns.where((p) => p.kind.isShape).toList();
+    final highlight = shapes.contains(_highlight) ? _highlight : null;
     return ListView(padding: const EdgeInsets.all(16), children: [
-      ChartWheel(chart),
+      WheelWithStars(chart, highlight: highlight),
+      if (shapes.isNotEmpty) ...[
+        const SizedBox(height: 8),
+        Wrap(spacing: 6, runSpacing: 4, children: [
+          for (final p in shapes)
+            ChoiceChip(
+              label: Text(l.pattern(p)),
+              selected: identical(p, highlight),
+              onSelected: (on) => setState(() => _highlight = on ? p : null),
+            ),
+        ]),
+      ],
       const SizedBox(height: 16),
       Text(l.oneSentence, style: t.labelLarge),
       Text(

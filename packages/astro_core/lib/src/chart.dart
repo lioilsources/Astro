@@ -3,6 +3,8 @@ import 'dignities.dart';
 import 'ephemeris.dart';
 import 'houses.dart';
 import 'model.dart';
+import 'patterns.dart';
+import 'stars.dart';
 import 'time.dart';
 
 enum NodeKind { mean, trueNode }
@@ -68,8 +70,28 @@ class Chart {
     return h.houseOf(positions[b]!.lon);
   }
 
+  /// Fixed-star longitudes of date (plan 10.6).
+  late final Map<FixedStar, double> starLons = starLongitudes(time.jdTt);
+
+  /// Conjunctions of Sun–Pluto, ASC and MC with fixed stars, orb 1°.
+  late final List<StarContact> starContacts = findStarContacts({
+    for (final b in Body.planets)
+      if (positions[b] != null) ChartPoint.body(b): positions[b]!.lon,
+    if (houses != null) const ChartPoint.angle(Angle.asc): houses!.asc,
+    if (houses != null) const ChartPoint.angle(Angle.mc): houses!.mc,
+  }, starLons);
+
   double? get asc => houses?.asc;
   double? get mc => houses?.mc;
+
+  /// Aspect patterns and balances of the ten planets (plan 10.1).
+  late final List<ChartPattern> patterns = findPatterns(
+    {for (final b in Body.planets) if (positions[b] != null) b: positions[b]!.lon},
+    speeds: {for (final b in Body.planets) if (positions[b] != null) b: positions[b]!.speed},
+    orbs: options.orbs,
+    asc: asc,
+    mc: mc,
+  );
 
   /// Longitude of any chart point.
   double? lonOf(ChartPoint p) => p.body != null ? positions[p.body]?.lon : (p.angle == Angle.asc ? asc : mc);
@@ -88,8 +110,12 @@ class Chart {
     return housesFromRamc(s, h.ramc, birth.lat, Ephemeris.trueObliquity(time.jdTt));
   }
 
-  static Chart compute(BirthData birth, {ChartOptions options = const ChartOptions()}) {
-    final time = resolveMoment(birth.moment, birth.lon);
+  static Chart compute(BirthData birth, {ChartOptions options = const ChartOptions()}) =>
+      computeAt(birth, resolveMoment(birth.moment, birth.lon), options: options);
+
+  /// Chart for an already resolved instant (solar return to the second, plan 10.5);
+  /// [birth] supplies the place and whether the time is known.
+  static Chart computeAt(BirthData birth, ResolvedTime time, {ChartOptions options = const ChartOptions()}) {
     final jde = time.jdTt;
     final positions = <Body, EclipticPosition>{};
     final missing = <Body>[];

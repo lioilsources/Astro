@@ -35,10 +35,10 @@ python3 tools/people/build_people.py && dart run tools/content/bin/people.dart  
 - Texty Astromatu ani knihy se nekopírují, ani jako předloha k parafrázi.
 - Obsah se generuje nefiltrovaný; filtruje až uživatel v appce (plán 5.1).
 - Štítky `hard` jen z výčtu: death, illness, mental_crisis, addiction, violence, loss, ruin.
-- `lib/src/pluto_table.dart` je generovaný soubor, needitovat ručně.
+- `lib/src/pluto_table.dart` a `lib/src/star_catalog.dart` (`gen_stars.py`) jsou generované, needitovat ručně.
 
 ## Odchylky
 Žádné.
 
 ## Kam dál
-`docs/ephemeris.md`, `docs/scoring.md`, `docs/style.md`, `docs/content.md`, `Prompts/`
+`docs/ephemeris.md`, `docs/scoring.md`, `docs/style.md`, `docs/content.md`, `docs/horary.md`, `Prompts/`

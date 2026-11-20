@@ -21,6 +21,14 @@ final _gendered = RegExp(
 /// "sám o sobě" about a thing and "sebe sama" are not about the reader's gender.
 final _neutralSelf = RegExp(r'\b(sám|sama|samo) (o sobě|od sebe)|\bsebe sama', caseSensitive: false);
 
+/// Romance and sexuality: in synastry texts they belong only to the `partner`
+/// layer, because the base layers are shown for parent and child too (plan 10.4).
+final romantic = RegExp(
+  r'\b(sex\w*|erot\w*|milen\w*|milostn\w*|intimn\w*|zamilov\w*|flirt\w*|polib\w*|políb\w*|líba\w*|postel\w*|svádě\w*|svádí\w*)',
+  caseSensitive: false,
+  unicode: true,
+);
+
 List<Finding> validate(Map<String, ContentEntry> entries, List<Trait> traits, {bool requireComplete = false}) {
   final out = <Finding>[];
   final known = {for (final f in allKeysByFamily().values) ...f};
@@ -39,7 +47,7 @@ List<Finding> validate(Map<String, ContentEntry> entries, List<Trait> traits, {b
     if (!known.contains(e.key)) err('unknown key');
     if (e.title.trim().isEmpty) err('empty title');
     if (e.text.trim().isEmpty) err('empty text');
-    if (!shadowExempt.contains(family) && e.shadow.trim().isEmpty) err('empty shadow');
+    if (!isShadowExempt(e.key) && e.shadow.trim().isEmpty) err('empty shadow');
     for (final th in e.themes) {
       if (!themeIds.contains(th)) err('unknown theme $th');
     }
@@ -55,7 +63,17 @@ List<Finding> validate(Map<String, ContentEntry> entries, List<Trait> traits, {b
         if (!traitIds.contains(t)) err('trait $t not in vocabulary');
       }
     }
-    final all = [e.text, e.shadow, ...e.hard.map((h) => h.text)].join(' ');
+    if (e.partner.trim().isNotEmpty && !partnerFamilies.contains(family)) {
+      err('`partner` layer only belongs to ${partnerFamilies.join(', ')}');
+    }
+    if (partnerFamilies.contains(family)) {
+      final base = [e.title, e.text, e.shadow, ...e.keywords, ...e.hard.map((h) => h.text)].join(' ');
+      final m = romantic.firstMatch(base);
+      if (m != null) err('romantic word "${m[0]}" outside `partner` (base layers are shown for parent and child too)');
+      final np = wordCount(e.partner);
+      if (np > 0 && (np < 20 || np > 90)) warn('partner $np words, expected 20–80');
+    }
+    final all = [e.text, e.shadow, ...e.hard.map((h) => h.text), e.partner].join(' ');
     final eng = _english.allMatches(all).length;
     if (eng > 0) err('English words ($eng×): ${_english.allMatches(all).take(3).map((m) => m[0]).join(', ')}');
     if (wordCount(all) > 15 && !_diacritics.hasMatch(all)) err('no Czech diacritics');
@@ -64,9 +82,17 @@ List<Finding> validate(Map<String, ContentEntry> entries, List<Trait> traits, {b
     final range = lengthRange(e.key);
     final n = wordCount(e.text);
     if (n < range.min || n > range.max) warn('base layer $n words, expected ${range.min}–${range.max}');
+    if (family == 'star') {
+      // Plan 10.6: 150–250 words including layers; the hard intro is mandatory.
+      final total = wordCount(all);
+      if (total < 150 || total > 250) warn('star text $total words with layers, expected 150–250');
+      for (final h in e.hard) {
+        if (!h.text.toLowerCase().contains('tradice')) warn('hard passage without the "tradice tu mluví o…" intro');
+      }
+    }
     final ns = wordCount(e.shadow);
     final shadowMin = range.max <= 110 ? 20 : 30;
-    if (!shadowExempt.contains(family) && (ns < shadowMin || ns > 130)) warn('shadow $ns words, expected $shadowMin–100');
+    if (!isShadowExempt(e.key) && (ns < shadowMin || ns > 130)) warn('shadow $ns words, expected $shadowMin–100');
     if (expectsHard(e.key) && e.hard.isEmpty) warn('tradition has hard topics here but `hard` is empty');
   }
 

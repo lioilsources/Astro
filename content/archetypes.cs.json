@@ -237,6 +237,87 @@
    "core": "protiklad, přetahování, potřeba rovnováhy, projekce do druhých"
   }
  },
+ "patterns": {
+  "shapes": {
+   "grand_trine": {
+    "name": "velký trigon",
+    "core": "tři planety spojené třemi trigony do rovnostranného trojúhelníku; uzavřený okruh souhry, vrozené nadání a lehkost v oblasti živlu",
+    "shadow": "pohodlnost, spoléhání na talent, uzavřenost do sebe, málo podnětů k růstu",
+    "hard": "tradice tu varuje spíš před promarněním a stagnací než před ranou osudu"
+   },
+   "t_square": {
+    "name": "T-kvadrát",
+    "core": "opozice dvou planet a třetí planeta v kvadrátu k oběma (vrchol); napětí, které tlačí k výkonu a hledá výstup přes vrchol",
+    "shadow": "chronický stres, přetížení, opakované krize ve stejné oblasti, jednostrannost",
+    "hard": "tradice spojuje s krizemi, konflikty a přetížením, u Marsu, Saturnu a Pluta i s nehodami a ztrátami"
+   },
+   "t_square_apex": {
+    "name": "vrchol T-kvadrátu",
+    "core": "planeta, na kterou se sbíhá napětí opozice; ohnisko úsilí, kudy se tlak vybíjí a kde vzniká největší výkon",
+    "shadow": "přepínání sil, horlivost bez míry, místo opakovaných střetů",
+    "hard": "tradice tu hledá místo, kde se krize projeví nejdřív"
+   },
+   "grand_cross": {
+    "name": "velký kříž",
+    "core": "dvě opozice propojené čtyřmi kvadráty; velká síla a odolnost, život mezi čtyřmi protichůdnými nároky",
+    "shadow": "pocit, že nic nejde snadno, rozpolcenost, vyčerpání, neschopnost uniknout tlaku",
+    "hard": "tradice spojuje s těžkými životními zkouškami, přetížením a krizemi z více stran najednou"
+   },
+   "yod": {
+    "name": "jod (prst osudu)",
+    "core": "dvě planety v sextilu a třetí planeta v kvinkunxu (150°) k oběma; zvláštní úkol, nutnost neustále se přizpůsobovat a dolaďovat",
+    "shadow": "pocit nepatřičnosti, nejistota, neklid bez jasné příčiny, střídání směrů",
+    "hard": "tradice mluví o osudových obratech, o zdraví citlivém na stres a o krizích, které nutí ke změně směru"
+   },
+   "yod_apex": {
+    "name": "vrchol jodu",
+    "core": "planeta na špici jodu; nese úkol celého obrazce a je místem, kde se žádá nejvíc přizpůsobení",
+    "shadow": "pocit, že tahle část života nikdy nesedí, přehnaná sebekritika",
+    "hard": "tradice tu hledá místo osudových zlomů"
+   },
+   "kite": {
+    "name": "drak",
+    "core": "velký trigon, k jehož jedné planetě stojí čtvrtá v opozici a se dvěma zbylými v sextilu; nadání velkého trigonu dostává směr a cíl",
+    "shadow": "rozkročení mezi pohodlím a ambicí, tlak jedné planety na celý obrazec",
+    "hard": "tradice tu těžká témata nezdůrazňuje"
+   },
+   "cradle": {
+    "name": "kolébka",
+    "core": "opozice a mezi jejími konci dvě planety spojené třemi sextily a dvěma trigony; podpůrná síť, která pomáhá zvládat napětí opozice",
+    "shadow": "spoléhání na podporu druhých, vyhýbání se přímému střetu",
+    "hard": "tradice tu těžká témata nezdůrazňuje"
+   },
+   "mystic_rectangle": {
+    "name": "mystický obdélník",
+    "core": "dvě opozice propojené dvěma sextily a dvěma trigony; napětí, které se samo vyvažuje, praktická moudrost a schopnost obracet konflikty v užitek",
+    "shadow": "složitost, váhání mezi póly, potřeba mít všechno vyvážené",
+    "hard": "tradice tu těžká témata nezdůrazňuje"
+   },
+   "unaspected": {
+    "name": "planeta bez aspektu",
+    "core": "planeta bez hlavního aspektu k jiné planetě; funguje sama za sebe, nezávisle a čistě, ale těžko se zapojuje do zbytku povahy",
+    "shadow": "odpojená část osobnosti, výkyvy mezi nečinností a přemírou, nesoulad s ostatními stránkami",
+    "hard": "tradice tu těžká témata nezdůrazňuje"
+   }
+  },
+  "elements": {
+   "fire": {"name": "oheň", "core": "nadšení, odvaha, jednání, víra v sebe"},
+   "earth": {"name": "země", "core": "praktičnost, vytrvalost, tělo, hmotné zajištění"},
+   "air": {"name": "vzduch", "core": "myšlení, komunikace, vztahy, nápady"},
+   "water": {"name": "voda", "core": "city, intuice, soucit, citová hloubka"}
+  },
+  "modalities": {
+   "cardinal": {"name": "kardinální", "plural": "kardinálních", "masc": "kardinální", "core": "začínání, iniciativa, vstup do dění", "shadow": "netrpělivost, nedotahování"},
+   "fixed": {"name": "pevná", "plural": "pevných", "masc": "pevný", "core": "vytrvalost, stálost, udržení", "shadow": "tvrdohlavost, neochota ke změně"},
+   "mutable": {"name": "proměnlivá", "plural": "proměnlivých", "masc": "proměnlivý", "core": "přizpůsobivost, pohyblivost, změna", "shadow": "roztěkanost, nestálost"}
+  },
+  "hemispheres": {
+   "above": {"name": "horní polokoule (nad obzorem)", "acc": "horní polokouli (nad obzorem)", "core": "život obrácený ven, k veřejnosti, druhým lidem a společnosti"},
+   "below": {"name": "dolní polokoule (pod obzorem)", "acc": "dolní polokouli (pod obzorem)", "core": "život obrácený dovnitř, k soukromí, domovu a vlastnímu prožívání"},
+   "east": {"name": "východní polokoule (strana ascendentu)", "acc": "východní polokouli (strana ascendentu)", "core": "vlastní iniciativa, život podle sebe, nezávislost na druhých"},
+   "west": {"name": "západní polokoule (strana descendentu)", "acc": "západní polokouli (strana descendentu)", "core": "život ve vztazích, reakce na druhé, závislost na okolnostech a partnerech"}
+  }
+ },
  "points": {
   "asc": {
    "name": "ascendent",
@@ -249,6 +330,168 @@
   "node": {
    "name": "lunární uzel",
    "core": "směr vývoje"
+  }
+ },
+ "stars": {
+  "algol": {
+   "name": "Algol",
+   "place": "hlava Medúzy, kterou drží Perseus (β Persea)",
+   "nature": "Saturn a Jupiter"
+  },
+  "alcyone": {
+   "name": "Alkyone",
+   "place": "nejjasnější hvězda Plejád v souhvězdí Býka (η Tauri)",
+   "nature": "Měsíc a Mars"
+  },
+  "aldebaran": {
+   "name": "Aldebaran",
+   "place": "oko Býka (α Tauri), jedna ze čtyř královských hvězd",
+   "nature": "Mars"
+  },
+  "rigel": {
+   "name": "Rigel",
+   "place": "levá noha Oriona (β Orionis)",
+   "nature": "Jupiter a Saturn"
+  },
+  "bellatrix": {
+   "name": "Bellatrix",
+   "place": "levé rameno Oriona (γ Orionis)",
+   "nature": "Mars a Merkur"
+  },
+  "capella": {
+   "name": "Capella",
+   "place": "koza v náručí Vozky (α Aurigae)",
+   "nature": "Mars a Merkur"
+  },
+  "betelgeuse": {
+   "name": "Betelgeuze",
+   "place": "pravé rameno Oriona (α Orionis)",
+   "nature": "Mars a Merkur"
+  },
+  "sirius": {
+   "name": "Sírius",
+   "place": "tlama Velkého psa (α Canis Maioris), nejjasnější hvězda noci",
+   "nature": "Jupiter a Mars"
+  },
+  "castor": {
+   "name": "Castor",
+   "place": "hlava severního z Blíženců (α Geminorum)",
+   "nature": "Merkur"
+  },
+  "pollux": {
+   "name": "Pollux",
+   "place": "hlava jižního z Blíženců (β Geminorum)",
+   "nature": "Mars"
+  },
+  "procyon": {
+   "name": "Prokyon",
+   "place": "Malý pes (α Canis Minoris)",
+   "nature": "Merkur a Mars"
+  },
+  "praesepe": {
+   "name": "Praesepe",
+   "place": "hvězdokupa Jesličky v souhvězdí Raka (M44)",
+   "nature": "Mars a Měsíc"
+  },
+  "alphard": {
+   "name": "Alphard",
+   "place": "srdce Hydry (α Hydrae)",
+   "nature": "Saturn a Venuše"
+  },
+  "regulus": {
+   "name": "Regulus",
+   "place": "srdce Lva (α Leonis), jedna ze čtyř královských hvězd",
+   "nature": "Mars a Jupiter"
+  },
+  "denebola": {
+   "name": "Denebola",
+   "place": "ocas Lva (β Leonis)",
+   "nature": "Saturn a Venuše"
+  },
+  "vindemiatrix": {
+   "name": "Vindemiatrix",
+   "place": "pravé křídlo Panny (ε Virginis)",
+   "nature": "Saturn a Merkur"
+  },
+  "algorab": {
+   "name": "Algorab",
+   "place": "křídlo Havrana (δ Corvi)",
+   "nature": "Mars a Saturn"
+  },
+  "spica": {
+   "name": "Spica",
+   "place": "klas v ruce Panny (α Virginis)",
+   "nature": "Venuše a Mars"
+  },
+  "arcturus": {
+   "name": "Arcturus",
+   "place": "koleno Pastýře (α Bootis)",
+   "nature": "Jupiter a Mars"
+  },
+  "zubenelgenubi": {
+   "name": "Zubenelgenubi",
+   "place": "jižní miska Vah (α Librae)",
+   "nature": "Jupiter a Mars"
+  },
+  "zubeneschamali": {
+   "name": "Zubeneschamali",
+   "place": "severní miska Vah (β Librae)",
+   "nature": "Jupiter a Merkur"
+  },
+  "unukalhai": {
+   "name": "Unukalhai",
+   "place": "krk Hada (α Serpentis)",
+   "nature": "Saturn a Mars"
+  },
+  "acrab": {
+   "name": "Akrab",
+   "place": "čelo Štíra (β Scorpii)",
+   "nature": "Mars a Saturn"
+  },
+  "antares": {
+   "name": "Antares",
+   "place": "srdce Štíra (α Scorpii), jedna ze čtyř královských hvězd",
+   "nature": "Mars a Jupiter"
+  },
+  "rasalhague": {
+   "name": "Ras Alhague",
+   "place": "hlava Hadonoše (α Ophiuchi)",
+   "nature": "Saturn a Venuše"
+  },
+  "vega": {
+   "name": "Vega",
+   "place": "Lyra (α Lyrae)",
+   "nature": "Venuše a Merkur"
+  },
+  "altair": {
+   "name": "Altair",
+   "place": "Orel (α Aquilae)",
+   "nature": "Mars a Jupiter"
+  },
+  "deneb_algedi": {
+   "name": "Deneb Algedi",
+   "place": "ocas Kozoroha (δ Capricorni)",
+   "nature": "Saturn a Jupiter"
+  },
+  "fomalhaut": {
+   "name": "Fomalhaut",
+   "place": "tlama Jižní ryby (α Piscis Austrini), jedna ze čtyř královských hvězd",
+   "nature": "Venuše a Merkur"
+  },
+  "achernar": {
+   "name": "Achernar",
+   "place": "ústí řeky Eridanus (α Eridani)",
+   "nature": "Jupiter"
+  },
+  "markab": {
+   "name": "Markab",
+   "place": "křídlo Pegasa (α Pegasi)",
+   "nature": "Mars a Merkur"
+  },
+  "scheat": {
+   "name": "Scheat",
+   "place": "noha Pegasa (β Pegasi)",
+   "nature": "Mars a Merkur"
   }
  }
 }

@@ -3,6 +3,9 @@ import 'package:astro/data/profile.dart';
 import 'package:astro/l10n/app_localizations.dart';
 import 'package:astro/state.dart';
 import 'package:astro/ui/chart/chart_screen.dart';
+import 'package:astro/ui/chart/transits_tab.dart';
+import 'package:astro/ui/chart/tables_tab.dart';
+import 'package:astro/ui/chart/time_tab.dart';
 import 'package:astro_core/astro_core.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
@@ -65,5 +68,87 @@ void main() {
     await t.pumpAndSettle();
     expect(find.text('Planety ve znameních'), findsOneWidget);
     expect(find.text('Slunce v Kozorohu'), findsOneWidget);
+  });
+
+  testWidgets('transits show the Moon, void of course and planetary hours', (t) async {
+    t.view.physicalSize = const Size(1170, 2532);
+    t.view.devicePixelRatio = 3;
+    addTearDown(t.view.reset);
+    await t.pumpWidget(wrap(Scaffold(body: TransitsTab(Chart.compute(profile.birth), profile))));
+    await t.pump();
+    expect(find.text('Počítám…'), findsOneWidget);
+    // Month data comes from isolates: let real time pass.
+    for (var i = 0; i < 240 && find.text('Počítám…').evaluate().isNotEmpty; i++) {
+      await t.runAsync(() => Future<void>.delayed(const Duration(milliseconds: 500)));
+      await t.pump();
+    }
+    expect(find.text('Počítám…'), findsNothing);
+    final dayRuler = find.textContaining(RegExp(r'^Den (Slunce|Měsíce|Merkura|Venuše|Marsu|Jupitera|Saturnu)$'));
+    await t.dragUntilVisible(dayRuler, find.byType(ListView).last, const Offset(0, -300));
+    await t.tap(find.text('Den po hodinách'));
+    await t.pumpAndSettle();
+    expect(find.textContaining('Hodina '), findsWidgets);
+  });
+
+  testWidgets('patterns: chip highlights the wheel, table row opens the sheet', (t) async {
+    t.view.physicalSize = const Size(1170, 2532);
+    t.view.devicePixelRatio = 3;
+    addTearDown(t.view.reset);
+    await t.pumpWidget(wrap(const ChartScreen(profile)));
+    await t.pumpAndSettle();
+    // 2000-01-01 12:00 UT has a fixed T-square Moon–Saturn with Uranus at the apex.
+    final chip = find.widgetWithText(ChoiceChip, 'T-kvadrát (pevný)');
+    expect(chip, findsOneWidget);
+    await t.tap(chip);
+    await t.pumpAndSettle();
+    expect(t.widget<ChoiceChip>(chip).selected, isTrue);
+
+    await t.tap(find.text('Tabulky'));
+    await t.pumpAndSettle();
+    final row = find.descendant(of: find.byType(TablesTab), matching: find.text('T-kvadrát (pevný)'));
+    await t.scrollUntilVisible(row, 300, scrollable: find.descendant(of: find.byType(TablesTab), matching: find.byType(Scrollable)).first);
+    await t.tap(row);
+    await t.pumpAndSettle();
+    expect(find.text('Uran na vrcholu T-kvadrátu'), findsOneWidget);
+    expect(find.text('Text pro toto postavení zatím chybí.'), findsWidgets);
+  });
+
+  testWidgets('R5: switch to progressions with life timeline, then solar return with place toggle', (t) async {
+    t.view.physicalSize = const Size(1170, 2532);
+    t.view.devicePixelRatio = 3;
+    addTearDown(t.view.reset);
+    final residence = profile.copyWith(residence: const GeoLocation(lat: 40.71, lon: -74.01, name: 'New York', zone: 'America/New_York'));
+    await t.pumpWidget(wrap(Scaffold(body: TimeTab(Chart.compute(profile.birth), residence))));
+    Future<void> settleIsolates() async {
+      for (var i = 0; i < 240 && find.text('Počítám…').evaluate().isNotEmpty; i++) {
+        await t.runAsync(() => Future<void>.delayed(const Duration(milliseconds: 500)));
+        await t.pump();
+      }
+      expect(find.text('Počítám…'), findsNothing);
+    }
+
+    await t.tap(find.text('Progrese'));
+    await t.pump();
+    await settleIsolates();
+    expect(find.textContaining('Progresní Měsíc: '), findsWidgets);
+    expect(find.textContaining('Progresní fáze Měsíce: '), findsOneWidget);
+    final timeline = find.text('Časová osa života');
+    await t.dragUntilVisible(timeline, find.byType(ListView).last, const Offset(0, -300));
+    expect(timeline, findsOneWidget);
+    final sr = find.text('Solár 2001');
+    await t.dragUntilVisible(sr, find.byType(ListView).last, const Offset(0, -300));
+    await t.tap(sr);
+    await t.pump();
+    await settleIsolates();
+    expect(find.text('Solár 2001'), findsOneWidget);
+    expect(find.textContaining('Místo: New York'), findsOneWidget);
+    expect(find.textContaining('Ascendent soláru: '), findsOneWidget);
+    await t.tap(find.text('Místo narození'));
+    await t.pump();
+    await settleIsolates();
+    expect(find.textContaining('Místo: Praha'), findsOneWidget);
+    await t.tap(find.textContaining('Ascendent soláru: '));
+    await t.pumpAndSettle();
+    expect(find.text('Text pro toto postavení zatím chybí.'), findsWidgets);
   });
 }

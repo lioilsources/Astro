@@ -5,9 +5,10 @@ určuje `tools/content/lib/keys.dart`; pravidla psaní `docs/style.md`.
 
 | Soubor | Co |
 |---|---|
-| `content/archetypes.cs.json` | ruční tabulka významů planet, znamení, domů, aspektů; vstup generátoru |
+| `content/archetypes.cs.json` | ruční tabulka významů planet, znamení, domů, aspektů a obrazců aspektů (`patterns`); vstup generátoru |
 | `content/cs/traits.json` | slovník rysů pro dotaz „co to vysvětluje?“ (id, název, synonyma, protiklad) |
 | `content/cs/*.json` | texty výkladu, tři vrstvy (`text`, `shadow`, `hard[]`) |
+| `content/rules/election.json` | pravidla elekce (R7): druh, váha, záměry, podmínka, klíč textu `election/rule/…`; schéma kontroluje validátor, váhy `docs/scoring.md` |
 
 ## Validace
 
@@ -17,7 +18,9 @@ dart run tools/content/bin/validate.dart --complete   # navíc chybějící klí
 ```
 
 Chyby: neznámý klíč, prázdný text nebo stín, štítek `hard` mimo výčet, rys mimo
-slovník, angličtina, text bez diakritiky. Varování: délka, rodové tvary, prázdné
+slovník, angličtina, text bez diakritiky; pole `partner` mimo skupiny
+`synastry*` a milostná slova v základních vrstvách synastrie (patří do `partner`,
+viz `docs/scoring.md`). Varování: délka, rodové tvary, prázdné
 `hard` tam, kde ho tradice má, opakované sedmislovné fráze.
 
 ## Generování

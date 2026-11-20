@@ -27,6 +27,9 @@ class Profile {
   final String? catalogReliability;
   final String? catalogSource;
 
+  /// Where the person lives now (planetary hours, plan 10.2). Null = the birth place.
+  final GeoLocation? residence;
+
   const Profile({
     required this.id,
     required this.name,
@@ -36,9 +39,21 @@ class Profile {
     this.catalogId,
     this.catalogReliability,
     this.catalogSource,
+    this.residence,
   });
 
-  Profile copyWith({String? name, BirthData? birth, HouseSystem? houseSystem, bool clearHouseSystem = false, List<LifeEvent>? events}) =>
+  /// Residence, defaulting to the birth place (owner decision 14).
+  GeoLocation get residencePlace => residence ?? GeoLocation.ofBirth(birth);
+
+  Profile copyWith({
+    String? name,
+    BirthData? birth,
+    HouseSystem? houseSystem,
+    bool clearHouseSystem = false,
+    List<LifeEvent>? events,
+    GeoLocation? residence,
+    bool clearResidence = false,
+  }) =>
       Profile(
         id: id,
         name: name ?? this.name,
@@ -48,6 +63,7 @@ class Profile {
         catalogId: catalogId,
         catalogReliability: catalogReliability,
         catalogSource: catalogSource,
+        residence: clearResidence ? null : (residence ?? this.residence),
       );
 
   Map<String, Object?> toJson() => {
@@ -56,6 +72,7 @@ class Profile {
         'birth': birth.toJson(),
         'houseSystem': houseSystem?.name,
         'events': [for (final e in events) e.toJson()],
+        if (residence != null) 'residence': residence!.toJson(),
       };
 
   factory Profile.fromJson(Map<String, Object?> j) => Profile(
@@ -64,5 +81,7 @@ class Profile {
         birth: BirthData.fromJson((j['birth'] as Map).cast<String, Object?>()),
         houseSystem: j['houseSystem'] == null ? null : HouseSystem.values.byName(j['houseSystem'] as String),
         events: [for (final e in (j['events'] as List? ?? const [])) LifeEvent.fromJson((e as Map).cast<String, Object?>())],
+        // Profiles saved before R2 have no residence: they fall back to the birth place.
+        residence: j['residence'] == null ? null : GeoLocation.fromJson((j['residence'] as Map).cast<String, Object?>()),
       );
 }

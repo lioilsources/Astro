@@ -5,6 +5,7 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 import '../data/places.dart';
 import '../data/profile.dart';
+import '../journal_state.dart';
 import '../l10n/app_localizations.dart';
 import '../state.dart';
 import 'format.dart';
@@ -35,6 +36,10 @@ class _ProfileFormState extends ConsumerState<ProfileForm> {
   Place? _picked;
   List<Place> _suggestions = const [];
   String? _error;
+  final _residencePlace = TextEditingController();
+  bool _residenceSame = true;
+  GeoLocation? _residence;
+  List<Place> _residenceSuggestions = const [];
 
   @override
   void initState() {
@@ -59,6 +64,11 @@ class _ProfileFormState extends ConsumerState<ProfileForm> {
       _calendar = m.calendar;
       _system = p.houseSystem;
       _manual = true;
+      if (p.residence != null) {
+        _residenceSame = false;
+        _residence = p.residence;
+        _residencePlace.text = p.residence!.name ?? '';
+      }
     }
   }
 
@@ -69,6 +79,17 @@ class _ProfileFormState extends ConsumerState<ProfileForm> {
       _suggestions = idx.search(q, limit: 8);
     });
   }
+
+  void _searchResidence(String q) async {
+    final idx = await ref.read(placesProvider.future);
+    setState(() => _residenceSuggestions = idx.search(q, limit: 8));
+  }
+
+  void _pickResidence(Place p) => setState(() {
+        _residence = GeoLocation(lat: p.lat, lon: p.lon, name: p.name, zone: p.zone);
+        _residencePlace.text = p.name;
+        _residenceSuggestions = const [];
+      });
 
   void _pick(Place p) => setState(() {
         _picked = p;
@@ -124,6 +145,7 @@ class _ProfileFormState extends ConsumerState<ProfileForm> {
       birth: b,
       houseSystem: _system,
       events: widget.existing?.events ?? const [],
+      residence: _residenceSame ? null : _residence,
     );
     if (r.dstAmbiguous && mounted) {
       await showDialog<void>(
@@ -149,6 +171,7 @@ class _ProfileFormState extends ConsumerState<ProfileForm> {
     );
     if (ok == true) {
       await ref.read(profilesProvider.notifier).remove(widget.existing!.id);
+      await ref.read(journalStoreProvider).delete(widget.existing!.id);
       if (mounted) Navigator.pop(context);
     }
   }
@@ -236,6 +259,30 @@ class _ProfileFormState extends ConsumerState<ProfileForm> {
           TextField(controller: _lon, keyboardType: const TextInputType.numberWithOptions(signed: true, decimal: true), decoration: InputDecoration(labelText: l.fieldLon), onChanged: (_) => setState(() {})),
           TextField(controller: _zone, decoration: InputDecoration(labelText: l.fieldZone), onChanged: (_) => setState(() {})),
         ],
+        const SizedBox(height: 16),
+        Text(l.fieldResidence, style: Theme.of(context).textTheme.labelLarge),
+        SwitchListTile(
+          contentPadding: EdgeInsets.zero,
+          title: Text(l.residenceSameAsBirth),
+          value: _residenceSame,
+          onChanged: (v) => setState(() => _residenceSame = v),
+        ),
+        if (!_residenceSame) ...[
+          TextField(
+            controller: _residencePlace,
+            decoration: InputDecoration(labelText: l.fieldResidence, hintText: l.placeSearchHint, prefixIcon: const Icon(Icons.home_outlined)),
+            onChanged: _searchResidence,
+          ),
+          for (final p in _residenceSuggestions)
+            ListTile(dense: true, title: Text(p.name), subtitle: Text('${p.country} · ${p.zone}'), onTap: () => _pickResidence(p)),
+          if (_residence != null)
+            Padding(
+              padding: const EdgeInsets.only(top: 8),
+              child: Text('${_residence!.lat.toStringAsFixed(4)}, ${_residence!.lon.toStringAsFixed(4)} · ${_residence!.zone ?? ''}',
+                  style: Theme.of(context).textTheme.bodySmall),
+            ),
+        ],
+        Text(l.residenceHint, style: Theme.of(context).textTheme.bodySmall),
         const SizedBox(height: 16),
         DropdownButtonFormField<HouseSystem?>(
           initialValue: _system,
