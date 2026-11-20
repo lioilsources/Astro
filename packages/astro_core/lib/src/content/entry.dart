@@ -2,7 +2,7 @@ const hardTopics = ['death', 'illness', 'mental_crisis', 'addiction', 'violence'
 const themeIds = ['character', 'relationships', 'family', 'work', 'money', 'health', 'growth'];
 
 /// Families whose texts are fragments for composing (no shadow layer required).
-const shadowExempt = {'glossary', 'house_area', 'transit_modifier', 'star_target', 'journal', 'election'};
+const shadowExempt = {'glossary', 'house_area', 'transit_modifier', 'star_target', 'journal', 'election', 'horary'};
 
 /// Families that may carry the optional `partner` layer (plan 10.4).
 const partnerFamilies = {'synastry', 'synastry_point', 'synastry_house'};

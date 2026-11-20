@@ -35,6 +35,9 @@ const glossaryIds = [
   // R7 (plan 10.7, owner decision 19)
   'election', 'via_combusta', 'reception', 'medical_election',
   'synastry',
+  // R8 (plan 10.8, owner decision 20)
+  'horary', 'significator', 'perfection', 'translation_of_light', 'collection_of_light', 'combustion',
+  'radical', 'medical_horary',
 ];
 
 /// R2 (plan 10.2): Moon and planetary hours.
@@ -75,6 +78,29 @@ final electionKeys = [
   for (final i in ElectionIntent.values) 'election/intent/${i.id}',
   for (final v in electionVerdictIds) 'election/verdict/$v',
 ];
+/// Horary (plan 10.8): ids of `content/rules/horary.json`, which a
+/// tools/content test keeps in sync with these lists.
+const horaryTestimonyIds = [
+  'perfection_conjunction', 'perfection_sextile', 'perfection_trine', 'perfection_square', 'perfection_opposition',
+  'moon_perfection', 'translation', 'collection', 'reception', 'mutual_reception', 'querent_strong',
+  'quesited_strong', 'quesited_in_first', 'querent_in_quesited_house', 'natural_perfection',
+  'separating', 'no_aspect', 'prohibition', 'frustration', 'refranation', 'combustion', 'hard_without_reception',
+  'querent_weak', 'quesited_weak', 'querent_retrograde', 'quesited_retrograde',
+];
+const horaryConsiderationIds = ['asc_early', 'asc_late', 'moon_void', 'via_combusta', 'saturn_1_7', 'hour_ruler'];
+const horaryVerdictIds = ['yes', 'yes_difficult', 'no', 'past', 'nothing', 'unclear'];
+const horaryTimingIds = ['days', 'weeks', 'months', 'years', 'unknown'];
+final horaryKeys = [
+  for (final h in houseNumbers) 'horary/house/$h',
+  for (final p in traditionalPlanetIds) 'horary/significator/$p',
+  for (final t in horaryTestimonyIds) 'horary/testimony/$t',
+  for (final c in horaryConsiderationIds) 'horary/consideration/$c',
+  for (final v in horaryVerdictIds) 'horary/verdict/$v',
+  for (final u in horaryTimingIds) 'horary/timing/$u',
+  for (final s in signIds) 'horary/lost/$s',
+  for (final h in houseNumbers) 'horary/lost_house/$h',
+];
+
 /// R5 (plan 10.5): secondary progressions and solar returns.
 const progressedModifierIds = ['applying', 'separating'];
 final returnAngleIds = ReturnAngle.values.map((a) => a.name).toList();
@@ -172,6 +198,7 @@ Map<String, List<String>> allKeysByFamily() {
     'star': [for (final s in starIds) 'star/$s'],
     'star_target': [for (final t in starTargetIds) 'star_target/$t'],
     'election': electionKeys,
+    'horary': horaryKeys,
     'progressed': progressedKeys,
     'solar_return': solarReturnKeys,
     'journal': [for (final j in journalIds) 'journal/$j'],
@@ -230,6 +257,12 @@ String familyOf(String key) => key.split('/').first;
         'rule' => (min: 25, max: 70),
         'intent' => (min: 30, max: 80),
         _ => (min: 15, max: 50),
+      };
+    case 'horary':
+      return switch (parts[1]) {
+        'verdict' || 'timing' => (min: 15, max: 50),
+        'lost' || 'lost_house' => (min: 20, max: 60),
+        _ => (min: 25, max: 70),
       };
     case 'progressed':
       return switch (parts[1]) {

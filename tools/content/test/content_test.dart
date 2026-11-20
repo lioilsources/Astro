@@ -78,6 +78,33 @@ void main() {
     expect(f, isEmpty, reason: f.join('\n'));
   });
 
+  test('horary rule file passes its schema', () {
+    final f = validateHoraryRules(loadHoraryRules(Directory('../../content')));
+    expect(f, isEmpty, reason: f.join('\n'));
+  });
+
+  test('horary schema catches unknown condition, missing source and incomplete tables', () {
+    final f = validateHoraryRules({
+      'version': 1,
+      'topics': [
+        {'id': 'money', 'house': 13, 'source': ''},
+      ],
+      'persons': [
+        {'id': 'self', 'house': 1},
+      ],
+      'considerations': [
+        {'id': 'asc_early', 'kind': 'plus', 'weight': 0, 'when': 'nope', 'text': 'horary/consideration/asc_early', 'about': 'x', 'source': 'x'},
+      ],
+      'testimonies': [
+        {'id': 'translation', 'kind': 'plus', 'weight': 1, 'when': 'perfection', 'text': 'horary/testimony/x', 'about': 'x'},
+      ],
+      'timing': {'units': {}},
+      'lost': {'signs': {}, 'houses': {}},
+    }).map((x) => x.message).join(' | ');
+    expect(f, allOf(contains('house must be'), contains('empty source'), contains('unknown condition'), contains('kind must be minus')));
+    expect(f, allOf(contains('text must be'), contains('missing in the rule file'), contains('unit must be'), contains('direction missing')));
+  });
+
   test('rule schema catches missing weight, unknown condition and wrong text key', () {
     final f = validateElectionRules({
       'version': 1,
