@@ -1,0 +1,17 @@
+name: astro_content
+description: Content keys, schema, validator and generator for Astro interpretation texts.
+version: 0.1.0
+publish_to: none
+resolution: workspace
+
+environment:
+  sdk: ^3.8.0
+
+dependencies:
+  astro_core:
+    path: ../../packages/astro_core
+  http: ^1.2.0
+
+dev_dependencies:
+  test: ^1.25.0
+  lints: ^6.0.0

@@ -1,0 +1,54 @@
+name: astro
+description: "Astro — horoskop a tranzity offline"
+publish_to: 'none'
+version: 0.1.0+1
+resolution: workspace
+
+environment:
+  sdk: ^3.8.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  astro_core:
+    path: ../packages/astro_core
+  flutter_riverpod: ^3.0.0
+  intl: any
+  path_provider: ^2.1.0
+  shared_preferences: ^2.3.0
+  flutter_secure_storage: ^9.2.0
+  cryptography: ^2.7.0
+  pdf: ^3.11.0
+  share_plus: ^12.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  flutter_launcher_icons: ^0.14.4
+
+flutter:
+  uses-material-design: true
+  generate: true
+  assets:
+    - assets/content/
+    - assets/data/
+    - assets/fonts/NotoSans-Regular.ttf
+    - assets/fonts/NotoSans-Bold.ttf
+  fonts:
+    - family: NotoSansSymbols
+      fonts:
+        - asset: assets/fonts/NotoSansSymbols-Regular.ttf
+    - family: NotoSansSymbols2
+      fonts:
+        - asset: assets/fonts/NotoSansSymbols2-Regular.ttf
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: assets/icon/icon.png
+  remove_alpha_ios: true
+  adaptive_icon_background: "#15133A"
+  adaptive_icon_foreground: assets/icon/icon.png

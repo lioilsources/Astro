@@ -92,7 +92,7 @@ Rozhodnutí:
 - Historická data (katalog osobností sahá do středověku):
   - Pluto: řada z Meeuse platí jen pro roky 1885–2099. Mimo ně použij tabulku
     poloh předpočítanou při vývoji z efemeridy JPL DE440 (volné dílo) knihovnou
-    `skyfield` (MIT), krok 30 dní, kubická interpolace, rozsah 1300–2200.
+    `skyfield` (MIT), krok 30 dní, kubická interpolace, rozsah 1550–2200 (DE440 začíná koncem roku 1549; starší data jsou bez Pluta).
   - Stejnou cestou (skyfield + DE440) generuj i golden vektory planet; Swiss
     Ephemeris pak stačí jen na křížovou kontrolu domů.
   - Kalendář: záznam nese `calendar: julian | gregorian`. Před 15. 10. 1582 vždy

@@ -1,0 +1,246 @@
+{
+ "@@locale": "cs",
+ "appTitle": "Astro",
+ "navProfiles": "Profily",
+ "navPeople": "Osobnosti",
+ "navAsk": "Zeptej se",
+ "navGlossary": "Slovníček",
+ "navSettings": "Nastavení",
+ "profilesEmpty": "Zatím žádný profil. Přidej první horoskop.",
+ "addProfile": "Přidat profil",
+ "editProfile": "Upravit profil",
+ "deleteProfile": "Smazat profil",
+ "deleteProfileConfirm": "Smazat profil {name}? Nejde to vrátit.",
+ "@deleteProfileConfirm": {
+  "placeholders": {
+   "name": {}
+  }
+ },
+ "cancel": "Zrušit",
+ "save": "Uložit",
+ "delete": "Smazat",
+ "ok": "Rozumím",
+ "fieldName": "Jméno",
+ "fieldDate": "Datum narození",
+ "fieldTime": "Čas narození",
+ "timeUnknown": "Čas neznám",
+ "fieldPlace": "Místo narození",
+ "placeSearchHint": "Hledej obec nebo město",
+ "manualCoords": "Zadat souřadnice ručně",
+ "fieldLat": "Zeměpisná šířka (°, sever +)",
+ "fieldLon": "Zeměpisná délka (°, východ +)",
+ "fieldZone": "Časové pásmo (IANA)",
+ "timeBasis": "Jak číst čas",
+ "basisZone": "Místní čas",
+ "basisUt": "Zadávám UT",
+ "basisLmt": "Místní střední čas",
+ "calendar": "Kalendář",
+ "calGregorian": "gregoriánský",
+ "calJulian": "juliánský",
+ "houseSystemField": "Systém domů",
+ "houseSystemAuto": "Automaticky podle šířky",
+ "dstAmbiguous": "Tento čas při změně letního času nastal dvakrát nebo vůbec. Zkontroluj ho, případně zadej UT.",
+ "lmtNotice": "Čas před zavedením pásmového času: počítá se místní střední čas místa narození.",
+ "tabOverview": "Přehled",
+ "tabTables": "Tabulky",
+ "tabReading": "Výklad",
+ "tabTransits": "Tranzity",
+ "positions": "Pozice planet",
+ "houses": "Domy",
+ "aspects": "Aspekty",
+ "planetStates": "Stav planet",
+ "compareSystems": "Srovnat systémy domů",
+ "houseSize": "velikost",
+ "changesHouse": "mění dům",
+ "noHouses": "Čas narození neznámý: horoskop je bez domů, ascendentu a MC.",
+ "moonUncertain": "Měsíc ten den mění znamení; bez času není jisté, ve kterém je.",
+ "polarHouses": "Tento systém domů není na této šířce definovaný.",
+ "unequalHousesWarning": "Na této šířce vycházejí domy Placida velmi nestejné. Zvaž Porphyry.",
+ "readingBySections": "Po oddílech",
+ "readingByThemes": "Podle témat",
+ "sectionSigns": "Planety ve znameních",
+ "sectionHouses": "Planety v domech",
+ "sectionAspects": "Aspekty",
+ "sectionCusps": "Znamení na hrotech domů",
+ "sectionEmphasis": "Přemíra a nedostatek",
+ "textMissing": "Text pro toto postavení zatím chybí.",
+ "shadowTitle": "Stinná stránka",
+ "hiddenPassages": "Skryto: {count, plural, =1{1 pasáž} few{{count} pasáže} other{{count} pasáží}} ({topics})",
+ "@hiddenPassages": {
+  "placeholders": {
+   "count": {
+    "type": "int"
+   },
+   "topics": {}
+  }
+ },
+ "helpLink": "Potřebuješ si promluvit? Linka první psychické pomoci",
+ "traditionNote": "Tradiční výklad postavení, ne tvrzení o konkrétní osobě.",
+ "shareFull": "Sdílet celý výklad (PDF)",
+ "oneSentence": "Jednou větou",
+ "overviewLine": "Slunce {sun}, Měsíc {moon}{asc}",
+ "@overviewLine": {
+  "placeholders": {
+   "sun": {},
+   "moon": {},
+   "asc": {}
+  }
+ },
+ "transitsToday": "Dnes",
+ "transitsTimeline": "Den po hodinách",
+ "transitsCalendar": "Kalendář",
+ "transitsOngoing": "Probíhající",
+ "acute": "akutní",
+ "now": "teď",
+ "exactAt": "přesně {time}",
+ "@exactAt": {
+  "placeholders": {
+   "time": {}
+  }
+ },
+ "phaseApproaching": "blíží se",
+ "phaseExact": "přesný",
+ "phaseSeparating": "odeznívá",
+ "pass": "{n}. průchod",
+ "@pass": {
+  "placeholders": {
+   "n": {
+    "type": "int"
+   }
+  }
+ },
+ "passOf": "{n}. ze {total}",
+ "@passOf": {
+  "placeholders": {
+   "n": {
+    "type": "int"
+   },
+   "total": {
+    "type": "int"
+   }
+  }
+ },
+ "station": "zastávka",
+ "strength": "síla",
+ "concurrence": "Na týž bod míří víc tranzitů současně.",
+ "layerBackground": "Pozadí (měsíce a roky)",
+ "layerWeeks": "Týdny",
+ "layerDays": "Dny",
+ "layerHours": "Hodiny",
+ "noTransits": "Žádné tranzity v orbu.",
+ "computing": "Počítám…",
+ "ingress": "{planet} vstupuje do {house}. domu",
+ "@ingress": {
+  "placeholders": {
+   "planet": {},
+   "house": {
+    "type": "int"
+   }
+  }
+ },
+ "todaySentence": "Dnes nejvíc působí {what}.",
+ "@todaySentence": {
+  "placeholders": {
+   "what": {}
+  }
+ },
+ "pickDate": "Zvolit den",
+ "askTrait": "Co to vysvětluje?",
+ "askTraitHint": "Napiš rys, např. chaos, žárlivost, vytrvalost",
+ "askEvent": "Co se dělo ten den?",
+ "askEventHint": "Popis události",
+ "supports": "Co to podporuje",
+ "speaksAgainst": "Co mluví proti",
+ "didYouMean": "Neznám to slovo. Možná hledáš:",
+ "noTraitMatch": "V horoskopu k tomu není žádné postavení.",
+ "pickProfile": "Vyber profil",
+ "dayPercentile": "Napětí dne: víc než {p} % dnů života",
+ "@dayPercentile": {
+  "placeholders": {
+   "p": {
+    "type": "int"
+   }
+  }
+ },
+ "tense": "Napěťové",
+ "harmonious": "Harmonické",
+ "connectionsNotProof": "Appka ukazuje souvislosti podle tradice, ne důkazy.",
+ "settingsFilter": "Co nechci vidět",
+ "settingsShadow": "Stinné stránky povahy",
+ "gentleMode": "Šetrný režim",
+ "gentleModeDesc": "Skryje všechna těžká témata jedním ťuknutím.",
+ "settingsHouses": "Výchozí systém domů",
+ "settingsOrbs": "Těsné orby (3°)",
+ "settingsNode": "Pravý uzel místo středního",
+ "settingsAbout": "O appce a zdrojích",
+ "onboardingTitle": "Než začneš",
+ "onboardingBody": "Výklad obsahuje i stinné stránky a těžká témata, o kterých tradiční astrologie mluví: nemoc, ztrátu, smrt, krize. Všechno je to tradiční výklad, ne předpověď.",
+ "onboardingGentle": "Nebudu ti zobrazovat to, co by ti mohlo ublížit. Ukaž to svému terapeutovi, nedívej se na to o samotě.",
+ "onboardingShowAll": "Zobrazovat všechno",
+ "onboardingUseGentle": "Zapnout šetrný režim",
+ "onboardingHint": "Šetrný režim doporučujeme, pokud procházíš těžkým obdobím. Nastavení jde kdykoli změnit.",
+ "peopleEmpty": "Katalog osobností zatím nemá žádný záznam s ověřeným zdrojem. Záznamy přibudou, až bude každý čas narození doložený.",
+ "reliability": "Spolehlivost času",
+ "source": "Zdroj",
+ "glossarySearch": "Hledej pojem",
+ "aboutText": "Výpočet běží v telefonu, data narození ho neopouštějí. Polohy: VSOP87 a Meeus (balíček astronomia, MIT), Pluto z efemeridy JPL DE440. Místa: GeoNames (CC BY 4.0). Symboly: Noto Sans Symbols (SIL OFL). Texty výkladu jsou vlastní a popisují tradici, ne prokázané souvislosti.",
+ "bodyName": "{body, select, sun{Slunce} moon{Měsíc} mercury{Merkur} venus{Venuše} mars{Mars} jupiter{Jupiter} saturn{Saturn} uranus{Uran} neptune{Neptun} pluto{Pluto} meanNode{Uzel} trueNode{Uzel} asc{Ascendent} mc{MC} other{?}}",
+ "@bodyName": {
+  "placeholders": {
+   "body": {}
+  }
+ },
+ "signName": "{sign, select, aries{Beran} taurus{Býk} gemini{Blíženci} cancer{Rak} leo{Lev} virgo{Panna} libra{Váhy} scorpio{Štír} sagittarius{Střelec} capricorn{Kozoroh} aquarius{Vodnář} pisces{Ryby} other{?}}",
+ "@signName": {
+  "placeholders": {
+   "sign": {}
+  }
+ },
+ "aspectName": "{aspect, select, conjunction{konjunkce} sextile{sextil} square{kvadrát} trine{trigon} opposition{opozice} quincunx{kvinkunx} other{?}}",
+ "@aspectName": {
+  "placeholders": {
+   "aspect": {}
+  }
+ },
+ "houseSystemName": "{system, select, placidus{Placidus} koch{Koch} regiomontanus{Regiomontanus} campanus{Campanus} porphyry{Porphyry} equal{Equal} wholeSign{Celá znamení} meridian{Meridian} morinus{Morinus} other{?}}",
+ "@houseSystemName": {
+  "placeholders": {
+   "system": {}
+  }
+ },
+ "dignityName": "{d, select, domicile{vládne} exaltation{v povýšení} detriment{ve zničení} fall{v pádu} peregrine{—} other{?}}",
+ "@dignityName": {
+  "placeholders": {
+   "d": {}
+  }
+ },
+ "hardTopicName": "{t, select, death{smrt} illness{nemoc} mental_crisis{duševní krize} addiction{závislost} violence{násilí} loss{ztráta} ruin{úpadek} other{?}}",
+ "@hardTopicName": {
+  "placeholders": {
+   "t": {}
+  }
+ },
+ "themeName": "{t, select, character{Povaha} relationships{Vztahy} family{Rodina} work{Práce} money{Peníze} health{Zdraví} growth{Růst} other{Ostatní}}",
+ "@themeName": {
+  "placeholders": {
+   "t": {}
+  }
+ },
+ "houseN": "{n}. dům",
+ "@houseN": {
+  "placeholders": {
+   "n": {
+    "type": "int"
+   }
+  }
+ },
+ "retrogradeShort": "R",
+ "transitTitle": "{planet} {aspect} natální {target}",
+ "@transitTitle": {
+  "placeholders": {
+   "planet": {},
+   "aspect": {},
+   "target": {}
+  }
+ }
+}

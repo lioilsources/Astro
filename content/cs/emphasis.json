@@ -1,0 +1,35 @@
+[
+ {
+  "key": "emphasis/element_missing/water",
+  "title": "Chybí živel vody",
+  "keywords": [
+   "věcnost",
+   "odstup",
+   "city jako cizí jazyk"
+  ],
+  "themes": [
+   "character",
+   "relationships"
+  ],
+  "text": "V tvém horoskopu chybí živel vody. Neznamená to, že necítíš, ale city nejsou tvůj první jazyk. Svět poznáváš rozumem, činy nebo smysly a emoce si musíš přeložit. Vztahy pro tebe často znamenají učení: druzí ti ukazují, co v sobě nosíš, ale neumíš pojmenovat. Jasnost a odstup jsou tvoje síla v krizích, kdy jiní panikaří.",
+  "shadow": "Ve stínu je citová nedostupnost: druzí mohou tvou věcnost vnímat jako chlad. Smutek a strach se nevyjádří a vrátí se jako tělesné napětí nebo jako nečekaný výbuch. Empatii je potřeba se učit.",
+  "hard": [],
+  "traits": {
+   "text": [
+    "rationality",
+    "realism",
+    "calm"
+   ],
+   "shadow": [
+    "coldness",
+    "detachment",
+    "reticence"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-19",
+   "pilot": true
+  }
+ }
+]

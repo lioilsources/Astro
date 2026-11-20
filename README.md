@@ -5,6 +5,9 @@ Mobilní appka (iOS + Android), která **offline** spočítá nativní horoskop 
 i tranzity a vyloží je. Data narození neopouštějí telefon.
 
 Stav: ve vývoji, plán v [`Prompts/PLAN-astro-app.md`](Prompts/PLAN-astro-app.md).
+Hotové je výpočetní jádro (horoskop, 9 systémů domů, tranzity), appka se všemi
+obrazovkami a nástroje pro obsah. Texty výkladu jsou zatím jen pilotních 20
+a slovníček; plná dávka čeká na schválení stylu.
 
 ## Co je uvnitř
 
@@ -15,6 +18,8 @@ Stav: ve vývoji, plán v [`Prompts/PLAN-astro-app.md`](Prompts/PLAN-astro-app.m
 | `content/cs` | texty výkladu (JSON) |
 | `tools/content` | generátor a validátor textů |
 | `tools/golden` | referenční čísla pro testy (jen pro vývoj) |
+| `tools/places` | sestavení offline seznamu míst z GeoNames |
+| `content/people` | katalog osobností (jen záznamy se zdrojem) |
 
 ## Přesnost
 

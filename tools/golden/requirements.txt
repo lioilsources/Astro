@@ -1,0 +1,3 @@
+skyfield==1.55
+pyswisseph==2.10.3.2
+numpy

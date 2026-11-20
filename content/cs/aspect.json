@@ -1,0 +1,192 @@
+[
+ {
+  "key": "aspect/sun/saturn/trine",
+  "title": "Slunce trigon Saturn",
+  "keywords": [
+   "vytrvalost",
+   "zralost",
+   "odpovědnost"
+  ],
+  "themes": [
+   "character",
+   "work"
+  ],
+  "text": "Trigon Slunce a Saturnu dává vůli s pevnými základy. Umíš si stanovit cíl a vytrvat, aniž by tě to stálo velké přemáhání. Odpovědnost ti nepřipadá jako břemeno, ale jako přirozená součást života. Autority tě respektují a ty respektuješ je, takže s nadřízenými i úřady vycházíš bez zbytečného tření. Zralost přichází brzy a s věkem tvoje síla roste. Máš talent pro dlouhodobé projekty, řemeslo a vedení. Vztah s otcem nebo s mentorem bývá oporou.",
+  "shadow": "Stinnou stránkou trigonu je pohodlí v jistotě. Riziko nevyhledáváš a příležitosti, které chtějí skok do neznáma, můžeš propásnout. Vážnost tě může připravit o hravost a spontánnost. Konzervativnost a pocit, že pravidla platí vždy, vedou ke strnulosti.",
+  "hard": [],
+  "traits": {
+   "text": [
+    "discipline",
+    "responsibility",
+    "perseverance",
+    "calm"
+   ],
+   "shadow": [
+    "rigidity",
+    "conformity",
+    "caution"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-19",
+   "pilot": true
+  }
+ },
+ {
+  "key": "aspect/moon/pluto/square",
+  "title": "Měsíc kvadrát Pluto",
+  "keywords": [
+   "intenzita",
+   "proměna",
+   "matka",
+   "kontrola"
+  ],
+  "themes": [
+   "family",
+   "relationships",
+   "character"
+  ],
+  "text": "Kvadrát Měsíce a Pluta dává city s ohromnou silou. Co prožíváš, prožíváš celou bytostí, a vztahy pro tebe nejsou nikdy jen tak. Dětství bývá spojené s intenzivní, někdy dusivou nebo nevyzpytatelnou matkou, nebo s prostředím, kde se o něčem důležitém mlčelo. Z toho se rodí schopnost vidět do lidí a přežít citové bouře, které by jiné zlomily. Tvoje proměny přicházejí přes krize: rozchody, stěhování, ztráty. Po každé se v tobě něco obnoví. Máš sílu provázet druhé jejich temnotou.",
+  "shadow": "Ve stínu je potřeba citové kontroly: majetnickost, žárlivost, manipulace pocitem viny. Křivdy nosíš dlouho a vztek se může obrátit dovnitř. Zranitelnost děsí, a tak raději ovládáš. Lidé kolem tebe mohou mít pocit, že je neustále zkoušíš.",
+  "hard": [
+   {
+    "topics": [
+     "mental_crisis"
+    ],
+    "text": "Tradice tu mluví o hlubokých depresích a citových krizích, o pocitu, že se celý vnitřní svět hroutí, a o nutkavých stavech."
+   },
+   {
+    "topics": [
+     "loss",
+     "death"
+    ],
+    "text": "Starší výklad spojuje tento aspekt se ztrátou matky nebo domova, s úmrtími v rodině a s rozpadem rodinného zázemí."
+   },
+   {
+    "topics": [
+     "violence"
+    ],
+    "text": "Klasické výklady zmiňují i citové nebo fyzické násilí v rodině, ve které člověk vyrůstal."
+   }
+  ],
+  "traits": {
+   "text": [
+    "depth",
+    "resilience",
+    "transformation",
+    "intuition"
+   ],
+   "shadow": [
+    "jealousy",
+    "dominance",
+    "obsession",
+    "sulking"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-19",
+   "pilot": true
+  }
+ },
+ {
+  "key": "aspect/mars/neptune/opposition",
+  "title": "Mars opozice Neptun",
+  "keywords": [
+   "ideály",
+   "inspirace",
+   "klam",
+   "citlivá vůle"
+  ],
+  "themes": [
+   "character",
+   "relationships",
+   "health"
+  ],
+  "text": "Opozice Marsu a Neptunu staví proti sobě činy a sny. Tvoje energie je citlivá na atmosféru: s inspirací a vírou v něco většího zvládneš nemožné, bez ní se nechce nic. Máš talent pro umění, tanec, hudbu a film i pro boj za slabé a za ideály. Ve vztazích můžeš přitahovat lidi, kteří tě okouzlí a teprve potom ukážou, kým jsou. Učíš se rozlišit, co opravdu chceš, od toho, co chtějí druzí tvýma rukama.",
+  "shadow": "Ve stínu je rozplizlá vůle, nejasné motivy a pasivní agresivita. Hněv nevyjádříš přímo, a tak se ozve jako únava, výmluvy nebo sabotáž. Snadno uvěříš klamu, nebo klameš i ty, často aniž to víš. Bojuješ za ideály, které se pak rozpadnou.",
+  "hard": [
+   {
+    "topics": [
+     "addiction"
+    ],
+    "text": "Tradice tu mluví o sklonu k alkoholu, drogám a lékům jako cestě, jak ztlumit napětí nebo dodat odvahu."
+   },
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Starší výklady zmiňují oslabenou imunitu, infekce, alergie a otravy."
+   },
+   {
+    "topics": [
+     "violence"
+    ],
+    "text": "Klasická astrologie spojuje tento aspekt s nebezpečím ve vodě a se skrytými nepřáteli, kteří útočí lstí."
+   }
+  ],
+  "traits": {
+   "text": [
+    "creativity",
+    "idealism",
+    "empathy",
+    "spirituality"
+   ],
+   "shadow": [
+    "escapism",
+    "deceit",
+    "indecision",
+    "exhaustion"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-19",
+   "pilot": true
+  }
+ },
+ {
+  "key": "aspect/venus/jupiter/conjunction",
+  "title": "Venuše konjunkce Jupiter",
+  "keywords": [
+   "štěstí",
+   "štědrost",
+   "hojnost",
+   "láska"
+  ],
+  "themes": [
+   "relationships",
+   "money"
+  ],
+  "text": "Konjunkce Venuše a Jupiteru patří v tradici k nejšťastnějším postavením. Máš velké srdce, štědrost a radost ze života a lidé se kolem tebe cítí vítáni. Láska, přátelství a krása přicházejí snadno, často i peníze. Máš vkus pro hojnost: dobré jídlo, umění, cestování, oslavy. Ve vztazích hledáš nejen city, ale i společný smysl a růst. Tvůj optimismus pomáhá druhým a otevírá ti dveře. Umění a kultura ti přinášejí radost i obživu.",
+  "shadow": "Ve stínu je přemíra v jídle, v utrácení, ve slibech i v lásce. Říct ne je těžké a hranice, kdy přestat, se ztrácí. Pohodlí může vést k lenosti a ke spoléhání na štěstí. Ve vztazích idealizuješ a pak přichází zklamání. Velkorysost se snadno změní v marnivost.",
+  "hard": [
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o nemocech z přemíry: o přibývání na váze, o játrech, cukru a krevním tlaku."
+   }
+  ],
+  "traits": {
+   "text": [
+    "generosity",
+    "optimism",
+    "charm",
+    "sociability"
+   ],
+   "shadow": [
+    "indulgence",
+    "extravagance",
+    "vanity",
+    "superficiality"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-19",
+   "pilot": true
+  }
+ }
+]

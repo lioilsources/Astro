@@ -1,0 +1,3 @@
+tags:
+  screens:
+    skip: "visual check only: flutter test test/screens --update-goldens --run-skipped"
