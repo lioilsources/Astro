@@ -2,7 +2,10 @@ const hardTopics = ['death', 'illness', 'mental_crisis', 'addiction', 'violence'
 const themeIds = ['character', 'relationships', 'family', 'work', 'money', 'health', 'growth'];
 
 /// Families whose texts are fragments for composing (no shadow layer required).
-const shadowExempt = {'glossary', 'house_area', 'transit_modifier', 'star_target', 'election'};
+const shadowExempt = {'glossary', 'house_area', 'transit_modifier', 'star_target', 'journal', 'election'};
+
+/// Families that may carry the optional `partner` layer (plan 10.4).
+const partnerFamilies = {'synastry', 'synastry_point', 'synastry_house'};
 
 class HardPassage {
   final List<String> topics;
@@ -21,6 +24,10 @@ class ContentEntry {
   final List<HardPassage> hard;
   final List<String> traitsText;
   final List<String> traitsShadow;
+
+  /// Optional synastry layer about attraction and intimacy (plan 10.4). Shown
+  /// only for relationship type `partner`; never for parent and child.
+  final String partner;
   final Map<String, Object?> meta;
 
   const ContentEntry({
@@ -33,6 +40,7 @@ class ContentEntry {
     this.hard = const [],
     this.traitsText = const [],
     this.traitsShadow = const [],
+    this.partner = '',
     this.meta = const {},
   });
 
@@ -52,6 +60,7 @@ class ContentEntry {
       ],
       traitsText: strs(traits['text']),
       traitsShadow: strs(traits['shadow']),
+      partner: j['partner'] as String? ?? '',
       meta: (j['meta'] as Map?)?.cast<String, Object?>() ?? const {},
     );
   }
@@ -65,6 +74,7 @@ class ContentEntry {
         if (shadow.isNotEmpty) 'shadow': shadow,
         if (hard.isNotEmpty) 'hard': [for (final h in hard) h.toJson()],
         'traits': {'text': traitsText, 'shadow': traitsShadow},
+        if (partner.isNotEmpty) 'partner': partner,
         if (meta.isNotEmpty) 'meta': meta,
       };
 }

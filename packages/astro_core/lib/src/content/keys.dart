@@ -32,6 +32,7 @@ const glossaryIds = [
   'fixed_star', 'precession', 'royal_stars',
   // R7 (plan 10.7, owner decision 19)
   'election', 'via_combusta', 'reception', 'medical_election',
+  'synastry',
 ];
 
 /// R2 (plan 10.2): Moon and planetary hours.
@@ -72,6 +73,24 @@ final electionKeys = [
   for (final i in ElectionIntent.values) 'election/intent/${i.id}',
   for (final v in electionVerdictIds) 'election/verdict/$v',
 ];
+/// Prediction journal texts (plan 10.3): method, result templates, blind test.
+const journalIds = [
+  'method', 'too_few', 'relation_expected', 'relation_opposite', 'no_relation',
+  'control_better', 'control_not_better', 'hypothesis_more', 'hypothesis_not_more', 'blind',
+];
+/// Partner charts (plan 10.4): unordered pairs including the same planet × quality,
+/// ASC/MC × planet × quality, planet of one person in a house of the other.
+final synastryKeys = [
+  for (var i = 0; i < planetIds.length; i++)
+    for (var j = i; j < planetIds.length; j++)
+      for (final q in qualityIds) 'synastry/${planetIds[i]}/${planetIds[j]}/$q',
+];
+final synastryPointKeys = [
+  for (final pt in ['asc', 'mc'])
+    for (final p in planetIds)
+      for (final q in qualityIds) 'synastry_point/$pt/$p/$q',
+];
+final synastryHouseKeys = [for (final p in planetIds) for (final h in houseNumbers) 'synastry_house/$p/$h'];
 
 /// Content id of a body (both nodes share the `node` texts).
 String contentIdOf(Body b) => b.isNode ? 'node' : b.name;
@@ -129,6 +148,10 @@ Map<String, List<String>> allKeysByFamily() {
     'star': [for (final s in starIds) 'star/$s'],
     'star_target': [for (final t in starTargetIds) 'star_target/$t'],
     'election': electionKeys,
+    'journal': [for (final j in journalIds) 'journal/$j'],
+    'synastry': synastryKeys,
+    'synastry_point': synastryPointKeys,
+    'synastry_house': synastryHouseKeys,
   };
 }
 
@@ -182,6 +205,13 @@ String familyOf(String key) => key.split('/').first;
         'intent' => (min: 30, max: 80),
         _ => (min: 15, max: 50),
       };
+    case 'journal':
+      return (min: 25, max: 90);
+    case 'synastry':
+      return (min: 70, max: 160);
+    case 'synastry_point':
+    case 'synastry_house':
+      return (min: 50, max: 110);
   }
   return (min: 1, max: 10000);
 }
@@ -205,6 +235,10 @@ bool expectsHard(String key) {
     case 'eclipse':
     case 'star':
       return true;
+    case 'synastry':
+      return (p[3] == 'tense' || p[3] == 'conjunction') && (malefics.contains(p[1]) || malefics.contains(p[2]));
+    case 'synastry_house':
+      return p[2] == '8' || p[2] == '12';
   }
   return false;
 }

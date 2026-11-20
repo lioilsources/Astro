@@ -33,6 +33,41 @@ void main() {
     expect(k['election']!.where((x) => x.startsWith('election/rule/')).length, 26);
     expect(k['election']!.where((x) => x.startsWith('election/intent/')).length, 8);
     expect(k['election']!.where((x) => x.startsWith('election/verdict/')).length, 5);
+    expect(k['journal']!.length, 10);
+    expect(k['synastry']!.length, 165);
+    expect(k['synastry_point']!.length, 60);
+    expect(k['synastry_house']!.length, 120);
+  });
+
+  group('partner layer (plan 10.4)', () {
+    const neutral = 'Mezi vámi proudí klid a porozumění. Jeden z vás dává jistotu, druhý ji přijímá a vrací ji v drobných gestech každého dne.';
+    const shadow = 'Klid se snadno mění v pohodlnost; kdo z vás tlačí na změnu, naráží na tichý odpor a oba se pak uzavírají každý do své role.';
+
+    test('is allowed in synastry families only', () {
+      const bad = ContentEntry(key: 'aspect/sun/moon/trine', title: 'Slunce trigon Měsíc', text: neutral, shadow: shadow, partner: 'Přitažlivost.');
+      final f = validate({bad.key: bad}, const []);
+      expect(f.where((x) => x.error).map((x) => x.message).join(' '), contains('`partner` layer only belongs'));
+    });
+
+    test('romance in a base layer is an error, in `partner` it is fine', () {
+      const ok = ContentEntry(
+        key: 'synastry/venus/mars/conjunction',
+        title: 'Venuše a Mars: konjunkce',
+        text: neutral,
+        shadow: shadow,
+        partner: 'U milenců tu vzniká silná přitažlivost a erotické napětí, které se drží roky. Intimita je pro vás hra i jazyk, kterým si říkáte, co slovy neumíte.',
+      );
+      expect(validate({ok.key: ok}, const []).where((x) => x.error), isEmpty);
+      for (final leak in [
+        const ContentEntry(key: 'synastry/venus/mars/conjunction', title: 'x', text: '$neutral Erotické napětí.', shadow: shadow),
+        const ContentEntry(key: 'synastry_house/venus/5', title: 'x', text: neutral, shadow: '$shadow Milenci se hádají.'),
+        const ContentEntry(key: 'synastry_point/asc/mars/tense', title: 'x', text: neutral, shadow: shadow, keywords: ['intimní blízkost']),
+        const ContentEntry(key: 'synastry/mars/pluto/tense', title: 'x', text: neutral, shadow: shadow, hard: [HardPassage(['violence'], 'Tradice tu mluví o sexuálním násilí.')]),
+      ]) {
+        final f = validate({leak.key: leak}, const []);
+        expect(f.where((x) => x.error).map((x) => x.message).join(' '), contains('romantic word'), reason: leak.key);
+      }
+    });
   });
 
   test('election rule file passes its schema', () {

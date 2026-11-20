@@ -7,6 +7,7 @@ import '../state.dart';
 import 'chart/chart_screen.dart';
 import 'format.dart';
 import 'profile_form.dart';
+import 'synastry/synastry_screen.dart';
 
 class ProfilesScreen extends ConsumerWidget {
   const ProfilesScreen({super.key});
@@ -16,7 +17,13 @@ class ProfilesScreen extends ConsumerWidget {
     final l = AppLocalizations.of(context);
     final profiles = ref.watch(profilesProvider);
     return Scaffold(
-      appBar: AppBar(title: Text(l.navProfiles)),
+      appBar: AppBar(title: Text(l.navProfiles), actions: [
+        IconButton(
+          tooltip: l.synastryTitle,
+          icon: const Icon(Icons.compare_arrows),
+          onPressed: () => Navigator.push(context, MaterialPageRoute(builder: (_) => const SynastryScreen())),
+        ),
+      ]),
       floatingActionButton: FloatingActionButton.extended(
         onPressed: () => Navigator.push(context, MaterialPageRoute(builder: (_) => const ProfileForm())),
         icon: const Icon(Icons.add),

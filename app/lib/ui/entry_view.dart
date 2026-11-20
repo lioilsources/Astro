@@ -16,10 +16,15 @@ class EntryView extends ConsumerWidget {
   final String? fallbackTitle;
   final bool showTitle;
   final List<Widget> extra;
+
+  /// Shows the optional `partner` layer (synastry, plan 10.4). Callers pass
+  /// `Relationship.showsPartnerLayer`, so it stays off for parent and child.
+  final bool showPartner;
   const EntryView(
     this.entry, {
     super.key,
     this.shadowFirst = false,
+    this.showPartner = false,
     this.fallbackTitle,
     this.showTitle = true,
     this.extra = const [],
@@ -81,6 +86,18 @@ class EntryView extends ConsumerWidget {
           const SizedBox(height: 6),
           Text(e.text, style: t.bodyMedium),
           if (!shadowFirst && shadow != null) shadow,
+          if (showPartner && e.partner.isNotEmpty)
+            Padding(
+              padding: const EdgeInsets.only(top: 8),
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  Text(l.synastryPartnerTitle, style: t.labelLarge),
+                  const SizedBox(height: 4),
+                  Text(e.partner, style: t.bodyMedium),
+                ],
+              ),
+            ),
           for (final h in f.visibleHard)
             Container(
               margin: const EdgeInsets.only(top: 8),
@@ -160,6 +177,7 @@ void showEntry(
   ContentEntry? entry, {
   String? title,
   bool shadowFirst = false,
+  bool showPartner = false,
   List<Widget> extra = const [],
 }) {
   showModalBottomSheet<void>(
@@ -178,6 +196,7 @@ void showEntry(
             entry,
             fallbackTitle: title,
             shadowFirst: shadowFirst,
+            showPartner: showPartner,
             extra: extra,
           ),
         ],

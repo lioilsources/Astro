@@ -34,6 +34,9 @@ class Compute {
         final days = (until - from).clamp(1, 36525).floor();
         return TransitEngine(natal).tensionSeries(from, days);
       });
+
+  /// Inter-chart aspects and house overlays of two people (plan 10.4).
+  static Future<Synastry> synastry(Chart first, Chart second) => Isolate.run(() => Synastry.compute(first, second));
 }
 
 class MoonData {
