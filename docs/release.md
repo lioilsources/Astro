@@ -14,8 +14,11 @@ pushi, `release-ios.yml` a `release-android.yml` po tagu `v*` (skill `release-fl
    - Support URL: `https://lioilsources.github.io/Astro/support.html`
    - Marketing URL: `https://olin.now/astro`
    - Ochrana soukromí: „Data Not Collected“.
-4. **Google Play**: appka `com.ol1n.astro`, upload key do secrets (workflow vytvoří `key.properties`).
-5. **Secrets**: `Distribution/scripts/setup-gh-secrets.sh --repo lioilsources/Astro --app Astro`.
+4. **Firebase**: Android appka `com.ol1n.astro` v projektu pro App Tester; její App ID
+   jde do secretu `FIREBASE_ANDROID_APP_ID`.
+5. **Google Play**: appka `com.ol1n.astro`, upload key do secrets (workflow vytvoří
+   `key.properties`). Účet je firemní, vydává se rovnou do produkce.
+6. **Secrets**: `Distribution/scripts/setup-gh-secrets.sh --repo lioilsources/Astro --app Astro`.
 
 ## Před prvním vydáním rozhodnout a ověřit
 
@@ -28,6 +31,9 @@ pushi, `release-ios.yml` a `release-android.yml` po tagu `v*` (skill `release-fl
   dospělé), ověřeno 20. 11. 2026 na linkapsychickepomoci.cz; odkaz v appce vytáčí.
   Před každým vydáním ověřit znovu (plán 5.1).
 - **App Store 4.3(b)**: přesycená kategorie; začít TestFlightem (plán 9).
-- **Obsah**: plná dávka textů (F3) až po schválení pilotu; bez ní appka u většiny
-  postavení ukazuje „Text zatím chybí“.
-- **Ikona**: pilot `app/assets/icon/icon.svg` čeká na schválení, pak `flutter_launcher_icons`.
+
+## Hotovo
+
+- **Obsah**: všech 1 495 textů (F3), validátor bez chyb.
+- **Ikona**: schválená, velikosti z `flutter_launcher_icons`.
+- **Stránky**: GitHub Pages (úvod, soukromí, podpora) a https://olin.now/astro.html.
