@@ -1,0 +1,15 @@
+{
+ "Elizabeth II": {"time": "02:40", "reliability": "A", "note": "Úřední oznámení v London Gazette č. 33153 (21. 4. 1926), citováno v anglické Wikipedii", "url": "https://en.wikipedia.org/wiki/Elizabeth_II#Early_life"},
+ "Charles III": {"time": "21:14", "reliability": "A", "note": "Úřední oznámení v London Gazette č. 38455 (15. 11. 1948), citováno v anglické Wikipedii", "url": "https://en.wikipedia.org/wiki/Charles_III#Early_life"},
+ "William, Prince of Wales": {"time": "21:03", "reliability": "A", "note": "Oficiální životopis kanceláře prince z Walesu a London Gazette, citováno v anglické Wikipedii", "url": "https://en.wikipedia.org/wiki/William,_Prince_of_Wales#Early_life"},
+ "Barack Obama": {"time": "19:24", "reliability": "AA", "note": "Rodný list (Certificate of Live Birth), zveřejněný Bílým domem 27. 4. 2011", "url": "https://obamawhitehouse.archives.gov/sites/default/files/rss_viewer/birth-certificate-long-form.pdf"},
+ "Donald Trump": {"time": "10:54", "reliability": "AA", "note": "Porodní záznam nemocnice Jamaica Hospital, zveřejněný v březnu 2011 (ABC News)", "url": "https://www.goodmorningamerica.com/news/story/donald-trump-embraces-birther-13240431"},
+ "LeBron James": {"time": "16:39", "reliability": "A", "note": "Vlastní výrok s odkazem na rodný list, Sports Illustrated 7. 1. 2026, citováno v anglické Wikipedii", "url": "https://en.wikipedia.org/wiki/LeBron_James#Early_life"},
+ "Queen Victoria": {"time": "04:15", "time_basis": "lmt", "reliability": "B", "note": "Životopisy (Hibbert, Strachey, Woodham-Smith), citováno v anglické Wikipedii; místní střední čas", "url": "https://en.wikipedia.org/wiki/Queen_Victoria#Birth_and_ancestry"},
+ "Pablo Picasso": {"time": "23:15", "time_basis": "lmt", "reliability": "B", "note": "Životopis: Pierre Cabanne, Pablo Picasso: His Life and Times (1977), s. 15, citováno v anglické Wikipedii; místní střední čas", "url": "https://en.wikipedia.org/wiki/Pablo_Picasso#Childhood"},
+ "Salvador Dalí": {"time": "08:45", "reliability": "B", "note": "Životopis: Ian Gibson (1997), s. 22, citováno v anglické Wikipedii", "url": "https://en.wikipedia.org/wiki/Salvador_Dal%C3%AD#Early_life"},
+ "Greta Garbo": {"time": "19:30", "reliability": "B", "note": "Životopis: David Bret, Greta Garbo: A Divine Star (2012), citováno v anglické Wikipedii", "url": "https://en.wikipedia.org/wiki/Greta_Garbo#Early_life"},
+ "Ayrton Senna": {"time": "02:35", "reliability": "B", "note": "Článek Instituto Ayrton Senna (2009), citováno v anglické Wikipedii", "url": "https://en.wikipedia.org/wiki/Ayrton_Senna#Early_life"},
+ "Wolfgang Amadeus Mozart": {"time": "20:00", "time_basis": "lmt", "reliability": "B", "note": "„um acht Uhr abends“ podle německé Wikipedie (původně dopis otce Leopolda Mozarta); místní střední čas", "url": "https://de.wikipedia.org/wiki/Wolfgang_Amadeus_Mozart"},
+ "Pope Benedict XVI": {"time": "08:30", "reliability": "C", "note": "Anglická Wikipedie („at 8:30 in the morning“), původ času v článku nedoložen", "url": "https://en.wikipedia.org/wiki/Pope_Benedict_XVI#Early_life"}
+}

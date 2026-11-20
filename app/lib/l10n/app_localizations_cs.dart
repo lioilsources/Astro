@@ -406,11 +406,69 @@ class AppLocalizationsCs extends AppLocalizations {
   String get source => 'Zdroj';
 
   @override
+  String reliabilityBadge(String grade) {
+    String _temp0 = intl.Intl.selectLogic(grade, {
+      'AA': 'potvrzeno (AA)',
+      'A': 'potvrzeno (A)',
+      'B': 'čas ze životopisu (B)',
+      'C': 'čas nejistý (C)',
+      'other': 'bez času (X)',
+    });
+    return '$_temp0';
+  }
+
+  @override
+  String reliabilityWarning(String grade) {
+    String _temp0 = intl.Intl.selectLogic(grade, {
+      'B':
+          'Čas narození pochází ze životopisu, ne z matriky. Ascendent a domy ber s rezervou.',
+      'C':
+          'Čas narození je nejistý a bez doloženého původu. Ascendent a domy mohou být úplně jinde.',
+      'X':
+          'Čas narození není doložený. Horoskop je bez domů a ascendentu; Měsíc se může lišit až o několik stupňů.',
+      'other': '',
+    });
+    return '$_temp0';
+  }
+
+  @override
+  String get peopleAll => 'Všichni';
+
+  @override
+  String peopleCategory(String cat) {
+    String _temp0 = intl.Intl.selectLogic(cat, {
+      'history': 'Historie',
+      'politics': 'Politika',
+      'military': 'Vojevůdci',
+      'science': 'Věda',
+      'art': 'Výtvarné umění',
+      'music': 'Hudba',
+      'film': 'Film',
+      'celebrity': 'Celebrity',
+      'football': 'Fotbal',
+      'hockey': 'Hokej',
+      'sport': 'Sport',
+      'business': 'Byznys',
+      'religion': 'Náboženství',
+      'literature': 'Literatura',
+      'other': 'Ostatní',
+    });
+    return '$_temp0';
+  }
+
+  @override
+  String get peopleSearch => 'Hledej osobnost';
+
+  @override
+  String get peopleSourceNote =>
+      'Data narození a místa: Wikidata (CC0). Čas jen tam, kde je doložený zdroj.';
+
+  @override
   String get glossarySearch => 'Hledej pojem';
 
   @override
   String get aboutText =>
-      'Výpočet běží v telefonu, data narození ho neopouštějí. Polohy: VSOP87 a Meeus (balíček astronomia, MIT), Pluto z efemeridy JPL DE440. Místa: GeoNames (CC BY 4.0). Symboly: Noto Sans Symbols (SIL OFL). Texty výkladu jsou vlastní a popisují tradici, ne prokázané souvislosti.';
+      'Výpočet běží v telefonu, data narození ho neopouštějí. Polohy: VSOP87 a Meeus (balíček astronomia, MIT), Pluto z efemeridy JPL DE440. Místa: GeoNames (CC BY 4.0). Osobnosti: Wikidata (CC0). Symboly: Noto Sans Symbols (SIL OFL). Texty výkladu jsou vlastní a popisují tradici, ne prokázané souvislosti.';
 
   @override
   String bodyName(String body) {

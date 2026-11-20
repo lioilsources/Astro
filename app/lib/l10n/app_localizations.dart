@@ -814,6 +814,42 @@ abstract class AppLocalizations {
   /// **'Zdroj'**
   String get source;
 
+  /// No description provided for @reliabilityBadge.
+  ///
+  /// In cs, this message translates to:
+  /// **'{grade, select, AA{potvrzeno (AA)} A{potvrzeno (A)} B{čas ze životopisu (B)} C{čas nejistý (C)} other{bez času (X)}}'**
+  String reliabilityBadge(String grade);
+
+  /// No description provided for @reliabilityWarning.
+  ///
+  /// In cs, this message translates to:
+  /// **'{grade, select, B{Čas narození pochází ze životopisu, ne z matriky. Ascendent a domy ber s rezervou.} C{Čas narození je nejistý a bez doloženého původu. Ascendent a domy mohou být úplně jinde.} X{Čas narození není doložený. Horoskop je bez domů a ascendentu; Měsíc se může lišit až o několik stupňů.} other{}}'**
+  String reliabilityWarning(String grade);
+
+  /// No description provided for @peopleAll.
+  ///
+  /// In cs, this message translates to:
+  /// **'Všichni'**
+  String get peopleAll;
+
+  /// No description provided for @peopleCategory.
+  ///
+  /// In cs, this message translates to:
+  /// **'{cat, select, history{Historie} politics{Politika} military{Vojevůdci} science{Věda} art{Výtvarné umění} music{Hudba} film{Film} celebrity{Celebrity} football{Fotbal} hockey{Hokej} sport{Sport} business{Byznys} religion{Náboženství} literature{Literatura} other{Ostatní}}'**
+  String peopleCategory(String cat);
+
+  /// No description provided for @peopleSearch.
+  ///
+  /// In cs, this message translates to:
+  /// **'Hledej osobnost'**
+  String get peopleSearch;
+
+  /// No description provided for @peopleSourceNote.
+  ///
+  /// In cs, this message translates to:
+  /// **'Data narození a místa: Wikidata (CC0). Čas jen tam, kde je doložený zdroj.'**
+  String get peopleSourceNote;
+
   /// No description provided for @glossarySearch.
   ///
   /// In cs, this message translates to:
@@ -823,7 +859,7 @@ abstract class AppLocalizations {
   /// No description provided for @aboutText.
   ///
   /// In cs, this message translates to:
-  /// **'Výpočet běží v telefonu, data narození ho neopouštějí. Polohy: VSOP87 a Meeus (balíček astronomia, MIT), Pluto z efemeridy JPL DE440. Místa: GeoNames (CC BY 4.0). Symboly: Noto Sans Symbols (SIL OFL). Texty výkladu jsou vlastní a popisují tradici, ne prokázané souvislosti.'**
+  /// **'Výpočet běží v telefonu, data narození ho neopouštějí. Polohy: VSOP87 a Meeus (balíček astronomia, MIT), Pluto z efemeridy JPL DE440. Místa: GeoNames (CC BY 4.0). Osobnosti: Wikidata (CC0). Symboly: Noto Sans Symbols (SIL OFL). Texty výkladu jsou vlastní a popisují tradici, ne prokázané souvislosti.'**
   String get aboutText;
 
   /// No description provided for @bodyName.

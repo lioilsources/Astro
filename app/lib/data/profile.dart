@@ -23,7 +23,20 @@ class Profile {
   /// Catalog person id when opened from the people catalog (read-only).
   final String? catalogId;
 
-  const Profile({required this.id, required this.name, required this.birth, this.houseSystem, this.events = const [], this.catalogId});
+  /// Rodden grade of the birth time (AA, A, B, C, X) and source note for catalog people.
+  final String? catalogReliability;
+  final String? catalogSource;
+
+  const Profile({
+    required this.id,
+    required this.name,
+    required this.birth,
+    this.houseSystem,
+    this.events = const [],
+    this.catalogId,
+    this.catalogReliability,
+    this.catalogSource,
+  });
 
   Profile copyWith({String? name, BirthData? birth, HouseSystem? houseSystem, bool clearHouseSystem = false, List<LifeEvent>? events}) =>
       Profile(
@@ -33,6 +46,8 @@ class Profile {
         houseSystem: clearHouseSystem ? null : (houseSystem ?? this.houseSystem),
         events: events ?? this.events,
         catalogId: catalogId,
+        catalogReliability: catalogReliability,
+        catalogSource: catalogSource,
       );
 
   Map<String, Object?> toJson() => {
