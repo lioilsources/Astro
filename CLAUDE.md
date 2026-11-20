@@ -39,4 +39,4 @@ tools/golden/.venv/bin/python tools/golden/gen_golden.py   # přegenerovat golde
 Žádné.
 
 ## Kam dál
-`docs/ephemeris.md`, `docs/scoring.md`, `docs/style.md`, `docs/content.md`, `Prompts/`
+`docs/ephemeris.md`, `docs/scoring.md`, `docs/style.md`, `docs/content.md`, `docs/horary.md`, `Prompts/`

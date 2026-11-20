@@ -1592,4 +1592,373 @@ class AppLocalizationsCs extends AppLocalizations {
   String synastryPairTitle(Object first, Object second) {
     return '$first a $second';
   }
+
+  @override
+  String get horaryMode => 'Horární';
+
+  @override
+  String get horaryIntro =>
+      'Horoskop se staví na okamžik, kdy otázku potvrdíš. Ptej se na jednu konkrétní věc a na každou jen jednou.';
+
+  @override
+  String get horaryAbout => 'Jak se horární otázka čte';
+
+  @override
+  String get horaryAboutHealth =>
+      'Zdraví, smrt a těhotenství v horární tradici';
+
+  @override
+  String get horaryQuestion => 'Tvoje otázka';
+
+  @override
+  String get horaryQuestionHint =>
+      'Jen pro tebe. Appka text nečte, ukládá ho šifrovaně v telefonu.';
+
+  @override
+  String get horaryTopic => 'Téma';
+
+  @override
+  String get horaryPerson => 'O kom je otázka';
+
+  @override
+  String horaryHouseUsed(int house) {
+    return 'Dům věci: $house.';
+  }
+
+  @override
+  String horaryHouseShort(int house) {
+    return '$house. dům';
+  }
+
+  @override
+  String get horaryAsk => 'Potvrdit otázku';
+
+  @override
+  String get horaryMomentNote =>
+      'Okamžikem otázky je chvíle potvrzení, místem tvé místo pobytu z profilu.';
+
+  @override
+  String get horaryNoVerdict =>
+      'U otázek na zdraví, smrt a těhotenství appka verdikt nedává. Tradiční pravidla popisuje slovníček.';
+
+  @override
+  String get horaryNoVerdictShort => 'bez verdiktu';
+
+  @override
+  String get horaryRepeatTitle => 'Stejné téma znovu';
+
+  @override
+  String horaryRepeatBody(Object when) {
+    return 'Na stejné téma padla otázka $when. Tradice druhý pokus do 24 hodin nebere; platí první horoskop.';
+  }
+
+  @override
+  String get horaryShowFirst => 'Ukázat první horoskop';
+
+  @override
+  String horaryMoment(Object when, Object place) {
+    return 'Okamžik otázky: $when, $place';
+  }
+
+  @override
+  String horaryVerdictLine(Object verdict) {
+    return 'Podle tradičních pravidel vychází: $verdict';
+  }
+
+  @override
+  String horaryVerdictName(String verdict) {
+    String _temp0 = intl.Intl.selectLogic(verdict, {
+      'yes': 'ano',
+      'yes_difficult': 'ano, ale s potížemi',
+      'no': 'ne',
+      'past': 'už je to pryč',
+      'nothing': 'nic z toho nebude',
+      'unclear': 'nelze říct',
+      'other': '?',
+    });
+    return '$_temp0';
+  }
+
+  @override
+  String get horaryDisclaimer =>
+      'Výsledek čte horoskop podle pravidel 17. století. Není to předpověď ani rada.';
+
+  @override
+  String horaryTestimony(String rule) {
+    String _temp0 = intl.Intl.selectLogic(rule, {
+      'perfection_conjunction': 'Ukazatelé se spojí',
+      'perfection_sextile': 'Dokonání sextilem',
+      'perfection_trine': 'Dokonání trigonem',
+      'perfection_square': 'Dokonání kvadrátem',
+      'perfection_opposition': 'Dokonání opozicí',
+      'moon_perfection': 'Měsíc dojde k ukazateli věci',
+      'translation': 'Přenos světla',
+      'collection': 'Sběr světla',
+      'reception': 'Přijetí',
+      'mutual_reception': 'Vzájemné přijetí',
+      'querent_strong': 'Tvůj ukazatel je silný',
+      'quesited_strong': 'Ukazatel věci je silný',
+      'quesited_in_first': 'Ukazatel věci v domě tazatele',
+      'querent_in_quesited_house': 'Tvůj ukazatel v domě věci',
+      'natural_perfection': 'Přirozený ukazatel se připojí',
+      'separating': 'Ukazatelé se rozcházejí',
+      'no_aspect': 'Ukazatelé se nesetkají',
+      'prohibition': 'Zábrana',
+      'frustration': 'Zmaření',
+      'refranation': 'Ústup',
+      'combustion': 'Spálení ukazatele',
+      'hard_without_reception': 'Napětí bez přijetí',
+      'querent_weak': 'Tvůj ukazatel je slabý',
+      'quesited_weak': 'Ukazatel věci je slabý',
+      'querent_retrograde': 'Tvůj ukazatel couvá',
+      'quesited_retrograde': 'Ukazatel věci couvá',
+      'other': '?',
+    });
+    return '$_temp0';
+  }
+
+  @override
+  String get horaryConsiderations => 'Výhrady před výkladem';
+
+  @override
+  String get horaryConsiderationNote =>
+      'Výhrady výklad neblokují. Tradice jimi upozorňuje, že horoskop nemusí být k otázce způsobilý.';
+
+  @override
+  String get horaryConsiderationsNone => 'Žádné výhrady.';
+
+  @override
+  String horaryConsideration(String rule) {
+    String _temp0 = intl.Intl.selectLogic(rule, {
+      'asc_early': 'Ascendent v prvních stupních znamení',
+      'asc_late': 'Ascendent v posledních stupních znamení',
+      'moon_void': 'Měsíc bez aspektu',
+      'via_combusta': 'Měsíc ve spálené cestě',
+      'saturn_1_7': 'Saturn v 1. nebo 7. domě',
+      'hour_ruler': 'Vládce hodiny nesouhlasí s ascendentem',
+      'other': '?',
+    });
+    return '$_temp0';
+  }
+
+  @override
+  String get horaryTimingTitle => 'Tradiční odhad času';
+
+  @override
+  String horaryTimingLine(Object degrees, Object unit) {
+    return 'Do dokonání zbývá $degrees°, podle tradice tedy asi $unit. Je to odhad, ne termín.';
+  }
+
+  @override
+  String get horaryTimingUnknown =>
+      'Pro toto postavení tradice jednotku času neurčuje.';
+
+  @override
+  String horaryDays(int count) {
+    String _temp0 = intl.Intl.pluralLogic(
+      count,
+      locale: localeName,
+      other: '$count dní',
+      few: '$count dny',
+      one: '1 den',
+    );
+    return '$_temp0';
+  }
+
+  @override
+  String horaryWeeks(int count) {
+    String _temp0 = intl.Intl.pluralLogic(
+      count,
+      locale: localeName,
+      other: '$count týdnů',
+      few: '$count týdny',
+      one: '1 týden',
+    );
+    return '$_temp0';
+  }
+
+  @override
+  String horaryMonths(int count) {
+    String _temp0 = intl.Intl.pluralLogic(
+      count,
+      locale: localeName,
+      other: '$count měsíců',
+      few: '$count měsíce',
+      one: '1 měsíc',
+    );
+    return '$_temp0';
+  }
+
+  @override
+  String horaryYears(int count) {
+    String _temp0 = intl.Intl.pluralLogic(
+      count,
+      locale: localeName,
+      other: '$count let',
+      few: '$count roky',
+      one: '1 rok',
+    );
+    return '$_temp0';
+  }
+
+  @override
+  String get horaryLostTitle => 'Ztracená věc';
+
+  @override
+  String horaryLostLine(Object bySign, Object sign, Object byHouse, int house) {
+    return 'Podle znamení ($sign) směr $bySign, podle $house. domu směr $byHouse.';
+  }
+
+  @override
+  String get horarySignificators => 'Ukazatelé';
+
+  @override
+  String horaryQuerent(int house) {
+    return 'Tazatel ($house. dům)';
+  }
+
+  @override
+  String get horaryCoQuerent => 'Měsíc, druhý ukazatel tazatele';
+
+  @override
+  String horaryQuesited(int house) {
+    return 'Věc ($house. dům)';
+  }
+
+  @override
+  String get horaryNatural => 'Přirozený ukazatel věci';
+
+  @override
+  String horaryStrength(int total, int essential, int accidental) {
+    return 'síla $total (bytostná $essential, nahodilá $accidental)';
+  }
+
+  @override
+  String get horaryLogTitle => 'Deník otázek';
+
+  @override
+  String get horaryLogEmpty => 'Zatím žádné otázky.';
+
+  @override
+  String get horaryFollowUp => 'Jak to dopadlo?';
+
+  @override
+  String horaryOutcomeName(String outcome) {
+    String _temp0 = intl.Intl.selectLogic(outcome, {
+      'yes': 'Ano',
+      'no': 'Ne',
+      'other': 'Jinak, nevím',
+    });
+    return '$_temp0';
+  }
+
+  @override
+  String horaryOutcomeSet(Object outcome) {
+    return 'Jak to dopadlo: $outcome';
+  }
+
+  @override
+  String horaryHitRate(int rate, int n, int yes, int no) {
+    return 'Zásahy: $rate % z $n uzavřených otázek s odpovědí ano nebo ne. Kdyby appka vždycky řekla ano: $yes %, vždycky ne: $no %.';
+  }
+
+  @override
+  String horaryHitRateTooFew(int min, int n) {
+    return 'Podíl zásahů appka ukáže od $min uzavřených otázek s odpovědí ano nebo ne. Uzavřených otázek: $n.';
+  }
+
+  @override
+  String get horaryPdf => 'Export do PDF';
+
+  @override
+  String get horaryPdfTitle => 'Export otázky do PDF';
+
+  @override
+  String get horaryPdfIncludeText => 'Přidat do PDF i text otázky';
+
+  @override
+  String horaryTopicName(String topic) {
+    String _temp0 = intl.Intl.selectLogic(topic, {
+      'money': 'Peníze',
+      'property': 'Majetek',
+      'lost_object': 'Ztracená věc',
+      'siblings': 'Sourozenci',
+      'short_trip': 'Krátká cesta',
+      'message': 'Zpráva, dopis',
+      'home': 'Domov',
+      'real_estate': 'Nemovitost',
+      'parents': 'Rodiče',
+      'children': 'Děti',
+      'love': 'Láska',
+      'game': 'Hra, sázka',
+      'daily_work': 'Každodenní práce',
+      'employees': 'Podřízení',
+      'pet': 'Domácí zvíře',
+      'partner': 'Partner, partnerka',
+      'contract': 'Smlouva',
+      'dispute': 'Spor',
+      'opponent': 'Protivník',
+      'debts': 'Dluhy',
+      'inheritance': 'Dědictví',
+      'others_money': 'Cizí peníze',
+      'long_trip': 'Dálková cesta',
+      'study': 'Studium',
+      'law': 'Úřady a právo',
+      'career': 'Kariéra, místo',
+      'position': 'Postavení, funkce',
+      'superior': 'Nadřízený',
+      'friends': 'Přátelé',
+      'wish': 'Přání',
+      'hidden': 'Skryté věci',
+      'secret_enemies': 'Tajní nepřátelé',
+      'health': 'Zdraví, nemoc',
+      'death': 'Smrt',
+      'pregnancy': 'Těhotenství',
+      'other': '?',
+    });
+    return '$_temp0';
+  }
+
+  @override
+  String horaryPersonName(String person) {
+    String _temp0 = intl.Intl.selectLogic(person, {
+      'self': 'Já',
+      'sibling': 'Sourozenec',
+      'child': 'Dítě',
+      'partner': 'Partner, partnerka',
+      'father': 'Otec',
+      'mother': 'Matka',
+      'friend': 'Přítel, přítelkyně',
+      'other': '?',
+    });
+    return '$_temp0';
+  }
+
+  @override
+  String horaryDirection(String dir) {
+    String _temp0 = intl.Intl.selectLogic(dir, {
+      'east': 'východ',
+      'east_by_north': 'východ k severu',
+      'east_by_south': 'východ k jihu',
+      'west': 'západ',
+      'west_by_south': 'západ k jihu',
+      'west_by_north': 'západ k severu',
+      'north': 'sever',
+      'north_by_east': 'sever k východu',
+      'north_by_west': 'sever k západu',
+      'south': 'jih',
+      'south_by_east': 'jih k východu',
+      'south_by_west': 'jih k západu',
+      'northeast_by_east': 'severovýchod k východu',
+      'north_northeast': 'severoseverovýchod',
+      'northwest_by_north': 'severozápad k severu',
+      'west_northwest': 'západoseverozápad',
+      'southwest_by_south': 'jihozápad k jihu',
+      'south_southwest': 'jihojihozápad',
+      'southeast_by_south': 'jihovýchod k jihu',
+      'east_southeast': 'východojihovýchod',
+      'other': '?',
+    });
+    return '$_temp0';
+  }
 }

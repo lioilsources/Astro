@@ -14,6 +14,7 @@ void main(List<String> args) {
     ...validate(entries, loadTraits(dir), requireComplete: complete),
     // Rule files live next to the language folders (content/rules/).
     if (File('${dir.parent.path}/rules/election.json').existsSync()) ...validateElectionRules(loadElectionRules(dir.parent)),
+    if (File('${dir.parent.path}/rules/horary.json').existsSync()) ...validateHoraryRules(loadHoraryRules(dir.parent)),
   ];
   for (final f in findings) {
     print(f);

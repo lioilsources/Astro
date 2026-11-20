@@ -11,17 +11,21 @@ import '../state.dart';
 import 'election_screen.dart';
 import 'entry_view.dart';
 import 'format.dart';
+import 'horary/horary_screens.dart';
 
-/// Queries of plan 3.5: trait → chart ("co to vysvětluje?") and event → transits.
+/// Queries of plan 3.5: trait → chart ("co to vysvětluje?") and event → transits;
+/// horary questions (plan 10.8) as the third mode.
 class AskScreen extends ConsumerStatefulWidget {
   const AskScreen({super.key});
   @override
   ConsumerState<AskScreen> createState() => _AskScreenState();
 }
 
+enum _AskMode { trait, event, horary }
+
 class _AskScreenState extends ConsumerState<AskScreen> {
   String? _profileId;
-  bool _eventMode = false;
+  _AskMode _mode = _AskMode.trait;
   final _trait = TextEditingController();
   final _label = TextEditingController();
   DateTime _date = DateTime.now();
@@ -55,15 +59,25 @@ class _AskScreenState extends ConsumerState<AskScreen> {
                 }),
               ),
               const SizedBox(height: 12),
-              SegmentedButton<bool>(
-                segments: [ButtonSegment(value: false, label: Text(l.askTrait)), ButtonSegment(value: true, label: Text(l.askEvent))],
-                selected: {_eventMode},
-                onSelectionChanged: (s) => setState(() => _eventMode = s.first),
+              SegmentedButton<_AskMode>(
+                segments: [
+                  ButtonSegment(value: _AskMode.trait, label: Text(l.askTrait)),
+                  ButtonSegment(value: _AskMode.event, label: Text(l.askEvent)),
+                  ButtonSegment(value: _AskMode.horary, label: Text(l.horaryMode)),
+                ],
+                selected: {_mode},
+                onSelectionChanged: (s) => setState(() => _mode = s.first),
               ),
               const SizedBox(height: 12),
-              Text(l.connectionsNotProof, style: Theme.of(context).textTheme.bodySmall),
-              const SizedBox(height: 12),
-              if (!_eventMode) ..._traitUi(context, profile) else ..._eventUi(context, profile),
+              if (_mode != _AskMode.horary) ...[
+                Text(l.connectionsNotProof, style: Theme.of(context).textTheme.bodySmall),
+                const SizedBox(height: 12),
+              ],
+              ...switch (_mode) {
+                _AskMode.trait => _traitUi(context, profile),
+                _AskMode.event => _eventUi(context, profile),
+                _AskMode.horary => [HoraryPanel(profile, key: ValueKey(profile.id))],
+              },
             ]),
     );
   }
