@@ -2019,4 +2019,165 @@ class AppLocalizationsCs extends AppLocalizations {
     });
     return '$_temp0';
   }
+
+  @override
+  String get personOpenChart => 'Otevřít horoskop';
+
+  @override
+  String get personDefining => 'Čím je osobnost známá';
+
+  @override
+  String get personOtherEvents => 'Další události ze života';
+
+  @override
+  String get personNoDefining =>
+      'Zatím bez doložené zlomové události s přesným datem.';
+
+  @override
+  String get personEventsHint =>
+      'Data událostí: Wikidata (CC0) a anglická Wikipedie (věta, ze které datum pochází). Ťuknutím na událost uvidíš tranzity toho dne.';
+
+  @override
+  String eventType(String type) {
+    String _temp0 = intl.Intl.selectLogic(type, {
+      'office': 'nástup do úřadu',
+      'election': 'zvolení',
+      'coronation': 'korunovace',
+      'abdication': 'abdikace',
+      'award': 'ocenění',
+      'title': 'titul',
+      'record': 'rekord',
+      'work': 'dílo',
+      'premiere': 'premiéra',
+      'publication': 'vydání',
+      'discovery': 'objev',
+      'breakthrough': 'průlom',
+      'battle': 'bitva',
+      'treaty': 'smlouva',
+      'founding': 'založení',
+      'scandal': 'skandál',
+      'arrest': 'zatčení',
+      'trial': 'soud',
+      'assassination_attempt': 'atentát',
+      'resignation': 'odstoupení',
+      'event': 'událost',
+      'marriage': 'sňatek',
+      'club': 'klub',
+      'death': 'úmrtí',
+      'other': 'událost',
+    });
+    return '$_temp0';
+  }
+
+  @override
+  String get eventDayTitle => 'Tranzity v den události';
+
+  @override
+  String eventJulian(Object date) {
+    return '(v pramenu juliánsky $date)';
+  }
+
+  @override
+  String get eventNoonNote =>
+      'Hodina události není známá. Počítá se pro poledne v časovém pásmu místa narození (u starých dat místní střední čas), Měsíc se proto může o několik stupňů lišit.';
+
+  @override
+  String get eventNoHouses =>
+      'Čas narození není doložený (X): bez domů, ascendentu a MC, jen tranzity k planetám.';
+
+  @override
+  String get eventCheckTitle => 'Jak neobvyklý byl ten den';
+
+  @override
+  String eventTension(int score, int p) {
+    return 'Napětí dne $score: víc než $p % dnů života této osobnosti.';
+  }
+
+  @override
+  String eventUnusual(String level) {
+    String _temp0 = intl.Intl.selectLogic(level, {
+      'calm': 'Klidnější den, než v tomto životě bývalo běžné.',
+      'ordinary':
+          'Běžný den: podobné napětí se v tomto životě objevovalo často.',
+      'tense': 'Napjatější než většina dnů tohoto života.',
+      'extreme': 'Jeden z nejnapjatějších dnů tohoto života.',
+      'other': '?',
+    });
+    return '$_temp0';
+  }
+
+  @override
+  String eventLifeSpan(int days) {
+    return 'Srovnáno s $days dny života (od narození do úmrtí nebo do dneška, nejvýš 100 let).';
+  }
+
+  @override
+  String get eventRetroNote =>
+      'Když výklad sedí na událost, kterou známe z historie, je to čtení zpětně: ke známému výsledku se hodí leccos. Férové srovnání je percentil vůči ostatním dnům téhož života.';
+
+  @override
+  String get eventActiveTransits => 'Aktivní tranzity k horoskopu narození';
+
+  @override
+  String get eventNoTransits => 'V ten den nebyl v orbu žádný hlavní tranzit.';
+
+  @override
+  String eventOrb(Object orb) {
+    return 'orb $orb°';
+  }
+
+  @override
+  String get eventPositions => 'Postavení planet v ten den';
+
+  @override
+  String get catalogCheckTitle => 'Zlomové události celého katalogu';
+
+  @override
+  String get catalogCheckIntro =>
+      'U každé zlomové události s přesným datem se spočítá percentil napětí dne vůči všem dnům života téže osobnosti. Kdyby tranzity s událostmi nesouvisely, vyjde průměr kolem 50 a do horních 20 % padne zhruba pětina událostí.';
+
+  @override
+  String get catalogCheckComputing =>
+      'Počítám napětí celých životů všech osobností, může to trvat i minutu…';
+
+  @override
+  String get catalogCheckNone => 'Zatím není co porovnat.';
+
+  @override
+  String catalogCheckVerdict(String verdict) {
+    String _temp0 = intl.Intl.selectLogic(verdict, {
+      'none':
+          'Souvislost se neukázala: dny zlomových událostí nejsou napjatější ani klidnější, než jaké dávají náhodné dny týchž životů.',
+      'higher':
+          'Dny zlomových událostí vycházejí napjatější, než jaké dávají náhodné dny týchž životů.',
+      'lower':
+          'Dny zlomových událostí vycházejí klidnější, než jaké dávají náhodné dny týchž životů.',
+      'other': '?',
+    });
+    return '$_temp0';
+  }
+
+  @override
+  String catalogCheckMean(Object mean, Object effect) {
+    return 'Průměrný percentil dne události: $mean (náhodně 50), rozdíl $effect bodu.';
+  }
+
+  @override
+  String catalogCheckTop(Object share, Object expected) {
+    return 'V horních 20 % napětí: $share % událostí (náhodně $expected %).';
+  }
+
+  @override
+  String catalogCheckP(Object p, Object pTop) {
+    return 'p = $p (oboustranně), pro horních 20 % p = $pTop.';
+  }
+
+  @override
+  String catalogCheckCounts(int events, int people, int resamples) {
+    return '$events událostí, $people osobností, $resamples náhodných srovnání.';
+  }
+
+  @override
+  String get catalogCheckMethod =>
+      'Postup: každý den události se nahradí náhodným dnem života téže osobnosti a změří se, jak často vyjde průměr aspoň tak daleko od 50. Pod 0,05 je to jen signál k dalšímu zkoumání: výsledek ovlivňuje i to, které události se do katalogu dostaly. Napětí se tu počítá s hrubším krokem efemeridy než u jednotlivé události, čísla se mohou o bod lišit.';
 }

@@ -365,6 +365,24 @@ class TransitEngine {
     ];
   }
 
+  /// Daily tension series like [tensionSeries] plus the tension at [moments], all read from the
+  /// same sampled tracks, so a known event day is compared with its life on equal terms
+  /// (people catalog, plan 4.3). [stepScale] > 1 samples the tracks more coarsely (faster, for
+  /// catalog-wide summaries); moments outside [from, from + days] are clamped to the range.
+  ({List<double> series, List<double> at}) tensionProfile(double from, int days, List<double> moments, {double stepScale = 1}) {
+    final to = from + days;
+    final tracks = <LongitudeTrack>[
+      for (final b in Body.planets)
+        if (b != Body.moon && Ephemeris.available(b, from) && Ephemeris.available(b, to))
+          LongitudeTrack.build(b, from, to, _tensionStep[b]! * stepScale),
+    ];
+    double at(double jd) => _tension({for (final t in tracks) t.body: t.at(jd.clamp(from, to))});
+    return (
+      series: [for (var d = 0; d < days; d++) at(from + d)],
+      at: [for (final m in moments) at(m)],
+    );
+  }
+
   static const _tensionStep = {
     Body.sun: 4.0, Body.mercury: 2.0, Body.venus: 4.0, Body.mars: 8.0,
     Body.jupiter: 8.0, Body.saturn: 10.0, Body.uranus: 10.0, Body.neptune: 10.0, Body.pluto: 10.0,

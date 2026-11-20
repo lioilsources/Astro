@@ -163,3 +163,73 @@ U hokejistů si žádný doložený čas nevybavuji; všechny je třeba dohledat
 | Usain Bolt | 21. 8. 1986, Sherwood Content | ? | |
 | Novak Djoković | 22. 5. 1987, Bělehrad | 23:25 | ověřit |
 | Ester Ledecká | 23. 3. 1995, Praha | ? | |
+
+## 6. Události, kterými jsou osobnosti známé, a ověření tranzity
+
+Zadání vlastníka: ke každé osobnosti seznam událostí s daty, kvůli kterým je známá,
+s odkazem na tranzitní horoskop toho dne, aby šlo ověřit, jak planety stály a jestli
+popisy odpovídají tomu, co víme z historie.
+
+### Schéma události
+
+```json
+{"date": "1815-06-18", "label": "porážka u Waterloo", "type": "battle", "defining": true,
+ "source": "Wikipedia: Napoleon", "url": "https://en.wikipedia.org/wiki/Napoleon",
+ "quote": "… on 18 June 1815 …", "date_julian": null}
+```
+
+| Pole | Význam |
+|---|---|
+| `date` | den události, vždy na den přesně, v gregoriánském kalendáři |
+| `date_julian` | datum tak, jak ho píše pramen v juliánském kalendáři (před reformou); jinak chybí |
+| `label` | krátký český popis |
+| `type` | druh: office, election, coronation, abdication, award, title, record, work, premiere, publication, discovery, breakthrough, battle, treaty, founding, scandal, arrest, trial, assassination_attempt, resignation, event, marriage, club, death, other |
+| `defining` | `true` = událost, kvůli které je osobnost známá (zvolení, premiéra, titul, objev, abdikace, atentát…); `false` = běžná životní událost (sňatek, klub, úmrtí) |
+| `source` | `Wikidata <QID> <vlastnost> [<QID hodnoty>]` nebo `Wikipedia: <název článku>` |
+| `url` | odkaz na výrok ve Wikidatech nebo na článek |
+| `quote` | u Wikipedie věta z článku, která datum uvádí |
+
+Starší záznamy bez `type` a `defining` zůstávají platné; appka je čte jako běžné
+události, kromě úřadů, ocenění a děl.
+
+### Postup (`tools/people/`)
+
+1. `build_people.py` bere z Wikidat (CC0) s přesností na den: nástup do funkce (P39 +
+   P580), ocenění (P166 + P585), významná díla s datem vydání nebo premiéry (P800 →
+   P577/P1191), významné události (P793), vyhrané soutěže (P2522, P1344 s umístěním 1;
+   datum finále). To jsou zlomové události. Sňatky (P26), kluby (P54) a úmrtí (P570) jsou
+   běžné. Nominace (P1411) se neberou.
+2. `wiki_sentences.py` stáhne anglické články Wikipedie (TextExtracts, postupně, s
+   pauzou, cache v `run/people-cache/wiki/`) a vypíše věty s datem na den přesně do
+   `run/people-events/<id>.txt`.
+3. Z těch vět se ručně vyberou hlavní události do `tools/people/defining.json`
+   (podle názvu článku: datum, jak ho věta píše, český popis, druh, doslovná věta).
+   Data se nikdy nedoplňují z paměti.
+4. Builder ověří, že věta v článku doslova je a že datum v ní napsané odpovídá; data
+   před 15. 10. 1582 převede z juliánského kalendáře (jinak `"calendar"` u položky).
+5. Validátor (`tools/content/lib/people.dart`): skutečný den, ne před narozením, zdroj,
+   odkaz u zlomových, u Wikipedie věta s datem; test hlídá aspoň dvě zlomové události
+   na osobnost.
+
+### V appce
+
+- Detail osobnosti: nejdřív zlomové události, pak ostatní, obojí chronologicky.
+- „Tranzity v den události“: postavení planet toho dne, aktivní tranzity k horoskopu
+  narození s orby a texty (`transit/…`, `transit_point/…`, `transit_in_house/…` jen
+  tam, kde jsou domy). Hodina události není známá: počítá se poledne v časovém pásmu
+  místa narození (u starých dat místní střední čas). U stupně X bez domů a os.
+- Poctivá kontrola: napětí dne (`TransitEngine.tensionProfile`, stejné jako
+  `tensionAt`) a jeho percentil v celém životě (od narození do úmrtí nebo do dneška,
+  nejvýš 100 let), slovy: klidnější / běžný / napjatější / jeden z nejnapjatějších.
+  Poznámka: shoda výkladu se známou událostí je čtení zpětně, férové je srovnání
+  s ostatními dny téhož života.
+- Souhrn katalogu (ikona v seznamu osobností): pro všechny zlomové události
+  percentil dne v jeho životě. Percentil je střední pořadí (shody dostanou průměr),
+  takže náhodný den má očekávání přesně 50 a do horních 20 % padne přesně pětina
+  (shody se dělí poměrem). Test: každý den události se nahradí náhodným dnem života
+  téže osobnosti (10 000 opakování, pevné semínko), p oboustranně pro průměr
+  a jednostranně pro podíl v horních 20 %. Výsledek věta + velikost účinku (rozdíl
+  percentilových bodů, podíl proti očekávání); „souvislost se neukázala“ se ukazuje
+  stejně výrazně jako opak. Výpočet běží ve čtyřech isolatech s dvojnásobným krokem
+  efemeridy. Kód: `astro_core/lib/src/journal/event_days.dart`,
+  `app/lib/logic/people_events.dart`.

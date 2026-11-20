@@ -28,7 +28,10 @@ API = "https://www.wikidata.org/w/api.php"
 UA = "AstroPeopleCatalog/0.1 (open-source astrology app; Wikidata CC0 import)"
 GREGORIAN = "http://www.wikidata.org/entity/Q1985727"
 JULIAN = "http://www.wikidata.org/entity/Q1985786"
-MAX_EVENTS = 6
+DEFINING = HERE / "defining.json"
+WIKI_CACHE = ROOT / "run/people-cache/wiki"
+MAX_EVENTS = 6  # ordinary life events (marriages, clubs) per person, death not counted
+MAX_DEFINING_WD = 8
 
 
 def api(params):
@@ -166,6 +169,169 @@ def slug(s):
     return re.sub(r"[^a-z0-9]+", "-", s.lower()).strip("-")
 
 
+def _greg(d):
+    dd, c = d
+    return jul_to_greg(dd) if c == "julian" else dd
+
+
+def item_date(item, props=("P585", "P580", "P577", "P1191", "P571")):
+    for p in props:
+        for cl in best(item, p):
+            d = day_time(cl["mainsnak"]["datavalue"]["value"])
+            if d:
+                return d
+    return None
+
+
+def wikidata_events(e, refs, qid, death, death_greg):
+    """Events from Wikidata statements. Offices, awards, notable works, significant events and
+    won competitions are the defining ones (what the person is known for); marriages, clubs and
+    death are ordinary life events."""
+    defining, ordinary = [], []
+
+    def add(bucket, d, lab, prop, typ, value=None):
+        if not d:
+            return
+        dd = _greg(d)
+        if death_greg and dd > death_greg:
+            return  # no posthumous honours
+        bucket.append({"date": dd, "label": lab, "type": typ, "defining": bucket is defining,
+                       "source": f"Wikidata {qid} {prop}" + (f" {value}" if value else ""),
+                       "url": f"https://www.wikidata.org/wiki/{qid}#{prop}"})
+
+    def cs(item):
+        return item.get("labels", {}).get("cs", {}).get("value")
+
+    for p, prefix, limit, typ in (("P39", "nástup do funkce", 4, "office"), ("P166", "ocenění", 3, "award")):
+        n = 0
+        for c in claims(e, p):
+            vid = c["mainsnak"]["datavalue"]["value"]["id"]
+            lab = cs(refs.get(vid, {}))
+            if not lab or "čestn" in lab.lower() or n >= limit:
+                continue
+            d = qual_date(c, "P580") if p == "P39" else (qual_date(c, "P585") or qual_date(c, "P580"))
+            if d:
+                n += 1
+                add(defining, d, f"{prefix}: {lab}", p, typ, vid)
+    n = 0
+    for c in claims(e, "P800"):
+        # Notable work dated by its own publication, first performance or inception (day precision only).
+        vid = c["mainsnak"]["datavalue"]["value"]["id"]
+        w = refs.get(vid, {})
+        lab = cs(w)
+        d = item_date(w, ("P577", "P1191", "P571"))
+        if lab and d and n < 3:
+            n += 1
+            add(defining, d, f"dílo: {lab}", "P800", "work", vid)
+    for c in claims(e, "P793"):
+        vid = c["mainsnak"]["datavalue"]["value"]["id"]
+        lab = cs(refs.get(vid, {}))
+        d = qual_date(c, "P585") or qual_date(c, "P580") or item_date(refs.get(vid, {}), ("P585", "P580"))
+        if lab:
+            add(defining, d, lab, "P793", "event", vid)
+    won = [(c, "P2522") for c in claims(e, "P2522")]
+    for c in claims(e, "P1344"):
+        rank = [q for q in c.get("qualifiers", {}).get("P1352", []) if q.get("snaktype") == "value"]
+        if rank and rank[0]["datavalue"]["value"].get("amount") in ("+1", 1):
+            won.append((c, "P1344"))
+    n = 0
+    for c, p in won:
+        vid = c["mainsnak"]["datavalue"]["value"]["id"]
+        item = refs.get(vid, {})
+        lab = cs(item)
+        # A won competition counts on its final day (end time), else its point in time.
+        d = qual_date(c, "P585") or item_date(item, ("P582", "P585"))
+        if lab and d and n < 4:
+            n += 1
+            add(defining, d, f"vítězství: {lab}", p, "title", vid)
+    for p, prefix, limit, typ in (("P26", "sňatek", 2, "marriage"), ("P54", "klub", 3, "club")):
+        n = 0
+        for c in claims(e, p):
+            vid = c["mainsnak"]["datavalue"]["value"]["id"]
+            lab = cs(refs.get(vid, {}))
+            if not lab or n >= limit:
+                continue
+            d = qual_date(c, "P580")
+            if d:
+                n += 1
+                add(ordinary, d, f"{prefix}: {lab}", p, typ, vid)
+    defining.sort(key=lambda x: x["date"])
+    ordinary.sort(key=lambda x: x["date"])
+    out = _dedupe(defining)[:MAX_DEFINING_WD] + _dedupe(ordinary)[:MAX_EVENTS]
+    if death:
+        add(ordinary, death[0], "úmrtí", "P570", "death")
+        out.append(ordinary[-1])
+    return out
+
+
+def _dedupe(evs):
+    seen, out = set(), []
+    for x in evs:
+        if x["label"] in seen:
+            continue
+        seen.add(x["label"])
+        out.append(x)
+    return out
+
+
+MONTHS = ["January", "February", "March", "April", "May", "June", "July", "August", "September",
+          "October", "November", "December"]
+
+
+def quote_dates(text):
+    """Day-precise dates written in an English sentence → set of YYYY-MM-DD."""
+    m = "|".join(MONTHS)
+    out = set()
+    for d, mo, y in re.findall(rf"\b(\d{{1,2}}) ({m}),? (\d{{3,4}})\b", text):
+        out.add(f"{int(y):04d}-{MONTHS.index(mo) + 1:02d}-{int(d):02d}")
+    for mo, d, y in re.findall(rf"\b({m}) (\d{{1,2}}),? (\d{{3,4}})\b", text):
+        out.add(f"{int(y):04d}-{MONTHS.index(mo) + 1:02d}-{int(d):02d}")
+    return out
+
+
+def wiki_text(title):
+    p = WIKI_CACHE / (slug(title) + ".json")
+    return json.loads(p.read_text())["text"] if p.exists() else None
+
+
+def curated_events(title, items, errors):
+    """Headline events read from English Wikipedia (tools/people/defining.json). Each carries the
+    sentence it comes from; the date must be written in that sentence, and when the article is in
+    the local cache the sentence must occur in it verbatim."""
+    out = []
+    text = wiki_text(title)
+    url = "https://en.wikipedia.org/wiki/" + urllib.parse.quote(title.replace(" ", "_"))
+    for it in items:
+        written = it["date"]
+        # Dates as Wikipedia writes them: Julian before the Gregorian reform unless marked otherwise.
+        cal = it.get("calendar") or ("julian" if written < "1582-10-15" else "gregorian")
+        if written not in quote_dates(it["quote"]):
+            errors.append(f"{title}: date {written} not written in quote: {it['quote'][:80]}")
+            continue
+        if text is not None and it["quote"] not in " ".join(text.split()):
+            errors.append(f"{title}: quote not found in article: {it['quote'][:80]}")
+            continue
+        rec = {"date": jul_to_greg(written) if cal == "julian" else written, "label": it["label"], "type": it["type"], "defining": True,
+               "source": f"Wikipedia: {title}", "url": url, "quote": it["quote"]}
+        if cal == "julian":
+            rec["date_julian"] = written
+        out.append(rec)
+    return out
+
+
+def merge_events(events):
+    """Chronological; a Wikipedia event on the same day as a Wikidata one of the same type wins
+    (it carries the sentence)."""
+    keep = {}
+    for x in events:
+        k = (x["date"], x["type"]) if x["defining"] else (x["date"], x["label"])
+        if k in keep and not keep[k].get("quote") and x.get("quote"):
+            keep[k] = x
+        else:
+            keep.setdefault(k, x)
+    return sorted(keep.values(), key=lambda x: (x["date"], not x["defining"]))
+
+
 def main():
     cands = []
     for line in (HERE / "candidates.tsv").read_text().splitlines():
@@ -174,14 +340,18 @@ def main():
         title, cats = line.split("\t")
         cands.append((title, cats.split(",")))
     times = json.loads((HERE / "times.json").read_text()) if (HERE / "times.json").exists() else {}
+    defining = json.loads(DEFINING.read_text()) if DEFINING.exists() else {}
+    errors = []
     people = by_titles([t for t, _ in cands])
     norm = {k.replace("_", " "): v for k, v in people.items() if k}
 
     ref_ids = set()
     for e in norm.values():
-        for p in ("P19", "P166", "P39", "P26", "P54", "P800"):
+        for p in ("P19", "P166", "P39", "P26", "P54", "P800", "P793", "P1344", "P2522"):
             for c in claims(e, p):
-                ref_ids.add(c["mainsnak"]["datavalue"]["value"]["id"])
+                v = c["mainsnak"]["datavalue"]["value"]
+                if isinstance(v, dict) and "id" in v:
+                    ref_ids.add(v["id"])
     refs = by_ids(ref_ids)
     # Birth places without coordinates (hospitals, districts): use the enclosing place (P131).
     parent_ids = set()
@@ -249,54 +419,18 @@ def main():
         if cal == "julian" and "time" in birth:
             birth["time_basis"] = "lmt"
 
-        events = []
-
-        def add(d, lab, prop):
-            if not d:
-                return
-            dd, c = d
-            if c == "julian":
-                dd = jul_to_greg(dd)
-            events.append({"date": dd, "label": lab, "source": f"Wikidata {qid} {prop}"})
-
-        for p, prefix, limit in (("P39", "nástup do funkce", 3), ("P166", "ocenění", 2), ("P26", "sňatek", 2), ("P54", "klub", 3)):
-            n = 0
-            for c in claims(e, p):
-                ref = refs.get(c["mainsnak"]["datavalue"]["value"]["id"], {})
-                lab = ref.get("labels", {}).get("cs", {}).get("value")
-                if not lab or "čestn" in lab.lower() or n >= limit:
-                    continue
-                d = qual_date(c, "P580") if p != "P166" else (qual_date(c, "P585") or qual_date(c, "P580"))
-                if d:
-                    n += 1
-                    add(d, f"{prefix}: {lab}", p)
-        n = 0
-        for c in claims(e, "P800"):
-            # Notable work dated by its own publication, first performance or inception (day precision only).
-            w = refs.get(c["mainsnak"]["datavalue"]["value"]["id"], {})
-            lab = w.get("labels", {}).get("cs", {}).get("value")
-            d = next((x for p in ("P577", "P1191", "P571") for x in
-                      (day_time(cl["mainsnak"]["datavalue"]["value"]) for cl in best(w, p)) if x), None)
-            if lab and d and n < 3:
-                n += 1
-                add(d, f"dílo: {lab}", "P800")
+        death_greg = None
         if death:
-            events = [x for x in events if x["date"] <= death[0][0]]  # no posthumous honours
-        events.sort(key=lambda x: x["date"])
-        seen, ev = set(), []
-        for x in events:
-            if x["label"] in seen:
-                continue
-            seen.add(x["label"])
-            ev.append(x)
-        ev = ev[:MAX_EVENTS]
-        if death:
-            add(death[0], "úmrtí", "P570")
-            ev.append(events[-1])
-        rec = {"id": pid, "name": name, "categories": cats, "living": living, "wikidata": qid,
+            death_greg = jul_to_greg(death[0][0]) if death[0][1] == "julian" else death[0][0]
+        events = wikidata_events(e, refs, qid, death, death_greg) + curated_events(title, defining.get(title, []), errors)
+        events = merge_events(events)
+        rec = {"id": pid, "name": name, "categories": cats, "living": living, "wikidata": qid, "enwiki": title,
                "birth": birth, "reliability": reliability, "source": source, "events": ev}
         out.append(rec)
 
+    for m in errors:
+        print(f"error: {m}")
+    assert not errors, "curated events failed verification"
     ids = [r["id"] for r in out]
     assert len(ids) == len(set(ids)), "duplicate ids"
     text = json.dumps(out, ensure_ascii=False, indent=1) + "\n"

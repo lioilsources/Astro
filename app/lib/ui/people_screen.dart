@@ -7,7 +7,8 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 import '../data/profile.dart';
 import '../l10n/app_localizations.dart';
-import 'chart/chart_screen.dart';
+import '../logic/people_events.dart';
+import 'person_screen.dart';
 
 /// A sourced catalog record (Prompts/KATALOG-osobnosti.md). Only records with a source ship.
 class Person {
@@ -17,7 +18,17 @@ class Person {
   final String reliability;
   final String sourceNote;
   final Profile profile;
-  const Person(this.id, this.name, this.categories, this.reliability, this.sourceNote, this.profile);
+
+  /// Dated events, chronological; defining ones carry what the person is known for.
+  final List<CatalogEvent> catalogEvents;
+  final String? sourceUrl;
+  const Person(this.id, this.name, this.categories, this.reliability, this.sourceNote, this.profile,
+      {this.catalogEvents = const [], this.sourceUrl});
+
+  List<CatalogEvent> get definingEvents => [for (final e in catalogEvents) if (e.defining) e];
+
+  /// Julian Day of death (local noon), null for the living.
+  double? get deathJd => catalogEvents.where((e) => e.type == 'death').firstOrNull?.noonJd(profile.birth);
 
   static Person fromJson(Map<String, Object?> j) {
     final b = (j['birth'] as Map).cast<String, Object?>();
@@ -39,13 +50,10 @@ class Person {
       lon: (b['lon'] as num).toDouble(),
       placeName: b['place'] as String?,
     );
-    final events = [
-      for (final e in (j['events'] as List? ?? const []).cast<Map>())
-        () {
-          final p = (e['date'] as String).split('-').map(int.parse).toList();
-          return LifeEvent('${j['id']}-${e['date']}', julianDay(p[0], p[1], p[2], 12), e['label'] as String);
-        }()
-    ];
+    final catalogEvents = [
+      for (final e in (j['events'] as List? ?? const []).cast<Map>()) CatalogEvent.fromJson(e.cast<String, Object?>())
+    ]..sort((a, b) => a.date.compareTo(b.date));
+    final events = [for (final e in catalogEvents) LifeEvent('${j['id']}-${e.date}', e.noonJd(birth), e.label)];
     final reliability = j['reliability'] as String;
     final sourceNote = ((j['source'] as Map?)?['note'] as String?) ?? '';
     return Person(
@@ -63,6 +71,8 @@ class Person {
         catalogReliability: reliability,
         catalogSource: sourceNote,
       ),
+      catalogEvents: catalogEvents,
+      sourceUrl: (j['source'] as Map?)?['url'] as String?,
     );
   }
 
@@ -93,7 +103,13 @@ class _PeopleScreenState extends ConsumerState<PeopleScreen> {
     final l = AppLocalizations.of(context);
     final people = ref.watch(peopleProvider);
     return Scaffold(
-      appBar: AppBar(title: Text(l.navPeople)),
+      appBar: AppBar(title: Text(l.navPeople), actions: [
+        IconButton(
+          icon: const Icon(Icons.query_stats),
+          tooltip: l.catalogCheckTitle,
+          onPressed: () => Navigator.push(context, MaterialPageRoute(builder: (_) => const CatalogCheckScreen())),
+        ),
+      ]),
       body: people.when(
         loading: () => const Center(child: CircularProgressIndicator()),
         error: (e, _) => Center(child: Text('$e')),
@@ -174,7 +190,7 @@ class _PersonTile extends StatelessWidget {
       title: Text(p.name),
       subtitle: Text('$date · ${b.placeName ?? ''}\n${l.reliability}: ${l.reliabilityBadge(p.reliability)}'),
       isThreeLine: true,
-      onTap: () => Navigator.push(context, MaterialPageRoute(builder: (_) => ChartScreen(p.profile))),
+      onTap: () => Navigator.push(context, MaterialPageRoute(builder: (_) => PersonScreen(p))),
     );
   }
 }
