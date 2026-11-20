@@ -18,6 +18,9 @@ final _gendered = RegExp(
   caseSensitive: false,
 );
 
+/// "sám o sobě" about a thing and "sebe sama" are not about the reader's gender.
+final _neutralSelf = RegExp(r'\b(sám|sama|samo) (o sobě|od sebe)|\bsebe sama', caseSensitive: false);
+
 List<Finding> validate(Map<String, ContentEntry> entries, List<Trait> traits, {bool requireComplete = false}) {
   final out = <Finding>[];
   final known = {for (final f in allKeysByFamily().values) ...f};
@@ -56,7 +59,7 @@ List<Finding> validate(Map<String, ContentEntry> entries, List<Trait> traits, {b
     final eng = _english.allMatches(all).length;
     if (eng > 0) err('English words ($eng×): ${_english.allMatches(all).take(3).map((m) => m[0]).join(', ')}');
     if (wordCount(all) > 15 && !_diacritics.hasMatch(all)) err('no Czech diacritics');
-    final g = _gendered.firstMatch(all);
+    final g = _gendered.firstMatch(all.replaceAll(_neutralSelf, ''));
     if (g != null) warn('gendered form "${g[0]}" (style: 2nd person without gender)');
     final range = lengthRange(e.key);
     final n = wordCount(e.text);

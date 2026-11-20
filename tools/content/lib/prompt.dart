@@ -103,6 +103,9 @@ PRAVIDLA:
 - 2. osoba, tykání, přítomný čas. Bez rodových tvarů: žádné "jsi citlivý/citlivá",
   "byl jsi", "mohla bys". Použij podstatná jména nebo slovesa ("máš citlivou povahu").
 - Krátké konkrétní věty, žádné fráze o hvězdách, žádné rady k léčbě, penězům ani právu.
+- První věta textu i stínu patří jen téhle kombinaci. Žádná obecná věta o znamení
+  nebo planetě ("Stálost se snadno mění v…"), kterou by šlo dát i jiné planetě.
+- Žádné "sám/sama", "rád/ráda" o čtenáři; "sám o sobě" o věci je v pořádku.
 - Úplný tradiční výklad. Nic nevynechávej ani nezměkčuj, včetně smrti a nemocí.
   Těžká témata věcně a s uvozením "tradice tu mluví o…", nikdy jako jistota.
 - "text": ${len.min}–${len.max} slov: povaha, nadání, projevy.
