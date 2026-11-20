@@ -80,6 +80,25 @@ class PromptBuilder {
         return (title: 'Přemíra a nedostatek: $what', facts: what);
       case 'pattern':
         return _pattern(p);
+      case 'synastry':
+        final same = p[1] == p[2];
+        return (
+          title: same ? '${pn(p[1])} a ${pn(p[2])}: ${_qualityName(p[3])}' : '${pn(p[1])} – ${pn(p[2])}: ${_qualityName(p[3])}',
+          facts: 'Srovnání horoskopů dvou lidí. ${same ? 'Tatáž planeta u obou' : 'Planeta jednoho z vás a planeta druhého'}:\n'
+              '${_planet(p[1])}${same ? '' : '\n${_planet(p[2])}'}\nDruh: ${_qualityName(p[3])}.',
+        );
+      case 'synastry_point':
+        final pt = a['points'][p[1]] as Map<String, dynamic>;
+        return (
+          title: '${pn(p[2])} a ${pt['name']} druhého: ${_qualityName(p[3])}',
+          facts: 'Srovnání horoskopů dvou lidí: planeta jednoho z vás a osa druhého.\n${_planet(p[2])}\n'
+              'Bod ${pt['name']} druhého: ${pt['core']}.\nDruh: ${_qualityName(p[3])}.',
+        );
+      case 'synastry_house':
+        return (
+          title: '${pn(p[1])} v ${p[2]}. domě druhého',
+          facts: 'Srovnání horoskopů dvou lidí: planeta jednoho z vás padne do domu druhého.\n${_planet(p[1])}\n${_house(p[2])}',
+        );
       case 'transit_modifier':
         return (title: 'Modifikátor tranzitu: ${p[1]}', facts: 'Krátká vložená věta o fázi tranzitu: ${p[1]}');
       case 'glossary':
@@ -138,6 +157,14 @@ class PromptBuilder {
         return _progressed(p);
       case 'solar_return':
         return _solarReturn(p);
+      case 'journal':
+        final j = _journal[p[1]]!;
+        return (
+          title: j.title,
+          facts: 'Deník předpovědí: uživatel hodnotí své dny −2 až +2 a appka porovnává hodnocení se skóre napětí '
+              'tranzitů. ${j.facts}\nPravidla navíc: nikdy slovo "důkaz"; výsledek "žádná souvislost" je stejně '
+              'platný jako opačný; žádná čísla (doplní je appka), text se zobrazí pod větou s čísly.',
+        );
     }
     throw ArgumentError(key);
   }
@@ -282,6 +309,53 @@ class PromptBuilder {
   }
 
 
+  /// Prediction journal texts (plan 10.3).
+  static const _journal = {
+    'method': (
+      title: 'Jak deník vyhodnocuje',
+      facts: 'Vysvětli metodu: pořadová korelace napětí a hodnocení, test proti náhodě přeházením celých týdnů '
+          '10 000×, kontrola horoskopy dvaceti cizích osob. Hypotéza zapsaná předem, záznam bez přepisování.'
+    ),
+    'too_few': (title: 'Zatím málo dat', facts: 'Ohodnocených dní je méně než 60; vysvětli, proč na vyhodnocení ještě nestačí.'),
+    'relation_expected': (
+      title: 'Napjaté dny vycházejí hůř',
+      facts: 'Ve dnech s vyšším napětím hodnotí uživatel den hůř, a to víc, než dávají náhodná přeházení. '
+          'Je to souvislost, ne příčina; vysvětli, co ji může způsobit (očekávání, náhoda, pár výrazných týdnů).'
+    ),
+    'relation_opposite': (
+      title: 'Napjaté dny vycházejí líp',
+      facts: 'Ve dnech s vyšším napětím hodnotí uživatel den lépe, opak toho, co čeká tradice.'
+    ),
+    'no_relation': (
+      title: 'Souvislost se neukázala',
+      facts: 'Hodnocení dní nesouvisí se skóre napětí víc než při náhodném přeházení týdnů. '
+          'Je to platný a důležitý výsledek, ne selhání deníku.'
+    ),
+    'control_better': (
+      title: 'Vlastní horoskop sedí líp než cizí',
+      facts: 'Tranzity k vlastnímu horoskopu odpovídají hodnocení lépe než tranzity k horoskopům cizích osob z katalogu.'
+    ),
+    'control_not_better': (
+      title: 'Cizí horoskopy sedí stejně dobře',
+      facts: 'Tranzity k cizím horoskopům odpovídají hodnocení stejně dobře nebo lépe; shoda tedy není vázaná na vlastní horoskop.'
+    ),
+    'hypothesis_more': (
+      title: 'Hypotéza: štítek častěji při tranzitu',
+      facts: 'Ve dnech s tranzitem z hypotézy dává uživatel štítek častěji než ve dnech bez něj, víc, než by čekala náhoda.'
+    ),
+    'hypothesis_not_more': (
+      title: 'Hypotéza: štítek ne častěji',
+      facts: 'Ve dnech s tranzitem z hypotézy se štítek neobjevuje častěji než jindy (nebo rozdíl nepřesahuje náhodu).'
+    ),
+    'blind': (
+      title: 'Slepý test',
+      facts: 'Dobrovolný režim na 90 dní: pohled na tranzity se odemkne až po ohodnocení dne, aby předpověď neovlivnila '
+          'hodnocení. Hodnocení mimo test se vyhodnocují zvlášť.'
+    ),
+  };
+  String _qualityName(String q) =>
+      {'conjunction': 'konjunkce', 'harmonious': 'harmonický aspekt (sextil, trigon)', 'tense': 'napěťový aspekt (kvadrát, opozice)'}[q] ?? q;
+
   String _elementCz(String e) => {'fire': 'oheň', 'earth': 'země', 'air': 'vzduch', 'water': 'voda'}[e] ?? e;
 
   String build(String key) {
@@ -290,13 +364,23 @@ class PromptBuilder {
     final family = familyOf(key);
     final noShadow = isShadowExempt(key);
     final traitList = traits.map((t) => '${t.id} (${t.name})').join(', ');
-    final textRule = family == 'star'
+    final pair = partnerFamilies.contains(family);
+    final textRule = pair
+        ? '- "text": ${len.min}–${len.max} slov: co se mezi vámi děje, kde se doplňujete, co si navzájem dáváte.\n'
+            '  Text platí pro jakýkoli vztah: partneři, rodič a dítě, sourozenci, přátelé, kolegové.\n'
+            '  Žádná romantika, erotika, přitažlivost ani intimita v "text", "shadow", "hard",\n'
+            '  "title" ani "keywords"; to patří jen do pole "partner".\n'
+            '- "partner": 30–80 slov: přitažlivost a intimita, jen pro milostný pár. Appka ho\n'
+            '  ukáže pouze u typu vztahu partner, u rodiče a dítěte nikdy.'
+        : family == 'star'
         ? '- "text": 40–80 slov: kde hvězda leží, její mýtus a povaha podle planet. Celý text\n'
             '  včetně stínu a těžkých pasáží má 150–250 slov; tradiční výroky patří do stínu a "hard".\n'
             '  Moderní psychologický přepis nevydávej za tradici.'
         : family == 'star_target'
             ? '- "text": ${len.min}–${len.max} slov: jedna až dvě věty o tom, které oblasti života hvězda na tomto bodě zasahuje.'
-            : '- "text": ${len.min}–${len.max} slov: povaha, nadání, projevy.';
+            : family == 'journal'
+                ? '- "text": ${len.min}–${len.max} slov: věcné vysvětlení výsledku pro laika, bez astrologického výkladu povahy.'
+                : '- "text": ${len.min}–${len.max} slov: povaha, nadání, projevy.';
     return '''
 Napiš český text astrologického výkladu pro mobilní appku.
 
@@ -305,7 +389,7 @@ VÝZNAMY (ručně psaná tabulka archetypů, rozviň je vlastními slovy):
 ${d.facts}
 
 PRAVIDLA:
-- 2. osoba, tykání, přítomný čas. Bez rodových tvarů: žádné "jsi citlivý/citlivá",
+${pair ? '- Oslovuj oba: 2. osoba množného čísla ("mezi vámi", "máte"), přítomný čas.\n  "Jeden z vás", "druhý" místo jmen. Bez rodových tvarů ("byli jste" ne).\n' : ''}- 2. osoba, tykání, přítomný čas. Bez rodových tvarů: žádné "jsi citlivý/citlivá",
   "byl jsi", "mohla bys". Použij podstatná jména nebo slovesa ("máš citlivou povahu").
 - Krátké konkrétní věty, žádné fráze o hvězdách, žádné rady k léčbě, penězům ani právu.
 - První věta textu i stínu patří jen téhle kombinaci. Žádná obecná věta o znamení
@@ -322,7 +406,7 @@ ${noShadow ? '- "shadow": prázdný řetězec.' : '- "shadow": 40–100 slov: sl
   $traitList
 
 Odpověz jen JSON objektem:
-{"key": "$key", "title": "${d.title}", "keywords": [], "themes": [], "text": "", "shadow": "", "hard": [], "traits": {"text": [], "shadow": []}}
+{"key": "$key", "title": "${d.title}", "keywords": [], "themes": [], "text": "", "shadow": "", "hard": [], "traits": {"text": [], "shadow": []}${pair ? ', "partner": ""' : ''}}
 ''';
   }
 }

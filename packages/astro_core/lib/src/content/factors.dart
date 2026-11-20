@@ -5,10 +5,11 @@ import '../moon.dart';
 import '../patterns.dart';
 import '../progressions.dart';
 import '../stars.dart';
+import '../synastry.dart';
 import '../transits.dart';
 import 'keys.dart';
 
-enum FactorKind { planetInSign, planetInHouse, aspect, aspectPoint, signOnCusp, emphasis, pattern, star, moonPhase, progression, solarReturn }
+enum FactorKind { planetInSign, planetInHouse, aspect, aspectPoint, signOnCusp, emphasis, pattern, star, moonPhase, synastry, synastryPoint, synastryHouse, progression, solarReturn }
 
 /// One interpretable fact of a chart with the key of its text.
 class Factor {
@@ -25,7 +26,10 @@ class Factor {
 
   /// Star conjunction (kind [FactorKind.star]): the tightest contact of the star.
   final StarContact? star;
-  const Factor(this.key, this.kind, this.weight, {this.body, this.sign, this.house, this.aspect, this.pattern, this.star});
+
+  /// Synastry house overlay (kind [FactorKind.synastryHouse]).
+  final HouseOverlay? overlay;
+  const Factor(this.key, this.kind, this.weight, {this.body, this.sign, this.house, this.aspect, this.pattern, this.star, this.overlay});
   @override
   String toString() => '$key (${weight.toStringAsFixed(2)})';
 }
@@ -222,4 +226,40 @@ List<Factor> solarReturnFactorsOf(Chart sr) {
     for (final x in planetsOnAngles(sr))
       Factor(planetOnAngleKey(x.body, x.angle), FactorKind.solarReturn, _bodyWeight[x.body]! * (1 - 0.5 * x.orb / solarReturnAngleOrb), body: x.body),
   ];
+}
+
+/// Key of an inter-chart aspect (plan 10.4). Planet pairs are unordered, so
+/// Sun of one person to Moon of the other and Moon to Sun share a text.
+String synastryKey(Aspect a) {
+  if (a.a.isAngle || a.b.isAngle) {
+    final point = a.a.isAngle ? a.a : a.b;
+    final planet = a.a.isAngle ? a.b : a.a;
+    return 'synastry_point/${point.angle!.name}/${planet.body!.name}/${qualityId(a.type)}';
+  }
+  var x = a.a.body!.name, y = a.b.body!.name;
+  if (planetIds.indexOf(x) > planetIds.indexOf(y)) (x, y) = (y, x);
+  return 'synastry/$x/$y/${qualityId(a.type)}';
+}
+
+String synastryHouseKey(HouseOverlay o) => 'synastry_house/${o.body.name}/${o.house}';
+
+/// All facts of a pair in reading order: planet aspects, aspects to axes, house
+/// overlays. Facts sharing a key are kept (each names other people's points);
+/// the reading shows each text once. For near-identical charts the same-planet
+/// conjunctions are left out: the twins note replaces them (plan 10.4).
+List<Factor> synastryFactorsOf(Synastry s) {
+  final out = <Factor>[];
+  for (final a in s.aspects) {
+    if (s.twins != null && a.type == AspectType.conjunction && a.a == a.b) continue;
+    final point = a.a.isAngle || a.b.isAngle;
+    final w = (_pointWeight(a.a) + _pointWeight(a.b)) / 2 * (0.5 + 0.5 * a.exactness);
+    out.add(Factor(synastryKey(a), point ? FactorKind.synastryPoint : FactorKind.synastry, w, aspect: a));
+  }
+  for (final o in s.overlays) {
+    // Angular houses of the host weigh more: they are the most visible meeting points.
+    final angular = o.house == 1 || o.house == 4 || o.house == 7 || o.house == 10;
+    out.add(Factor(synastryHouseKey(o), FactorKind.synastryHouse, _bodyWeight[o.body]! * (angular ? 0.8 : 0.6),
+        body: o.body, house: o.house, overlay: o));
+  }
+  return out;
 }

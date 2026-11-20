@@ -8,6 +8,7 @@ import '../l10n/app_localizations.dart';
 import '../state.dart';
 import 'entry_view.dart';
 import 'format.dart';
+import 'journal/reminder_tile.dart';
 
 class SettingsScreen extends ConsumerWidget {
   const SettingsScreen({super.key});
@@ -61,6 +62,8 @@ class SettingsScreen extends ConsumerWidget {
           value: s.vocTraditional,
           onChanged: (v) => n.change((x) => x.copyWith(vocTraditional: v)),
         ),
+        const Divider(),
+        const ReminderTile(),
         const Divider(),
         ListTile(
           title: Text(l.settingsAbout),

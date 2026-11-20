@@ -7,6 +7,7 @@ import '../../export/pdf_export.dart';
 import '../../l10n/app_localizations.dart';
 import '../../state.dart';
 import '../format.dart';
+import '../journal/journal_screen.dart';
 import '../profile_form.dart';
 import 'patterns_view.dart';
 import 'reading_tab.dart';
@@ -40,6 +41,12 @@ class ChartScreen extends ConsumerWidget {
             ),
             if (current.catalogId == null)
               IconButton(
+                tooltip: l.journalTitle,
+                icon: const Icon(Icons.event_note_outlined),
+                onPressed: () => Navigator.push(context, MaterialPageRoute(builder: (_) => JournalScreen(current, chart))),
+              ),
+            if (current.catalogId == null)
+              IconButton(
                 icon: const Icon(Icons.edit_outlined),
                 onPressed: () => Navigator.push(context, MaterialPageRoute(builder: (_) => ProfileForm(existing: current))),
               ),
@@ -55,7 +62,7 @@ class ChartScreen extends ConsumerWidget {
           _Overview(chart, current),
           TablesTab(chart),
           ReadingTab(chart, current),
-          TimeTab(chart, current),
+          BlindGate(current, chart, child: TimeTab(chart, current)),
         ]),
       ),
     );

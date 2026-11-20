@@ -21,6 +21,14 @@ final _gendered = RegExp(
 /// "sám o sobě" about a thing and "sebe sama" are not about the reader's gender.
 final _neutralSelf = RegExp(r'\b(sám|sama|samo) (o sobě|od sebe)|\bsebe sama', caseSensitive: false);
 
+/// Romance and sexuality: in synastry texts they belong only to the `partner`
+/// layer, because the base layers are shown for parent and child too (plan 10.4).
+final romantic = RegExp(
+  r'\b(sex\w*|erot\w*|milen\w*|milostn\w*|intimn\w*|zamilov\w*|flirt\w*|polib\w*|políb\w*|líba\w*|postel\w*|svádě\w*|svádí\w*)',
+  caseSensitive: false,
+  unicode: true,
+);
+
 List<Finding> validate(Map<String, ContentEntry> entries, List<Trait> traits, {bool requireComplete = false}) {
   final out = <Finding>[];
   final known = {for (final f in allKeysByFamily().values) ...f};
@@ -55,7 +63,17 @@ List<Finding> validate(Map<String, ContentEntry> entries, List<Trait> traits, {b
         if (!traitIds.contains(t)) err('trait $t not in vocabulary');
       }
     }
-    final all = [e.text, e.shadow, ...e.hard.map((h) => h.text)].join(' ');
+    if (e.partner.trim().isNotEmpty && !partnerFamilies.contains(family)) {
+      err('`partner` layer only belongs to ${partnerFamilies.join(', ')}');
+    }
+    if (partnerFamilies.contains(family)) {
+      final base = [e.title, e.text, e.shadow, ...e.keywords, ...e.hard.map((h) => h.text)].join(' ');
+      final m = romantic.firstMatch(base);
+      if (m != null) err('romantic word "${m[0]}" outside `partner` (base layers are shown for parent and child too)');
+      final np = wordCount(e.partner);
+      if (np > 0 && (np < 20 || np > 90)) warn('partner $np words, expected 20–80');
+    }
+    final all = [e.text, e.shadow, ...e.hard.map((h) => h.text), e.partner].join(' ');
     final eng = _english.allMatches(all).length;
     if (eng > 0) err('English words ($eng×): ${_english.allMatches(all).take(3).map((m) => m[0]).join(', ')}');
     if (wordCount(all) > 15 && !_diacritics.hasMatch(all)) err('no Czech diacritics');
