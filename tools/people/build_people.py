@@ -210,7 +210,12 @@ def wikidata_events(e, refs, qid, death, death_greg):
             if not lab or "čestn" in lab.lower() or n >= limit:
                 continue
             d = qual_date(c, "P580") if p == "P39" else (qual_date(c, "P585") or qual_date(c, "P580"))
-            if d:
+            if not d:
+                continue
+            # State orders and decorations are honours, not what a person is known for.
+            if p == "P166" and re.search(r"řád|kříž|medail|vyznamenání", lab, re.I):
+                add(ordinary, d, f"{prefix}: {lab}", p, typ, vid)
+            else:
                 n += 1
                 add(defining, d, f"{prefix}: {lab}", p, typ, vid)
     n = 0
@@ -278,30 +283,45 @@ MONTHS = ["January", "February", "March", "April", "May", "June", "July", "Augus
           "October", "November", "December"]
 
 
+CS_MONTHS = ["ledna", "února", "března", "dubna", "května", "června", "července", "srpna", "září",
+             "října", "listopadu", "prosince"]
+
+
 def quote_dates(text):
-    """Day-precise dates written in an English sentence → set of YYYY-MM-DD."""
+    """Day-precise dates written in an English or Czech sentence ("18 June 1815", "June 18, 1815",
+    "18. června 1815") → set of YYYY-MM-DD."""
     m = "|".join(MONTHS)
     out = set()
     for d, mo, y in re.findall(rf"\b(\d{{1,2}}) ({m}),? (\d{{3,4}})\b", text):
         out.add(f"{int(y):04d}-{MONTHS.index(mo) + 1:02d}-{int(d):02d}")
     for mo, d, y in re.findall(rf"\b({m}) (\d{{1,2}}),? (\d{{3,4}})\b", text):
         out.add(f"{int(y):04d}-{MONTHS.index(mo) + 1:02d}-{int(d):02d}")
+    cs = "|".join(CS_MONTHS)
+    for d, mo, y in re.findall(rf"\b(\d{{1,2}})\. ?({cs}) (\d{{3,4}})\b", text):
+        out.add(f"{int(y):04d}-{CS_MONTHS.index(mo) + 1:02d}-{int(d):02d}")
     return out
 
 
-def wiki_text(title):
-    p = WIKI_CACHE / (slug(title) + ".json")
+def wiki_path(title, lang="en"):
+    return WIKI_CACHE / (("" if lang == "en" else f"{lang}-") + slug(title) + ".json")
+
+
+def wiki_text(title, lang="en"):
+    p = wiki_path(title, lang)
     return json.loads(p.read_text())["text"] if p.exists() else None
 
 
 def curated_events(title, items, errors):
-    """Headline events read from English Wikipedia (tools/people/defining.json). Each carries the
+    """Headline events read from Wikipedia (tools/people/defining.json): English by default, the
+    Czech article when the item says `"lang": "cs"` (with its `"article"` title). Each carries the
     sentence it comes from; the date must be written in that sentence, and when the article is in
     the local cache the sentence must occur in it verbatim."""
     out = []
-    text = wiki_text(title)
-    url = "https://en.wikipedia.org/wiki/" + urllib.parse.quote(title.replace(" ", "_"))
     for it in items:
+        lang = it.get("lang", "en")
+        article = it.get("article", title) if lang != "en" else title
+        text = wiki_text(article, lang)
+        url = f"https://{lang}.wikipedia.org/wiki/" + urllib.parse.quote(article.replace(" ", "_"))
         written = it["date"]
         # Dates as Wikipedia writes them: Julian before the Gregorian reform unless marked otherwise.
         cal = it.get("calendar") or ("julian" if written < "1582-10-15" else "gregorian")
@@ -311,8 +331,9 @@ def curated_events(title, items, errors):
         if text is not None and it["quote"] not in " ".join(text.split()):
             errors.append(f"{title}: quote not found in article: {it['quote'][:80]}")
             continue
-        rec = {"date": jul_to_greg(written) if cal == "julian" else written, "label": it["label"], "type": it["type"], "defining": True,
-               "source": f"Wikipedia: {title}", "url": url, "quote": it["quote"]}
+        source = f"Wikipedia: {article}" if lang == "en" else f"Wikipedie: {article}"
+        rec = {"date": jul_to_greg(written) if cal == "julian" else written, "label": it["label"], "type": it["type"],
+               "defining": True, "source": source, "url": url, "quote": it["quote"]}
         if cal == "julian":
             rec["date_julian"] = written
         out.append(rec)
@@ -423,10 +444,15 @@ def main():
         if death:
             death_greg = jul_to_greg(death[0][0]) if death[0][1] == "julian" else death[0][0]
         events = wikidata_events(e, refs, qid, death, death_greg) + curated_events(title, defining.get(title, []), errors)
-        events = merge_events(events)
+        birth_greg = jul_to_greg(date) if cal == "julian" else date
+        for x in events:
+            if x["date"] < birth_greg or (death_greg and x["date"] > death_greg):
+                print(f"dropped {title}: {x['date']} {x['label']} outside the life")
+        events = merge_events([x for x in events if birth_greg <= x["date"] and not (death_greg and x["date"] > death_greg)])
         rec = {"id": pid, "name": name, "categories": cats, "living": living, "wikidata": qid, "enwiki": title,
-               "birth": birth, "reliability": reliability, "source": source, "events": ev}
-        out.append(rec)
+               "cswiki": e.get("sitelinks", {}).get("cswiki", {}).get("title"),
+               "birth": birth, "reliability": reliability, "source": source, "events": events}
+        out.append({k: v for k, v in rec.items() if v is not None})
 
     for m in errors:
         print(f"error: {m}")

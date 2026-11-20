@@ -2528,7 +2528,7 @@ abstract class AppLocalizations {
   /// No description provided for @eventType.
   ///
   /// In cs, this message translates to:
-  /// **'{type, select, office{nástup do úřadu} election{zvolení} coronation{korunovace} abdication{abdikace} award{ocenění} title{titul} record{rekord} work{dílo} premiere{premiéra} publication{vydání} discovery{objev} breakthrough{průlom} battle{bitva} treaty{smlouva} founding{založení} scandal{skandál} arrest{zatčení} trial{soud} assassination_attempt{atentát} resignation{odstoupení} event{událost} marriage{sňatek} club{klub} death{úmrtí} other{událost}}'**
+  /// **'{type, select, office{nástup do úřadu} election{zvolení} coronation{korunovace} abdication{abdikace} award{ocenění} title{titul} record{rekord} work{dílo} premiere{premiéra} publication{vydání} discovery{objev} breakthrough{průlom} battle{bitva} treaty{smlouva} founding{založení} scandal{skandál} arrest{zatčení} trial{soud} assassination_attempt{pokus o atentát} assassination{atentát} resignation{odstoupení} event{událost} marriage{sňatek} club{klub} death{úmrtí} other{událost}}'**
   String eventType(String type);
 
   /// No description provided for @eventDayTitle.

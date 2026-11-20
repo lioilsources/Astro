@@ -73,4 +73,36 @@ void main() {
       expect(series[d], closeTo(engine.tensionAt(from + d), 6), reason: 'day $d');
     }
   });
+
+  test('tension profile equals the series, with own or shared tracks', () {
+    final from = jd(2020, 1, 1, 12);
+    const days = 800;
+    final series = engine.tensionSeries(from, days);
+    final moment = from + 123.3;
+    final own = engine.tensionProfile(from, days, [moment]);
+    for (var d = 0; d < days; d++) {
+      expect(own.series[d], closeTo(series[d], 1e-9), reason: 'day $d');
+    }
+    expect(own.at.single, closeTo(engine.tensionAt(moment), 6));
+    final shared = {
+      for (final b in Body.planets)
+        if (b != Body.moon) b: TransitEngine.tensionTrack(b, from - 400, from + days + 400),
+    };
+    // A track built in pieces on one grid and joined equals one long build.
+    for (final b in [Body.sun, Body.mercury, Body.mars]) {
+      final step = TransitEngine.tensionStepDays(b);
+      final piece = step * 50;
+      final whole = TransitEngine.tensionTrack(b, from, from + days);
+      final joined = LongitudeTrack.joined([
+        for (var a = from; a < from + days; a += piece) LongitudeTrack.build(b, a, (a + piece).clamp(from, from + days), step),
+      ]);
+      for (var t = from; t < from + days; t += 7.3) {
+        expect(joined.at(t), closeTo(whole.at(t), 1e-9), reason: '$b $t');
+      }
+    }
+    final viaShared = engine.tensionProfile(from, days, [moment], shared: shared);
+    for (var d = 0; d < days; d += 13) {
+      expect(viaShared.series[d], closeTo(series[d], 0.5), reason: 'day $d');
+    }
+  });
 }

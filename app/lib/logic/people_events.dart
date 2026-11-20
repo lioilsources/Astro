@@ -1,3 +1,4 @@
+import 'dart:io' show Platform;
 import 'dart:isolate';
 import 'dart:math' as math;
 
@@ -135,13 +136,16 @@ class LifeInput {
   const LifeInput(this.natal, this.deathJd, this.eventJds);
 }
 
+/// Coarser ephemeris sampling for the catalog-wide check (documented in the method note).
+const catalogStepScale = 2.0;
+
 /// Ranks of one life's event days and the reference pool of that life.
-List<EventDaySample> lifeSamples(LifeInput p, double now, {double stepScale = 2}) {
+List<EventDaySample> lifeSamples(LifeInput p, double now, {Map<Body, LongitudeTrack> shared = const {}}) {
   final days = lifeDays(p.natal, p.deathJd, now);
   final from = p.natal.time.jdUt;
   final inside = [for (final jd in p.eventJds) if (jd > from && jd < from + days) jd];
   if (inside.isEmpty) return const [];
-  final prof = TransitEngine(p.natal).tensionProfile(from, days, inside, stepScale: stepScale);
+  final prof = TransitEngine(p.natal).tensionProfile(from, days, inside, stepScale: catalogStepScale, shared: shared);
   if (prof.series.every((v) => v == prof.series.first)) return const []; // no ephemeris coverage
   final sorted = [...prof.series]..sort();
   final pool = lifePool(prof.series);
@@ -154,15 +158,80 @@ class CatalogCheck {
   const CatalogCheck(this.summary, this.people);
 }
 
-/// Catalog-wide check of all defining events, split over a few isolates.
-Future<CatalogCheck> computeCatalogCheck(List<LifeInput> lives, double now, {int workers = 4}) async {
-  final parts = [for (var w = 0; w < workers; w++) [for (var i = w; i < lives.length; i += workers) lives[i]]];
+/// Spans of time covered by the lives (merged when closer than [gapDays]).
+List<({double from, double to})> lifeSpans(List<LifeInput> lives, double now, {double gapDays = 3650}) {
+  final spans = [
+    for (final p in lives) (from: p.natal.time.jdUt, to: p.natal.time.jdUt + lifeDays(p.natal, p.deathJd, now)),
+  ]..sort((a, b) => a.from.compareTo(b.from));
+  final out = <({double from, double to})>[];
+  for (final s in spans) {
+    if (out.isNotEmpty && s.from <= out.last.to + gapDays) {
+      out.last = (from: out.last.from, to: math.max(out.last.to, s.to));
+    } else {
+      out.add(s);
+    }
+  }
+  return out;
+}
+
+/// Catalog-wide check of all defining events. The ephemeris pass is shared: one track per
+/// planet and span of lives (Pluto per life, its tables do not cover every century), built
+/// in parallel isolates; the lives are then scored in parallel isolates.
+Future<CatalogCheck> computeCatalogCheck(List<LifeInput> lives, double now, {int? workers}) async {
+  final w = workers ?? Platform.numberOfProcessors.clamp(2, 8);
+  final spans = lifeSpans(lives, now);
+  final bodies = [for (final b in Body.planets) if (b != Body.moon && b != Body.pluto) b];
+  // Pieces of about 40 years on one sampling grid per body, built in parallel and joined.
+  final jobs = <({int span, Body body, double from, double to, double step})>[];
+  for (var si = 0; si < spans.length; si++) {
+    final s = spans[si];
+    for (final b in bodies) {
+      final step = TransitEngine.tensionStepDays(b, stepScale: catalogStepScale);
+      final piece = step * (40 * 365.25 / step).ceil();
+      for (var a = s.from; a < s.to; a += piece) {
+        jobs.add((span: si, body: b, from: a, to: math.min(a + piece, s.to), step: step));
+      }
+    }
+  }
+  final pieces = <LongitudeTrack>[];
+  for (var i = 0; i < jobs.length; i += w) {
+    final batch = jobs.sublist(i, math.min(i + w, jobs.length));
+    pieces.addAll(await Future.wait([
+      for (final j in batch) _trackIn(j.body, j.from, j.to, j.step),
+    ]));
+  }
+  final built = <({double from, double to, Body body, LongitudeTrack track})>[];
+  for (var si = 0; si < spans.length; si++) {
+    for (final b in bodies) {
+      final parts = [for (var i = 0; i < jobs.length; i++) if (jobs[i].span == si && jobs[i].body == b) pieces[i]];
+      built.add((from: spans[si].from, to: spans[si].to, body: b, track: LongitudeTrack.joined(parts)));
+    }
+  }
+  Map<Body, LongitudeTrack> sharedFor(LifeInput p) {
+    final from = p.natal.time.jdUt;
+    return {
+      for (final t in built)
+        if (t.from <= from && from <= t.to) t.body: t.track,
+    };
+  }
+
+  final parts = [for (var k = 0; k < w; k++) [for (var i = k; i < lives.length; i += w) lives[i]]];
   final results = await Future.wait([
-    for (final part in parts) Isolate.run(() => [for (final p in part) lifeSamples(p, now)]),
+    for (final part in parts) _scoreIn([for (final p in part) (p: p, shared: sharedFor(p))], now),
   ]);
-  final perLife = [for (final r in results) ...r];
+  // Back to catalog order, so the result does not depend on the number of isolates.
+  final perLife = [for (var i = 0; i < lives.length; i++) results[i % w][i ~/ w]];
   final samples = [for (final s in perLife) ...s];
   final people = perLife.where((s) => s.isNotEmpty).length;
-  final summary = await Isolate.run(() => summarizeEventDays(samples));
+  final summary = await _summarizeIn(samples);
   return CatalogCheck(summary, people);
 }
+
+// Top-level helpers so the isolate closures capture only their arguments.
+Future<LongitudeTrack> _trackIn(Body body, double from, double to, double step) =>
+    Isolate.run(() => LongitudeTrack.build(body, from, to, step));
+
+Future<List<List<EventDaySample>>> _scoreIn(List<({LifeInput p, Map<Body, LongitudeTrack> shared})> inputs, double now) =>
+    Isolate.run(() => [for (final x in inputs) lifeSamples(x.p, now, shared: x.shared)]);
+
+Future<EventDaySummary?> _summarizeIn(List<EventDaySample> samples) => Isolate.run(() => summarizeEventDays(samples));

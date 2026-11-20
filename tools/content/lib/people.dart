@@ -53,19 +53,24 @@ List<String> validatePeople(List<Map<String, dynamic>> records) {
 const eventTypes = [
   'office', 'election', 'coronation', 'abdication', 'award', 'title', 'record', 'work', 'premiere',
   'publication', 'discovery', 'breakthrough', 'battle', 'treaty', 'founding', 'scandal', 'arrest',
-  'trial', 'assassination_attempt', 'resignation', 'event', 'marriage', 'club', 'death', 'other',
+  'trial', 'assassination_attempt', 'assassination', 'resignation', 'event', 'marriage', 'club', 'death', 'other',
 ];
 
 const _months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
 
-/// Day-precise dates written in an English sentence ("18 June 1815", "June 18, 1815") as YYYY-MM-DD.
+const _csMonths = ['ledna', 'února', 'března', 'dubna', 'května', 'června', 'července', 'srpna', 'září', 'října', 'listopadu', 'prosince'];
+
+/// Day-precise dates written in an English or Czech sentence ("18 June 1815", "June 18, 1815",
+/// "18. června 1815") as YYYY-MM-DD.
 Set<String> datesWrittenIn(String text) {
   final m = _months.join('|');
-  String iso(String y, String mo, String d) =>
-      '${int.parse(y).toString().padLeft(4, '0')}-${(_months.indexOf(mo) + 1).toString().padLeft(2, '0')}-${int.parse(d).toString().padLeft(2, '0')}';
+  final cs = _csMonths.join('|');
+  String iso(String y, int month, String d) =>
+      '${int.parse(y).toString().padLeft(4, '0')}-${month.toString().padLeft(2, '0')}-${int.parse(d).toString().padLeft(2, '0')}';
   return {
-    for (final x in RegExp('\\b(\\d{1,2}) ($m),? (\\d{3,4})\\b').allMatches(text)) iso(x[3]!, x[2]!, x[1]!),
-    for (final x in RegExp('\\b($m) (\\d{1,2}),? (\\d{3,4})\\b').allMatches(text)) iso(x[3]!, x[1]!, x[2]!),
+    for (final x in RegExp('\\b(\\d{1,2}) ($m),? (\\d{3,4})\\b').allMatches(text)) iso(x[3]!, _months.indexOf(x[2]!) + 1, x[1]!),
+    for (final x in RegExp('\\b($m) (\\d{1,2}),? (\\d{3,4})\\b').allMatches(text)) iso(x[3]!, _months.indexOf(x[1]!) + 1, x[2]!),
+    for (final x in RegExp('\\b(\\d{1,2})\\. ?($cs) (\\d{3,4})\\b', unicode: true).allMatches(text)) iso(x[3]!, _csMonths.indexOf(x[2]!) + 1, x[1]!),
   };
 }
 
@@ -101,7 +106,8 @@ List<String> validateEvent(Map<String, dynamic> e, String birthDate) {
     final url = e['url'] as String? ?? '';
     if (!url.startsWith('https://')) err('a defining event needs a source url');
   }
-  if (source.startsWith('Wikipedia')) {
+  // "Wikipedia: <title>" (English) or "Wikipedie: <název>" (Czech article).
+  if (source.startsWith('Wikipedia') || source.startsWith('Wikipedie')) {
     final quote = e['quote'] as String? ?? '';
     final written = e['date_julian'] as String? ?? d;
     if (quote.isEmpty) {
@@ -109,7 +115,8 @@ List<String> validateEvent(Map<String, dynamic> e, String birthDate) {
     } else if (!datesWrittenIn(quote).contains(written)) {
       err('the quoted sentence does not write the date $written');
     }
-    if (!(e['url'] as String? ?? '').startsWith('https://en.wikipedia.org/wiki/')) err('a Wikipedia event needs the article url');
+    final wiki = source.startsWith('Wikipedie') ? 'https://cs.wikipedia.org/wiki/' : 'https://en.wikipedia.org/wiki/';
+    if (!(e['url'] as String? ?? '').startsWith(wiki)) err('a Wikipedia event needs the article url');
   } else if (source.startsWith('Wikidata') && !RegExp(r'^Wikidata Q\d+ P\d+( Q\d+)?$').hasMatch(source)) {
     err('Wikidata source must be "Wikidata <QID> <property> [<value QID>]"');
   }

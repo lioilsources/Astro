@@ -183,7 +183,7 @@ popisy odpovídají tomu, co víme z historie.
 | `date` | den události, vždy na den přesně, v gregoriánském kalendáři |
 | `date_julian` | datum tak, jak ho píše pramen v juliánském kalendáři (před reformou); jinak chybí |
 | `label` | krátký český popis |
-| `type` | druh: office, election, coronation, abdication, award, title, record, work, premiere, publication, discovery, breakthrough, battle, treaty, founding, scandal, arrest, trial, assassination_attempt, resignation, event, marriage, club, death, other |
+| `type` | druh: office, election, coronation, abdication, award, title, record, work, premiere, publication, discovery, breakthrough, battle, treaty, founding, scandal, arrest, trial, assassination_attempt, assassination, resignation, event, marriage, club, death, other |
 | `defining` | `true` = událost, kvůli které je osobnost známá (zvolení, premiéra, titul, objev, abdikace, atentát…); `false` = běžná životní událost (sňatek, klub, úmrtí) |
 | `source` | `Wikidata <QID> <vlastnost> [<QID hodnoty>]` nebo `Wikipedia: <název článku>` |
 | `url` | odkaz na výrok ve Wikidatech nebo na článek |
@@ -202,9 +202,12 @@ události, kromě úřadů, ocenění a děl.
 2. `wiki_sentences.py` stáhne anglické články Wikipedie (TextExtracts, postupně, s
    pauzou, cache v `run/people-cache/wiki/`) a vypíše věty s datem na den přesně do
    `run/people-events/<id>.txt`.
+   S `--cs` stáhne české články lidí, kterým zatím chybí dvě zlomové události, do
+   `run/people-events/cs-<id>.txt` (data ve tvaru „16. ledna 1969“).
 3. Z těch vět se ručně vyberou hlavní události do `tools/people/defining.json`
-   (podle názvu článku: datum, jak ho věta píše, český popis, druh, doslovná věta).
-   Data se nikdy nedoplňují z paměti.
+   (klíč je anglický název článku; datum, jak ho věta píše, český popis, druh, doslovná
+   věta; u české Wikipedie navíc `"lang": "cs"` a `"article"`). Data se nikdy nedoplňují
+   z paměti. `check_defining.py` výběr ověří proti cache.
 4. Builder ověří, že věta v článku doslova je a že datum v ní napsané odpovídá; data
    před 15. 10. 1582 převede z juliánského kalendáře (jinak `"calendar"` u položky).
 5. Validátor (`tools/content/lib/people.dart`): skutečný den, ne před narozením, zdroj,
@@ -233,3 +236,15 @@ události, kromě úřadů, ocenění a děl.
   stejně výrazně jako opak. Výpočet běží ve čtyřech isolatech s dvojnásobným krokem
   efemeridy. Kód: `astro_core/lib/src/journal/event_days.dart`,
   `app/lib/logic/people_events.dart`.
+
+### Stav (2026-11-20)
+
+- 1 722 událostí, z toho 1 169 zlomových: 711 z anglické Wikipedie, 52 z české,
+  406 z Wikidat (P39 116, P800 105, P166 89, P793 77, vítězství 19). 23 dat převedeno
+  z juliánského kalendáře.
+- Aspoň dvě zlomové události má 262 z 298 osobností. Zbylých 36 (hlavně malíři,
+  modelky, část českých herců a sportovců) nemá v žádném z pramenů větu s celým datem;
+  test hlídá, aby jich bylo pod 15 %.
+- Souhrn katalogu: 1 168 zlomových událostí u 280 osobností, průměrný percentil napětí
+  dne 50,2 (náhodně 50), v horních 20 % 19,2 % událostí (náhodně 20,0 %), p = 0,85
+  oboustranně, pro horních 20 % p = 0,78. Souvislost se neukázala.

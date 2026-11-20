@@ -369,19 +369,54 @@ class TransitEngine {
   /// same sampled tracks, so a known event day is compared with its life on equal terms
   /// (people catalog, plan 4.3). [stepScale] > 1 samples the tracks more coarsely (faster, for
   /// catalog-wide summaries); moments outside [from, from + days] are clamped to the range.
-  ({List<double> series, List<double> at}) tensionProfile(double from, int days, List<double> moments, {double stepScale = 1}) {
+  /// [shared] tracks (from [tensionTrack]) that cover the whole range are used instead of
+  /// building new ones, so many lives can share one ephemeris pass.
+  ({List<double> series, List<double> at}) tensionProfile(double from, int days, List<double> moments,
+      {double stepScale = 1, Map<Body, LongitudeTrack> shared = const {}}) {
     final to = from + days;
     final tracks = <LongitudeTrack>[
       for (final b in Body.planets)
         if (b != Body.moon && Ephemeris.available(b, from) && Ephemeris.available(b, to))
-          LongitudeTrack.build(b, from, to, _tensionStep[b]! * stepScale),
+          switch (shared[b]) {
+            final s? when s.start <= from && s.end >= to => s,
+            _ => tensionTrack(b, from, to, stepScale: stepScale),
+          },
     ];
-    double at(double jd) => _tension({for (final t in tracks) t.body: t.at(jd.clamp(from, to))});
+    // Same sum as [_tension], unrolled for the long loops: natal longitudes and weights looked up
+    // once; for a separation s in [0, 180] the deviations are s (conjunction), |s − 90| (the one
+    // square side that can be in orb) and 180 − s (opposition).
+    final tg = targets;
+    final natalLon = [for (final t in tg) natal.lonOf(t)!];
+    final personal = [for (final t in tg) t.isPersonal ? 15.0 : 0.0];
+    final slow = [for (final t in tracks) (_slowness[t.body] ?? 0).toDouble()];
+    final orb = orbs.transitOrb;
+    double add(double d, int i, int k) => d > orb ? 0 : 35 * (1 - d / orb) + slow[i] + personal[k];
+    double at(double jd) {
+      final t = jd.clamp(from, to);
+      var sum = 0.0;
+      for (var i = 0; i < tracks.length; i++) {
+        final lonT = tracks[i].at(t);
+        for (var k = 0; k < natalLon.length; k++) {
+          var s = (lonT - natalLon[k]).abs() % 360;
+          if (s > 180) s = 360 - s;
+          sum += add(s, i, k) + add((s - 90).abs(), i, k) + add(180 - s, i, k);
+        }
+      }
+      return sum;
+    }
+
     return (
       series: [for (var d = 0; d < days; d++) at(from + d)],
       at: [for (final m in moments) at(m)],
     );
   }
+
+  /// Sampled track of [body] over [from, to] at the tension sampling step × [stepScale].
+  static LongitudeTrack tensionTrack(Body body, double from, double to, {double stepScale = 1}) =>
+      LongitudeTrack.build(body, from, to, tensionStepDays(body, stepScale: stepScale));
+
+  /// Sampling step (days) of the tension tracks.
+  static double tensionStepDays(Body body, {double stepScale = 1}) => _tensionStep[body]! * stepScale;
 
   static const _tensionStep = {
     Body.sun: 4.0, Body.mercury: 2.0, Body.venus: 4.0, Body.mars: 8.0,
