@@ -13,17 +13,20 @@ class ChartWheel extends StatelessWidget {
   /// Optional outer ring (transits or a second person).
   final Map<Body, double>? outer;
 
+  /// Aspect pattern to stand out: its sides drawn bold, its planets in the accent colour.
+  final ChartPattern? highlight;
+
   /// Fixed-star longitudes to mark on the outer rim; [starHits] are the ids in conjunction.
   final Map<FixedStar, double>? stars;
   final Set<String> starHits;
-  const ChartWheel(this.chart, {super.key, this.outer, this.stars, this.starHits = const {}});
+  const ChartWheel(this.chart, {super.key, this.outer, this.stars, this.starHits = const {}, this.highlight});
 
   @override
   Widget build(BuildContext context) {
     final scheme = Theme.of(context).colorScheme;
     return AspectRatio(
       aspectRatio: 1,
-      child: CustomPaint(painter: WheelPainter(chart, scheme, outer: outer, stars: stars, starHits: starHits, textStyle: Theme.of(context).textTheme.bodySmall ?? const TextStyle())),
+      child: CustomPaint(painter: WheelPainter(chart, scheme, outer: outer, stars: stars, starHits: starHits, highlight: highlight, textStyle: Theme.of(context).textTheme.bodySmall ?? const TextStyle())),
     );
   }
 }
@@ -33,9 +36,10 @@ class WheelPainter extends CustomPainter {
   final ColorScheme scheme;
   final Map<Body, double>? outer;
   final TextStyle textStyle;
+  final ChartPattern? highlight;
   final Map<FixedStar, double>? stars;
   final Set<String> starHits;
-  WheelPainter(this.chart, this.scheme, {this.outer, this.stars, this.starHits = const {}, this.textStyle = const TextStyle()});
+  WheelPainter(this.chart, this.scheme, {this.outer, this.stars, this.starHits = const {}, this.highlight, this.textStyle = const TextStyle()});
 
   static const _elementColors = [Color(0xFFD9534F), Color(0xFF5B8C3A), Color(0xFFD4A82A), Color(0xFF3E7CB1)];
 
@@ -126,8 +130,28 @@ class WheelPainter extends CustomPainter {
       };
       canvas.drawLine(at(la, rHouse), at(lb, rHouse),
           Paint()
-            ..color = color.withValues(alpha: 0.35 + 0.5 * a.exactness)
+            ..color = color.withValues(alpha: highlight == null ? 0.35 + 0.5 * a.exactness : 0.12)
             ..strokeWidth = 1.2);
+    }
+
+    // Highlighted pattern: bold sides (quincunx in the tertiary colour) and dots on its planets.
+    final hl = highlight;
+    if (hl != null) {
+      for (final a in hl.sides) {
+        final la = chart.lonOf(a.a), lb = chart.lonOf(a.b);
+        if (la == null || lb == null) continue;
+        final color = a.type == AspectType.quincunx
+            ? scheme.tertiary
+            : (a.type.quality == AspectQuality.harmonious ? const Color(0xFF3E7CB1) : const Color(0xFFD9534F));
+        canvas.drawLine(at(la, rHouse), at(lb, rHouse),
+            Paint()
+              ..color = color
+              ..strokeWidth = 2.6);
+      }
+      for (final b in hl.bodies) {
+        final lon = chart.positions[b]?.lon;
+        if (lon != null) canvas.drawCircle(at(lon, rHouse), r * 0.018, Paint()..color = scheme.primary);
+      }
     }
 
     // Planets, spread when clustered, with a tick at the true position.
@@ -137,7 +161,8 @@ class WheelPainter extends CustomPainter {
     for (var i = 0; i < bodies.length; i++) {
       canvas.drawLine(at(lons[i], rSignIn), at(lons[i], rSignIn - r * 0.04), Paint()..color = scheme.onSurface);
       final p = chart.positions[bodies[i]]!;
-      _text(canvas, bodyGlyph[bodies[i]]!, at(shown[i], rPlanet), r * 0.08, p.retrograde ? scheme.error : scheme.onSurface);
+      final color = (hl?.bodies.contains(bodies[i]) ?? false) ? scheme.primary : (p.retrograde ? scheme.error : scheme.onSurface);
+      _text(canvas, bodyGlyph[bodies[i]]!, at(shown[i], rPlanet), r * 0.08, color);
     }
 
     // Fixed stars: dots on the outer rim, larger and highlighted when in conjunction.
@@ -174,5 +199,5 @@ class WheelPainter extends CustomPainter {
   }
 
   @override
-  bool shouldRepaint(WheelPainter old) => old.chart != chart || old.scheme != scheme || old.outer != outer || old.stars != stars || old.starHits != starHits;
+  bool shouldRepaint(WheelPainter old) => old.chart != chart || old.scheme != scheme || old.outer != outer || old.stars != stars || old.starHits != starHits || old.highlight != highlight;
 }

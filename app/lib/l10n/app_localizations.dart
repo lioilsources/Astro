@@ -442,6 +442,78 @@ abstract class AppLocalizations {
   /// **'Přemíra a nedostatek'**
   String get sectionEmphasis;
 
+  /// No description provided for @patterns.
+  ///
+  /// In cs, this message translates to:
+  /// **'Obrazce aspektů'**
+  String get patterns;
+
+  /// No description provided for @noPatterns.
+  ///
+  /// In cs, this message translates to:
+  /// **'V horoskopu není žádný obrazec aspektů.'**
+  String get noPatterns;
+
+  /// No description provided for @patternName.
+  ///
+  /// In cs, this message translates to:
+  /// **'{kind, select, grandTrine{Velký trigon} tSquare{T-kvadrát} grandCross{Velký kříž} yod{Jod} kite{Drak} cradle{Kolébka} mysticRectangle{Mystický obdélník} other{?}}'**
+  String patternName(String kind);
+
+  /// No description provided for @patternWithQuality.
+  ///
+  /// In cs, this message translates to:
+  /// **'{pattern} ({quality})'**
+  String patternWithQuality(Object pattern, Object quality);
+
+  /// No description provided for @elementName.
+  ///
+  /// In cs, this message translates to:
+  /// **'{element, select, fire{oheň} earth{země} air{vzduch} water{voda} other{?}}'**
+  String elementName(String element);
+
+  /// No description provided for @modalityName.
+  ///
+  /// In cs, this message translates to:
+  /// **'{m, select, cardinal{kardinální} fixed{pevný} mutable{proměnlivý} other{?}}'**
+  String modalityName(String m);
+
+  /// No description provided for @modalityExcess.
+  ///
+  /// In cs, this message translates to:
+  /// **'Přemíra {m, select, cardinal{kardinálních} fixed{pevných} mutable{proměnlivých} other{?}} znamení'**
+  String modalityExcess(String m);
+
+  /// No description provided for @modalityLack.
+  ///
+  /// In cs, this message translates to:
+  /// **'Nedostatek {m, select, cardinal{kardinálních} fixed{pevných} mutable{proměnlivých} other{?}} znamení'**
+  String modalityLack(String m);
+
+  /// No description provided for @hemisphereEmphasis.
+  ///
+  /// In cs, this message translates to:
+  /// **'{h, select, above{Důraz nad obzorem} below{Důraz pod obzorem} east{Důraz na východní polokouli} west{Důraz na západní polokouli} other{?}}'**
+  String hemisphereEmphasis(String h);
+
+  /// No description provided for @unaspectedPlanet.
+  ///
+  /// In cs, this message translates to:
+  /// **'{planet} bez aspektu'**
+  String unaspectedPlanet(Object planet);
+
+  /// No description provided for @patternApexTitle.
+  ///
+  /// In cs, this message translates to:
+  /// **'{planet} na vrcholu {kind, select, tSquare{T-kvadrátu} yod{jodu} other{?}}'**
+  String patternApexTitle(Object planet, String kind);
+
+  /// No description provided for @patternApex.
+  ///
+  /// In cs, this message translates to:
+  /// **'vrchol: {planets}'**
+  String patternApex(Object planets);
+
   /// No description provided for @textMissing.
   ///
   /// In cs, this message translates to:

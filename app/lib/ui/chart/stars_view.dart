@@ -13,7 +13,10 @@ import '../wheel.dart';
 /// The natal wheel with a switch for fixed-star markers on the outer rim (plan 10.6).
 class WheelWithStars extends StatefulWidget {
   final Chart chart;
-  const WheelWithStars(this.chart, {super.key});
+
+  /// Aspect pattern to highlight (R1).
+  final ChartPattern? highlight;
+  const WheelWithStars(this.chart, {super.key, this.highlight});
   @override
   State<WheelWithStars> createState() => _WheelWithStarsState();
 }
@@ -26,7 +29,7 @@ class _WheelWithStarsState extends State<WheelWithStars> {
     final l = AppLocalizations.of(context);
     final c = widget.chart;
     return Column(children: [
-      ChartWheel(c, stars: _stars ? c.starLons : null, starHits: {for (final s in c.starContacts) s.star.id}),
+      ChartWheel(c, stars: _stars ? c.starLons : null, starHits: {for (final s in c.starContacts) s.star.id}, highlight: widget.highlight),
       SwitchListTile(
         dense: true,
         contentPadding: EdgeInsets.zero,

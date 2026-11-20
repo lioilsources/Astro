@@ -190,6 +190,109 @@ class AppLocalizationsCs extends AppLocalizations {
   String get sectionEmphasis => 'Přemíra a nedostatek';
 
   @override
+  String get patterns => 'Obrazce aspektů';
+
+  @override
+  String get noPatterns => 'V horoskopu není žádný obrazec aspektů.';
+
+  @override
+  String patternName(String kind) {
+    String _temp0 = intl.Intl.selectLogic(kind, {
+      'grandTrine': 'Velký trigon',
+      'tSquare': 'T-kvadrát',
+      'grandCross': 'Velký kříž',
+      'yod': 'Jod',
+      'kite': 'Drak',
+      'cradle': 'Kolébka',
+      'mysticRectangle': 'Mystický obdélník',
+      'other': '?',
+    });
+    return '$_temp0';
+  }
+
+  @override
+  String patternWithQuality(Object pattern, Object quality) {
+    return '$pattern ($quality)';
+  }
+
+  @override
+  String elementName(String element) {
+    String _temp0 = intl.Intl.selectLogic(element, {
+      'fire': 'oheň',
+      'earth': 'země',
+      'air': 'vzduch',
+      'water': 'voda',
+      'other': '?',
+    });
+    return '$_temp0';
+  }
+
+  @override
+  String modalityName(String m) {
+    String _temp0 = intl.Intl.selectLogic(m, {
+      'cardinal': 'kardinální',
+      'fixed': 'pevný',
+      'mutable': 'proměnlivý',
+      'other': '?',
+    });
+    return '$_temp0';
+  }
+
+  @override
+  String modalityExcess(String m) {
+    String _temp0 = intl.Intl.selectLogic(m, {
+      'cardinal': 'kardinálních',
+      'fixed': 'pevných',
+      'mutable': 'proměnlivých',
+      'other': '?',
+    });
+    return 'Přemíra $_temp0 znamení';
+  }
+
+  @override
+  String modalityLack(String m) {
+    String _temp0 = intl.Intl.selectLogic(m, {
+      'cardinal': 'kardinálních',
+      'fixed': 'pevných',
+      'mutable': 'proměnlivých',
+      'other': '?',
+    });
+    return 'Nedostatek $_temp0 znamení';
+  }
+
+  @override
+  String hemisphereEmphasis(String h) {
+    String _temp0 = intl.Intl.selectLogic(h, {
+      'above': 'Důraz nad obzorem',
+      'below': 'Důraz pod obzorem',
+      'east': 'Důraz na východní polokouli',
+      'west': 'Důraz na západní polokouli',
+      'other': '?',
+    });
+    return '$_temp0';
+  }
+
+  @override
+  String unaspectedPlanet(Object planet) {
+    return '$planet bez aspektu';
+  }
+
+  @override
+  String patternApexTitle(Object planet, String kind) {
+    String _temp0 = intl.Intl.selectLogic(kind, {
+      'tSquare': 'T-kvadrátu',
+      'yod': 'jodu',
+      'other': '?',
+    });
+    return '$planet na vrcholu $_temp0';
+  }
+
+  @override
+  String patternApex(Object planets) {
+    return 'vrchol: $planets';
+  }
+
+  @override
   String get textMissing => 'Text pro toto postavení zatím chybí.';
 
   @override

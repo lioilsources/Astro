@@ -8,6 +8,7 @@ import '../../logic/reading.dart';
 import '../../state.dart';
 import '../entry_view.dart';
 import '../format.dart';
+import 'patterns_view.dart';
 
 class ReadingTab extends ConsumerStatefulWidget {
   final Chart chart;
@@ -26,6 +27,7 @@ class _ReadingTabState extends ConsumerState<ReadingTab> {
         'aspects' => l.sectionAspects,
         'cusps' => l.sectionCusps,
         'emphasis' => l.sectionEmphasis,
+        'patterns' => l.patterns,
         'stars' => l.sectionStars,
         _ => l.themeName(id),
       };
@@ -61,6 +63,7 @@ class _ReadingTabState extends ConsumerState<ReadingTab> {
 
   String _fallback(AppLocalizations l, ReadingItem i) {
     final f = i.factor;
+    if (f.pattern != null) return l.patternKeyTitle(f.key, f.pattern!);
     if (f.star != null) return '${l.starName(f.star!.star.id)} – ${l.point(f.star!.point)}';
     if (f.aspect != null) return '${l.point(f.aspect!.a)} ${l.aspect(f.aspect!.type)} ${l.point(f.aspect!.b)}';
     if (f.body != null && f.sign != null) return '${l.body(f.body!)} – ${l.sign(f.sign!)}';

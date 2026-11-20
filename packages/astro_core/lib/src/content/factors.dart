@@ -1,11 +1,12 @@
 import '../aspects.dart';
 import '../chart.dart';
 import '../model.dart';
+import '../patterns.dart';
 import '../stars.dart';
 import '../transits.dart';
 import 'keys.dart';
 
-enum FactorKind { planetInSign, planetInHouse, aspect, aspectPoint, signOnCusp, emphasis, star }
+enum FactorKind { planetInSign, planetInHouse, aspect, aspectPoint, signOnCusp, emphasis, pattern, star }
 
 /// One interpretable fact of a chart with the key of its text.
 class Factor {
@@ -18,10 +19,11 @@ class Factor {
   final Sign? sign;
   final int? house;
   final Aspect? aspect;
+  final ChartPattern? pattern;
 
   /// Star conjunction (kind [FactorKind.star]): the tightest contact of the star.
   final StarContact? star;
-  const Factor(this.key, this.kind, this.weight, {this.body, this.sign, this.house, this.aspect, this.star});
+  const Factor(this.key, this.kind, this.weight, {this.body, this.sign, this.house, this.aspect, this.pattern, this.star});
   @override
   String toString() => '$key (${weight.toStringAsFixed(2)})';
 }
@@ -76,7 +78,38 @@ List<Factor> factorsOf(Chart c) {
     }
   }
   out.addAll(emphasisOf(c));
+  out.addAll(patternFactorsOf(c));
   out.addAll(starFactorsOf(c));
+  return out;
+}
+
+/// Content keys of one pattern: a T-square has the shape and its apex, a yod only its apex.
+List<String> patternKeysOf(ChartPattern p) => switch (p.kind) {
+      PatternKind.grandTrine => ['pattern/grand_trine/${p.element!.name}'],
+      PatternKind.tSquare => [
+          'pattern/t_square/${p.modality!.name}',
+          for (final b in p.apexes) 'pattern/t_square_apex/${b.name}',
+        ],
+      PatternKind.grandCross => ['pattern/grand_cross/${p.modality!.name}'],
+      PatternKind.yod => [for (final b in p.apexes) 'pattern/yod_apex/${b.name}'],
+      PatternKind.kite => ['pattern/kite/${p.element!.name}'],
+      PatternKind.cradle => ['pattern/cradle'],
+      PatternKind.mysticRectangle => ['pattern/mystic_rectangle'],
+      PatternKind.modalityExcess => ['pattern/modality/${p.modality!.name}/excess'],
+      PatternKind.modalityLack => ['pattern/modality/${p.modality!.name}/lack'],
+      PatternKind.hemisphere => ['pattern/hemisphere/${p.hemisphere!.name}'],
+      PatternKind.unaspected => ['pattern/unaspected/${p.bodies.single.name}'],
+    };
+
+/// Pattern texts of a chart, each key once (shapes weigh more than counts).
+List<Factor> patternFactorsOf(Chart c) {
+  final out = <Factor>[];
+  final seen = <String>{};
+  for (final p in c.patterns) {
+    for (final k in patternKeysOf(p)) {
+      if (seen.add(k)) out.add(Factor(k, FactorKind.pattern, p.kind.isShape ? 0.8 : 0.6, pattern: p));
+    }
+  }
   return out;
 }
 
