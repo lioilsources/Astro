@@ -24,8 +24,9 @@ pushi, `release-ios.yml` a `release-android.yml` po tagu `v*` (skill `release-fl
 - **Export compliance**: `ITSAppUsesNonExemptEncryption = false`. Appka šifruje jen
   vlastní data v telefonu (AES-GCM, balíček `cryptography`); ověřit, že to spadá
   pod výjimku.
-- **Linka pomoci**: text „Linka první psychické pomoci“ v appce nemá číslo; doplnit
-  ověřené číslo (plán 5.1).
+- **Linka pomoci**: Linka první psychické pomoci 116 123 (nonstop, zdarma, pro
+  dospělé), ověřeno 20. 11. 2026 na linkapsychickepomoci.cz; odkaz v appce vytáčí.
+  Před každým vydáním ověřit znovu (plán 5.1).
 - **App Store 4.3(b)**: přesycená kategorie; začít TestFlightem (plán 9).
 - **Obsah**: plná dávka textů (F3) až po schválení pilotu; bez ní appka u většiny
   postavení ukazuje „Text zatím chybí“.
