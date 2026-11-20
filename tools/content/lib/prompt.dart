@@ -80,6 +80,18 @@ class PromptBuilder {
         return (title: 'Modifikátor tranzitu: ${p[1]}', facts: 'Krátká vložená věta o fázi tranzitu: ${p[1]}');
       case 'glossary':
         return (title: 'Heslo slovníčku: ${p[1]}', facts: 'Vysvětli astrologický pojem ${p[1]} pro laika.');
+      case 'star':
+        final st = a['stars'][p[1]] as Map<String, dynamic>;
+        return (
+          title: 'Stálice ${st['name']}',
+          facts: 'Stálice ${st['name']}: ${st['place']}. Povaha podle Ptolemaia: ${st['nature']}.\n'
+              'Počítá se jen konjunkce s planetou nebo osou v orbu 1° podle ekliptikální délky.'
+        );
+      case 'star_target':
+        final pt = a['points'][p[1]] as Map<String, dynamic>?;
+        final name = pt?['name'] ?? pn(p[1]);
+        final facts = pt != null ? 'Bod ${pt['name']}: ${pt['core']}.' : _planet(p[1]);
+        return (title: 'Stálice u bodu $name', facts: '$facts\nJedna věta o tom, co znamená, když na tomto bodě leží stálice.');
     }
     throw ArgumentError(key);
   }
@@ -92,6 +104,13 @@ class PromptBuilder {
     final family = familyOf(key);
     final noShadow = shadowExempt.contains(family);
     final traitList = traits.map((t) => '${t.id} (${t.name})').join(', ');
+    final textRule = family == 'star'
+        ? '- "text": 40–80 slov: kde hvězda leží, její mýtus a povaha podle planet. Celý text\n'
+            '  včetně stínu a těžkých pasáží má 150–250 slov; tradiční výroky patří do stínu a "hard".\n'
+            '  Moderní psychologický přepis nevydávej za tradici.'
+        : family == 'star_target'
+            ? '- "text": ${len.min}–${len.max} slov: jedna až dvě věty o tom, které oblasti života hvězda na tomto bodě zasahuje.'
+            : '- "text": ${len.min}–${len.max} slov: povaha, nadání, projevy.';
     return '''
 Napiš český text astrologického výkladu pro mobilní appku.
 
@@ -108,7 +127,7 @@ PRAVIDLA:
 - Žádné "sám/sama", "rád/ráda" o čtenáři; "sám o sobě" o věci je v pořádku.
 - Úplný tradiční výklad. Nic nevynechávej ani nezměkčuj, včetně smrti a nemocí.
   Těžká témata věcně a s uvozením "tradice tu mluví o…", nikdy jako jistota.
-- "text": ${len.min}–${len.max} slov: povaha, nadání, projevy.
+$textRule
 ${noShadow ? '- "shadow": prázdný řetězec.' : '- "shadow": 40–100 slov: slabiny a odvrácená strana téhož.'}
 - "hard": seznam pasáží o těžkých tématech, jen kde tradice něco říká; každá má
   "topics" z výčtu ${hardTopics.join(', ')} a "text" 20–80 slov.

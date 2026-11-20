@@ -8,8 +8,8 @@ import '../../l10n/app_localizations.dart';
 import '../../state.dart';
 import '../format.dart';
 import '../profile_form.dart';
-import '../wheel.dart';
 import 'reading_tab.dart';
+import 'stars_view.dart';
 import 'tables_tab.dart';
 import 'transits_tab.dart';
 
@@ -74,7 +74,7 @@ class _Overview extends StatelessWidget {
     final asc = chart.asc;
     final moonDayChange = !chart.timeKnown && _moonChangesSign(chart);
     return ListView(padding: const EdgeInsets.all(16), children: [
-      ChartWheel(chart),
+      WheelWithStars(chart),
       const SizedBox(height: 16),
       Text(l.oneSentence, style: t.labelLarge),
       Text(
