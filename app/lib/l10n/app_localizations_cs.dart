@@ -1152,4 +1152,123 @@ class AppLocalizationsCs extends AppLocalizations {
   @override
   String get journalErrorNewer =>
       'Deník uložila novější verze appky. Aktualizuj appku; data zůstávají beze změny.';
+
+  @override
+  String get synastryTitle => 'Partnerský horoskop';
+
+  @override
+  String get synastryIntro =>
+      'Srovnání dvou uložených profilů: aspekty mezi planetami, planety jedné osoby v domech druhé.';
+
+  @override
+  String get synastryFirst => 'První osoba';
+
+  @override
+  String get synastrySecond => 'Druhá osoba';
+
+  @override
+  String get synastryRelationship => 'Typ vztahu';
+
+  @override
+  String relationshipName(String type) {
+    String _temp0 = intl.Intl.selectLogic(type, {
+      'partner': 'Partneři',
+      'parentChild': 'Rodič a dítě',
+      'siblings': 'Sourozenci',
+      'friends': 'Přátelé',
+      'colleagues': 'Kolegové',
+      'other': '?',
+    });
+    return '$_temp0';
+  }
+
+  @override
+  String get synastryCompare => 'Porovnat';
+
+  @override
+  String get synastryNeedTwo =>
+      'Pro srovnání potřebuješ aspoň dva uložené profily.';
+
+  @override
+  String get synastrySamePerson => 'Vyber dvě různé osoby.';
+
+  @override
+  String get tabWheel => 'Kolo';
+
+  @override
+  String synastryWheelLegend(Object first, Object second) {
+    return 'Vnitřní kruh: $first · vnější kruh: $second';
+  }
+
+  @override
+  String get synastryAspects => 'Aspekty mezi vámi';
+
+  @override
+  String get synastryNoAspects => 'Mezi horoskopy není žádný aspekt v orbech.';
+
+  @override
+  String synastryHousesOf(Object owner, Object host) {
+    return 'Planety: $owner · domy: $host';
+  }
+
+  @override
+  String synastryNoHouses(Object name) {
+    return '$name: bez času narození nejsou domy ani osy.';
+  }
+
+  @override
+  String synastryPointOf(Object point, Object name) {
+    return '$point ($name)';
+  }
+
+  @override
+  String get synastryPartnerTitle => 'Partnerský dovětek';
+
+  @override
+  String get sectionSynastryAspects => 'Aspekty mezi planetami';
+
+  @override
+  String get sectionSynastryPoints => 'Planety na osách druhého';
+
+  @override
+  String get sectionSynastryHouses => 'Planety v domech druhého';
+
+  @override
+  String get twinsTitle => 'Horoskopy jsou skoro stejné';
+
+  @override
+  String twinsBody(Object diff, Object minutes) {
+    return 'Všechny planety leží do 1° od sebe (nejvíc $diff), takže místo deseti konjunkcí ukazujeme jen to, co se liší. Narození dělí $minutes min.';
+  }
+
+  @override
+  String twinsAxes(Object asc, Object mc) {
+    return 'Ascendent se liší o $asc, MC o $mc.';
+  }
+
+  @override
+  String twinsCusps(Object min, Object max) {
+    return 'Hroty domů se liší o $min až $max.';
+  }
+
+  @override
+  String get twinsNoTime =>
+      'Bez času narození nejde říct, jak se liší osy a domy.';
+
+  @override
+  String twinsHouseChange(Object planet, Object from, Object to) {
+    return '$planet: $from. dům → $to. dům';
+  }
+
+  @override
+  String get twinsNoHouseChange =>
+      'Všechny planety zůstávají ve stejných domech.';
+
+  @override
+  String get twinsGlossary => 'Proč jsou dvojčata různá';
+
+  @override
+  String synastryPairTitle(Object first, Object second) {
+    return '$first a $second';
+  }
 }

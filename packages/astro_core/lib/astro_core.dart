@@ -14,6 +14,7 @@ export 'src/patterns.dart';
 export 'src/planetary_hours.dart';
 export 'src/stars.dart';
 export 'src/sun.dart';
+export 'src/synastry.dart';
 export 'src/time.dart';
 export 'src/transits.dart';
 export 'src/track.dart';

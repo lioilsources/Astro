@@ -574,7 +574,7 @@
   "title": "Proč jsou dvojčata různá",
   "keywords": [],
   "themes": [],
-  "text": "Dvojčata narozená pár minut po sobě mají skoro stejný horoskop. Liší se jen ascendent, MC a domy, a to tím víc, čím víc minut je dělí. Proto mohou být povahou různá v tom, jak jednají a kam míří, a podobná v tom, co cítí a jak myslí. Kritici astrologie dvojčata uvádějí jako hlavní protiargument a mají pravdu v tom, že horoskop nevysvětlí všechno.",
+  "text": "Dvojčata narozená pár minut po sobě mají skoro stejný horoskop. Planety stojí na stejných místech, takže srovnání jejich horoskopů by ukázalo jen deset konjunkcí. Liší se ascendent, MC a hroty domů: ascendent se posune zhruba o stupeň za čtyři minuty a planeta tak může padnout do jiného domu. Proto se dvojčata mohou podobat v tom, co cítí a jak myslí, a lišit v tom, kam míří a jak působí navenek. Kritici astrologie dvojčata uvádějí jako hlavní protiargument a mají pravdu v tom, že horoskop nevysvětlí všechno.",
   "traits": {
    "text": [],
    "shadow": []
@@ -635,6 +635,21 @@
   "keywords": [],
   "themes": [],
   "text": "Královské hvězdy jsou čtyři jasné stálice, které perská tradice považovala za strážce nebe: Aldebaran, Regulus, Antares a Fomalhaut. Leží zhruba ve čtyřech čtvrtinách zvěrokruhu, a proto je spojovali se čtyřmi světovými stranami. Tradice o nich říká, že slibují velký vzestup, ale s podmínkou; kdo ji poruší, tomu se vzestup mění v pád. U Regula to bývá varování před pomstou, u Aldebaranu před nepoctivostí.",
+  "traits": {
+   "text": [],
+   "shadow": []
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "glossary/synastry",
+  "title": "Synastrie",
+  "keywords": [],
+  "themes": [],
+  "text": "Synastrie je srovnání horoskopů dvou lidí. Planety jednoho se položí do kola druhého a hledají se aspekty mezi nimi a domy, do kterých planety jednoho padnou u druhého. Výklad platí pro jakýkoli vztah: partneři, rodič a dítě, sourozenci, přátelé i kolegové. Ukazuje, kde se doplňujete a kde se třete, ne to, jestli vztah vydrží. Dovětek o přitažlivosti a intimitě se zobrazí jen u typu vztahu partner.",
   "traits": {
    "text": [],
    "shadow": []

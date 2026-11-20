@@ -1570,6 +1570,180 @@ abstract class AppLocalizations {
   /// In cs, this message translates to:
   /// **'Deník uložila novější verze appky. Aktualizuj appku; data zůstávají beze změny.'**
   String get journalErrorNewer;
+
+  /// No description provided for @synastryTitle.
+  ///
+  /// In cs, this message translates to:
+  /// **'Partnerský horoskop'**
+  String get synastryTitle;
+
+  /// No description provided for @synastryIntro.
+  ///
+  /// In cs, this message translates to:
+  /// **'Srovnání dvou uložených profilů: aspekty mezi planetami, planety jedné osoby v domech druhé.'**
+  String get synastryIntro;
+
+  /// No description provided for @synastryFirst.
+  ///
+  /// In cs, this message translates to:
+  /// **'První osoba'**
+  String get synastryFirst;
+
+  /// No description provided for @synastrySecond.
+  ///
+  /// In cs, this message translates to:
+  /// **'Druhá osoba'**
+  String get synastrySecond;
+
+  /// No description provided for @synastryRelationship.
+  ///
+  /// In cs, this message translates to:
+  /// **'Typ vztahu'**
+  String get synastryRelationship;
+
+  /// No description provided for @relationshipName.
+  ///
+  /// In cs, this message translates to:
+  /// **'{type, select, partner{Partneři} parentChild{Rodič a dítě} siblings{Sourozenci} friends{Přátelé} colleagues{Kolegové} other{?}}'**
+  String relationshipName(String type);
+
+  /// No description provided for @synastryCompare.
+  ///
+  /// In cs, this message translates to:
+  /// **'Porovnat'**
+  String get synastryCompare;
+
+  /// No description provided for @synastryNeedTwo.
+  ///
+  /// In cs, this message translates to:
+  /// **'Pro srovnání potřebuješ aspoň dva uložené profily.'**
+  String get synastryNeedTwo;
+
+  /// No description provided for @synastrySamePerson.
+  ///
+  /// In cs, this message translates to:
+  /// **'Vyber dvě různé osoby.'**
+  String get synastrySamePerson;
+
+  /// No description provided for @tabWheel.
+  ///
+  /// In cs, this message translates to:
+  /// **'Kolo'**
+  String get tabWheel;
+
+  /// No description provided for @synastryWheelLegend.
+  ///
+  /// In cs, this message translates to:
+  /// **'Vnitřní kruh: {first} · vnější kruh: {second}'**
+  String synastryWheelLegend(Object first, Object second);
+
+  /// No description provided for @synastryAspects.
+  ///
+  /// In cs, this message translates to:
+  /// **'Aspekty mezi vámi'**
+  String get synastryAspects;
+
+  /// No description provided for @synastryNoAspects.
+  ///
+  /// In cs, this message translates to:
+  /// **'Mezi horoskopy není žádný aspekt v orbech.'**
+  String get synastryNoAspects;
+
+  /// No description provided for @synastryHousesOf.
+  ///
+  /// In cs, this message translates to:
+  /// **'Planety: {owner} · domy: {host}'**
+  String synastryHousesOf(Object owner, Object host);
+
+  /// No description provided for @synastryNoHouses.
+  ///
+  /// In cs, this message translates to:
+  /// **'{name}: bez času narození nejsou domy ani osy.'**
+  String synastryNoHouses(Object name);
+
+  /// No description provided for @synastryPointOf.
+  ///
+  /// In cs, this message translates to:
+  /// **'{point} ({name})'**
+  String synastryPointOf(Object point, Object name);
+
+  /// No description provided for @synastryPartnerTitle.
+  ///
+  /// In cs, this message translates to:
+  /// **'Partnerský dovětek'**
+  String get synastryPartnerTitle;
+
+  /// No description provided for @sectionSynastryAspects.
+  ///
+  /// In cs, this message translates to:
+  /// **'Aspekty mezi planetami'**
+  String get sectionSynastryAspects;
+
+  /// No description provided for @sectionSynastryPoints.
+  ///
+  /// In cs, this message translates to:
+  /// **'Planety na osách druhého'**
+  String get sectionSynastryPoints;
+
+  /// No description provided for @sectionSynastryHouses.
+  ///
+  /// In cs, this message translates to:
+  /// **'Planety v domech druhého'**
+  String get sectionSynastryHouses;
+
+  /// No description provided for @twinsTitle.
+  ///
+  /// In cs, this message translates to:
+  /// **'Horoskopy jsou skoro stejné'**
+  String get twinsTitle;
+
+  /// No description provided for @twinsBody.
+  ///
+  /// In cs, this message translates to:
+  /// **'Všechny planety leží do 1° od sebe (nejvíc {diff}), takže místo deseti konjunkcí ukazujeme jen to, co se liší. Narození dělí {minutes} min.'**
+  String twinsBody(Object diff, Object minutes);
+
+  /// No description provided for @twinsAxes.
+  ///
+  /// In cs, this message translates to:
+  /// **'Ascendent se liší o {asc}, MC o {mc}.'**
+  String twinsAxes(Object asc, Object mc);
+
+  /// No description provided for @twinsCusps.
+  ///
+  /// In cs, this message translates to:
+  /// **'Hroty domů se liší o {min} až {max}.'**
+  String twinsCusps(Object min, Object max);
+
+  /// No description provided for @twinsNoTime.
+  ///
+  /// In cs, this message translates to:
+  /// **'Bez času narození nejde říct, jak se liší osy a domy.'**
+  String get twinsNoTime;
+
+  /// No description provided for @twinsHouseChange.
+  ///
+  /// In cs, this message translates to:
+  /// **'{planet}: {from}. dům → {to}. dům'**
+  String twinsHouseChange(Object planet, Object from, Object to);
+
+  /// No description provided for @twinsNoHouseChange.
+  ///
+  /// In cs, this message translates to:
+  /// **'Všechny planety zůstávají ve stejných domech.'**
+  String get twinsNoHouseChange;
+
+  /// No description provided for @twinsGlossary.
+  ///
+  /// In cs, this message translates to:
+  /// **'Proč jsou dvojčata různá'**
+  String get twinsGlossary;
+
+  /// No description provided for @synastryPairTitle.
+  ///
+  /// In cs, this message translates to:
+  /// **'{first} a {second}'**
+  String synastryPairTitle(Object first, Object second);
 }
 
 class _AppLocalizationsDelegate
