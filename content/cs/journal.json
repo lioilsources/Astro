@@ -1,0 +1,300 @@
+[
+ {
+  "key": "journal/method",
+  "title": "Jak deník vyhodnocuje",
+  "keywords": [
+   "pořadová korelace",
+   "test proti náhodě",
+   "kontrolní horoskopy",
+   "hypotéza předem"
+  ],
+  "themes": [
+   "growth"
+  ],
+  "text": "Appka řadí tvoje dny podle napětí tranzitů a zvlášť podle tvého hodnocení. Pak měří, nakolik se obě pořadí shodují. Tvoje hodnocení mnohokrát přehází po celých týdnech, aby zůstal rytmus pracovních dnů a víkendů. Tak zjistí, jak často vzniká podobná shoda čistou náhodou. Stejný výpočet zopakuje s horoskopy cizích lidí. Když u nich vychází shoda podobně, nejde o nic osobního. Hypotéza je zapsaná předem a záznamy nejdou přepsat. Výsledek „žádná souvislost“ má stejnou váhu jako opačný.",
+  "traits": {
+   "text": [
+    "rationality",
+    "honesty",
+    "realism",
+    "order"
+   ],
+   "shadow": []
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "journal/too_few",
+  "title": "Zatím málo dat",
+  "keywords": [
+   "málo dat",
+   "náhoda",
+   "deník",
+   "trpělivost"
+  ],
+  "themes": [
+   "growth"
+  ],
+  "text": "Ohodnocených dní je zatím příliš málo na spolehlivé srovnání. Při malém vzorku stačí pár výjimečných dní a výsledek se převrátí, takže shoda i neshoda může vzniknout čistou náhodou. Appka proto zatím nic nevyhodnocuje. Zapisuj dál, ideálně každý den. Den hodnoť dřív, než se podíváš na tranzity. Až bude dní dost, ukáže se, jestli tvoje hodnocení s napětím tranzitů souvisí, nebo ne. Obě odpovědi jsou stejně platné.",
+  "traits": {
+   "text": [
+    "patience",
+    "perseverance",
+    "realism",
+    "rationality"
+   ],
+   "shadow": []
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "journal/relation_expected",
+  "title": "Napjaté dny vycházejí hůř",
+  "keywords": [
+   "deník předpovědí",
+   "napětí tranzitů",
+   "hodnocení dne",
+   "očekávání",
+   "souvislost"
+  ],
+  "themes": [
+   "character",
+   "growth"
+  ],
+  "text": "Ve dnech, kdy appka ukazuje vyšší napětí tranzitů, hodnotíš svůj den hůř. Ten rozdíl je větší, než jaký vychází při náhodném přeházení tvých hodnocení. Jde o souvislost, ne o příčinu. Může ji vytvářet očekávání: když víš o napjatém dni, všímáš si spíš drobných nepříjemností. Roli hraje i náhoda a pár výrazných týdnů, které celý výsledek táhnou jedním směrem. Výsledek bez souvislosti by platil stejně. Další záznamy ukážou, jestli vzorec vydrží.",
+  "traits": {
+   "text": [
+    "rationality",
+    "realism",
+    "curiosity",
+    "self_acceptance"
+   ],
+   "shadow": []
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "journal/relation_opposite",
+  "title": "Napjaté dny vycházejí líp",
+  "keywords": [
+   "deník předpovědí",
+   "napětí tranzitů",
+   "hodnocení dnů",
+   "obrácený směr"
+  ],
+  "themes": [
+   "character",
+   "growth"
+  ],
+  "text": "Ve dnech, kdy tranzity podle výpočtu nesou víc napětí, dáváš svému dni v deníku vyšší hodnocení. Tradice přitom čeká opak: napjaté dny mají být těžší. Tvoje záznamy ukazují obrácený směr. Může to znamenat, že tě větší tlak spíš nabudí. Stejně dobře může jít o náhodu, zvlášť při menším počtu záznamů. Souvislost sama o sobě neříká nic o příčině. S dalšími záznamy se výsledek může posunout. Kdyby se nakonec žádná souvislost neukázala, je to stejně platná odpověď.",
+  "hard": [
+   {
+    "topics": [
+     "illness",
+     "loss",
+     "death"
+    ],
+    "text": "Tradice tu mluví o tom, že napjaté tranzity přinášejí nemoci, úrazy a ztráty. V krajních výkladech spojuje takové dny i se smrtí blízkých nebo s ohrožením vlastního života. Tvoje hodnocení tenhle obraz nepotvrzují: ve dnech s vyšším napětím zapisuješ spíš lepší prožitek. Deník ale měří jen tvůj pocit ze dne, ne zdraví ani skutečné události."
+   }
+  ],
+  "traits": {
+   "text": [
+    "resilience",
+    "optimism",
+    "realism",
+    "curiosity"
+   ],
+   "shadow": []
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "journal/no_relation",
+  "title": "Souvislost se neukázala",
+  "keywords": [
+   "deník",
+   "srovnání",
+   "náhodné přeházení",
+   "platný výsledek"
+  ],
+  "themes": [
+   "growth",
+   "character"
+  ],
+  "text": "Tvoje hodnocení dní se se skóre napětí tranzitů nepohybují společně. Dny s vysokým napětím nedopadají v deníku hůř a klidné dny nedopadají líp, než kdyby se týdny náhodně přeházely. I tohle je plnohodnotný výsledek. Deník funguje přesně tak, jak má: věcně ukazuje, co v tvých záznamech je a co v nich není. Tvoje dny teď zřejmě víc ovlivňují jiné věci, třeba spánek, práce nebo lidé kolem. Když zapisuješ dál, obraz se zpřesňuje.",
+  "traits": {
+   "text": [
+    "realism",
+    "rationality",
+    "honesty",
+    "curiosity"
+   ],
+   "shadow": []
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "journal/control_better",
+  "title": "Vlastní horoskop sedí líp než cizí",
+  "keywords": [
+   "deník předpovědí",
+   "kontrolní horoskopy",
+   "srovnání",
+   "tranzity",
+   "hodnocení dnů"
+  ],
+  "themes": [
+   "growth"
+  ],
+  "text": "Tvoje denní hodnocení se shodují s tranzity k tvému vlastnímu horoskopu těsněji než s tranzity k horoskopům cizích lidí z katalogu. Cizí horoskopy slouží jako kontrola. Ukazují, jakou shodu přinese obyčejná náhoda. Tvůj vlastní horoskop tuhle laťku přesahuje. Jde o výsledek tvého deníku za sledované období, ne o konečný verdikt. Opačný nález nebo žádná souvislost by měly stejnou platnost. S dalšími zápisy se obraz může zpřesnit, nebo změnit.",
+  "traits": {
+   "text": [
+    "curiosity",
+    "rationality",
+    "realism",
+    "focus"
+   ],
+   "shadow": [
+    "obsession",
+    "idealism"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "journal/control_not_better",
+  "title": "Cizí horoskopy sedí stejně dobře",
+  "keywords": [
+   "deník",
+   "srovnání s cizími horoskopy",
+   "náhoda",
+   "ověřování",
+   "žádná souvislost"
+  ],
+  "themes": [
+   "growth"
+  ],
+  "text": "Tvoje hodnocení dnů odpovídá tranzitům k cizím horoskopům stejně dobře jako tranzitům k tvému vlastnímu, někdy i lépe. Shoda, kterou deník ukazuje, tedy není vázaná na tvůj horoskop. Podobně by vyšla i s jiným datem narození. Tento výsledek je stejně platný jako opačný. Znamená, že se v dosavadních záznamech tvé dny s napětím tranzitů zvlášť nepojí. Deník můžeš psát dál a sledovat, jestli se obraz s dalšími dny změní.",
+  "traits": {
+   "text": [
+    "realism",
+    "rationality",
+    "curiosity",
+    "openness"
+   ],
+   "shadow": []
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "journal/hypothesis_more",
+  "title": "Hypotéza: štítek častěji při tranzitu",
+  "keywords": [
+   "deník",
+   "hypotéza",
+   "štítek",
+   "tranzit",
+   "vzorec"
+  ],
+  "themes": [
+   "growth",
+   "character"
+  ],
+  "text": "Ve dnech, kdy běží tranzit z tvé hypotézy, dáváš štítek častěji než v ostatních dnech. Rozdíl je větší, než by se dalo čekat od pouhé náhody. Tvoje záznamy a tranzit se tedy v tomto období potkávají. Neznamená to ale, že tranzit štítek způsobuje. Roli může hrát i nálada, počasí nebo to, čeho si všímáš. Kdyby souvislost chyběla, šlo by o stejně cenný výsledek. Pokračuj v zápisech a sleduj, jestli se vzorec drží i dál.",
+  "traits": {
+   "text": [
+    "curiosity",
+    "realism",
+    "rationality",
+    "perseverance"
+   ],
+   "shadow": [
+    "obsession",
+    "idealism"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "journal/hypothesis_not_more",
+  "title": "Hypotéza: štítek ne častěji",
+  "keywords": [
+   "hypotéza",
+   "deník předpovědí",
+   "náhoda",
+   "žádná souvislost",
+   "vlastní pozorování"
+  ],
+  "themes": [
+   "growth",
+   "character"
+  ],
+  "text": "Ve dnech s tímto tranzitem se tvůj štítek neobjevuje častěji než v ostatních dnech. Případný rozdíl nepřesahuje to, co běžně vytvoří náhoda. Tvůj deník tedy souvislost mezi tranzitem a štítkem nepotvrzuje. Takový výsledek má stejnou hodnotu jako opačný. Ukazuje, jak tvé dny skutečně vypadají, ne jak by vypadat měly. S každým dalším zápisem se obraz zpřesňuje, proto má smysl hodnotit poctivě i dny bez tranzitu.",
+  "traits": {
+   "text": [
+    "realism",
+    "rationality",
+    "curiosity",
+    "calm"
+   ],
+   "shadow": []
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "journal/blind",
+  "title": "Slepý test",
+  "keywords": [
+   "slepý test",
+   "deník předpovědí",
+   "hodnocení dne",
+   "napětí tranzitů"
+  ],
+  "themes": [
+   "growth",
+   "character"
+  ],
+  "text": "Tohle srovnání zahrnuje jen dny, které hodnotíš naslepo, ještě před pohledem na tranzity. Předpověď tak nemá šanci tvé hodnocení nenápadně posunout. Hodnota nahoře ukazuje, jak moc se tvoje známky dnů shodují se skóre napětí. Shoda znamená, že napjatější tranzity častěji připadají na horší dny. Žádná souvislost je stejně platný výsledek: tvoje dny pak ovlivňují hlavně jiné věci. Hodnocení mimo test appka počítá zvlášť, protože u nich předpověď už znáš.",
+  "traits": {
+   "text": [
+    "realism",
+    "rationality",
+    "honesty",
+    "curiosity",
+    "discipline"
+   ],
+   "shadow": []
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ }
+]

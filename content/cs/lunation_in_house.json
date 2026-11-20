@@ -1,0 +1,1299 @@
+[
+ {
+  "key": "lunation_in_house/new/1",
+  "title": "Nov v 1. domě",
+  "keywords": [
+   "nový začátek",
+   "osobnost",
+   "tělo",
+   "první dojem",
+   "setba"
+  ],
+  "themes": [
+   "character",
+   "health",
+   "growth"
+  ],
+  "text": "Nov v 1. domě klade setbu přímo do tvé osobnosti a tvého těla. Nové období u tebe začíná změnou vzhledu, účesu, držení těla nebo způsobu jednání. Máš dar začínat od nuly a dávat věcem první impuls. První dojem, který děláš, nese čerstvost a odhodlání. Druzí v tobě vidí člověka, který otevírá cestu. Rozhodnutí přicházejí rychle a vycházejí z vnitřního pocitu, ne z rady okolí. Tvoje energie roste s každým novým plánem.",
+  "shadow": "Stín Novu v 1. domě je začátek bez pokračování. Semínko zaseješ do sebe a pak čekáš, že vyroste samo. Měníš vzhled, plány i předsevzetí častěji, než stihnou přinést plod. Tvoje identita se snadno spojí s tím, co právě začíná, a starší podoby sebe odhazuješ bez ohledu. V temné fázi Luny tě druzí čtou hůř a ty sebe taky. Netrpělivost s vlastním tělem vede k přepínání sil. Snadno přehlížíš potřeby druhých, protože se točíš kolem vlastního startu.",
+  "hard": [
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o těle, které je nejzranitelnější na začátku nových období. Nov v domě těla podle ní oslabuje vitalitu, hlavně kolem novoluní a při velkých životních změnách. Starší autoři zde zmiňují sklon k vyčerpání, horečnatým stavům a úrazům hlavy a obličeje, protože 1. dům vládne hlavě."
+   },
+   {
+    "topics": [
+     "death",
+     "illness"
+    ],
+    "text": "Tradice tu mluví také o křehkém začátku života. Temná Luna v domě těla podle starých výkladů znamenala slabší konstituci v útlém věku a obtížné první měsíce či roky. Někteří autoři tu novoluní spojovali s ohrožením života kolem narození. Jde o tradiční obraz, ne o předpověď."
+   }
+  ],
+  "traits": {
+   "text": [
+    "originality",
+    "decisiveness",
+    "vitality",
+    "independence",
+    "courage"
+   ],
+   "shadow": [
+    "inconstancy",
+    "impulsiveness",
+    "selfishness",
+    "exhaustion",
+    "insecurity"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "lunation_in_house/new/2",
+  "title": "Nov v 2. domě",
+  "keywords": [
+   "nový začátek",
+   "vlastní zdroje",
+   "sebeocenění",
+   "skryté talenty",
+   "setba hodnot"
+  ],
+  "themes": [
+   "money",
+   "character",
+   "growth"
+  ],
+  "text": "Nov v 2. domě otevírá novou kapitolu v tom, čeho si ceníš a co máš. Je to čas setby: zakládáš vlastní zdroje, objevuješ talenty a učíš se, jakou hodnotu má tvoje práce. Máš chuť začínat od základu a stavět krok po kroku. Nadání se u tebe ukazuje v praktických věcech, v šikovných rukou a v citu pro materiál. Sebeocenění roste spolu s tím, co vytvoříš. Každý začátek tu vychází z otázky, co je pro tebe opravdu důležité.",
+  "shadow": "Nov v 2. domě zasévá do půdy, která zatím nic nenese, a to v tobě budí netrpělivost i nejistotu. Vlastní hodnotu snadno měříš tím, co právě vlastníš. Když výsledky dlouho nepřicházejí, objevuje se pochybnost o vlastních schopnostech. Máš sklon lpět na jistotě a držet se věcí ze strachu z nedostatku. Jindy převáží chuť pořád začínat znovu a rozdělané plány zůstávají ležet. Talent bez trpělivosti pak zůstává semínkem, které nikdo nezalévá.",
+  "hard": [
+   {
+    "topics": [
+     "loss",
+     "ruin"
+    ],
+    "text": "Tradice tu mluví o ztrátě majetku, zvlášť když je nov těžce postižený. Starší výklady spojují toto postavení s obdobími, kdy dosavadní zdroje mizí a začíná se od nuly. Ztráta podle nich uvolňuje místo nové setbě, může však znamenat i skutečnou chudobu, zadlužení nebo rozpad toho, co se dlouho budovalo."
+   }
+  ],
+  "traits": {
+   "text": [
+    "diligence",
+    "security_need",
+    "realism",
+    "creativity"
+   ],
+   "shadow": [
+    "insecurity",
+    "stinginess",
+    "inconstancy",
+    "materialism",
+    "anxiety"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "lunation_in_house/new/3",
+  "title": "Nov v 3. domě",
+  "keywords": [
+   "nové myšlenky",
+   "učení",
+   "řeč",
+   "sourozenci",
+   "krátké cesty"
+  ],
+  "themes": [
+   "character",
+   "family",
+   "growth"
+  ],
+  "text": "Nov ve 3. domě zasévá nové myšlenky do každodenních rozhovorů a cest po okolí. Tvoje mysl funguje jako semeník. Z krátké poznámky, knihy nebo náhodného setkání vzejde nápad, který dál roste. Učení tě nabíjí hlavně na začátku, kdy je všechno čerstvé. Umíš otevřít téma a přivést lidi k nové myšlence. Se sourozenci nebo sousedy často rozjíždíš společné plány. Krátké výlety ti přinášejí nové podněty a jasnou hlavu.",
+  "shadow": "Nov ve 3. domě dává mnoho začátků v myšlení, ale méně síly je dotáhnout. Rozepsané poznámky, načaté kurzy a nedočtené knihy se kupí. Slova ti občas vyletí dřív, než je promyslíš. Nový nápad přehluší ten předchozí a mysl těká od tématu k tématu. Na Novu chybí světlo, a tak vlastní slova často nevidíš očima druhých. Sourozencům nebo sousedům pak může připadat, že pořád něco rozjíždíš a pak to necháš ležet.",
+  "hard": [
+   {
+    "topics": [
+     "illness",
+     "death"
+    ],
+    "text": "Tradice tu mluví o nehodách na krátkých cestách, zvlášť ve spěchu nebo na začátku nové životní etapy. Starší výklady zmiňují úrazy v dopravě a vzácně i ohrožení života na cestě. Jde o tradiční varování, ne o jistotu. Ukazuje hlavně na sklon k roztržitosti v pohybu."
+   },
+   {
+    "topics": [
+     "loss"
+    ],
+    "text": "Tradice tu mluví o sporech se sourozenci, které začínají nenápadně, jedním ostrým slovem nebo nedorozuměním. Podle starších výkladů z nich může vzejít dlouhé odcizení nebo úplná ztráta kontaktu. Někdy se zmiňuje i starost či těžké období spojené se sourozencem."
+   }
+  ],
+  "traits": {
+   "text": [
+    "curiosity",
+    "eloquence",
+    "creativity",
+    "sociability"
+   ],
+   "shadow": [
+    "restlessness",
+    "inconstancy",
+    "impulsiveness",
+    "superficiality"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "lunation_in_house/new/4",
+  "title": "Nov v 4. domě",
+  "keywords": [
+   "domov",
+   "kořeny",
+   "rodina",
+   "nový začátek",
+   "zázemí"
+  ],
+  "themes": [
+   "family",
+   "character",
+   "growth"
+  ],
+  "text": "Nov ve čtvrtém domě zasévá nové začátky přímo do domova a rodinných kořenů. Tvůj život se obnovuje zevnitř: stěhování, zařizování bytu nebo založení vlastní rodiny pro tebe znamená skutečný nový start. Máš nadání vytvářet zázemí tam, kde dosud nic nebylo. Umíš navázat na rodovou tradici a dát jí novou podobu. Klid nacházíš v soukromí a odtud čerpáš sílu pro všechno ostatní. Vztah k otci nebo matce tě formuje víc, než se na první pohled zdá.",
+  "shadow": "Nov ve čtvrtém domě může znamenat, že domov nikdy nepůsobí hotově a stále začínáš od nuly. Kořeny hledáš, ale snadno je vytrháváš dalším stěhováním nebo přestavbou. Rodinné vzorce opakuješ nevědomky, i když toužíš po novém začátku. Vnitřní nejistotu schováváš za zdmi soukromí a tvůj citový svět zůstává druhým zavřený. Na změny doma reaguješ náladově a na pocitu bezpečí lpíš víc, než ti prospívá.",
+  "hard": [
+   {
+    "topics": [
+     "death"
+    ],
+    "text": "Tradice tu mluví o čtvrtém domě jako o konci života. Nov sem podle ní přináší uzavírání starých kapitol rodu, například odchod rodiče nebo staršího příbuzného. Po něm přebíráš roli nositele rodinných kořenů. Konec se tu pojí s novým začátkem."
+   },
+   {
+    "topics": [
+     "loss"
+    ],
+    "text": "Tradice tu mluví také o ztrátě domova. Nov podle ní může označovat období, kdy přicházíš o dosavadní zázemí, ať už prodejem, rozpadem rodiny nebo nuceným odchodem. Domov si pak budeš stavět znovu od základů."
+   }
+  ],
+  "traits": {
+   "text": [
+    "family_attachment",
+    "belonging",
+    "security_need",
+    "responsibility"
+   ],
+   "shadow": [
+    "insecurity",
+    "moodiness",
+    "reclusiveness",
+    "restlessness"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "lunation_in_house/new/5",
+  "title": "Nov v 5. domě",
+  "keywords": [
+   "nový začátek",
+   "láska",
+   "tvořivost",
+   "hra",
+   "děti"
+  ],
+  "themes": [
+   "relationships",
+   "family",
+   "growth",
+   "character"
+  ],
+  "text": "Nov v pátém domě zasévá nový začátek do tvé lásky, hry a tvoření. Otevírá ti prostor pro nápad, který chce vzniknout, pro nové okouzlení nebo pro radost, na kterou dlouho nebyl čas. Roste chuť zkoušet věci jen pro potěšení. Přichází nová známost, nový koníček nebo myšlenka na dítě. Semínko je zatím malé a skryté, ale nese hodně síly. Daří se ti začít něco hravého a nechat to růst bez tlaku na výsledek.",
+  "shadow": "Nov v pátém domě probouzí touhu po novém začátku v lásce a radosti, ale semínko ještě nemá kořeny. Snadno tě strhne první nadšení a od nové známosti nebo nápadu čekáš víc, než unese. Hra se mění v riziko, když chceš vzrušení za každou cenu. Rozjíždíš několik věcí naráz a žádnou nedotáhneš. Potřeba obdivu tě vede k předvádění. Když se okouzlení nedostaví hned, přichází zklamání a chuť to vzdát dřív, než něco vyroste.",
+  "hard": [
+   {
+    "topics": [
+     "loss",
+     "illness"
+    ],
+    "text": "Tradice tu mluví o potížích s dětmi: o starostech s početím, o nemocech dětí nebo o odloučení od nich. Nov jako temná fáze Měsíce se ve starých výkladech spojuje s tím, co se rodí obtížně nebo zůstává skryté. Nejde o jistotu, jen o tradiční motiv, který se k tomuto postavení váže."
+   },
+   {
+    "topics": [
+     "addiction",
+     "ruin"
+    ],
+    "text": "Tradice tu mluví o hazardu a lehkomyslném sázení na štěstí. Pátý dům spravuje riziko a nov dodává chuť začít s čistým štítem, což staré texty spojují se sklonem vsadit hodně na jednu kartu, s návykem na vzrušení ze hry a se ztrátami, které z toho plynou. Jde o tradiční motiv, ne o předpověď."
+   }
+  ],
+  "traits": {
+   "text": [
+    "creativity",
+    "cheerfulness",
+    "curiosity",
+    "openness",
+    "lightness"
+   ],
+   "shadow": [
+    "impulsiveness",
+    "risk_taking",
+    "inconstancy",
+    "vanity",
+    "carelessness"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "lunation_in_house/new/6",
+  "title": "Nov v 6. domě",
+  "keywords": [
+   "nový začátek v práci",
+   "denní rytmus",
+   "zdraví",
+   "služba",
+   "návyky"
+  ],
+  "themes": [
+   "work",
+   "health",
+   "growth"
+  ],
+  "text": "Nov v šestém domě otevírá nový začátek v práci, v denním rytmu a v péči o tělo. Je to doba setby. Drobné návyky, které teď založíš, nesou ovoce celé měsíce. Máš jasnější oko pro to, co v každodennosti nefunguje. Snadno zavádíš nový řád, upravuješ pracovní postupy a bereš na sebe užitečnou službu. Pomáhá ti práce rukama, pravidelný pohyb i péče o zvíře. Malé opakované kroky tu mají větší sílu než velká předsevzetí.",
+  "shadow": "Nov v šestém domě dává málo světla, a tak nové povinnosti často vyrůstají potmě, bez jasného plánu. Snadno na sebe nakládáš víc úkolů, než tělo unese, a únavu přehlížíš. Touha po řádu se mění v puntičkářství a v kritiku sebe i kolegů. Služba druhým sklouzává k obětování vlastních potřeb. Nové začátky v práci mohou vyšumět, když chybí trpělivost počkat na výsledek. Tělo pak dává o sobě vědět drobnými potížemi a neklidem.",
+  "hard": [
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o tom, že nov v domě nemocí může otevřít období oslabeného zdraví. Nemoc podle ní začíná nenápadně, z drobné potíže nebo zanedbaného návyku, a rozvíjí se potichu jako zasetá setba. Starší autoři s tímto postavením spojují i nemoci z přepracování."
+   },
+   {
+    "topics": [
+     "illness",
+     "mental_crisis"
+    ],
+    "text": "Tradice tu mluví také o vyčerpání z nekonečné služby a povinností. Síly podle ní ubývají pomalu, tak jako mizí měsíční světlo před novem. Dlouhé přetěžování může podle starších výkladů vést k chřadnutí těla i k sevřené, úzkostné mysli."
+   },
+   {
+    "topics": [
+     "loss"
+    ],
+    "text": "Tradice tu mluví i o ztrátách spojených se šestým domem. Patří k nim nemoc nebo úhyn malého zvířete, odchod pomocníka či ztráta zaměstnání. Nov podle ní takovou ztrátu ukazuje spíš jako uzavření starého, po kterém přichází něco nového."
+   }
+  ],
+  "traits": {
+   "text": [
+    "order",
+    "diligence",
+    "discipline",
+    "responsibility"
+   ],
+   "shadow": [
+    "perfectionism",
+    "exhaustion",
+    "self_sacrifice",
+    "criticism",
+    "anxiety"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "lunation_in_house/new/7",
+  "title": "Nov v 7. domě",
+  "keywords": [
+   "nový vztah",
+   "partnerství",
+   "dohoda",
+   "zrcadlo",
+   "začátek"
+  ],
+  "themes": [
+   "relationships",
+   "growth",
+   "character"
+  ],
+  "text": "Nov v sedmém domě otevírá tvůj život skrze druhé lidi. Nové kapitoly u tebe často začínají setkáním, sňatkem nebo dohodou. Partner pro tebe funguje jako zrcadlo, ve kterém poznáváš vlastní tvář. Máš talent zakládat spojenectví od nuly a dávat vztahu první směr. Vztahy u tebe nerostou z rutiny, ale ze semínka, které zaseješ vědomě. Každé nové partnerství nese otázku, kým se v něm stáváš. Sliby a dohody pro tebe mají váhu začátku, ne formality.",
+  "shadow": "Nov v sedmém domě nese i temnou stránku: začátek bez světla. Vztahy často vstupují do tvého života dřív, než je dokážeš jasně vidět. Snadno se upínáš k partnerovi jako k jedinému zdroji vlastní identity. Bez druhého člověka přichází pocit prázdna a nejistoty. Občas uzavíráš svazky a dohody v náhlém popudu a pak se v nich ztrácíš. Hrozí tendence přizpůsobit se natolik, že vlastní vůle mizí. Jindy zase z obavy, že se ve vztahu ztratíš, utíkáš před závazkem.",
+  "hard": [
+   {
+    "topics": [
+     "loss"
+    ],
+    "text": "Tradice tu mluví o rozvodech a rozchodech. Nov je temná fáze, ve které něco končí, aby mohlo začít něco jiného. Svazky u tebe proto mohou procházet zlomy, odloučením nebo novým začátkem po odchodu partnera. Nejde o jistotu, spíš o rytmus, kdy se vztahy obnovují přes konec."
+   },
+   {
+    "topics": [
+     "violence"
+    ],
+    "text": "Tradice tu mluví o sporech a otevřených nepřátelích. Sedmý dům ukazuje lidi, kteří stojí naproti tobě, a nov v něm může přivádět nové protivníky nebo střety, které se rozhoří nečekaně. Rivalita se někdy rodí z bývalých spojenectví. Tradice to čte jako možnost, ne jako předem daný osud."
+   }
+  ],
+  "traits": {
+   "text": [
+    "cooperation",
+    "openness",
+    "transformation",
+    "belonging"
+   ],
+   "shadow": [
+    "dependence",
+    "insecurity",
+    "impulsiveness",
+    "commitment_fear",
+    "submissiveness"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "lunation_in_house/new/8",
+  "title": "Nov v 8. domě",
+  "keywords": [
+   "proměna",
+   "začátek z konce",
+   "intimita",
+   "sdílené zdroje",
+   "krize"
+  ],
+  "themes": [
+   "character",
+   "relationships",
+   "money",
+   "growth",
+   "health"
+  ],
+  "text": "Nov v 8. domě zakládá tvůj život na začátcích, které rostou z konců. Nové kapitoly se ti otevírají po ztrátě, rozchodu nebo krizi a v troskách vidíš semínko. Máš nadání pro hlubokou proměnu a pro práci s tím, co patří i druhým: se sdíleným majetkem, důvěrou a tajemstvím. Do vztahů vstupuješ celou bytostí a hledáš spojení, které tě promění. Tabu tě neodpuzují, spíš přitahují.",
+  "shadow": "Nov v 8. domě umí z každého začátku udělat zkoušku na život a na smrt. Nový krok často čeká, až se něco zhroutí, a krize pak přichází i tam, kde by stačila klidná změna. V blízkosti se střídá touha splynout se strachem z odevzdání moci. Kontrola nad společnými penězi, sexualitou nebo tajemstvími se snadno mění v boj. Ztráty se v tobě ukládají hluboko a mlčky. Žárlivost, posedlost a nedůvěra pak rostou v skrytu.",
+  "hard": [
+   {
+    "topics": [
+     "death",
+     "loss"
+    ],
+    "text": "Tradice tu mluví o tom, že velké životní začátky přicházejí po smrti v rodině nebo po odchodu blízkého člověka. Úmrtí a dědictví podle ní otevírají novou etapu, někdy spojenou se sporem o pozůstalost."
+   },
+   {
+    "topics": [
+     "ruin",
+     "loss"
+    ],
+    "text": "Tradice tu mluví o krachu a dluzích spojených s cizími penězi, s majetkem partnera nebo se společným podnikáním. Nový začátek podle ní pak vzniká z finančního zhroucení a ztráty opory."
+   },
+   {
+    "topics": [
+     "illness",
+     "death"
+    ],
+    "text": "Tradice tu mluví o operacích a nemocech, které přicházejí náhle a tvoří v životě předěl. Tělo podle ní prochází krizí, po níž následuje obnova. Staré texty zmiňují i ohrožení života při zákroku."
+   },
+   {
+    "topics": [
+     "mental_crisis"
+    ],
+    "text": "Tradice tu mluví o hlubokých vnitřních krizích, kdy se starý obraz sebe rozpadá. Takový rozpad má podle ní podobu deprese nebo existenciální úzkosti, než se objeví nový směr."
+   }
+  ],
+  "traits": {
+   "text": [
+    "transformation",
+    "depth",
+    "resilience",
+    "intuition",
+    "sensuality"
+   ],
+   "shadow": [
+    "obsession",
+    "jealousy",
+    "secrecy",
+    "drama",
+    "dominance"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "lunation_in_house/new/9",
+  "title": "Nov v 9. domě",
+  "keywords": [
+   "víra",
+   "studium",
+   "cizina",
+   "nový smysl",
+   "setba"
+  ],
+  "themes": [
+   "growth",
+   "character"
+  ],
+  "text": "Nov v 9. domě zasévá nové přesvědčení, nové studium nebo cestu za hranice. Tahle lunace přináší chuť začít znovu tam, kde jde o smysl: přihláška ke kurzu, první kniha z neznámého oboru, letenka do země, kterou zatím znáš jen z map. Máš dar najít otázku, která otevírá celý nový obor. Učení ti jde nejlépe od úplného začátku a s čistou hlavou. Cizí kultura tě neděsí, spíš láká. Z malého semínka myšlenky dokážeš vypěstovat celý pohled na svět.",
+  "shadow": "Nov v 9. domě umí zasít i přesvědčení, které ještě nemá kořeny. Novou filozofii přijímáš rychle a hájíš ji dřív, než ji prověříš. Hrozí kazatelský tón a netrpělivost k lidem, kteří věří jinak. Plány na cesty a studium snadno zůstávají ve fázi nadšeného začátku. Hledání smyslu se může změnit v útěk: další kurz, další země, další učitel místo práce s tím, co už máš. Nejistota ve vlastním názoru se pak schovává za hlasitou jistotu.",
+  "hard": [
+   {
+    "topics": [
+     "loss",
+     "ruin"
+    ],
+    "text": "Tradice tu mluví o soudních sporech, které začínají nenápadně a táhnou se dlouho. Spor o smlouvu, dědictví nebo vzdělání se může rozrůst víc, než se na začátku zdá. Tradice v tom vidí riziko ztráty majetku nebo dobrého jména. Jde o možnost, ne o předpověď."
+   },
+   {
+    "topics": [
+     "illness",
+     "loss"
+    ],
+    "text": "Tradice tu mluví o potížích v cizině a na dlouhých cestách. Zmiňuje nemoc daleko od domova, ztrátu věcí či dokladů a nesnáze s úřady cizí země. Nový začátek za hranicemi podle ní nese křehkost všeho, co teprve klíčí. Je to obraz z tradice, ne jistota."
+   }
+  ],
+  "traits": {
+   "text": [
+    "curiosity",
+    "wanderlust",
+    "spirituality",
+    "idealism",
+    "openness"
+   ],
+   "shadow": [
+    "impulsiveness",
+    "rigidity",
+    "escapism",
+    "inconstancy",
+    "insecurity"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "lunation_in_house/new/10",
+  "title": "Nov v 10. domě",
+  "keywords": [
+   "nový začátek v kariéře",
+   "poslání",
+   "pověst",
+   "veřejná role",
+   "autorita"
+  ],
+  "themes": [
+   "work",
+   "growth",
+   "character"
+  ],
+  "text": "Nov v desátém domě zasévá nový začátek do práce a veřejného jména. Teď je čas pojmenovat cíl, o který ti skutečně jde, a udělat první viditelný krok. Může jít o nabídku, změnu role, vlastní projekt nebo rozhodnutí, jakou pověst chceš budovat. Výsledky zatím nejsou vidět, protože semínko teprve klíčí. Pomáhá ti jasný záměr, smysl pro odpovědnost a ochota převzít vedení. Co teď v práci založíš, ponese tvůj podpis dlouho.",
+  "shadow": "Nov v desátém domě umí roztočit netrpělivost po uznání. Začátek ještě nemá kořeny, a přesto čekáš potlesk a okamžitý postup. Hrozí, že se necháš vést tím, jak věc vypadá navenek, a ne tím, čeho chceš dosáhnout. Ctižádost se pak mění v honbu za titulem a pozicí, ve které se ztrácí tvůj vlastní hlas. Novoluní je tmavá fáze a obrysy cesty nejsou zřetelné. Proto přichází nejistota, srovnávání s druhými nebo zbrklé rozhodnutí odejít z místa dřív, než nové pevně stojí.",
+  "hard": [
+   {
+    "topics": [
+     "loss",
+     "ruin"
+    ],
+    "text": "Tradice tu mluví o pádu z výšky a ztrátě postavení, které mohou předcházet novému začátku. Nov v desátém domě se v ní čte i jako konec jedné role, odchod z funkce nebo otřes pověsti, po kterém se kariéra staví znovu od základu. Jde o tradiční obraz, ne o jistotu."
+   }
+  ],
+  "traits": {
+   "text": [
+    "ambition",
+    "responsibility",
+    "leadership",
+    "decisiveness"
+   ],
+   "shadow": [
+    "vanity",
+    "impulsiveness",
+    "insecurity",
+    "pride"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "lunation_in_house/new/11",
+  "title": "Nov v 11. domě",
+  "keywords": [
+   "nová přátelství",
+   "společné plány",
+   "naděje",
+   "setba",
+   "skupina"
+  ],
+  "themes": [
+   "relationships",
+   "growth"
+  ],
+  "text": "Nov v 11. domě otevírá novou kapitolu mezi lidmi, se kterými sdílíš plány a naděje. Je to čas setby. Z nenápadného rozhovoru nebo nového kontaktu může vyrůst dlouhé přátelství či společný projekt. Máš chuť pojmenovat přání na delší dobu dopředu a hledat k nim spojence. Do skupiny vstupuješ s čerstvou energií a dokážeš kolem nápadu spojit různé lidi. Semínka tu klíčí pomalu a výsledek se ukazuje až s odstupem.",
+  "shadow": "Nov v 11. domě nechává plány i přátelství zatím ve tmě, kde se špatně rozeznává, kdo to myslí upřímně. Nadšení z nové party tě může vést k důvěře dřív, než ji druzí prokážou. Přání bývají mlhavá a snadno se rozplynou, když chybí první konkrétní krok. Hrozí i opak: pocit, že do žádné skupiny nepatříš, a stažení do ústraní. Naděje pak visí na slibech druhých místo na vlastním úsilí.",
+  "hard": [
+   {
+    "topics": [
+     "loss"
+    ],
+    "text": "Tradice tu mluví o zradě ze strany přátel nebo spojenců, kteří v čase novu mohou skrývat své skutečné úmysly. Výklad uvádí ztrátu přátelství, rozpad skupiny či zklamání ze společného plánu. Nejde o jistotu. Nové vazby jen potřebují čas, aby se ukázala jejich pravá povaha."
+   }
+  ],
+  "traits": {
+   "text": [
+    "sociability",
+    "optimism",
+    "idealism",
+    "cooperation"
+   ],
+   "shadow": [
+    "trustfulness",
+    "insecurity",
+    "loneliness",
+    "escapism"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "lunation_in_house/new/12",
+  "title": "Nov v 12. domě",
+  "keywords": [
+   "skrytý začátek",
+   "ústraní",
+   "podvědomí",
+   "intuice",
+   "tichá služba"
+  ],
+  "themes": [
+   "character",
+   "growth",
+   "health"
+  ],
+  "text": "Nov ve dvanáctém domě zasévá tvé nové začátky do ticha a skrytu. Nové kapitoly se u tebe rodí nejdřív uvnitř, ve snech, v samotě a v chvílích ústraní, a teprve potom navenek. Máš silnou intuici a cit pro to, co druzí nevysloví. Nejvíc síly čerpáš z odstupu od ruchu a z tiché modlitby nebo rozjímání. Dokážeš pomáhat lidem v nemocnicích, ústavech či jiných uzavřených místech. Tvoje práce nese ovoce i tehdy, když ji nikdo nevidí.",
+  "shadow": "Nov ve dvanáctém domě může zasít záměry, které zůstanou pohřbené v podvědomí a nikdy nevyjdou na světlo. Plány si často necháváš pro sebe tak dlouho, až je přestaneš brát vážně. Před tlakem světa snadno utíkáš do ústraní, do snění nebo do role oběti. Nevědomé strachy a staré pocity viny ti potichu řídí rozhodnutí. Pomáháš druhým na úkor vlastních potřeb a pak tě tíží pocit přehlížení. Samota se mění v izolaci, ze které se těžko vrací.",
+  "hard": [
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o nemocech, které začínají skrytě a dlouho se neprojevují. Spojuje toto postavení s pobyty v nemocnicích, léčebnách nebo ústavech. Nov podle ní může ohlašovat období, kdy život na čas přejde do ústraní kvůli tělesné slabosti."
+   },
+   {
+    "topics": [
+     "mental_crisis",
+     "addiction"
+    ],
+    "text": "Tradice tu mluví o sklonu k sebezničení, o úzkostech, které vyrůstají z podvědomí, a o úniku do iluzí, alkoholu nebo jiných látek. Neviditelné začátky podle ní mohou dát vzniknout závislostem, které se rodí potají a dlouho zůstávají nepoznané."
+   },
+   {
+    "topics": [
+     "loss",
+     "ruin"
+    ],
+    "text": "Tradice tu mluví o skrytých nepřátelích, tajných intrikách a pomluvách za zády. Zmiňuje také vězení či jiné omezení svobody a hlubokou osamělost. Nové začátky mohou podle ní ohrozit neviditelní protivníci nebo nevyřešené záležitosti z minulosti."
+   }
+  ],
+  "traits": {
+   "text": [
+    "intuition",
+    "spirituality",
+    "empathy",
+    "self_sacrifice",
+    "depth"
+   ],
+   "shadow": [
+    "escapism",
+    "guilt",
+    "reclusiveness",
+    "secrecy",
+    "anxiety"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "lunation_in_house/full/1",
+  "title": "Úplněk v 1. domě",
+  "keywords": [
+   "tělo",
+   "první dojem",
+   "vrchol",
+   "sebevyjádření",
+   "já a druzí"
+  ],
+  "themes": [
+   "character",
+   "health",
+   "relationships",
+   "growth"
+  ],
+  "text": "Úplněk ve tvém 1. domě vynáší na světlo tvé tělo, tvář a způsob, jakým jednáš. Je to chvíle sklizně: vidíš, co z tebe za poslední půlrok vyrostlo. Druzí si tě víc všímají a tvůj první dojem má větší váhu. Emoce se ti zrcadlí ve výrazu i v držení těla. Máš teď schopnost jasně pojmenovat, kým chceš být. Napětí mezi tvými potřebami a nároky blízkých se dostává na povrch a žádá rozhodnutí.",
+  "shadow": "Úplněk v 1. domě umí zesílit přecitlivělost na vlastní obraz. Každý pohled druhých může působit jako soud a drobná poznámka o vzhledu tě zasáhne víc, než odpovídá. Nálady se snadno přelévají do těla: napětí v šíji, neklidný spánek, podrážděnost. Vztahy se mohou vyhrotit do souboje o to, čí potřeby mají přednost. Vymezování proti partnerovi pak slouží spíš obraně než pravdě. Pozornost k sobě se může zvrhnout v sebestřednost nebo v dramatické gesto, které přehluší to podstatné.",
+  "hard": [
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o těle jako o místě, kde se úplněk projeví nejsilněji. Starší výklady spojují úplněk v 1. domě s obdobím zvýšené zranitelnosti: s vyčerpáním, horečnatými stavy, otoky tekutin a obtížemi, které vrcholí a pak opadají. Tělo podle nich ukazuje, co bylo dlouho přehlíženo."
+   },
+   {
+    "topics": [
+     "mental_crisis"
+    ],
+    "text": "Tradice tu mluví také o citovém vypětí, které může přerůst v krizi. Měsíc v plném světle nad ascendentem znamenal pro staré autory rozjitřenou mysl, nespavost, přehnané reakce a pocit, že se vnitřní tlak nedá udržet uvnitř."
+   },
+   {
+    "topics": [
+     "death",
+     "illness"
+    ],
+    "text": "Tradice tu mluví o úplňku na ascendentu jako o kritickém dni nemoci. Staré lékařské astrologie v něm viděly bod, kdy se rozhoduje o dalším průběhu choroby, v krajních případech o uzdravení, nebo o smrti. Jde o dobový výklad, ne o předpověď."
+   }
+  ],
+  "traits": {
+   "text": [
+    "self_confidence",
+    "sensitivity",
+    "vitality",
+    "decisiveness"
+   ],
+   "shadow": [
+    "moodiness",
+    "vanity",
+    "drama",
+    "exhaustion",
+    "selfishness"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "lunation_in_house/full/2",
+  "title": "Úplněk v 2. domě",
+  "keywords": [
+   "sklizeň",
+   "sebeocenění",
+   "hodnoty",
+   "majetek",
+   "talenty"
+  ],
+  "themes": [
+   "money",
+   "character",
+   "growth"
+  ],
+  "text": "Úplněk ve 2. domě osvětluje všechno, co máš a čeho si ceníš. Tvoje hodnoty a talenty vycházejí na světlo a žádají uznání. Máš silný cit pro hodnotu věcí, lidí i vlastní práce. Pocit bezpečí u tebe roste a klesá s tím, co držíš v rukou. Dovedeš sklízet plody dlouhého úsilí a ukázat, co umíš. Vztah k majetku a k sebeúctě se ti nejčastěji vyjasní ve chvílích, kdy jde o hodně.",
+  "shadow": "Ve světle úplňku ve 2. domě se tvoje sebeúcta snadno přivazuje k číslům a věcem. Když přijde ztráta, otřese i tím, jak se vidíš. Kolísáš mezi úzkostlivým držením a rozhazováním, mezi lakotou a náhlou štědrostí. Napětí mezi tím, co chceš mít, a tím, čeho si opravdu vážíš, se v tobě hromadí a pak vyvře najednou. Srovnávání s ostatními ti bere klid. Někdy přeceňuješ, co vlastníš, a jindy podceňuješ vlastní dar.",
+  "hard": [
+   {
+    "topics": [
+     "loss",
+     "ruin"
+    ],
+    "text": "Tradice tu mluví o ztrátě majetku, zvlášť v obdobích, kdy úplněk vyostří napětí kolem peněz a hodnot. Starší výklady zmiňují náhlé výkyvy příjmů, ztrátu cenností nebo rozpad toho, co se dlouho budovalo. Jde o tradiční motiv, ne o jistou předpověď."
+   }
+  ],
+  "traits": {
+   "text": [
+    "security_need",
+    "realism",
+    "self_confidence",
+    "diligence"
+   ],
+   "shadow": [
+    "insecurity",
+    "stinginess",
+    "extravagance",
+    "materialism"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "lunation_in_house/full/3",
+  "title": "Úplněk v 3. domě",
+  "keywords": [
+   "rozhovor",
+   "dvojí pohled",
+   "sourozenci",
+   "učení",
+   "krátké cesty"
+  ],
+  "themes": [
+   "character",
+   "family",
+   "growth"
+  ],
+  "text": "Úplněk ve 3. domě ti dává mysl, která se plně rozsvítí až v rozhovoru. Myšlenky ti dozrávají, když je vyslovíš nahlas a slyšíš odpověď. Máš dar vidět dvě strany jedné věci a přesně je pojmenovat. Učení u tebe přichází ve vlnách. Dlouho sbíráš střípky, pak najednou všechno zapadne. Sourozenci a blízké okolí ti slouží jako zrcadlo, ve kterém poznáváš vlastní názory. Krátké cesty ti čistí hlavu a nosí nové nápady.",
+  "shadow": "Úplněk ve 3. domě umí rozdělit tvou hlavu na dva tábory, které spolu bez přestání vyjednávají. Snadno přeskakuješ z jednoho názoru na opačný a okolí pak neví, čemu věřit. Slova ti v napětí ujíždějí ostřeji, než zamýšlíš. Vztahy se sourozenci kolísají mezi blízkostí a soupeřením. Myšlenky se hromadí do přetlaku a místo jasného závěru přichází neklid a noční přemítání. Hrozí i povrchnost: spousta informací, málo dotažených úvah.",
+  "hard": [
+   {
+    "topics": [
+     "death",
+     "illness"
+    ],
+    "text": "Tradice tu mluví o nehodách na krátkých cestách a v dopravě, zvlášť v obdobích, kdy úplněk zesiluje spěch a roztěkanost. Starší autoři zmiňují zranění při cestování po okolí a ve vzácných případech i smrtelné nehody."
+   },
+   {
+    "topics": [
+     "loss"
+    ],
+    "text": "Tradice tu mluví o sporech se sourozenci, které vrcholí otevřeným rozkolem. Dlouho potlačované napětí podle ní vyjde najevo naráz a vztah se může na dlouhou dobu přerušit. Starší výklady zmiňují i ztrátu sourozence nebo odloučení od blízkého okolí."
+   },
+   {
+    "topics": [
+     "mental_crisis"
+    ],
+    "text": "Tradice tu mluví o nervovém vyčerpání z přetížené mysli. Při úplňku se podle ní neklid myšlenek stupňuje až do stavů, kdy hlava nedokáže přestat pracovat a přichází silná vnitřní rozpolcenost."
+   }
+  ],
+  "traits": {
+   "text": [
+    "curiosity",
+    "eloquence",
+    "flexibility",
+    "sociability"
+   ],
+   "shadow": [
+    "restlessness",
+    "inconstancy",
+    "superficiality",
+    "bluntness",
+    "indecision"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "lunation_in_house/full/4",
+  "title": "Úplněk v 4. domě",
+  "keywords": [
+   "domov",
+   "kořeny",
+   "rodinná sklizeň",
+   "vyvrcholení",
+   "napětí protikladů"
+  ],
+  "themes": [
+   "family",
+   "character",
+   "growth"
+  ],
+  "text": "Úplněk v tvém 4. domě osvětluje domov a rodinné kořeny plným světlem. Co se doma dlouho chystalo, u tebe dozrává a vychází najevo. Máš silný cit pro atmosféru místa a poznáš, kdy rodina potřebuje změnu. Umíš uzavírat staré kapitoly a sklízet, co zasely předchozí generace. Touha po bezpečí se v tobě potkává s potřebou vlastní cesty. Domov pro tebe znamená živé místo, které roste spolu s tebou.",
+  "shadow": "Úplněk ve 4. domě vyhrocuje napětí mezi domovem a světem venku, mezi rodinou a vlastní cestou. Rodinné spory u tebe snadno dosahují vrcholu a city přetékají. Staré křivdy z dětství vyplouvají v nečekaných chvílích. Máš sklon lpět na minulosti, nebo naopak prudce bourat všechno, co připomíná původ. Nálady doma kolísají jako příliv a odliv. Kariéra a domov se přetahují o tvou energii a jedna strana často strádá.",
+  "hard": [
+   {
+    "topics": [
+     "death",
+     "loss"
+    ],
+    "text": "Tradice tu mluví o konci života jako o vyvrcholení a sklizni. Čtvrtý dům ukazuje poslední období života a úplněk v něm podle starých autorů naznačuje uzavření kruhu. Starší výklady zmiňují také ztrátu rodiče nebo vážné události v rodině, které přicházejí v plné síle a najednou."
+   },
+   {
+    "topics": [
+     "loss"
+    ],
+    "text": "Tradice tu mluví o ztrátě domova: o stěhování pod tlakem, rozpadu rodinného zázemí nebo o prodeji rodného domu. Podle starých autorů úplněk takové zlomy vynáší na světlo náhle a s velkým citovým nábojem."
+   }
+  ],
+  "traits": {
+   "text": [
+    "family_attachment",
+    "sensitivity",
+    "intuition",
+    "belonging",
+    "transformation"
+   ],
+   "shadow": [
+    "moodiness",
+    "drama",
+    "stagnation",
+    "rebellion"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "lunation_in_house/full/5",
+  "title": "Úplněk v 5. domě",
+  "keywords": [
+   "vrchol radosti",
+   "tvořivost",
+   "láska",
+   "děti",
+   "riziko"
+  ],
+  "themes": [
+   "character",
+   "relationships",
+   "family",
+   "growth"
+  ],
+  "text": "Úplněk v 5. domě rozsvěcuje všechno, co tvoříš z radosti: lásku, hru, umění i vztah k dětem. Tvoje city vrcholí naplno a chtějí publikum. Máš dar dotáhnout tvůrčí nápad do zralé podoby a ukázat ho světu. V lásce hledáš silné okamžiky a velká gesta. Radost u tebe přichází ve vlnách a umí strhnout ostatní. Hra, jeviště, výchova nebo umělecká práce ti dávají pocit sklizně. Pod tím vším běží napětí mezi touhou zazářit a potřebou patřit mezi přátele.",
+  "shadow": "Úplněk v 5. domě umí z radosti udělat drama a z lásky jeviště. Potlesk se ti snadno stává měřítkem vlastní hodnoty. Když zájem opadne, přichází prázdnota a uraženost. Vztahy rozehráváš s velkou intenzitou a pak tě táhne k dalšímu vzrušení. Mezi milostným životem a přáteli vzniká přetahovaná, ve které jedna strana vždy strádá. Dětem nebo vlastním dílům můžeš nakládat na bedra svá očekávání. Riziko tě přitahuje právě ve chvílích, kdy city vrcholí a úsudek slábne.",
+  "hard": [
+   {
+    "topics": [
+     "loss",
+     "death",
+     "illness"
+    ],
+    "text": "Tradice tu mluví o starostech spojených s dětmi: o obtížném početí, komplikovaných těhotenstvích, nemocech dětí a ve vážných případech i o jejich ztrátě. Úplněk podle starých autorů vyhrocuje to, co v 5. domě dozrává. Jde o tradiční výklad, ne o předpověď."
+   },
+   {
+    "topics": [
+     "addiction",
+     "ruin"
+    ],
+    "text": "Tradice tu mluví o hazardu a nebezpečných sázkách. Úplněk v domě rizika podle ní vede k hráčské vášni, ke ztrátám při spekulacích a v krajním případě až ke zkáze majetku. Staří autoři sem řadí i sklon k nestřídmým požitkům a k závislosti na vzrušení."
+   },
+   {
+    "topics": [
+     "loss"
+    ],
+    "text": "Tradice tu mluví o bolestných koncích milostných vztahů právě na jejich vrcholu. Zmiňuje také veřejné odhalení tajných lásek a skandály, které zasáhnou pověst i blízké lidi."
+   }
+  ],
+  "traits": {
+   "text": [
+    "creativity",
+    "cheerfulness",
+    "charm",
+    "vitality"
+   ],
+   "shadow": [
+    "drama",
+    "vanity",
+    "sulking",
+    "risk_taking",
+    "moodiness"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "lunation_in_house/full/6",
+  "title": "Úplněk v 6. domě",
+  "keywords": [
+   "práce",
+   "zdraví",
+   "služba",
+   "rutina",
+   "vyčerpání"
+  ],
+  "themes": [
+   "work",
+   "health",
+   "character"
+  ],
+  "text": "Úplněk v šestém domě staví proti sobě povinnost a vnitřní potřebu, výkon a odpočinek. Každodenní rutina pro tebe není maličkost. Právě v ní se ukazuje tvůj skutečný stav. Máš dar dotáhnout úkol do konce a poznat chvíli, kdy je práce zralá ke sklizni. Tělo ti dává jasné signály, když něco nesedí. Umíš pečovat o druhé i o zvířata a v drobném pořádku nacházíš klid.",
+  "shadow": "Úplněk v šestém domě snadno mění pracovitost ve vyčerpání. Napětí mezi tím, co se musí, a tím, co cítíš, se ukládá do těla. Vrací se jako únava, podrážděnost nebo nespavost. Máš sklon brát na sebe víc úkolů, než unese jeden den. Pak kritizuješ sebe i okolí za každou chybu. Služba se mění v oběť, kterou nikdo neocení. Když rutina ztratí smysl, střídá se horečná aktivita s útlumem.",
+  "hard": [
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o nemocech, které vrcholí náhle a viditelně, a o zdravotních krizích spojených s přepracováním. Šestý dům je v ní domem nemoci a úplněk podle ní přináší střídání stavů, citlivost na zátěž a sklon k tělesnému vyčerpání v obdobích největšího tlaku."
+   },
+   {
+    "topics": [
+     "mental_crisis"
+    ],
+    "text": "Tradice tu mluví také o nervovém vyčerpání. Neustálé napětí mezi povinností a citem podle ní může vyústit v úzkostné stavy, přetížení a ztrátu sil. Výkyvy nálady se pak propojují s tělesnými obtížemi."
+   }
+  ],
+  "traits": {
+   "text": [
+    "diligence",
+    "responsibility",
+    "order",
+    "self_sacrifice",
+    "sensitivity"
+   ],
+   "shadow": [
+    "exhaustion",
+    "perfectionism",
+    "criticism",
+    "anxiety",
+    "moodiness"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "lunation_in_house/full/7",
+  "title": "Úplněk v 7. domě",
+  "keywords": [
+   "partnerství",
+   "zrcadlo druhého",
+   "vrchol vztahů",
+   "protiklady",
+   "smlouvy"
+  ],
+  "themes": [
+   "relationships",
+   "character",
+   "growth"
+  ],
+  "text": "Úplněk v sedmém domě staví tvůj život do zrcadla druhého člověka. Sebe poznáváš nejvíc ve vztahu, ve sporu i v dohodě. Máš dar vidět obě strany a hledat mezi nimi rovnováhu. Partnerství u tebe dozrávají naplno a přinášejí jasnou sklizeň: pevný svazek, nebo zřetelný konec. Umíš vyjednávat, spojovat lidi a pojmenovat, co mezi nimi visí ve vzduchu. Tvé city k protějšku mají sílu přílivu.",
+  "shadow": "Napětí úplňku v sedmém domě se snadno přelévá do přetahování mezi tebou a partnerem. Rovnováhu hledáš, ale často ji čekáš od druhého. Co v sobě nepřijímáš, promítáš do protějšku a pak s tím bojuješ. Vztahy kolísají mezi splynutím a odstupem. Nerozhodnost tě někdy drží ve svazku déle, než ti prospívá, jindy pouto trháš příliš prudce. Nálada vztahu určuje i tvou vlastní náladu. Otevření odpůrci často nesou rysy, které u sebe nevidíš.",
+  "hard": [
+   {
+    "topics": [
+     "loss"
+    ],
+    "text": "Tradice tu mluví o rozvodech a rozchodech. Úplněk přivádí vztah k vrcholu, kde se ukáže, co v něm skutečně je. Podle starých výkladů proto svazky končí častěji náhle a viditelně, někdy po dlouhém období napětí, které nikdo nepojmenoval."
+   },
+   {
+    "topics": [
+     "violence"
+    ],
+    "text": "Tradice tu mluví o otevřených nepřátelích, sporech a vleklých rozepřích. Sedmý dům ukazuje ty, kdo stojí proti tobě tváří v tvář. Staré výklady varují, že konflikt s partnerem nebo protivníkem může přerůst v tvrdý střet."
+   },
+   {
+    "topics": [
+     "loss",
+     "death"
+    ],
+    "text": "Tradice tu někdy mluví i o ztrátě partnera, ať odloučením, nebo smrtí. Jde o staré čtení sedmého domu jako místa, kde se život potkává se svým protějškem a kde se vztahy také uzavírají. Nejde o jistotu, jen o téma, které tradice k tomuto postavení řadí."
+   }
+  ],
+  "traits": {
+   "text": [
+    "cooperation",
+    "empathy",
+    "justice",
+    "charm",
+    "sociability"
+   ],
+   "shadow": [
+    "indecision",
+    "dependence",
+    "moodiness",
+    "drama"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "lunation_in_house/full/8",
+  "title": "Úplněk v 8. domě",
+  "keywords": [
+   "proměna",
+   "vyvrcholení krize",
+   "sdílené peníze",
+   "intimita",
+   "dědictví"
+  ],
+  "themes": [
+   "character",
+   "relationships",
+   "money",
+   "health",
+   "growth"
+  ],
+  "text": "Úplněk v 8. domě vynáší na světlo to, co v tvém životě dlouho zůstává skryté. Krize, sdílené peníze, intimita i dědictví u tebe dozrávají do jasného vyvrcholení. Máš schopnost dívat se pravdě do očí, i když bolí. Vztahy prožíváš do hloubky a vidíš, co druzí tají. Umíš uzavřít jednu kapitolu a pustit se do další. Tvoje síla roste právě tam, kde něco končí.",
+  "shadow": "Úplněk v 8. domě vyostřuje napětí mezi tím, co patří tobě, a tím, co patří druhým. Ve sdílených penězích, v sexualitě nebo při dělení majetku se snadno dostáváš do mocenského přetahování. Krize tě někdy přitahují víc než klid. Vztah dokážeš dovést až k bodu zlomu, jen aby vyšla najevo pravda. Žárlivost a potřeba kontroly v tobě vzplanou náhle a silně. Tajemství nosíš dlouho a pak se provalí najednou.",
+  "hard": [
+   {
+    "topics": [
+     "death",
+     "loss"
+    ],
+    "text": "Tradice tu mluví o smrti blízkého člověka jako o události, která může přijít v období vyvrcholení a spustit hlubokou proměnu. Spojuje ji s úmrtím v rodině nebo v partnerství a se zármutkem, který natrvalo mění pohled na život."
+   },
+   {
+    "topics": [
+     "ruin",
+     "loss"
+    ],
+    "text": "Tradice tu mluví o krachu ve sdílených financích, o sporech o dědictví a o dluzích, které se vyostří naráz. Majetek partnera nebo rodiny se podle ní může stát zdrojem ztráty místo opory."
+   },
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o operacích a nemocech, které se projeví náhle a vyžadují zásah. Osmý dům spojuje s orgány vylučování a rozmnožování a úplněk podle ní tyto potíže přivádí do vrcholné fáze."
+   },
+   {
+    "topics": [
+     "mental_crisis"
+    ],
+    "text": "Tradice tu mluví o vnitřních krizích, při kterých se nahromaděné emoce, strach ze ztráty nebo potlačená touha vyvalí naráz. Takové období může přinést hluboký otřes a pocit, že se starý svět rozpadá."
+   }
+  ],
+  "traits": {
+   "text": [
+    "transformation",
+    "depth",
+    "intuition",
+    "resilience",
+    "sensuality"
+   ],
+   "shadow": [
+    "obsession",
+    "jealousy",
+    "secrecy",
+    "drama",
+    "dominance"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "lunation_in_house/full/9",
+  "title": "Úplněk v 9. domě",
+  "keywords": [
+   "smysl",
+   "víra",
+   "cizina",
+   "poznání",
+   "vrchol hledání"
+  ],
+  "themes": [
+   "character",
+   "growth"
+  ],
+  "text": "Úplněk v 9. domě přináší do tvého života chvíle, kdy se náhle ukáže smysl celé cesty. Otázky víry, studia a dálek u tebe dozrávají naplno, často najednou. Máš silnou potřebu chápat, proč věci jsou, a ne jen jak fungují. Přitahují tě cizí země, jazyky, učitelé a velké myšlenky. Umíš sklízet poznání z dlouhého hledání. Dokážeš ho předat dál s přesvědčením, které druhé strhne.",
+  "shadow": "Úplněk v 9. domě staví proti sobě to, čemu věříš, a to, co denně vidíš kolem sebe. Napětí mezi vzdáleným ideálem a všední drobností tě snadno rozdvojí. Přesvědčení se v tobě může vyhrotit do kázání nebo do neochoty slyšet jiný názor. Hledání smyslu občas přechází v útěk do dálek, kde problémy domova zdánlivě mizí. Vrcholy nadšení pak střídají chvíle zklamání, když se pravda ukáže menší, než slibovala.",
+  "hard": [
+   {
+    "topics": [
+     "ruin",
+     "loss"
+    ],
+    "text": "Tradice tu mluví o sporech u soudu, které se pod úplňkem v 9. domě vyhrocují. Mohou přinést ztrátu majetku nebo dobrého jména. Podle starých výkladů se konflikt o zásady snadno přesouvá před úřady a táhne se déle, než se čekalo."
+   },
+   {
+    "topics": [
+     "illness",
+     "death"
+    ],
+    "text": "Tradice tu mluví o potížích v cizině a na dlouhých cestách. Zmiňuje nemoc daleko od domova a nehody při putování. Starší texty uvádějí i nebezpečí smrti na cestách. Jde o tradiční motiv, ne o předpověď."
+   },
+   {
+    "topics": [
+     "mental_crisis"
+    ],
+    "text": "Tradice tu mluví o krizi víry, při níž se zhroutí přesvědčení, které neslo celý život. Úplněk vynáší takové otřesy na povrch prudce. Může je provázet období ztráty smyslu a vnitřního zmatku."
+   }
+  ],
+  "traits": {
+   "text": [
+    "curiosity",
+    "wanderlust",
+    "spirituality",
+    "idealism",
+    "eloquence"
+   ],
+   "shadow": [
+    "rigidity",
+    "escapism",
+    "restlessness",
+    "melancholy"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "lunation_in_house/full/10",
+  "title": "Úplněk v 10. domě",
+  "keywords": [
+   "vrchol kariéry",
+   "veřejné uznání",
+   "pověst",
+   "domov a poslání",
+   "sklizeň"
+  ],
+  "themes": [
+   "work",
+   "character",
+   "family",
+   "growth"
+  ],
+  "text": "Úplněk v 10. domě staví tvůj život na veřejnou scénu. To, co v tobě dozrává, chce být vidět a uznané. Práce a poslání jsou pro tebe místem, kde se tvé úsilí naplno sklízí. Máš schopnost dotáhnout věci do viditelného vrcholu a dát jim jméno. Druzí v tobě často vidí autoritu dřív, než o ni stojíš. Napětí mezi domovem a kariérou tě nutí hledat rovnováhu a z toho roste zralost. Úspěch u tebe přichází ve vlnách, často po dlouhém zrání.",
+  "shadow": "Úplněk v 10. domě vystavuje na odiv i to, co by potřebovalo dozrát v klidu. Hodnotu člověka snadno měříš postavením a pověstí, včetně své vlastní. Když uznání nepřichází, dostavuje se pocit selhání. Soukromí a rodina pak ustupují výkonu, nebo naopak domácí napětí prosakuje do práce. Výkyvy nálad před lidmi působí jako nejistota. Hrozí krajnosti: plné nasazení střídá náhlé vyčerpání a stažení. Střety s nadřízenými a autoritami se vyhrocují rychleji, než čekáš.",
+  "hard": [
+   {
+    "topics": [
+     "loss",
+     "ruin"
+    ],
+    "text": "Tradice tu mluví o pádu z výšky. Popisuje ztrátu postavení, úřadu nebo dobrého jména, často náhlou a na očích veřejnosti. Vrchol lunace podle ní v sobě nese i obrat: co dosáhlo plnosti, začíná ubývat. Zmiňuje také veřejnou ostudu a ztrátu přízně mocných. Jde o tradiční výklad, ne o jistotu."
+   }
+  ],
+  "traits": {
+   "text": [
+    "ambition",
+    "leadership",
+    "responsibility",
+    "perseverance"
+   ],
+   "shadow": [
+    "pride",
+    "moodiness",
+    "exhaustion",
+    "insecurity",
+    "drama"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "lunation_in_house/full/11",
+  "title": "Úplněk v 11. domě",
+  "keywords": [
+   "přátelství",
+   "společenství",
+   "naděje",
+   "sklizeň plánů",
+   "skupina"
+  ],
+  "themes": [
+   "relationships",
+   "growth",
+   "character"
+  ],
+  "text": "Úplněk v 11. domě naplno rozsvěcuje tvoje přátelství a společné plány. Lidé se kolem tebe sbíhají a ve skupině nacházíš své místo i svůj hlas. Máš dar propojovat lidi, kteří by se jinak nepotkali. Tvoje naděje dozrávají v kruhu ostatních a nejvíc z nich sklízíš, když je sdílíš. Umíš vycítit, co skupina potřebuje, a dát tomu tvar. Přátelé pro tebe nejsou doplněk života. Jsou opora i zrcadlo.",
+  "shadow": "Úplněk v 11. domě staví do ostrého protikladu tvoje osobní touhy a očekávání skupiny. Snadno se zmítáš mezi potřebou někam patřit a potřebou jít vlastní cestou. Od přátel čekáš víc, než unesou, a zklamání pak bereš jako zradu. Vztahy mají sklon k prudkým vrcholům a náhlým koncům. Plány se rodí s velkým nadšením, ale ne vždy dozrají. Hrozí, že se rozplyneš v davu. Nebo naopak odejdeš ze společenství s pocitem, že tě nikdo nechápe.",
+  "hard": [
+   {
+    "topics": [
+     "loss"
+    ],
+    "text": "Tradice tu mluví o zradě ze strany přátel a o rozpadu skupin, kterým věnuješ důvěru. Úplněk podle ní vynáší takové věci na světlo v okamžiku vrcholu, kdy je ztráta nejcitelnější. Jde o možnost, ne o jistotu. Často se tím spíš ukáže, kdo k tobě skutečně patří."
+   }
+  ],
+  "traits": {
+   "text": [
+    "sociability",
+    "belonging",
+    "cooperation",
+    "idealism",
+    "empathy"
+   ],
+   "shadow": [
+    "dependence",
+    "drama",
+    "inconstancy",
+    "loneliness"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "lunation_in_house/full/12",
+  "title": "Úplněk v 12. domě",
+  "keywords": [
+   "podvědomí",
+   "ústraní",
+   "intuice",
+   "obětavost",
+   "skryté napětí"
+  ],
+  "themes": [
+   "character",
+   "health",
+   "growth"
+  ],
+  "text": "Úplněk ve 12. domě vynáší na světlo to, co jinak zůstává skryté. Tvůj vnitřní život má velkou sílu a v tichu dozrává v jasné poznání. Máš jemný sluch pro nevyslovené nálady, sny a tušení. Nejvíc ze sebe vydáváš v ústraní, při pomoci druhým nebo v tvorbě, která nepotřebuje publikum. Napětí mezi světem povinností a světem duše tě nutí hledat rovnováhu. Tvé vrcholy se často odehrávají potichu, uvnitř.",
+  "shadow": "Úplněk ve 12. domě dává skrytým pocitům takovou sílu, že tě občas přemůžou dřív, než jim porozumíš. Napětí si necháváš pro sebe a navenek působíš klidně. Hromadí se v tobě únava, neurčitý smutek a pocit viny bez jasné příčiny. Snadno se stáhneš do ústraní a za samotu schováš strach z blízkosti. Obětavost se mění v sebeobětování a hranice se rozpouštějí. Únik do snění nebo do nočního světa slibuje úlevu, ale problém jen odkládá.",
+  "hard": [
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o nemocech, které se dlouho skrývají a naplno se projeví až ve chvíli vyčerpání. Úplněk v domě nemocnic spojuje s pobyty v ústavní péči, s rekonvalescencí v ústraní a s tělem, které nese to, co duše nevyslovila."
+   },
+   {
+    "topics": [
+     "mental_crisis",
+     "addiction"
+    ],
+    "text": "Tradice tu mluví o sebezničení a o útěku před vlastní bolestí. Spojuje toto postavení s depresí, úzkostnými stavy a se sklonem utápět napětí v alkoholu, lécích nebo jiných látkách. Vrchol vnitřního tlaku se může projevit krizí, kterou okolí dlouho nevidí."
+   },
+   {
+    "topics": [
+     "ruin",
+     "loss"
+    ],
+    "text": "Tradice tu mluví o skrytých nepřátelích, pomluvách a škodách, které přicházejí zezadu. Starší výklady sem řadí i vězení, vyhnanství a dlouhou osamělost, kdy se člověk ocitá odříznutý od světa vlastní vinou nebo cizím rozhodnutím."
+   }
+  ],
+  "traits": {
+   "text": [
+    "intuition",
+    "empathy",
+    "self_sacrifice",
+    "spirituality",
+    "depth"
+   ],
+   "shadow": [
+    "escapism",
+    "guilt",
+    "loneliness",
+    "secrecy",
+    "exhaustion"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ }
+]

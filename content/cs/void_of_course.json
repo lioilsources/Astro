@@ -1,0 +1,61 @@
+[
+ {
+  "key": "void_of_course",
+  "title": "Měsíc bez aspektu",
+  "keywords": [
+   "měsíc bez kurzu",
+   "nedokončené záměry",
+   "vnitřní nezávislost",
+   "dozrávání",
+   "volné plynutí"
+  ],
+  "themes": [
+   "character",
+   "growth",
+   "work",
+   "health"
+  ],
+  "text": "Měsíc bez aspektu ti dává citový život, který plyne mimo hlavní proudy a řídí se vlastními pravidly. Tvé nálady se neopírají o vnější podněty. Vnitřní svět máš proto svobodný a nezávislý na okolí. Umíš se ponořit do věcí bez tlaku na výsledek. Často jednáš nečekaně a originálně, protože tě nevedou zaběhnuté vzorce. V klidných chvílích přichází intuice, která překvapí přesností. Daří se ti dokončovat, třídit, přemýšlet a nechat věci v klidu dozrát.",
+  "shadow": "Měsíc bez aspektu ve své odvrácené podobě znamená, že city a záměry se těžko spojují s činy. Začínáš věci s chutí a pak zjistíš, že z nich nic nevzejde. Rozhodnutí často stojí na mylném odhadu situace. Okolí tvé nálady těžko čte a ty zase těžko čteš okolí. Snadno se uzavíráš, odkládáš a ztrácíš směr. Pocit, že nikam úplně nepatříš, se umí změnit v osamělost a nerozhodnost.",
+  "hard": [
+   {
+    "topics": [
+     "loss",
+     "ruin"
+    ],
+    "text": "Tradice tu mluví o tom, že věci začaté pod Měsícem bez aspektu vyjdou naprázdno. Smlouvy, cesty a záměry se rozpadnou nebo dopadnou jinak, než se čekalo. Starší autoři u narození s takovým Měsícem zmiňují nejistý osud, malý vliv na vlastní okolnosti a ztráty z nedokončených podniků."
+   },
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradiční lékařská astrologie vykládá Měsíc bez aspektu na začátku nemoci dvojznačně. Tradice tu mluví o nemoci, která běží svým tempem bez zřetelného zlomu, a o léčbě, která nemusí přinést očekávaný účinek. Jde o historický výklad, ne o předpověď."
+   },
+   {
+    "topics": [
+     "mental_crisis"
+    ],
+    "text": "Tradice tu mluví o citovém životě bez kotvy. Popisuje období, kdy nálady nemají oporu a přichází pocit prázdnoty, odpojení od druhých a bezradnosti. U citlivé povahy se tento stav podle tradice může prohloubit v melancholii a stažení do sebe."
+   }
+  ],
+  "traits": {
+   "text": [
+    "independence",
+    "intuition",
+    "originality",
+    "calm"
+   ],
+   "shadow": [
+    "procrastination",
+    "reclusiveness",
+    "loneliness",
+    "indecision",
+    "insecurity"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ }
+]

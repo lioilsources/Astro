@@ -1,0 +1,3546 @@
+[
+ {
+  "key": "horary/house/1",
+  "title": "1. dům v horární otázce",
+  "keywords": [
+   "osoba, která se ptá",
+   "tělo",
+   "vládce ascendentu",
+   "první dojem",
+   "způsob jednání"
+  ],
+  "themes": [
+   "character",
+   "health"
+  ],
+  "text": "V horární otázce zastupuje 1. dům tebe jako osobu, která se ptá. Patří sem tvé tělo, vzhled, nálada i způsob, jakým do věci vstupuješ. Podle Lillyho tě zastupuje vládce ascendentu a Luna jako vedlejší ukazatel. Leží-li ascendent v prvních třech stupních znamení, podle tradičních pravidel vychází, že otázka je předčasná. Po 27. stupni je na úsudek pozdě. U otázek na plavbu ukazuje 1. dům samotnou loď.",
+  "hard": [
+   {
+    "topics": [
+     "illness",
+     "violence"
+    ],
+    "text": "Tradice tu mluví o nemoci. V otázkách na zdraví ukazuje 1. dům tvé tělo. Je-li vládce ascendentu spálený Sluncem, retrográdní nebo v 6. domě, podle tradičních pravidel vychází oslabení a nemoc. Saturn na ascendentu čte Lilly jako chlad, únavu a dlouhé potíže. Mars na ascendentu čte jako horečku, záněty, řezná zranění a úrazy."
+   },
+   {
+    "topics": [
+     "death"
+    ],
+    "text": "Tradice tu mluví o smrti. Spojuje-li se vládce ascendentu s vládcem 8. domu nebo vstupuje-li do 8. domu, čte to Lilly v otázkách na nemoc jako vážné ohrožení života. Podle tradičních pravidel z toho vychází nebezpečí, ne jistota. Rozhodují další svědectví, například silná Luna nebo pomoc Jupitera a Venuše."
+   },
+   {
+    "topics": [
+     "loss",
+     "mental_crisis"
+    ],
+    "text": "Tradice tu mluví o skrytých nepřátelích a o vlastní zkáze. Vládce ascendentu ve 12. domě ukazuje omezení, uvěznění nebo zármutek, který neseš v sobě. Podle tradičních pravidel vychází v otázce slabší pozice a sklon přehlížet, co ti škodí."
+   }
+  ],
+  "traits": {
+   "text": [
+    "self_confidence",
+    "decisiveness",
+    "vitality",
+    "openness"
+   ],
+   "shadow": [
+    "exhaustion",
+    "insecurity",
+    "fearfulness"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "horary/house/2",
+  "title": "2. dům v horární otázce",
+  "keywords": [
+   "movitý majetek",
+   "peníze",
+   "zisk a ztráta",
+   "ztracené věci",
+   "pomocníci ve sporu"
+  ],
+  "themes": [
+   "money",
+   "work",
+   "character"
+  ],
+  "text": "V horární otázce zastupuje 2. dům tvůj movitý majetek, peníze, zisk a ztrátu i ztracené věci. Lilly mu přiřazuje také tvé pomocníky ve sporu. Moderní čtení přidává sebeocenění a talenty. O tvém jmění vypovídá vládce domu a planety v něm. Podle tradičních pravidel vychází, že silný a dobře aspektovaný vládce značí udržení nebo přírůstek. Slabý vládce značí úbytek.",
+  "hard": [
+   {
+    "topics": [
+     "loss",
+     "ruin"
+    ],
+    "text": "Tradice tu mluví o ztrátě majetku. Vládce 2. domu může být spálený od Slunce, retrográdní, v pádu nebo pod útokem Saturnu či Marsu. Pak podle tradičních pravidel vychází škoda, dluh, krádež nebo rozpad jmění. Lilly takový obraz čte jako úbytek a nejistotu ohledně tvého majetku. Nečte ho jako konečný ortel nad celým životem."
+   },
+   {
+    "topics": [
+     "death"
+    ],
+    "text": "Tradice tu mluví i o smrti. Lilly počítá domy od jiných domů, takže 2. dům je zároveň osmým domem od sedmého. Při otázce na partnera nebo protivníka proto ukazuje jeho smrt nebo zánik. Jde o odvozený význam. Podle tradičních pravidel vychází jen tehdy, když na to míří celá figura."
+   }
+  ],
+  "traits": {
+   "text": [
+    "security_need",
+    "thrift",
+    "realism",
+    "materialism"
+   ],
+   "shadow": [
+    "stinginess",
+    "insecurity",
+    "pessimism"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "horary/house/3",
+  "title": "3. dům v horární otázce",
+  "keywords": [
+   "sourozenci",
+   "sousedé",
+   "zprávy",
+   "krátké cesty",
+   "učení"
+  ],
+  "themes": [
+   "family",
+   "relationships",
+   "growth"
+  ],
+  "text": "Když se ptáš na sourozence, souseda, dopis, zprávu, pověst nebo krátkou cestu, otázku nese třetí dům. Lilly (1647) mu přiděluje bratry, sestry, bratrance, sousedy, posly a listy. Luna se v něm raduje. Vládce domu zastupuje to, na co se ptáš. Podle tradičních pravidel vychází odpověď z jeho síly, důstojnosti a aspektu k vládci ascendentu.",
+  "hard": [
+   {
+    "topics": [
+     "violence",
+     "loss"
+    ],
+    "text": "Tradice tu mluví o nebezpečí na krátkých cestách. Stojí-li Mars nebo Saturn ve třetím domě bez důstojnosti, nebo poškozují-li jeho vládce, Lilly čte nehody, přepadení, ztrátu věcí na cestě a zlé sousedy. Ukazuje to také svár a nevraživost mezi sourozenci. Podle tradičních pravidel vychází opatrnost s cestou i s rodinnou výměnou slov."
+   },
+   {
+    "topics": [
+     "illness",
+     "death"
+    ],
+    "text": "Tradice tu mluví o zdraví a životě sourozence. Lilly čte domy odvozeně od třetího. Vládce třetího v šestém od třetího, tedy v osmém domě, ukazuje nemoc. Spálený vládce nebo jeho postavení v osmém od třetího, tedy v desátém, doplněné poškozením od malefiků, čte tradice jako znamení smrti. Jde o výklad pravidel, ne o jistotu."
+   }
+  ],
+  "traits": {
+   "text": [
+    "curiosity",
+    "eloquence",
+    "sociability",
+    "restlessness"
+   ],
+   "shadow": [
+    "carelessness",
+    "bluntness",
+    "inconstancy"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "horary/house/4",
+  "title": "4. dům v horární otázce",
+  "keywords": [
+   "domov",
+   "otec",
+   "kořeny",
+   "konec věci",
+   "pozemky"
+  ],
+  "themes": [
+   "family",
+   "money"
+  ],
+  "text": "Ve tvé otázce zastupuje 4. dům otce, domov, dům, pozemky, dědictví po předcích a skryté poklady. Matku dává Lilly 10. domu. Lilly sem klade i konec každé věci, proto se tu čte zakončení tvé otázky. Rozhoduje vládce 4. domu a planety v něm. Silný a dobře aspektovaný vládce dává podle tradičních pravidel příznivé zakončení. Slabý nebo zraněný vládce dává těžké zakončení.",
+  "hard": [
+   {
+    "topics": [
+     "death"
+    ],
+    "text": "Tradice tu mluví o konci života a o hrobě. Lilly čte 4. dům jako místo, kam věci i lidé nakonec dojdou. V otázkách na nemoc nebo na osud blízkého člověka se tu posuzuje, zda vládce 4. domu ukazuje na smrtelný konec. Zraněný vládce 4. a 8. domu je podle tradičních pravidel těžké znamení. Jde o výklad, ne o jistotu."
+   },
+   {
+    "topics": [
+     "loss",
+     "ruin"
+    ],
+    "text": "Tradice tu mluví o ztrátě domova, půdy a rodinného majetku. Saturn nebo Mars ve 4. domě vychází podle tradičních pravidel jako škoda na domě nebo na pozemku. Totéž platí pro zraněného vládce tohoto domu. Ukazuje také na rozpad rodinného zázemí nebo na spor o otcovské dědictví. Lilly to čte jako varovné znamení, ne jako hotový výsledek."
+   }
+  ],
+  "traits": {
+   "text": [
+    "family_attachment",
+    "security_need",
+    "belonging",
+    "loyalty"
+   ],
+   "shadow": [
+    "stagnation",
+    "melancholy"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "horary/house/5",
+  "title": "5. dům v horární otázce",
+  "keywords": [
+   "děti",
+   "těhotenství",
+   "hra a sázky",
+   "radost a zábava",
+   "poslové"
+  ],
+  "themes": [
+   "family",
+   "relationships",
+   "growth"
+  ],
+  "text": "V horární otázce zastupuje 5. dům tvoje děti, těhotenství, zábavu, hru a milostnou radost. William Lilly sem řadí i posly, vyslance, hostiny a krčmy. Ptáš-li se na dítě, sázku nebo pozvání, hledá se vládce 5. domu a jeho vztah k tvému signifikátoru. Podle tradičních pravidel vychází odpověď z toho, zda je tento vládce silný a zda se s tvou planetou spojí.",
+  "hard": [
+   {
+    "topics": [
+     "death",
+     "illness",
+     "loss"
+    ],
+    "text": "Tradice tu mluví o zdraví a nemocech dětí i o tom, zda dítě přežije. Lilly posuzuje také otázku potratu. Poškozený vládce 5. domu nebo jeho spojení se zlověstnými planetami či s vládcem 8. domu podle tradičních pravidel ukazuje na ztrátu plodu nebo na těžkou nemoc dítěte. Jde o tradiční výklad, ne o jistotu."
+   },
+   {
+    "topics": [
+     "ruin",
+     "addiction"
+    ],
+    "text": "Tradice tu mluví o hazardu, sázkách a hýření v krčmách. Když 5. dům postihuje Saturn nebo Mars, Lilly v něm čte prohru, rozházený majetek a zábavu, která končí zkázou. Podle tradičních pravidel z toho vychází varovný obraz, ne pevně daný osud."
+   }
+  ],
+  "traits": {
+   "text": [
+    "creativity",
+    "cheerfulness",
+    "sensuality",
+    "risk_taking"
+   ],
+   "shadow": [
+    "indulgence",
+    "irresponsibility",
+    "addiction_tendency"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "horary/house/6",
+  "title": "6. dům v horární otázce",
+  "keywords": [
+   "nemoc",
+   "služba",
+   "zaměstnanci",
+   "drobná zvířata",
+   "každodenní práce"
+  ],
+  "themes": [
+   "work",
+   "health"
+  ],
+  "text": "V horární otázce zastupuje 6. dům tvou nemoc, každodenní práci, zaměstnance, pomocníky, nájemce a drobná zvířata menší než koza. Lilly sem řadí i strýce a tety z otcovy strany. Dům nemá aspekt k ascendentu, proto ho tradice počítá mezi nešťastné. Podle tradičních pravidel vychází povaha nemoci z vládce 6. domu a z planet, které v něm stojí.",
+  "hard": [
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o nemoci jako o hlavním tématu tohoto domu. Podle Lillyho ukazuje znamení na hrotu 6. domu a postavení jeho vládce, která část těla trpí. Ukazuje také, zda jde o nemoc horkou, studenou, suchou či vlhkou. Pevné znamení podle tradičních pravidel vychází jako dlouhá nemoc, pohyblivé jako krátká nebo střídavá."
+   },
+   {
+    "topics": [
+     "death",
+     "illness"
+    ],
+    "text": "Tradice tu mluví i o smrti. Když je vládce ascendentu spálený Sluncem nebo se spojuje s vládcem 8. domu, podle tradičních pravidel vychází nebezpečí, že nemoc skončí smrtí. Naději ukazuje Jupiter nebo Venuše v dobrém aspektu k vládci ascendentu. Jde o pravidla ze 17. století, ne o lékařský úsudek."
+   },
+   {
+    "topics": [
+     "loss"
+    ],
+    "text": "Tradice tu mluví o ztrátě drobných zvířat a o odchodu pomocníků. Poškozený vládce 6. domu podle tradičních pravidel vychází jako uhynutí, krádež nebo zatoulání zvířete. Může také ukazovat nespolehlivého či nemocného služebníka nebo zaměstnance."
+   }
+  ],
+  "traits": {
+   "text": [
+    "diligence",
+    "responsibility",
+    "self_sacrifice",
+    "order"
+   ],
+   "shadow": [
+    "exhaustion",
+    "anxiety",
+    "submissiveness"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "horary/house/7",
+  "title": "7. dům v horární otázce",
+  "keywords": [
+   "partner",
+   "manželství",
+   "smlouva",
+   "otevřený nepřítel",
+   "druhá strana"
+  ],
+  "themes": [
+   "relationships",
+   "work"
+  ],
+  "text": "Sedmý dům v horární otázce zastupuje druhou stranu: partnera, manželství, společníka ve smlouvě i otevřeného nepřítele. Lilly sem řadí také zloděje a každého, kdo nemá vlastní dům. Ty máš ascendent, ten druhý vládce sedmého domu. Podle tradičních pravidel vychází dohoda, když se oba vládci spojují příznivým aspektem. Napjatý aspekt nebo jejich vzájemné odvracení ukazuje spor či rozchod.",
+  "hard": [
+   {
+    "topics": [
+     "loss"
+    ],
+    "text": "Tradice tu mluví o rozvodech a rozchodech. Pokud se vládce ascendentu a vládce sedmého domu míjejí, rozcházejí nebo je mezi nimi zlý aspekt Saturnu či Marsu, podle tradičních pravidel vychází rozpad svazku nebo smlouvy. Jde o výklad otázky, ne o jistý konec."
+   },
+   {
+    "topics": [
+     "violence"
+    ],
+    "text": "Tradice tu mluví o sporech, soubojích a válkách. Sedmý dům je dům otevřených nepřátel a protivníků. Lilly podle síly vládce sedmého domu proti vládci ascendentu posuzuje, která strana v konfliktu převáží. Silný a dobře postavený vládce sedmého domu podle tradičních pravidel vychází jako silnější protivník."
+   },
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o nemoci nepřímo. V Lillyho otázkách na nemoc zastupuje sedmý dům lékaře. Jeho vládce ukazuje, jestli ošetřující rozumí potížím tazatele a jestli mu dokáže pomoci. Je to tradiční symbolika otázky, ne lékařské posouzení."
+   }
+  ],
+  "traits": {
+   "text": [
+    "cooperation",
+    "loyalty",
+    "justice",
+    "belonging"
+   ],
+   "shadow": [
+    "competitiveness",
+    "aggression",
+    "infidelity",
+    "jealousy"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "horary/house/8",
+  "title": "8. dům v horární otázce",
+  "keywords": [
+   "cizí peníze",
+   "dědictví",
+   "smrt",
+   "strach",
+   "proměna"
+  ],
+  "themes": [
+   "money",
+   "family",
+   "relationships",
+   "health"
+  ],
+  "text": "Ptáš-li se na cizí peníze, dědictví, závěť nebo smrt, odpověď podle tradičních pravidel vychází z 8. domu. Lilly mu přiřazuje majetek druhých, věno, odkazy, pozůstalost i strach a úzkost mysli. Je to druhý dům od sedmého. Proto ukazuje peníze partnera, společníka nebo protivníka. Jeho vládce a planety v něm ukazují, kam věc směřuje.",
+  "hard": [
+   {
+    "topics": [
+     "death"
+    ],
+    "text": "Tradice tu mluví o smrti. Lilly z 8. domu posuzuje otázky na smrt toho, kdo se ptá, i jiné osoby. Posuzuje také její povahu a okolnosti. Spojení vládce 1. domu s vládcem 8. domu, nebo vládce 8. domu stojící v 1. domě, podle tradičních pravidel vychází jako vážné znamení. Lilly přesto varuje před lehkomyslným kladením takových otázek. Verdikt není jistota."
+   },
+   {
+    "topics": [
+     "illness",
+     "death"
+    ],
+    "text": "Tradice tu mluví o nemoci, která se láme k horšímu. V otázce na nemocného čte Lilly 8. dům jako dům smrti nemocného. Škodlivé planety v 8. domě nebo vládce 1. domu, který se blíží k vládci 8. domu, podle tradičních pravidel vycházejí jako těžký průběh. Moderní výklad sem řadí i operace a zásahy do těla."
+   },
+   {
+    "topics": [
+     "mental_crisis"
+    ],
+    "text": "Tradice tu mluví o strachu a úzkosti mysli. Lilly výslovně uvádí 8. dům jako místo trápení a skryté tísně. Postižený vládce 1. domu v 8. domě podle tradičních pravidel vychází jako tíseň, která ovládá tvoje myšlení. Krize je tu chápána jako přechod. Nemusí to být konečný stav."
+   },
+   {
+    "topics": [
+     "loss",
+     "ruin"
+    ],
+    "text": "Tradice tu mluví o ztrátě a krachu. Jako druhý dům od sedmého ukazuje 8. dům majetek protivníka, dlužníka nebo společníka. Postižený vládce 8. domu podle tradičních pravidel vychází jako nesplacený dluh, ztracené věno, sporná pozůstalost nebo zhroucení společných peněz. Šťastné planety v tomto domě naopak vycházejí jako dědictví nebo vrácené prostředky."
+   }
+  ],
+  "traits": {
+   "text": [
+    "transformation",
+    "depth",
+    "secrecy"
+   ],
+   "shadow": [
+    "anxiety",
+    "obsession",
+    "fearfulness"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "horary/house/9",
+  "title": "9. dům v horární otázce",
+  "keywords": [
+   "dlouhá cesta",
+   "cizina",
+   "víra",
+   "studium",
+   "sny"
+  ],
+  "themes": [
+   "growth",
+   "relationships",
+   "work"
+  ],
+  "text": "V horární otázce zastupuje 9. dům dlouhé cesty, cizinu, studium, víru, knihy, sny a duchovní osoby. Patří sem i příbuzní tvého partnera. Když se ptáš na cestu, zkoušku nebo život v jiné zemi, sleduje se vládce 9. domu a jeho stav. Podle tradičních pravidel vychází, že silný a nerušený vládce ukazuje příznivý průběh. Oslabený nebo poškozený vládce ukazuje zdržení a překážky.",
+  "hard": [
+   {
+    "topics": [
+     "death",
+     "loss"
+    ],
+    "text": "Tradice tu mluví o nebezpečí na dlouhé cestě. Lilly posuzuje návrat z cesty i bezpečí lodi podle 9. domu a jeho vládce. Malefik v tomto domě nebo spojení vládce 9. domu s vládcem 8. domu čte jako ztrátu, ztroskotání či smrt v cizině. Podle tradičních pravidel jde o varovný znak, ne o jistotu."
+   },
+   {
+    "topics": [
+     "illness",
+     "violence"
+    ],
+    "text": "Tradice tu mluví o nemoci na cestách a o přepadení na cestě. Mars v 9. domě nebo jeho poškozující aspekt k vládci domu čte Lilly jako loupež, násilí nebo zranění v dálce. Saturn na tomtéž místě ukazuje zdlouhavé cestování, chlad, strádání a nemoc daleko od domova."
+   },
+   {
+    "topics": [
+     "mental_crisis"
+    ],
+    "text": "Tradice tu mluví o snech, viděních a náboženských obavách. Poškozený 9. dům čte Lilly jako znepokojivé sny, klamné vize nebo bludnou víru. Podle tradičních pravidel z toho vychází spíš neklid mysli než zjevení pravdy."
+   },
+   {
+    "topics": [
+     "loss",
+     "ruin"
+    ],
+    "text": "Tradice tu mluví o sporech a potížích v cizině: o rozepři s cizími lidmi, o nepřízni úřadů v jiné zemi a o zmařeném studiu. Retrográdní nebo spálený vládce 9. domu ukazuje podle tradičních pravidel cestu, ze které se vracíš s nepořízenou, nebo dlouhé zdržení vzdálené záležitosti."
+   }
+  ],
+  "traits": {
+   "text": [
+    "wanderlust",
+    "spirituality",
+    "curiosity",
+    "depth"
+   ],
+   "shadow": [
+    "restlessness",
+    "anxiety"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "horary/house/10",
+  "title": "10. dům v horární otázce",
+  "keywords": [
+   "kariéra",
+   "autorita",
+   "pověst",
+   "postavení",
+   "matka"
+  ],
+  "themes": [
+   "work",
+   "family",
+   "character"
+  ],
+  "text": "Desátý dům v horární otázce ukazuje tvoje zaměstnání, pověst a postavení. Leží na nejvyšším bodě horoskopu, proto podle Lillyho zastupuje i vše nad tebou: šéfa, úřad, soudce, panovníka i matku. Ptáš-li se na povýšení nebo novou práci, sleduje se vládce desátého domu a jeho aspekt s tvým signifikátorem. Při silném vládci a dobrém spojení podle tradičních pravidel vychází příznivý verdikt.",
+  "hard": [
+   {
+    "topics": [
+     "loss",
+     "ruin"
+    ],
+    "text": "Tradice tu mluví o pádu z výšky a ztrátě postavení. Lilly čte Saturn nebo Mars v desátém domě, spáleného či retrográdního vládce a jeho odpojování od tvého signifikátoru jako znamení nemilosti, propuštění nebo pošramocené pověsti. Podle tradičních pravidel pak vychází, že úřad, místo nebo čest nezůstávají v tvých rukou."
+   },
+   {
+    "topics": [
+     "death",
+     "illness"
+    ],
+    "text": "Tradice tu mluví i o zdraví a smrti matky. Desátý dům ji zastupuje, a otázky na její nemoc se proto čtou z šestého domu počítaného od desátého, otázky na její smrt z osmého domu od desátého. Poškozený vládce v těchto odvozených domech podle tradičních pravidel vychází jako nepříznivé znamení. Jde o výklad, ne o jistotu."
+   }
+  ],
+  "traits": {
+   "text": [
+    "ambition",
+    "leadership",
+    "responsibility",
+    "discipline"
+   ],
+   "shadow": []
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "horary/house/11",
+  "title": "11. dům v horární otázce",
+  "keywords": [
+   "přátelé",
+   "naděje",
+   "spojenci",
+   "skupiny",
+   "přání"
+  ],
+  "themes": [
+   "relationships",
+   "growth"
+  ],
+  "text": "V horární otázce zastupuje 11. dům přátele, spojence, skupiny, rádce a tvé naděje, tedy to, v co doufáš. Lilly ho nazývá domem Dobrého ducha a radostí Jupitera, proto ho tradice čte jako příznivé místo. Když se ptáš, zda se přání splní, podle tradičních pravidel vychází odpověď z vládce 11. domu a z jeho spojení s Měsícem nebo vládcem ascendentu.",
+  "hard": [
+   {
+    "topics": [
+     "loss"
+    ],
+    "text": "Tradice tu mluví o falešnosti a zradě přátel. Lilly v 11. domě posuzuje věrnost i nevěrnost přátel. Pokud je vládce domu poškozený, retrográdní nebo v napjatém aspektu s tvým signifikátorem, podle tradičních pravidel vychází, že přítel nebo skupina nedrží slovo a naděje zůstává nenaplněná."
+   },
+   {
+    "topics": [
+     "death"
+    ],
+    "text": "Tradice tu mluví i o odvozeném významu. 11. dům je osmým domem od čtvrtého, a proto v otázce na otce zastupuje jeho smrt. Když se ptáš na otcův život, podle tradičních pravidel vychází, že silně poškozený vládce 11. domu ukazuje vážné ohrožení. Jde o tradiční pravidlo, ne o jistotu."
+   }
+  ],
+  "traits": {
+   "text": [
+    "sociability",
+    "belonging",
+    "optimism",
+    "cooperation",
+    "loyalty"
+   ],
+   "shadow": [
+    "deceit",
+    "infidelity",
+    "loneliness"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "horary/house/12",
+  "title": "12. dům v horární otázce",
+  "keywords": [
+   "skrytí nepřátelé",
+   "uvěznění",
+   "ústraní",
+   "sebezničení",
+   "velká zvířata"
+  ],
+  "themes": [
+   "character",
+   "relationships",
+   "health"
+  ],
+  "text": "V horární otázce zastupuje 12. dům vše, co je skryté před tvým zrakem: tajné nepřátele, lidi jednající za tvými zády, uvěznění, ústraní a velká zvířata jako koně či dobytek. Lilly ho řadí mezi padající domy a nazývá ho radostí Saturna. Když v něm stojí signifikátor, podle tradičních pravidel vychází, že věc zůstává zakrytá, zdržená nebo mimo tvůj vliv.",
+  "hard": [
+   {
+    "topics": [
+     "illness",
+     "loss"
+    ],
+    "text": "Tradice tu mluví o nemocnicích a dlouhém ústraní. Lilly spojuje 12. dům se soužením, zármutkem a potížemi, které se táhnou. Stojí-li v něm vládce ascendentu poškozený Saturnem nebo Marsem, podle tradičních pravidel vychází delší pobyt mimo běžný život, třeba v léčebném zařízení. Jde o tradiční výklad, ne o lékařský úsudek."
+   },
+   {
+    "topics": [
+     "violence",
+     "ruin"
+    ],
+    "text": "Tradice tu mluví o skrytých nepřátelích, pomluvách a zlé vůli, kterou nevidíš. Lilly sem řadí i uvěznění a zajetí. Je-li vládce 12. domu silný a ve škodlivém aspektu s tvým signifikátorem, podle tradičních pravidel vychází, že někdo v ústraní škodí tvé věci nebo tě drží v omezení."
+   },
+   {
+    "topics": [
+     "mental_crisis",
+     "loss"
+    ],
+    "text": "Tradice tu mluví o sebezničení, tedy o činech, kterými si člověk škodí vlastní rukou. Lilly k tomu přidává zármutek, osamělost a trápení bez zjevné příčiny. Stojí-li vládce ascendentu ve 12. domě, podle tradičních pravidel vychází, že překážka pochází z tebe a zůstává skrytá i tvým vlastním očím."
+   },
+   {
+    "topics": [
+     "death"
+    ],
+    "text": "Tradice tu mluví i o odvozených domech. Dvanáctý dům je osmý od pátého, a proto v otázkách na dítě může podle tradičních pravidel ukazovat na jeho smrt nebo vážné ohrožení. Lilly tento výklad používá jen tehdy, když to potvrzují další svědectví v horoskopu."
+   }
+  ],
+  "traits": {
+   "text": [
+    "secrecy",
+    "reclusiveness",
+    "loneliness",
+    "self_sacrifice",
+    "guilt"
+   ],
+   "shadow": []
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "horary/significator/sun",
+  "title": "Slunce jako ukazatel",
+  "keywords": [
+   "otec",
+   "autorita",
+   "čest",
+   "srdce",
+   "vitalita"
+  ],
+  "themes": [
+   "family",
+   "work",
+   "health",
+   "character"
+  ],
+  "text": "Když ve tvé horární otázce vystupuje Slunce jako ukazatel, zastupuje podle Lillyho otce, nadřízené, úřady a lidi s mocí. Zastupuje také čest, postavení a zlato. Pokud na ascendentu vychází Lev, zastupuje přímo tebe. Silné Slunce ve Skopci nebo ve Lvu dává jasnou odpověď. Podle tradičních pravidel vychází, že věc nese váhu a viditelnost. Planety blízko Slunce jsou spálené a ztrácejí sílu.",
+  "hard": [
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o srdci, očích a celkové vitalitě, které Slunce v horární otázce zastupuje. Slunce ve Vahách, tedy v pádu, nebo ve Vodnáři ve vyhnanství, podle tradičních pravidel ukazuje oslabenou životní sílu a potíže se zrakem či srdcem. Lilly takové postavení čte jako znamení nemoci, nikoli jako jistotu."
+   },
+   {
+    "topics": [
+     "loss",
+     "illness"
+    ],
+    "text": "Tradice tu mluví také o otci. Poškozené Slunce, zvlášť v pádu nebo v těsném spojení se Saturnem či Marsem, podle tradičních pravidel ukazuje oslabené zdraví otce nebo odcizení od něj. U otázek na postavení tradice mluví o ztrátě cti, úřadu či přízně mocných."
+   }
+  ],
+  "traits": {
+   "text": [
+    "leadership",
+    "self_confidence",
+    "vitality",
+    "responsibility"
+   ],
+   "shadow": [
+    "pride",
+    "dominance",
+    "vanity"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "horary/significator/moon",
+  "title": "Měsíc jako ukazatel",
+  "keywords": [
+   "spoluukazatel tazatele",
+   "průběh věci",
+   "matka a ženy",
+   "prázdný běh"
+  ],
+  "themes": [
+   "character",
+   "family",
+   "health"
+  ],
+  "text": "Měsíc je v horární otázce tvým spoluukazatelem vedle vládce ascendentu. Zastupuje také matku, ženy, obyčejné lidi a tok celé věci. Lilly z jeho posledního aspektu čte, co už proběhlo, a z nejbližšího příštího aspektu, kam věc míří. Když Měsíc před opuštěním znamení nevytvoří žádný aspekt, podle tradičních pravidel vychází, že z věci nic nebude.",
+  "hard": [
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o nemocech, které Lilly přisuzuje Měsíci: žaludek, břicho, děloha a plodnost, vodnatelnost, kolika a padoucnice. V horoskopu nemoci se podle jeho pohybu určují kritické dny. Měsíc postižený Saturnem nebo Marsem čte tradice jako zhoršení stavu. Jde o tradiční výklad, ne o lékařský úsudek."
+   },
+   {
+    "topics": [
+     "mental_crisis"
+    ],
+    "text": "Tradice tu mluví o šílenství, které Lilly nazývá lunacy, a o kolísání mysli. Měsíc poškozený zlými planetami, zvlášť ve dvanáctém domě nebo v nesouladu s Merkurem, čte tradice jako znamení duševní nerovnováhy, úzkostí a neklidných nocí."
+   },
+   {
+    "topics": [
+     "death",
+     "loss"
+    ],
+    "text": "Tradice tu mluví o smrti, když Měsíc v otázce na nemoc přechází k vládci osmého domu nebo je těsně postižen Saturnem či Marsem. V otázce na matku čte tradice Měsíc spálený Sluncem nebo ve Via combusta jako znamení jejího ohrožení či ztráty. Podle tradičních pravidel jde o vážné znamení, ne o jistotu."
+   },
+   {
+    "topics": [
+     "loss"
+    ],
+    "text": "Tradice tu mluví o ztrátě, když Měsíc prázdného běhu nebo ve svém pádu ve Štíru ukazuje, že ztracená věc se nevrátí a naděje vyjde naprázdno. Lilly takový Měsíc čte jako věc, která se rozplyne bez výsledku."
+   }
+  ],
+  "traits": {
+   "text": [
+    "intuition",
+    "sensitivity",
+    "flexibility",
+    "family_attachment"
+   ],
+   "shadow": [
+    "moodiness",
+    "inconstancy",
+    "dependence",
+    "anxiety"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "horary/significator/mercury",
+  "title": "Merkur jako ukazatel",
+  "keywords": [
+   "zprávy",
+   "smlouvy",
+   "sourozenci",
+   "obchod",
+   "proměnlivost"
+  ],
+  "themes": [
+   "character",
+   "work",
+   "family",
+   "health"
+  ],
+  "text": "Když Merkur vládne domu tvé otázky, zastupuje podle Lillyho písaře, obchodníky, posly, studenty, mladé lidi a sourozence. Zastupuje také dopisy, smlouvy, zprávy a krátké cesty. Je to planeta proměnlivá. Přebírá povahu planety, se kterou je v aspektu. Podle tradičních pravidel vychází, že odpověď na tvou otázku závisí na jeho rychlosti, přímém chodu a na tom, s kým se spojuje.",
+  "hard": [
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o nemocech hlavy, nervů, plic a řeči. Lilly Merkuru přiřazuje závratě, koktání, chrapot, kašel, potíže s dýcháním, slabou paměť a třes rukou. Když je Merkur v otázce na nemoc ukazatelem nemocného nebo vládne šestému domu, podle tradičních pravidel vychází, že potíž sídlí právě v těchto oblastech."
+   },
+   {
+    "topics": [
+     "mental_crisis"
+    ],
+    "text": "Tradice tu mluví o poruchách mysli. Lilly spojuje poškozeného Merkura s pomateností, zuřivostí, blouzněním a ztrátou rozumu. Merkur může být spálený Sluncem, retrográdní nebo sužovaný Saturnem či Marsem. Pak podle tradičních pravidel vychází, že myšlení je zmatené, přetížené a neklidné."
+   },
+   {
+    "topics": [
+     "loss"
+    ],
+    "text": "Tradice tu mluví o ztrátách a krádežích. V otázkách na ztracené věci Merkur zastupuje doklady, dopisy, listiny a drobné předměty. V otázkách na zloděje popisuje Lilly Merkurova zloděje jako mladého, mrštného a výřečného člověka. Při spáleném nebo retrográdním Merkuru podle tradičních pravidel vychází, že se věc hledá obtížně nebo se najde poškozená."
+   }
+  ],
+  "traits": {
+   "text": [
+    "eloquence",
+    "curiosity",
+    "flexibility",
+    "rationality"
+   ],
+   "shadow": [
+    "restlessness",
+    "superficiality",
+    "deceit",
+    "anxiety"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "horary/significator/venus",
+  "title": "Venuše jako ukazatel",
+  "keywords": [
+   "láska",
+   "manželka a milenka",
+   "malý dobrodinec",
+   "potěšení",
+   "šperky"
+  ],
+  "themes": [
+   "relationships",
+   "money",
+   "character",
+   "health"
+  ],
+  "text": "Když Venuše vládne domu, na který se ptáš, zastupuje tvou otázku ona: ženu, manželku, milenku, mladou dívku, hudebníka, šperky, oděvy a peníze určené k radosti. Lilly ji řadí mezi malé dobrodince. Silná, rychlá a v dobrém aspektu podle tradičních pravidel vychází příznivě. V Beranu, Štíru nebo Panně, retrográdní či spálená slibuje méně, než ukazuje.",
+  "hard": [
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o nemocech ledvin, krku, hrdla a rodidel, o potížích z nestřídmosti a o pohlavních chorobách. Když Venuše v otázce na nemoc vládne šestému domu nebo ji poškozuje Saturn či Mars, hledá Lilly příčinu v přemíře jídla, pití a rozkoše."
+   },
+   {
+    "topics": [
+     "death"
+    ],
+    "text": "Tradice tu mluví o smrti jen nepřímo. Když Venuše v otázce na nemoc vládne osmému domu nebo v něm stojí poškozená, čte ji Lilly jako smrt z nestřídmosti nebo z nemoci ledvin a rodidel. Jde o tradiční pravidlo, ne o jistotu."
+   },
+   {
+    "topics": [
+     "loss"
+    ],
+    "text": "Tradice tu mluví o rozchodech. Venuše spálená Sluncem, retrográdní nebo v kvadratuře s Marsem či Saturnem ukazuje podle tradičních pravidel lásku, která se rozpadá, partnera, který odchází, nebo ztracenou věc, která se nevrací. Oddělující aspekt od ukazatele druhé strany čte Lilly jako vztah, který už skončil."
+   },
+   {
+    "topics": [
+     "addiction"
+    ],
+    "text": "Tradice tu mluví o závislosti na rozkoši, tedy na lásce, víně, jídle a pohodlí. Poškozená Venuše zastupuje člověka, kterého potěšení ovládá víc než rozum. Ukazuje také otázku, v níž touha zastírá skutečný stav věcí."
+   },
+   {
+    "topics": [
+     "ruin"
+    ],
+    "text": "Tradice tu mluví o zchudnutí z rozhazovačnosti. Venuše jako vládce druhého domu, poškozená a v pádu, ukazuje podle tradičních pravidel peníze utracené za ozdoby, zábavu a milostné závazky."
+   }
+  ],
+  "traits": {
+   "text": [
+    "charm",
+    "sensuality",
+    "gentleness",
+    "cooperation"
+   ],
+   "shadow": [
+    "indulgence",
+    "vanity",
+    "extravagance",
+    "infidelity"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "horary/significator/mars",
+  "title": "Mars jako ukazatel",
+  "keywords": [
+   "menší škůdce",
+   "střet",
+   "soupeř",
+   "rychlost",
+   "železo a oheň"
+  ],
+  "themes": [
+   "character",
+   "relationships",
+   "work",
+   "health"
+  ],
+  "text": "Mars v horární otázce zastupuje osobu nebo věc z domu se Skopcem či Štírem na hrotu. Lilly ho řadí mezi menší škůdce a přiřazuje mu vojáky, chirurgy, kováře, řezníky, soupeře a nepřátele. Když Mars nese tvou otázku, podle tradičních pravidel vychází rychlý a prudký průběh, spor nebo střet. Silný Mars dává odvahu a průraz, oslabený přináší hádku a škodu.",
+  "hard": [
+   {
+    "topics": [
+     "violence"
+    ],
+    "text": "Tradice tu mluví o zraněních, řezných ranách, popáleninách a násilí. Když Mars v horoskopu otázky poškozuje tvého ukazatele, zvlášť z osmého nebo dvanáctého domu, Lilly v tom čte útok, nehodu nebo úraz železem či ohněm. Podle tradičních pravidel vychází nebezpečí, ne jistota."
+   },
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "V otázkách na nemoc tradice tu mluví o horečkách, zánětech, krvácení, přebytku žluči a operacích. Mars jako ukazatel nemoci podle Lillyho značí náhlé, horké a prudké potíže, které rychle vrcholí. Výklad popisuje povahu stavu podle staré nauky, nic víc."
+   },
+   {
+    "topics": [
+     "death"
+    ],
+    "text": "Tradice tu mluví i o smrti. Když Mars vládne osmému domu a těžce poškozuje ukazatele tazatele nebo nemocného, staré texty to spojují s náhlým či násilným koncem. Lilly ale vždy váží celý horoskop. Podle tradičních pravidel z toho vychází ohrožení, nikoli rozsudek."
+   },
+   {
+    "topics": [
+     "loss",
+     "ruin"
+    ],
+    "text": "V otázkách na majetek a ztracené věci tradice tu mluví o krádeži a zničení. Mars spojený s ukazatelem věci podle Lillyho ukazuje na zloděje, který bere silou, nebo na škodu ohněm a rozbitím. Podle tradičních pravidel vychází ztráta tam, kde Mars věc přímo poškozuje."
+   }
+  ],
+  "traits": {
+   "text": [
+    "courage",
+    "decisiveness",
+    "competitiveness",
+    "vitality",
+    "risk_taking"
+   ],
+   "shadow": [
+    "aggression",
+    "impulsiveness",
+    "anger",
+    "bluntness"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "horary/significator/jupiter",
+  "title": "Jupiter jako ukazatel",
+  "keywords": [
+   "velký dobrodinec",
+   "soudci a duchovní",
+   "studium a víra",
+   "dálkové cesty",
+   "majetek"
+  ],
+  "themes": [
+   "growth",
+   "money",
+   "work",
+   "character"
+  ],
+  "text": "Když v otázce zastupuje tebe nebo hledanou věc Jupiter, Lilly v něm vidí velkého dobrodince. Přirozeně označuje soudce, duchovní, učence a bohaté, velkorysé lidi, dále studium, víru, dálkové cesty a majetek. Silný Jupiter v dobrém domě podle tradičních pravidel vychází jako příslib příznivého konce. Oslabený nebo spálený Jupiter podle tradice dává sliby bez krytí a dobro, které se nenaplní.",
+  "hard": [
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o Jupiteru jako vládci jater, krve a plic. Lilly mu připisuje nemoci z přemíry: zánět plic, mrtvici, potíže jater a krve, otoky a choroby z přejídání. Jako ukazatel nemocného je silný Jupiter podle tradičních pravidel příznivým znamením. Poškozený Jupiter ukazuje potíž právě v těchto oblastech."
+   },
+   {
+    "topics": [
+     "ruin",
+     "loss"
+    ],
+    "text": "Tradice tu mluví o přemíře a rozmařilosti. Poškozený Jupiter, retrográdní nebo v pádu, označuje podle Lillyho marnotratníky, lidi, kteří promrhají svěřené dary, a majetek, který se rozplyne v přepychu. V otázkách jmění podle tradičních pravidel vychází ztráta způsobená vlastním přeháněním a lehkomyslnými sliby."
+   },
+   {
+    "topics": [
+     "death"
+    ],
+    "text": "Tradice tu mluví o smrti jen v souvislosti s osmým domem. Pokud Jupiter tomuto domu vládne nebo v něm stojí, Lilly to čte jako smrt přirozenou a klidnou, bez násilí. Podle tradičních pravidel tak Jupiter v těchto otázkách spíš zmírňuje tvrdost výroku, než aby ji zvyšoval."
+   }
+  ],
+  "traits": {
+   "text": [
+    "generosity",
+    "optimism",
+    "justice",
+    "spirituality",
+    "wanderlust"
+   ],
+   "shadow": [
+    "extravagance",
+    "pride",
+    "indulgence",
+    "irresponsibility"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "horary/significator/saturn",
+  "title": "Saturn jako ukazatel",
+  "keywords": [
+   "zdržení",
+   "překážky",
+   "autorita",
+   "stáří",
+   "vytrvalost"
+  ],
+  "themes": [
+   "character",
+   "work",
+   "family",
+   "health"
+  ],
+  "text": "Když Saturn v tvé horární otázce zastupuje tebe nebo hledanou věc, Lilly v něm čte staršího, vážného člověka, otce, majitele půdy či autoritu. Saturn je pomalá planeta, a proto podle tradičních pravidel vychází, že věc jde pomalu, přes překážky a s velkým odstupem času. Silný Saturn dává rozvahu, poctivou práci a vytrvalost. Slabý Saturn přináší nedůvěru, chamtivost a odklady.",
+  "hard": [
+   {
+    "topics": [
+     "death"
+    ],
+    "text": "Tradice tu mluví o Saturnu jako o větším zhoubci. Když v otázce na nemocného tíží vládce ascendentu, vládne osmému domu nebo k němu vládce ascendentu aplikuje, podle tradičních pravidel vychází vážné znamení. Lilly takové postavení spojuje i se smrtí. Jde o tradiční čtení horoskopu, ne o lékařský úsudek."
+   },
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o nemocech z chladu a suchosti. Patří k nim potíže kostí, kloubů a zubů a dlouhé, vleklé obtíže. Když Saturn ukazuje nemoc, podle tradičních pravidel vychází nemoc pomalá a dlouhotrvající, která odchází jen pozvolna a ráda se vrací."
+   },
+   {
+    "topics": [
+     "loss",
+     "ruin"
+    ],
+    "text": "Tradice tu mluví o ztrátách a úpadku. Saturn zastupuje věci staré, zapomenuté a rozpadlé, úbytek majetku i postavení a také vězení. Oslabený Saturn jako ukazatel hledané věci podle tradičních pravidel vychází na ztrátu, která se vrací jen těžko, nebo na záměr, který skončí bez výsledku."
+   },
+   {
+    "topics": [
+     "mental_crisis"
+    ],
+    "text": "Tradice tu mluví o melancholii, strachu a zoufalství. Saturn v otázkách na mysl tazatele ukazuje tíživé a osamělé myšlenky, pocit beznaděje a dlouhé období smutku. Podle tradičních pravidel vychází tíha, která na mysli leží dlouho a povoluje jen pomalu."
+   }
+  ],
+  "traits": {
+   "text": [
+    "order",
+    "patience",
+    "perseverance",
+    "responsibility",
+    "caution"
+   ],
+   "shadow": [
+    "pessimism",
+    "fearfulness",
+    "stinginess",
+    "rigidity",
+    "melancholy"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "horary/testimony/perfection_conjunction",
+  "title": "Svědectví: Ukazatelé dojdou ke konjunkci dřív, než jeden z nich opustí znamení.",
+  "keywords": [
+   "dokonání",
+   "konjunkce",
+   "ukazatelé",
+   "horární otázka",
+   "william lilly"
+  ],
+  "themes": [
+   "growth",
+   "relationships",
+   "work"
+  ],
+  "text": "Ukazatel tvé otázky a ukazatel věci, na kterou se ptáš, se k sobě blíží a spojí se ještě v tomtéž znamení. Lilly v Christian Astrology (1647) uvádí tuto konjunkci jako první ze čtyř cest dokonání. Podle tradičních pravidel vychází, že se věc naplní, pokud spojení nic nepřeruší. Znamení tu znamená stejné podmínky. Setkání proběhne dřív, než se okolnosti změní. Počet stupňů do spojení tradice čte jako míru času.",
+  "hard": [
+   {
+    "topics": [
+     "death",
+     "illness"
+    ],
+    "text": "Tradice tu mluví o tom, že dokonání samo o sobě znamená jen potvrzení, ne dobrou zprávu. Když se ptáš na nemocného a jeho ukazatel dojde ke konjunkci s vládcem osmého domu, Lilly takové spojení čte jako svědectví smrti. Tradice to podává jako svědectví, které je nutné zvážit spolu s ostatními, ne jako jistý verdikt."
+   }
+  ],
+  "traits": {
+   "text": [
+    "decisiveness",
+    "focus",
+    "perseverance",
+    "order"
+   ],
+   "shadow": [
+    "restlessness",
+    "impulsiveness"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "horary/testimony/perfection_sextile",
+  "title": "Svědectví: Ukazatelé dojdou k přesnému sextilu.",
+  "keywords": [
+   "sextil",
+   "naplnění věci",
+   "přátelský aspekt",
+   "snadný průběh",
+   "souhlas"
+  ],
+  "themes": [
+   "growth",
+   "relationships"
+  ],
+  "text": "Ukazatelé tvé otázky dojdou k přesnému sextilu. Podle tradičních pravidel vychází, že se věc naplní, a to snadno, bez velkých překážek. Tradice řadí sextil mezi aspekty přátelství a přisuzuje mu povahu Venuše a Jupitera. Lilly ho čte jako souhlas, jen slabší než trigon. Nejvíc platí, když ukazatelé stojí v dobrých domech a nic jim nebrání. Odpověď tedy zní spíš ano, s klidným průběhem.",
+  "hard": [
+   {
+    "topics": [
+     "death",
+     "illness"
+    ],
+    "text": "Tradice tu mluví o tom, že přesný aspekt naplňuje právě to, na co se otázka ptá, i když jde o těžkou věc. Ptáš-li se na průběh nemoci a vládce ascendentu dojde k sextilu s vládcem osmého domu, čte v tom Lilly svědectví smrti, ne uzdravení. Přátelská povaha sextilu takový verdikt nezmírňuje, jen naznačuje, že věc proběhne bez velkého odporu."
+   }
+  ],
+  "traits": {
+   "text": [
+    "cooperation",
+    "flexibility",
+    "optimism",
+    "calm",
+    "trustfulness"
+   ],
+   "shadow": []
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "horary/testimony/perfection_trine",
+  "title": "Svědectví: Ukazatelé dojdou k přesnému trigonu.",
+  "keywords": [
+   "trigon",
+   "naplnění",
+   "soulad",
+   "snadnost",
+   "dobrá vůle"
+  ],
+  "themes": [
+   "relationships",
+   "growth"
+  ],
+  "text": "Přesný trigon ukazatelů je podle Lillyho (Christian Astrology II.XXI, s. 124–125) svědectví pro tvou otázku. Podle tradičních pravidel vychází, že věc dojde naplnění snadno, bez velkého odporu a s dobrou vůlí obou stran. Trigon totiž spojuje znamení téhož živlu, takže se planety potkávají v příbuzné povaze. Platí to jen při aplikaci a jen tehdy, když do aspektu nevstoupí zákaz ani odvrácení.",
+  "hard": [
+   {
+    "topics": [
+     "death",
+     "illness"
+    ],
+    "text": "Trigon sám o sobě nic neobrací, jen potvrzuje, že se otázka naplní. Když se otázka týká nemoci a trigon spojuje vládce ascendentu s vládcem osmého domu, tradice tu mluví o naplnění i takové otázky, tedy o smrti tazatele nebo nemocného. Lilly pak čte trigon jako průběh bez velkého odporu, ne jako vyléčení."
+   }
+  ],
+  "traits": {
+   "text": [
+    "cooperation",
+    "calm",
+    "flexibility",
+    "trustfulness"
+   ],
+   "shadow": []
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "horary/testimony/perfection_square",
+  "title": "Svědectví: Ukazatelé dojdou ke kvadrátu a oba mají bytostnou důstojnost; věc se podle Lillyho dokoná s námahou.",
+  "keywords": [
+   "kvadrát",
+   "dokonání s námahou",
+   "bytostná důstojnost",
+   "překážky",
+   "horární verdikt"
+  ],
+  "themes": [
+   "growth",
+   "work"
+  ],
+  "text": "Ukazatelé tvé otázky dojdou ke kvadrátu a oba mají bytostnou důstojnost. Podle tradičních pravidel vychází, že se věc dokoná, ale s námahou a třením. Lilly (Christian Astrology, kniha II, s. 125) připouští dokonání kvadrátem jen tehdy, když má každá planeta důstojnost. Kvadrát nese napětí a překážky. Síla obou ukazatelů ale dává dost moci k jejich překonání.",
+  "traits": {
+   "text": [
+    "perseverance",
+    "patience",
+    "resilience",
+    "diligence"
+   ],
+   "shadow": [
+    "exhaustion",
+    "stubbornness",
+    "anxiety"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "horary/testimony/perfection_opposition",
+  "title": "Svědectví: Ukazatelé dojdou k opozici při vzájemném přijetí domem; Lilly dodává, že tazatel by byl raději, kdyby se věc nestala.",
+  "keywords": [
+   "opozice",
+   "vzájemné přijetí",
+   "dovršení s lítostí",
+   "horární svědectví"
+  ],
+  "themes": [
+   "character",
+   "growth"
+  ],
+  "text": "Ukazatelé tvé otázky dojdou k opozici a zároveň se přijímají domem. Podle tradičních pravidel vychází, že se věc dovrší. Lilly ale dodává, že ti pak bude milejší, kdyby k ní nedošlo (CA s. 125). Proč: opozice je aspekt střetu a nepřátelství. Přijetí dává oběma stranám ochotu. Výsledek tedy přijde, jenže skrze spor, ústupky a zklamání.",
+  "traits": {
+   "text": [
+    "realism",
+    "perseverance",
+    "indecision"
+   ],
+   "shadow": [
+    "pessimism",
+    "guilt"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "horary/testimony/moon_perfection",
+  "title": "Svědectví: Měsíc, druhý ukazatel tazatele, dojde k aspektu s ukazatelem věci.",
+  "keywords": [
+   "měsíc",
+   "spoluukazatel",
+   "aspekt",
+   "naplnění",
+   "horární otázka"
+  ],
+  "themes": [
+   "growth"
+  ],
+  "text": "Měsíc, tvůj druhý ukazatel, se blíží k aspektu s ukazatelem věci. To je svědectví pro tvou otázku. Lilly píše, že Měsíc dává tazateli jako spoluukazatele (CA II.XXI, s. 124). Je nejrychlejší planetou a přenáší děj od jednoho bodu k druhému. Když aspekt dokončí, podle tradičních pravidel vychází, že se záležitost naplní. Jde ale o slabší svědectví než aspekt hlavních ukazatelů.",
+  "traits": {
+   "text": [
+    "intuition",
+    "flexibility",
+    "optimism"
+   ],
+   "shadow": []
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "horary/testimony/translation",
+  "title": "Svědectví: Přenos světla: rychlejší planeta se odpojí od jednoho ukazatele, který ji přijímá domem, trojicí nebo termem, a dojde k druhému dřív než k jiné planetě. Patří sem i planeta, která se nejdřív spojí s jedním ukazatelem a pak dojde k druhému.",
+  "keywords": [
+   "přenos světla",
+   "prostředník",
+   "třetí osoba",
+   "přijetí",
+   "dokonání věci"
+  ],
+  "themes": [
+   "relationships",
+   "work"
+  ],
+  "text": "Přenos světla ve tvé otázce znamená, že se dva ukazatele přímo nesetkají a spojí je rychlejší planeta. Ta se odpojí od jednoho, který ji přijímá, a dojde k druhému dřív než k jiné planetě. Podle tradičních pravidel vychází, že se věc dokoná přes prostředníka, třetí osobu nebo zprávu. Lilly to čte tak, že planeta nese sílu jednoho ukazatele k druhému jako posel. Přijetí ukazuje, že ji první ukazatel posílá ochotně.",
+  "hard": [
+   {
+    "topics": [
+     "death",
+     "illness"
+    ],
+    "text": "Tradice tu mluví o tom, že přenos světla dokonává i nechtěné věci. Když v otázce na nemoc nese rychlejší planeta světlo od vládce ascendentu k vládci osmého domu, Lilly to čte jako svědectví smrti nemocného. Jde o jedno svědectví, které se váží s ostatními, ne o jistotu."
+   }
+  ],
+  "traits": {
+   "text": [
+    "cooperation",
+    "flexibility",
+    "belonging"
+   ],
+   "shadow": [
+    "dependence",
+    "indecision"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "horary/testimony/collection",
+  "title": "Svědectví: Sběr světla: ukazatelé se navzájem nevidí, ale oba míří k těžší planetě, která stojí v jejich bytostných důstojnostech.",
+  "keywords": [
+   "sběr světla",
+   "prostředník",
+   "přijetí",
+   "třetí osoba",
+   "naplnění"
+  ],
+  "themes": [
+   "relationships",
+   "work"
+  ],
+  "text": "Tvůj ukazatel a ukazatel věci se přímo nevidí. Oba však míří k pomalejší planetě, která je přijímá skrze bytostné důstojnosti. Ta sbírá jejich světlo a spojuje je. Podle tradičních pravidel vychází, že se věc naplní přes prostředníka, třetí osobu nebo autoritu. Lilly (1647) to čte takto, protože přijetí znamená ochotu. Těžší planeta přijímá obě strany a dovede k cíli, co by se samo nesetkalo.",
+  "traits": {
+   "text": [
+    "cooperation",
+    "patience",
+    "trustfulness"
+   ],
+   "shadow": [
+    "dependence",
+    "indecision"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "horary/testimony/reception",
+  "title": "Svědectví: Jeden ukazatel stojí ve znamení sídla nebo povýšení druhého: přijetí.",
+  "keywords": [
+   "přijetí",
+   "hostitel a host",
+   "sídlo a povýšení",
+   "ochota",
+   "dokončení věci"
+  ],
+  "themes": [
+   "relationships",
+   "work",
+   "growth"
+  ],
+  "text": "Jeden ukazatel stojí ve znamení, kde druhý vládne nebo je povýšený, a ten ho tím přijímá. Lilly to čte jako hostitele a hosta. Pán znamení má o planetu ve svém domě zájem, chrání ji a nese její věc. Podle tradičních pravidel vychází větší ochota obou stran a naděje na dokončení i přes tvrdý aspekt. Samotné přijetí povýšením bez dalšího svědectví ale podle Lillyho nestačí.",
+  "hard": [
+   {
+    "topics": [
+     "illness",
+     "death"
+    ],
+    "text": "Tradice tu mluví o tom, že přijetí poutá dvě věci k sobě, a to ne vždy k dobrému. Když ukazatel nemocného přijímá pán šestého nebo osmého domu, nečte se to jako úleva. Podle tradičních pravidel pak nemoc nebo smrt ukazatel tazatele hostí a drží ho u sebe. Tradice to bere jako vážné svědectví, ne jako jistotu."
+   }
+  ],
+  "traits": {
+   "text": [
+    "cooperation",
+    "trustfulness",
+    "protectiveness",
+    "loyalty"
+   ],
+   "shadow": [
+    "dependence",
+    "insecurity"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "horary/testimony/mutual_reception",
+  "title": "Svědectví: Ukazatelé stojí každý ve znamení toho druhého (sídlem nebo povýšením): vzájemné přijetí.",
+  "keywords": [
+   "vzájemné přijetí",
+   "souhlas stran",
+   "silné svědectví",
+   "dohoda"
+  ],
+  "themes": [
+   "relationships",
+   "work"
+  ],
+  "text": "Ve tvé otázce stojí oba ukazatelé každý ve znamení toho druhého, sídlem nebo povýšením. Podle tradičních pravidel vychází silné svědectví pro kladný výsledek. Každá planeta hostí tu druhou jako pán domu svého hosta, takže obě strany věci chtějí totéž. Lilly (1647) přijetí sídlem nazývá nejsilnějším a nejlepším ze všech. Věc se tak podle tradice může dojednat i tam, kde aspekt chybí nebo vázne.",
+  "traits": {
+   "text": [
+    "cooperation",
+    "loyalty",
+    "trustfulness",
+    "belonging"
+   ],
+   "shadow": [
+    "dependence",
+    "indecision"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "horary/testimony/querent_strong",
+  "title": "Svědectví: Ukazatel tazatele má podle Lillyho tabulky víc bodů síly než slabosti (součet nad nulou; práh je volba appky).",
+  "keywords": [
+   "síla ukazatele",
+   "důstojnosti",
+   "tazatel",
+   "lillyho tabulka",
+   "schopnost jednat"
+  ],
+  "themes": [
+   "character",
+   "growth"
+  ],
+  "text": "Tvůj ukazatel, vládce prvního domu, má v Lillyho tabulce víc bodů síly než slabosti. Podle tradičních pravidel vychází, že do věci vstupuješ z dobré pozice. Máš prostředky, vliv a schopnost jednat. Lilly sčítá esenciální důstojnosti, třeba domicil nebo exaltaci, a k nim náhodné, třeba úhlový dům nebo přímý pohyb. Silná planeta podle něj dokáže splnit, co slibuje. Samo o sobě to verdikt nerozhoduje. Rozhoduje až aspekt.",
+  "hard": [
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "U otázky na nemoc tradice mluví o síle samotného tazatele. Silný vládce ascendentu podle Lillyho ukazuje přirozenost, která nemoci vzdoruje a dokáže ji snést. Podle tradičních pravidel z toho vychází lepší vyhlídka. Rozhodující slovo ale mají vládci šestého a osmého domu. Důležité je také, zda se k ukazateli blíží zhoubná planeta. Nejde o lékařský úsudek."
+   }
+  ],
+  "traits": {
+   "text": [
+    "self_confidence",
+    "resilience",
+    "decisiveness",
+    "vitality"
+   ],
+   "shadow": []
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "horary/testimony/quesited_strong",
+  "title": "Svědectví: Ukazatel věci má podle Lillyho tabulky víc bodů síly než slabosti.",
+  "keywords": [
+   "ukazatel věci",
+   "důstojnosti",
+   "lillyho tabulka",
+   "síla planety",
+   "svědectví pro"
+  ],
+  "themes": [
+   "growth"
+  ],
+  "text": "Ukazatel věci, na kterou se ptáš, má v Lillyho tabulce sil a slabostí víc bodů síly než slabosti. Lilly sčítá důstojnosti planety ve znamení i její polohu v domě, rychlost a přímý pohyb. Silná planeta podle něj jedná v souladu se svou povahou. Podle tradičních pravidel proto vychází, že věc sama o sobě je zdravá, má skutečnou podstatu a dost síly se naplnit. O výsledku ale rozhoduje ještě aspekt s tvým ukazatelem.",
+  "hard": [
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o nemoci zvlášť. Pokud se otázka týká choroby a ukazatelem věci je vládce šestého domu, jeho síla podle Lillyho nepřináší dobrou zprávu. Silný ukazatel nemoci se čte jako nemoc vážná, prudká a těžko ustupující. Jde pouze o tradiční výklad horoskopu, nikoli o lékařský úsudek."
+   }
+  ],
+  "traits": {
+   "text": [
+    "steadiness",
+    "resilience",
+    "vitality",
+    "order"
+   ],
+   "shadow": [
+    "stubbornness",
+    "dominance"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "horary/testimony/quesited_in_first",
+  "title": "Svědectví: Ukazatel věci stojí v domě tazatele: věc přichází k tazateli.",
+  "keywords": [
+   "první dům",
+   "příchod věci",
+   "přebývání planety",
+   "naplnění otázky"
+  ],
+  "themes": [
+   "growth",
+   "character"
+  ],
+  "text": "Ukazatel věci, na kterou se ptáš, stojí v prvním domě, tedy přímo v tvém domě. Lilly v Christian Astrology čte přebývání planety v domě jako znamení, kde se její věc usazuje. Podle tradičních pravidel vychází, že věc přichází k tobě, aniž ji musíš složitě hledat. Planeta už pobývá u tazatele, a tak tradice čte tohle postavení jako svědectví pro naplnění.",
+  "hard": [
+   {
+    "topics": [
+     "illness",
+     "death"
+    ],
+    "text": "Tradice tu mluví o tom, že pravidlo platí i pro věci nevítané. Když se ptáš na nemoc nebo nebezpečí a v prvním domě stojí ukazatel nemoci nebo vládce osmého domu, podle tradičních pravidel vychází, že hrozba přichází k tazateli. Lilly toto postavení u otázek na nemoc čte jako vážné svědectví směřující ke smrti. Vždy ho ale váží spolu s ostatními svědectvími v horoskopu."
+   }
+  ],
+  "traits": {
+   "text": [
+    "patience",
+    "trustfulness",
+    "calm",
+    "contentment"
+   ],
+   "shadow": []
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "horary/testimony/querent_in_quesited_house",
+  "title": "Svědectví: Ukazatel tazatele stojí v domě věci: tazatel jde za věcí.",
+  "keywords": [
+   "ukazatel tazatele",
+   "dům věci",
+   "vlastní úsilí",
+   "svědectví pro",
+   "iniciativa"
+  ],
+  "themes": [
+   "growth",
+   "work"
+  ],
+  "text": "Tvůj ukazatel stojí v domě věci, na kterou se ptáš. Podle Lillyho (Christian Astrology, 1647) jdeš za věcí ty: snaha, kroky a iniciativa leží na tvé straně. Tradice to čte jako svědectví pro splnění, protože planeta tazatele se nachází na místě toho, co hledá. Podle tradičních pravidel vychází, že věc je dosažitelná hlavně tvým úsilím. Samo o sobě to ale rozsudek není, rozhoduje i aspekt ukazatelů.",
+  "traits": {
+   "text": [
+    "ambition",
+    "decisiveness",
+    "perseverance",
+    "focus"
+   ],
+   "shadow": [
+    "obsession",
+    "restlessness"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "horary/testimony/natural_perfection",
+  "title": "Svědectví: Přirozený ukazatel věci (konsignifikátor domu) dojde k aspektu s ukazatelem tazatele.",
+  "keywords": [
+   "přirozený ukazatel",
+   "konsignifikátor",
+   "aspekt",
+   "vedlejší svědectví",
+   "lilly"
+  ],
+  "themes": [
+   "growth",
+   "relationships"
+  ],
+  "text": "Přirozený ukazatel tvé věci se blíží k aspektu s tvou planetou. Podle tradičních pravidel vychází, že věc sama o sobě míří k tobě. Lilly v Christian Astrology přiděluje každé oblasti života i planetu podle její povahy, třeba Venuši lásce. Když tato planeta dojde k tvému ukazateli, tradice v tom vidí vedlejší svědectví pro. Jako samostatné svědectví to počítá tato aplikace. Rozhoduje hlavně vládce domu.",
+  "hard": [
+   {
+    "topics": [
+     "illness",
+     "death"
+    ],
+    "text": "Tradice tu mluví o tom, že v otázkách nemoci nebo smrti bývá přirozeným ukazatelem Saturn nebo Mars. Když takový ukazatel dojde k aspektu s tvou planetou, Lilly to čte jako přiblížení nemoci či ohrožení, ne jako dobrou zprávu. Svědectví pro tu znamená jen to, že věc k tobě přichází. Neznamená, že je příznivá."
+   }
+  ],
+  "traits": {
+   "text": [
+    "realism",
+    "focus",
+    "patience"
+   ],
+   "shadow": [
+    "anxiety",
+    "indecision"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "horary/testimony/separating",
+  "title": "Svědectví: Ukazatelé se od aspektu už vzdalují: co se mělo stát, je za nimi.",
+  "keywords": [
+   "separace",
+   "minulost",
+   "promeškaná chvíle",
+   "uzavřená věc",
+   "lilly"
+  ],
+  "themes": [
+   "growth",
+   "relationships",
+   "work"
+  ],
+  "text": "Tvoji ukazatelé se od aspektu už vzdalují. Podle tradičních pravidel vychází, že těžiště tvé otázky leží v minulosti. Setkání už proběhlo, příležitost minula, nebo je věc rozhodnutá. Lilly čte aspekt jako setkání dvou planet. Dokud se k sobě blíží, věc teprve přichází. Když se rozcházejí, horoskop ukazuje stopu, ne příslib. Otázku tak spíš vysvětluje, než otevírá.",
+  "hard": [
+   {
+    "topics": [
+     "loss"
+    ],
+    "text": "Tradice tu mluví o ztrátě. U otázek na ztracenou věc, na odcházejícího člověka nebo na rozpadlé spojení čte Lilly separaci jako znamení, že vazba už je přerušená. Podle tradičních pravidel vychází, že to, co odešlo, se touto cestou spíš nevrací. Jde o výklad jednoho svědectví, ne o jistotu. Další svědectví v horoskopu mohou obraz změnit."
+   }
+  ],
+  "traits": {
+   "text": [
+    "realism",
+    "rationality",
+    "self_acceptance"
+   ],
+   "shadow": [
+    "melancholy",
+    "stagnation"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "horary/testimony/no_aspect",
+  "title": "Svědectví: Ukazatelé se před opuštěním znamení nesetkají žádnou ze čtyř cest dokonání.",
+  "keywords": [
+   "dokonání",
+   "ukazatelé",
+   "změna znamení",
+   "nesplnění",
+   "william lilly"
+  ],
+  "themes": [
+   "growth",
+   "character"
+  ],
+  "text": "Tvůj ukazatel a ukazatel věci se před opuštěním svých znamení nespojí. Chybí konjunkce, aspekt, přenesení světla i sebrání světla. Podle tradičních pravidel tak vychází, že se věc nedovrší. Lilly učí, že bez spojení ukazatelů nevede žádný most mezi tebou a tím, na co se ptáš. Přechodem do dalšího znamení se okolnosti mění a původní příslib propadá.",
+  "hard": [
+   {
+    "topics": [
+     "illness",
+     "death"
+    ],
+    "text": "Tradice tu mluví o otázkách nemoci. Když se vládce ascendentu nespojí s vládcem osmého domu, Lilly toto svědectví čte proti smrti z dané nemoci. Chybějící dokonání tu tedy působí opačně, protože se rozhodující spojení nevytvoří. Podle tradičních pravidel z toho vychází jen jedno svědectví. Lilly ho váží spolu s ostatními svědectvími v horoskopu."
+   },
+   {
+    "topics": [
+     "loss"
+    ],
+    "text": "Tradice tu mluví o ztracených věcech a odcházejících lidech. Bez spojení tvého ukazatele s ukazatelem ztracené věci podle tradičních pravidel vychází, že se věc nevrací do tvých rukou. Lilly přesto zkoumá i Měsíc a vládce druhého domu. Jde tedy o jedno svědectví, ne o konečný verdikt."
+   }
+  ],
+  "traits": {
+   "text": [
+    "patience",
+    "realism",
+    "caution"
+   ],
+   "shadow": [
+    "stagnation",
+    "indecision"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "horary/testimony/prohibition",
+  "title": "Svědectví: Zábrana: dřív než se ukazatelé setkají, vloží se mezi ně třetí planeta tělem nebo aspektem (appka bere jen planetu, která už je v orbu).",
+  "keywords": [
+   "zábrana",
+   "třetí planeta",
+   "přerušené spojení",
+   "překážka",
+   "lilly"
+  ],
+  "themes": [
+   "relationships",
+   "work"
+  ],
+  "text": "Tvůj ukazatel a ukazatel věci k sobě míří, ale třetí planeta dovrší aspekt dřív. Podle tradičních pravidel vychází, že věc se zmaří, nebo se aspoň zdrží. Lilly (CA I.XIX, s. 110–111) to vysvětluje tak, že vetřelec zachytí světlo, které mělo dojít k tobě. Kdo nebo co překáží, ukazuje dům, jemuž ta planeta vládne.",
+  "hard": [
+   {
+    "topics": [
+     "death",
+     "loss"
+    ],
+    "text": "Tradice tu mluví o tom, že když zábranu působí vládce osmého domu, může věc přerušit smrt nebo zánik některé ze stran. Jde o výklad podle domu, kterému vládne překážející planeta, ne o jistotu. Appka počítá jen s planetou, která už je v orbu."
+   },
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o tom, že vládce šestého domu jako překážející planeta ukazuje nemoc, která se postaví mezi tebe a cíl otázky. Podle tradičních pravidel vychází zdržení nebo zmaření kvůli zdraví. Je to čtení symbolu, ne lékařský závěr."
+   },
+   {
+    "topics": [
+     "violence",
+     "ruin"
+    ],
+    "text": "Tradice tu mluví o tom, že když zábranu působí Mars nebo Saturn ve špatném stavu, přichází překážka se sporem, násilím nebo škodou. Mars ukazuje hádku a náhlý zásah, Saturn zdlouhavé zmaření a ztrátu. Podle tradičních pravidel vychází tvrdší přerušení než u benefika."
+   }
+  ],
+  "traits": {
+   "text": [
+    "caution",
+    "patience",
+    "realism"
+   ],
+   "shadow": [
+    "insecurity",
+    "indecision",
+    "procrastination"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "horary/testimony/frustration",
+  "title": "Svědectví: Zmaření: těžší ukazatel se dřív spojí s jinou planetou.",
+  "keywords": [
+   "zmaření",
+   "přerušení",
+   "třetí strana",
+   "nedokonaný aspekt"
+  ],
+  "themes": [
+   "relationships",
+   "work"
+  ],
+  "text": "Lehčí ukazatel tvé otázky míří k těžšímu, ale těžší planeta se ještě před dokonáním aspektu spojí s jinou planetou. Podle tradičních pravidel Williama Lillyho (CA I.XIX) z toho vychází zmaření: věc se nedotáhne. Tradice to čte tak, že pomalejší planeta, na které výsledek závisí, se mezitím zaváže jinam. Ta třetí planeta ukazuje člověka nebo okolnost, která záměr přeruší.",
+  "hard": [
+   {
+    "topics": [
+     "loss"
+    ],
+    "text": "Tradice tu mluví o ztrátě. U otázek na vztah, nabídku nebo slíbenou věc čte Lilly zmaření tak, že druhá strana nebo hledaná věc připadne někomu jinému. Třetí planeta podle domu, kterému vládne, ukazuje, kdo nebo co vstupuje mezi tebe a cíl. Podle tradičních pravidel z toho vychází přerušení dohody, ne nutně trvalý konec všech možností."
+   }
+  ],
+  "traits": {
+   "text": [
+    "realism",
+    "caution",
+    "rationality"
+   ],
+   "shadow": [
+    "insecurity",
+    "jealousy",
+    "pessimism"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "horary/testimony/refranation",
+  "title": "Svědectví: Ústup: ukazatel se před dokonáním zastaví a začne couvat; věc se podle Lillyho neuskuteční.",
+  "keywords": [
+   "ústup",
+   "zpětný pohyb",
+   "nedokonaný aspekt",
+   "odvolaný úmysl",
+   "horární verdikt"
+  ],
+  "themes": [
+   "work",
+   "relationships"
+  ],
+  "text": "Ukazatel tvé otázky už míří k aspektu, který by věc dovršil, ale těsně před přesností se zastaví a začne couvat. Lilly to čte jako ústup. Dokonání aspektu znamená uskutečnění věci. Planeta, která se obrací zpět, od dohody odstupuje dřív, než ji uzavře. Podle tradičních pravidel proto vychází, že se věc neuskuteční. Často tu tradice vidí změnu úmyslu nebo stranu, která z jednání vycouvá.",
+  "traits": {
+   "text": [
+    "indecision",
+    "inconstancy",
+    "caution",
+    "procrastination"
+   ],
+   "shadow": [
+    "commitment_fear",
+    "insecurity"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "horary/testimony/combustion",
+  "title": "Svědectví: Ukazatel je spálený: stojí ve stejném znamení do 8°30′ od Slunce.",
+  "keywords": [
+   "spálení",
+   "sluneční záře",
+   "oslabení",
+   "skrytost",
+   "svědectví proti"
+  ],
+  "themes": [
+   "character",
+   "health"
+  ],
+  "text": "Ukazatel tvé otázky stojí ve stejném znamení do 8°30′ od Slunce. Podle tradičních pravidel z toho vychází silné svědectví proti. Lilly píše, že spálená planeta je ve velkém strachu a přemožená někým mocnějším. Sluneční záře ji zakrývá. Věc ani člověk, kterého ukazatel znamená, se proto nemůže ukázat, jednat ani prosadit vlastní vůli. Tradice proto řadí spálení mezi nejtěžší poškození planety.",
+  "hard": [
+   {
+    "topics": [
+     "illness",
+     "death"
+    ],
+    "text": "Tradice tu mluví o nemoci a smrti. Když se otázka týká nemoci a spálený je vládce ascendentu nebo Měsíc, Lilly to čte jako vážné oslabení nemocného. Přidají-li se další svědectví, třeba spojení s vládcem osmého domu, vychází podle tradičních pravidel až ohrožení života. Jde o jedno svědectví mezi jinými, ne o jistotu."
+   },
+   {
+    "topics": [
+     "loss"
+    ],
+    "text": "Tradice tu mluví o ztrátě. U ztracených věcí, pohřešovaných osob a uprchlíků značí spálený ukazatel podle tradičních pravidel, že věc nebo člověk zůstává skrytý a těžko se hledá. Případně se ocitá v moci někoho silnějšího, kdo mu nedovolí se vrátit ani ozvat."
+   }
+  ],
+  "traits": {
+   "text": [
+    "insecurity",
+    "fearfulness",
+    "submissiveness",
+    "secrecy"
+   ],
+   "shadow": [
+    "anxiety",
+    "exhaustion",
+    "dependence"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "horary/testimony/hard_without_reception",
+  "title": "Svědectví: Kvadrát, ve kterém nemají důstojnost oba ukazatelé, nebo opozice bez vzájemného přijetí domem: podle Lillyho věc nedokoná.",
+  "keywords": [
+   "nedokonání věci",
+   "kvadrát bez důstojnosti",
+   "opozice bez přijetí",
+   "slabí ukazatelé",
+   "střet stran"
+  ],
+  "themes": [
+   "work",
+   "relationships"
+  ],
+  "text": "Ukazatelé tvé otázky se potkávají kvadrátem, kde ani jeden nemá důstojnost, nebo opozicí bez vzájemného přijetí domem. Podle tradičních pravidel vychází, že věc se nedokoná. Lilly (Christian Astrology, kniha II, kap. XXI, s. 125) to čte takto: napjatý aspekt znamená tření mezi stranami. Planeta bez důstojnosti nemá sílu ho překonat. Bez přijetí si strany nic nenabízejí, a proto k dohodě nedojde.",
+  "hard": [
+   {
+    "topics": [
+     "illness",
+     "loss"
+    ],
+    "text": "Tradice tu mluví o tom, že u otázek na návrat ztracené věci nebo na pomoc konkrétního lékaře či prostředku toto svědectví čte jako nenaplnění. Ztracená věc se touto cestou podle tradičních pravidel nevrací a zvolená pomoc se s nemocným nesetká v účinku. Nejde o verdikt o životě. Říká jen, že tahle konkrétní cesta podle Lillyho nevede k cíli."
+   }
+  ],
+  "traits": {
+   "text": [
+    "stagnation",
+    "rigidity",
+    "detachment"
+   ],
+   "shadow": [
+    "pessimism",
+    "insecurity"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "horary/testimony/querent_weak",
+  "title": "Svědectví: Ukazatel tazatele má podle Lillyho tabulky víc slabosti než síly.",
+  "keywords": [
+   "slabý ukazatel",
+   "vládce ascendentu",
+   "nedostatek moci",
+   "lillyho tabulka",
+   "horární verdikt"
+  ],
+  "themes": [
+   "character",
+   "growth"
+  ],
+  "text": "Tvůj ukazatel, vládce ascendentu, sčítá podle Lillyho tabulky víc bodů slabosti než síly. Podle tradičních pravidel vychází, že v téhle věci teď máš málo vlastní moci a prostředků. Lilly to čte takto: planeta bez důstojností jedná jako člověk bez zázemí. Chce, ale nedokáže věc prosadit. Výsledek pak víc závisí na druhých a na dalších svědectvích v horoskopu.",
+  "hard": [
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "V otázce na nemoc tu tradice mluví o oslabené životní síle tazatele. Slabý vládce ascendentu ukazuje podle Lillyho tělo, které se nemoci brání jen málo. Platí to zvlášť tehdy, když je planeta spálená, retrográdní nebo v pádu. Samo o sobě to verdikt nedává. Lilly vždy váží i vládce šestého a osmého domu."
+   },
+   {
+    "topics": [
+     "death"
+    ],
+    "text": "O smrti tu tradice mluví jen tehdy, když se slabost ukazatele sejde s dalšími svědectvími. Může jít třeba o spojení s vládcem osmého domu nebo o těžké postavení Marsu či Saturnu. Samotná převaha slabosti podle Lillyho na smrt neukazuje. Ukazuje na nedostatek sil, který se přičítá k ostatním svědectvím."
+   },
+   {
+    "topics": [
+     "ruin",
+     "loss"
+    ],
+    "text": "V otázkách na majetek a postavení tu tradice mluví o úpadku a ztrátě vlivu. Slabý ukazatel podle Lillyho značí, že věc vyklouzává z rukou a silnější strana snadno převáží. Jak hluboká ztráta bude, určují podle tradičních pravidel vládci dotčených domů a jejich aspekty."
+   }
+  ],
+  "traits": {
+   "text": [
+    "insecurity",
+    "dependence",
+    "exhaustion",
+    "realism"
+   ],
+   "shadow": [
+    "insecurity",
+    "dependence",
+    "pessimism"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "horary/testimony/quesited_weak",
+  "title": "Svědectví: Ukazatel věci má podle Lillyho tabulky víc slabosti než síly.",
+  "keywords": [
+   "slabý ukazatel",
+   "tabulka důstojností",
+   "svědectví proti",
+   "vládce hledané věci",
+   "lilly"
+  ],
+  "themes": [
+   "growth",
+   "work"
+  ],
+  "text": "Planeta, která v tvé otázce zastupuje hledanou věc, má v Lillyho tabulce síly a slabosti víc záporných bodů než kladných. Lilly sčítá esenciální důstojnosti i náhodná postavení: exil, pád, retrogradaci, spálení, špatný dům. Slabý ukazatel podle něj značí věc bez síly prosadit se, chatrnou nebo méně hodnotnou, než čekáš. Podle tradičních pravidel vychází svědectví proti, které se však váží s ostatními.",
+  "hard": [
+   {
+    "topics": [
+     "loss",
+     "ruin"
+    ],
+    "text": "Tradice tu mluví o věci, která nemá z čeho stát. Oslabený vládce domu hledané věci Lilly čte jako majetek v úpadku, zboží s vadou, ztracenou věc poškozenou nebo už rozpadlou a podnik bez pevného základu. I když se věc podle ostatních svědectví naplní, vychází podle tradičních pravidel menší, opožděná nebo s újmou."
+   },
+   {
+    "topics": [
+     "illness",
+     "death"
+    ],
+    "text": "Ptáš-li se na zdraví jiné osoby, jejíž ukazatel je takto oslaben, tradice tu mluví o slabé životní síle a těžším průběhu nemoci. Pokud se přidají další svědectví, například spojení s vládcem osmého domu nebo spálení Sluncem, Lilly z toho vyvozuje i ohrožení života. Jde o výklad tradičních pravidel, nikoli o jistotu."
+   }
+  ],
+  "traits": {
+   "text": [
+    "realism",
+    "caution",
+    "insecurity"
+   ],
+   "shadow": [
+    "pessimism",
+    "anxiety"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "horary/testimony/querent_retrograde",
+  "title": "Svědectví: Ukazatel tazatele couvá (retrográdní, v tabulce −5).",
+  "keywords": [
+   "retrográdní ukazatel",
+   "ústup",
+   "zdržení",
+   "změna názoru",
+   "slabost"
+  ],
+  "themes": [
+   "character",
+   "growth"
+  ],
+  "text": "Tvůj ukazatel couvá, takže podle tradičních pravidel vychází svědectví proti. Lilly řadí retrográdní planetu mezi slabé a v tabulce jí dává −5. Couvání čte jako ústup: od vlastního záměru se vracíš, měníš názor nebo věc odkládáš. Přiblížení takové planety k cíli nazývá „ill“. Věc se podle něj protahuje, naráží na rozpory a dojde k cíli jen s obtížemi, pokud vůbec.",
+  "hard": [
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o nemoci. Když se ptáš na své zdraví a tvůj ukazatel couvá, Lilly to čte jako sklon k návratu potíží, k recidivě nebo k pomalému a nejistému zotavení. Jde jen o jedno svědectví v celku horoskopu, ne o jistotu. Podle tradičních pravidel vychází zdržení, ne konečný verdikt."
+   }
+  ],
+  "traits": {
+   "text": [
+    "indecision",
+    "inconstancy",
+    "procrastination",
+    "insecurity"
+   ],
+   "shadow": []
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "horary/testimony/quesited_retrograde",
+  "title": "Svědectví: Ukazatel věci couvá.",
+  "keywords": [
+   "zpětný pohyb",
+   "odmítnutí",
+   "zdržení",
+   "návrat věci",
+   "rozpad domluvy"
+  ],
+  "themes": [
+   "work",
+   "relationships",
+   "growth"
+  ],
+  "text": "Planeta, která v horoskopu tvé otázky zastupuje hledanou věc, couvá. Podle tradičních pravidel z toho vychází, že se věc vrací zpět, vzpírá se nebo zdržuje. Lilly čte zpětný pohyb jako znak odporu, odmítnutí nebo ústupu druhé strany od domluvy. Když se věc přesto naplní, tak pomalu a s obtížemi. U ztracených věcí couvání naopak ukazuje jejich návrat.",
+  "hard": [
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o návratu nemoci. Když v otázce na nemoc couvá ukazatel choroby, Lilly to čte jako možnost recidivy. Potíže, které už zdánlivě odezněly, se mohou vrátit. Podle tradičních pravidel vychází spíš vleklý průběh než rychlý obrat. Jde o symbolické čtení horoskopu, ne o lékařský úsudek."
+   }
+  ],
+  "traits": {
+   "text": [
+    "indecision",
+    "procrastination",
+    "inconstancy",
+    "stagnation"
+   ],
+   "shadow": [
+    "insecurity",
+    "pessimism"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "horary/consideration/asc_early",
+  "title": "Výhrada: Ascendent v 0.–2. stupni znamení: Lilly radí nesoudit, leda se tazatel a jeho vzhled shodují se znamením.",
+  "keywords": [
+   "předčasná otázka",
+   "nedozrálá věc",
+   "výhrada",
+   "ascendent",
+   "opatrnost"
+  ],
+  "themes": [
+   "growth",
+   "character"
+  ],
+  "text": "Ascendent stojí v 0.–2. stupni znamení a Lilly v Christian Astrology (1647) radí v takovém případě nesoudit. Tradice to čte tak, že otázka přichází předčasně. Věc ještě nedozrála, nebo ji máš promyšlenou teprve napůl. Výjimku Lilly připouští, když tvá postava a vzhled odpovídají vycházejícímu znamení. Výklad pokračuje, ale podle tradičních pravidel vychází s menší jistotou.",
+  "traits": {
+   "text": [
+    "caution",
+    "patience",
+    "realism"
+   ],
+   "shadow": [
+    "impulsiveness",
+    "indecision"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "horary/consideration/asc_late",
+  "title": "Výhrada: Ascendent v 27.–29. stupni znamení: podle Lillyho není bezpečné soudit.",
+  "keywords": [
+   "pozdní stupeň",
+   "výhrada",
+   "dobíhající znamení",
+   "neplatný soud",
+   "lilly"
+  ],
+  "themes": [
+   "growth"
+  ],
+  "text": "Ascendent ve 27.–29. stupni znamení dává tvé otázce výhradu. Lilly píše, že tu není bezpečné soudit. Znamení dobíhá, a tak věc podle tradice už může být rozhodnutá nebo se právě láme jinam. Otázka pak přichází pozdě. Výjimku Lilly připouští, když odpovídá věk tazatele nebo jeho postava. Výklad podle tradičních pravidel vychází, ale platí jen s rezervou.",
+  "traits": {
+   "text": [
+    "caution",
+    "patience",
+    "realism"
+   ],
+   "shadow": [
+    "impulsiveness",
+    "restlessness"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "horary/consideration/moon_void",
+  "title": "Výhrada: Měsíc bez aspektu: oddělil se od planety a v témže znamení už k žádné nemíří. Věci jdou ztěžka, ledaže jsou ukazatelé velmi silní.",
+  "keywords": [
+   "měsíc bez aspektu",
+   "výhrada",
+   "ztížený průběh",
+   "lilly",
+   "prázdný běh"
+  ],
+  "themes": [
+   "growth"
+  ],
+  "text": "Měsíc v horoskopu tvé otázky se už od planety oddělil a do konce znamení k žádné další nemíří. Podle tradičních pravidel vychází, že věc jde ztěžka a často nikam nevede, pokud nemáš velmi silné ukazatele. Lilly to zdůvodňuje tím, že Měsíc nese běh událostí. Bez dalšího aspektu nemá komu světlo předat. Jde o výhradu, výklad tím nekončí.",
+  "traits": {
+   "text": [
+    "stagnation",
+    "caution",
+    "patience",
+    "indecision"
+   ],
+   "shadow": [
+    "procrastination",
+    "pessimism"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "horary/consideration/via_combusta",
+  "title": "Výhrada: Měsíc ve spálené cestě, od 15° Vah do 15° Štíra: Lilly to uvádí jako názor některých autorů.",
+  "keywords": [
+   "spálená cesta",
+   "měsíc",
+   "výhrada před výkladem",
+   "nejistý verdikt"
+  ],
+  "themes": [
+   "growth"
+  ],
+  "text": "Měsíc ve spálené cestě, mezi 15° Vah a 15° Štíra, je u Lillyho výhrada před výkladem. Uvádí ji jen jako názor některých autorů, proto výklad neblokuje. Podle tradičních pravidel vychází, že verdikt na tvou otázku je méně jistý. Tradice to vysvětluje tím, že Měsíc nese průběh věci. Tady prochází úsekem spojovaným s násilnými stálicemi, kde leží i jeho pád ve Štíru, a proto ztrácí jasnost.",
+  "traits": {
+   "text": [
+    "caution",
+    "insecurity",
+    "indecision"
+   ],
+   "shadow": []
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "horary/consideration/saturn_1_7",
+  "title": "Výhrada: Saturn v 1. domě (věc málokdy dopadne dobře) nebo v 7. domě (kazí úsudek astrologa).",
+  "keywords": [
+   "saturn",
+   "výhrada před soudem",
+   "úsudek astrologa",
+   "zdržení",
+   "opatrnost"
+  ],
+  "themes": [
+   "character",
+   "work"
+  ],
+  "text": "Saturn v 1. nebo 7. domě je podle Lillyho výhrada před soudem, ne zákaz výkladu. V 1. domě sedí Saturn, malefik chladu a zdržení, přímo na místě tvé otázky. Podle tradičních pravidel proto vychází, že věc málokdy dopadne dobře. Sedmý dům patří astrologovi a Saturn tam zatemňuje jeho úsudek. Výklad tedy čteš s větší opatrností.",
+  "hard": [
+   {
+    "topics": [
+     "loss",
+     "ruin"
+    ],
+    "text": "Tradice tu mluví o ztrátě a zmaru. Saturn v ascendentu podle Lillyho znamená, že věc „málokdy nebo nikdy“ nedopadne dobře, zvlášť když je Saturn retrográdní. Saturn je v tradici pánem zdržení, úpadku a marného úsilí. Podle tradičních pravidel tu vychází spíš nezdar než zisk. Jde o varování před výkladem, ne o jistotu."
+   }
+  ],
+  "traits": {
+   "text": [
+    "caution",
+    "patience",
+    "realism",
+    "pessimism"
+   ],
+   "shadow": [
+    "pessimism",
+    "stagnation",
+    "anxiety",
+    "rigidity"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "horary/consideration/hour_ruler",
+  "title": "Výhrada: Vládce planetární hodiny není vládcem ascendentu ani s ním nevládne téže trojici; horoskop pak podle Lillyho není radikální.",
+  "keywords": [
+   "radikalita",
+   "planetární hodina",
+   "vládce ascendentu",
+   "trojice",
+   "výhrada"
+  ],
+  "themes": [
+   "character"
+  ],
+  "text": "Vládce planetární hodiny se ve tvém horoskopu otázky nepotkává s vládcem ascendentu. Není to táž planeta, nevládnou téže trojici a nemají ani stejnou povahu. Podle tradičních pravidel Williama Lillyho (1647) pak horoskop nevychází jako radikální. Hodina má podle tradice zrcadlit tvou povahu a rozpoložení. Bez této shody možná otázka nevzniká ze skutečné potřeby nebo nepřichází ve zralé chvíli. Výklad pokračuje, ale s opatrností.",
+  "traits": {
+   "text": [
+    "caution",
+    "rationality",
+    "order"
+   ],
+   "shadow": [
+    "indecision",
+    "insecurity"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "horary/verdict/yes",
+  "title": "Verdikt: yes",
+  "keywords": [
+   "ano",
+   "dokonání",
+   "ukazatelé",
+   "horární otázka",
+   "william lilly"
+  ],
+  "themes": [
+   "growth"
+  ],
+  "text": "Podle tradičních pravidel vychází na tvou otázku ano. Tvůj ukazatel a ukazatel věci, na kterou se ptáš, k sobě míří aspektem a dojdou k dokonání. Žádná planeta jim to nepřeruší ani nezmaří. William Lilly (1647) takové spojení čte jako jasný souhlas horoskopu.",
+  "hard": [
+   {
+    "topics": [
+     "illness",
+     "death"
+    ],
+    "text": "U otázek na nemoc tradice tu mluví o tom, že ano platí doslova pro to, nač se ptáš. Když otázka zní, zda nemoc přejde, vychází podle tradičních pravidel uzdravení. Když zní, zda nemocný člověk zemře, vychází podle Lillyho stejně doslovně i smrt. Horoskop odpovídá na položenou otázku, ne na přání tazatele."
+   }
+  ],
+  "traits": {
+   "text": [
+    "decisiveness",
+    "order",
+    "optimism",
+    "steadiness"
+   ],
+   "shadow": [
+    "carelessness",
+    "impulsiveness"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "horary/verdict/yes_difficult",
+  "title": "Verdikt: yes_difficult",
+  "keywords": [
+   "ano s potížemi",
+   "dokonání kvadrátem",
+   "dokonání opozicí",
+   "bez přijetí",
+   "námaha"
+  ],
+  "themes": [
+   "work",
+   "relationships",
+   "growth"
+  ],
+  "text": "Ano s potížemi: podle tradičních pravidel vychází kladná odpověď, protože signifikátoři dospějí k dokonání. Spojí je ale kvadrát nebo opozice bez přijetí. Lilly takové dokonání čte jako výsledek, ke kterému vede námaha, zdržení a tření mezi stranami. U opozice tradice dodává, že dosažená věc může přinést lítost.",
+  "hard": [
+   {
+    "topics": [
+     "loss"
+    ],
+    "text": "Tradice tu mluví o ztrátě skryté v úspěchu. Lilly u dokonání opozicí píše, že se věc sice naplní, ale tazatel by si mohl přát, aby se nenaplnila. Podle tradičních pravidel vychází zisk vykoupený něčím, co se cestou ztratí. Často zůstává pocit marnosti nebo rozchod se stranou, se kterou se věc vyjednávala."
+   },
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Zní-li otázka na uzdravení, tradice tu mluví o zlepšení, které přichází pomalu a s návraty potíží. Kvadrát bez přijetí čte Lilly jako vleklý boj s nemocí. Opozici čte jako možný zvrat po zdánlivém zlepšení. Podle tradičních pravidel vychází ano, ale cesta je dlouhá a nerovná."
+   }
+  ],
+  "traits": {
+   "text": [
+    "perseverance",
+    "patience",
+    "realism",
+    "resilience"
+   ],
+   "shadow": [
+    "anxiety",
+    "stubbornness",
+    "exhaustion"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "horary/verdict/no",
+  "title": "Verdikt: no",
+  "keywords": [
+   "nedokonaný aspekt",
+   "odchod ze znamení",
+   "horární otázka",
+   "záporná odpověď"
+  ],
+  "themes": [
+   "growth"
+  ],
+  "text": "Ukazatelé tvé otázky se nesetkají dřív, než jeden z nich opustí své znamení. Podle tradičních pravidel proto vychází odpověď ne. William Lilly (1647) to vysvětluje tak, že aspekt, který by věc dovedl k naplnění, se v horoskopu okamžiku otázky nedokoná. Záležitost tak zůstává bez spojení, které by ji uzavřelo.",
+  "hard": [
+   {
+    "topics": [
+     "illness",
+     "death"
+    ],
+    "text": "Pokud se otázka týká uzdravení, tradice tu mluví o tom, že nedokonané spojení ukazatelů nepřináší obrat k lepšímu. U Lillyho se pak rozhoduje podle dalších svědectví, hlavně podle vládce prvního, šestého a osmého domu. Podle tradičních pravidel může takový verdikt souviset s dlouhou nemocí nebo se smrtí. Je to výklad starého systému, ne jistota."
+   },
+   {
+    "topics": [
+     "loss"
+    ],
+    "text": "Pokud se otázka týká ztracené věci nebo odcházejícího člověka, tradice tu mluví o tom, že se ukazatelé už nepotkají. Podle tradičních pravidel tak vychází, že se věc nenajde nebo se vztah neobnoví. Lilly přitom vždy zvažuje i jiná svědectví v horoskopu."
+   }
+  ],
+  "traits": {
+   "text": [
+    "realism",
+    "patience",
+    "self_acceptance"
+   ],
+   "shadow": []
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "horary/verdict/past",
+  "title": "Verdikt: past",
+  "keywords": [
+   "odlučující aspekt",
+   "minulost",
+   "uzavřená věc",
+   "horární verdikt",
+   "promeškaná chvíle"
+  ],
+  "themes": [
+   "growth",
+   "character"
+  ],
+  "text": "Na tvou otázku podle tradičních pravidel vychází, že rozhodující chvíle už proběhla. Ukazatelé se od přesného aspektu vzdalují. William Lilly v Christian Astrology (1647) čte odlučující aspekt jako minulost. Věc, na kterou se ptáš, se už odehrála nebo minula a horoskop nové setkání neukazuje.",
+  "hard": [
+   {
+    "topics": [
+     "loss"
+    ],
+    "text": "Tradice tu mluví o ztrátě. Když se ukazatel tazatele vzdaluje od ukazatele hledané věci, osoby nebo příležitosti, Lilly to čte tak, že spojení už pominulo. Podle tradičních pravidel vychází, že to, co odešlo, se touto cestou nevrací. Horoskop ukazuje uzavřenou kapitolu, ne otevřenou možnost."
+   },
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "V otázkách nemoci tradice tu mluví o dvojím čtení. Když se Měsíc nebo vládce nemocného vzdaluje od zhoubné planety, Lilly to čte jako znamení, že nejtěžší úder už minul. Když se vzdaluje od dobrodějné planety, tradice v tom vidí pomoc, která už odešla. Jde o výklad podle pravidel, ne o jistotu."
+   }
+  ],
+  "traits": {
+   "text": [
+    "realism",
+    "self_acceptance",
+    "transformation"
+   ],
+   "shadow": []
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "horary/verdict/nothing",
+  "title": "Verdikt: nothing",
+  "keywords": [
+   "zábrana",
+   "zmaření",
+   "ústup",
+   "spálení",
+   "zápor"
+  ],
+  "themes": [
+   "work",
+   "relationships",
+   "growth"
+  ],
+  "text": "Na tvou otázku podle tradičních pravidel vychází, že z věci nic nebude. Signifikátory se k sobě blíží, ale aspekt nedokoná. Zruší ho zábrana jiné planety, zmaření, ústup nebo spálení u Slunce. William Lilly takový horoskop čte jako zápor: věc se rozběhne a nedojde konce.",
+  "hard": [
+   {
+    "topics": [
+     "loss"
+    ],
+    "text": "Ptáš se na ztracenou věc, zaběhlé zvíře nebo zmizelého člověka? Tradice tu mluví o ztrátě. Když dokonání zruší zábrana nebo ústup, Lilly čte, že se hledané nevrátí ani nenajde. Podle tradičních pravidel vychází, že hledání nepřinese výsledek a ztráta zůstává ztrátou."
+   },
+   {
+    "topics": [
+     "illness",
+     "death"
+    ],
+    "text": "Je-li příčinou zmaru spálení, tradice tu mluví o nemoci a ohrožení. Signifikátor pohlcený Sluncem přirovnává Lilly k člověku ve velkém strachu a slabosti. U otázek na nemocného čte spálení vládce ascendentu nebo osmého domu jako vážné znamení, které může ukazovat i na smrt. Jde o tradiční výklad, ne o jistotu."
+   }
+  ],
+  "traits": {
+   "text": [
+    "realism",
+    "caution",
+    "stagnation"
+   ],
+   "shadow": [
+    "pessimism",
+    "insecurity"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "horary/verdict/unclear",
+  "title": "Verdikt: unclear",
+  "keywords": [
+   "nejasný verdikt",
+   "společný signifikátor",
+   "mlčící měsíc",
+   "horární otázka"
+  ],
+  "themes": [
+   "character",
+   "growth"
+  ],
+  "text": "Tebe i věc, na kterou se ptáš, tu zastupuje stejná planeta, takže horoskop nerozliší, kde končíš ty a kde začíná otázka. Měsíc nedává žádné svědectví. Podle tradičních pravidel Williama Lillyho z toho vychází, že na otázku nelze odpovědět ani ano, ani ne.",
+  "traits": {
+   "text": [
+    "indecision",
+    "patience",
+    "caution"
+   ],
+   "shadow": [
+    "insecurity",
+    "anxiety"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "horary/timing/days",
+  "title": "Čas: dny",
+  "keywords": [
+   "dny",
+   "dokonání aspektu",
+   "pohyblivé znamení",
+   "rohový dům",
+   "rychlý běh věci"
+  ],
+  "themes": [
+   "growth"
+  ],
+  "text": "Podle tradičních pravidel vychází na tvou otázku krátký čas, řádově dny. Lilly (1647) čte stupně chybějící do dokonání aspektu jako dny, když signifikátor stojí v pohyblivém znamení a rohovém domě. Rychlé znamení a silné místo zrychlují běh věci. Jde o tradiční odhad, ne termín.",
+  "hard": [
+   {
+    "topics": [
+     "illness",
+     "death"
+    ],
+    "text": "Tradice tu mluví o tom, že u otázek na nemoc stejný počet dní mohl ukazovat ke krizi nemoci nebo k jejímu obratu. Podle Lillyho mohl ukazovat i ke smrti, pokud vládce prvního domu zraňoval zlověstný aspekt s vládcem osmého domu. Podle tradičních pravidel jde o odhad z horoskopu otázky, ne o lékařský údaj ani jistotu."
+   }
+  ],
+  "traits": {
+   "text": [
+    "decisiveness",
+    "realism",
+    "focus",
+    "restlessness"
+   ],
+   "shadow": [
+    "impulsiveness",
+    "anxiety"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "horary/timing/weeks",
+  "title": "Čas: týdny",
+  "keywords": [
+   "odhad času",
+   "týdny",
+   "dokonání aspektu",
+   "william lilly",
+   "společná znamení"
+  ],
+  "themes": [
+   "growth"
+  ],
+  "text": "Ve tvé horární otázce se čas měří v týdnech. Podle tradičních pravidel Williama Lillyho (1647) vychází, že každý stupeň do dokonání aspektu odpovídá jednomu týdnu. Významová planeta totiž stojí ve společném znamení nebo v následném domě. Jde o tradiční odhad, ne pevný termín.",
+  "hard": [
+   {
+    "topics": [
+     "illness",
+     "death"
+    ],
+    "text": "Když se otázka týká nemoci, tradice tu mluví o tom, že stejný počet týdnů může ukazovat dobu do změny stavu. Lilly takto odhadoval zlepšení i zhoršení. Pokud vládce tazatele směřoval k vládci osmého domu, počítal stejným způsobem i dobu do smrti. Podle tradičních pravidel jde o čtení symbolů, ne o lékařskou prognózu."
+   }
+  ],
+  "traits": {
+   "text": [
+    "patience",
+    "realism",
+    "rationality",
+    "focus"
+   ],
+   "shadow": [
+    "restlessness",
+    "anxiety"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "horary/timing/months",
+  "title": "Čas: měsíce",
+  "keywords": [
+   "odhad času",
+   "měsíce",
+   "dokonání aspektu",
+   "william lilly",
+   "horární otázka"
+  ],
+  "themes": [
+   "growth"
+  ],
+  "text": "Odhad v měsících vychází, když stupně do dokonání aspektu padají do kombinace, kterou Lilly řadí do středního tempa: pohyblivé znamení v padajícím domě, společné v následném nebo pevné v rohovém. Podle tradičních pravidel vychází, že odpověď na tvou otázku dozrává v řádu měsíců. Je to tradiční odhad, ne termín.",
+  "hard": [
+   {
+    "topics": [
+     "illness",
+     "death"
+    ],
+    "text": "Tradice tu mluví o tom, že Lilly v otázkách na nemoc odhaduje stejným klíčem délku nemoci nebo dobu krize. Stupně do dokonání mezi vládcem ascendentu a vládcem osmého domu čte jako čas, kdy se nemoc podle tradičních pravidel láme, a to i k horšímu. Měsíce zde znamenají vleklý průběh. Jde o historický výpočet, ne o lékařskou prognózu."
+   }
+  ],
+  "traits": {
+   "text": [
+    "patience",
+    "perseverance",
+    "realism"
+   ],
+   "shadow": [
+    "restlessness",
+    "anxiety"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "horary/timing/years",
+  "title": "Čas: roky",
+  "keywords": [
+   "roky",
+   "pevné znamení",
+   "padající dům",
+   "pomalé dokonání",
+   "dlouhá míra"
+  ],
+  "themes": [
+   "growth"
+  ],
+  "text": "Na tvou otázku podle tradičních pravidel vychází nejdelší časová míra, roky. Signifikátory stojí v pevném znamení nebo v padajícím domě. Lilly (1647) proto čte každý stupeň do dokonání aspektu jako jeden rok. Jde o tradiční odhad, ne o pevný termín.",
+  "hard": [
+   {
+    "topics": [
+     "illness",
+     "death"
+    ],
+    "text": "U otázek na nemoc tradice mluví o tom, že Lilly čte pomalou míru jako znak vleklého průběhu. Potíž se podle něj táhne a mění se jen pozvolna. U otázek na trvání nemoci nebo délku života se roky vztahují k délce období, ne k jistému konci. Podle tradičních pravidel vychází odhad, ne předpověď."
+   }
+  ],
+  "traits": {
+   "text": [
+    "patience",
+    "perseverance",
+    "steadiness",
+    "realism"
+   ],
+   "shadow": []
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "horary/timing/unknown",
+  "title": "Čas: jednotku tradice neurčuje",
+  "keywords": [
+   "stupně do dokonání",
+   "nejasná jednotka",
+   "protichůdná svědectví",
+   "tradiční odhad"
+  ],
+  "themes": [
+   "growth"
+  ],
+  "text": "U tvé otázky podle tradičních pravidel vychází, kolik stupňů chybí do dokonání aspektu, ale jednotku času tradice neurčuje. Druh znamení a dům si protiřečí: jeden ukazuje na dny či týdny, druhý na měsíce či roky. Lilly tu váží další svědectví. Číslo je odhad, ne termín.",
+  "traits": {
+   "text": [
+    "patience",
+    "realism",
+    "caution"
+   ],
+   "shadow": [
+    "restlessness",
+    "anxiety"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "horary/lost/aries",
+  "title": "Ztracená věc: Beran",
+  "keywords": [
+   "východ",
+   "střecha a strop",
+   "pastvina",
+   "kopcovitý terén",
+   "chlívek"
+  ],
+  "themes": [
+   "money"
+  ],
+  "text": "Ukazatel ztracené věci v Beranu, ohnivém znamení východu, vede podle Lillyho na východní stranu a k místům drobných zvířat. Podle tradičních pravidel vychází hledat na pastvině, v písčitém či kopcovitém terénu, dnes třeba u výběhu nebo na zahradě. V domě ukazuje nahoru: střecha, strop, omítka, půda. Prohlédni i kůlnu či přístřešek pro menší zvířata.",
+  "traits": {
+   "text": [
+    "decisiveness",
+    "focus",
+    "curiosity"
+   ],
+   "shadow": []
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "horary/lost/taurus",
+  "title": "Ztracená věc: Býk",
+  "keywords": [
+   "sklep",
+   "přízemí",
+   "zahrada",
+   "nízké místo",
+   "jih"
+  ],
+  "themes": [
+   "character"
+  ],
+  "text": "Ukazatel ztracené věci stojí v Býku. Podle tradičních pravidel vychází, že věc leží nízko u země: ve sklepě, v přízemní místnosti, ve spíži, v garáži nebo kůlně, kde dřív stávali koně, případně na zahradě či trávníku. Býk je zemské a pevné znamení, proto věc spíš zůstává na jednom místě. Hledej směrem na jih, mírně k východu.",
+  "traits": {
+   "text": [
+    "steadiness",
+    "patience",
+    "realism",
+    "security_need"
+   ],
+   "shadow": []
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "horary/lost/gemini",
+  "title": "Ztracená věc: Blíženci",
+  "keywords": [
+   "vyvýšená místa",
+   "stěny a obložení",
+   "truhly a skříně",
+   "půda a sýpka",
+   "západ k jihu"
+  ],
+  "themes": [
+   "growth"
+  ],
+  "text": "Ukazatel ztracené věci stojí v Blížencích. Jde o vzdušné znamení, proto podle tradičních pravidel vychází, že věc leží výš nad zemí. Lilly zmiňuje obloženou nebo omítnutou stěnu, truhlu, skříň či krabici, půdu, spíž, sýpku a stodolu. Venku jde o kopce a vyvýšená místa. Hledej směrem na západ, mírně k jihu.",
+  "traits": {
+   "text": [
+    "curiosity",
+    "order",
+    "focus"
+   ],
+   "shadow": []
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "horary/lost/cancer",
+  "title": "Ztracená věc: Rak",
+  "keywords": [
+   "voda",
+   "vlhko",
+   "sklep",
+   "prádelna",
+   "sever"
+  ],
+  "themes": [
+   "family"
+  ],
+  "text": "Ukazatel ztracené věci v Raku podle tradičních pravidel ukazuje na místo u vody nebo ve vlhku, protože Rak je vodní znamení. Lilly (1647) jmenuje moře, řeky, potoky, prameny a studny, v domě sklep a prádelnu, venku bažiny a příkopy. Dnes hledej u umyvadla, pračky, ve sklepě či koupelně. Směr podle tradičních pravidel vychází na sever.",
+  "hard": [
+   {
+    "topics": [
+     "loss"
+    ],
+    "text": "Tradice tu mluví o ztrátě. Věc, která se dostala do vody, podle Lillyho může odplavat, klesnout ke dnu nebo zvlhnout a zkazit se. Pokud ukazatel míří k moři, řece či studni, podle tradičních pravidel vychází, že se věc nemusí vrátit celá, nebo se nevrátí vůbec. Jde o tradiční obraz, ne o jistotu."
+   }
+  ],
+  "traits": {
+   "text": [
+    "family_attachment",
+    "security_need",
+    "intuition"
+   ],
+   "shadow": []
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "horary/lost/leo",
+  "title": "Ztracená věc: Lev",
+  "keywords": [
+   "oheň",
+   "krb",
+   "komín",
+   "hrad",
+   "východ"
+  ],
+  "themes": [
+   "character"
+  ],
+  "text": "Když ukazatel ztracené věci stojí ve Lvu, podle tradičních pravidel vychází, že věc hledáš hlavně u ohně. Lilly (1647) jmenuje domy, kde se topí, a místa u komína. Dnes to je krb, kamna, kotelna nebo kuchyň. Venku jmenuje lesy, parky, pustá místa, strmé skály, hrady a pevnosti. Lev je ohnivé znamení, proto vychází směr na východ, mírně k severu.",
+  "traits": {
+   "text": [
+    "generosity",
+    "self_confidence",
+    "creativity",
+    "steadiness"
+   ],
+   "shadow": [
+    "pride",
+    "vanity",
+    "drama"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "horary/lost/virgo",
+  "title": "Ztracená věc: Panna",
+  "keywords": [
+   "pracovna",
+   "knihy",
+   "spíž",
+   "zásoby",
+   "jih"
+  ],
+  "themes": [
+   "work",
+   "character"
+  ],
+  "text": "Podle tradičních pravidel vychází, že věc leží na místě řádu a skladu: v pracovně u knih, ve skříni nebo komoře, ve spíži se sýrem a máslem, u obilí či zásob. Lilly dává Panně zem a směr na jih, mírně k západu. Zemní znamení ukazuje spíš nízko, při zemi, mezi srovnanými věcmi.",
+  "traits": {
+   "text": [
+    "order",
+    "diligence",
+    "focus",
+    "thrift"
+   ],
+   "shadow": [
+    "criticism",
+    "perfectionism",
+    "anxiety"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "horary/lost/libra",
+  "title": "Ztracená věc: Váhy",
+  "keywords": [
+   "horní patro",
+   "půda",
+   "západ",
+   "větrné místo",
+   "kůlna"
+  ],
+  "themes": [
+   "money"
+  ],
+  "text": "Když ukazatel ztracené věci stojí ve Vahách, podle tradičních pravidel vychází hledat výš a směrem na západ. Vzdušné znamení vede k vyvýšeným, větraným místům. Lilly jmenuje horní pokoje, podkroví, svahy kopců, okolí větrných mlýnů a osamělé stodoly či kůlny. Dnes to odpovídá patru, půdě, horním policím nebo zahradnímu domku.",
+  "traits": {
+   "text": [
+    "order",
+    "curiosity",
+    "lightness"
+   ],
+   "shadow": [
+    "indecision",
+    "dependence",
+    "superficiality"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "horary/lost/scorpio",
+  "title": "Ztracená věc: Štír",
+  "keywords": [
+   "vlhko",
+   "skrýš",
+   "kuchyně",
+   "voda",
+   "sever"
+  ],
+  "themes": [
+   "character"
+  ],
+  "text": "Ukazatel ztracené věci ve Štíru podle tradičních pravidel vychází na vlhké, skryté místo. Lilly jmenuje zahrady, sady, vinice, zchátralé stavby u vody a kouty, kde se plazí havěť. Doma hledej v kuchyni, ve spíži nebo v prádelně, dnes i v koupelně a u odpadu. Směr ukazuje k severu, protože Štír patří k vodním znamením.",
+  "traits": {
+   "text": [
+    "depth",
+    "secrecy",
+    "focus",
+    "caution"
+   ],
+   "shadow": [
+    "secrecy",
+    "obsession"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "horary/lost/sagittarius",
+  "title": "Ztracená věc: Střelec",
+  "keywords": [
+   "horní patro",
+   "blízko ohně",
+   "kopce a pole",
+   "stáj",
+   "východ k jihu"
+  ],
+  "themes": [
+   "money"
+  ],
+  "text": "Ukazatel ztracené věci ve Střelci vede hledání nahoru a ven. Podle tradičních pravidel Lillyho vychází, že věc leží vysoko: v horním patře, v podkroví nebo blízko krbu, kamen či topení. Venku připadá v úvahu kopec, pole nebo stáj s velkými zvířaty. Směr ukazuje na východ s odchylkou k jihu, protože Střelec patří k ohnivým znamením.",
+  "traits": {
+   "text": [
+    "wanderlust",
+    "curiosity",
+    "optimism"
+   ],
+   "shadow": [
+    "restlessness",
+    "carelessness"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "horary/lost/capricorn",
+  "title": "Ztracená věc: Kozoroh",
+  "keywords": [
+   "nízká místa",
+   "práh",
+   "stáj",
+   "sklep",
+   "jih"
+  ],
+  "themes": [
+   "character"
+  ],
+  "text": "Ukazatel ztracené věci stojí v Kozorohu, zemském a kardinálním znamení. Podle tradičních pravidel Williama Lillyho (1647) vychází, že věc leží nízko a v šeru: ve stáji, chlévě, ovčí ohradě či na neúrodné půdě. V domě hledej u podlahy, v tmavém koutě nebo poblíž prahu. Dnes to bývá sklep, garáž, kůlna. Směr ukazuje k jihu.",
+  "traits": {
+   "text": [
+    "order",
+    "patience",
+    "focus",
+    "realism"
+   ],
+   "shadow": []
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "horary/lost/aquarius",
+  "title": "Ztracená věc: Vodnář",
+  "keywords": [
+   "vyvýšená místa",
+   "střecha a podkroví",
+   "čerstvě kopaná zem",
+   "pramen a vodovod",
+   "západ"
+  ],
+  "themes": [
+   "growth"
+  ],
+  "text": "Stojí-li ukazatel ztracené věci ve Vodnáři, podle tradičních pravidel vychází, že věc leží vysoko nebo na nerovném místě. Lilly (1647) jmenuje kopce, čerstvě rozkopanou zem, střechy, okapy a horní patra domu. Uvádí také blízkost pramínku nebo přípojky vody. Vodnář je vzdušné znamení, proto se hledá nahoře a směrem na západ.",
+  "traits": {
+   "text": [
+    "curiosity",
+    "originality",
+    "independence"
+   ],
+   "shadow": [
+    "detachment",
+    "rebellion",
+    "coldness"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "horary/lost/pisces",
+  "title": "Ztracená věc: Ryby",
+  "keywords": [
+   "voda",
+   "vlhké místo",
+   "studna",
+   "sever",
+   "koupelna"
+  ],
+  "themes": [
+   "growth"
+  ],
+  "text": "Ukazatel ztracené věci stojí v Rybách. Podle tradičních pravidel vychází, že věc leží na vlhkém místě u vody, protože Ryby jsou vodní znamení. Lilly jmenuje rybníky, řeky, příkopy, vodní mlýny, studnu či pumpu. Dnes hledej u umyvadla, pračky, vodovodu, akvária nebo potoka. Směr ukazuje k severu s odklonem k západu.",
+  "traits": {
+   "text": [
+    "intuition",
+    "flexibility",
+    "sensitivity"
+   ],
+   "shadow": []
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "horary/lost_house/1",
+  "title": "Ztracená věc v 1. domě",
+  "keywords": [
+   "blízko tebe",
+   "osobní věci",
+   "vlastní dům",
+   "východ"
+  ],
+  "themes": [
+   "character"
+  ],
+  "text": "Ukazatel ztracené věci stojí v 1. domě, takže podle tradičních pravidel vychází, že věc je blízko tebe. Lilly tu čte, že zůstává u tazatele: v místě, kde bydlíš, kde trávíš nejvíc času, mezi tvými věcmi, klidně v kapse nebo v oblečení. 1. dům patří východu, proto hledej spíš ve východní části místnosti nebo domu.",
+  "hard": [
+   {
+    "topics": [
+     "loss"
+    ],
+    "text": "Tradice tu mluví o ztrátě i tehdy, když je věc blízko. Ukazatel věci může být spálený u Slunce, v pádu nebo v těžkém aspektu s Marsem či Saturnem. Pak podle tradičních pravidel vychází, že věc je poškozená, rozbitá nebo nepoužitelná, i když se najde. Pán 1. domu se navíc nemusí s ukazatelem věci spojit aspektem. Lilly to čte tak, že se věc do tvých rukou snadno nevrací."
+   }
+  ],
+  "traits": {
+   "text": [
+    "focus",
+    "order",
+    "curiosity"
+   ],
+   "shadow": [
+    "carelessness",
+    "restlessness"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "horary/lost_house/2",
+  "title": "Ztracená věc v 2. domě",
+  "keywords": [
+   "majetek",
+   "cennosti",
+   "úschova",
+   "blízko",
+   "východ"
+  ],
+  "themes": [
+   "money"
+  ],
+  "text": "Když ukazatel ztracené věci stojí ve 2. domě, podle tradičních pravidel vychází, že věc leží mezi tvým majetkem. Lilly tu ukazuje na místo, kde držíš peníze, cennosti a osobní věci: peněženku, tašku, šuplík nebo skříň. Druhý dům je následný, proto věc není daleko. Směr ukazuje k východu, s odklonem k severu.",
+  "hard": [
+   {
+    "topics": [
+     "loss"
+    ],
+    "text": "Tradice tu mluví o ztrátě majetku, protože 2. dům je dům jmění a movitých věcí. Když ukazatel věci ve 2. domě poškozuje Saturn nebo Mars, podle tradičních pravidel vychází, že se věc najde poškozená, opotřebovaná, nebo se nevrátí vůbec. Mars podle Lillyho ukazuje na krádež či rozbití. Saturn ukazuje na zapomnění na tmavém, zaprášeném místě."
+   }
+  ],
+  "traits": {
+   "text": [
+    "order",
+    "thrift",
+    "security_need",
+    "materialism"
+   ],
+   "shadow": []
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "horary/lost_house/3",
+  "title": "Ztracená věc v 3. domě",
+  "keywords": [
+   "blízké okolí",
+   "sourozenci a sousedé",
+   "krátká cesta",
+   "sever až severovýchod"
+  ],
+  "themes": [
+   "family",
+   "relationships"
+  ],
+  "text": "Ukazatel ztracené věci ve 3. domě vede podle Lillyho do tvého nejbližšího okolí. Může jít o byt sourozence nebo souseda, chodbu, schodiště, ulici, auto nebo tašku z krátké pochůzky. Podle tradičních pravidel vychází směr k severu, mírně k severovýchodu. Důvod je poloha domu: 3. dům leží pod obzorem mezi východem a severem. Věc tak obvykle nezůstává daleko.",
+  "hard": [
+   {
+    "topics": [
+     "loss",
+     "violence"
+    ],
+    "text": "Tradice tu mluví o ztrátě spojené s cestováním. Věc mohla vypadnout, zůstat ve voze nebo se poškodit při nehodě na krátké cestě. Pokud je ukazatel postižen zlými planetami, tradice tu mluví také o sporu se sourozencem či sousedem kvůli této věci. Ten může přerůst v hádku nebo vzájemné obviňování. Podle tradičních pravidel pak vychází, že návrat věci je obtížnější."
+   }
+  ],
+  "traits": {
+   "text": [
+    "curiosity",
+    "restlessness",
+    "sociability"
+   ],
+   "shadow": [
+    "carelessness",
+    "inconstancy"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "horary/lost_house/4",
+  "title": "Ztracená věc v 4. domě",
+  "keywords": [
+   "domov",
+   "sever",
+   "sklep a podlaha",
+   "rodinné věci",
+   "základy domu"
+  ],
+  "themes": [
+   "family"
+  ],
+  "text": "Ukazatel ztracené věci ve 4. domě ji podle tradičních pravidel Williama Lillyho vrací domů, k zemi a k základům. Čtvrtý dům je úhel a ukazuje sever. Věc proto zůstává v tvém obydlí: v přízemí, ve sklepě, pod podlahou, mezi starými rodinnými věcmi nebo v pokoji otce či matky. Hledáš nízko a v severní části domu.",
+  "hard": [
+   {
+    "topics": [
+     "death"
+    ],
+    "text": "Tradice tu mluví o 4. domě jako o konci života a o hrobu. U ztracené věci z toho podle tradičních pravidel vychází místo zasypané, zakopané nebo uložené hluboko v zemi. Věc může ležet také mezi předměty po zemřelém členovi rodiny, v pozůstalosti nebo v krabicích, které nikdo dlouho neotevírá."
+   },
+   {
+    "topics": [
+     "loss"
+    ],
+    "text": "Tradice tu mluví o ztrátě domova a o čtvrtém domě jako o konci celé záležitosti. Pokud ukazatel věci stojí oslabený, retrográdní nebo spálený pod Sluncem, podle tradičních pravidel vychází, že věc zůstává ukrytá dlouho nebo se už nevrátí. Hledání tak naráží na konečnou odpověď, ne na zdržení."
+   }
+  ],
+  "traits": {
+   "text": [
+    "family_attachment",
+    "security_need",
+    "patience",
+    "focus",
+    "order"
+   ],
+   "shadow": []
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "horary/lost_house/5",
+  "title": "Ztracená věc v 5. domě",
+  "keywords": [
+   "místo zábavy",
+   "dětský pokoj",
+   "hra",
+   "severozápad",
+   "volný čas"
+  ],
+  "themes": [
+   "family",
+   "growth"
+  ],
+  "text": "Ukazatel ztracené věci stojí v 5. domě, a podle tradičních pravidel tedy vychází, že věc leží na místě zábavy, hry nebo odpočinku. Lilly tomuto domu přisuzuje hostince, divadla, zahrady a dětské pokoje. Hledej tam, kde trávíš volný čas, kde si hrají děti nebo kde slavíš. Směr ukazuje k severozápadu.",
+  "hard": [
+   {
+    "topics": [
+     "loss",
+     "ruin"
+    ],
+    "text": "Tradice tu mluví o ztrátě spojené s hrou a hazardem. Podle tradičních pravidel může věc odejít při sázce nebo hře. Může ji také odnést či poškodit dítě. Když ukazatel trápí Saturn nebo Mars, tradice čte věc jako rozbitou nebo prohranou. Návrat pak podle tradičních pravidel vychází jako málo pravděpodobný."
+   }
+  ],
+  "traits": {
+   "text": [
+    "lightness",
+    "cheerfulness",
+    "sociability",
+    "curiosity"
+   ],
+   "shadow": [
+    "carelessness",
+    "risk_taking",
+    "impulsiveness"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "horary/lost_house/6",
+  "title": "Ztracená věc v 6. domě",
+  "keywords": [
+   "dílna",
+   "služba",
+   "drobná zvířata",
+   "každodenní práce",
+   "západ a sever"
+  ],
+  "themes": [
+   "work",
+   "health"
+  ],
+  "text": "Když ukazatel ztracené věci stojí v 6. domě, hledá ji Lilly v místech práce a služby. Podle tradičních pravidel vychází dílna, kuchyně, komora, pracovní stůl nebo prostor u drobných zvířat. Směr vychází mezi západem a severem, blíž k západu. Věc mohl odložit i člověk, který ti pomáhá nebo s tebou pracuje.",
+  "hard": [
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Šestý dům je v tradici domem nemoci. Tradice tu mluví o tom, že věc může ležet v pokoji nemocného, mezi léky a obvazy nebo u věcí spojených s péčí. Podle tradičních pravidel vychází i spojení ztráty s obdobím nemoci či únavy, kdy pozornost patří jinam."
+   },
+   {
+    "topics": [
+     "loss"
+    ],
+    "text": "Tradice tu mluví i o horší možnosti. Když je ukazatel věci v 6. domě spálený Sluncem, retrográdní, ve vyhnanství nebo v pádu, případně když jej poškozuje Saturn nebo Mars, vychází podle tradičních pravidel, že věc je poškozená, rozbitá nebo se nevrátí celá."
+   }
+  ],
+  "traits": {
+   "text": [
+    "diligence",
+    "order",
+    "responsibility"
+   ],
+   "shadow": [
+    "carelessness",
+    "exhaustion"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "horary/lost_house/7",
+  "title": "Ztracená věc v 7. domě",
+  "keywords": [
+   "ztracená věc",
+   "západ",
+   "partner",
+   "blízko domova",
+   "cizí ruce"
+  ],
+  "themes": [
+   "relationships",
+   "family"
+  ],
+  "text": "Ukazatel ztracené věci stojí v 7. domě, tedy v úhlu, a podle tradičních pravidel Williama Lillyho (1647) proto vychází, že věc není daleko od domova. 7. dům patří západu, takže hledání směřuje na západní stranu domu nebo místnosti. Tradice ukazuje i na místa, kde pobývá partner, na jeho věci a na společné prostory.",
+  "hard": [
+   {
+    "topics": [
+     "loss"
+    ],
+    "text": "Tradice tu mluví o krádeži. U Lillyho je 7. dům také domem zloděje a otevřeného nepřítele. Podle tradičních pravidel proto může vycházet, že věc neleží jen odložená, ale má ji v rukou jiná osoba. Rozhodují aspekty ukazatele věci k vládci 7. domu a k vládci 2. domu. Bez nich jde o možnost, ne o jistotu."
+   }
+  ],
+  "traits": {
+   "text": [
+    "caution",
+    "focus",
+    "belonging",
+    "realism"
+   ],
+   "shadow": [
+    "jealousy",
+    "carelessness",
+    "trustfulness"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "horary/lost_house/8",
+  "title": "Ztracená věc v 8. domě",
+  "keywords": [
+   "ztracená věc",
+   "cizí majetek",
+   "dědictví",
+   "jihozápad",
+   "nástupný dům"
+  ],
+  "themes": [
+   "money",
+   "family"
+  ],
+  "text": "Ukazatel ztracené věci stojí v 8. domě. Je to nástupný dům na západní polovině nebe. Podle tradičních pravidel Williama Lillyho (1647) vychází, že věc není daleko a spíš leží blízko domova, směrem na jihozápad až západ. Tradice ukazuje na místo cizích věcí: u partnera, mezi majetkem druhých, mezi odloženým nebo zděděným.",
+  "hard": [
+   {
+    "topics": [
+     "loss"
+    ],
+    "text": "Tradice tu mluví o tom, že 8. dům je domem konce. Může proto ukazovat věc rozbitou, zničenou nebo spotřebovanou. Podle tradičních pravidel vychází, že naději na návrat posuzuješ podle Měsíce a vládce ascendentu. Když je ukazatel věci navíc spálený Sluncem nebo v pádu, Lilly hodnotí vyhlídku na nalezení jako slabou."
+   },
+   {
+    "topics": [
+     "death"
+    ],
+    "text": "Tradice tu mluví o smrti nepřímo, protože 8. dům je domem zemřelých a pozůstalostí. Podle tradičních pravidel vychází, že věc může ležet mezi věcmi po zesnulém, v pozůstalosti nebo tam, kde se ukládá zděděné. Otázka na ztracenou věc přitom nic neříká o smrti tazatele ani nikoho blízkého."
+   }
+  ],
+  "traits": {
+   "text": [
+    "order",
+    "patience",
+    "curiosity",
+    "depth"
+   ],
+   "shadow": [
+    "anxiety",
+    "obsession"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "horary/lost_house/9",
+  "title": "Ztracená věc v 9. domě",
+  "keywords": [
+   "dálka",
+   "kostel a škola",
+   "cestovatel",
+   "jih k západu",
+   "cizina"
+  ],
+  "themes": [
+   "growth"
+  ],
+  "text": "Ukazatel ztracené věci v 9. domě podle tradičních pravidel vychází na místo vzdálené od domova. Lilly tu hledá v kostele, ve škole, v knihovně nebo u duchovního, učitele či cestovatele. Hledá také mezi věcmi na cesty. Směr ukazuje k jihu s odklonem k západu, protože 9. dům leží mezi poledním a západním úhlem horoskopu.",
+  "hard": [
+   {
+    "topics": [
+     "loss"
+    ],
+    "text": "Tradice tu mluví o ztrátě na delší dobu. Věc mohla odcestovat s někým jiným nebo skončit v cizině, kde se dohledává obtížně. Lilly k 9. domu řadí i spory a potíže v cizině. Podle tradičních pravidel proto vychází, že návrat věci může provázet zdržení nebo nedorozumění s cizími lidmi. Rozhoduje síla ukazatele a jeho aspekty s vládcem otázky."
+   }
+  ],
+  "traits": {
+   "text": [
+    "wanderlust",
+    "curiosity",
+    "spirituality"
+   ],
+   "shadow": []
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "horary/lost_house/10",
+  "title": "Ztracená věc v 10. domě",
+  "keywords": [
+   "jih",
+   "vysoké místo",
+   "pracoviště",
+   "úhlový dům",
+   "nalezení"
+  ],
+  "themes": [
+   "work"
+  ],
+  "text": "Ukazatel ztracené věci stojí v 10. domě, na nejvyšším úhlu horoskopu. Podle tradičních pravidel Williama Lillyho vychází, že věc leží na jižní straně a výš nad zemí: na polici, na skříni nebo tam, kde pracuješ či plníš svou roli. Úhlový dům podle Lillyho znamená, že věc je nablízku a lze ji najít.",
+  "hard": [
+   {
+    "topics": [
+     "loss",
+     "ruin"
+    ],
+    "text": "Tradice tu mluví o pádu z výšky a o ztrátě postavení. Když je ukazatel věci v 10. domě poškozený, například retrográdní, spálený Sluncem nebo v pádu, podle tradičních pravidel vychází, že věc mohla spadnout z vysokého místa a poškodit se. Další možný výklad je, že se její ztráta dotýká tvé pověsti nebo postavení v práci."
+   }
+  ],
+  "traits": {
+   "text": [
+    "focus",
+    "order",
+    "responsibility",
+    "ambition"
+   ],
+   "shadow": [
+    "carelessness",
+    "anxiety"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "horary/lost_house/11",
+  "title": "Ztracená věc v 11. domě",
+  "keywords": [
+   "u přítele",
+   "společné místo",
+   "vyšší poloha",
+   "jihovýchod",
+   "střední vzdálenost"
+  ],
+  "themes": [
+   "relationships"
+  ],
+  "text": "Ukazatel ztracené věci stojí v 11. domě. Podle tradičních pravidel Williama Lillyho (1647) vychází, že věc je u přítele nebo tam, kde se schází tvoje skupina. Dům nad obzorem ukazuje vyšší polohu, třeba polici nebo horní patro. Následný dům značí střední vzdálenost. Směr vychází na jih, mírně k východu.",
+  "hard": [
+   {
+    "topics": [
+     "loss"
+    ],
+    "text": "Tradice tu mluví o zradě přátel. Když je ukazatel věci v 11. domě poškozený, například v sestupu nebo pod zlým aspektem Saturnu či Marsu, podle tradičních pravidel vychází, že věc mohl vzít nebo zatajit někdo z okruhu známých. Lilly to bere jako náznak, ne jako obvinění. Konkrétní osobu horoskop sám o sobě neurčuje."
+   }
+  ],
+  "traits": {
+   "text": [
+    "sociability",
+    "belonging",
+    "trustfulness"
+   ],
+   "shadow": []
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "horary/lost_house/12",
+  "title": "Ztracená věc v 12. domě",
+  "keywords": [
+   "skrytá místa",
+   "stáje a chlévy",
+   "východ k jihu",
+   "uzavřené prostory",
+   "skrytý nepřítel"
+  ],
+  "themes": [
+   "growth"
+  ],
+  "text": "Když ukazatel ztracené věci stojí ve 12. domě, podle tradičních pravidel vychází, že věc leží ukrytá mimo běžný dohled. Lilly spojuje tento dům se stájemi, chlévy a místy pro velký dobytek. Patří sem i temné kouty, zastrčené skrýše a uzavřené prostory. Směr hledání ukazuje k východu, mírně na jih.",
+  "hard": [
+   {
+    "topics": [
+     "loss"
+    ],
+    "text": "Tradice tu mluví o tom, že věc ve 12. domě může být záměrně schovaná nebo odcizená. Za ztrátou může stát skrytý nepřítel, tedy někdo, koho neznáš nebo nepodezíráš. Když je ukazatel navíc poškozený Saturnem či Marsem nebo spálený u Slunce, podle tradičních pravidel vychází, že se věc najde těžko, nebo vůbec."
+   },
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví i o nemocnicích, vězeních a místech odloučení. Podle Lillyho pravidel tak věc může skončit v prostoru, kde se pečuje o nemocné, nebo v uzavřeném místě, kam nemáš volný přístup. Jde o popis místa, kde věc leží. Nejde o předpověď nemoci."
+   }
+  ],
+  "traits": {
+   "text": [
+    "secrecy",
+    "caution",
+    "patience",
+    "focus"
+   ],
+   "shadow": [
+    "anxiety",
+    "insecurity"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ }
+]

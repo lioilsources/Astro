@@ -19,3 +19,6 @@ run/
 .venv/
 __pycache__/
 pubspec_overrides.yaml
+
+# Agent worktrees
+.claude/worktrees/

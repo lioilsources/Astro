@@ -1,0 +1,367 @@
+[
+ {
+  "key": "planetary_day/sun",
+  "title": "Den planety Slunce",
+  "keywords": [
+   "vůle",
+   "životní síla",
+   "sebevyjádření",
+   "otec",
+   "tvořivost"
+  ],
+  "themes": [
+   "character",
+   "family",
+   "health",
+   "work",
+   "growth"
+  ],
+  "text": "Den Slunce, od jednoho východu Slunce do dalšího, nese ráz vůle a viditelnosti. Vědomé já vystupuje do popředí a tvoje záměry dostávají jasnější tvar. Den přeje tvořivé práci, vystoupení před lidmi a rozhodnutím, pod která se chceš podepsat vlastním jménem. Životní síla stoupá a srdce táhne k tomu, co dává smysl. Do hry vstupuje také otec, otcovské postavy a vztah k autoritě. Tradice tento den spojuje s ctí, uznáním a radostí z vlastního díla.",
+  "shadow": "Ve dni Slunce se vůle snadno mění v pýchu. Chuť ukázat se sklouzává k potřebě obdivu a každá poznámka druhých může zasáhnout ješitnost. Hrozí panovačnost: rozhoduješ za ostatní a jejich názor bereš jako překážku. Sebestřednost zužuje pohled, takže přehlížíš, kdo ti pomáhá. Napětí s otcem nebo nadřízeným se v tento den vyhrocuje rychleji. Přepjatá energie vede k vyčerpání, protože síla se vydává naplno bez ohledu na rezervy.",
+  "hard": [
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o srdci, zraku a životní síle jako o oblastech, které Slunce řídí. Když je Slunce v pádu nebo jinak oslabené, tradice tu mluví o chatrnějším zdraví, ubývající vitalitě a potížích se srdcem či očima. Stejně tak spojuje oslabené Slunce s nemocí otce nebo s jeho slabým postavením."
+   }
+  ],
+  "traits": {
+   "text": [
+    "self_confidence",
+    "vitality",
+    "creativity",
+    "leadership"
+   ],
+   "shadow": [
+    "pride",
+    "dominance",
+    "vanity",
+    "selfishness",
+    "exhaustion"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "planetary_day/moon",
+  "title": "Den planety Měsíc",
+  "keywords": [
+   "city",
+   "domov",
+   "bezpečí",
+   "tělo",
+   "zvyky"
+  ],
+  "themes": [
+   "character",
+   "family",
+   "health"
+  ],
+  "text": "Den Měsíce, od východu do východu Slunce, ladí celý den na city a potřeby těla. Víc vnímáš hlad, únavu i nálady lidí kolem. Táhne tě to domů, k vaření, úklidu a známým zvykům. Daří se ti pečovat, naslouchat a vytvářet pocit bezpečí. Vynořují se vzpomínky na matku a rodinu. Intuice má dnes navrch nad plánem. Tělo ti dává jasné signály, co potřebuje.",
+  "shadow": "V den Měsíce se nálada mění s každým drobným podnětem a přenáší se do celého dne. Snadno se urazíš a stáhneš do sebe. Lpíš na tom, co bylo, a staré křivdy se vracejí. Potřeba jistoty sklouzává k závislosti na druhých nebo k jídlu jako útěše. Hrozí citové vydírání: výčitky, uražené mlčení, hraní na soucit. Může přicházet od tebe i od okolí. Domov se mění v úkryt, ze kterého se nechce ven.",
+  "hard": [
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o žaludku a trávení. Podle starých výkladů se v den Měsíce ozývají nevolnosti, slabý žaludek a potíže s tělními tekutinami. Tradice sem řadí i plodnost a těhotenství jako oblasti citlivé na nerovnováhu."
+   },
+   {
+    "topics": [
+     "mental_crisis"
+    ],
+    "text": "Tradice tu mluví o duševní rovnováze. Měsíc podle ní vládne náladám a spánku. V jeho den se mohou prohloubit úzkosti, sklíčenost a neklidné noci. Starší výklady spojovaly Měsíc i s pomateností mysli, odtud pochází slovo lunatik."
+   },
+   {
+    "topics": [
+     "loss",
+     "death"
+    ],
+    "text": "Tradice tu mluví o ztrátě matky. Den Měsíce podle ní přináší zprávy o matce nebo ženských předcích, včetně zpráv o nemoci a smrti. Vystupují staré smutky po těch, kdo odešli, a stesk po domově, který už neexistuje."
+   }
+  ],
+  "traits": {
+   "text": [
+    "sensitivity",
+    "empathy",
+    "protectiveness",
+    "intuition",
+    "family_attachment"
+   ],
+   "shadow": [
+    "moodiness",
+    "sulking",
+    "dependence",
+    "escapism",
+    "stagnation"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "planetary_day/mercury",
+  "title": "Den planety Merkur",
+  "keywords": [
+   "myšlení",
+   "řeč",
+   "učení",
+   "obchod",
+   "krátké cesty"
+  ],
+  "themes": [
+   "character",
+   "work",
+   "family",
+   "health"
+  ],
+  "text": "Den Merkura zrychluje myšlení a uvolňuje jazyk. Od východu Slunce do dalšího východu se lépe daří učení, psaní, vyjednávání a drobným obchodům. Myšlenky ti naskakují rychle a slova přicházejí snadno. Den se hodí na krátké cesty, pochůzky, telefonáty a vyřizování zpráv. Dobře se ti mluví se sourozenci a sousedy. Zvídavost tě táhne k novým informacím a k domluvám, které by jindy čekaly. Hlava pracuje pružně a snadno přeskakuje mezi úkoly.",
+  "shadow": "Stejná rychlost, která v Merkurově dni pomáhá mluvit, snadno předbíhá rozmysl. Pozornost těká mezi deseti věcmi a žádnou nedotáhne. Nervozita roste s každou další zprávou a telefonem. Slova padají dřív, než je zvážíš, a z drobné poznámky vzniká drb. Tradice tento den spojuje i se lstí. V obchodu i v řeči hrozí polopravdy, vytáčky a drobné podvody, tvoje i cizí. Povrchní dojem tu snadno vítězí nad hloubkou a neklid nedovolí věci pořádně promyslet.",
+  "hard": [
+   {
+    "topics": [
+     "illness",
+     "mental_crisis"
+    ],
+    "text": "Tradice tu mluví o nervech, plicích a řeči jako o místech, kam se merkurovské napětí ukládá do těla. S tímto dnem spojuje nervové vyčerpání, nespavost z přetížené hlavy, potíže s dechem a zadrhávání v řeči. Starší výklady sem řadí i úzkostné stavy z neustálého přemítání. Jde o tradiční symboliku, ne o předpověď."
+   }
+  ],
+  "traits": {
+   "text": [
+    "curiosity",
+    "eloquence",
+    "flexibility",
+    "rationality"
+   ],
+   "shadow": [
+    "restlessness",
+    "superficiality",
+    "deceit",
+    "anxiety",
+    "inconstancy"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "planetary_day/venus",
+  "title": "Den planety Venuše",
+  "keywords": [
+   "láska",
+   "krása",
+   "vkus",
+   "potěšení",
+   "harmonie"
+  ],
+  "themes": [
+   "relationships",
+   "money",
+   "character",
+   "health"
+  ],
+  "text": "Den Venuše od východu Slunce otevírá prostor pro lásku, krásu a dobrý vkus. Tradičně přeje schůzkám, usmiřování a všemu, co zjemňuje vztahy. Snáz najdeš správná slova pro blízké lidi a odvahu říct, na čem ti záleží. Barvy, vůně a chutě vnímáš ostřeji než jindy. Do popředí se dostávají hodnoty, peníze a otázka, co ti skutečně dělá radost. Den přeje tvorbě, úpravě domova a klidnému souladu s druhými.",
+  "shadow": "Ve stínu den Venuše svádí k tomu, aby se příjemné stalo jediným měřítkem. Snadno sáhneš po dalším dezertu, další skleničce nebo věci, kterou nepotřebuješ. Útrata pak slouží jako náplast na nudu nebo smutek. Ve vztazích roste potřeba ujištění a bez obdivu se den zdá prázdný. Marnivost tě nutí řešit dojem víc než obsah. Konflikty mizí pod kobercem, jen aby zůstal klid, a nepříjemná povinnost se odsouvá na zítřek.",
+  "hard": [
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o ledvinách, krku a hrdle jako o oblastech těla, které Venuše ovládá. Starší výklady v den Venuše spojují oslabení těchto míst s přemírou jídla, pití a sladkostí. Jde o symbolickou souvislost, ne o předpověď nemoci."
+   },
+   {
+    "topics": [
+     "loss"
+    ],
+    "text": "Tradice tu mluví také o rozchodech. Den lásky je podle ní zároveň dnem, kdy se nevyřčené napětí ve vztahu může vyjevit naplno a svazek skončit. Venuše měří hodnotu vztahu a co jí neodpovídá, se v její den snáz rozpadá."
+   }
+  ],
+  "traits": {
+   "text": [
+    "charm",
+    "sensuality",
+    "creativity",
+    "cooperation",
+    "gentleness"
+   ],
+   "shadow": [
+    "indulgence",
+    "extravagance",
+    "vanity",
+    "procrastination",
+    "dependence"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "planetary_day/mars",
+  "title": "Den planety Mars",
+  "keywords": [
+   "energie",
+   "odvaha",
+   "touha",
+   "boj",
+   "iniciativa"
+  ],
+  "themes": [
+   "character",
+   "relationships",
+   "work",
+   "health"
+  ],
+  "text": "Úterní den Marsu běží od východu do dalšího východu Slunce a dává všemu tah na branku. Energie stoupá a odvaha přichází snáz. Věci, které jindy odkládáš, dnes rozhýbeš jediným rozhodnutím. Den se hodí pro začátky, fyzickou práci, sport a otevřené jednání. Touha a smyslnost mají větší sílu a přitažlivost se projevuje přímo, bez oklik. Iniciativa stojí na tvé straně. Kdo dnes jedná první, získává náskok.",
+  "shadow": "Síla marsovského dne tě snadno strhne ke zbrklosti. Netrpělivost roste a slova padají ostřeji, než zamýšlíš. Drobný spor se rychle mění v hádku. Touha prosadit se přechází v bezohlednost vůči druhým a v soutěžení tam, kde o nic nejde. V dopravě, v kuchyni i při práci s nářadím vede spěch k nepozornosti. Vztek, který se dnes nevybije pohybem, si hledá jiný cíl, často nejbližší lidi.",
+  "hard": [
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o horečkách, zánětech a zraněních, které se v den Marsu objevují snáz. Spojuje tento den s ostrými nástroji, krví, řezem a chirurgickými zákroky. Starší autoři vnímali úterý jako den operací a krvácení. Jde o tradiční představu, ne o jistotu."
+   },
+   {
+    "topics": [
+     "violence"
+    ],
+    "text": "Tradice tu mluví o násilí, rvačkách a nehodách. Den Marsu podle ní přiživuje střety, ve kterých jde o sílu. Zvyšuje také riziko úrazů z unáhleného jednání, při řízení a při zacházení se zbraněmi, ohněm a železem. Je to tradiční obraz, nikoli předpověď."
+   }
+  ],
+  "traits": {
+   "text": [
+    "courage",
+    "vitality",
+    "decisiveness",
+    "sensuality",
+    "competitiveness"
+   ],
+   "shadow": [
+    "impulsiveness",
+    "anger",
+    "aggression",
+    "selfishness",
+    "restlessness"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "planetary_day/jupiter",
+  "title": "Den planety Jupiter",
+  "keywords": [
+   "růst",
+   "štědrost",
+   "víra",
+   "smysl",
+   "dálky"
+  ],
+  "themes": [
+   "character",
+   "growth",
+   "health"
+  ],
+  "text": "Jupiterův den od úsvitu do dalšího úsvitu zvětšuje plány, chuť do života, naději i ochotu dávat. Hodí se pro učení, dlouhé rozhovory o smyslu, cestu nebo první krok k něčemu vzdálenému. Snáz věříš druhým i sobě. Máš štědrou ruku a širší pohled, drobné spory ztrácejí váhu. Dobře se daří výuce, setkání s učitelem nebo mentorem a všemu, co otevírá obzor. Den přeje velkorysosti, dobré vůli a odvaze myslet ve větším měřítku.",
+  "shadow": "Jupiterův den zvětšuje i to, co zvětšovat nemá: talíř, sliby a sebejistotu. Snadno slibuješ víc, než zvládneš splnit, a drobnou práci odkládáš, protože působí nedůležitě. Láká tě utrácet, přejídat se a mluvit z výšky. Víra se mění v lehkomyslnost a optimismus v přehlížení detailů. Kázání druhým vytlačuje naslouchání. Velkorysost bez míry končí únavou, těžkým žaludkem a nedotaženými závazky.",
+  "hard": [
+   {
+    "topics": [
+     "illness",
+     "addiction"
+    ],
+    "text": "Tradice tu mluví o játrech, tuku a přemíře. Jupiterův den spojuje s hodováním, pitím a ztěžklým tělem. Starší výklady tvrdí, že nestřídmost v jeho den zatěžuje játra a krev a že dlouhodobý nadbytek vede k nemocem z přemíry. Jde o tradiční obraz, ne o předpověď."
+   }
+  ],
+  "traits": {
+   "text": [
+    "optimism",
+    "generosity",
+    "spirituality",
+    "wanderlust",
+    "curiosity"
+   ],
+   "shadow": [
+    "extravagance",
+    "indulgence",
+    "pride",
+    "irresponsibility",
+    "carelessness"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "planetary_day/saturn",
+  "title": "Den planety Saturn",
+  "keywords": [
+   "řád",
+   "odpovědnost",
+   "hranice",
+   "vytrvalost",
+   "čas"
+  ],
+  "themes": [
+   "character",
+   "work",
+   "growth",
+   "health"
+  ],
+  "text": "Saturnův den, který běží od východu do východu Slunce, dává všemu váhu a pomalejší tempo. Hodí se na práci, kterou dlouho odkládáš: dokončit staré věci, uklidit, splnit dané slovo, plánovat na roky dopředu. Čas dnes plyne hustěji a každý krok nechává viditelnou stopu. Hranice, které stanovíš, drží. Vytrvalost přináší víc než nápad. Rozhovor se starším člověkem nebo s autoritou má klidnou, věcnou půdu. Zralost se dnes ukazuje v tom, že neslibuješ víc, než uneseš.",
+  "shadow": "Saturnův den umí ztěžknout. Ráno přináší seznam povinností a večer pocit, že z něj nic nestačí. Strach z chyby tě drží na místě a pravidla tuhnou ve strnulost. Vstřícnost chladne, slova zkracují a vidíš hlavně to, co chybí. Pesimismus se tváří jako realismus. Druzí působí vzdáleně a ty se uzavíráš do mlčení. Autorita dnes tlačí víc než obvykle, ať má podobu šéfa, rodiče, nebo vnitřního hlasu, který jen měří a odsuzuje.",
+  "hard": [
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o kostech, kloubech, zubech a o nemocech, které se táhnou dlouho. Saturnův den se ve starých textech pojí s chronickými potížemi a se stárnutím těla. Jde o symbolický obraz zátěže a opotřebení, ne o předpověď, že se něco stane."
+   },
+   {
+    "topics": [
+     "loss"
+    ],
+    "text": "Tradice tu mluví o ztrátách, odloučení a osamělosti. Saturn podle ní odebírá to, co dosloužilo, a nechává po tom prázdné místo. Den může nést pocit opuštěnosti nebo smutek za tím, co skončilo. Staré texty ho čtou jako čas loučení, ne jako jistou ztrátu."
+   },
+   {
+    "topics": [
+     "death"
+    ],
+    "text": "Tradice tu mluví o smrti. Saturn je ve starém pojetí planeta konce, hrobu a předků. Jeho den se pojil s pohřby, se vzpomínkou na zemřelé a s úvahami o pomíjivosti. Jde o tradiční symboliku konečnosti, ne o věštbu."
+   }
+  ],
+  "traits": {
+   "text": [
+    "order",
+    "responsibility",
+    "perseverance",
+    "discipline",
+    "patience"
+   ],
+   "shadow": [
+    "fearfulness",
+    "rigidity",
+    "coldness",
+    "pessimism",
+    "insecurity"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ }
+]

@@ -24,7 +24,8 @@ final _neutralSelf = RegExp(r'\b(sám|sama|samo) (o sobě|od sebe)|\bsebe sama',
 /// Romance and sexuality: in synastry texts they belong only to the `partner`
 /// layer, because the base layers are shown for parent and child too (plan 10.4).
 final romantic = RegExp(
-  r'\b(sex\w*|erot\w*|milen\w*|milostn\w*|intimn\w*|zamilov\w*|flirt\w*|polib\w*|políb\w*|líba\w*|postel\w*|svádě\w*|svádí\w*)',
+  // "sextil" is an aspect; "svádí k…" (tempts/leads to) is neutral, so seduction is not listed.
+  r'\b((?!sextil)sex\w*|erot\w*|milen\w*|milostn\w*|intimn\w*|zamilov\w*|flirt\w*|polib\w*|políb\w*|líba\w*|postel\w*)',
   caseSensitive: false,
   unicode: true,
 );

@@ -1,0 +1,121 @@
+[
+ {
+  "key": "eclipse/solar",
+  "title": "Zatmění Slunce",
+  "keywords": [
+   "nový začátek",
+   "skrytá vůle",
+   "osud",
+   "přelom",
+   "poslání"
+  ],
+  "themes": [
+   "character",
+   "growth",
+   "family",
+   "health"
+  ],
+  "text": "Narození blízko zatmění Slunce dává životu pečeť silného začátku, který vychází ze tmy. Nov u lunárního uzlu spojuje tvou vůli s něčím větším než s osobním plánem. Umíš začínat od nuly a přinášet nové věci tam, kde ostatní vidí jen konec. Tvoje síla se často ukáže až po období, kdy zůstává skrytá. Vycítíš přelomové chvíle a vstoupíš do nich v pravý okamžik. Okolí v tobě vidí člověka s posláním, i když ho zatím nedokážeš pojmenovat. Intuice tu často předbíhá rozum a vede tě spolehlivěji než pečlivý plán.",
+  "shadow": "Zatmění Slunce zakrývá vědomou vůli, a proto ti vlastní záměry někdy unikají z rukou. Rozhoduješ se pod tlakem okolností a teprve zpětně chápeš proč. Máš sklon nechat se nést osudem místo vlastní volby. Období, kdy tvé světlo nesvítí, prožíváš jako ztrátu identity. Nejistota se pak mění v nápadnou potřebu prosadit se, nebo naopak v úplné stažení do ústraní. Vztah k otci a k autoritám bývá zastřený a plný nevyřčeného.",
+  "hard": [
+   {
+    "topics": [
+     "death",
+     "loss"
+    ],
+    "text": "Tradice tu mluví o zatmění Slunce jako o znamení konce vlády a smrti významných mužů. V osobním horoskopu tento obraz vztahuje k otci nebo k jiné autoritě, jejíž odchod či ztráta může přijít brzy nebo náhle. Jde o tradiční výklad, nikoli o jistotu."
+   },
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o oslabení životní síly, kterou Slunce představuje. Starší autoři spojovali narození při zatmění se slabším zdravím v dětství, s potížemi očí a srdce a s obdobími vyčerpání. Jde o symbolický obraz, ne o předpověď nemoci."
+   },
+   {
+    "topics": [
+     "mental_crisis"
+    ],
+    "text": "Tradice tu mluví o temných obdobích, kdy se vědomé já zdá zhasnuté. Může jít o krize smyslu a identity, o depresivní nálady nebo o pocit, že život řídí cizí síla. I tento výklad je tradiční, nikoli jistý."
+   }
+  ],
+  "traits": {
+   "text": [
+    "transformation",
+    "intuition",
+    "ambition",
+    "resilience"
+   ],
+   "shadow": [
+    "insecurity",
+    "submissiveness",
+    "drama",
+    "secrecy"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "eclipse/lunar",
+  "title": "Zatmění Měsíce",
+  "keywords": [
+   "vyvrcholení",
+   "zakrytý cit",
+   "minulost",
+   "konce",
+   "rodová paměť"
+  ],
+  "themes": [
+   "character",
+   "family",
+   "relationships",
+   "growth",
+   "health"
+  ],
+  "text": "Zatmění Měsíce v tvém horoskopu je úplněk, který na chvíli ztmavne. Tvoje city vrcholí a zároveň se schovávají. Prožíváš věci naplno, ale často až zpětně chápeš, co se v tobě dělo. Máš silné tušení konců a zlomů. Vztahy, životní období i role u tebe dozrávají k jasnému vyvrcholení a pak se uzavírají. Nosíš v sobě paměť rodu a starých příběhů. Umíš ji převést do slov, obrazů nebo péče o druhé. Lidé k tobě chodí ve chvílích, kdy jim něco končí. Dokážeš je provést tmou, protože ji znáš zevnitř.",
+  "shadow": "Při zatmění Měsíce mizí cit právě ve chvíli, kdy by měl být vidět. Emoce potlačuješ, dokud nepřetečou najednou a v nevhodnou chvíli. Minulost tě drží. Staré křivdy, rodinná tajemství a nedořečené ztráty se vracejí jako nálady bez zjevné příčiny. Máš sklon ukončovat vztahy dřív, než se ukáže, zda opravdu skončily. Konce dramatizuješ a začátky si nedovolíš. Za klidnou tváří se skrývá úzkost z opuštění.",
+  "hard": [
+   {
+    "topics": [
+     "loss",
+     "death"
+    ],
+    "text": "Tradice tu mluví o zatmění Měsíce jako o znamení ztráty v ženské linii rodu. Staré texty spojují narození u zatmění s brzkým odloučením od matky, s její nemocí nebo úmrtím. Jde o tradiční symbol, ne o jistou předpověď."
+   },
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o oslabení těla, které Měsíc řídí. Jmenuje potíže s tělesnými tekutinami, trávením, ženským cyklem a spánkem. Starší astrologové viděli v zatmění dobu, kdy se skryté nemoci zjevují nebo vrcholí."
+   },
+   {
+    "topics": [
+     "mental_crisis"
+    ],
+    "text": "Tradice tu mluví o zatmění jako o zakrytí mysli. Odtud pochází i staré slovo „lunatik“. Texty zmiňují melancholii, noční úzkosti a období, kdy citový tlak přeroste v duševní krizi, zvlášť po ztrátě nebo rozchodu."
+   }
+  ],
+  "traits": {
+   "text": [
+    "intuition",
+    "depth",
+    "empathy",
+    "transformation",
+    "sensitivity"
+   ],
+   "shadow": [
+    "secrecy",
+    "moodiness",
+    "melancholy",
+    "anxiety",
+    "drama"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ }
+]
