@@ -39,6 +39,33 @@ class Compute {
   static Future<Synastry> synastry(Chart first, Chart second) => Isolate.run(() => Synastry.compute(first, second));
 }
 
+/// R5 (plan 10.5): secondary progressions and solar returns.
+class Progressions {
+  /// Progressions read for one moment of life.
+  static Future<Progression> at(Chart natal, double lifeJd) => Isolate.run(() => Progression.at(natal, lifeJd));
+
+  /// Life timeline: progressed milestones and the solar returns from birth to [years] of age.
+  static Future<LifeTimeline> timeline(Chart natal, {int years = 100}) => Isolate.run(() {
+        final first = dateTimeUtcFromJd(natal.time.jdUt).year + 1;
+        return LifeTimeline(progressedMilestones(natal, years: years.toDouble()), [
+          for (var y = first; y <= first + years - 1; y++) SolarReturn.ofYear(natal, y),
+        ]);
+      });
+
+  /// Solar return of [year] and its chart at [place].
+  static Future<({SolarReturn sr, Chart chart})> solarReturn(Chart natal, int year, GeoLocation place, ChartOptions options) =>
+      Isolate.run(() {
+        final sr = SolarReturn.ofYear(natal, year);
+        return (sr: sr, chart: sr.chartAt(place, options: options));
+      });
+}
+
+class LifeTimeline {
+  final List<LifeMilestone> milestones;
+  final List<SolarReturn> solarReturns;
+  const LifeTimeline(this.milestones, this.solarReturns);
+}
+
 class MoonData {
   final List<Lunation> lunations;
   final List<MoonIngress> ingresses;

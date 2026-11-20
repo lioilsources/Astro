@@ -161,6 +161,11 @@ class PromptBuilder {
         return (title: 'Stálice u bodu $name', facts: '$facts\nJedna věta o tom, co znamená, když na tomto bodě leží stálice.');
       case 'election':
         return _election(p);
+      // R5 (plan 10.5): secondary progressions and solar returns.
+      case 'progressed':
+        return _progressed(p);
+      case 'solar_return':
+        return _solarReturn(p);
       case 'journal':
         final j = _journal[p[1]]!;
         return (
@@ -213,6 +218,70 @@ class PromptBuilder {
       default:
         return (title: 'Výsledek hledání: ${p[2]}', facts: '$_electionFrame\nŠablona výsledku: ${_verdictCz[p[2]]}.');
     }
+  }
+
+  static const _progressedIntro =
+      'Sekundární progrese: den po narození odpovídá roku života. Popisuje pomalý vnitřní vývoj, ne vnější události.';
+
+  ({String title, String facts}) _progressed(List<String> p) {
+    String pn(String id) => _p(id)['name'] as String;
+    switch (p[1]) {
+      case 'moon_in_sign':
+        return (
+          title: 'Progresní Měsíc ${_s(p[2])['in']}',
+          facts: '$_progressedIntro\nProgresní Měsíc (citové těžiště období asi 2,5 roku): ${_planet('moon')}\n${_sign(p[2])}\n'
+              'Popiš, jak se v těch letech mění nálada, potřeby a to, co člověka citově živí.'
+        );
+      case 'moon_in_house':
+        return (
+          title: 'Progresní Měsíc v ${p[2]}. domě',
+          facts: '$_progressedIntro\nProgresní Měsíc prochází natálním domem asi 2,5 roku: ${_planet('moon')}\n${_house(p[2])}\n'
+              'Popiš, kam se v těch letech stáčí pozornost a citová energie.'
+        );
+      case 'sun_in_sign':
+        return (
+          title: 'Progresní Slunce ${_s(p[2])['in']}',
+          facts: '$_progressedIntro\nProgresní Slunce mění znamení jednou za 30 let, je to dlouhá životní kapitola: ${_planet('sun')}\n${_sign(p[2])}'
+        );
+      case 'lunar_phase':
+        return (
+          title: 'Progresní fáze: ${_phaseCz[p[2]]}',
+          facts: '$_progressedIntro\nProgresní lunační cyklus trvá 29,5 roku, každá z osmi fází asi 3,7 roku. '
+              '${_phaseCz[p[2]]}: ${_phaseCore[p[2]]}. Ráz tohoto životního období.'
+        );
+      case 'modifier':
+        final applying = p[2] == 'applying';
+        return (
+          title: 'Úvod progresního aspektu: ${applying ? 'sbíhá se' : 'rozbíhá se'}',
+          facts: 'Jedna krátká úvodní věta před textem tranzitu ${pn('sun')}–${pn('pluto')}, který se znovu použije pro progresi. '
+              'Řekne, že nejde o krátký tranzit, ale o pomalý vnitřní proces na roky, který se ${applying ? 'teprve blíží vrcholu' : 'už vyznívá'}.'
+        );
+    }
+    throw ArgumentError(p.join('/'));
+  }
+
+  static const _angleCz = {
+    'asc': ('ascendent', 'jak do roku vstupuješ, tělo, nový začátek'),
+    'ic': ('IC (dno nebe)', 'domov, rodina, kořeny'),
+    'dsc': ('descendent', 'partneři, protějšky, otevření nepřátelé'),
+    'mc': ('MC (střed nebe)', 'práce, postavení, veřejné cíle'),
+  };
+
+  ({String title, String facts}) _solarReturn(List<String> p) {
+    const intro = 'Solár: horoskop okamžiku, kdy se Slunce vrátí na natální délku. Platí na jeden rok, od narozenin do narozenin.';
+    switch (p[1]) {
+      case 'asc':
+        return (title: 'Ascendent soláru ${_s(p[2])['in']}', facts: '$intro\nAscendent soláru: ráz a přístup celého roku.\n${_sign(p[2])}');
+      case 'sun_in_house':
+        return (title: 'Slunce soláru v ${p[2]}. domě', facts: '$intro\nDům Slunce soláru: hlavní oblast roku.\n${_house(p[2])}');
+      case 'planet_on_angle':
+        final (name, core) = _angleCz[p[3]]!;
+        return (
+          title: '${_p(p[2])['name']} na ose soláru: $name',
+          facts: '$intro\nPlaneta do 5° od osy soláru zabarví celý rok.\n${_planet(p[2])}\nOsa $name: $core.'
+        );
+    }
+    throw ArgumentError(p.join('/'));
   }
 
   static const _phaseCz = {
@@ -344,7 +413,7 @@ class PromptBuilder {
     final d = describe(key);
     final len = lengthRange(key);
     final family = familyOf(key);
-    final noShadow = shadowExempt.contains(family);
+    final noShadow = isShadowExempt(key);
     final traitList = traits.map((t) => '${t.id} (${t.name})').join(', ');
     final pair = partnerFamilies.contains(family);
     final textRule = pair

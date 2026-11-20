@@ -33,6 +33,9 @@ void main() {
     expect(k['election']!.where((x) => x.startsWith('election/rule/')).length, 26);
     expect(k['election']!.where((x) => x.startsWith('election/intent/')).length, 8);
     expect(k['election']!.where((x) => x.startsWith('election/verdict/')).length, 5);
+    // R5 (plan 10.5)
+    expect(k['progressed']!.length, 46);
+    expect(k['solar_return']!.length, 64);
     expect(k['journal']!.length, 10);
     expect(k['synastry']!.length, 165);
     expect(k['synastry_point']!.length, 60);
