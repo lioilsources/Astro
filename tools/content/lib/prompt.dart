@@ -1,19 +1,26 @@
 import 'dart:convert';
 import 'dart:io';
 
-import 'package:astro_core/astro_core.dart' show hemisphereMin, modalityExcessMin, modalityLackMax;
+import 'package:astro_core/astro_core.dart' show ElectionIntent, hemisphereMin, modalityExcessMin, modalityLackMax;
 
+import 'rules.dart';
 import 'schema.dart';
 
 /// Builds the generation prompt for one key from the archetype table and style rules.
 class PromptBuilder {
   final Map<String, dynamic> a;
   final List<Trait> traits;
-  PromptBuilder(this.a, this.traits);
+
+  /// Election rules by id (`content/rules/election.json`), for `election/rule/…`.
+  final Map<String, Map<String, Object?>> rules;
+  PromptBuilder(this.a, this.traits, {this.rules = const {}});
 
   factory PromptBuilder.load(Directory contentRoot) => PromptBuilder(
         jsonDecode(File('${contentRoot.path}/archetypes.cs.json').readAsStringSync()) as Map<String, dynamic>,
         loadTraits(Directory('${contentRoot.path}/cs')),
+        rules: {
+          for (final r in (loadElectionRules(contentRoot)['rules'] as List).cast<Map>()) r['id'] as String: r.cast<String, Object?>(),
+        },
       );
 
   Map<String, dynamic> _p(String id) => a['planets'][id] as Map<String, dynamic>;
@@ -133,8 +140,52 @@ class PromptBuilder {
         final name = pt?['name'] ?? pn(p[1]);
         final facts = pt != null ? 'Bod ${pt['name']}: ${pt['core']}.' : _planet(p[1]);
         return (title: 'Stálice u bodu $name', facts: '$facts\nJedna věta o tom, co znamená, když na tomto bodě leží stálice.');
+      case 'election':
+        return _election(p);
     }
     throw ArgumentError(key);
+  }
+
+  /// Election (plan 10.7): intents with their houses and planets, rule texts, verdict templates.
+  static const _intentCz = {
+    'relationship': 'svatba, vztah',
+    'contract': 'smlouva, podpis, jednání',
+    'launch': 'zahájení podnikání, spuštění projektu',
+    'money': 'peníze, nákup',
+    'move': 'stěhování, nemovitost',
+    'travel': 'cesta',
+    'study': 'zkouška, studium',
+    'application': 'žádost, pohovor',
+  };
+  static const _verdictCz = {
+    'strong': 'okno s vysokým skóre: tradiční pravidla se v něm sbíhají',
+    'good': 'dobré okno: víc důvodů pro než proti',
+    'weak': 'slabé okno: projde, ale důvodů proti je dost',
+    'none': 'v období neprošlo žádné okno; appka ukazuje nejméně špatné s výčtem důvodů proti',
+    'health': 'zdravotní záměr (operace, zákrok): appka termín nehledá a odkazuje na slovníček',
+  };
+  static const _electionFrame =
+      'Elekční astrologie: hledání vhodného okamžiku k začátku věci podle tradičních pravidel. '
+      'Formulace vždy "podle tradičních pravidel", nikdy záruka ani rada.';
+
+  ({String title, String facts}) _election(List<String> p) {
+    switch (p[1]) {
+      case 'rule':
+        final r = rules[p[2]];
+        final about = r?['about'] ?? p[2];
+        final kind = switch (r?['kind']) { 'plus' => 'mluví pro', 'minus' => 'mluví proti', _ => 'vylučuje okno' };
+        return (title: 'Pravidlo elekce: $about', facts: '$_electionFrame\nPravidlo ($kind): $about\nVysvětli, proč to tradice bere jako dobré nebo špatné.');
+      case 'intent':
+        final i = ElectionIntent.values.byName(p[2]);
+        final planets = i.planets.map((b) => _p(b.name)['name']).join(', ');
+        return (
+          title: 'Záměr: ${_intentCz[p[2]]}',
+          facts: '$_electionFrame\nZáměr: ${_intentCz[p[2]]}. Domy: ${i.houses.join(', ')}. Planety záměru: $planets.\n'
+              '${i.houses.map((h) => _house('$h')).join('\n')}\nNa co tradice u takového začátku hledí.'
+        );
+      default:
+        return (title: 'Výsledek hledání: ${p[2]}', facts: '$_electionFrame\nŠablona výsledku: ${_verdictCz[p[2]]}.');
+    }
   }
 
   static const _phaseCz = {
@@ -227,7 +278,10 @@ class PromptBuilder {
             '  Moderní psychologický přepis nevydávej za tradici.'
         : family == 'star_target'
             ? '- "text": ${len.min}–${len.max} slov: jedna až dvě věty o tom, které oblasti života hvězda na tomto bodě zasahuje.'
-            : '- "text": ${len.min}–${len.max} slov: povaha, nadání, projevy.';
+            : family == 'election'
+                ? '- "text": ${len.min}–${len.max} slov: co o tom říká tradice elekcí a proč; "podle tradičních pravidel",\n'
+                    '  nikdy záruka, žádná rada ke zdraví, penězům ani právu.'
+                : '- "text": ${len.min}–${len.max} slov: povaha, nadání, projevy.';
     return '''
 Napiš český text astrologického výkladu pro mobilní appku.
 

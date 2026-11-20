@@ -60,6 +60,18 @@ Dignity dignityOf(Body b, Sign s) {
   return Dignity.peregrine;
 }
 
+/// Essentially dignified: in its own sign or in exaltation.
+bool isDignified(Body b, Sign s) => switch (dignityOf(b, s)) {
+      Dignity.domicile || Dignity.exaltation => true,
+      _ => false,
+    };
+
+/// Essentially debilitated: in detriment or in fall.
+bool isDebilitated(Body b, Sign s) => switch (dignityOf(b, s)) {
+      Dignity.detriment || Dignity.fall => true,
+      _ => false,
+    };
+
 /// Planet condition score (docs/scoring.md). Negative → shadow layer goes first.
 int planetScore({required Body body, required Sign sign, int? house, required bool retrograde, int tenseAspects = 0, int harmoniousAspects = 0}) {
   var s = switch (dignityOf(body, sign)) {

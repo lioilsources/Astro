@@ -643,5 +643,65 @@
    "model": "claude-opus-5-5",
    "generated": "2026-11-20"
   }
+ },
+ {
+  "key": "glossary/election",
+  "title": "Elekce",
+  "keywords": [],
+  "themes": [],
+  "text": "Elekce je volba okamžiku, kdy začít nějakou věc: podepsat smlouvu, vyrazit na cestu, otevřít obchod. Starší astrologie věřila, že horoskop začátku nese povahu celé věci. Proto hledala chvíli, kdy Měsíc míří k dobrému spojení, dobroděje Venuše a Jupiter stojí silně a vládce ascendentu není oslabený. Appka prochází zvolené období po deseti minutách a řadí okna podle tradičních pravidel. Výsledek je nejvhodnější chvíle podle těchto pravidel, ne záruka úspěchu. Okno, kdy je Měsíc bez aspektu, appka nikdy nenabídne.",
+  "traits": {
+   "text": [],
+   "shadow": []
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "glossary/via_combusta",
+  "title": "Spálená cesta",
+  "keywords": [],
+  "themes": [],
+  "text": "Spálená cesta (via combusta) je úsek zvěrokruhu od 15° Vah do 15° Štíra. Středověcí astrologové ho pokládali za nebezpečný pro Měsíc: leží tu několik hvězd s pověstí neštěstí a Měsíc tu podle nich ztrácí sílu, podobně jako planeta spálená blízkostí Slunce. Při volbě termínu proto tradice chtěla, aby Měsíc tímto úsekem právě neprocházel. Appka to počítá jako důvod proti, ne jako vyloučení okna.",
+  "traits": {
+   "text": [],
+   "shadow": []
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "glossary/reception",
+  "title": "Přijetí",
+  "keywords": [],
+  "themes": [],
+  "text": "Přijetí je vztah dvou planet, kdy jedna stojí ve znamení, kterému vládne druhá. Vládce znamení svého hosta „přijímá“ a podle tradice mu pomáhá, i když host stojí slabě. Vzájemné přijetí nastává, když každá z obou planet stojí ve znamení té druhé, například Venuše v Beranu a Mars ve Vahách. Starší astrologie to brala jako dohodu dvou stran a při volbě termínu i v horární astrologii tím zmírňovala jinak špatné postavení.",
+  "traits": {
+   "text": [],
+   "shadow": []
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "glossary/medical_election",
+  "title": "Volba termínu zákroku",
+  "keywords": [],
+  "themes": [],
+  "text": "Volba termínu zákroku patřila ke starší astrologii. Tradice tu mluví o tom, že Měsíc nemá stát ve znamení, které vládne operované části těla (Beran hlavě, Ryby chodidlům), že ubývající Měsíc daleko od úplňku krvácení tlumí a že Mars v napětí s Měsícem věstí komplikace. Appka termín zákroku nehledá a tato pravidla na tvé termíny nepoužívá. O termínu operace rozhoduje lékař a zdravotní stav, ne postavení planet.",
+  "traits": {
+   "text": [],
+   "shadow": []
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
  }
 ]

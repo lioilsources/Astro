@@ -120,3 +120,64 @@ Slunce a Měsíc). Texty: `planetary_hour/{planeta}`, `planetary_day/{planeta}`
 `moon_today/{znamení}`, `lunation_in_house/{new, full}/{dům}`, `void_of_course`,
 `eclipse/{solar, lunar}`. Fáze při narození je ve výkladu faktor `moonPhase`
 s vahou 0,6 (oddíl „Přemíra a nedostatek“).
+
+## Elekce — Najdi termín (R7)
+
+Pravidla jsou data v `content/rules/election.json`; kód (`ElectionSearch`,
+`electionPredicates` v `packages/astro_core/lib/src/election.dart`) jen vyhodnocuje
+podmínku `when` s parametry `params`. Schéma hlídá `tools/content` (`validateElectionRules`).
+
+**Vzorec.** Skóre okna = součet vah pravidel „plus“ − součet vah pravidel „minus“,
+která v okně platí. Pravidlo „exclude“ okno vyřadí bez ohledu na skóre; jediné je
+Měsíc bez aspektu. Pásma (`thresholds`): 8 a víc `strong`, 4–7 `good`, 1–3 `weak`.
+Okno pod 1 neprojde. Když neprojde žádné, vrátí se jedno nejméně špatné
+s verdiktem `none`.
+
+| Pravidlo | Druh | Váha | Podmínka |
+|---|---|---|---|
+| `moon_void` | exclude | – | Měsíc bez aspektu zasahuje do vzorku (jako R2, `Lunar.voidOfCourse`) |
+| `moon_waxing` | plus | 2 | elongace Měsíce od Slunce pod 180° |
+| `moon_next_venus` | plus | 3 | příští aspekt Měsíce ve znamení míří na Venuši |
+| `moon_next_jupiter` | plus | 3 | příští aspekt Měsíce míří na Jupiter |
+| `venus_angle` | plus | 2 | Venuše do 5° od ASC, DSC, MC nebo IC |
+| `jupiter_angle` | plus | 2 | Jupiter do 5° od osy |
+| `asc_ruler_dignified` | plus | 3 | tradiční vládce ASC v sídle nebo povýšení a přímý |
+| `hour_of_intent` | plus | 2 | planetární hodina planety záměru |
+| `intent_planet_dignified` | plus | 2 | planeta záměru v sídle nebo povýšení |
+| `benefic_in_intent_house` | plus | 1 | Venuše nebo Jupiter v domě záměru |
+| `personal_moon_harmonious` | plus | 2 | osobní: Měsíc v konjunkci, sextilu nebo trigonu s natálním Sluncem, Měsícem, ASC (orb 3°) |
+| `personal_calm_day` | plus | 1 | osobní: napětí dne 0 |
+| `moon_next_mars_hard` | minus | 3 | příští aspekt Měsíce je kvadrát nebo opozice na Mars |
+| `moon_next_saturn_hard` | minus | 3 | totéž na Saturn |
+| `mars_angle` | minus | 2 | Mars do 5° od osy |
+| `saturn_angle` | minus | 2 | Saturn do 5° od osy |
+| `intent_planet_retrograde` | minus | 2 | některá planeta záměru retrográdní |
+| `intent_planet_fall` | minus | 2 | v pádu |
+| `intent_planet_detriment` | minus | 2 | ve zničení |
+| `asc_ruler_bad_house` | minus | 2 | vládce ASC v 6., 8. nebo 12. domě |
+| `asc_ruler_retrograde` | minus | 1 | vládce ASC retrográdní |
+| `eclipse` | minus | 3 | místní den zatmění, den před ním a po něm |
+| `via_combusta` | minus | 2 | Měsíc mezi 15° Vah a 15° Štíra (195°–225°) |
+| `malefic_in_intent_house` | minus | 1 | Mars nebo Saturn v domě záměru |
+| `personal_moon_tense` | minus | 2 | osobní: Měsíc v kvadrátu nebo opozici k natálnímu Slunci, Měsíci, ASC (orb 3°) |
+| `personal_tension_high` | minus | 2 | osobní: napětí dne (`tensionSeries`, poledne místního dne) 60 a víc |
+
+Záměry (`ElectionIntent`): domy a planety z tabulky plánu 10.7. Planeta záměru
+se počítá, když podmínku splní aspoň jedna z planet záměru. Zdravotní záměry se
+nehledají (rozhodnutí 19), appka ukáže heslo `glossary/medical_election`.
+
+**Hledání.** Období od místní půlnoci prvního dne, nejvýš 90 dní, vzorek po
+10 minutách. Měsíc se počítá po hodině, ostatní planety po 12 hodinách
+(stejné stopy jako `Lunar.voidOfCourse`, proto stejné okamžiky bez aspektu)
+a interpolují se (`LongitudeTrack`). ASC, MC a domy (systém podle šířky místa
+pobytu, v polárních šířkách Porphyry) se počítají pro každý vzorek. Planetární
+hodiny z jednoho průchodu východy a západy (`planetaryHourSpans`, shoda
+s `PlanetaryHours.hourAt`). Sousední vzorky se stejnou sadou splněných
+pravidel tvoří okno. Omezení na hodiny a dny v týdnu (místní čas) vzorky
+vyřadí. Řazení: skóre, pak délka, pak dřívější začátek; nejvýš 10 oken
+a nejvýš 3 začínající v jednom dni. 90 dní s profilem trvá asi 0,6 s
+(test `election_test.dart`), v appce běží v isolate.
+
+**Pro horární část (R8)** jsou znovupoužitelné: `RuleBook`, `Rule`,
+`evaluateRules` (`rules.dart`), `MoonAspectTimeline.nextAspect/lastAspect`
+(`moon_aspects.dart`), `isDignified`, `isDebilitated` (`dignities.dart`).
