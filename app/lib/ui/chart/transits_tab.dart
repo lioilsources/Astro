@@ -5,6 +5,7 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 import '../../data/content_repository.dart';
 import '../../data/profile.dart';
+import '../../data/settings.dart';
 import '../../l10n/app_localizations.dart';
 import '../../logic/compute.dart';
 import '../../state.dart';
@@ -23,7 +24,12 @@ class TransitsTab extends ConsumerStatefulWidget {
 class _MonthData {
   final List<TransitEvent> events;
   final List<HouseIngress> ingresses;
-  const _MonthData(this.events, this.ingresses);
+  final MoonData moon;
+
+  /// Planetary days from the day before the month to the day after it (residence place).
+  final List<PlanetaryDay?> days;
+  final GeoLocation place;
+  const _MonthData(this.events, this.ingresses, this.moon, this.days, this.place);
 }
 
 class _TransitsTabState extends ConsumerState<TransitsTab> {
@@ -32,16 +38,32 @@ class _TransitsTabState extends ConsumerState<TransitsTab> {
   Future<_MonthData>? _month;
   DateTime? _monthKey;
   Chart? _chartKey;
+  GeoLocation? _placeKey;
+  bool? _vocKey;
 
-  Future<_MonthData> _load() {
+  Future<_MonthData> _load(bool vocTraditional) {
     final mk = DateTime(_day.year, _day.month);
-    if (_month == null || _monthKey != mk || _chartKey != widget.chart) {
+    final place = widget.profile.residencePlace;
+    if (_month == null || _monthKey != mk || _chartKey != widget.chart || _placeKey != place || _vocKey != vocTraditional) {
       _monthKey = mk;
       _chartKey = widget.chart;
+      _placeKey = place;
+      _vocKey = vocTraditional;
       final from = jdFromDateTimeUtc(DateTime(mk.year, mk.month, 1).toUtc()) - 1;
       final to = jdFromDateTimeUtc(DateTime(mk.year, mk.month + 1, 1).toUtc()) + 1;
-      _month = Future.wait([Compute.events(widget.chart, from, to), Compute.ingresses(widget.chart, from, to)])
-          .then((r) => _MonthData(r[0] as List<TransitEvent>, r[1] as List<HouseIngress>));
+      final days = DateTime(mk.year, mk.month + 1, 0).day + 2;
+      _month = Future.wait([
+        Compute.events(widget.chart, from, to),
+        Compute.ingresses(widget.chart, from, to),
+        Compute.moon(from, to, traditionalOnly: vocTraditional),
+        Compute.planetaryDays(DateTime(mk.year, mk.month, 0), days, place),
+      ]).then((r) => _MonthData(
+            r[0] as List<TransitEvent>,
+            r[1] as List<HouseIngress>,
+            r[2] as MoonData,
+            r[3] as List<PlanetaryDay?>,
+            place,
+          ));
     }
     return _month!;
   }
@@ -50,6 +72,7 @@ class _TransitsTabState extends ConsumerState<TransitsTab> {
   Widget build(BuildContext context) {
     final l = AppLocalizations.of(context);
     final content = ref.watch(contentProvider).value ?? const ContentRepository({}, []);
+    final settings = ref.watch(settingsProvider).value ?? const AppSettings();
     return Column(children: [
       Padding(
         padding: const EdgeInsets.fromLTRB(12, 8, 12, 0),
@@ -80,7 +103,7 @@ class _TransitsTabState extends ConsumerState<TransitsTab> {
       ),
       Expanded(
         child: FutureBuilder<_MonthData>(
-          future: _load(),
+          future: _load(settings.vocTraditional),
           builder: (context, snap) {
             if (!snap.hasData) {
               return Center(child: snap.hasError ? Text('${snap.error}') : Text(l.computing));
@@ -169,12 +192,113 @@ class _Views {
     );
   }
 
+  // --- R2: Moon and planetary hours (plan 10.2) ---
+
+  PlanetaryDay? _planetaryDay(double jd) => data.days.whereType<PlanetaryDay>().where((d) => d.covers(jd)).firstOrNull;
+
+  String _hourTitle(AppLocalizations l, PlanetaryHour h) => l.planetaryHour(l.planetGenitive(h.ruler.name));
+
+  String _lunationTitle(AppLocalizations l, Lunation x) {
+    final name = l.lunationName(x.kind.name);
+    final h = lunationHouse(chart, x);
+    final base = h != null && x.isNewOrFull ? l.lunationInHouse(h, name) : name;
+    final e = x.eclipse;
+    return e == null ? base : '$base · ${l.eclipseName(e.kind.name)} (${l.eclipseDegree(e.degree.name)})';
+  }
+
+  void _openLunation(BuildContext context, Lunation x) {
+    final l = AppLocalizations.of(context);
+    final h = lunationHouse(chart, x);
+    final key = h == null ? null : lunationInHouseKey(x.kind, h);
+    final e = x.eclipse;
+    showEntry(context, key == null ? null : content[key], title: _lunationTitle(l, x), extra: [
+      const Divider(),
+      Text('${fmtDateTime(localOfJd(x.jd))} · ${lonLabel(l, x.lon)}'),
+      if (e != null) EntryView(content[eclipseKey(e.kind)], fallbackTitle: l.eclipseName(e.kind.name)),
+    ]);
+  }
+
+  String _voidTitle(AppLocalizations l, VoidOfCourse v) => l.voidRange(fmtTime(localOfJd(v.start)), fmtTime(localOfJd(v.end)));
+
+  void _openVoid(BuildContext context, VoidOfCourse v) {
+    final l = AppLocalizations.of(context);
+    final a = v.lastAspect;
+    showEntry(context, content[voidOfCourseKey], title: l.voidOfCourse, extra: [
+      const Divider(),
+      Text('${fmtDateTime(localOfJd(v.start))} – ${fmtDateTime(localOfJd(v.end))}'
+          '${a != null ? '\n${l.voidAfter('${l.body(Body.moon)} ${l.aspect(a.type)} ${l.body(a.body)}')}' : ''}'
+          '\n${l.moonIngressSign(l.sign(v.nextSign))}'),
+    ]);
+  }
+
+  void _openHour(BuildContext context, PlanetaryHour h) {
+    final l = AppLocalizations.of(context);
+    showEntry(context, content[planetaryHourKey(h.ruler)], title: _hourTitle(l, h), extra: [
+      const Divider(),
+      Text('${fmtTime(localOfJd(h.start))} – ${fmtTime(localOfJd(h.end))} · '
+          '${l.planetaryHourNumber(h.isDay ? h.number : h.number - 12, h.isDay ? l.partDay : l.partNight)}'),
+      Text(l.residenceLabel(_placeName)),
+    ]);
+  }
+
+  String get _placeName => data.place.name ?? '${data.place.lat.toStringAsFixed(2)}, ${data.place.lon.toStringAsFixed(2)}';
+
+  /// Moon sign and phase, void of course, planetary day and hour at [jd].
+  List<Widget> _moonCard(BuildContext context, double jd) {
+    final l = AppLocalizations.of(context);
+    final t = Theme.of(context).textTheme;
+    final sign = Sign.ofLongitude(Ephemeris.longitude(Body.moon, jd));
+    final phase = Lunar.phaseAt(jd);
+    final voc = data.moon.voids.where((v) => v.covers(jd)).firstOrNull;
+    final pd = _planetaryDay(jd);
+    final hour = pd?.hourAt(jd);
+    final lunations = data.moon.lunations.where((x) => x.jd >= _dayStart && x.jd < _dayEnd);
+    Widget tile(String title, String? key, {String? subtitle, VoidCallback? onTap}) => ListTile(
+          dense: true,
+          leading: SizedBox(width: 56, child: glyphText(bodyGlyph[Body.moon]!)),
+          title: Text(title),
+          subtitle: subtitle == null ? null : Text(subtitle),
+          onTap: onTap ?? () => showEntry(context, key == null ? null : content[key], title: title),
+        );
+    return [
+      Padding(padding: const EdgeInsets.fromLTRB(16, 16, 16, 0), child: Text(l.moonAndHours, style: t.titleSmall)),
+      tile(l.moonInSign(sign.name), moonTodayKey(sign)),
+      tile(l.moonPhaseName(phase.id), moonPhaseKey(phase)),
+      for (final x in lunations) tile(_lunationTitle(l, x), null, subtitle: fmtTime(localOfJd(x.jd)), onTap: () => _openLunation(context, x)),
+      if (voc != null) tile(_voidTitle(l, voc), voidOfCourseKey, onTap: () => _openVoid(context, voc)),
+      if (pd == null)
+        ListTile(dense: true, title: Text(l.noPlanetaryHours), subtitle: Text(l.residenceLabel(_placeName)))
+      else ...[
+        ListTile(
+          dense: true,
+          leading: SizedBox(width: 56, child: glyphText(bodyGlyph[pd.ruler]!)),
+          title: Text(l.planetaryDay(l.planetGenitive(pd.ruler.name))),
+          subtitle: Text('${l.sunrise} ${fmtTime(localOfJd(pd.sunrise))} · ${l.sunset} ${fmtTime(localOfJd(pd.sunset))}'),
+          onTap: () => showEntry(context, content[planetaryDayKey(pd.ruler)], title: l.planetaryDay(l.planetGenitive(pd.ruler.name))),
+        ),
+        if (hour != null)
+          ListTile(
+            dense: true,
+            leading: SizedBox(width: 56, child: glyphText(bodyGlyph[hour.ruler]!)),
+            title: Text(_hourTitle(l, hour)),
+            subtitle: Text('${fmtTime(localOfJd(hour.start))} – ${fmtTime(localOfJd(hour.end))}'),
+            onTap: () => _openHour(context, hour),
+          ),
+      ],
+    ];
+  }
+
   Widget today(BuildContext context) {
     final l = AppLocalizations.of(context);
     final jd = _moment;
     final active = data.events.where((e) => e.covers(jd)).toList()
       ..sort((a, b) => engine.strengthAt(b, jd, concurrent: data.events).compareTo(engine.strengthAt(a, jd, concurrent: data.events)));
-    if (active.isEmpty) return Center(child: Text(l.noTransits));
+    if (active.isEmpty) {
+      return ListView(padding: const EdgeInsets.only(bottom: 32), children: [
+        Padding(padding: const EdgeInsets.all(16), child: Text(l.noTransits)),
+        ..._moonCard(context, jd),
+      ]);
+    }
     final acute = active.where((e) => TransitEngine.isAcute(engine.strengthAt(e, jd, concurrent: data.events))).toList();
     final top = active.first;
     final layers = {
@@ -194,6 +318,7 @@ class _Views {
           Padding(padding: const EdgeInsets.fromLTRB(16, 16, 16, 0), child: Text(layer.value, style: Theme.of(context).textTheme.titleSmall)),
         for (final e in active.where((e) => e.layer == layer.key && !acute.contains(e))) _eventTile(context, e, jd),
       ],
+      ..._moonCard(context, jd),
     ]);
   }
 
@@ -227,6 +352,34 @@ class _Views {
         i.jd,
         ListTile(dense: true, leading: Text(fmtTime(localOfJd(i.jd)), style: t.labelLarge), title: Text(l.ingress(l.body(i.body), i.house)))
       ));
+    }
+    bool inDay(double x) => x >= s0 && x < s1;
+    Widget small(double jd, String title, {Widget? trailing, VoidCallback? onTap}) => ListTile(
+          dense: true,
+          visualDensity: VisualDensity.compact,
+          leading: Text(fmtTime(localOfJd(jd)), style: t.labelMedium),
+          title: Text(title, style: t.bodySmall),
+          trailing: trailing,
+          onTap: onTap,
+        );
+    for (final pd in data.days.whereType<PlanetaryDay>()) {
+      if (inDay(pd.sunrise)) rows.add((pd.sunrise, small(pd.sunrise, l.sunrise)));
+      if (inDay(pd.sunset)) rows.add((pd.sunset, small(pd.sunset, l.sunset)));
+      for (final h in pd.hours.where((h) => inDay(h.start))) {
+        rows.add((h.start + 1e-7, small(h.start, _hourTitle(l, h), trailing: glyphText(bodyGlyph[h.ruler]!, size: 14), onTap: () => _openHour(context, h))));
+      }
+    }
+    for (final x in data.moon.lunations.where((x) => inDay(x.jd))) {
+      rows.add((
+        x.jd,
+        ListTile(dense: true, leading: Text(fmtTime(localOfJd(x.jd)), style: t.labelLarge), title: Text(_lunationTitle(l, x)), onTap: () => _openLunation(context, x))
+      ));
+    }
+    for (final v in data.moon.voids.where((v) => inDay(v.start))) {
+      rows.add((v.start, ListTile(dense: true, leading: Text(fmtTime(localOfJd(v.start)), style: t.labelLarge), title: Text(_voidTitle(l, v)), onTap: () => _openVoid(context, v))));
+    }
+    for (final i in data.moon.ingresses.where((i) => inDay(i.jd))) {
+      rows.add((i.jd, small(i.jd, l.moonIngressSign(l.sign(i.sign)))));
     }
     final now = jdFromDateTimeUtc(DateTime.now().toUtc());
     if (now >= s0 && now < s1) {
@@ -281,6 +434,12 @@ class _Views {
           if (inDay(ex)) items.add('● ${_title(l, e)} ${fmtTime(localOfJd(ex))}');
         }
         if (inDay(e.end)) items.add('◂ ${_title(l, e)}');
+      }
+      for (final x in data.moon.lunations.where((x) => inDay(x.jd))) {
+        items.add('${x.eclipse != null ? '◉' : '○'} ${_lunationTitle(l, x)} ${fmtTime(localOfJd(x.jd))}');
+      }
+      for (final v in data.moon.voids.where((v) => inDay(v.start))) {
+        items.add('◌ ${_voidTitle(l, v)}');
       }
       if (items.isEmpty) continue;
       out.add(Padding(

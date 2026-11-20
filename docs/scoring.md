@@ -111,3 +111,12 @@ přes celý život se počítá pro každý den; stopy s hrubším krokem (Slunc
 Merkur 2, Venuše 4, Mars 8, ostatní 8–10 dní) dávají proti přímému výpočtu
 odchylku do 6 bodů. 80 let trvá na Macu asi 7 s, v appce běží v isolate a výsledek
 se ukládá.
+
+## Měsíc a planetární hodiny (R2)
+
+Bez bodů: denní osa jen ukazuje. Pravidla jsou v `docs/ephemeris.md` (oddíl
+Slunce a Měsíc). Texty: `planetary_hour/{planeta}`, `planetary_day/{planeta}`
+(sedm tradičních planet), `moon_phase/{fáze}`, `natal_moon_phase/{fáze}`,
+`moon_today/{znamení}`, `lunation_in_house/{new, full}/{dům}`, `void_of_course`,
+`eclipse/{solar, lunar}`. Fáze při narození je ve výkladu faktor `moonPhase`
+s vahou 0,6 (oddíl „Přemíra a nedostatek“).
