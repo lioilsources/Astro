@@ -148,7 +148,9 @@ class _AskScreenState extends ConsumerState<AskScreen> {
         FilledButton(
           onPressed: () {
             final chart = ref.read(chartProvider(profile));
-            setState(() => _event = _computeEvent(chart, jdFromDateTimeUtc(_date.toUtc())));
+            setState(() {
+              _event = _computeEvent(chart, jdFromDateTimeUtc(_date.toUtc()));
+            });
             if (_label.text.trim().isNotEmpty) {
               final ev = LifeEvent(DateTime.now().microsecondsSinceEpoch.toRadixString(36), jdFromDateTimeUtc(_date.toUtc()), _label.text.trim());
               ref.read(profilesProvider.notifier).upsert(profile.copyWith(events: [...profile.events, ev]));
