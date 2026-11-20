@@ -1,0 +1,281 @@
+[
+ {
+  "key": "transit_modifier/approaching",
+  "title": "Modifikátor tranzitu: approaching",
+  "keywords": [
+   "blížící se vliv",
+   "narůstající napětí",
+   "očekávání",
+   "příprava"
+  ],
+  "themes": [
+   "character",
+   "growth"
+  ],
+  "text": "Tranzit se teprve blíží a jeho téma den ode dne sílí. Zachytíš první náznaky, cítíš rostoucí napětí a máš ještě čas na přípravu, než vliv vyvrcholí.",
+  "traits": {
+   "text": [
+    "intuition",
+    "caution",
+    "restlessness",
+    "curiosity"
+   ],
+   "shadow": []
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "transit_modifier/exact",
+  "title": "Modifikátor tranzitu: exact",
+  "keywords": [
+   "vrchol",
+   "přesnost",
+   "rozhodnutí",
+   "zlom"
+  ],
+  "themes": [
+   "growth",
+   "character"
+  ],
+  "text": "Přesný tranzit přináší vrchol: to, co se dosud jen ohlašovalo, teď vystupuje naplno. Vnímáš jasněji, rozhoduješ rychleji a události se zhušťují do několika dnů.",
+  "hard": [
+   {
+    "topics": [
+     "loss",
+     "illness",
+     "death"
+    ],
+    "text": "Tradice tu mluví o tom, že přesný úhel těžkého tranzitu bývá okamžikem, kdy se dlouho zrající potíže projeví. Patří k nim ztráta, rozchod nebo zhoršení nemoci a v krajních výkladech i úmrtí v blízkém okolí. Starší autoři v tom viděli bod, kdy se skrytý proces stává viditelným, ne jeho příčinu."
+   }
+  ],
+  "traits": {
+   "text": [
+    "focus",
+    "decisiveness",
+    "intuition",
+    "transformation"
+   ],
+   "shadow": []
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "transit_modifier/separating",
+  "title": "Modifikátor tranzitu: separating",
+  "keywords": [
+   "odeznívání",
+   "uzavírání",
+   "vstřebání",
+   "ohlédnutí"
+  ],
+  "themes": [
+   "growth",
+   "character"
+  ],
+  "text": "Tranzit už slábne a jeho tlak odeznívá. Teď vidíš, co se událo, a máš prostor zkušenost vstřebat, uzavřít ji a vzít si z ní poučení.",
+  "hard": [
+   {
+    "topics": [
+     "loss"
+    ],
+    "text": "Tradice tu mluví o ztrátě. Rozcházející se aspekt podle ní ukazuje věc, která už odchází nebo se rozpadla, a příležitost, která minula. Co se během tranzitu uvolnilo, se podle starých výkladů obvykle nevrací v původní podobě. Výklad to podává jako možnost, ne jako jistotu."
+   }
+  ],
+  "traits": {
+   "text": [
+    "calm",
+    "transformation",
+    "realism",
+    "self_acceptance"
+   ],
+   "shadow": []
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "transit_modifier/pass_1",
+  "title": "Modifikátor tranzitu: pass_1",
+  "keywords": [
+   "první dotek",
+   "začátek",
+   "náznak",
+   "otevření tématu",
+   "první náraz"
+  ],
+  "themes": [
+   "growth",
+   "character"
+  ],
+  "text": "První průchod tranzitu téma teprve otevírá. Přichází první podnět, zpráva nebo střet. Vidíš obrysy změny a reaguješ spíš instinktivně. Plný smysl ukáže až další průchod.",
+  "traits": {
+   "text": [
+    "curiosity",
+    "restlessness",
+    "transformation",
+    "intuition"
+   ],
+   "shadow": []
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "transit_modifier/pass_2",
+  "title": "Modifikátor tranzitu: pass_2",
+  "keywords": [
+   "návrat tématu",
+   "přezkoumání",
+   "zpětný pohyb",
+   "vnitřní zpracování",
+   "oprava"
+  ],
+  "themes": [
+   "growth",
+   "character"
+  ],
+  "text": "Druhý průchod tranzitu tě vrací k tématu, které se už jednou otevřelo. Probíhá obvykle při zpětném pohybu planety a přináší přezkoumání, opravy a vnitřní zpracování místo nových kroků. Máš prostor dořešit nedokončené.",
+  "traits": {
+   "text": [
+    "depth",
+    "focus",
+    "realism",
+    "patience"
+   ],
+   "shadow": [
+    "indecision",
+    "procrastination"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "transit_modifier/pass_3",
+  "title": "Modifikátor tranzitu: pass_3",
+  "keywords": [
+   "uzavření",
+   "dovršení",
+   "integrace",
+   "konečné rozhodnutí"
+  ],
+  "themes": [
+   "growth",
+   "character"
+  ],
+  "text": "Třetí průchod uzavírá to, co první dva otevřely. Téma, které se vracelo, teď dostává konečnou podobu. Víš už, co platí, a jednáš klidněji, s jasným rozhodnutím a bez dalšího váhání.",
+  "hard": [
+   {
+    "topics": [
+     "loss"
+    ],
+    "text": "Tradice tu mluví o třetím průchodu jako o chvíli, kdy se výsledek celého tranzitu projeví naplno. U těžkých tranzitů to podle starých výkladů může znamenat definitivní ztrátu, konec vztahu nebo uzavření životní etapy, které už nejde vrátit. Nejde o jistotu. Spíš jde o dovršení procesu, který probíhal celé měsíce."
+   }
+  ],
+  "traits": {
+   "text": [
+    "decisiveness",
+    "calm",
+    "transformation",
+    "realism"
+   ],
+   "shadow": []
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "transit_modifier/station",
+  "title": "Modifikátor tranzitu: station",
+  "keywords": [
+   "zastavení",
+   "zlom",
+   "zesílení",
+   "obrat směru",
+   "zdržení"
+  ],
+  "themes": [
+   "growth",
+   "character"
+  ],
+  "text": "Planeta stojí na místě a její téma u tebe houstne. Působí pomaleji, ale hlouběji a déle. Co se teď otevře, nejde přeskočit. Vyžaduje to trpělivost, soustředění a ochotu změnit směr.",
+  "hard": [
+   {
+    "topics": [
+     "illness",
+     "death",
+     "loss"
+    ],
+    "text": "Tradice tu mluví o tom, že stanice těžké planety na citlivém bodu horoskopu označuje kritický zlom. Starší autoři s ní spojovali vleklé nemoci, ztráty a v krajních případech i úmrtí v okolí, zvlášť u Saturnu a Marsu. Nejde o jistotu. Spíš jde o čas, kdy se dlouho zadržované napětí projeví naplno a věci se nedají dál odkládat."
+   }
+  ],
+  "traits": {
+   "text": [
+    "patience",
+    "focus",
+    "perseverance",
+    "transformation"
+   ],
+   "shadow": []
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "transit_modifier/concurrence",
+  "title": "Modifikátor tranzitu: concurrence",
+  "keywords": [
+   "souběh",
+   "zesílení",
+   "souvislosti",
+   "intenzita"
+  ],
+  "themes": [
+   "growth",
+   "character"
+  ],
+  "text": "Tahle fáze tranzitu přichází souběžně s dalšími tranzity, takže se jejich témata sčítají. Události mají větší váhu, rychlejší spád a hůř se odkládají. Vnímáš jasnější souvislosti mezi tím, co se děje.",
+  "hard": [
+   {
+    "topics": [
+     "death",
+     "illness"
+    ],
+    "text": "Tradice tu mluví o tom, že vážné události, včetně nemoci nebo smrti v okolí, se posuzují až tehdy, když se sejde více současných ukazatelů. Souběh tranzitů je podle ní právě takovým zesílením svědectví. Nejde o jistotu, jen o znamení, že období nese větší váhu a vyšší nároky na tělo i síly."
+   }
+  ],
+  "traits": {
+   "text": [
+    "focus",
+    "decisiveness",
+    "intuition",
+    "transformation"
+   ],
+   "shadow": [
+    "exhaustion",
+    "restlessness",
+    "anxiety"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ }
+]

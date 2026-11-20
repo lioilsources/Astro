@@ -1,0 +1,3273 @@
+[
+ {
+  "key": "transit_point/sun/asc/conjunction",
+  "title": "Tranzitující Slunce – ascendent: konjunkce",
+  "keywords": [
+   "viditelnost",
+   "vitalita",
+   "nový začátek",
+   "první dojem",
+   "sebevyjádření"
+  ],
+  "themes": [
+   "character",
+   "growth",
+   "health"
+  ],
+  "text": "Slunce přechází přes tvůj ascendent a na pár dní ti přidává světla do tváře i do kroku. Lidé si tě víc všímají a tvůj první dojem má sílu. Tělo má víc energie a roste chuť se ukázat. Je to dobrá chvíle začít něco, co nese tvoje jméno: nový projekt, změnu vzhledu, otevřené slovo. Jednáš přímočařeji a s větší jistotou. Tvořivost hledá cestu ven a druzí ji snadno zachytí.",
+  "shadow": "Když tě Slunce takhle zvýrazní, snadno přestaneš vnímat, kolik místa zabíráš. Potřeba pozornosti roste a každé přehlédnutí bolí víc, než by mělo. Mluvíš hlasitěji, rozhoduješ za ostatní a jejich názor bereš jako překážku. Tělo jede na plný výkon a únavu přehlížíš, dokud se neozve. Okolí může tvoji jistotu číst jako pýchu nebo panovačnost. Vzhled a první dojem pak začnou vážit víc než to, co opravdu děláš.",
+  "hard": [
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o přehřátí těla, horečnatých stavech a zátěži srdce a očí, zvlášť když je Slunce v radixu oslabené nebo v pádu. Přetahování sil v těchto dnech podle ní vyčerpává vitalitu a tělo pak reaguje prudčeji než jindy."
+   },
+   {
+    "topics": [
+     "illness",
+     "loss"
+    ],
+    "text": "Tradice tu mluví také o otci. Při poškozeném Slunci spojuje tento přechod s obdobím, kdy se otcovo zdraví nebo jeho role v tvém životě dostává do popředí, někdy s nemocí nebo vzdálením."
+   }
+  ],
+  "traits": {
+   "text": [
+    "vitality",
+    "self_confidence",
+    "creativity",
+    "decisiveness",
+    "openness"
+   ],
+   "shadow": [
+    "vanity",
+    "dominance",
+    "pride",
+    "exhaustion",
+    "drama"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "transit_point/sun/asc/harmonious",
+  "title": "Tranzitující Slunce – ascendent: harmonický aspekt (sextil, trigon)",
+  "keywords": [
+   "první dojem",
+   "vitalita",
+   "sebevyjádření",
+   "přirozená autorita",
+   "chuť jednat"
+  ],
+  "themes": [
+   "character",
+   "health",
+   "work",
+   "growth"
+  ],
+  "text": "Tranzitující Slunce v sextilu nebo trigonu k ascendentu ti na pár dní přidává jas v tváři i v držení těla. Lidé si tě všimnou dřív, než promluvíš, a první dojem vychází v tvůj prospěch. Máš víc energie, chuť se ukázat a jednat bez zbytečného váhání. Hodí se to na pohovor, prezentaci, nový začátek nebo důležité setkání. Tělo spolupracuje, pohyb tě baví a vlastní styl působí přirozeně. Vedeš druhé snadno a bez tlaku.",
+  "shadow": "Snadný lesk, který ti tranzitující Slunce v souladu s ascendentem dodává, svádí ke spoléhání jen na první dojem. Pozornost okolí chutná dobře a potřeba obdivu může nenápadně růst. Hrozí, že víc předvádíš, než děláš, a že vzhled nebo póza dostane přednost před obsahem. Sebejistota se může přehoupnout v panovačnost, když ostatním určuješ tempo bez ptaní. Protože všechno jde hladce, snadno promarníš chvíli, kterou šlo využít k něčemu trvalejšímu.",
+  "hard": [
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o posílení životní síly, srdce a zraku. Harmonický tranzit Slunce k ascendentu se v ní spojuje spíš s návratem sil po nemoci než s jejím začátkem. Starší autoři zároveň připomínají, že nadbytek sil svádí k přetěžování těla, zvlášť horkem a prudkým sluncem."
+   }
+  ],
+  "traits": {
+   "text": [
+    "self_confidence",
+    "vitality",
+    "charm",
+    "leadership",
+    "openness"
+   ],
+   "shadow": [
+    "vanity",
+    "pride",
+    "dominance",
+    "superficiality"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "transit_point/sun/asc/tense",
+  "title": "Tranzitující Slunce – ascendent: napěťový aspekt (kvadrát, opozice)",
+  "keywords": [
+   "ostré světlo",
+   "střet vůle",
+   "první dojem",
+   "vitalita",
+   "odpor druhých"
+  ],
+  "themes": [
+   "character",
+   "relationships",
+   "health"
+  ],
+  "text": "Když tranzitující Slunce napíná tvůj ascendent, dopadá na tvoje vystupování ostré světlo zvenčí. Pár dní je víc vidět, jak působíš na druhé a kde první dojem neladí s tím, co chceš sdělit. Při opozici vystupují do popředí partneři a protějšky, při kvadrátu nároky práce nebo domova. Máš víc energie k jednání, ale narážíš na odpor. Tohle tření přináší jasnost: vidíš, kde potřebuješ víc odvahy a kde méně tlaku.",
+  "shadow": "Napětí mezi tranzitujícím Sluncem a ascendentem snadno zvedá potřebu prosadit se tělem, hlasem i gestem. Kritiku bereš osobně a odpor druhých čteš jako útok na sebe. Hrozí přehnané vystupování, panovačný tón nebo snaha strhnout pozornost za každou cenu. Jindy tě naopak ostré světlo vyčerpá a máš chuť se schovat. Tělo reaguje únavou, podrážděním a horkem v hlavě. Spory s autoritou, otcem nebo partnerem se v těchto dnech vyostřují rychleji než jindy.",
+  "hard": [
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o krátkém oslabení vitality, když Slunce tranzitem napíná ascendent jako bod těla. Starší výklady zmiňují horečky, přehřátí, bolesti hlavy, únavu očí a zatížení srdce, zvlášť při celkovém vyčerpání. Jde o přechodné období několika dní, ne o jistotu nemoci."
+   },
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví také o starostech kolem otce nebo starších mužů v rodině. Při silném napětí starší autoři čtou toto postavení i jako dobu zpráv o jejich oslabeném zdraví nebo o sporech, které je zatěžují."
+   }
+  ],
+  "traits": {
+   "text": [
+    "self_confidence",
+    "courage",
+    "vitality",
+    "decisiveness"
+   ],
+   "shadow": [
+    "pride",
+    "dominance",
+    "drama",
+    "anger",
+    "exhaustion"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "transit_point/sun/mc/conjunction",
+  "title": "Tranzitující Slunce – Medium coeli (MC): konjunkce",
+  "keywords": [
+   "kariéra",
+   "uznání",
+   "veřejný obraz",
+   "autorita",
+   "poslání"
+  ],
+  "themes": [
+   "work",
+   "character",
+   "family",
+   "health"
+  ],
+  "text": "Tranzitující Slunce v konjunkci s MC tě na několik dní staví na nejvyšší bod tvé životní dráhy. Tvoje práce i jméno jsou teď vidět víc než jindy. Nadřízení a lidé s vlivem si všímají, co děláš a jak to děláš. Máš jasnou vůli a chuť převzít odpovědnost. Daří se ukázat výsledky, představit projekt nebo nahlas říct, kam směřuješ. Tvořivost se propojuje s posláním. Do popředí se často dostává i otec nebo jiná autorita v tvém životě.",
+  "shadow": "Konjunkce Slunce s MC nafukuje touhu po uznání do rozměrů, které práci spíš škodí. Veřejný úspěch se snadno plete s vlastní hodnotou. Chválu bereš jako palivo a její nedostatek jako urážku. Vůči kolegům se objevuje panovačný tón a potřeba mít poslední slovo. Kvůli obrazu navenek snadno přehlížíš lidi, kteří na výsledku pracují s tebou. Každá chyba je teď vidět stejně ostře jako úspěch. Spory s nadřízenými nebo s otcem se rychle vyostří v souboj o prestiž.",
+  "hard": [
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o zátěži srdce a zraku v době, kdy Slunce stoupá na vrchol horoskopu a životní síla se vydává hlavně navenek. Při přepínání v práci zmiňuje vyčerpání a pokles vitality. Pokud je Slunce v radixu v pádu nebo poškozené, staré texty vztahují tento přechod i ke zdraví otce."
+   },
+   {
+    "topics": [
+     "loss"
+    ],
+    "text": "Tradice tu mluví o pádu z výšky. Kdo se v okamžiku největší viditelnosti vyvyšuje, může přijít o pověst, postavení nebo přízeň mocných. Staré výklady to spojují s pýchou, kterou si okolí pamatuje déle než samotný úspěch."
+   }
+  ],
+  "traits": {
+   "text": [
+    "ambition",
+    "leadership",
+    "self_confidence",
+    "responsibility",
+    "creativity"
+   ],
+   "shadow": [
+    "pride",
+    "dominance",
+    "vanity",
+    "competitiveness"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "transit_point/sun/mc/harmonious",
+  "title": "Tranzitující Slunce – Medium coeli (MC): harmonický aspekt (sextil, trigon)",
+  "keywords": [
+   "uznání",
+   "kariéra",
+   "viditelnost",
+   "autorita",
+   "sebevyjádření"
+  ],
+  "themes": [
+   "work",
+   "growth",
+   "character"
+  ],
+  "text": "Slunce v harmonickém aspektu k tvému MC na pár dní osvětluje tvou práci a veřejné jméno. Tvoje úsilí je teď vidět a okolí ho snáz oceňuje. Máš jasnou představu, kam profesně směřuješ, a dost síly jít za ní. Hodí se to k prezentaci, žádosti o novou roli nebo k dokončení projektu, který ukazuje tvé schopnosti. Autority, včetně otce nebo mentora, ti spíš fandí. Tvořivé nápady snadno propojíš s tím, co děláš navenek.",
+  "shadow": "Příznivé světlo na kariéru svádí k tomu, že si ho přivlastníš celé. Snadný úspěch živí pýchu a potřebu obdivu. Zásluhy týmu se pak nenápadně mění v tvoje vlastní. Hrozí i pohodlnost: věci jdou hladce, a tak tlačíš méně, než by šlo. Uznání od autorit může přerůst v závislost na jejich pochvale. Když se cítíš v kurzu, mluvíš panovačněji a ostatní to poznají dřív než ty. Tranzit je krátký. Když chvíli nevyužiješ, projde bez stopy.",
+  "traits": {
+   "text": [
+    "ambition",
+    "self_confidence",
+    "leadership",
+    "creativity",
+    "vitality"
+   ],
+   "shadow": [
+    "pride",
+    "vanity",
+    "dominance",
+    "dependence",
+    "stagnation"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "transit_point/sun/mc/tense",
+  "title": "Tranzitující Slunce – Medium coeli (MC): napěťový aspekt (kvadrát, opozice)",
+  "keywords": [
+   "kariéra",
+   "uznání",
+   "autorita",
+   "veřejný obraz",
+   "domov a práce"
+  ],
+  "themes": [
+   "work",
+   "character",
+   "family"
+  ],
+  "text": "Tranzitující Slunce v napětí k MC staví na několik dní tvou vůli proti nárokům práce a veřejné role. Při kvadrátu narážíš na nadřízené, pravidla nebo očekávání okolí. Při opozici tě to táhne domů a do soukromí, zatímco kariéra žádá pozornost. Máš teď příležitost ukázat, co skutečně umíš. Zároveň si ověřuješ, jestli tvoje cíle odpovídají tomu, kým jsi. Tlak ti vrací jasnost: vidíš, co v práci chceš a co už ne.",
+  "shadow": "Napětí Slunce a MC v tobě probouzí potřebu prosadit se za každou cenu. Kritiku od vedení bereš jako útok na svou osobu a odpovídáš pýchou nebo vzdorem. Toužíš po uznání a vadí ti, když tvé zásluhy nikdo nevidí. Snadno se přeceňuješ, slibuješ víc, než zvládneš, nebo se střetáváš s autoritou, kterou by stačilo vyslechnout. Při opozici spolu soupeří domov a práce. Nevíš, komu dát přednost, a obě strany pak mají pocit odstrčení.",
+  "hard": [
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o krátkém období, kdy se životní síla napíná mezi povinnostmi a vlastním tělem. Spojuje ho s přepracováním, vyčerpáním, bolestmi hlavy nebo očí a se zátěží srdce. Zmiňuje také starosti o zdraví otce nebo napětí ve vztahu k němu. Jde o tradiční obraz, ne o jistou předpověď."
+   },
+   {
+    "topics": [
+     "ruin",
+     "loss"
+    ],
+    "text": "Tradice tu mluví také o ohrožení pověsti. Uvádí veřejný střet s mocnějšími, ztrátu přízně nadřízených nebo zahanbení po unáhleném kroku. U tranzitu Slunce jde podle ní spíš o krátký výkyv než o trvalý pád postavení."
+   }
+  ],
+  "traits": {
+   "text": [
+    "ambition",
+    "self_confidence",
+    "leadership",
+    "decisiveness"
+   ],
+   "shadow": [
+    "pride",
+    "rebellion",
+    "dominance",
+    "vanity"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "transit_point/moon/asc/conjunction",
+  "title": "Tranzitující Měsíc – ascendent: konjunkce",
+  "keywords": [
+   "nálada ve tváři",
+   "citlivé tělo",
+   "potřeba bezpečí",
+   "instinkt",
+   "blízkost"
+  ],
+  "themes": [
+   "character",
+   "relationships",
+   "family",
+   "health"
+  ],
+  "text": "Když Měsíc prochází přes tvůj ascendent, tvoje nálada se na pár hodin propisuje přímo do tváře, hlasu a gest. Lidé z tebe hned vyčtou, jak ti je. Tělo citlivěji reaguje na hlad, únavu i chlad. Roste potřeba blízkosti, pohodlí a známého prostředí. Působíš vlídně a přístupně, takže snáz navazuješ kontakt. Je to dobrá chvíle na rozhovor od srdce a na péči o druhé i o vlastní tělo. Tvoje jednání teď vede víc instinkt než rozvaha.",
+  "shadow": "Měsíc na ascendentu dostává navenek i to, co by bylo lepší chvíli podržet uvnitř. Drobná výtka tě zasáhne víc, než odpovídá situaci, a podrážděnost je hned vidět. Snadno přebíráš nálady lidí kolem a pak se v nich ztrácíš. Objevuje se chuť stáhnout se, utěšit se jídlem nebo hledat oporu u kohokoli po ruce. Staré křivdy a vzpomínky vyplouvají na povrch a barví první dojem. Reakce přichází dřív než úvaha.",
+  "hard": [
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o chvíli, kdy je tělo zranitelnější. Spojuje ji s potížemi žaludku a trávení, se zadržováním tekutin a s kolísáním sil. U žen zmiňuje také výkyvy cyklu a plodnosti. Krátkodobá nevolnost či únava se podle ní v tento den projeví snáz než jindy."
+   },
+   {
+    "topics": [
+     "mental_crisis"
+    ],
+    "text": "Tradice tu mluví také o otřesu duševní rovnováhy. Pokud tento průchod doprovázejí těžší postavení, staré texty uvádějí sklon k přecitlivělosti, nočním obavám a stavům, kdy city přerostou přes hlavu. Popisují to jako přechodný stav, ne jako trvalou předpověď."
+   },
+   {
+    "topics": [
+     "loss",
+     "death"
+    ],
+    "text": "Tradice tu mluví o zprávách týkajících se matky nebo jiné ženy z rodiny. Při poškozeném Měsíci starší výklady zmiňují její nemoc, odloučení nebo ztrátu, v krajním případě i smrt. Samotný průchod Měsíce to podle nich nenese, jen ve spojení se závažnějšími tranzity."
+   }
+  ],
+  "traits": {
+   "text": [
+    "sensitivity",
+    "empathy",
+    "intuition",
+    "openness",
+    "security_need"
+   ],
+   "shadow": [
+    "moodiness",
+    "sulking",
+    "dependence",
+    "indulgence",
+    "melancholy"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "transit_point/moon/asc/harmonious",
+  "title": "Tranzitující Měsíc – ascendent: harmonický aspekt (sextil, trigon)",
+  "keywords": [
+   "pohoda v těle",
+   "vlídný dojem",
+   "citová otevřenost",
+   "domov",
+   "důvěra"
+  ],
+  "themes": [
+   "character",
+   "relationships",
+   "family",
+   "health"
+  ],
+  "text": "Tranzitující Měsíc v souladu s ascendentem na pár hodin propojuje tvou vnitřní náladu s tím, jak působíš navenek. Co cítíš, ukazuješ přirozeně a bez rozpaků. Lidé na tebe reagují vlídně, rozhovor se snadno rozběhne a tvůj první dojem má teplo. Tělo ti dává jasné signály hladu, únavy i chuti do pohybu. Tahle chvíle se hodí na rodinná setkání, péči o domov, vaření nebo situace, kde potřebuješ získat něčí důvěru.",
+  "shadow": "Snadné propojení nálady a vystupování má i odvrácenou stranu: řídíš se hlavně tím, co je zrovna příjemné. Pohodlí tě láká víc než úkoly, které chtějí úsilí. Snáz podléháš chuti na jídlo a pití a tělo ti to později připomene. Vlídnost druhých bereš jako samozřejmost a spoléháš na kouzlo dojmu místo na skutky. Pod povrchem se ozývají staré zvyky a sklon vracet se k tomu, co znáš z domova. Když dobrá nálada opadne, sváděníš ji na okolí.",
+  "hard": [
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o Měsíci jako vládci žaludku a tělesných šťáv. Harmonický aspekt k ascendentu považuje za čas úlevy, kdy se tělo snáz vrací do rovnováhy. Zároveň upozorňuje, že v takové pohodě snadno přehlédneš přejídání a nepravidelné jídlo a žaludek se pak ozve."
+   }
+  ],
+  "traits": {
+   "text": [
+    "calm",
+    "charm",
+    "sensitivity",
+    "sociability",
+    "empathy"
+   ],
+   "shadow": [
+    "indulgence",
+    "moodiness",
+    "family_attachment",
+    "procrastination"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "transit_point/moon/asc/tense",
+  "title": "Tranzitující Měsíc – ascendent: napěťový aspekt (kvadrát, opozice)",
+  "keywords": [
+   "nálada ve tváři",
+   "první dojem",
+   "tělo",
+   "citlivost",
+   "reakce okolí"
+  ],
+  "themes": [
+   "character",
+   "relationships",
+   "health",
+   "family"
+  ],
+  "text": "Měsíc v napětí k tvému ascendentu na pár hodin vytahuje city přímo na povrch. Nálada se ti zrcadlí v hlase, v držení těla i v prvním dojmu, který děláš. Druzí na tebe reagují citlivěji a ty vnímáš jejich potřeby dřív, než je vysloví. Tělo se hlásí o slovo hladem, únavou nebo touhou po teple. Rychle vycítíš atmosféru místnosti a přizpůsobíš jí své jednání. Při opozici se tvé emoce odrážejí v blízkých lidech, při kvadrátu v okamžitých rozhodnutích.",
+  "shadow": "Napětí mezi tranzitujícím Měsícem a ascendentem ukazuje náladu dřív, než ji stihneš uchopit. Podrážděnost se propisuje do gest a tónu a okolí ji čte jako útok. Drobná poznámka snadno zraní a vede k uraženosti nebo stažení. Místo podle situace jednáš podle staré citové šablony. Při opozici svaluješ vlastní neklid na druhé nebo od nich čekáš péči, kterou zrovna nedokážou dát. Tělo reaguje staženým žaludkem, chutí na jídlo pro útěchu nebo nečekanou ospalostí.",
+  "hard": [
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o citlivém žaludku a trávení. Podle starých výkladů se v době tohoto tranzitu snáz ozve podrážděné břicho, nevolnost nebo kolísání chuti k jídlu. Měsíc v napětí k ascendentu se tradičně spojuje i s výkyvy tělesných tekutin a s obdobími, kdy cyklus a plodnost reagují citlivěji než obvykle."
+   },
+   {
+    "topics": [
+     "mental_crisis"
+    ],
+    "text": "Tradice tu mluví o narušené duševní rovnováze. Krátké období tohoto tranzitu prý u lidí s křehčí psychikou zesiluje úzkost, plačtivost nebo pocit, že nálada přebírá vládu nad jednáním. Staré texty to popisují jako přechodné rozkolísání, které odezní spolu s pohybem Měsíce."
+   },
+   {
+    "topics": [
+     "loss",
+     "death"
+    ],
+    "text": "Tradice tu mluví o matce a mateřských postavách. V klasických výkladech patří tento aspekt mezi spouštěče zpráv o jejím zdraví, o odloučení od ní a ve výjimečných případech o její ztrátě či smrti. Častěji jde o vynořené vzpomínky a o citlivé místo ve vztahu k ní."
+   }
+  ],
+  "traits": {
+   "text": [
+    "sensitivity",
+    "empathy",
+    "intuition",
+    "flexibility"
+   ],
+   "shadow": [
+    "moodiness",
+    "sulking",
+    "dependence",
+    "anxiety",
+    "drama"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "transit_point/moon/mc/conjunction",
+  "title": "Tranzitující Měsíc – Medium coeli (MC): konjunkce",
+  "keywords": [
+   "city na veřejnosti",
+   "nálada v práci",
+   "matka",
+   "potřeba uznání",
+   "péče o tým"
+  ],
+  "themes": [
+   "work",
+   "family",
+   "character"
+  ],
+  "text": "Když tranzitující Měsíc přechází přes tvé MC, tvoje city vystupují tam, kde je ostatní vidí. Na několik hodin se pracovní a veřejný život prolíná s tím, co prožíváš uvnitř. Lidé v práci snadno vycítí tvou náladu a reagují na ni. Máš teď dobrý odhad pro to, co druzí potřebují, a umíš to říct srozumitelně. Hodí se to pro jednání, vystoupení i péči o tým. Často se ozve téma matky, domova nebo rodinného zázemí ve vztahu k práci.",
+  "shadow": "Měsíc na MC vynáší na veřejnost i nálady, které by bylo lepší nechat doma. Drobná výtka od nadřízeného tě může zasáhnout víc, než odpovídá situaci. Rozhodnutí o práci pak dělá spíš uražený pocit než úvaha. Objevuje se touha po uznání, které má nahradit citové bezpečí. Hrozí také, že se necháš vtáhnout do pracovních vztahů jako do rodiny, i s lpěním, žárlivostí a citovým vydíráním. Staré vzorce z domova, třeba potřeba zavděčit se autoritě, se teď ukazují před ostatními.",
+  "hard": [
+   {
+    "topics": [
+     "loss",
+     "illness"
+    ],
+    "text": "Tradice tu mluví o zprávách týkajících se matky nebo ženy v roli autority, které zasáhnou i veřejný život. Starší výklady spojují tento přechod se zhoršeným zdravím matky, nebo dokonce s její ztrátou, pokud to potvrzují pomalejší tranzity. Měsíc je sám o sobě rychlý a takovou událost spíš jen zviditelní, než aby ji způsobil."
+   },
+   {
+    "topics": [
+     "mental_crisis",
+     "illness"
+    ],
+    "text": "Tradice tu mluví o citové rozkolísanosti, která se projeví navenek, například slzami nebo výbuchem na pracovišti. Spojuje ji také s žaludečními potížemi ze stresu a s narušenou duševní rovnováhou ve chvílích, kdy na tobě leží velká odpovědnost a chybí zázemí."
+   }
+  ],
+  "traits": {
+   "text": [
+    "sensitivity",
+    "empathy",
+    "intuition",
+    "protectiveness"
+   ],
+   "shadow": [
+    "moodiness",
+    "sulking",
+    "dependence",
+    "family_attachment",
+    "jealousy"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "transit_point/moon/mc/harmonious",
+  "title": "Tranzitující Měsíc – Medium coeli (MC): harmonický aspekt (sextil, trigon)",
+  "keywords": [
+   "citová opora v práci",
+   "veřejný obraz",
+   "pracovní intuice",
+   "domov a kariéra"
+  ],
+  "themes": [
+   "work",
+   "family",
+   "character"
+  ],
+  "text": "Tranzitující Měsíc v harmonickém aspektu k MC na několik hodin propojuje tvoje city s pracovními cíli. Nálada ladí s tím, co se od tebe čeká. Lidé v práci vnímají tvoji vlídnost a ochotu naslouchat. Snadno vycítíš, co nadřízený nebo tým právě potřebuje. Rozhovor o pracovní změně tě teď stojí méně sil. Domov a kariéra se navzájem nepřetahují. Oporu může nabídnout matka nebo jiná blízká žena. Den se hodí pro jednání, kde rozhoduje důvěra a lidský přístup.",
+  "shadow": "Snadný soulad citů a pracovních cílů pod tímto tranzitem svádí k rozhodnutím postaveným jen na momentální náladě. Pochvala nadřízeného tě potěší víc, než je zdravé, a zítřejší kritika pak zabolí o to víc. Objevuje se potřeba líbit se všem v práci a ustupovat kvůli klidu. Pohodlí zavedených zvyků tě může odradit od kroku, který kariéra potřebuje. Příjemný den láká k odkládání náročných úkolů. Výhoda trvá jen pár hodin, takže velké sliby dané pod jejím vlivem nemusí vydržet.",
+  "traits": {
+   "text": [
+    "empathy",
+    "intuition",
+    "cooperation",
+    "sociability",
+    "calm"
+   ],
+   "shadow": [
+    "moodiness",
+    "dependence",
+    "conformity",
+    "procrastination",
+    "security_need"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "transit_point/moon/mc/tense",
+  "title": "Tranzitující Měsíc – Medium coeli (MC): napěťový aspekt (kvadrát, opozice)",
+  "keywords": [
+   "domov proti kariéře",
+   "nálada na veřejnosti",
+   "rodinné starosti",
+   "citlivost v práci"
+  ],
+  "themes": [
+   "work",
+   "family",
+   "character",
+   "health"
+  ],
+  "text": "Na několik hodin se domov a city dostávají do sporu s prací a veřejnou rolí. Nálada se snadno ukáže navenek, i když ji chceš schovat. Víc vnímáš, co od tebe čekají nadřízení a co zároveň potřebuje rodina. Tahle chvíle ukazuje, kde mezi prací a soukromím chybí rovnováha. Dobře zvládáš drobné úpravy plánů. Citlivě čteš atmosféru kolem sebe a poznáš, kdy je lepší ustoupit.",
+  "shadow": "Napětí mezi domovem a kariérou se v těchto hodinách může projevit podrážděností právě před lidmi, na jejichž mínění ti záleží. Únava nebo hlad snadno přebije soustředění. Kvůli rodinné starosti odkládáš pracovní úkol, nebo naopak přehlížíš blízké kvůli povinnostem. Kritiku z práce bereš osobně a uraženost si neseš domů. Někdo z rodiny může citově tlačit na tvoje rozhodnutí. Stejně tak můžeš tlačit ty, když se necítíš v bezpečí.",
+  "hard": [
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o krátkodobých potížích se žaludkem a trávením. Spojuje je s vnitřním napětím, spěchem a nepravidelným jídlem během náročného dne. Jde o přechodné rozladění těla, které podle tradice odezní spolu s tranzitem."
+   },
+   {
+    "topics": [
+     "mental_crisis"
+    ],
+    "text": "Tradice tu mluví o chvilkovém kolísání duševní rovnováhy. Přecitlivělost, pláč nebo úzkost se mohou dostat na povrch v nevhodnou chvíli, často před kolegy nebo na veřejnosti. Pocit, že tě ostatní vidí v nejslabším okamžiku, zesiluje stud."
+   },
+   {
+    "topics": [
+     "loss",
+     "death",
+     "illness"
+    ],
+    "text": "Tradice tu mluví o zprávách týkajících se matky nebo starší ženy z rodiny. Krajní výklady zmiňují i její nemoc nebo ztrátu. U tak krátkého tranzitu to tradice spojuje spíš se starostí, obavou a citovým otřesem než s jistou událostí."
+   }
+  ],
+  "traits": {
+   "text": [
+    "sensitivity",
+    "empathy",
+    "flexibility",
+    "intuition"
+   ],
+   "shadow": [
+    "moodiness",
+    "sulking",
+    "procrastination",
+    "insecurity",
+    "exhaustion"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "transit_point/mercury/asc/conjunction",
+  "title": "Tranzitující Merkur – ascendent: konjunkce",
+  "keywords": [
+   "řeč",
+   "první dojem",
+   "pohotovost",
+   "krátké cesty",
+   "neklid"
+  ],
+  "themes": [
+   "character",
+   "relationships",
+   "work",
+   "health"
+  ],
+  "text": "Když tranzitující Merkur přechází přes tvůj ascendent, druzí tě poznávají hlavně podle toho, co říkáš a jak rychle myslíš. Na několik dní máš živější řeč, pohotové odpovědi a chuť se ptát. Snadno navazuješ rozhovory, domlouváš schůzky, vyřizuješ zprávy a telefonáty. Hodí se to na pohovory, prezentace, učení i krátké cesty. Ozývají se sourozenci, sousedé a známí. Tělo působí lehčeji a pohyblivěji, gesta mají rychlejší rytmus.",
+  "shadow": "Merkur na tvém ascendentu ukazuje tvůj neklid hned při prvním setkání. Mluvíš rychleji, než stihneš domyslet, a skáčeš druhým do řeči. Těkáš mezi úkoly a máloco dotáhneš. Tvůj první dojem pak může působit povrchně nebo vychytrale. Svádí to k drobným výmluvám, přikrášlování a k šíření drbů, které se později vrátí. Nervozita se ukládá do těla: neklidné ruce, mělký dech, horší spánek.",
+  "hard": [
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o oslabení nervů, plic a řeči. Přechod Merkura přes ascendent spojuje s podrážděnou nervovou soustavou, kašlem, potížemi s dýcháním, ochraptěním a ztrátou hlasu, u citlivějších povah i se zadrháváním v řeči. Jde o tradiční obraz, ne o jistotu."
+   },
+   {
+    "topics": [
+     "mental_crisis"
+    ],
+    "text": "Tradice tu mluví o přetížení mysli. Myšlenky se točí dokola, přichází nespavost, úzkostné napětí a nervové vyčerpání. Starší výklady sem řadí i stavy, kdy se člověk ztrácí ve vlastních obavách a nedokáže se zastavit. Jde o tradiční obraz, ne o jistotu."
+   }
+  ],
+  "traits": {
+   "text": [
+    "eloquence",
+    "curiosity",
+    "sociability",
+    "flexibility",
+    "openness"
+   ],
+   "shadow": [
+    "restlessness",
+    "anxiety",
+    "superficiality",
+    "deceit",
+    "impulsiveness"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "transit_point/mercury/asc/harmonious",
+  "title": "Tranzitující Merkur – ascendent: harmonický aspekt (sextil, trigon)",
+  "keywords": [
+   "výřečnost",
+   "pohotovost",
+   "krátké cesty",
+   "učení",
+   "první dojem"
+  ],
+  "themes": [
+   "character",
+   "relationships",
+   "work",
+   "health"
+  ],
+  "text": "Tranzitující Merkur v souladu s tvým ascendentem ti na několik dní uvolňuje jazyk i pohyby. Slova přicházejí včas a první dojem působí bystře a přívětivě. Snadno navazuješ rozhovor s cizími lidmi, sousedy i sourozenci. Rychle se učíš a s chutí vyřizuješ telefonáty, zprávy a drobné pochůzky. Krátké cesty mají spád a přinášejí užitečné kontakty. Při jednání umíš vystihnout podstatu a podat ji srozumitelně. Tělo reaguje pohotově a mysl drží krok s děním kolem.",
+  "shadow": "Lehkost, kterou ti Merkur teď vkládá do projevu, svádí k mluvení dřív, než věc domyslíš. Slibuješ víc schůzek a úkolů, než stihneš dokončit. Šarm a pohotovost lákají k vykličkování z nepříjemné situace chytrou výmluvou. První dojem pak stojí na bystrém slovíčku, ne na obsahu. V hovoru přeskakuješ z tématu na téma a nasloucháš jen napůl. Drobná historka o druhých se snadno mění v pomluvu. Neklid se ukládá do prstů a do dechu, takže v klidu vydržíš jen krátce.",
+  "hard": [
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o nervech, plicích a řeči jako o oblastech, které Merkur ovládá. U harmonického aspektu k ascendentu je čte spíš jako období, kdy nervové napětí polevuje a dech i hlas fungují lehčeji. Zmiňuje ale i přetížení nervů z nadbytku podnětů, mluvení a pohybu, které se může projevit únavou, nespavostí nebo podrážděným hrdlem."
+   }
+  ],
+  "traits": {
+   "text": [
+    "eloquence",
+    "curiosity",
+    "sociability",
+    "flexibility",
+    "charm"
+   ],
+   "shadow": [
+    "superficiality",
+    "restlessness",
+    "inconstancy",
+    "deceit"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "transit_point/mercury/asc/tense",
+  "title": "Tranzitující Merkur – ascendent: napěťový aspekt (kvadrát, opozice)",
+  "keywords": [
+   "nervozita",
+   "nedorozumění",
+   "ukvapená slova",
+   "krátké cesty",
+   "bystrý postřeh"
+  ],
+  "themes": [
+   "character",
+   "relationships",
+   "family",
+   "health"
+  ],
+  "text": "Když tranzitující Merkur svírá napjatý úhel s tvým ascendentem, tvá slova narážejí na to, jak působíš navenek. Mluvíš rychleji, než stačíš domyslet, a okolí tvé věty čte jinak, než je myslíš. Přibývá telefonátů, zpráv, vyřizování a krátkých cest. Rozhovory se sourozenci nebo sousedy nabírají na tempu. Zároveň máš bystrý postřeh, pohotovou odpověď a chuť obhájit svůj názor. V diskusi rychle najdeš slabé místo argumentu.",
+  "shadow": "Napětí mezi Merkurem a ascendentem snadno přechází v nervózní tělo a ukvapená slova. Skáčeš do řeči, ulpíváš na detailech a hádáš se o drobnosti. První dojem kazí podrážděný tón nebo nedomyšlená poznámka. Zprávy se ztrácejí, schůzky se kříží a na cestách přibývá zmatků. Lidé kolem tebe mohou překrucovat, co říkáš, a drobná pomluva se šíří rychleji než obvykle. Neklid ti bere spánek i soustředění. Pokušení přibarvit pravdu nebo se z něčeho vymluvit je teď silnější než jindy.",
+  "hard": [
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o přetížených nervech, napětí v dýchání a potížích s hlasem nebo řečí v době, kdy Merkur zatěžuje ascendent jako bod těla. Starší autoři uvádějí nervové vyčerpání, nespavost, kašel, chrapot a zadrhávání v řeči. Nejde o jistotu, spíš o tradiční obraz zvýšené citlivosti těla vůči překotnému tempu."
+   },
+   {
+    "topics": [
+     "mental_crisis"
+    ],
+    "text": "Tradice tu mluví také o úzkostném přetížení mysli: o myšlenkách, které se točí v kruhu, o roztržitosti a podrážděnosti, která může přerůst v nervovou krizi. Spojuje to s obdobím, kdy se hromadí zprávy, spory a nedořešené záležitosti. Jde o tradiční obraz zranitelnosti, ne o předpověď."
+   }
+  ],
+  "traits": {
+   "text": [
+    "curiosity",
+    "eloquence",
+    "restlessness",
+    "decisiveness",
+    "criticism"
+   ],
+   "shadow": [
+    "anxiety",
+    "restlessness",
+    "bluntness",
+    "deceit",
+    "exhaustion"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "transit_point/mercury/mc/conjunction",
+  "title": "Tranzitující Merkur – Medium coeli (MC): konjunkce",
+  "keywords": [
+   "pracovní jednání",
+   "veřejné slovo",
+   "kariérní plány",
+   "komunikace s vedením",
+   "pověst"
+  ],
+  "themes": [
+   "work",
+   "character",
+   "growth"
+  ],
+  "text": "Tranzitující Merkur na vrcholu horoskopu směřuje tvoje myšlenky přímo k práci a veřejnému jménu. Na několik dní se tvoje slova dostávají k lidem, kteří rozhodují o tvém postupu. Období se hodí na pohovory, prezentace, jednání s nadřízenými a psaní žádostí. Hlava pracuje rychle a plány na další kroky v kariéře dostávají jasný tvar. Přibývá telefonátů, e-mailů a krátkých pracovních cest. Do pracovních záležitostí se může zapojit i sourozenec nebo blízký kolega.",
+  "shadow": "Merkur na MC staví tvoje slova na odiv, a tak se ukvapená poznámka snadno dostane k nesprávným uším. Pracovní klepy a pomluvy se šíří rychle a mohou se týkat i tebe. Nervozita tě žene slibovat víc, než stihneš splnit. Pozornost se tříští mezi desítky zpráv a důležitý detail ve smlouvě nebo zadání zapadne. Objevuje se i pokušení přikrášlit výsledky nebo obejít pravdu, aby tvůj obraz před vedením vypadal lépe. Neklid kolem kariéry pak ruší spánek i soustředění.",
+  "hard": [
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o nervovém vypětí spojeném s prací a veřejným vystupováním. Zmiňuje přetížení hlasu, chrapot, potíže s dechem a plícemi nebo nespavost z neustálého přemýšlení o povinnostech. Jde o krátké období, ale vyčerpání se podle starých výkladů projevuje hlavně na nervech."
+   },
+   {
+    "topics": [
+     "loss"
+    ],
+    "text": "Tradice tu mluví také o pomluvách a lstivém jednání, které mohou poškodit pověst nebo pracovní postavení. Starší výklady zmiňují ztrátu místa či důvěry kvůli neuvážené výpovědi, chybnému dopisu nebo podepsanému spisu."
+   }
+  ],
+  "traits": {
+   "text": [
+    "eloquence",
+    "curiosity",
+    "ambition",
+    "flexibility",
+    "rationality"
+   ],
+   "shadow": [
+    "restlessness",
+    "superficiality",
+    "deceit",
+    "anxiety",
+    "carelessness"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "transit_point/mercury/mc/harmonious",
+  "title": "Tranzitující Merkur – Medium coeli (MC): harmonický aspekt (sextil, trigon)",
+  "keywords": [
+   "pracovní jednání",
+   "kariérní plány",
+   "veřejné vystoupení",
+   "zprávy a nabídky"
+  ],
+  "themes": [
+   "work",
+   "character",
+   "growth"
+  ],
+  "text": "Tranzitující Merkur v souladu s tvým MC otevírá krátké období, kdy se ti v práci daří hlavně slovem. Myšlenky o kariéře se rychle skládají do jasného plánu. Hodí se psát žádosti, upravit životopis, domluvit schůzku s nadřízenými nebo vést jednání. Tvoje řeč působí věcně a přesvědčivě, takže lidé na vyšších místech naslouchají. Přicházejí zprávy, nabídky a krátké pracovní cesty. Nový postup se učíš snadno a tvůj veřejný obraz tím získává.",
+  "shadow": "Lehkost, s jakou teď mluvíš o své práci, svádí k slibům, které nemají krytí. Snadno se rozptýlíš mezi příliš mnoho nabídek a žádnou nedotáhneš. Šikovná slova zakryjí slabou přípravu, ale okolí to časem pozná. Objevuje se sklon přikrášlit vlastní výsledky nebo shodit kolegu poznámkou ve správnou chvíli. Pracovní drby se teď šíří rychle a lákají k využití. Přílišné spoléhání na příznivé období vede k povrchnosti a k odkládání skutečné práce.",
+  "hard": [
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o tom, že ani příznivý Merkur nechrání před přetížením nervů. Při neustálém telefonování, jednání a cestování se může ozvat napětí, nespavost nebo únava hlasu a dýchacích cest. Tradice tyto potíže spojuje s přemírou slov a spěchu a nepovažuje je za vážnou nemoc."
+   }
+  ],
+  "traits": {
+   "text": [
+    "eloquence",
+    "curiosity",
+    "decisiveness",
+    "ambition",
+    "focus"
+   ],
+   "shadow": [
+    "superficiality",
+    "deceit",
+    "restlessness",
+    "procrastination",
+    "inconstancy"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "transit_point/mercury/mc/tense",
+  "title": "Tranzitující Merkur – Medium coeli (MC): napěťový aspekt (kvadrát, opozice)",
+  "keywords": [
+   "pracovní komunikace",
+   "nedorozumění s vedením",
+   "veřejné slovo",
+   "plány kariéry",
+   "pracovní zprávy"
+  ],
+  "themes": [
+   "work",
+   "character",
+   "health"
+  ],
+  "text": "Tvoje slova a pracovní cíle se teď míjejí a chtějí sladit. Do kariéry se tlačí spousta zpráv, telefonátů a drobných úkolů, které nejdou odložit. Vedení chce rychlé odpovědi a ty musíš své plány obhájit nahlas. Nápady na budoucí směr přicházejí často uprostřed shonu. Soukromé starosti zasahují do pracovních rozhodnutí. Krátké období ukazuje, jak umíš vysvětlit, co děláš a proč. Pohotová řeč a schopnost rychle přepnout ti teď otevírají dveře.",
+  "shadow": "Napětí mezi řečí a veřejnou rolí přináší nedorozumění s nadřízenými a kolegy. Hrozí unáhlený e-mail, slib bez krytí nebo věta, kterou pak dlouho vysvětluješ. Pomluvy o tvé práci se šíří rychleji než fakta a láká tě odpovědět stejnou mincí. Neklid tě žene od úkolu k úkolu, takže nic nedotáhneš. Snadno se upneš na detail a přehlédneš podstatu. Písemné dohody z této doby mívají přehlédnuté chyby a nejasnosti.",
+  "hard": [
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o přetížení nervů z pracovního tlaku. Uvádí nespavost, napjatost, bolesti hlavy a potíže s dechem nebo hlasem, když se mluví příliš mnoho a odpočívá příliš málo. Jde o přechodné vypětí, ne o jistou nemoc."
+   },
+   {
+    "topics": [
+     "ruin"
+    ],
+    "text": "Tradice tu mluví o pošramoceném jménu kvůli pomluvě, chybě v dokumentu nebo neuváženému výroku na veřejnosti. Starší výklady varují, že slovo vyslovené v tomto čase může poškodit postavení na delší dobu, než trvá samotný tranzit."
+   }
+  ],
+  "traits": {
+   "text": [
+    "eloquence",
+    "curiosity",
+    "flexibility",
+    "rationality"
+   ],
+   "shadow": [
+    "restlessness",
+    "anxiety",
+    "superficiality",
+    "carelessness",
+    "impulsiveness"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "transit_point/venus/asc/conjunction",
+  "title": "Tranzitující Venuše – ascendent: konjunkce",
+  "keywords": [
+   "přitažlivost",
+   "první dojem",
+   "vzhled",
+   "půvab",
+   "vlídnost"
+  ],
+  "themes": [
+   "character",
+   "relationships",
+   "health"
+  ],
+  "text": "Když tranzitující Venuše přechází přes tvůj ascendent, působíš na okolí měkčeji a přitažlivěji než obvykle. Lidé si tě všímají, usmívají se a snáz ti vycházejí vstříc. Máš chuť pečovat o vzhled a zkusit nový účes, oblečení nebo vůni. Tělo touží po pohodlí, dobrém jídle a doteku. V jednání převládá vlídnost a diplomacie a napětí urovnáváš úsměvem. Hodí se to pro první setkání, focení nebo pohovor, kde hodně záleží na prvním dojmu. Celé to trvá jen několik dní.",
+  "shadow": "Venuše na ascendentu svádí k tomu, že vzhled a dojem začnou vážit víc než obsah. Snadno podlehneš lichotkám a hledáš potvrzení v obdivu druhých. Lákají tě nákupy oblečení, kosmetiky a drobných radostí, které rychle omrzí. Tělo chce lenošit, sladkosti a pohodlí, a sebekázeň jde stranou. Ve snaze působit příjemně se vyhýbáš nepříjemným slovům a říkáš ano tam, kde myslíš ne. Nová přitažlivost může vést k flirtu, který v blízkém vztahu probudí žárlivost.",
+  "hard": [
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o citlivějším krku a ledvinách v době, kdy Venuše prochází ascendentem. Spojuje to s bolestmi hrdla, otoky a zatížením těla nadbytkem jídla, pití a sladkostí. Jde o tradiční výklad, ne o jistotu."
+   },
+   {
+    "topics": [
+     "loss"
+    ],
+    "text": "Tradice tu mluví také o rozchodech. Nový obdiv a zvýšená přitažlivost mohou rozkolísat stávající vztah nebo ukázat, že drží už jen ze zvyku. Starší autoři zmiňují i ztráty vzniklé z marnivosti a rozhazovačnosti. Ani to není jistota, jen tradiční čtení."
+   }
+  ],
+  "traits": {
+   "text": [
+    "charm",
+    "sociability",
+    "gentleness",
+    "sensuality",
+    "cooperation"
+   ],
+   "shadow": [
+    "vanity",
+    "indulgence",
+    "extravagance",
+    "superficiality",
+    "dependence"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "transit_point/venus/asc/harmonious",
+  "title": "Tranzitující Venuše – ascendent: harmonický aspekt (sextil, trigon)",
+  "keywords": [
+   "půvab",
+   "první dojem",
+   "vzhled",
+   "přívětivost",
+   "lehkost"
+  ],
+  "themes": [
+   "character",
+   "relationships",
+   "growth"
+  ],
+  "text": "Tranzitující Venuše v souladu s ascendentem dodává tvému vystupování měkkost a půvab. Na pár dní působíš přívětivěji a lidé na tebe reagují vstřícně. Máš chuť upravit si vzhled a zkusit nový účes, oblečení nebo vůni. Vkus ti obvykle slouží spolehlivě. Tělo se uvolňuje a pohyby získávají lehkost. Snadno navazuješ rozhovor, urovnáváš drobné neshody a první dojem vychází ve tvůj prospěch. Hodí se to pro setkání, rande a vše, kde záleží na tom, jak se prezentuješ.",
+  "shadow": "Příjemná vlna kolem tvého vzhledu a působení snadno svádí k pohodlnosti. Když všechno jde hladce, chybí tah na výkon a úkoly se odsouvají na později. Pozornost se stáčí k tomu, jak vypadáš, a víc než obvykle hledáš obdiv. Lichotky bereš za bernou minci a nepříjemné pravdy obcházíš úsměvem. Láká utrácení za oblečení, kosmetiku a drobné radosti. Ochota vyhovět všem může vést k tomu, že vlastní názor zůstane nevyřčený.",
+  "hard": [
+   {
+    "topics": [
+     "illness",
+     "addiction"
+    ],
+    "text": "Tradice tu mluví o mírném sklonu k přejídání, sladkostem a alkoholu, kdy pohodlí přerůstá v nestřídmost. Venuši spojuje s ledvinami a krkem. Proto při přemíře požitků zmiňuje drobné potíže právě v těchto místech. U harmonického aspektu jde podle tradice spíš o lehké a přechodné nepohodlí."
+   }
+  ],
+  "traits": {
+   "text": [
+    "charm",
+    "sociability",
+    "sensuality",
+    "lightness",
+    "cooperation"
+   ],
+   "shadow": [
+    "vanity",
+    "indulgence",
+    "procrastination",
+    "extravagance",
+    "superficiality"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "transit_point/venus/asc/tense",
+  "title": "Tranzitující Venuše – ascendent: napěťový aspekt (kvadrát, opozice)",
+  "keywords": [
+   "vzhled",
+   "první dojem",
+   "partnerské napětí",
+   "marnivost",
+   "utrácení"
+  ],
+  "themes": [
+   "character",
+   "relationships",
+   "money",
+   "health"
+  ],
+  "text": "Když tranzitující Venuše svírá napjatý úhel s tvým ascendentem, řešíš rozpor mezi tím, jak působíš, a tím, co se líbí druhým. Víc vnímáš svůj vzhled, oblečení a tělo. Lidé reagují na tvůj šarm silněji, ale ne vždy tak, jak čekáš. Při opozici se pozornost stáčí k partnerovi a k blízkým lidem, kteří ti nastavují zrcadlo. Snadno nacházíš slova, kterými urovnáváš spory. Je to vhodná chvíle ladit styl, vystupování a péči o sebe.",
+  "shadow": "Napjatý úhel Venuše k ascendentu svádí k přehnané péči o dojem. Utrácení za oblečení a kosmetiku přináší jen krátkou úlevu. Chuť líbit se za každou cenu vede k ústupkům, které neodpovídají tvým hodnotám. Ve vztahu se objevuje marnivost, žárlivost na pozornost nebo lenost věci dotáhnout. Pohodlí a sladkosti se snadno stávají únikem z nepohody. Drobné neshody s partnerem přerůstají ve vzájemné výčitky, když každý čeká, že ustoupí ten druhý.",
+  "hard": [
+   {
+    "topics": [
+     "loss"
+    ],
+    "text": "Tradice tu mluví o ochlazení vztahů a rozchodech. Při opozici se napětí soustředí na partnera. Staré výklady spojují toto období s odchodem blízkého člověka z citového života nebo s koncem známosti, která stála hlavně na vnější přitažlivosti. Jde o tradiční motiv, ne o jistotu."
+   },
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o zranitelnosti ledvin, krku a hrdla. Staré texty přisuzují takovým tranzitům záněty hrdla, chrapot, potíže s močovými cestami nebo obtíže z přejídání a nadbytku sladkého. Jde o tradiční souvislosti, ne o předpověď ani diagnózu."
+   }
+  ],
+  "traits": {
+   "text": [
+    "charm",
+    "sensuality",
+    "sociability",
+    "cooperation"
+   ],
+   "shadow": [
+    "vanity",
+    "extravagance",
+    "indulgence",
+    "jealousy",
+    "escapism"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "transit_point/venus/mc/conjunction",
+  "title": "Tranzitující Venuše – Medium coeli (MC): konjunkce",
+  "keywords": [
+   "veřejný šarm",
+   "uznání v práci",
+   "vztahy s nadřízenými",
+   "vkus",
+   "pověst"
+  ],
+  "themes": [
+   "work",
+   "relationships",
+   "character",
+   "money"
+  ],
+  "text": "Venuše se na pár dní dotýká bodu tvé kariéry a zjemňuje to, jak tě vidí okolí. V práci máš víc šarmu a lidé ve vedení ti snáz naslouchají. Hodí se to na prezentaci, pohovor, vyjednávání nebo veřejné vystoupení. Tvůj vkus a smysl pro krásu se stávají součástí tvé pracovní tváře. Vztahy s nadřízenými se uhlazují a napětí se urovnává s menší námahou. Může přijít pochvala, uznání nebo nabídka spojená s uměním, krásou či prací s lidmi.",
+  "shadow": "Když Venuše stojí na vrcholu horoskopu, láká tě sázet na příjemný dojem místo na výsledky. Snadno spoléháš na šarm a těžší práci odsouváš na později. Roste chuť líbit se nadřízeným a vyhýbat se nepříjemným rozhovorům. Marnivost se může projevit utrácením za vzhled, který má působit úspěšně. Hrozí i míchání lásky a kariéry, třeba flirt na pracovišti nebo vztah, který má pomoci k postupu. Pochvala zvedne náladu na pár dní. Bez opory ve skutečné práci ale rychle vyprchá.",
+  "hard": [
+   {
+    "topics": [
+     "loss"
+    ],
+    "text": "Tradice tu mluví o rozchodech, které se odehrávají před očima ostatních nebo zasahují do pracovní pověsti. Milostné či obchodní partnerství se může ukončit veřejně a ovlivnit, jak tě vnímá okolí. Staré výklady sem řadí i ztrátu přízně vlivné osoby, na které závisí postavení."
+   },
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o citlivosti krku a ledvin. Podle starých výkladů se nadbytek společenských povinností, oslav, jídla a pití může projevit na hrdle, hlasu nebo zatížení ledvin. Venuše se tu váže hlavně na potíže z přepjatého požitku, ne na vážnou nemoc."
+   }
+  ],
+  "traits": {
+   "text": [
+    "charm",
+    "sociability",
+    "creativity",
+    "cooperation"
+   ],
+   "shadow": [
+    "vanity",
+    "superficiality",
+    "procrastination",
+    "extravagance"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "transit_point/venus/mc/harmonious",
+  "title": "Tranzitující Venuše – Medium coeli (MC): harmonický aspekt (sextil, trigon)",
+  "keywords": [
+   "uznání",
+   "pracovní šarm",
+   "veřejný obraz",
+   "dobré vztahy v práci",
+   "vkus"
+  ],
+  "themes": [
+   "work",
+   "relationships",
+   "character"
+  ],
+  "text": "Tranzitující Venuše v harmonickém aspektu k MC na několik dní zjemňuje tvůj pracovní a veřejný obraz. Lidé v práci tě vnímají vlídněji a nadřízení snáz oceňují tvůj přínos. Při prezentaci, jednání i úpravě pracovního prostředí máš jistý vkus. Daří se ti urovnat napětí v týmu a navázat užitečné kontakty. Je to vhodná chvíle pro představení projektu, pracovní setkání nebo krok, kde rozhoduje sympatie a dobrý dojem.",
+  "shadow": "Příjemná atmosféra kolem tvé kariéry během tohoto tranzitu svádí ke spoléhání na šarm místo na výkon. Snadno přeceňuješ sílu dobrého dojmu a odkládáš nepříjemné úkoly. Objevuje se marnivost: víc řešíš, jak působíš, než co skutečně odvádíš. Vyhýbáš se sporům i tam, kde je potřeba jasné slovo. Utrácíš za oblečení, vybavení nebo reprezentaci víc, než je nutné. Pracovní flirt nebo lichotky nadřízeným se později obracejí proti tvé pověsti.",
+  "traits": {
+   "text": [
+    "charm",
+    "sociability",
+    "cooperation",
+    "creativity"
+   ],
+   "shadow": [
+    "vanity",
+    "procrastination",
+    "superficiality",
+    "extravagance",
+    "indulgence"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "transit_point/venus/mc/tense",
+  "title": "Tranzitující Venuše – Medium coeli (MC): napěťový aspekt (kvadrát, opozice)",
+  "keywords": [
+   "láska proti kariéře",
+   "veřejný obraz",
+   "šarm v práci",
+   "přízeň nadřízených"
+  ],
+  "themes": [
+   "work",
+   "relationships",
+   "money",
+   "character"
+  ],
+  "text": "Venuše v napětí k MC staví na pár dní vztahy a potěšení do sporu s pracovními povinnostmi. Chceš působit příjemně a sklízet uznání. Vkus a šarm ti v tom pomáhají. Snáz vyjednáváš, uhlazuješ spory s nadřízenými a dodáváš práci estetickou úroveň. Zároveň cítíš, že soukromí žádá čas, který kariéra nechce pustit. Partner nebo přátelé se ptají, kde máš priority. Hodnoty, které vyznáváš doma, se teď poměřují s tím, co oceňuje veřejnost.",
+  "shadow": "Napětí mezi Venuší a MC svádí ke kupování přízně místo práce na výsledku. Lichotíš, přikyvuješ a vyhýbáš se nepříjemným rozhodnutím, jen aby tvůj obraz zůstal hladký. Marnivost tlačí k utrácení za vzhled a reprezentaci. Pohodlí vítězí nad povinností a termíny se posouvají. Milostná zápletka na pracovišti nebo snaha zalíbit se vlivným lidem snadno poškodí pověst. Doma pak chybí pozornost, kterou odevzdáváš veřejnosti. Vztah to dává najevo chladem nebo výčitkami.",
+  "hard": [
+   {
+    "topics": [
+     "loss"
+    ],
+    "text": "Tradice tu mluví o rozchodech a citových ztrátách, které vyvolá střet mezi kariérou a vztahem. Volba mezi pracovní příležitostí a partnerem podle starých výkladů ukončí svazek nebo přetrhne přátelství. Tranzit trvá krátce, ale rozhodnutí z něj mají dlouhý dosah."
+   },
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o oslabení ledvin a krku a o potížích z přemíry jídla, pití a pohodlí. Starší autoři spojují tento tranzit s bolestmi v krku, zánětem hlasivek nebo zátěží močových cest, zvlášť v době velkého společenského vytížení."
+   },
+   {
+    "topics": [
+     "ruin"
+    ],
+    "text": "Tradice tu mluví o ztrátě dobrého jména kvůli skandálu s láskou, penězi nebo okázalostí. Staré výklady popisují pád pověsti ve chvíli, kdy se soukromé potěšení dostane na veřejnost nebo kdy výdaje na vnější lesk převýší skutečné výsledky."
+   }
+  ],
+  "traits": {
+   "text": [
+    "charm",
+    "sociability",
+    "ambition",
+    "cooperation"
+   ],
+   "shadow": [
+    "vanity",
+    "indulgence",
+    "extravagance",
+    "procrastination",
+    "superficiality"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "transit_point/mars/asc/conjunction",
+  "title": "Tranzitující Mars – ascendent: konjunkce",
+  "keywords": [
+   "příval energie",
+   "odvaha",
+   "přímé jednání",
+   "tělo",
+   "podrážděnost"
+  ],
+  "themes": [
+   "character",
+   "health",
+   "growth"
+  ],
+  "text": "Když tranzitující Mars přechází přes tvůj ascendent, tělo dostává nový náboj. Máš víc síly, rychleji se rozhoduješ a jednáš bez dlouhého váhání. Okolí tě vnímá jako přímočarou a odhodlanou osobu, která ví, co chce. Tohle období přeje sportu, fyzické práci a začátkům, které vyžadují odvahu. Snadněji si řekneš o své místo i o své potřeby. Tvoje přítomnost má větší váhu a roste i přitažlivost a smyslnost.",
+  "shadow": "Mars na ascendentu zostřuje nejen tvou energii, ale i tvoje hrany. První dojem může působit útočně, i když to tak nemyslíš. Trpělivost rychle dochází a drobnost stačí k ostré reakci. Hrozí zbrklé kroky, zbytečné hádky a střety s lidmi, kteří ti stojí v cestě. Tělo jede na plný výkon a přehlíží únavu i bolest. Spěch vede k drobným úrazům, řezným ranám a pádům. Ohled na druhé ustupuje vlastní touze prosadit se hned teď.",
+  "hard": [
+   {
+    "topics": [
+     "illness",
+     "violence"
+    ],
+    "text": "Tradice tu mluví o zraněních, řezných ranách, popáleninách a nehodách, zvlášť v oblasti hlavy a obličeje, které ascendent zastupuje. Zmiňuje také horečky, záněty a náhlé operace. Jde o tradiční výklad, ne o jistotu."
+   },
+   {
+    "topics": [
+     "violence",
+     "death"
+    ],
+    "text": "Tradice tu mluví také o fyzických střetech a násilí, v nichž může být člověk útočníkem i obětí. Spojuje toto období s rvačkami a výbuchy hněvu, které přerostou do fyzické roviny. V krajních případech starší texty zmiňují i ohrožení života při nehodě nebo násilném střetu."
+   }
+  ],
+  "traits": {
+   "text": [
+    "vitality",
+    "courage",
+    "decisiveness",
+    "self_confidence",
+    "sensuality"
+   ],
+   "shadow": [
+    "impulsiveness",
+    "anger",
+    "aggression",
+    "bluntness",
+    "selfishness"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "transit_point/mars/asc/harmonious",
+  "title": "Tranzitující Mars – ascendent: harmonický aspekt (sextil, trigon)",
+  "keywords": [
+   "tělesná síla",
+   "odvaha",
+   "iniciativa",
+   "rozhodné vystupování",
+   "chuť do pohybu"
+  ],
+  "themes": [
+   "character",
+   "health",
+   "work",
+   "relationships"
+  ],
+  "text": "Tranzitující Mars v souladu s ascendentem ti dodává tělesnou sílu a chuť jednat. Máš víc energie, rychlejší reakce a odvahu udělat první krok. Druzí tě vnímají jako člověka, který ví, co chce, a jedná přímo. Hodí se to na sport, fyzickou práci, nové začátky i na otevřené vyjádření touhy. Tvoje iniciativa teď působí přirozeně, ne útočně. Prosazuješ se bez zbytečného tlaku a lidé tvé vedení snadno přijímají.",
+  "shadow": "Snadnost, s jakou ti tranzitující Mars otevírá cestu, svádí k přecenění vlastních sil. Tělo zvládá víc než obvykle, a tak ho snadno přetížíš. Netrpělivost se objevuje, když ostatní nestačí tvému tempu. Sebejistý první dojem může působit domýšlivě nebo příliš přímočaře. Hádky bývají krátké, ale ostrá poznámka vyřčená v rozjetém tempu dokáže druhé zranit. Energie, kterou nevyužiješ v pohybu nebo práci, se mění v neklid a zbrklé rozhodování.",
+  "hard": [
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o drobných zraněních, natažených svalech a odřeninách, které vznikají z přílišné jistoty při sportu nebo fyzické práci. Zároveň tento souhlasný aspekt spojuje s rychlým zotavením a s horečkami, které brzy odeznívají. Za příznivé ho považuje i pro zákroky na těle. Jde o tradiční pohled, ne o jistotu."
+   }
+  ],
+  "traits": {
+   "text": [
+    "vitality",
+    "courage",
+    "decisiveness",
+    "self_confidence",
+    "leadership"
+   ],
+   "shadow": [
+    "impulsiveness",
+    "restlessness",
+    "bluntness",
+    "risk_taking"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "transit_point/mars/asc/tense",
+  "title": "Tranzitující Mars – ascendent: napěťový aspekt (kvadrát, opozice)",
+  "keywords": [
+   "podrážděnost",
+   "fyzická energie",
+   "střet",
+   "spěch",
+   "úrazy"
+  ],
+  "themes": [
+   "character",
+   "relationships",
+   "health"
+  ],
+  "text": "Tranzitující Mars v napětí s ascendentem přináší období, kdy tvoje tělo i vystupování nabírají ostřejší tón. Máš víc energie, než stačíš spotřebovat, a okolí to vidí na první pohled. Odpor druhých tě nutí jednat přímo a obhájit si vlastní místo. Daří se ti fyzická zátěž, sport a úkoly, které chtějí rychlé rozhodnutí. Opozice staví do cesty partnera nebo soupeře, kvadrát přináší tlak z práce či domova. Tahle doba ukazuje, kolik odvahy v tobě opravdu je.",
+  "shadow": "Napětí mezi tranzitujícím Marsem a ascendentem snadno mění tvůj první dojem ve výzvu k boji. Reaguješ dřív, než věc domyslíš, a drobná poznámka stačí k hádce. Netrpělivost se ukazuje v gestech, hlasu i tempu chůze. Druzí v tobě vidí útočníka, i když jen bráníš svůj prostor. Ve spěchu přehlédneš schod, roh stolu nebo auto v provozu. Tělo nosí víc napětí, než připouštíš: svaly, čelist, hlava. Střety s partnerem nebo otevřeným soupeřem nabírají na prudkosti a slova padají bez ohledu na následky.",
+  "hard": [
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o horečkách, zánětech a akutních potížích, které přicházejí rychle a prudce. Zmiňuje také operace, řezná zranění a popáleniny v období, kdy Mars tlačí na ascendent jako na bod těla. Za nejzranitelnější místa staří autoři považují hlavu a obličej."
+   },
+   {
+    "topics": [
+     "violence",
+     "death"
+    ],
+    "text": "Tradice tu mluví o úrazech, nehodách a fyzických střetech, zvlášť při opozici, kdy Mars stojí na místě otevřených nepřátel. Staré texty spojují tuto konstelaci s napadením, zraněním ostrým nástrojem či ohněm. V nejtěžších případech, kde to potvrzují další ukazatele, zmiňují i násilnou smrt."
+   }
+  ],
+  "traits": {
+   "text": [
+    "vitality",
+    "courage",
+    "decisiveness",
+    "competitiveness"
+   ],
+   "shadow": [
+    "impulsiveness",
+    "anger",
+    "aggression",
+    "bluntness",
+    "restlessness"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "transit_point/mars/mc/conjunction",
+  "title": "Tranzitující Mars – Medium coeli (MC): konjunkce",
+  "keywords": [
+   "kariérní průraz",
+   "iniciativa",
+   "střet s autoritou",
+   "veřejný výkon"
+  ],
+  "themes": [
+   "work",
+   "character",
+   "health"
+  ],
+  "text": "Tranzitující Mars na tvém Medium coeli přináší do kariéry silný tah dopředu. Máš chuť ukázat, co umíš, a převzít iniciativu tam, kde ostatní váhají. Roste odvaha k velkým krokům: žádost o vyšší pozici, vlastní projekt, veřejné vystoupení. Tvoje jméno teď nese energii a lidé si všímají tvých výkonů. Konkurence tě spíš povzbuzuje než brzdí. Cíle, které dlouho čekají na start, teď dostávají palivo i směr.",
+  "shadow": "Mars na vrcholu horoskopu snadno mění ctižádost v boj o moc s nadřízenými. Netrpělivost s autoritami vede k ostrým slovům, která v práci zůstávají dlouho v paměti. Přicházejí unáhlené odchody, bouchnutí dveřmi a spory před zraky ostatních. Touha prosadit se přechází v bezohlednost ke kolegům. Pověst trpí tím, co zazní v afektu. Únava z přepracování přichází rychleji, než čekáš, protože tempo nedává prostor k odpočinku.",
+  "hard": [
+   {
+    "topics": [
+     "illness",
+     "violence"
+    ],
+    "text": "Tradice tu mluví o nehodách a zraněních spojených s prací nebo s cestou za ní, zvlášť při spěchu, riskantních výkonech a práci s nástroji či stroji. Starší výklady zmiňují také horečky, záněty a operace, které spadají do doby tohoto tranzitu."
+   },
+   {
+    "topics": [
+     "violence"
+    ],
+    "text": "Tradice tu mluví o veřejných konfliktech, které mohou přerůst ve fyzický střet, o útocích ze strany soupeřů a o tvrdé konfrontaci s mocí, úřady či nadřízenými, kde jde o víc než jen o slova."
+   },
+   {
+    "topics": [
+     "ruin",
+     "loss"
+    ],
+    "text": "Tradice tu mluví o pádu z postavení po prudkém sporu s nadřízenými, o ztrátě místa, propuštění a o poškozené pověsti, která se po veřejné roztržce obnovuje jen pomalu."
+   },
+   {
+    "topics": [
+     "illness",
+     "death"
+    ],
+    "text": "Tradice tu mluví o ohrožení zdraví jednoho z rodičů, protože Medium coeli se v klasickém výkladu váže k matce nebo otci. Starší autoři zmiňují nemoc či operaci rodiče a v nejtěžších případech i úmrtí."
+   }
+  ],
+  "traits": {
+   "text": [
+    "ambition",
+    "courage",
+    "decisiveness",
+    "leadership",
+    "competitiveness"
+   ],
+   "shadow": [
+    "impulsiveness",
+    "anger",
+    "dominance",
+    "aggression",
+    "exhaustion"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "transit_point/mars/mc/harmonious",
+  "title": "Tranzitující Mars – Medium coeli (MC): harmonický aspekt (sextil, trigon)",
+  "keywords": [
+   "kariérní tah",
+   "iniciativa v práci",
+   "uznání nasazení",
+   "odvaha k postupu"
+  ],
+  "themes": [
+   "work",
+   "growth",
+   "character"
+  ],
+  "text": "Tranzitující Mars v souladu s MC dodává tvé práci tah a odvahu. Máš chuť jít za kariérními cíli přímo a bez zbytečného váhání. Iniciativa se ti vyplácí. Návrhy, se kterými přicházíš, mají sílu a lidé ve vedení si všímají tvého nasazení. Je to vhodná doba na zahájení projektu, na ucházení se o vyšší místo nebo na veřejné vystoupení. Tvoje energie působí přesvědčivě, ne útočně. Soutěž tě spíš povzbuzuje, než vyčerpává.",
+  "shadow": "Hladký průchod v práci svádí k přecenění vlastních sil. Bereš na sebe víc úkolů, než dokážeš dotáhnout, a svoje tempo vnucuješ i ostatním. Netrpělivost s pomalejšími kolegy nebo s nadřízenými se projevuje příkrou poznámkou, která později poškodí tvou pověst. Touha po rychlém úspěchu tě vede k riskantním krokům bez promyšlení. Když úsilí nepřináší okamžité uznání, přichází podrážděnost. Hrozí i vyčerpání, protože únavu přehlížíš, dokud tě nezastaví.",
+  "hard": [
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o drobných zraněních, řezných ranách nebo horečkách, které vznikají z přepětí a spěchu při práci. U harmonického aspektu je chápe spíš jako varování než jako vážnou hrozbu. Tělo tím hlásí, že tempo překročilo jeho možnosti."
+   }
+  ],
+  "traits": {
+   "text": [
+    "ambition",
+    "courage",
+    "leadership",
+    "decisiveness",
+    "vitality"
+   ],
+   "shadow": [
+    "impulsiveness",
+    "bluntness",
+    "risk_taking",
+    "exhaustion",
+    "dominance"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "transit_point/mars/mc/tense",
+  "title": "Tranzitující Mars – Medium coeli (MC): napěťový aspekt (kvadrát, opozice)",
+  "keywords": [
+   "kariéra",
+   "střet s autoritou",
+   "ctižádost",
+   "iniciativa",
+   "unáhlenost"
+  ],
+  "themes": [
+   "work",
+   "character",
+   "health"
+  ],
+  "text": "Tranzitující Mars v napětí s MC tlačí tvoje pracovní cíle kupředu, i když narážejí na odpor. Máš chuť prosadit vlastní plán a nečekat na svolení shora. Energie míří do kariéry, do viditelných úkolů a do obhajoby vlastního místa. Umíš se postavit za svou práci, převzít iniciativu a rozhýbat zaseknutou věc. Vedení, soutěž a rychlá rozhodnutí ti teď jdou snáz než trpělivé čekání. Okolí vidí tvou odvahu a rozhodnost.",
+  "shadow": "Napětí mezi Marsem a MC snadno přerůstá ve střet s nadřízenými, úřady nebo kýmkoli, kdo stojí v cestě tvým ambicím. Netrpělivost tě žene do ukvapených kroků, které poškozují pověst. Hádka na pracovišti se rychle stává veřejnou. Pod tlakem jednáš příkře, bereš kritiku jako útok a chceš mít poslední slovo. Pýcha a soutěživost zakrývají, co je skutečně v sázce. Při opozici se napětí přelévá z domova do práce a zpět. Doma pak zůstává podrážděnost, kterou v práci nejde ukázat.",
+  "hard": [
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o zvýšeném riziku úrazů a nehod, zvlášť při práci, ve spěchu nebo při zacházení s nástroji a stroji. Starší výklady v období, kdy tranzit vrcholí, zmiňují také horečky, záněty, řezná poranění a operace."
+   },
+   {
+    "topics": [
+     "violence"
+    ],
+    "text": "Tradice tu mluví o otevřených střetech s autoritami, nadřízenými nebo představiteli moci. Takové střety podle starých výkladů mohou přerůst ve fyzickou konfrontaci nebo násilí, ať už vychází od tebe, nebo míří proti tobě."
+   },
+   {
+    "topics": [
+     "ruin",
+     "loss"
+    ],
+    "text": "Tradice tu mluví o pádu pověsti, ztrátě postavení nebo propuštění po prudkém sporu s vedením. Veřejný skandál nebo unáhlený čin může podle starých výkladů zničit dlouho budovanou kariéru a připravit tě o místo, na kterém ti záleží."
+   }
+  ],
+  "traits": {
+   "text": [
+    "ambition",
+    "courage",
+    "decisiveness",
+    "leadership",
+    "competitiveness"
+   ],
+   "shadow": [
+    "anger",
+    "impulsiveness",
+    "bluntness",
+    "pride",
+    "aggression"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "transit_point/jupiter/asc/conjunction",
+  "title": "Tranzitující Jupiter – ascendent: konjunkce",
+  "keywords": [
+   "růst",
+   "první dojem",
+   "sebedůvěra",
+   "nové začátky",
+   "přemíra"
+  ],
+  "themes": [
+   "character",
+   "growth",
+   "health"
+  ],
+  "text": "Jupiter přechází přes tvůj ascendent a zvětšuje to, jak působíš na první pohled. Lidé tě vnímají jako vstřícnější, otevřenější a důvěryhodnější osobu. Do jednání se ti vkrádá víc odvahy a chuť zkoušet nové věci. Máš víc energie, víc chuti do života i do jídla. Tohle období přeje začátkům, cestám, studiu a vstupu do nového prostředí. Snáz tě někdo podpoří nebo ti otevře dveře. Tvoje přítomnost má teď víc váhy a víc tepla.",
+  "shadow": "Když Jupiter stojí na ascendentu, roste i tvoje sebeprezentace, a to často víc, než je zdrávo. Snadno slibuješ víc, než zvládneš splnit, a přeceňuješ vlastní síly. Vystupuješ sebejistě, ale u druhých to může vyznít povýšeně nebo nadutě. Přemíra se ukládá do těla: víc jídla, víc pití, víc pohodlí. Do věcí, které vypadají snadno, vstupuješ lehkomyslně a podceňuješ detaily. Velkorysost se mění v rozhazování energie i času.",
+  "hard": [
+   {
+    "topics": [
+     "illness",
+     "addiction"
+    ],
+    "text": "Tradice tu mluví o přibírání na váze, ukládání tuku a zátěži jater, protože Jupiter na ascendentu zvětšuje tělo i jeho chutě. Starší výklady varují před nemocemi z přemíry jídla a pití. Nepopisují je jako jistotu, ale jako sklon, který se během tohoto tranzitu projevuje snáz."
+   }
+  ],
+  "traits": {
+   "text": [
+    "optimism",
+    "self_confidence",
+    "generosity",
+    "sociability",
+    "vitality"
+   ],
+   "shadow": [
+    "indulgence",
+    "pride",
+    "carelessness",
+    "extravagance"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "transit_point/jupiter/asc/harmonious",
+  "title": "Tranzitující Jupiter – ascendent: harmonický aspekt (sextil, trigon)",
+  "keywords": [
+   "první dojem",
+   "sebedůvěra",
+   "vstřícnost",
+   "rozlet",
+   "přemíra"
+  ],
+  "themes": [
+   "character",
+   "growth",
+   "relationships",
+   "health"
+  ],
+  "text": "Tranzitující Jupiter v sextilu nebo trigonu k ascendentu ti dodává vzpřímenější držení těla a otevřenější výraz. Lidé tě vnímají jako vstřícnou a důvěryhodnou osobnost. Snáz navazuješ kontakty, mluvíš s větší jistotou a první dojem máš na své straně. Hodí se to pro pohovory, prezentace, cesty i začátek studia. Tělo má víc chuti do pohybu a nálada se rychle zvedá. Druzí se k tobě obracejí pro povzbuzení a ty ho dáváš ochotně.",
+  "shadow": "Při harmonickém Jupiteru na ascendentu se snadno spoléháš na dobrý dojem místo přípravy. Úsměv a sebejistota otevírají dveře, ale za nimi pak chybí práce. Slibuješ víc, než stihneš, a přeceňuješ své síly. Tělo reaguje na hojnost: přibývá jídla, pití a pohodlí, ubývá pohybu. Vystupování může sklouznout k nadutosti nebo k hlasitému poučování druhých. Lehkost přechází v lehkomyslnost, protože všechno jde tak hladce, že přestáváš hlídat hranice.",
+  "hard": [
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o přibírání na váze, ukládání tuku a zátěži jater při přemíře jídla a alkoholu. U harmonického aspektu jde spíš o pomalé, nenápadné hromadění než o náhlou nemoc. Ascendent vztahuje téma přímo k tělu, proto tradice sleduje hlavně návyky, které se v období pohody snadno uvolní."
+   }
+  ],
+  "traits": {
+   "text": [
+    "self_confidence",
+    "optimism",
+    "charm",
+    "sociability",
+    "vitality"
+   ],
+   "shadow": [
+    "indulgence",
+    "carelessness",
+    "vanity",
+    "irresponsibility"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "transit_point/jupiter/asc/tense",
+  "title": "Tranzitující Jupiter – ascendent: napěťový aspekt (kvadrát, opozice)",
+  "keywords": [
+   "velkorysý projev",
+   "přemíra",
+   "sliby",
+   "tělo a míra",
+   "příležitosti od druhých"
+  ],
+  "themes": [
+   "character",
+   "relationships",
+   "health",
+   "growth"
+  ],
+  "text": "Tranzitující Jupiter v napětí k ascendentu zvětšuje tvůj projev i chuť se ukázat. Chceš víc prostoru, víc zkušeností a víc lidí kolem sebe. Druzí v tobě vidí velkorysou a nakažlivě optimistickou osobnost. Partneři, učitelé nebo lidé z ciziny ti nabízejí příležitosti. Vyžadují ale, abys změnil svůj zaběhnutý postoj. Tělo má dost energie a dobrou chuť k jídlu i k životu. Máš odvahu jednat ve větším měřítku. Dodáváš ostatním víru, že věci dopadnou dobře.",
+  "shadow": "Napětí mezi Jupiterem a ascendentem tě svádí působit větší, než odpovídá skutečnosti. Slibuješ víc, než stihneš, a přeceňuješ své síly. Vystupování snadno sklouzne k povýšenosti nebo poučování. Druzí pak tvoje sebevědomí vnímají jako vychloubání. Míra mizí u jídla, pití i pohodlí a tělo to nese na sobě. Od partnera nebo společníka čekáš zázraky a po nich přichází zklamání. Krok udělaný v návalu nadšení mívá delší dohru, než se zdálo.",
+  "hard": [
+   {
+    "topics": [
+     "illness",
+     "addiction"
+    ],
+    "text": "Tradice tu mluví o nemocech z přemíry. Jupiter v napětí k ascendentu, který ukazuje tělo, podle ní přináší sklon k přejídání, přibírání tuku a zatížení jater a krve. Starší autoři k tomu řadí i nestřídmost v pití. Jde o tradiční obraz, ne o jistotu."
+   },
+   {
+    "topics": [
+     "loss",
+     "ruin"
+    ],
+    "text": "Tradice tu mluví také o škodě z rozmařilosti a přehnané důvěry. Okázalé vystupování, unáhlené sliby a víra v cizí sliby podle ní mohou vést ke ztrátám a k narušení dobrého jména. Jde o varovný obraz tradice, ne o předpověď."
+   }
+  ],
+  "traits": {
+   "text": [
+    "optimism",
+    "generosity",
+    "self_confidence",
+    "wanderlust",
+    "vitality"
+   ],
+   "shadow": [
+    "extravagance",
+    "pride",
+    "indulgence",
+    "irresponsibility",
+    "vanity"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "transit_point/jupiter/mc/conjunction",
+  "title": "Tranzitující Jupiter – Medium coeli (MC): konjunkce",
+  "keywords": [
+   "uznání",
+   "kariérní vzestup",
+   "poslání",
+   "veřejný obraz",
+   "přehánění"
+  ],
+  "themes": [
+   "work",
+   "growth",
+   "character"
+  ],
+  "text": "Jupiter přechází přes vrchol tvého horoskopu a tvoje práce vychází na světlo. Lidé ve vedení si všímají výsledků, přichází nabídka, povýšení nebo nová role. Získáváš jméno v oboru a tvoje slovo má větší váhu. Roste chuť dělat něco smysluplného, ne jen plnit úkoly. Láká tě studium, spolupráce se zahraničím nebo veřejné vystupování. Důvěřuješ svému směru a tahle jistota přitahuje příležitosti i podporu.",
+  "shadow": "Jupiter na vrcholu tvého horoskopu zvětšuje i ctižádost nad rozumnou míru. Úspěch snadno stoupá do hlavy. Slibuješ víc, než zvládneš dodat, a bereš projekty, na které nestačí čas. Veřejný obraz začíná mít větší váhu než skutečná práce. Hrozí nadutost vůči kolegům a dojem, že pravidla platí jen pro ostatní. Oslav, reprezentace a pracovních večeří přibývá. Pochvaly přijímáš bez kritického odstupu a přehlížíš varování lidí, kteří vidí slabá místa.",
+  "hard": [
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o přemíře, která provází úspěch. Hojné jídlo a pití při oslavách a společenských povinnostech podle ní zatěžuje játra a přidává tuk. Starší autoři připisují Jupiteru nemoci z nadbytku, ne z nedostatku. Nejde o jistotu, spíš o obraz těla v období hojnosti."
+   },
+   {
+    "topics": [
+     "ruin",
+     "loss"
+    ],
+    "text": "Tradice tu mluví o pádu z výšky. Kdo na vrcholu kariéry přecení své síly, příliš rychle se rozpíná a slibuje nad své možnosti, může podle starých výkladů přijít o postavení i dobré jméno. Pýcha tu předchází ztrátě úřadu, nikoli jako jistota, ale jako tradiční varování."
+   }
+  ],
+  "traits": {
+   "text": [
+    "ambition",
+    "optimism",
+    "self_confidence",
+    "leadership",
+    "idealism"
+   ],
+   "shadow": [
+    "pride",
+    "vanity",
+    "extravagance",
+    "indulgence",
+    "irresponsibility"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "transit_point/jupiter/mc/harmonious",
+  "title": "Tranzitující Jupiter – Medium coeli (MC): harmonický aspekt (sextil, trigon)",
+  "keywords": [
+   "kariérní růst",
+   "uznání",
+   "příležitosti",
+   "poslání",
+   "dobrá pověst"
+  ],
+  "themes": [
+   "work",
+   "growth",
+   "health"
+  ],
+  "text": "Tranzitující Jupiter v sextilu nebo trigonu k MC otevírá v kariéře cestu bez velkého tlaku. Práce dostává větší smysl. Tvoje jméno se dostává k lidem, kteří rozhodují. Přicházejí nabídky, povýšení, studium nebo cesty spojené s profesí. Mentoři a nadřízení ti fandí a tvoje pověst roste. Snáz vidíš, kam má tvoje poslání směřovat, a máš odvahu říct to nahlas. Úspěch často přichází přes vzdělání, učení druhých nebo kontakty v cizině.",
+  "shadow": "Lehkost, kterou tenhle tranzit přináší kariéře, svádí k pohodlnosti. Příležitosti chodí samy, a tak je snadno necháváš proplout bez vlastního úsilí. Hrozí slibování víc, než zvládneš dodat. Přibírání příliš mnoha závazků najednou tě rozmělní. Dobrá pověst může přerůst v nadutost a pocit, že pravidla platí jen pro ostatní. Veřejný obraz pak působí nafouknutě. Nadšení z úspěchu tě někdy vede k lehkomyslným rozhodnutím o dalším směru. Jejich následky se ukážou až po odeznění tranzitu.",
+  "hard": [
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o přemíře, která provází období úspěchu: oslavy, hostiny a pracovní večeře. Jupiter se v ní pojí s játry a tukem. Starší autoři proto u tohoto tranzitu zmiňují přibírání na váze a zátěž jater z hojnosti. U harmonického aspektu jde podle tradice spíš o mírný sklon než o vážné ohrožení."
+   }
+  ],
+  "traits": {
+   "text": [
+    "ambition",
+    "optimism",
+    "leadership",
+    "self_confidence",
+    "generosity"
+   ],
+   "shadow": [
+    "pride",
+    "carelessness",
+    "irresponsibility",
+    "indulgence",
+    "vanity"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "transit_point/jupiter/mc/tense",
+  "title": "Tranzitující Jupiter – Medium coeli (MC): napěťový aspekt (kvadrát, opozice)",
+  "keywords": [
+   "profesní růst",
+   "přehnané sliby",
+   "spor s autoritou",
+   "veřejný obraz",
+   "domov a kariéra"
+  ],
+  "themes": [
+   "work",
+   "growth",
+   "family",
+   "health"
+  ],
+  "text": "Tranzitující Jupiter v napětí k MC rozšiřuje tvé profesní ambice rychleji, než to dovolují okolnosti. Chceš víc prostoru, uznání a práci, která dává smysl. Přicházejí nabídky, studium nebo cesty spojené s posláním, ale ne bez tření. Opozice tě zároveň táhne k domovu a rodině, takže hledáš rovnováhu mezi veřejnou rolí a soukromím. Máš odvahu říct své přesvědčení i nadřízeným. Víra ve vlastní směr ti dodává energii a otevírá dveře, které dřív vypadaly zavřené.",
+  "shadow": "Napětí Jupitera s MC svádí k tomu, že slibuješ víc, než zvládneš dodat, a přeceňuješ svou pozici v práci. Vidíš velký cíl, ale přehlížíš detaily a lidi, na kterých výsledek stojí. Snadno vzniká spor s autoritou, když tvé přesvědčení naráží na pravidla instituce. Lákají tě okázalá gesta, drahý obraz úspěchu a tituly bez obsahu. Hrozí, že kariéra pohltí rodinu nebo že nadutost na veřejnosti vzbudí odpor. Velký projekt se pak může zhroutit vlastní vahou.",
+  "hard": [
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o zátěži jater a přibývání tuku v obdobích, kdy pracovní vzestup provázejí bohaté hostiny, stres a přemíra ve všem. Spojuje to s životem nad míru, ne s náhodou. Jde o starý obraz, nikoli o jistou předpověď."
+   },
+   {
+    "topics": [
+     "ruin",
+     "loss"
+    ],
+    "text": "Tradice tu mluví o pádu z výšky: o ztrátě postavení nebo dobrého jména kvůli přehnaným slibům, okázalosti a sporu s vyšší autoritou. Starší výklady varují, že rychlý vzestup bez pevného základu se může obrátit v ostudu. Je to tradiční motiv, ne nevyhnutelný osud."
+   }
+  ],
+  "traits": {
+   "text": [
+    "ambition",
+    "optimism",
+    "courage",
+    "justice"
+   ],
+   "shadow": [
+    "pride",
+    "extravagance",
+    "risk_taking",
+    "irresponsibility"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "transit_point/saturn/asc/conjunction",
+  "title": "Tranzitující Saturn – ascendent: konjunkce",
+  "keywords": [
+   "odpovědnost",
+   "zralost",
+   "hranice",
+   "vážnost",
+   "tělo"
+  ],
+  "themes": [
+   "character",
+   "health",
+   "growth",
+   "work"
+  ],
+  "text": "Saturn teď prochází tvým ascendentem a tvoje vystupování dostává pevnější obrys. Působíš vážněji a střídměji a lidé ti víc důvěřují. Přichází čas převzít odpovědnost za to, jak jednáš a jak se prezentuješ. Daří se ti stanovit hranice, říct ne a dotáhnout věci do konce. Tělo hlásí své potřeby a žádá pravidelnost. Odkládáš role, které ti už nesedí, a stavíš obraz sebe, který vydrží roky.",
+  "shadow": "Když Saturn tíží ascendent, na tváři i v držení těla se může usadit únava a zachmuřenost. Okolí tě vnímá jako chladnějšího člověka, než jakým se uvnitř cítíš. Snadno se objevuje pocit nedostatečnosti: v zrcadle vidíš hlavně chyby a každý svůj krok posuzuješ přísně. Ze strachu z neúspěchu se stahuješ do ústraní a odkládáš nové začátky. Energie ubývá rychleji a tělo zpomaluje. Přísnost vůči sobě pak přechází ve strnulost a pesimismus.",
+  "hard": [
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o období, kdy tělo ukazuje své meze. Spojuje tento tranzit s potížemi kostí, kloubů, zubů a kůže, s ochabnutím vitality a s propuknutím nebo zhoršením chronických obtíží. Staré texty uvádějí také dojem rychlejšího stárnutí."
+   },
+   {
+    "topics": [
+     "loss"
+    ],
+    "text": "Tradice tu mluví o osamění a ztrátách. Popisuje období, kdy se okruh lidí zužuje, kdy odchází opora nebo končí vztahy a role, které dosud určovaly tvou identitu. Pocit izolace a tíhy se přitom může prohloubit."
+   },
+   {
+    "topics": [
+     "mental_crisis"
+    ],
+    "text": "Tradice tu mluví o melancholii, kterou se Saturnem úzce spojuje. Na ascendentu se podle ní může projevit dlouhá sklíčenost, ztráta chuti do života a dojem, že žádná snaha nemá smysl."
+   },
+   {
+    "topics": [
+     "death"
+    ],
+    "text": "Tradice tu mluví i o smrti. Staří astrologové spojovali Saturn na ascendentu s ohrožením života, zvláště ve vyšším věku nebo při oslabeném zdraví. Zmiňují také úmrtí starších lidí v okolí, například autorit nebo předků. Jde o tradiční výklad, ne o předpověď."
+   }
+  ],
+  "traits": {
+   "text": [
+    "responsibility",
+    "discipline",
+    "order",
+    "realism",
+    "steadiness"
+   ],
+   "shadow": [
+    "insecurity",
+    "coldness",
+    "pessimism",
+    "rigidity",
+    "exhaustion"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "transit_point/saturn/asc/harmonious",
+  "title": "Tranzitující Saturn – ascendent: harmonický aspekt (sextil, trigon)",
+  "keywords": [
+   "zralost",
+   "spolehlivý dojem",
+   "řád v těle",
+   "přirozená autorita",
+   "vytrvalost"
+  ],
+  "themes": [
+   "character",
+   "work",
+   "health",
+   "growth"
+  ],
+  "text": "Tranzitující Saturn v souladu s ascendentem ti dává klidnou vážnost, kterou okolí rozpozná na první pohled. Působíš spolehlivě a lidé ti svěřují odpovědnost bez dlouhého přemlouvání. Tělu teď prospívá pravidelný rytmus, pohyb s řádem a jasné hranice mezi prací a odpočinkem. Je to dobrá doba sladit vzhled, styl i vystupování s tím, kým skutečně jsi. Trpělivé kroky přinášejí viditelné výsledky. Autorita přichází přirozeně, bez zvyšování hlasu.",
+  "shadow": "Harmonický Saturn na ascendentu svádí k pohodlné strnulosti: když všechno drží, přestáváš cokoli měnit. Na první dojem můžeš působit chladně, odměřeně a vážněji, než odpovídá tvé povaze. Vážnost se snadno stává maskou, za kterou schováváš pocit nedostatečnosti. Lidé tě respektují, ale nemusí se k tobě přiblížit. Přehnaná opatrnost zpomaluje jednání: čekáš na úplnou jistotu a příležitost mezitím odejde. Pesimismus se tu projevuje tiše, v držení těla, v úsporných gestech a v tom, jak málo si dovolíš.",
+  "hard": [
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o kostech, kloubech, zubech a kůži jako o místech, kde se Saturn v těle ozývá. U harmonického aspektu jde podle starých výkladů spíš o pomalé, chronické potíže, které zůstávají dlouho stabilní, než o náhlé zhoršení. Starší autoři sem řadí také ztuhlost těla a únavu z dlouhodobého přetížení."
+   },
+   {
+    "topics": [
+     "death",
+     "loss"
+    ],
+    "text": "Tradice tu mluví o stáří, smrti a ztrátách hlavně v souvislosti se staršími lidmi z tvého okolí. Období může podle ní přinést odchod někoho, kdo pro tebe představoval oporu nebo autoritu. Harmonický aspekt staří autoři nespojují s ohrožením vlastního života, spíš s vědomím konečnosti, se smířením s plynutím času a s pocitem osamělosti, který přichází po takové ztrátě."
+   }
+  ],
+  "traits": {
+   "text": [
+    "responsibility",
+    "steadiness",
+    "discipline",
+    "patience",
+    "realism"
+   ],
+   "shadow": [
+    "rigidity",
+    "coldness",
+    "caution",
+    "pessimism",
+    "insecurity"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "transit_point/saturn/asc/tense",
+  "title": "Tranzitující Saturn – ascendent: napěťový aspekt (kvadrát, opozice)",
+  "keywords": [
+   "zkouška",
+   "hranice",
+   "tělo",
+   "vážnost",
+   "vytrvalost"
+  ],
+  "themes": [
+   "character",
+   "health",
+   "relationships",
+   "work",
+   "growth"
+  ],
+  "text": "Tranzitující Saturn v napětí k ascendentu zkouší, jak pevně stojíš ve vlastním těle a před lidmi. Okolí od tebe teď čeká víc vážnosti a hotových výsledků. Vystupuješ střídměji, mluvíš méně a vážíš každý krok. Učíš se říkat ne a držet hranice bez omlouvání. Tělo ti připomíná své meze, a tak upravuješ tempo, spánek a denní režim. Z tohoto období si odnášíš pevnější postoj a vážnost, která má krytí ve skutcích.",
+  "shadow": "Napětí Saturnu s ascendentem tě snadno zatlačí do strnulého a ostražitého postoje. Působíš chladněji, než ve skutečnosti cítíš, a lidé si tě drží od těla. Každý první krok se ti zdá těžký a každé odmítnutí potvrzuje pocit nedostatečnosti. Hrbíš se, zatínáš čelist, zpomaluješ. V práci nebo ve vztahu narážíš na někoho, kdo tě hodnotí a brzdí, a bereš to jako křivdu. Pesimismus ti našeptává, že se nic nezmění, a únava z tlaku přerůstá v uzavřenost.",
+  "hard": [
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o období, kdy se tělo ozývá pomaleji, ale vytrvaleji: o potížích s kostmi, klouby, zuby a kůží, o chronických nemocech a o pocitu rychlejšího stárnutí. Tento výklad popisuje sklon, nikoli jistotu."
+   },
+   {
+    "topics": [
+     "loss",
+     "death"
+    ],
+    "text": "Tradice tu mluví také o ztrátách, odloučení a osamělosti a o odchodu blízkých lidí, zvlášť těch starších. Smrt v tomto výkladu figuruje jako jeden z možných projevů Saturnova tlaku na ascendent. U opozice se tato témata často týkají partnerů a lidí, kteří stojí naproti tobě."
+   },
+   {
+    "topics": [
+     "mental_crisis"
+    ],
+    "text": "Tradice tu mluví o melancholii a tíživé sklíčenosti. Podle ní může dlouhý pocit nedostatečnosti přerůst v hlubší depresivní období, kdy ztrácí smysl i obyčejný den. Jde o tradiční obraz, ne o předpověď."
+   }
+  ],
+  "traits": {
+   "text": [
+    "responsibility",
+    "restraint",
+    "discipline",
+    "perseverance",
+    "realism"
+   ],
+   "shadow": [
+    "rigidity",
+    "coldness",
+    "pessimism",
+    "insecurity",
+    "exhaustion"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "transit_point/saturn/mc/conjunction",
+  "title": "Tranzitující Saturn – Medium coeli (MC): konjunkce",
+  "keywords": [
+   "zralost kariéry",
+   "odpovědnost",
+   "autorita",
+   "veřejné uznání",
+   "zkouška postavení"
+  ],
+  "themes": [
+   "work",
+   "character",
+   "growth",
+   "health",
+   "family"
+  ],
+  "text": "Saturn přechází přes vrchol tvého horoskopu a staví tvou kariéru před zkoušku zralosti. Ukazuje se, co máš v práci opravdu postavené. Poctivá snaha z minulých let teď přináší uznání, odpovědnější místo nebo pevnější pověst. Dostáváš víc pravomocí a s nimi i víc povinností. Své poslání pojmenováváš jasně a bez iluzí. Daří se ti dlouhodobé plány, sebekázeň a jednání s autoritami. Postupně přebíráš roli autority pro druhé.",
+  "shadow": "Saturn na vrcholu horoskopu odkrývá i slabá místa tvé kariéry. Co stojí na kompromisech nebo cizích očekáváních, začíná praskat. Přichází tlak shora, přísné hodnocení a pocit, že žádný výkon nestačí. Snadno tě ovládne strach z neúspěchu a z veřejného selhání. Práce pohlcuje čas i city a vztahy chladnou. Hrozí strnulé držení pozice, která už nedává smysl. Pesimismus ti pak brání vidět, že konec jedné role otevírá prostor pro jinou.",
+  "hard": [
+   {
+    "topics": [
+     "loss",
+     "ruin"
+    ],
+    "text": "Tradice tu mluví o pádu z vysoké pozice. Kdo stoupá příliš rychle nebo nepoctivě, může podle starých výkladů přijít o místo, titul či dobré jméno. Spojuje to s veřejnou ostudou a se ztrátou postavení, které se budovalo léta."
+   },
+   {
+    "topics": [
+     "death",
+     "loss"
+    ],
+    "text": "Tradice tu mluví také o ztrátě rodiče nebo staršího ochránce, protože MC se pojí s jedním z rodičů. Starší texty zmiňují úmrtí otce, matky či nadřízeného, který tě dosud kryl, a osamělost v odpovědnosti, která pak zůstává jen na tobě."
+   },
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o chronických obtížích z dlouhodobého přetížení. Zmiňuje kosti, klouby, záda a kolena, vyčerpání z práce a předčasné stárnutí pod tíhou povinností a veřejných nároků."
+   }
+  ],
+  "traits": {
+   "text": [
+    "responsibility",
+    "ambition",
+    "discipline",
+    "perseverance",
+    "leadership"
+   ],
+   "shadow": [
+    "pessimism",
+    "rigidity",
+    "anxiety",
+    "coldness",
+    "exhaustion"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "transit_point/saturn/mc/harmonious",
+  "title": "Tranzitující Saturn – Medium coeli (MC): harmonický aspekt (sextil, trigon)",
+  "keywords": [
+   "profesní růst",
+   "odpovědnost",
+   "uznání",
+   "dlouhodobé plány",
+   "pevná pověst"
+  ],
+  "themes": [
+   "work",
+   "growth",
+   "character"
+  ],
+  "text": "Tranzitující Saturn v harmonickém aspektu k MC přináší do kariéry klidný a pevný růst. Dlouholetá práce teď nese viditelné plody. Okolí ti svěřuje odpovědnost, vedení nebo stabilnější místo. Tvoje pověst roste pomalu, ale drží. Máš jasnější představu o tom, co chceš za pár let dělat, a umíš k tomu rozvrhnout kroky. Starší lidé a autority ti spíš pomáhají, než brání. Je to dobrá doba pro dlouhodobé plány, profesní závazky a zpevnění veřejného obrazu.",
+  "shadow": "Hladký průběh tranzitu Saturnu k MC svádí k pohodlné opatrnosti. Místo skutečného posunu volíš jistotu a bezpečnou roli. Práce může vytlačit odpočinek i blízké vztahy. Veřejný obraz působí spolehlivě, ale chladně a bez osobního tepla. I při uznání se ozývá pocit, že výkon pořád nestačí. Hrozí strnulost: držíš se zavedeného postupu jen proto, že funguje. Odpovědnost, kterou teď přijmeš, tě může vázat roky. Proto má smysl pečlivě vážit, k čemu se zavazuješ.",
+  "hard": [
+   {
+    "topics": [
+     "death",
+     "loss"
+    ],
+    "text": "Tradice tu mluví o tom, že tranzity Saturnu k ose MC se pojí s rodiči a staršími autoritami. Při harmonickém aspektu jde spíš o převzetí jejich role nebo odkazu. Někdy k tomu dochází po odchodu, nemoci či smrti staršího člověka. Jde o tradiční motiv, ne o předpověď."
+   },
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o únavě z dlouhodobého pracovního přetížení a o zátěži kostí, kloubů a zad. Saturn se v tradičním výkladu pojí s chronickými potížemi, které se ozývají pomalu a nenápadně, často právě v obdobích velkého pracovního nasazení."
+   },
+   {
+    "topics": [
+     "loss"
+    ],
+    "text": "Tradice tu mluví také o osamělosti, která provází vyšší postavení. S rostoucí odpovědností se může vzdalovat kolegiální blízkost a ubývat lidí, se kterými lze mluvit otevřeně."
+   }
+  ],
+  "traits": {
+   "text": [
+    "responsibility",
+    "perseverance",
+    "ambition",
+    "diligence",
+    "realism"
+   ],
+   "shadow": [
+    "caution",
+    "rigidity",
+    "coldness",
+    "insecurity",
+    "exhaustion"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "transit_point/saturn/mc/tense",
+  "title": "Tranzitující Saturn – Medium coeli (MC): napěťový aspekt (kvadrát, opozice)",
+  "keywords": [
+   "zkouška kariéry",
+   "tlak autorit",
+   "odpovědnost",
+   "přestavba postavení",
+   "profesní zralost"
+  ],
+  "themes": [
+   "work",
+   "character",
+   "growth",
+   "family",
+   "health"
+  ],
+  "text": "Saturn v napětí k tvému MC prověřuje kariéru a veřejný obraz. Co stojí na chatrných základech, teď praská. Co má za sebou poctivou práci, obstojí. Nadřízení a instituce chtějí výsledky, ne sliby. Povinností přibývá a uznání přichází pomalu. Právě teď ale získáváš skutečnou zralost v práci. Učíš se odmítat úkoly, které k tvému poslání nepatří. Vytrvalost a jasné hranice ti pomáhají přestavět profesní cestu tak, aby unesla další roky.",
+  "shadow": "Tlak na kariéru pod tímto tranzitem snadno přerůstá v pocit, že dosavadní práce nemá žádnou cenu. Kritika od autorit bolí víc než jindy a živí pochybnosti o vlastních schopnostech. Hrozí strnulé lpění na pozici, která už nedává smysl, nebo naopak rezignace. Při opozici se přetahují povinnosti doma a v zaměstnání a práce vytlačuje blízké lidi. Chlad a pesimismus pak ubírají sílu. Neúspěch vypadá definitivně, i když často jde jen o zpoždění.",
+  "hard": [
+   {
+    "topics": [
+     "loss",
+     "ruin"
+    ],
+    "text": "Tradice tu mluví o pádu z postavení: o ztrátě místa, úřadu nebo dobrého jména, o veřejném nezdaru a odchodu z role, se kterou se člověk ztotožňoval. Staré výklady spojují tento tranzit s koncem kariérní etapy, který přichází zvenčí a nedá se odvrátit. Jde o tradiční motiv, ne o jistotu."
+   },
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o vyčerpání z dlouhého přetížení a o chronických potížích, které se pod tlakem zhoršují. Zmiňuje kosti, klouby, zuby a záda, tedy oblasti, které Saturn tradičně spravuje. Je to tradiční souvislost, nikoli předpověď."
+   },
+   {
+    "topics": [
+     "death",
+     "loss"
+    ],
+    "text": "Tradice tu mluví o smrti nebo vážné nemoci rodiče či jiné autority, protože osa MC–IC se tradičně váže k rodičům. Staré výklady k tomuto období řadí také ztrátu mentora nebo ochránce a osamělost, která po odchodu opory zůstává. Nejde o jistotu, jen o téma, které se může ozvat."
+   },
+   {
+    "topics": [
+     "mental_crisis"
+    ],
+    "text": "Tradice tu mluví o skleslosti a hluboké melancholii po profesním nezdaru, o pocitu selhání a ztrátě smyslu, když se rozpadne obraz vlastní hodnoty postavený na práci. Staré texty to popisují jako temné období, ne jako trvalý stav."
+   }
+  ],
+  "traits": {
+   "text": [
+    "responsibility",
+    "perseverance",
+    "discipline",
+    "realism",
+    "ambition"
+   ],
+   "shadow": [
+    "pessimism",
+    "insecurity",
+    "rigidity",
+    "exhaustion",
+    "coldness"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "transit_point/uranus/asc/conjunction",
+  "title": "Tranzitující Uran – ascendent: konjunkce",
+  "keywords": [
+   "nový vzhled",
+   "nezávislost",
+   "náhlá změna",
+   "originalita",
+   "neklid"
+  ],
+  "themes": [
+   "character",
+   "growth",
+   "relationships",
+   "health"
+  ],
+  "text": "Uran přechází přes tvůj ascendent a mění způsob, jakým působíš na okolí. Najednou ti nesedí starý styl oblékání, účes ani role, kterou od tebe lidé čekají. Máš chuť jednat po svém a bez dlouhého vysvětlování. Lidé si všímají nové energie, odvahy a neobvyklých nápadů. Přitahují tě noví přátelé, technika a prostředí, kde nikdo nezná tvou minulost. Tělo reaguje živěji a žádá pohyb i volnost. Z tebe se teď stává výraznější a svéráznější osobnost.",
+  "shadow": "Když Uran přechází přes ascendent, touha po svobodě snadno přeroste v ostré gesto bez rozmyslu. Měníš vzhled, práci nebo vztahy jen proto, aby bylo vidět, že tě nic nesvazuje. Okolí pak tvé jednání vnímá jako výstřednost nebo vzdor kvůli vzdoru. Nervy máš napjaté, spánek přerušovaný a trpělivost krátkou. Od blízkých lidí se vzdaluješ dřív, než stihnou pochopit, co se děje. Nestálost v plánech pak ztěžuje spolupráci i důvěru.",
+  "hard": [
+   {
+    "topics": [
+     "illness",
+     "death"
+    ],
+    "text": "Tradice tu mluví o nehodách a náhlých úrazech, protože ascendent představuje tělo. Starší výklady zmiňují pády, řezná poranění a nehody v dopravě nebo při práci s technikou a elektřinou, v krajních případech i ohrožení života. Nejde o jistotu, spíše o období, kdy spěch a nepozornost mají větší váhu."
+   },
+   {
+    "topics": [
+     "mental_crisis"
+    ],
+    "text": "Tradice tu mluví o nervovém vypětí. Popisuje nespavost, vnitřní neklid, podrážděnost, náhlé stavy úzkosti a pocit, že se život vymyká z rukou. Některé výklady spojují toto období i s nervovým zhroucením, pokud tlak trvá dlouho."
+   },
+   {
+    "topics": [
+     "loss"
+    ],
+    "text": "Tradice tu mluví o rozvratech a náhlých zlomech. Uvádí nečekané rozchody, odchody z domova či zaměstnání a rozpad situací, které dosud působily pevně. Ztráta podle ní přichází prudce a často bez varování."
+   }
+  ],
+  "traits": {
+   "text": [
+    "independence",
+    "originality",
+    "transformation",
+    "courage",
+    "vitality"
+   ],
+   "shadow": [
+    "rebellion",
+    "impulsiveness",
+    "restlessness",
+    "inconstancy",
+    "detachment"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "transit_point/uranus/asc/harmonious",
+  "title": "Tranzitující Uran – ascendent: harmonický aspekt (sextil, trigon)",
+  "keywords": [
+   "svěží vystupování",
+   "noví přátelé",
+   "změna stylu",
+   "volnost v jednání",
+   "technika"
+  ],
+  "themes": [
+   "character",
+   "relationships",
+   "growth"
+  ],
+  "text": "Uran teď plynule uvolňuje tvůj způsob vystupování a lidé si všímají, že působíš svěžeji. Změna vzhledu, stylu nebo držení těla přichází přirozeně, bez bourání. Snadno navazuješ kontakt s novými lidmi a přáteli, kteří ti rozšiřují obzor. Odvažuješ se jednat podle sebe a okolí to přijímá bez odporu. Tělo dobře reaguje na nové druhy pohybu a technika ti jde od ruky. Je to vhodná doba vyzkoušet, jak vypadá tvoje svobodnější podoba.",
+  "shadow": "Snadnost, s jakou teď měníš svůj obraz navenek, svádí ke změnám jen pro efekt. Nový účes nebo styl může nahradit skutečný krok, který dál zůstává neudělaný. Máš sklon k neklidu a těžko vydržíš u zavedené rutiny. Originalita se může zvrhnout v pózu, kterou předvádíš druhým. Lidé, kteří tě znají dlouho, mohou cítit odtažitost, když se s nadšením obracíš k novým známostem. Závazky odkládáš s tím, že teď potřebuješ prostor.",
+  "hard": [
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "U harmonických aspektů tradice nevidí rozvraty ani nehody jako hlavní tón. Přesto tu mluví o nervovém vypětí, nespavosti a přetížení, když tělo nestíhá tempo nových podnětů. Starší autoři zmiňují i drobné úrazy z nepozornosti při nových sportech nebo při práci s technikou. Jde o možnost, ne o jistotu."
+   }
+  ],
+  "traits": {
+   "text": [
+    "originality",
+    "openness",
+    "flexibility",
+    "independence",
+    "sociability"
+   ],
+   "shadow": [
+    "restlessness",
+    "inconstancy",
+    "superficiality",
+    "detachment",
+    "commitment_fear"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "transit_point/uranus/asc/tense",
+  "title": "Tranzitující Uran – ascendent: napěťový aspekt (kvadrát, opozice)",
+  "keywords": [
+   "náhlá proměna vystupování",
+   "touha po svobodě",
+   "nervové napětí",
+   "nečekaná setkání",
+   "nový styl"
+  ],
+  "themes": [
+   "character",
+   "health",
+   "relationships",
+   "growth"
+  ],
+  "text": "Tranzitující Uran v napětí k ascendentu otřásá tím, jak se prezentuješ a jak tě vidí okolí. Ozývá se potřeba vypadat a jednat jinak než dosud. Měníš styl, účes, způsob pohybu nebo celé vystupování. Lidé kolem tě najednou nepoznávají. Přicházejí nečekaná setkání, noví přátelé a podněty, které vytrhují z rutiny. Tělo reaguje rychleji a nervy jsou napjaté jako struna. Máš odvahu odhodit masku, která už nesedí, a vyzkoušet nový přístup ke světu.",
+  "shadow": "Při napětí Uranu k ascendentu se touha po změně snadno mění v trhavé a nepředvídatelné jednání. Reaguješ dřív, než promyslíš následky. Vzdoruješ i tam, kde tě nikdo neomezuje. Na okolí působíš nestále a odtažitě, blízcí nevědí, na čem s tebou jsou. Opozice přivádí protějšky, které tlačí na rychlou změnu, nebo přináší nečekaný odchod druhého. Tělo nese nervové vypětí: nespavost, roztěkanost, chvat. Spěch a nepozornost zvyšují sklon k drobným úrazům.",
+  "hard": [
+   {
+    "topics": [
+     "illness",
+     "death"
+    ],
+    "text": "Tradice tu mluví o náhlých nehodách a úrazech, zvlášť při spěchu, práci s technikou a elektřinou, v dopravě nebo ve výškách. Starší autoři u tohoto tranzitu zmiňují zranění hlavy a končetin a ve vyhrocených horoskopech i nehodu s vážnými či smrtelnými následky. Jde o tradiční varování, ne o jistotu."
+   },
+   {
+    "topics": [
+     "mental_crisis",
+     "illness"
+    ],
+    "text": "Tradice tu mluví o nervovém vypětí: nespavosti, křečích, bušení srdce, náhlých kolapsech a stavech přetížení. U citlivějších povah zmiňuje i nervové zhroucení nebo úzkostné ataky v době, kdy se rozpadá dosavadní způsob života."
+   },
+   {
+    "topics": [
+     "loss"
+    ],
+    "text": "Tradice tu mluví o náhlých rozchodech a rozvratech vztahů, hlavně při opozici, kdy Uran stojí na descendentu. Uvádí nečekaný odchod partnera, rozvod, rozpad společenství nebo přerušení přátelství bez zjevného varování."
+   }
+  ],
+  "traits": {
+   "text": [
+    "originality",
+    "independence",
+    "transformation",
+    "courage",
+    "restlessness"
+   ],
+   "shadow": [
+    "impulsiveness",
+    "rebellion",
+    "inconstancy",
+    "detachment",
+    "anxiety"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "transit_point/uranus/mc/conjunction",
+  "title": "Tranzitující Uran – Medium coeli (MC): konjunkce",
+  "keywords": [
+   "kariérní zlom",
+   "nezávislost",
+   "nové poslání",
+   "veřejný obraz",
+   "nečekané příležitosti"
+  ],
+  "themes": [
+   "work",
+   "growth",
+   "character"
+  ],
+  "text": "Uran procházející přes tvé MC otřásá tím, kam míří tvoje kariéra a jak tě vidí okolí. Dosavadní práce nebo role najednou tlačí jako těsná bota. Přicházejí nabídky, nápady a lidé, kteří otevírají nečekané cesty. Máš odvahu změnit obor, osamostatnit se nebo zkusit něco nového s technikou. Tvoje originalita vystupuje na veřejnost a přitahuje pozornost. Poslání, které dřív jen doutnalo, se teď může náhle ukázat naplno.",
+  "shadow": "Uran na MC svádí k odchodu z práce dřív, než máš kam jít. Odpor k nadřízeným a pravidlům se snadno mění ve vzdor kvůli vzdoru. Veřejný obraz kolísá: dnes vzbuzuješ obdiv, zítra pohoršení. Plány měníš tak často, že je ostatní přestávají brát vážně. Láká tě výstřednost jen pro efekt a vůči kolegům se objevuje odtažitost. Napětí kolem kariéry se ukládá do nervů. Přichází nespavost, podrážděnost a pocit, že nic nemá pevnou půdu.",
+  "hard": [
+   {
+    "topics": [
+     "ruin",
+     "loss"
+    ],
+    "text": "Tradice tu mluví o náhlém pádu z postavení, o ztrátě místa, rozpadu firmy nebo o veřejném skandálu, který otřese pověstí. Zlom podle ní přichází bez varování a dosavadní kariéra se může zhroutit ze dne na den."
+   },
+   {
+    "topics": [
+     "mental_crisis"
+    ],
+    "text": "Tradice tu mluví o silném nervovém vypětí a vyčerpání. Tlak náhlých změn podle ní může přerůst v úzkostné stavy, nervové zhroucení nebo období, kdy se vytrácí vnitřní opora."
+   },
+   {
+    "topics": [
+     "death",
+     "illness",
+     "loss"
+    ],
+    "text": "Tradice tu mluví také o náhlých událostech kolem jednoho z rodičů, protože MC spojuje s rodičovskou autoritou. Zmiňuje nečekanou nemoc, nehodu nebo úmrtí rodiče či jiné autority, která dosud dávala životu směr."
+   },
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o nehodách a úrazech spojených s prací, technikou, elektřinou nebo cestováním. Riziko podle ní roste ve chvílích spěchu, roztěkanosti a nervového přetížení."
+   }
+  ],
+  "traits": {
+   "text": [
+    "originality",
+    "independence",
+    "transformation",
+    "courage",
+    "ambition"
+   ],
+   "shadow": [
+    "rebellion",
+    "inconstancy",
+    "impulsiveness",
+    "detachment",
+    "restlessness"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "transit_point/uranus/mc/harmonious",
+  "title": "Tranzitující Uran – Medium coeli (MC): harmonický aspekt (sextil, trigon)",
+  "keywords": [
+   "nečekaná příležitost",
+   "změna kariéry",
+   "profesní svoboda",
+   "originalita",
+   "nový obor"
+  ],
+  "themes": [
+   "work",
+   "growth",
+   "character"
+  ],
+  "text": "Tranzitující Uran v harmonickém aspektu k MC otevírá v kariéře dveře, které byly dlouho zavřené. Přichází nečekaná nabídka, nový obor nebo změna role, která dává smysl. Láká tě práce s větší volností a vlastním stylem. Máš odvahu ukázat svou originalitu nadřízeným i veřejnosti. Pomáhají přátelé, kontakty a moderní technika. Změny tentokrát přicházejí hladce a lidé kolem je přijímají bez velkého odporu. Tvůj veřejný obraz získává svěží, nezávislý nádech.",
+  "shadow": "Snadné příležitosti, které tranzitující Uran v harmonickém aspektu k MC přináší, svádějí k unáhleným krokům v kariéře. Jistou pozici opouštíš jen proto, že tě nudí rutina. Novinka tě nadchne a za pár týdnů ztrácí lesk. Vůči autoritám se objevuje vzdor bez skutečného důvodu. Tvůj nezávislý styl může působit odtažitě nebo výstředně. Hrozí, že dobrá příležitost propadne, protože chybí vytrvalost ji dotáhnout. Volnost bez plánu se mění v roztříštěnost.",
+  "traits": {
+   "text": [
+    "originality",
+    "independence",
+    "flexibility",
+    "courage",
+    "creativity"
+   ],
+   "shadow": [
+    "restlessness",
+    "inconstancy",
+    "rebellion",
+    "impulsiveness",
+    "detachment"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "transit_point/uranus/mc/tense",
+  "title": "Tranzitující Uran – Medium coeli (MC): napěťový aspekt (kvadrát, opozice)",
+  "keywords": [
+   "náhlá změna kariéry",
+   "svoboda v práci",
+   "veřejný obraz",
+   "vzdor autoritám",
+   "nový směr"
+  ],
+  "themes": [
+   "work",
+   "growth",
+   "character"
+  ],
+  "text": "Tranzitující Uran v napětí s tvým MC otřásá kariérou i veřejným obrazem, který už neodpovídá tomu, kým dnes jsi. Pracovní role, která dlouho držela, najednou tlačí jako těsná bota. Roste chuť odejít, změnit obor nebo začít na vlastní pěst. Máš odvahu ukázat originální nápady a odmítnout cizí šablony. Pomáhají přátelé, technika a nečekané nabídky. Změna často přichází zvenku a rychle: reorganizace, nový šéf, příležitost, se kterou nikdo nepočítal.",
+  "shadow": "Stinnou stránkou tohoto tranzitu je odchod z práce ve vzteku a bez plánu, jen aby bylo jasné, že tě nikdo neovládá. Vzdor vůči nadřízeným se snadno mění v boj kvůli boji. Plány se mění každý týden a okolí ztrácí přehled, na čem s tebou je. Veřejný obraz trpí výstředností nebo nečekaným výstupem na poradě. Odtažitost od lidí, kteří tvou práci podporují, ti bere spojence. Nervové vypětí roste, myšlenky běží i v noci a klid se hledá těžko.",
+  "hard": [
+   {
+    "topics": [
+     "ruin",
+     "loss"
+    ],
+    "text": "Tradice tu mluví o náhlých zlomech v postavení: propuštění, krachu firmy, rozpadu projektu nebo skandálu, který přes noc pošramotí dobré jméno. Jde o možnost, ne o jistotu. Tradiční výklad zdůrazňuje hlavně rychlost a nečekanost takových změn."
+   },
+   {
+    "topics": [
+     "mental_crisis"
+    ],
+    "text": "Tradice tu mluví o silném nervovém vypětí: nespavosti, podrážděnosti, pocitu, že se půda pod nohama hýbe, a v těžších případech o zhroucení z přetížení a nejistoty kolem práce a budoucnosti."
+   },
+   {
+    "topics": [
+     "loss",
+     "illness"
+    ],
+    "text": "Tradice tu mluví také o nehodách spojených s prací nebo cestou za ní a o náhlých událostech v životě jednoho z rodičů, kterého MC tradičně zastupuje, včetně jeho nečekané nemoci nebo jiného zvratu."
+   }
+  ],
+  "traits": {
+   "text": [
+    "independence",
+    "originality",
+    "rebellion",
+    "courage",
+    "transformation"
+   ],
+   "shadow": [
+    "impulsiveness",
+    "inconstancy",
+    "rebellion",
+    "detachment",
+    "restlessness"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "transit_point/neptune/asc/conjunction",
+  "title": "Tranzitující Neptun – ascendent: konjunkce",
+  "keywords": [
+   "rozostřená identita",
+   "vnímavost",
+   "kouzlo osobnosti",
+   "iluze",
+   "proměna vzhledu"
+  ],
+  "themes": [
+   "character",
+   "health",
+   "growth",
+   "relationships"
+  ],
+  "text": "Neptun právě prochází přes tvůj ascendent a rozmazává obrysy toho, jak se ukazuješ světu. Lidé v tobě vidí víc, než říkáš: tajemství, něhu, někdy i vlastní přání. Tvoje vnímavost roste. Náladu v místnosti zachytíš dřív, než někdo promluví. Tělo jemněji reaguje na hudbu, vodu, vůně i cizí emoce. Hodí se to pro umění, fotografii, tanec, pomoc druhým i pro proměnu vzhledu, která vychází zevnitř. Starý obraz o sobě se pomalu rozpouští a uvolňuje místo něčemu novému.",
+  "shadow": "Když Neptun stojí na ascendentu, ztrácí se jasná odpověď na otázku, kdo vlastně jsi. Snadno přebíráš role, které od tebe čekají druzí, a pak nevíš, kde končíš ty. První dojem bývá mlhavý: lidé si do tebe promítají ideály i podezření. Hrozí nedorozumění, sliby, které nevydrží, a podlehnutí kouzlu člověka nebo prostředí, které ti nesvědčí. Tělo může působit unaveně, bez jasné energie. Láká útěk do snění, spánku nebo opojení místo jasného slova a pevného kroku.",
+  "hard": [
+   {
+    "topics": [
+     "addiction"
+    ],
+    "text": "Tradice tu mluví o zvýšené náchylnosti k alkoholu, lékům a látkám, které slibují úlevu. Tělo na ně podle ní reaguje citlivěji než obvykle a hranice mezi uvolněním a závislostí se v tomto období rychle ztrácí."
+   },
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o otravách, alergiích, oslabené obranyschopnosti a nejasných potížích, které se těžko pojmenují. Spojuje toto období také s chybnými diagnózami a s tělem, které ztrácí sílu bez zjevné příčiny."
+   },
+   {
+    "topics": [
+     "mental_crisis"
+    ],
+    "text": "Tradice tu mluví o duševní mlze, ztrátě pevné identity a zmatku. Ve vyhrocených výkladech zmiňuje klamné vjemy a odtržení od reality. Vnímavost, která jindy inspiruje, se tu podle ní může obrátit proti tobě."
+   },
+   {
+    "topics": [
+     "ruin",
+     "loss"
+    ],
+    "text": "Tradice tu mluví o klamu: o podvodnících, falešných přátelích a pomluvách, které poškodí pověst. Obraz, který o tobě koluje, se podle ní může vzdálit pravdě a s ním i důvěra, o kterou se opíráš."
+   },
+   {
+    "topics": [
+     "death"
+    ],
+    "text": "Tradice tu mluví o nebezpečí spojeném s vodou a jedy. Starší výklady uvádějí jako krajní možnost i utonutí nebo smrtelnou otravu. Jde o tradiční motiv, ne o předpověď."
+   }
+  ],
+  "traits": {
+   "text": [
+    "sensitivity",
+    "intuition",
+    "empathy",
+    "creativity",
+    "spirituality"
+   ],
+   "shadow": [
+    "escapism",
+    "insecurity",
+    "addiction_tendency",
+    "indecision",
+    "exhaustion"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "transit_point/neptune/asc/harmonious",
+  "title": "Tranzitující Neptun – ascendent: harmonický aspekt (sextil, trigon)",
+  "keywords": [
+   "snová přitažlivost",
+   "jemný projev",
+   "vnímavost",
+   "umělecký výraz",
+   "soucit"
+  ],
+  "themes": [
+   "character",
+   "relationships",
+   "health",
+   "growth"
+  ],
+  "text": "Neptun v souladu s ascendentem zjemňuje tvůj projev i vzhled. Lidé na tobě vidí něco snového a přitažlivého, co se těžko pojmenovává. Náladu v místnosti zachytíš dřív, než kdo promluví. Tělo teď citlivěji reaguje na hudbu, vodu a pohyb. Daří se ti tanec, fotografie, herectví nebo práce s obrazem. Do jednání vnášíš víc soucitu a méně tlaku. Ostatní ti snadno svěřují své starosti a tvoje přítomnost je uklidňuje.",
+  "shadow": "Snový dojem, který teď Neptun dodává tvému ascendentu, má i rub. Lidé do tebe promítají vlastní přání a pak je zklame, když poznají skutečného člověka. Tvoje hranice se rozostřují, takže přebíráš cizí nálady i únavu. Konkrétní rozhodnutí odkládáš, protože všechno působí otevřeně a měkce. Láká tě role chápavé duše, která nikdy neřekne ne. Pohodlí tohoto období svádí k pasivitě a k snění místo činů.",
+  "hard": [
+   {
+    "topics": [
+     "addiction"
+    ],
+    "text": "Tradice tu mluví o zvýšené citlivosti těla na alkohol, léky a jiné omamné látky. Harmonický aspekt podle ní riziko spíše tlumí. Přesto varuje před nenápadným sklouzáváním k příjemným únikům, které zpočátku nevypadají nebezpečně."
+   },
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví také o nejasných tělesných potížích, oslabené obranyschopnosti a únavě bez zjevné příčiny. U harmonického aspektu je považuje spíše za mírné a přechodné. Spojuje je s tím, že tělo nasává zátěž z okolí."
+   },
+   {
+    "topics": [
+     "mental_crisis"
+    ],
+    "text": "Tradice tu zmiňuje i duševní mlhu: zasněnost, která může přejít ve zmatenost a v oslabený kontakt s realitou. Při sextilu či trigonu ji popisuje jako slabší a snáze zvladatelnou než u napjatých aspektů."
+   }
+  ],
+  "traits": {
+   "text": [
+    "sensitivity",
+    "empathy",
+    "charm",
+    "creativity",
+    "intuition"
+   ],
+   "shadow": [
+    "escapism",
+    "indecision",
+    "procrastination",
+    "submissiveness"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "transit_point/neptune/asc/tense",
+  "title": "Tranzitující Neptun – ascendent: napěťový aspekt (kvadrát, opozice)",
+  "keywords": [
+   "rozostřená identita",
+   "vnímavost",
+   "iluze",
+   "proměna vystupování",
+   "citlivé tělo"
+  ],
+  "themes": [
+   "character",
+   "relationships",
+   "health",
+   "growth"
+  ],
+  "text": "Tranzitující Neptun v napětí k ascendentu rozostřuje obraz, který o sobě máš i který vysíláš. Druzí v tobě vidí to, co sami potřebují vidět. Tvoje vnímavost roste a tělo reaguje na prostředí, hluk i cizí nálady. Získáváš jemnější výraz, umělecký cit a schopnost vcítit se do lidí bez vysvětlování. Tohle období přeje hudbě, malbě, divadlu a péči o druhé. Starý způsob vystupování přestává sedět a hledáš nový.",
+  "shadow": "Napětí Neptunu s ascendentem ti bere jasné obrysy. Nevíš, kde končíš ty a kde začíná okolí. Snadno přebíráš cizí role a pak se v nich ztrácíš. Lidé si o tobě vytvářejí mylný obraz a ty ho neopravuješ. Při opozici přicházejí partneři a spojenci, kteří slibují víc, než splní, nebo tě vtahují do zachraňování či do role oběti. Dohody bývají mlhavé a závazky se rozplývají. Únava, roztěkanost a chuť utéct do snění, alkoholu nebo obrazovky oslabují tvou spolehlivost.",
+  "hard": [
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o nemocech, které se těžko rozpoznávají: o neurčité únavě, oslabené obranyschopnosti a přecitlivělosti na léky a různé látky. Zmiňuje i otravy, plísně, vlhké prostředí a infekce spojené s vodou. Příznaky se podle ní v tomto období špatně čtou a tělo reaguje nečekaně."
+   },
+   {
+    "topics": [
+     "addiction"
+    ],
+    "text": "Tradice tu mluví o sklonu k závislostem. Alkohol, uklidňující prostředky a drogy nabízejí rychlý únik z pocitu, že se vlastní identita rozpadá. Podle tradice se jejich užívání v tomto tranzitu snadno vymkne kontrole."
+   },
+   {
+    "topics": [
+     "mental_crisis"
+    ],
+    "text": "Tradice tu mluví o duševní mlze: o zmatku, ztrátě pevného pocitu vlastního já, sklonu ke skleslosti a v krajních případech o přeludech. Hranice mezi představou a skutečností se podle ní ztenčuje."
+   },
+   {
+    "topics": [
+     "death"
+    ],
+    "text": "Tradice tu mluví o nebezpečí spojeném s vodou, utonutím, otravou a předávkováním. Tato témata uvádí jako krajní podobu neptunského rozpouštění, nikoli jako předpověď."
+   },
+   {
+    "topics": [
+     "loss",
+     "ruin"
+    ],
+    "text": "Tradice tu mluví o klamu: o podvodných partnerech, pomluvách a ztrátě dobrého jména kvůli cizí lži nebo vlastní nejasnosti. Opozice podle ní přivádí lidi, jejichž skutečné úmysly se ukážou až pozdě."
+   }
+  ],
+  "traits": {
+   "text": [
+    "sensitivity",
+    "empathy",
+    "creativity",
+    "intuition",
+    "flexibility"
+   ],
+   "shadow": [
+    "escapism",
+    "insecurity",
+    "addiction_tendency",
+    "exhaustion",
+    "trustfulness"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "transit_point/neptune/mc/conjunction",
+  "title": "Tranzitující Neptun – Medium coeli (MC): konjunkce",
+  "keywords": [
+   "rozostřené poslání",
+   "inspirace v práci",
+   "proměnlivý veřejný obraz",
+   "zklamání z kariéry",
+   "práce se smyslem"
+  ],
+  "themes": [
+   "work",
+   "growth",
+   "character"
+  ],
+  "text": "Neptun přechází přes vrchol tvého horoskopu a rozostřuje to, co dosud znamenalo úspěch. Dřívější kariérní cíle ztrácejí lesk a ozývá se touha po práci se smyslem. Přitahuje tě umění, hudba, film, pomáhající profese nebo duchovní cesta. Veřejnost tě vnímá jemněji, někdy téměř magicky. Tvoje inspirace dokáže druhé oslovit víc než výkon. Intuice ti ukazuje směr dřív než plán. Toto období přeje spojení povolání s vnitřním přesvědčením.",
+  "shadow": "Hranice mezi snem a skutečností se v práci rozmazává. Tvoje pověst snadno podléhá pomluvám, nedorozuměním nebo cizím představám. Přicházejí sliby, které se nesplní, a vlastní plány bez pevné půdy pod nohama. Odpovědnost se zdá příliš těžká a láká k útěku, k odkládání rozhodnutí nebo k roli oběti okolností. Zklamání z dosavadní kariéry přináší pocit, že nic nemá cenu. Hrozí i pokušení vylepšovat skutečnost a říkat jen část pravdy. Vyplatí se ověřovat, co ti kdo slibuje.",
+  "hard": [
+   {
+    "topics": [
+     "ruin",
+     "loss"
+    ],
+    "text": "Tradice tu mluví o skandálech, ztrátě dobrého jména a společenského postavení. Odhalený klam, vlastní či cizí, může podle starých výkladů zpochybnit dlouho budovanou pověst. Zmiňuje i podvody v pracovním prostředí a nejasné okolnosti, které vedou k odchodu z místa."
+   },
+   {
+    "topics": [
+     "addiction",
+     "mental_crisis"
+    ],
+    "text": "Tradice tu mluví o útěku do alkoholu, drog nebo jiných látek ve chvíli, kdy kariéra ztrácí smysl. Spojuje toto postavení také s duševní mlhou, vyčerpáním a ztrátou orientace v tom, kým jsi a kam patříš."
+   },
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o oslabení zdraví jednoho z rodičů, kterého Medium coeli zastupuje. Uvádí také nejasné nemoci, otravy a chybné diagnózy, které se dlouho nedaří rozpoznat."
+   }
+  ],
+  "traits": {
+   "text": [
+    "intuition",
+    "creativity",
+    "idealism",
+    "spirituality",
+    "empathy"
+   ],
+   "shadow": [
+    "escapism",
+    "indecision",
+    "insecurity",
+    "chaos",
+    "deceit"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "transit_point/neptune/mc/harmonious",
+  "title": "Tranzitující Neptun – Medium coeli (MC): harmonický aspekt (sextil, trigon)",
+  "keywords": [
+   "inspirované poslání",
+   "intuice v kariéře",
+   "umělecká dráha",
+   "idealismus",
+   "jemný veřejný obraz"
+  ],
+  "themes": [
+   "work",
+   "growth",
+   "character"
+  ],
+  "text": "Tranzitující Neptun v harmonickém aspektu k MC vnáší do tvé profesní cesty inspiraci a tichý pocit poslání. Práce teď dává smysl, když v ní cítíš hlubší přesah. Otevírají se cesty k umění, hudbě, filmu, pomáhajícím profesím nebo duchovní práci. Intuice ti napovídá správné kroky dřív než rozum. Tvůj veřejný obraz změkčuje a okolí v tobě vidí citlivost a vizi. Snadno přitahuješ lidi, kteří sdílejí tvé ideály.",
+  "shadow": "Harmonický Neptun na MC tě láká o poslání spíš snít než na něm pracovat. Plynulost tohoto období svádí k pasivitě: čekáš na znamení místo rozhodnutí. Kariérní plány se rozplývají v mlhavých vizích bez termínů a pevných kroků. Klam ve slibech nadřízených nebo spolupracovníků snadno přehlédneš, protože všechno působí příjemně. Veřejný obraz se mění v projekci, kterou si o tobě vytvářejí druzí, a ty ji nevyvracíš. Hrozí také, že vlastní ambice odsuneš kvůli cizímu ideálu.",
+  "hard": [
+   {
+    "topics": [
+     "addiction",
+     "mental_crisis"
+    ],
+    "text": "Tradice tu mluví o tom, že i v harmonickém aspektu může Neptun spojit profesní život s alkoholem, léky nebo omamnými látkami, ať jako obor práce, nebo jako tichý únik před pracovním tlakem. Zmiňuje také duševní mlhu, kdy se rozmazává hranice mezi vizí a sebeklamem. Výklad to nepodává jako jistotu, spíš jako nenápadné pokušení příjemného období."
+   }
+  ],
+  "traits": {
+   "text": [
+    "creativity",
+    "intuition",
+    "idealism",
+    "empathy",
+    "spirituality"
+   ],
+   "shadow": [
+    "escapism",
+    "procrastination",
+    "trustfulness",
+    "self_sacrifice",
+    "indecision"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "transit_point/neptune/mc/tense",
+  "title": "Tranzitující Neptun – Medium coeli (MC): napěťový aspekt (kvadrát, opozice)",
+  "keywords": [
+   "ztráta směru",
+   "proměna poslání",
+   "nejasná pověst",
+   "inspirace v práci"
+  ],
+  "themes": [
+   "work",
+   "growth",
+   "character"
+  ],
+  "text": "Tranzitující Neptun v napětí k MC rozmazává obrysy tvé profesní cesty a zpochybňuje dosavadní cíle. Ambice, které dřív dávaly smysl, ztrácejí lesk. Místo nich se ozývá touha po práci s hlubším obsahem, třeba v umění, v pomoci druhým nebo v duchovním hledání. Intuice ti teď napovídá víc než pečlivé plány. Tvůj veřejný obraz se proměňuje a lidé v tobě začínají vidět něco nového. Je to období hledání poslání, ne jeho upevňování.",
+  "shadow": "Tranzitující Neptun v kvadrátu nebo opozici k MC vnáší mlhu do kariérních rozhodnutí i do toho, jak tě vidí okolí. Snadno tě zláká slib, který nemá pevný základ. Hrozí nedorozumění s nadřízenými, nejasné zadání, pomluvy nebo skandál, který vznikne z ničeho. Odpovědnost se nenápadně přesouvá na druhé, nebo naopak neseš vinu za cizí chyby. Sny o jiném životě odvádějí pozornost od konkrétních kroků. Pověst je teď křehká a přílišná důvěra ji může poškodit.",
+  "hard": [
+   {
+    "topics": [
+     "addiction"
+    ],
+    "text": "Tradice tu mluví o sklonu utíkat před pracovním tlakem a pocitem selhání k alkoholu, lékům nebo jiným látkám. Únik nemusí být nápadný. Často začíná jako způsob, jak přečkat náročný den, a postupně se mění ve zvyk, který zastírá skutečný problém."
+   },
+   {
+    "topics": [
+     "mental_crisis"
+    ],
+    "text": "Tradice tu mluví o duševní mlze, ztrátě smyslu a vyčerpání, které přichází, když se rozpadá dosavadní představa o vlastním místě ve světě. Objevuje se zmatek, pocit bezcílnosti a nejistota ohledně vlastní hodnoty."
+   },
+   {
+    "topics": [
+     "ruin",
+     "loss"
+    ],
+    "text": "Tradice tu mluví o pádu pověsti nebo ztrátě postavení. Za příčinu označuje klam, podvod ze strany kolegů či obchodních partnerů, nejasné okolnosti odchodu z místa nebo zapletení do cizí aféry. Podle tradice ztráta často přichází plíživě, ne jedním úderem."
+   },
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o oslabení zdraví jednoho z rodičů, protože osu MC spojuje s rodiči. Jde o nemoc s nejasnými příznaky, obtížně stanovitelnou diagnózou nebo souvislostí s otravou či léky."
+   }
+  ],
+  "traits": {
+   "text": [
+    "intuition",
+    "idealism",
+    "spirituality",
+    "creativity",
+    "transformation"
+   ],
+   "shadow": [
+    "escapism",
+    "indecision",
+    "insecurity",
+    "trustfulness",
+    "irresponsibility"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "transit_point/pluto/asc/conjunction",
+  "title": "Tranzitující Pluto – ascendent: konjunkce",
+  "keywords": [
+   "proměna",
+   "osobní moc",
+   "nový obraz",
+   "tělo",
+   "intenzita"
+  ],
+  "themes": [
+   "character",
+   "growth",
+   "health",
+   "relationships"
+  ],
+  "text": "Pluto přechází přes tvůj ascendent a mění způsob, jakým vstupuješ do světa. Stará maska přestává sedět a pod ní vystupuje tvář s větší vahou. Lidé na tebe reagují silněji, někdy s respektem, jindy s nedůvěrou. Tvoje přítomnost má najednou hloubku a tah. Tělo prochází proměnou. Mění se postava, styl i držení těla. Snadno poznáš, co se skrývá za cizími slovy. Období trvá zhruba dva roky a končí novým obrazem, který o sobě nosíš.",
+  "shadow": "Pluto na ascendentu snadno mění intenzitu v tlak na okolí. Roste potřeba mít každou situaci pod kontrolou a v druhých vidět hrozbu. Okolí může tvoji vážnost vnímat jako zastrašování. Objevuje se podezíravost, žárlivost a sklon manipulovat drobnými gesty. Posedlost vlastním tělem a vzhledem může vést k extrémům. Vracejí se staré křivdy a láká odplata. Skrýváš úmysly a nechceš ukázat zranitelnost, protože ji bereš jako slabost.",
+  "hard": [
+   {
+    "topics": [
+     "death",
+     "loss"
+    ],
+    "text": "Tradice tu mluví o setkání se smrtí. Může jít o odchod blízkého člověka, o vážné ohrožení vlastního života nebo o symbolickou smrt dosavadní identity. Starší výklady tento tranzit spojují s obdobím, kdy se člověk dotkne vlastní smrtelnosti."
+   },
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o nemocech a zásazích do těla. Zmiňuje operace, skryté potíže, které vyplouvají na povrch, a výrazné proměny tělesné konstituce, hmotnosti či vzhledu."
+   },
+   {
+    "topics": [
+     "mental_crisis"
+    ],
+    "text": "Tradice tu mluví o hluboké krizi identity. Popisuje pocit, že se dosavadní osobnost rozpadá, temné nálady a nutkavé myšlenky. Staré já se podle ní musí rozložit, než vznikne nové."
+   },
+   {
+    "topics": [
+     "violence"
+    ],
+    "text": "Tradice tu mluví o střetu s mocí a násilím. Uvádí konfrontaci s agresivními lidmi a pokusy druhých tě ovládnout. Zmiňuje i vlastní výbuchy, které na okolí působí jako hrozba."
+   },
+   {
+    "topics": [
+     "ruin",
+     "loss"
+    ],
+    "text": "Tradice tu mluví o krachu dosavadního postavení. Popisuje ztrátu pozice, pověsti nebo životní role, na které stála tvoje identita. Následuje nutnost začít znovu z jiného základu."
+   }
+  ],
+  "traits": {
+   "text": [
+    "transformation",
+    "depth",
+    "intuition",
+    "resilience"
+   ],
+   "shadow": [
+    "obsession",
+    "dominance",
+    "jealousy",
+    "secrecy"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "transit_point/pluto/asc/harmonious",
+  "title": "Tranzitující Pluto – ascendent: harmonický aspekt (sextil, trigon)",
+  "keywords": [
+   "proměna vzhledu",
+   "osobní síla",
+   "přitažlivost",
+   "obnova těla"
+  ],
+  "themes": [
+   "character",
+   "health",
+   "growth",
+   "relationships"
+  ],
+  "text": "Pluto v souladu s tvým ascendentem ti teď dodává tichou, soustředěnou sílu v tom, jak působíš. Lidé si tvé přítomnosti všímají, i když nemluvíš. Proměna vzhledu, stylu nebo vztahu k tělu probíhá plynule a bez dramat. Máš odvahu odložit starou masku a ukázat víc ze své skutečné povahy. Svou vůli prosadíš snáz, protože z tebe vyzařuje klid a jistota. Tělo dobře reaguje na změnu režimu a obnovuje síly. Sílí přitažlivost i smyslnost.",
+  "shadow": "Snadný vliv, který ti Pluto v harmonii s ascendentem přináší, svádí k jeho nenápadnému zneužití. Působení na druhé se může změnit v tichou kontrolu. Víš, jak zapůsobit, a lákadlo využít tuhle schopnost k manipulaci roste. Pod klidným povrchem se skrývá žárlivost a potřeba mít navrch. Proměna těla nebo image se může zvrhnout v posedlost dokonalostí. Protože chybí vnější tlak, hlubší změnu odkládáš a spokojíš se s novou fasádou. Skryté pohnutky pak nezpracuješ, jen je lépe schováš.",
+  "hard": [
+   {
+    "topics": [
+     "death",
+     "loss"
+    ],
+    "text": "Tradice tu mluví o setkání se smrtí v blízkém okolí. Takové setkání podle výkladu proběhne bez zhroucení a vede k vnitřnímu znovuzrození. Ztráta blízkého člověka nebo konec jedné životní etapy se podle starších výkladů snáší s nečekanou silou a mění tvůj postoj k životu i k tělu."
+   },
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o nemocech a tělesných krizích, které v době tohoto tranzitu dobře odeznívají a vedou k obnově těla. Starší výklady spojují tento aspekt se zotavením po operaci či dlouhodobých potížích a s návratem vitality. Zároveň uvádějí, že skrytý problém v těle může v tomto období vyjít najevo."
+   },
+   {
+    "topics": [
+     "violence"
+    ],
+    "text": "Tradice tu mluví o moci nad druhými, kterou lze v tomto období snadno získat. Podle starších výkladů hrozí, že ji člověk použije k nátlaku nebo vydírání. Jiné výklady naopak uvádějí, že dokáže ustát cizí násilí a nátlak bez větší újmy."
+   }
+  ],
+  "traits": {
+   "text": [
+    "transformation",
+    "self_confidence",
+    "depth",
+    "sensuality",
+    "resilience"
+   ],
+   "shadow": [
+    "dominance",
+    "obsession",
+    "jealousy",
+    "deceit",
+    "procrastination"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "transit_point/pluto/asc/tense",
+  "title": "Tranzitující Pluto – ascendent: napěťový aspekt (kvadrát, opozice)",
+  "keywords": [
+   "proměna",
+   "moc",
+   "tělo",
+   "boj o vliv",
+   "nová tvář"
+  ],
+  "themes": [
+   "character",
+   "relationships",
+   "health",
+   "growth"
+  ],
+  "text": "Tranzitující Pluto v napětí s ascendentem tlačí na to, jak působíš a jak jednáš. Starý způsob vystupování přestává fungovat. Pod povrchem roste nová, pevnější podoba tebe. Druzí na tebe reagují silněji, někdy s respektem, jindy s odporem. Tvoje přítomnost má větší váhu a slova víc zavazují. Tělo dává najevo, co se v tobě mění. Máš schopnost projít tlakem a vyjít z něj s jasnějším postojem a silnější vůlí.",
+  "shadow": "Pod tlakem Pluta na ascendent se obrana vlastní tváře mění v boj o moc s lidmi kolem tebe. Hrozí snaha mít navrch za každou cenu, tvrdý tón a skrytá manipulace. Partner nebo protivník může zrcadlit tvou vlastní touhu ovládat. Objevuje se žárlivost, podezíravost a potřeba držet situaci pevně v rukou. Křivdy se ukládají hluboko a mění se v chuť je oplatit. Strach ze ztráty vlivu vede k přepínání sil a k zatvrzelosti.",
+  "hard": [
+   {
+    "topics": [
+     "illness",
+     "death"
+    ],
+    "text": "Tradice tu mluví o období, kdy tělo nese velký tlak. Zmiňuje vážnější nemoc, operační zákrok nebo hluboké vyčerpání. Ve vyhrocených výkladech uvádí i ohrožení života či setkání se smrtí, vlastní nebo někoho blízkého. Popisuje to jako obraz zániku a obnovy, ne jako jistou předpověď."
+   },
+   {
+    "topics": [
+     "violence"
+    ],
+    "text": "Tradice tu mluví o střetech s mocnými nebo nebezpečnými lidmi, zvlášť při opozici. Uvádí nátlak, vydírání, fyzické ohrožení nebo násilí ze strany druhých. Zmiňuje také vlastní výbuchy hněvu, které mohou přerůst v agresi."
+   },
+   {
+    "topics": [
+     "loss",
+     "ruin"
+    ],
+    "text": "Tradice tu mluví o rozpadu partnerství nebo spojenectví, o ztrátě postavení a pověsti a o krachu toho, na čem dosud stálo tvoje vystupování. Popisuje to jako konec jedné podoby života, po kterém přichází jiná."
+   },
+   {
+    "topics": [
+     "mental_crisis"
+    ],
+    "text": "Tradice tu mluví i o krizi identity, kdy se dosavadní obraz sebe hroutí. Uvádí posedlé myšlenky, pocit pronásledování a temné nálady, které mohou přerůst v hlubší psychickou krizi."
+   }
+  ],
+  "traits": {
+   "text": [
+    "transformation",
+    "resilience",
+    "depth",
+    "self_confidence",
+    "decisiveness"
+   ],
+   "shadow": [
+    "dominance",
+    "obsession",
+    "jealousy",
+    "aggression",
+    "deceit"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "transit_point/pluto/mc/conjunction",
+  "title": "Tranzitující Pluto – Medium coeli (MC): konjunkce",
+  "keywords": [
+   "proměna kariéry",
+   "moc",
+   "veřejný obraz",
+   "pád a vzestup",
+   "poslání"
+  ],
+  "themes": [
+   "work",
+   "growth",
+   "character"
+  ],
+  "text": "Pluto přechází přes vrchol tvého horoskopu a zasahuje přímo do kariéry a veřejného obrazu. Pracovní role, která ti dlouho dávala jistotu, ztrácí smysl a ustupuje něčemu hlubšímu. Roste tvůj vliv i schopnost prosadit se tam, kde se rozhoduje. Vidíš skryté mocenské vazby ve firmě i v oboru a dokážeš s nimi pracovat. Poslání se mění od základu. Odchází to, co sloužilo jen navenek, a zůstává to, za čím stojíš celou bytostí.",
+  "shadow": "Touha mít vlastní postavení plně v rukou se při přechodu Pluta přes MC snadno mění v boj o kontrolu nad celým pracovním prostředím. Nadřízení i konkurence cítí ohrožení a tlačí proti tobě. Hrozí posedlost úspěchem, manipulace s lidmi kolem a mocenské hry za zády. Když lpíš na staré pozici, přichází proměna zvenčí a bolí víc. Skryté věci z minulosti mohou vyplavat na povrch a otřást pověstí. Žárlivost na cizí úspěch a chuť se po pádu mstít ničí i to, co jde ještě zachránit.",
+  "hard": [
+   {
+    "topics": [
+     "ruin"
+    ],
+    "text": "Tradice tu mluví o pádu z vysokého postavení, krachu kariéry nebo veřejném skandálu, který odhalí skryté věci. Může jít o ztrátu funkce, firmy nebo dobrého jména a o nutnost začít úplně od nuly."
+   },
+   {
+    "topics": [
+     "death",
+     "loss"
+    ],
+    "text": "Tradice tu mluví také o smrti, která mění životní směr. Jde o odchod rodiče, mentora nebo nadřízeného, po kterém přebíráš jeho roli či odpovědnost. MC se v tradici pojí i s jedním z rodičů."
+   },
+   {
+    "topics": [
+     "violence"
+    ],
+    "text": "Tradice tu mluví o střetu s mocí: s autoritami, institucemi nebo lidmi, kteří k udržení vlivu používají nátlak, vydírání či násilí. Spor o pozici může přerůst v otevřené nepřátelství."
+   },
+   {
+    "topics": [
+     "mental_crisis"
+    ],
+    "text": "Tradice tu mluví o krizi identity spojené s povoláním. Pocit, že bez role a postavení nic neznamenáš, může vést k vyčerpání, depresivním stavům a ztrátě smyslu."
+   }
+  ],
+  "traits": {
+   "text": [
+    "transformation",
+    "ambition",
+    "depth",
+    "leadership",
+    "perseverance"
+   ],
+   "shadow": [
+    "obsession",
+    "dominance",
+    "deceit",
+    "jealousy",
+    "stubbornness"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "transit_point/pluto/mc/harmonious",
+  "title": "Tranzitující Pluto – Medium coeli (MC): harmonický aspekt (sextil, trigon)",
+  "keywords": [
+   "vliv",
+   "kariérní vzestup",
+   "proměna poslání",
+   "moc",
+   "hloubka"
+  ],
+  "themes": [
+   "work",
+   "growth",
+   "character"
+  ],
+  "text": "Tranzitující Pluto v souhlasném úhlu k tvému MC pomalu a vytrvale posiluje tvé postavení v práci a ve veřejném životě. Získáváš vliv, který roste z hloubky, ne z okázalosti. Dokážeš proniknout k jádru pracovních problémů a vidíš, kde leží skutečná moc. Lidé s vlivem si tě všímají a svěřují ti odpovědnost. Staré cíle odpadají a místo nich se ukazuje poslání, které pro tebe má opravdovou váhu. Změna kariéry teď probíhá plynule, bez zbytečných otřesů.",
+  "shadow": "Snadný přístup k vlivu během tohoto tranzitu svádí k tichému hromadění moci v práci. Hrozí sklon řídit druhé zákulisně, přes informace a známosti, místo otevřeně. Kariéra se může stát posedlostí, které podřizuješ vztahy i odpočinek. Protože vše jde hladce, snadno přehlédneš vlastní touhu po kontrole. Uzavíráš spojenectví s mocnými, aniž zvažuješ jejich cenu. Žárlivost na úspěch kolegů a skrytá rivalita ti berou energii. Hladký průběh také svádí k pohodlí. Příležitost k hlubší proměně pak zůstane nevyužitá.",
+  "hard": [
+   {
+    "topics": [
+     "death",
+     "loss"
+    ],
+    "text": "Tradice tu mluví o tom, že posun v kariéře může přijít po odchodu nebo úmrtí nadřízeného, mentora či jednoho z rodičů. MC se tradičně spojuje s matkou nebo otcem a s autoritou. Uvolněné místo, odpovědnost nebo dědictví role pak přechází na tebe. Jde o tradiční výklad, ne o předpověď."
+   },
+   {
+    "topics": [
+     "ruin"
+    ],
+    "text": "Tradice tu mluví o krachu firmy, instituce nebo dosavadního zaměstnání, který tento tranzit nedělá ničivým, ale obrací ve prospěch. Z trosek starého se otevírá nová cesta a pád jiných může paradoxně posloužit tvému vzestupu. Výklad to uvádí jako možnost, ne jako jistotu."
+   }
+  ],
+  "traits": {
+   "text": [
+    "ambition",
+    "transformation",
+    "depth",
+    "leadership",
+    "perseverance"
+   ],
+   "shadow": [
+    "dominance",
+    "obsession",
+    "secrecy",
+    "jealousy",
+    "stagnation"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "transit_point/pluto/mc/tense",
+  "title": "Tranzitující Pluto – Medium coeli (MC): napěťový aspekt (kvadrát, opozice)",
+  "keywords": [
+   "boj o moc",
+   "kariérní proměna",
+   "pád a obnova",
+   "veřejný obraz",
+   "střet s autoritami"
+  ],
+  "themes": [
+   "work",
+   "growth",
+   "character",
+   "family"
+  ],
+  "text": "Tranzitující Pluto v napětí s MC otřásá tvým postavením ve světě. Kariéra, kterou máš, přestává sedět a něco v ní musí skončit. Narážíš na nadřízené, instituce a mocenské hry, které dřív zůstávaly skryté. Získáváš ostrý pohled na to, kdo za čím stojí. Máš sílu přestavět svou profesní cestu od základů. Odhazuješ roli, která už nic neznamená, a hledáš poslání s opravdovou váhou. Veřejný obraz se mění pod tlakem a z tohoto tlaku vzniká pevnější identita.",
+  "shadow": "Tranzitující Pluto v kvadrátu nebo opozici k MC svádí k boji o moc v práci za každou cenu. Šéfa nebo konkurenta snadno vidíš jako nepřítele, kterého je třeba zlomit. Lpíš na pozici a kontrolu nepouštíš ani tam, kde už nic nedrží. Objevuje se manipulace, tajné tahy a žárlivost na úspěch druhých. Křivdu v kariéře si neseš dlouho a toužíš po odplatě. Posedlost cílem odsouvá domov a blízké stranou. Skryté věci mají sklon vyplavat na povrch a poškodit tvou pověst.",
+  "hard": [
+   {
+    "topics": [
+     "ruin",
+     "loss"
+    ],
+    "text": "Tradice tu mluví o pádu z postavení, krachu podniku nebo ztrátě zaměstnání, často po střetu s mocnějšími. Mluví také o veřejném skandálu a zničené pověsti, když vyjdou najevo skryté věci. Jde o tradiční výklad možného průběhu, ne o jistotu."
+   },
+   {
+    "topics": [
+     "death",
+     "loss"
+    ],
+    "text": "Tradice tu mluví o smrti nebo vážné krizi u rodiče, zvlášť u toho, kdo v rodině představoval autoritu. Zmiňuje také odchod nebo konec mocné osoby, na které závisela tvá kariéra, například nadřízeného nebo mentora."
+   },
+   {
+    "topics": [
+     "violence"
+    ],
+    "text": "Tradice tu mluví o nátlaku, výhrůžkách a otevřeném nepřátelství mocných lidí či institucí. V krajních výkladech zmiňuje i násilí spojené s bojem o postavení nebo vliv. Popisuje to jako možnost, ne jako předpověď."
+   }
+  ],
+  "traits": {
+   "text": [
+    "transformation",
+    "ambition",
+    "depth",
+    "resilience",
+    "courage"
+   ],
+   "shadow": [
+    "dominance",
+    "obsession",
+    "jealousy",
+    "deceit",
+    "stubbornness"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ }
+]

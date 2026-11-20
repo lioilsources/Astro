@@ -1,0 +1,593 @@
+[
+ {
+  "key": "house_area/1",
+  "title": "1. dům",
+  "keywords": [
+   "osobnost",
+   "tělo",
+   "vzhled",
+   "první dojem",
+   "způsob jednání"
+  ],
+  "themes": [
+   "character",
+   "health"
+  ],
+  "text": "První dům ukazuje, jak působíš na první pohled a jak tvé tělo nese tvou osobnost. Do každé situace vstupuješ s vlastním vzhledem, stylem a způsobem jednání.",
+  "hard": [
+   {
+    "topics": [
+     "illness",
+     "death"
+    ],
+    "text": "Tradice tu mluví o těle a jeho zranitelnosti. První dům v ní ukazuje celkovou odolnost organismu, sklon k úrazům a nemocem i délku života. Napjaté vlivy v této oblasti staré výklady spojovaly s oslabeným zdravím a zraněními hlavy či obličeje. V krajních případech v nich viděly i ohrožení života. Jde o tradiční obraz, ne o předpověď."
+   }
+  ],
+  "traits": {
+   "text": [
+    "self_confidence",
+    "vitality",
+    "independence",
+    "decisiveness"
+   ],
+   "shadow": []
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "house_area/2",
+  "title": "2. dům",
+  "keywords": [
+   "peníze",
+   "majetek",
+   "hodnoty",
+   "sebeocenění",
+   "talenty"
+  ],
+  "themes": [
+   "money",
+   "character",
+   "growth"
+  ],
+  "text": "Druhý dům ukazuje, jak zacházíš s penězi, majetkem a vlastní hodnotou. Opírá se o tvé talenty, o to, čeho si ceníš, a o pocit pevné půdy pod nohama.",
+  "hard": [
+   {
+    "topics": [
+     "loss",
+     "ruin"
+    ],
+    "text": "Tradice tu mluví o ztrátě majetku, když je druhý dům zatížený. Staré texty popisují období, kdy mizí úspory, rozpadá se hmotné zázemí a s ním slábne i pocit vlastní hodnoty. Nejde o jistotu, ale o téma, ke kterému se výklad vrací: otřes hmotné jistoty a hledání toho, na čem doopravdy stojíš."
+   }
+  ],
+  "traits": {
+   "text": [
+    "security_need",
+    "thrift",
+    "steadiness",
+    "realism",
+    "self_confidence"
+   ],
+   "shadow": [
+    "materialism",
+    "stinginess",
+    "insecurity",
+    "extravagance"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "house_area/3",
+  "title": "3. dům",
+  "keywords": [
+   "myšlení",
+   "řeč",
+   "učení",
+   "sourozenci",
+   "krátké cesty"
+  ],
+  "themes": [
+   "character",
+   "family",
+   "growth"
+  ],
+  "text": "Tvoje mysl se nejvíc probouzí v rozhovoru, při čtení a na cestách po blízkém okolí. Snadno se učíš, umíš věci vysvětlit a sourozenci mají v tvém životě velkou váhu.",
+  "hard": [
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o nehodách na krátkých cestách, při každodenním pojíždění a v dopravě v blízkém okolí. Starší výklady sem řadí úrazy z nepozornosti, pády, srážky a zranění rukou či ramen, které tento dům tradičně spravuje. Nejde o jistotu, spíš o oblast, kde se roztěkanost mysli může projevit na těle."
+   },
+   {
+    "topics": [
+     "loss"
+    ],
+    "text": "Tradice tu mluví také o sporech se sourozenci a bratranci, o hádkách kvůli vyřčeným slovům nebo dopisům a o odcizení, které může trvat roky. Některé výklady sem řadí i rozkol se sousedy, pomluvy a ztrátu kontaktu s blízkým okolím. Jde o možnost, ne o předpověď."
+   }
+  ],
+  "traits": {
+   "text": [
+    "curiosity",
+    "eloquence",
+    "flexibility",
+    "sociability",
+    "rationality"
+   ],
+   "shadow": [
+    "restlessness",
+    "superficiality",
+    "inconstancy"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "house_area/4",
+  "title": "4. dům",
+  "keywords": [
+   "domov",
+   "rodina",
+   "kořeny",
+   "rodiče",
+   "konec života"
+  ],
+  "themes": [
+   "family",
+   "character"
+  ],
+  "text": "Čtvrtý dům ukazuje tvé kořeny: domov, rodinu a jednoho z rodičů. Odtud čerpáš jistotu, cit pro tradici a schopnost vytvořit místo, kam se lidé rádi vracejí.",
+  "hard": [
+   {
+    "topics": [
+     "death"
+    ],
+    "text": "Tradice tu mluví o konci života. Čtvrtý dům podle ní ukazuje, jak se uzavírá životní cesta, v jakém prostředí a v jakém klidu. Jde o obraz závěru, ne o datum ani o jistou předpověď. Starší výklady sem řadí i stáří a návrat ke kořenům na sklonku let."
+   },
+   {
+    "topics": [
+     "loss"
+    ],
+    "text": "Tradice tu mluví také o ztrátě domova. Může jít o stěhování proti vlastní vůli, rozpad rodinného zázemí nebo odchod rodiče, který domov držel pohromadě. Výklad tuto možnost uvádí jako jedno z témat domu, ne jako jistotu. Hlavně ukazuje, jak silně tvůj pocit bezpečí závisí na místě a lidech, ke kterým patříš."
+   }
+  ],
+  "traits": {
+   "text": [
+    "family_attachment",
+    "belonging",
+    "protectiveness",
+    "security_need"
+   ],
+   "shadow": [
+    "stagnation",
+    "dependence",
+    "insecurity"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "house_area/5",
+  "title": "5. dům",
+  "keywords": [
+   "láska",
+   "radost",
+   "tvořivost",
+   "děti",
+   "hra"
+  ],
+  "themes": [
+   "relationships",
+   "family",
+   "character",
+   "growth"
+  ],
+  "text": "Pátý dům ukazuje, kde v tobě proudí radost ze hry, tvoření a lásky. Máš chuť zkoušet nové věci, bavit se, riskovat a dávat světu kus vlastního srdce.",
+  "hard": [
+   {
+    "topics": [
+     "death",
+     "illness",
+     "loss"
+    ],
+    "text": "Tradice tu mluví o potížích spojených s dětmi: o starostech s jejich zdravím, o obtížném početí nebo o bolestném odloučení. Starší texty zmiňují i nemoc a smrt dítěte. Jde o tradiční motiv, ne o předpověď. Ukazuje spíš, jak hluboko se tě dotýká všechno, co přivádíš na svět."
+   },
+   {
+    "topics": [
+     "addiction",
+     "ruin"
+    ],
+    "text": "Tradice tu mluví o hazardu a o sklonu sázet na náhodu víc, než tvůj život unese. Podle starých výkladů se hra může změnit v závislost a riziko ve ztrátu majetku či dobrého jména. Jde o možnost, ne o jistotu. Ukazuje, kde tvoje radost ze hry potřebuje pevné hranice."
+   }
+  ],
+  "traits": {
+   "text": [
+    "creativity",
+    "cheerfulness",
+    "charm",
+    "risk_taking"
+   ],
+   "shadow": [
+    "risk_taking",
+    "addiction_tendency",
+    "irresponsibility",
+    "indulgence"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "house_area/6",
+  "title": "6. dům",
+  "keywords": [
+   "práce",
+   "služba",
+   "každodennost",
+   "zdraví",
+   "zvířata"
+  ],
+  "themes": [
+   "work",
+   "health",
+   "character"
+  ],
+  "text": "Šestý dům ukazuje, jak zvládáš všední práci, službu druhým a péči o tělo. Máš smysl pro užitečnost, pořádek v drobnostech a blízký vztah ke zvířatům.",
+  "hard": [
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o nemocech. Šestý dům je v klasickém výkladu domem chorob, zejména dlouhých a opakovaných potíží, které narušují každodenní chod. Zdraví se tu podle tradice ukazuje skrze drobné nerovnováhy a návyky, které se časem sčítají."
+   },
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví také o vyčerpání z práce a služby. Povinnosti vůči druhým, podřízené postavení a nekonečné drobné úkoly podle ní umí odčerpat sílu až k tělesné i duševní únavě. Hranice mezi užitečností a přetížením se tu snadno ztrácí."
+   }
+  ],
+  "traits": {
+   "text": [
+    "diligence",
+    "order",
+    "responsibility",
+    "self_sacrifice"
+   ],
+   "shadow": [
+    "exhaustion",
+    "perfectionism",
+    "anxiety"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "house_area/7",
+  "title": "7. dům",
+  "keywords": [
+   "partnerství",
+   "manželství",
+   "smlouvy",
+   "protějšek",
+   "otevření soupeři"
+  ],
+  "themes": [
+   "relationships",
+   "work",
+   "character"
+  ],
+  "text": "Sedmý dům ukazuje, jak vstupuješ do partnerství, manželství a smluv. Druhého člověka vnímáš jako zrcadlo. Máš cit pro spolupráci, dohodu a férové vyjednávání. Patří sem i otevření soupeři.",
+  "hard": [
+   {
+    "topics": [
+     "loss"
+    ],
+    "text": "Tradice tu mluví o rozvodech a rozchodech. Spojení, které začíná slibem, se podle ní může rozpadnout a zanechat pocit ztráty. Smlouvy a dohody se tu mohou zlomit. Vztah, do kterého vkládáš hodně důvěry, se může proměnit v zátěž, kterou je těžké unést i opustit."
+   },
+   {
+    "topics": [
+     "violence"
+    ],
+    "text": "Tradice tu mluví o sporech a otevřených nepřátelích. Jde o lidi, kteří proti tobě stojí viditelně, ne skrytě: soupeře, protistranu ve sporu, bývalého partnera. Starší texty sem řadí i otevřený útok a válku. Konflikt může přerůst v ostrou roztržku nebo v nepřátelství, které trvá roky."
+   },
+   {
+    "topics": [
+     "death"
+    ],
+    "text": "Tradice tu mluví i o konci života. Indická astrologie řadí sedmý dům mezi takzvané maraka domy, jejichž období spojuje s ohrožením zdraví a života. Západní tradice tu vidí bod, kde zapadá Slunce, tedy obraz konce dne. Jde o tradiční symboliku, ne o předpověď."
+   }
+  ],
+  "traits": {
+   "text": [
+    "cooperation",
+    "justice",
+    "charm",
+    "loyalty",
+    "sociability"
+   ],
+   "shadow": [
+    "dependence",
+    "jealousy",
+    "indecision"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "house_area/8",
+  "title": "8. dům",
+  "keywords": [
+   "proměna",
+   "krize",
+   "intimita",
+   "dědictví",
+   "sdílené peníze"
+  ],
+  "themes": [
+   "growth",
+   "relationships",
+   "money",
+   "health"
+  ],
+  "text": "Osmý dům ukazuje, kde tvůj život prochází krizemi a proměnou. Tvoje síla roste z intimity, sdílených peněz a věcí skrytých pod povrchem. Umíš obstát tam, kde jiní utíkají.",
+  "hard": [
+   {
+    "topics": [
+     "death",
+     "loss"
+    ],
+    "text": "Tradice tu mluví o smrti jako o tématu, které se ve tvém životě objevuje zřetelněji než u jiných lidí. Může jít o zkušenost s odchodem blízkých, o silný zájem o konečnost nebo o vnitřní konce, po kterých začíná nová etapa. Staří astrologové podle tohoto domu posuzovali také povahu a okolnosti konce života."
+   },
+   {
+    "topics": [
+     "loss"
+    ],
+    "text": "Tradice tu mluví o dědictví a cizích penězích jako o zdroji napětí. Majetek po předcích, společné finance nebo peníze partnera přinášejí podle ní spory a závazky, někdy i nečekané zisky. Staré texty zmiňují i ztrátu dědictví a komplikace kolem pozůstalosti."
+   },
+   {
+    "topics": [
+     "ruin"
+    ],
+    "text": "Tradice tu mluví o krachu a náhlém zhroucení jistot. Dluhy, společné podniky nebo cizí závazky se podle ní mohou obrátit proti tobě a přinést období, kdy se dosavadní zázemí rozpadá. Výklad to chápe jako tvrdou zkoušku, po níž přichází přestavba od základů."
+   },
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o operacích, vážných nemocech a krizích těla, které vyžadují zásah zvenčí. Osmý dům se v ní pojí s chirurgií, se skrytými potížemi a s obdobími, kdy tělo prochází zatěžkávací zkouškou. Jde o tradiční symboliku, nikoli o jistou předpověď."
+   }
+  ],
+  "traits": {
+   "text": [
+    "transformation",
+    "depth",
+    "intuition",
+    "resilience",
+    "sensuality"
+   ],
+   "shadow": [
+    "obsession",
+    "secrecy",
+    "jealousy",
+    "dominance"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "house_area/9",
+  "title": "9. dům",
+  "keywords": [
+   "víra",
+   "smysl",
+   "vzdělání",
+   "cizina",
+   "právo"
+  ],
+  "themes": [
+   "growth",
+   "character",
+   "work"
+  ],
+  "text": "Devátý dům ukazuje tvou cestu za smyslem: víru, filozofii, studium a dálky. Máš chuť poznávat cizí kraje, jiné myšlení a zákony, které drží svět pohromadě.",
+  "hard": [
+   {
+    "topics": [
+     "loss",
+     "ruin"
+    ],
+    "text": "Tradice tu mluví o sporech u soudu a o potížích v cizině. Na cestách nebo při dlouhém pobytu daleko od domova se podle starých výkladů objevuje ztráta, nedorozumění s úřady či pocit vykořenění. Spory o pravdu nebo o zásady se prý snadno táhnou a stojí mnoho sil i majetku. Nejde o jistotu, spíš o oblast, kde se napětí ukazuje nejčastěji."
+   }
+  ],
+  "traits": {
+   "text": [
+    "curiosity",
+    "wanderlust",
+    "spirituality",
+    "idealism",
+    "justice"
+   ],
+   "shadow": []
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "house_area/10",
+  "title": "10. dům",
+  "keywords": [
+   "kariéra",
+   "poslání",
+   "pověst",
+   "autorita",
+   "společenské postavení"
+  ],
+  "themes": [
+   "work",
+   "growth",
+   "character"
+  ],
+  "text": "Desátý dům ukazuje tvou kariéru, poslání a pověst. Máš potřebu dosáhnout uznávaného postavení. Nadání pro vedení, odpovědnost a dlouhodobé budování díla ti otevírá cestu k autoritě.",
+  "hard": [
+   {
+    "topics": [
+     "ruin",
+     "loss"
+    ],
+    "text": "Tradice tu mluví o pádu z výšky: o ztrátě postavení, pověsti nebo úřadu, často po období velkého vzestupu. Staré výklady spojují tento dům s veřejným selháním, ztrátou důvěry nadřízených a nečekaným koncem kariéry. Nejde o jistotu. Tradice tento motiv u desátého domu opakovaně zmiňuje."
+   }
+  ],
+  "traits": {
+   "text": [
+    "ambition",
+    "responsibility",
+    "leadership",
+    "discipline",
+    "perseverance"
+   ],
+   "shadow": [
+    "pride",
+    "dominance",
+    "vanity"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "house_area/11",
+  "title": "11. dům",
+  "keywords": [
+   "přátelé",
+   "skupiny",
+   "naděje",
+   "plány",
+   "společenství"
+  ],
+  "themes": [
+   "relationships",
+   "growth",
+   "character"
+  ],
+  "text": "Jedenáctý dům ukazuje tvé přátele, skupiny a naděje. Kolem tebe vzniká společenství lidí s podobnými plány. Spolupráce ti dává sílu a budoucnost tvoříš s ostatními.",
+  "hard": [
+   {
+    "topics": [
+     "loss"
+    ],
+    "text": "Tradice tu mluví o zradě přátel. Člověk z vlastního kruhu může zneužít tvou důvěru, opustit společný plán nebo obrátit skupinu proti tobě. Naděje vložené do přátelství se pak rozpadají a zůstává pocit ztráty a samoty. Staré výklady tu varují i před falešnými spojenci, kteří zůstávají jen kvůli vlastnímu prospěchu. Jde o možnost, ne o jistotu."
+   }
+  ],
+  "traits": {
+   "text": [
+    "sociability",
+    "belonging",
+    "cooperation",
+    "optimism",
+    "idealism"
+   ],
+   "shadow": [
+    "trustfulness",
+    "dependence",
+    "loneliness"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "house_area/12",
+  "title": "12. dům",
+  "keywords": [
+   "podvědomí",
+   "samota",
+   "skryté",
+   "ústraní",
+   "oběť"
+  ],
+  "themes": [
+   "character",
+   "health",
+   "growth"
+  ],
+  "text": "Dvanáctý dům ukazuje oblast skrytého, podvědomí a ústraní. Máš silný vnitřní svět, citlivost na nevyslovené a schopnost nacházet klid a sílu v samotě i ochotu tiše pomáhat druhým.",
+  "hard": [
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o nemocnicích a dlouhých pobytech v ústraní kvůli nemoci. Spojuje tento dům se skrytými a vleklými nemocemi, které se těžko odhalují a vyžadují čas strávený mimo běžný život. Jde o tradiční obraz, ne o jistou předpověď."
+   },
+   {
+    "topics": [
+     "mental_crisis",
+     "addiction"
+    ],
+    "text": "Tradice tu mluví o sebezničení. Myslí tím sklon podkopávat vlastní snahy, utíkat před realitou do snění, alkoholu nebo jiných závislostí a nést v sobě skrytý pocit viny. Podvědomé strachy podle ní mohou přerůst v úzkost nebo hlubokou duševní krizi, pokud zůstávají nepojmenované."
+   },
+   {
+    "topics": [
+     "loss",
+     "ruin"
+    ],
+    "text": "Tradice tu mluví o skrytých nepřátelích a vězení. Popisuje lidi, kteří škodí za zády, pomluvy a intriky, jež vycházejí najevo pozdě. Starší texty sem řadí i uvěznění, ztrátu svobody a pád způsobený tajnými jednáními, ať už vlastními, nebo cizími."
+   },
+   {
+    "topics": [
+     "loss"
+    ],
+    "text": "Tradice tu mluví o osamělosti a oběti. Dům popisuje izolaci, odloučení od blízkých a život v ústraní, ať už zvolený, nebo vynucený. Služba druhým se podle ní může změnit v zapomínání na vlastní potřeby a v tichou ztrátu sebe."
+   }
+  ],
+  "traits": {
+   "text": [
+    "intuition",
+    "empathy",
+    "self_sacrifice",
+    "spirituality",
+    "depth"
+   ],
+   "shadow": [
+    "escapism",
+    "guilt",
+    "loneliness",
+    "addiction_tendency",
+    "secrecy"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ }
+]

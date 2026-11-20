@@ -1,5 +1,1768 @@
 [
  {
+  "key": "emphasis/sign/aries",
+  "title": "Přemíra a nedostatek: tři a více planet ve znamení Beran (oheň, kardinální): začátek, odvaha, přímost, rychlost. Stín: netrpělivost, sobectví, výbušnost.",
+  "keywords": [
+   "začátek",
+   "odvaha",
+   "přímost",
+   "rychlost",
+   "netrpělivost"
+  ],
+  "themes": [
+   "character",
+   "work",
+   "relationships",
+   "health"
+  ],
+  "text": "Tři a více planet v Beranovi soustřeďují tvou energii do jediného bodu, do chuti začínat. Nové věci tě táhnou víc než jejich dokončování. Rozhoduješ se rychle a jednáš dřív, než ostatní domluví. Máš odvahu vkročit tam, kam se jiní bojí. Mluvíš přímo a na svolení nečekáš. Taková koncentrace ohně ti dává sílu na krátké sprinty, vůli vést a schopnost strhnout lidi kolem. Krize tě nezastaví, spíš probudí. Nejlépe ti jde práce, kde rozhoduje rychlá reakce, první krok a osobní nasazení. Ticho a čekání tě unavují víc než boj.",
+  "shadow": "Přemíra beraní energie ve třech a více planetách se snadno mění v netrpělivost, která nesnese cizí tempo. Rozjeté projekty opouštíš, jakmile ztratí kouzlo novosti. Ve sporu vybuchneš dřív, než vyslechneš druhou stranu, a pak nechápeš, proč se ostatní urážejí. Vlastní potřeby ti připadají samozřejmé, potřeby druhých jako zdržování. Chybí ti protiváha: trpělivost, ohled na partnera a smysl pro dotažení věcí do konce. Vztahy pak trpí, protože v nich víc vedeš, než nasloucháš.",
+  "hard": [
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o zranitelnosti hlavy a obličeje. Silný Beran se v ní pojí s bolestmi hlavy, horečkami, záněty a vyčerpáním z přetížení. Tělo podle ní reaguje prudce, nemoci přicházejí náhle, rychle vrcholí a stejně rychle odeznívají."
+   },
+   {
+    "topics": [
+     "violence",
+     "death"
+    ],
+    "text": "Tradice tu mluví o sklonu k úrazům ze spěchu, jako jsou pády, řezné rány, popáleniny a nehody při rychlé jízdě nebo sportu. Starší autoři u silného Berana zmiňují i riziko násilných střetů a náhlého konce, kde rozhoduje okamžik prudkosti, nikoli pomalé chřadnutí."
+   },
+   {
+    "topics": [
+     "ruin",
+     "loss"
+    ],
+    "text": "Tradice tu mluví o pádu z vlastní unáhlenosti. Patří sem ztráta postavení po prudkém sporu, rozbitá spojenectví a rozhodnutí učiněná ve vzteku, která už nejde vzít zpět."
+   }
+  ],
+  "traits": {
+   "text": [
+    "courage",
+    "decisiveness",
+    "leadership",
+    "vitality",
+    "independence"
+   ],
+   "shadow": [
+    "impulsiveness",
+    "anger",
+    "selfishness",
+    "inconstancy",
+    "aggression"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "emphasis/sign/taurus",
+  "title": "Přemíra a nedostatek: tři a více planet ve znamení Býk (země, pevné): stálost, smysly, bezpečí, trpělivost. Stín: tvrdohlavost, majetnickost, lenost.",
+  "keywords": [
+   "stálost",
+   "smyslnost",
+   "bezpečí",
+   "trpělivost",
+   "tvrdohlavost"
+  ],
+  "themes": [
+   "character",
+   "relationships",
+   "money",
+   "health"
+  ],
+  "text": "Při třech a více planetách v Býku se tvá energie ukládá do těla, času a hmoty. Máš povahu, která potřebuje pevnou půdu pod nohama a nespěchá. Věci dotahuješ pomalu, ale do konce. Silně vnímáš chuť, vůni, dotek, hudbu a krásu materiálů. Máš nadání pro řemeslo, zahradu, vaření, zpěv a vše, co roste postupně. Lidé u tebe hledají klid a spolehlivost, protože tvé slovo platí i po letech. Budování domova a jistoty tě uklidňuje víc než jakékoli vzrušení. Změnu přijímáš, až když ji máš ověřenou vlastníma rukama.",
+  "shadow": "Když se v Býku nahromadí tři a více planet, stálost ztrácí protiváhu a z vytrvalosti se snadno stává zabetonování. Názor měníš těžko, i když už dávno neplatí. Lidi, věci i zvyky držíš pevně a ztrátu neseš jako křivdu. Pohodlí tě umí uspat: odkládáš, jíš a nakupuješ pro útěchu, ve vztahu nebo práci setrváváš jen ze zvyku. Zlost dlouho dusíš, a když vybuchne, je těžká a pomalu odeznívá. Nové nápady a rychlé obraty ti připadají spíš jako ohrožení než jako šance.",
+  "hard": [
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o citlivém krku, hrdle, hlasivkách a štítné žláze. Při přemíře Býka zmiňuje také sklon k přibírání na váze, zpomalenému metabolismu a potížím z nadbytku jídla a nedostatku pohybu. Jde o tradiční výklad, ne o diagnózu."
+   },
+   {
+    "topics": [
+     "addiction"
+    ],
+    "text": "Tradice tu mluví o sklonu hledat útěchu v jídle, sladkém, alkoholu nebo nakupování. Požitek, který má uklidnit, se může stát návykem, protože tělo si pamatuje úlevu a chce ji opakovat."
+   },
+   {
+    "topics": [
+     "loss"
+    ],
+    "text": "Tradice tu mluví o tom, že ztráta majetku, domova nebo blízkého člověka zasahuje tuto povahu velmi hluboko. Lpění na tom, co bylo, může prodlužovat smutek na roky a bránit novému začátku."
+   }
+  ],
+  "traits": {
+   "text": [
+    "steadiness",
+    "patience",
+    "sensuality",
+    "perseverance",
+    "security_need"
+   ],
+   "shadow": [
+    "stubbornness",
+    "jealousy",
+    "procrastination",
+    "indulgence",
+    "stagnation"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "emphasis/sign/gemini",
+  "title": "Přemíra a nedostatek: tři a více planet ve znamení Blíženci (vzduch, proměnlivé): zvídavost, řeč, pohyb, dvojí pohled. Stín: povrchnost, neklid, nestálost.",
+  "keywords": [
+   "zvídavost",
+   "řeč",
+   "pohyb",
+   "dvojí pohled",
+   "neklid"
+  ],
+  "themes": [
+   "character",
+   "work",
+   "relationships",
+   "health"
+  ],
+  "text": "Tři a více planet v Blížencích ti dávají mysl, která se nezastaví u jedné odpovědi. Zajímá tě skoro všechno a otázky ti jdou snáz než tečky. Máš dar řeči. Umíš vysvětlit, převyprávět a zprostředkovat mezi lidmi. Každou věc vidíš ze dvou stran najednou, a proto ti jde vyjednávání i psaní. Potřebuješ pohyb, krátké cesty, nové tváře a rozhovory. Rychle se učíš, rychle chápeš a přizpůsobíš se téměř každé situaci. Sedí ti práce s textem, informacemi, obchodem nebo výukou. Kolem tebe je pořád živo: zprávy, telefonáty, sourozenci, sousedé.",
+  "shadow": "Když se v Blížencích sejde tolik planet, mysl běží rychleji, než stihneš cokoli dotáhnout. Rozpracuješ deset věcí a dokončíš dvě. O mnoha tématech víš trochu, o máloco do hloubky. Dvojí pohled se mění v nerozhodnost. Ze slov se stává hra, kterou druzí čtou jako neupřímnost. Neklid ti nedá klidně spát a nervy zůstávají napjaté. Ve vztazích hrozí, že při první nudě odběhneš za novým podnětem. Chybí ti ticho, váha a vytrvalost.",
+  "hard": [
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o citlivých plicích a průduškách, o sklonu k zánětům dýchacích cest a o úrazech rukou, ramen a paží. Blíženci podle starých autorů vládnou nervům, takže tělo často jako první odnese přetížení hlavy."
+   },
+   {
+    "topics": [
+     "mental_crisis"
+    ],
+    "text": "Tradice tu mluví o nervovém vyčerpání, nespavosti a úzkosti, které vznikají, když mysl nemá kde spočinout. Při silném zatížení se podle starých výkladů může dostavit rozptýlenost až nervový kolaps."
+   }
+  ],
+  "traits": {
+   "text": [
+    "curiosity",
+    "eloquence",
+    "flexibility",
+    "sociability",
+    "rationality"
+   ],
+   "shadow": [
+    "superficiality",
+    "restlessness",
+    "inconstancy",
+    "indecision",
+    "anxiety"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "emphasis/sign/cancer",
+  "title": "Přemíra a nedostatek: tři a více planet ve znamení Rak (voda, kardinální): péče, domov, cit, paměť. Stín: náladovost, uraženost, lpění, uzavřenost.",
+  "keywords": [
+   "péče",
+   "domov",
+   "cit",
+   "paměť",
+   "rodina"
+  ],
+  "themes": [
+   "character",
+   "family",
+   "relationships",
+   "health"
+  ],
+  "text": "Tři a více planet v Raku dávají tvé povaze silný pečující střed. Nálady lidí vnímáš dřív, než je vysloví. Kolem sebe vytváříš domov, ať jde o byt, kancelář, nebo partu přátel. Máš výbornou paměť na tváře, vůně, slova i dávné události. Rodina a kořeny pro tebe znamenají hodně a často držíš pohromadě rodinné příběhy. Máš nadání pro péči, vaření, výchovu a práci s lidmi i s minulostí. Jednáš z citu, ale cit tě vede k činu. Když jde o tvé blízké, bereš věci do svých rukou a chráníš je.",
+  "shadow": "Přemíra planet v Raku znamená, že tvé nálady přicházejí ve vlnách a zabarví celý den i celou domácnost. Drobnou výtku neseš dlouho a místo rozhovoru volíš ticho. Paměť, která je tvým darem, uchovává i křivdy a ty se k nim vracíš. Na lidech, věcech a místech lpíš i tehdy, když už ti neslouží. Při pocitu ohrožení se stahuješ do ulity a zavíráš dveře i těm, kdo chtějí pomoct. Péče se pak snadno mění v kontrolu a v citový nátlak.",
+  "hard": [
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o citlivém žaludku, trávení a hrudníku. Starší výklady spojují nahromadění planet v Raku s potížemi se žaludkem, se zadržováním vody a s nemocemi prsou. Napětí se podle nich ukládá do břicha. Jde o tradiční souvislosti, ne o jistou předpověď."
+   },
+   {
+    "topics": [
+     "loss",
+     "mental_crisis"
+    ],
+    "text": "Tradice tu mluví o hlubokém a dlouhém zármutku po ztrátě matky, domova nebo blízkého člověka. Smutek podle ní může přejít v melancholii a stažení ze světa. Starší autoři zmiňují i sklon k těžkým depresivním obdobím, když chybí citové zázemí."
+   },
+   {
+    "topics": [
+     "addiction"
+    ],
+    "text": "Tradice tu mluví o sklonu utěšovat se jídlem, sladkým nebo pitím, když citová rovnováha kolísá. Útěcha z talíře či sklenice se podle ní může stát zvykem, který se těžko opouští."
+   }
+  ],
+  "traits": {
+   "text": [
+    "protectiveness",
+    "empathy",
+    "family_attachment",
+    "sensitivity",
+    "intuition"
+   ],
+   "shadow": [
+    "moodiness",
+    "sulking",
+    "reclusiveness",
+    "dependence",
+    "security_need"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "emphasis/sign/leo",
+  "title": "Přemíra a nedostatek: tři a více planet ve znamení Lev (oheň, pevné): sebevyjádření, srdce, štědrost, hra. Stín: pýcha, potřeba obdivu, dramatičnost.",
+  "keywords": [
+   "sebevyjádření",
+   "srdce",
+   "štědrost",
+   "hra",
+   "uznání"
+  ],
+  "themes": [
+   "character",
+   "relationships",
+   "work",
+   "growth",
+   "health"
+  ],
+  "text": "Tři a více planet ve Lvu soustřeďují velkou část tvé povahy do jednoho ohniska: do srdce a do potřeby se projevit. Máš v sobě teplo, které druzí ucítí, jakmile vejdeš do místnosti. Tvoříš, hraješ si, vyprávíš a dokážeš nadchnout lidi kolem sebe. Štědrost u tebe není gesto, ale přirozený pohyb. Dáváš čas, pozornost i chválu. Pevná povaha znamení ti dává vytrvalost, takže to, co miluješ, neopouštíš při první překážce. Máš nadání pro jeviště, umění, práci s dětmi i pro vedení skupiny, která potřebuje dodat odvahu. Když se ti něco daří, raduješ se z toho naplno a nakazíš tím ostatní.",
+  "shadow": "Když Lev v horoskopu převažuje takto silně, může se celé tvé sebevědomí opírat o to, jak tě vidí druzí. Bez potlesku přichází prázdnota a pocit, že na tobě nezáleží. Pýcha ti brání přiznat chybu nebo požádat o pomoc. Drobné příkoří dokážeš proměnit v drama a urážku nosíš dlouho. Pevnost znamení se mění v tvrdohlavost: trváš na své verzi i tam, kde už nefunguje. Štědrost občas slouží k získání vděku. Chybí ti střízlivý nadhled, a tak lidé, kteří tě nechválí, působí jako protivníci.",
+  "hard": [
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o srdci, zádech a páteři jako o citlivých místech těla. U silně obsazeného Lva uvádí sklon k horečnatým stavům, k přepínání sil a k zátěži srdce, zvlášť při životě neustále na výkon. Jde o tradiční souvislost, ne o předpověď."
+   },
+   {
+    "topics": [
+     "ruin",
+     "loss"
+    ],
+    "text": "Tradice tu mluví o pádu z výšky: o ztrátě postavení, dobrého jména nebo majetku kvůli pýše, okázalosti a riskantním gestům. Starší texty popisují lví povahu, která raději přijde o všechno, než by ustoupila. Ber to jako obraz možné cesty, ne jako jistotu."
+   },
+   {
+    "topics": [
+     "mental_crisis"
+    ],
+    "text": "Tradice tu mluví o zhroucení sebeúcty ve chvíli, kdy zmizí uznání, role nebo publikum. Starší výklady popisují období hlubokého smutku a pocitu bezcennosti po veřejném nezdaru nebo odmítnutí. Jde o tradiční motiv, ne o nevyhnutelný osud."
+   }
+  ],
+  "traits": {
+   "text": [
+    "generosity",
+    "creativity",
+    "self_confidence",
+    "cheerfulness",
+    "leadership"
+   ],
+   "shadow": [
+    "pride",
+    "vanity",
+    "drama",
+    "stubbornness",
+    "dominance"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "emphasis/sign/virgo",
+  "title": "Přemíra a nedostatek: tři a více planet ve znamení Panna (země, proměnlivé): řád, služba, rozbor, zdraví, řemeslo. Stín: kritičnost, úzkost, puntičkářství.",
+  "keywords": [
+   "řád",
+   "služba",
+   "rozbor",
+   "zdraví",
+   "řemeslo"
+  ],
+  "themes": [
+   "character",
+   "work",
+   "health"
+  ],
+  "text": "Tři a více planet v Panně soustředí velkou část tvé povahy do řádu, služby a rozboru. Svět vnímáš po detailech. Hned vidíš, co nesedí, co chybí a co jde udělat lépe. Máš ruce i hlavu pro řemeslo a pro práci, která vyžaduje přesnost. Pomáháš prakticky, ne slovy: opravíš, uklidíš, spočítáš, zorganizuješ. Zajímá tě tělo, strava a denní režim. Drobných změn ve zdraví si všímáš dřív než ostatní. Užitečnost ti dává smysl i klid. Proměnlivá povaha znamení ti dovoluje upravovat postupy tak dlouho, dokud skutečně nefungují.",
+  "shadow": "Při takovém nahromadění planet v Panně se rozbor nedá vypnout a obrací se proti tobě i okolí. Vidíš hlavně chyby a pochvala ti zní nepřesně. Kritika vychází ze snahy pomoci, ale druhé zraňuje. Úzkost se usazuje v těle: v žaludku, ve spánku, v neustálém kontrolování. Puntičkářství zdržuje práci, kterou by stačilo dokončit. Chybí ti oheň a spontánnost, a tak radost odkládáš na dobu, kdy bude všechno hotové. Služba se snadno mění v nevděčnou dřinu bez odpočinku.",
+  "hard": [
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o citlivém trávení a střevech a o nervovém napětí, které se ukládá do těla. Starší autoři spojují silnou Pannu se sklonem k hypochondrii a s drobnými, ale vleklými potížemi. Zmiňují také nemoci z přepracování a z dlouhodobého zanedbávání odpočinku."
+   },
+   {
+    "topics": [
+     "mental_crisis"
+    ],
+    "text": "Tradice tu mluví o úzkostných stavech, nutkavém kontrolování a vyčerpání z neustálého hodnocení vlastní práce. Při dlouhém tlaku a pocitu, že nic není dost dobré, podle ní hrozí nervové zhroucení."
+   }
+  ],
+  "traits": {
+   "text": [
+    "order",
+    "diligence",
+    "focus",
+    "realism",
+    "self_sacrifice"
+   ],
+   "shadow": [
+    "criticism",
+    "anxiety",
+    "perfectionism",
+    "exhaustion",
+    "rigidity"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "emphasis/sign/libra",
+  "title": "Přemíra a nedostatek: tři a více planet ve znamení Váhy (vzduch, kardinální): vztah, rovnováha, vkus, spravedlnost. Stín: nerozhodnost, závislost na souhlasu, povrchní harmonie.",
+  "keywords": [
+   "vztah",
+   "rovnováha",
+   "vkus",
+   "spravedlnost",
+   "nerozhodnost"
+  ],
+  "themes": [
+   "character",
+   "relationships",
+   "growth"
+  ],
+  "text": "Když se ve Váhách sejdou tři a více planet, točí se tvůj život kolem druhých lidí a kolem toho, co je mezi vámi. Vztah pro tebe není doplněk. Je to prostor, ve kterém poznáváš sebe. Máš jemný cit pro míru, proporce a tón řeči. Nespravedlnost vnímáš dřív, než ji někdo pojmenuje, a umíš najít slova, která spor zklidní. Tvůj vkus je přesný v oblečení, v bytě, v hudbě i v tom, jak se k sobě lidé chovají. Daří se ti tam, kde je potřeba vyjednávat, spojovat a dávat věcem tvar. Druzí u tebe hledají férový názor a klidnou hlavu.",
+  "shadow": "Při tolika planetách ve Váhách vážíš každé rozhodnutí tak dlouho, až za tebe rozhodne čas nebo někdo jiný. Vidíš obě strany každé věci a nechceš si znepřátelit žádnou z nich. Souhlas druhých pro tebe znamená víc, než přiznáš, a nesouhlas bolí nepřiměřeně. Kvůli klidu spolkneš vlastní názor a pak v tobě zůstává tichá křivda. Harmonie, kterou udržuješ, bývá jen hezká fasáda nad nevyřčeným sporem. Bez protějšku se ti ztrácí pevná půda a hrozí přizpůsobení komukoli, kdo je zrovna nablízku.",
+  "hard": [
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o citlivosti ledvin, beder a kůže. Tělo podle ní nese tíhu vnitřní nerovnováhy. Staré texty spojují přetížení Vah s potížemi s vylučováním a s bolestmi v kříži. Tyto obtíže se podle nich zhoršují v obdobích dlouhého napětí ve vztazích."
+   },
+   {
+    "topics": [
+     "death",
+     "loss",
+     "mental_crisis"
+    ],
+    "text": "Tradice tu mluví o tom, že rozchod, rozvod nebo smrt partnera může při takovém soustředění ve Váhách otřást samotným pocitem identity. Starší výklady zmiňují období hlubokého smutku a zmatku. V té době se bez druhého člověka zdá téměř nemožné najít vlastní směr a vlastní hlas."
+   }
+  ],
+  "traits": {
+   "text": [
+    "cooperation",
+    "justice",
+    "charm",
+    "sociability",
+    "eloquence"
+   ],
+   "shadow": [
+    "indecision",
+    "dependence",
+    "conformity",
+    "superficiality",
+    "submissiveness"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "emphasis/sign/scorpio",
+  "title": "Přemíra a nedostatek: tři a více planet ve znamení Štír (voda, pevné): hloubka, vášeň, proměna, věrnost. Stín: žárlivost, pomstychtivost, kontrola, tajnůstkářství.",
+  "keywords": [
+   "hloubka",
+   "vášeň",
+   "proměna",
+   "věrnost",
+   "intenzita"
+  ],
+  "themes": [
+   "character",
+   "relationships",
+   "growth",
+   "health"
+  ],
+  "text": "Když se ve Štíru sejdou tři a více planet, celá tvoje povaha táhne do hloubky. Povrchní hovor tě nudí. Chceš znát skutečné motivy lidí i věcí. Máš silnou intuici a vycítíš, co ostatní skrývají. Tvoje vášeň nezná poloviční míru. Když miluješ, tak celou bytostí. Když se do něčeho pustíš, jdeš až na dno. Máš nadání pro práci s krizí, tajemstvím a proměnou, třeba v psychologii, výzkumu nebo vyšetřování. Věrnost pro tebe znamená závazek na celý život. Těžkým obdobím dokážeš projít a vyjít z něj s novou silou.",
+  "shadow": "Soustředěná síla tří a více planet ve Štíru má i temnou stranu: city se v tobě hromadí a nemají kudy odtéct. Žárlivost umí zatemnit úsudek a z lásky se stává potřeba druhého hlídat. Křivdy si pamatuješ dlouho a touha po odplatě tě může stravovat celá léta. Kontrolu držíš pevně, protože odhalit se ti připadá nebezpečné. Tajnůstkářství ti dává pocit bezpečí, ale vzdaluje tě od lidí. Snadno propadáš posedlosti, ať jde o člověka, cíl, nebo starou ránu.",
+  "hard": [
+   {
+    "topics": [
+     "death",
+     "loss"
+    ],
+    "text": "Tradice tu mluví o silném spojení se smrtí a s konci. Ztráty blízkých se tě podle ní dotýkají hluboce a mohou změnit směr celého života. Výklad v tom vidí spíš téma vnitřního umírání a znovuzrození než předpověď konkrétní události."
+   },
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o citlivosti pohlavních a vylučovacích orgánů a o nemocech, které se dlouho skrývají, než se projeví. Podle starých výkladů se potlačené city mohou ukládat do těla a ozvat se v něm později."
+   },
+   {
+    "topics": [
+     "mental_crisis",
+     "addiction"
+    ],
+    "text": "Tradice tu mluví o sklonu k hlubokým duševním krizím a temným obdobím, kdy se city obracejí dovnitř. Zmiňuje i náchylnost k závislostem. Může jít o látky, ale také o intenzivní vztahy, které slibují úlevu od vnitřního tlaku."
+   },
+   {
+    "topics": [
+     "violence"
+    ],
+    "text": "Tradice tu mluví o nebezpečí násilí, a to v obou směrech. Zmiňuje potlačený hněv, který může jednou explodovat, i riziko, že se tvoje cesta zkříží s lidmi, kteří ubližují. Výklad tím zdůrazňuje spíš sílu emocí než jistý osud."
+   }
+  ],
+  "traits": {
+   "text": [
+    "depth",
+    "intuition",
+    "transformation",
+    "loyalty",
+    "perseverance"
+   ],
+   "shadow": [
+    "jealousy",
+    "secrecy",
+    "obsession",
+    "dominance",
+    "sulking"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "emphasis/sign/sagittarius",
+  "title": "Přemíra a nedostatek: tři a více planet ve znamení Střelec (oheň, proměnlivé): smysl, víra, dálky, nadšení. Stín: přehánění, kazatelství, neklid, netaktnost.",
+  "keywords": [
+   "smysl",
+   "víra",
+   "dálky",
+   "nadšení",
+   "svoboda"
+  ],
+  "themes": [
+   "character",
+   "growth",
+   "work"
+  ],
+  "text": "Tři a více planet ve Střelci obracejí celý tvůj život k otázce, proč věci dávají smysl. Potřebuješ víru, ideál nebo cíl za obzorem, jinak ztrácíš jiskru. Lákají tě cesty, cizí jazyky, filozofie a všechno, co rozšiřuje rozhled. Máš dar nadchnout lidi kolem sebe a v obyčejných situacích vidíš větší souvislosti. Mluvíš otevřeně, s humorem a velkorysostí. Učíš druhé, i když to nemáš v popisu práce. Svoboda pohybu i myšlení je pro tebe nutnost, ne luxus. Když tě něco zaujme, vrháš se do toho celým srdcem a s důvěrou, že to dobře dopadne.",
+  "shadow": "Při takovém nahromadění střeleckých planet se nadšení snadno přelévá přes okraj. Slibuješ víc, než stihneš, a přeceňuješ své síly i čas. Pravdu, která ti připadá jasná, hlásáš i tam, kde o ni nikdo nestojí, a kázání přehlušuje naslouchání. Upřímnost pak zraňuje, protože přichází bez taktu. Neklid tě žene dál, jakmile se věc stane všední, a za tebou zůstává rozdělaná práce. Víra v lepší zítřek ti občas slouží jako únik před tím, co je potřeba řešit dnes.",
+  "hard": [
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o zatížení jater, kyčlí a stehen. Sklon k přemíře v jídle, pití i tempu se podle starých autorů může projevit nemocemi z nadbytku, například potížemi s játry, krví nebo váhou. Jde o tradiční souvislost, ne o jistotu."
+   },
+   {
+    "topics": [
+     "death",
+     "loss"
+    ],
+    "text": "Tradice tu mluví o nebezpečích na cestách, o pádech a úrazech při sportu, jízdě a rychlém pohybu. Starší výklady zmiňují i možnost smrti nebo vážné ztráty daleko od domova, v cizině či na cestě. Je to obraz z tradice, nikoli předpověď."
+   },
+   {
+    "topics": [
+     "ruin"
+    ],
+    "text": "Tradice tu mluví o pádu z přehnaného optimismu. Velké plány, sázky na štěstí a sliby nad možnosti mohou podle starých autorů vést ke ztrátě postavení i majetku. Tradice zmiňuje také fanatismus, kdy víra přeroste v zaslepenost a odcizí člověka blízkým."
+   }
+  ],
+  "traits": {
+   "text": [
+    "optimism",
+    "wanderlust",
+    "spirituality",
+    "honesty",
+    "generosity"
+   ],
+   "shadow": [
+    "restlessness",
+    "bluntness",
+    "inconstancy",
+    "escapism",
+    "dominance"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "emphasis/sign/capricorn",
+  "title": "Přemíra a nedostatek: tři a více planet ve znamení Kozoroh (země, kardinální): cíl, vytrvalost, struktura, odpovědnost. Stín: chlad, strnulost, kariérismus, pesimismus.",
+  "keywords": [
+   "cíl",
+   "vytrvalost",
+   "struktura",
+   "odpovědnost",
+   "ctižádost"
+  ],
+  "themes": [
+   "character",
+   "work",
+   "growth",
+   "health"
+  ],
+  "text": "Tři a více planet v Kozorohu dávají tvému životu jasný směr: všechno v tobě míří k cíli, který stojí za námahu. Uvažuješ v dlouhých časových úsecích a výsledky sklízíš postupně, zato trvale. Máš talent pro řád, plánování a vedení. Úkol, který převezmeš, dotáhneš do konce, i když ostatní už vzdávají. Lidé ti svěřují odpovědnost, protože na tvé slovo je spolehnutí. Respekt si budeš získávat prací, ne slovy. S přibývajícími lety často roste tvoje jistota i lehkost, jako by čas pracoval pro tebe.",
+  "shadow": "Při takovém nahromadění Kozoroha se cíl snadno stává jediným měřítkem tvé hodnoty. City odkládáš na později, které nepřichází. Okolí může tvou zdrženlivost číst jako chlad. Lpíš na zavedených postupech a každá změna tě znejistí. Práce a postavení vytlačují vztahy i odpočinek. Pesimismus se u tebe maskuje jako realismus: počítáš s nejhorším a radost si zakazuješ, dokud není všechno hotové. Bez uznání pak přichází tvrdost k sobě i k druhým.",
+  "hard": [
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o zranitelnosti kostí, kloubů, kolen, zubů a kůže a o sklonu k chronickým, pomalu postupujícím potížím. Přepracování a zanedbaný odpočinek podle ní oslabují tělo nenápadně a dlouho. Tradiční výklad sem řadí i ztuhlost a citlivost na chlad, spojené se studenou a suchou povahou znamení."
+   },
+   {
+    "topics": [
+     "mental_crisis"
+    ],
+    "text": "Tradice tu mluví o melancholii a sklonu k obdobím tíživé skleslosti, zvlášť když úsilí nepřináší uznání. Pocit, že nic nestačí, může přerůst v beznaděj a stažení od lidí. Staré texty u přemíry Kozoroha zmiňují také samotu ve stáří."
+   },
+   {
+    "topics": [
+     "ruin",
+     "loss"
+    ],
+    "text": "Tradice tu mluví o pádu z vysokého postavení: co se buduje dlouho, se může zhroutit náhle, pokud to stojí na tvrdosti nebo bezohlednosti. Ztráta pozice pak zasahuje hlouběji, protože tvoje identita snadno splývá s rolí."
+   }
+  ],
+  "traits": {
+   "text": [
+    "ambition",
+    "perseverance",
+    "discipline",
+    "responsibility",
+    "order"
+   ],
+   "shadow": [
+    "coldness",
+    "rigidity",
+    "pessimism",
+    "melancholy",
+    "loneliness"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "emphasis/sign/aquarius",
+  "title": "Přemíra a nedostatek: tři a více planet ve znamení Vodnář (vzduch, pevné): svoboda, budoucnost, přátelství, originalita. Stín: odtažitost, vzdorovitost, citová nedostupnost.",
+  "keywords": [
+   "svoboda",
+   "budoucnost",
+   "přátelství",
+   "originalita",
+   "nezávislost"
+  ],
+  "themes": [
+   "character",
+   "relationships",
+   "growth"
+  ],
+  "text": "Tři a více planet ve Vodnáři dávají tvé povaze silný tah k budoucnosti a potřebu volného prostoru. Myslíš v souvislostech, které ostatní teprve začínají vidět. Máš nadání pro nové nápady, technologie a společenská témata. Tvůj talent se ukáže i tam, kde se mění pravidla, která už nikomu neslouží. Přátelství pro tebe znamená víc než konvence. Držíš věrnost lidem, se kterými sdílíš myšlenky a ideály. Kolem tebe přirozeně vznikají skupiny, kruhy a spolky. Tvoje originalita není póza, vychází z hluboké vnitřní nezávislosti. Na věci se díváš s nadhledem a se smyslem pro spravedlnost. Názory, které jednou přijmeš za své, pevně držíš.",
+  "shadow": "Tolik planet ve Vodnáři tě umí odříznout od vlastních citů i od nejbližších lidí. Když přijde řeč na intimitu, utíkáš do rozumu a teorie. Navenek působíš chladně, i když uvnitř cítíš hodně. Kritiku bereš jako útok na svobodu a odpovídáš vzdorem. Bouříš se i tam, kde stačí rozumná dohoda. Lidstvo miluješ snáz než jednoho konkrétního člověka. Závazky odkládáš, protože v nich vidíš klec. Za pokrokovými názory se někdy skrývá obyčejná tvrdohlavost. Chybí ti zemitost a trpělivost s obyčejným dnem.",
+  "hard": [
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o citlivosti lýtek, kotníků a krevního oběhu. Zmiňuje křeče, otoky a potíže s žilami. Uvádí také nervové napětí, které se ukládá do těla a projevuje se náhlými, nepravidelnými obtížemi. Jde o tradiční souvislosti, ne o jistotu."
+   },
+   {
+    "topics": [
+     "mental_crisis"
+    ],
+    "text": "Tradice tu mluví o nervovém přetížení a nespavosti. Popisuje i pocit odcizení, kdy se ztrácí spojení s vlastními emocemi i s okolím. Dlouhodobá citová izolace, i uprostřed mnoha známých, může podle tradice vyústit v osamělost a vnitřní krizi."
+   },
+   {
+    "topics": [
+     "loss",
+     "death"
+    ],
+    "text": "Tradice tu mluví o náhlých zlomech: o nečekaných rozchodech, přerušených přátelstvích a ztrátách, které přicházejí bez varování. Novější autoři spojují Vodnáře a Uran také s náhlými nehodami a úrazy, zvlášť v souvislosti s elektřinou, technikou či cestováním. Ve výjimečných případech zmiňují i náhlou smrt. Vždy jde jen o tradiční výklad, nikdy o jistotu."
+   }
+  ],
+  "traits": {
+   "text": [
+    "independence",
+    "originality",
+    "sociability",
+    "idealism",
+    "curiosity"
+   ],
+   "shadow": [
+    "detachment",
+    "rebellion",
+    "coldness",
+    "stubbornness",
+    "commitment_fear"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "emphasis/sign/pisces",
+  "title": "Přemíra a nedostatek: tři a více planet ve znamení Ryby (voda, proměnlivé): soucit, fantazie, víra, splynutí. Stín: únik, oběť, zmatek, nespolehlivost.",
+  "keywords": [
+   "soucit",
+   "fantazie",
+   "víra",
+   "splynutí",
+   "únik"
+  ],
+  "themes": [
+   "character",
+   "relationships",
+   "growth",
+   "health"
+  ],
+  "text": "Tři a více planet v Rybách dávají tvé povaze silný proud soucitu a představivosti. Cizí bolest cítíš skoro jako vlastní a lidé to poznají dřív, než promluvíš. Hranice mezi tebou a okolím je tenká. Nálady v místnosti vnímáš jako počasí. Máš bohatou fantazii, která se uplatní v hudbě, poezii, filmu nebo v pomoci lidem v nouzi. Víra je pro tebe něco živého, ať jde o Boha, o lidi, nebo o smysl věcí. Umíš odpouštět a nehledáš viníky. Nejlépe ti je tam, kde můžeš splynout s něčím větším, než je tvoje vlastní já.",
+  "shadow": "Stínem tolika planet v Rybách je útěk. Když je realita příliš tvrdá, mizíš do snů, spánku, obrazovky nebo cizích příběhů. Snadno sklouzáváš do role oběti a čekáš, až tě někdo zachrání. Hranice nedržíš, takže na sebe bereš cizí břemena a pak nevíš, co je vlastně tvoje. Sliby dáváš upřímně, ale termíny a detaily ti protékají mezi prsty. Okolí to pak čte jako nespolehlivost. Pravdu někdy rozmlžíš jen proto, aby nikoho nic nebolelo, a zmatek tím ještě roste.",
+  "hard": [
+   {
+    "topics": [
+     "addiction"
+    ],
+    "text": "Tradice tu mluví o sklonu k závislostem, hlavně na alkoholu, lécích a dalších látkách, které otupí příliš citlivé vnímání světa. Úleva z nich přichází rychle, ale zpětně často prohlubuje zmatek a pocit, že se život rozplývá."
+   },
+   {
+    "topics": [
+     "mental_crisis"
+    ],
+    "text": "Tradice tu mluví také o obdobích, kdy se hranice mezi představou a skutečností rozpouští. Mohou přicházet stavy hluboké melancholie, úzkosti nebo pocitu, že se ztrácí vlastní já v cizích emocích."
+   },
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o citlivém těle: o slabších nohou a chodidlech, o zadržování vody, potížích s lymfou a náchylnosti k infekcím. Staré texty spojují Ryby i s dlouhými pobyty v nemocnicích a v ústraní."
+   },
+   {
+    "topics": [
+     "loss",
+     "ruin"
+    ],
+    "text": "Tradice tu mluví o ztrátách skrze přílišnou důvěřivost. Jde o podvody, o zneužití dobroty a o obětování vlastního života pro druhé, které může skončit vyčerpáním a rozpadem toho, co bylo dlouho budováno."
+   }
+  ],
+  "traits": {
+   "text": [
+    "empathy",
+    "creativity",
+    "spirituality",
+    "intuition",
+    "forgiveness"
+   ],
+   "shadow": [
+    "escapism",
+    "self_sacrifice",
+    "chaos",
+    "irresponsibility",
+    "addiction_tendency"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "emphasis/house/1",
+  "title": "Přemíra a nedostatek: tři a více planet v domě: 1. dům: osobnost, tělo, vzhled, první dojem, způsob jednání. Tradice o těžkém: tělo a jeho zranitelnost.",
+  "keywords": [
+   "výrazná osobnost",
+   "tělesná energie",
+   "první dojem",
+   "nezávislost",
+   "vlastní cesta"
+  ],
+  "themes": [
+   "character",
+   "health",
+   "growth"
+  ],
+  "text": "Tři a více planet v prvním domě soustřeďují velkou část horoskopu přímo do tvé osobnosti a těla. Tvoje přítomnost je výrazná. Lidé si tě všimnou dřív, než promluvíš. Jednáš přímo a z vlastního popudu, čekání na pokyn ti nesedí. Máš silný pocit vlastní identity a potřebu dělat věci po svém. Tělo pro tebe není kulisa, ale nástroj. Jeho sílu, únavu i neklid vnímáš velmi zřetelně. Umíš strhnout ostatní, začít něco nového a dát věcem tvář. Vzhled a styl se u tebe často stávají součástí sdělení.",
+  "shadow": "Když se tolik planet tlačí do prvního domu, svět se snadno zúží na tvou osobu. Máš sklon brát všechno osobně a hodnotit situace podle toho, jak se dotýkají tebe. Druzí pak mohou mít pocit, že pro ně nezbývá místo. Netrpělivost s cizím tempem vede k unáhleným krokům. Vzhledu a prvnímu dojmu přikládáš někdy větší váhu, než si zaslouží. Každá kritika těla nebo stylu tě zasáhne hluboko. Únavu přehlížíš, dokud tě tělo nezastaví.",
+  "hard": [
+   {
+    "topics": [
+     "illness",
+     "violence"
+    ],
+    "text": "Tradice tu mluví o tom, že nahromadění planet v prvním domě dělá z těla hlavního nositele osudu. Zdraví, úrazy a fyzická kondice tu mají větší váhu než jinde. Pokud jsou mezi těmito planetami Saturn nebo Mars, starší autoři zmiňují sklon k nehodám, zraněním hlavy a obličeje a k dlouhodobému vyčerpání."
+   },
+   {
+    "topics": [
+     "death"
+    ],
+    "text": "Tradice tu mluví také o tom, že první dům je domem života samotného. Při silném poškození těžkými planetami z něj staří astrologové vyčítali otázky délky života a ohrožení v raném věku. Šlo vždy o jedno z mnoha hledisek, ne o samostatný verdikt."
+   }
+  ],
+  "traits": {
+   "text": [
+    "self_confidence",
+    "independence",
+    "vitality",
+    "leadership",
+    "decisiveness"
+   ],
+   "shadow": [
+    "selfishness",
+    "impulsiveness",
+    "vanity",
+    "exhaustion"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "emphasis/house/2",
+  "title": "Přemíra a nedostatek: tři a více planet v domě: 2. dům: peníze, majetek, hodnoty, sebeocenění, talenty. Tradice o těžkém: ztráta majetku.",
+  "keywords": [
+   "majetek",
+   "hodnoty",
+   "sebeocenění",
+   "talenty",
+   "zajištění"
+  ],
+  "themes": [
+   "money",
+   "character",
+   "work",
+   "growth"
+  ],
+  "text": "Se třemi a více planetami ve druhém domě se velká část tvého života točí kolem toho, co máš, co umíš a čeho si ceníš. Hmotný svět pro tebe znamená pevnou půdu pod nohama. Máš praktický smysl pro hodnotu věcí i práce a poznáš, co vydrží. Tvoje talenty mívají hmatatelnou podobu: řemeslo, cit pro kvalitu, pro krásné předměty nebo pro obchod. Jistotu budujes trpělivě, krok za krokem. Sebeúcta ti roste s tím, co dokážeš vytvořit vlastníma rukama. Tvoje hodnoty mají jasné obrysy a dokážeš za nimi stát.",
+  "shadow": "Nahromaděné planety ve druhém domě snadno svazují tvou vlastní hodnotu s tím, kolik máš na účtu nebo v poličkách. Když majetek ubývá, otřese to i tvým sebevědomím. Objevuje se strach o zajištění, lpění na věcech a neochota pustit to, co už neslouží. Jindy přichází opačný extrém: utrácení jako způsob, jak si dokázat vlastní cenu. Přemíra pozornosti k jedné oblasti nechává jiné stránky života stranou. Hodnotu lidí pak měříš podle toho, co mají.",
+  "hard": [
+   {
+    "topics": [
+     "loss",
+     "ruin"
+    ],
+    "text": "Tradice tu mluví o riziku ztráty majetku. Velká koncentrace sil ve druhém domě podle ní znamená, že každé kolísání se silně promítne do financí. Starší autoři zmiňují období náhlého úbytku, dluhů nebo rozpadu toho, co se dlouho budovalo, zvlášť když jsou ve skupině těžké planety. Jde o tradiční motiv, ne o jistotu."
+   }
+  ],
+  "traits": {
+   "text": [
+    "security_need",
+    "realism",
+    "perseverance",
+    "thrift"
+   ],
+   "shadow": [
+    "materialism",
+    "insecurity",
+    "stinginess",
+    "extravagance",
+    "obsession"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "emphasis/house/3",
+  "title": "Přemíra a nedostatek: tři a více planet v domě: 3. dům: myšlení, řeč, učení, sourozenci, okolí, krátké cesty. Tradice o těžkém: nehody na cestách, spory se sourozenci.",
+  "keywords": [
+   "myšlení",
+   "řeč",
+   "sourozenci",
+   "krátké cesty",
+   "učení"
+  ],
+  "themes": [
+   "character",
+   "family",
+   "work",
+   "growth"
+  ],
+  "text": "Tři a více planet ve třetím domě soustřeďují velkou část tvé energie do myšlení, řeči a každodenního kontaktu s okolím. Tvoje hlava pracuje neustále. Sbíráš informace, srovnáváš je a hledáš pro ně slova. Máš dar vysvětlit složité věci jednoduše a učení tě baví po celý život. Hodně času trávíš v pohybu, na krátkých cestách a v rozhovorech se sousedy, kolegy a sourozenci. Sourozenci nebo lidé, kteří jejich roli zastoupí, hrají v tvém příběhu výraznou roli. Daří se ti psaní, výuka, překlad, zpravodajství a všechno, kde se předávají zprávy. Zvědavost udržuje tvou mysl svěží.",
+  "shadow": "Přetížený třetí dům přináší mysl, která se nedokáže zastavit. Myšlenky se točí v kruhu a slova předbíhají rozvahu. Rozhovor se snadno mění v monolog. Máš sklon těkat mezi desítkami témat a žádné nedotáhnout do hloubky. Neklid tě žene z místa na místo, i když cesta nikam nevede. Drby, hádky o slovíčka a ostrý jazyk ti komplikují vztahy se sourozenci a sousedy. Nervozita se pak ukládá do těla jako napětí a neklidný spánek.",
+  "hard": [
+   {
+    "topics": [
+     "illness",
+     "death"
+    ],
+    "text": "Tradice tu mluví o nehodách na krátkých cestách, v dopravě a cestou do práce či školy. Starší autoři k tomu řadí zranění rukou, ramen a dýchacích cest, které třetí dům spravuje. Při těžce postižených planetách zmiňují i vážné úrazy se smrtelným koncem. Jde o obraz zvýšeného rizika, ne o jistotu."
+   },
+   {
+    "topics": [
+     "loss",
+     "death"
+    ],
+    "text": "Tradice tu mluví o sporech se sourozenci, o rivalitě, závisti a přerušených vztazích, někdy kvůli dědictví nebo společnému majetku. Starší výklady uvádějí i nemoc či ztrátu sourozence a trvalé roztržky se sousedy a blízkým okolím."
+   },
+   {
+    "topics": [
+     "mental_crisis"
+    ],
+    "text": "Tradice tu mluví o nervovém vyčerpání z přemíry myšlenek, o úzkosti, nespavosti a neschopnosti vypnout. Mysl zahlcená podněty se podle starých výkladů může dostat až do stavu rozháranosti a duševního přetížení."
+   }
+  ],
+  "traits": {
+   "text": [
+    "curiosity",
+    "eloquence",
+    "sociability",
+    "flexibility"
+   ],
+   "shadow": [
+    "restlessness",
+    "superficiality",
+    "anxiety",
+    "inconstancy",
+    "bluntness"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "emphasis/house/4",
+  "title": "Přemíra a nedostatek: tři a více planet v domě: 4. dům: domov, rodina, kořeny, otec nebo matka, konec života. Tradice o těžkém: konec života, ztráta domova.",
+  "keywords": [
+   "domov",
+   "rodina",
+   "kořeny",
+   "rodiče",
+   "zázemí"
+  ],
+  "themes": [
+   "family",
+   "character",
+   "growth"
+  ],
+  "text": "Tři a více planet ve čtvrtém domě stahují těžiště tvého života do domova, rodiny a kořenů. Domov pro tebe není kulisa, ale základ, ze kterého roste všechno ostatní. Máš silnou paměť pro rodinné příběhy, zvyky a místa. Často v tobě žije výrazný otec nebo matka a jejich vliv cítíš i v dospělosti. Umíš vytvořit zázemí, kde se druzí cítí v bezpečí. Hodně energie dáváš do bydlení, zahrady nebo péče o rodinné dědictví. Tvůj vnitřní svět má hloubku. Tvé síly se často naplno ukazují až v druhé polovině života.",
+  "shadow": "Přemíra planet ve čtvrtém domě snadno mění domov ve skořápku, ze které se těžko vychází. Minulost a rodinné vzorce nad tebou mají velkou moc. Staré křivdy s rodiči nosíš dlouho a nevědomky je opakuješ. Stěhování nebo změna rodinného uspořádání tě rozhodí víc než jiné lidi. Nálady schováváš za zavřené dveře a svět venku necháváš čekat. Potřeba jistoty přerůstá v lpění na místech, věcech i lidech. Změna pak přichází pozdě a bolí víc.",
+  "hard": [
+   {
+    "topics": [
+     "loss"
+    ],
+    "text": "Tradice tu mluví o ztrátě domova: o nuceném stěhování, rozpadu rodinného zázemí, ztrátě rodného domu nebo sporu o dědictví. Silně obsazený čtvrtý dům podle ní zesiluje otřesy v oblasti bydlení a kořenů, zvlášť když jsou mezi planetami Saturn nebo Mars."
+   },
+   {
+    "topics": [
+     "death",
+     "loss"
+    ],
+    "text": "Čtvrtý dům je v tradici domem konce života. Tradice tu mluví o závěru života v domácím prostředí, někdy mezi blízkými, jindy v ústraní uzavřeného domu. Mluví také o dlouhé péči o stárnoucího rodiče a o úmrtí otce nebo matky jako o zlomu, který výrazně mění tvé další směřování."
+   }
+  ],
+  "traits": {
+   "text": [
+    "family_attachment",
+    "protectiveness",
+    "depth",
+    "security_need",
+    "loyalty"
+   ],
+   "shadow": [
+    "stagnation",
+    "reclusiveness",
+    "moodiness",
+    "rigidity"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "emphasis/house/5",
+  "title": "Přemíra a nedostatek: tři a více planet v domě: 5. dům: láska, radost, tvořivost, děti, hra, riziko. Tradice o těžkém: potíže s dětmi, hazard.",
+  "keywords": [
+   "láska",
+   "tvořivost",
+   "hra",
+   "děti",
+   "riziko"
+  ],
+  "themes": [
+   "character",
+   "relationships",
+   "family",
+   "growth"
+  ],
+  "text": "Tři a více planet v pátém domě soustřeďují velkou část tvé energie do lásky, hry a tvoření. Smysl hledáš tam, kde se něco rodí: vztah, obraz, píseň, nápad, dítě. Máš silnou potřebu ukázat světu, co v tobě je. Zamilováváš se intenzivně a s chutí. Umíš rozesmát, bavit a vymyslet hru z ničeho. Děti k tobě snadno nacházejí cestu, protože bereš hru vážně. Máš odvahu riskovat, zkoušet nové věci a vsadit na vlastní talent. Radost je pro tebe palivo, ne odměna.",
+  "shadow": "Plný pátý dům snadno přetéká. Potřeba radosti a obdivu se mění v hlad po dalším vzrušení, další lásce a dalším potlesku. Když zábava utichne, přichází prázdnota a nuda, kterou snášíš špatně. Vztahy začínají ohňostrojem a končí, jakmile zevšední. Sázíš na city i na náhodu víc, než unese tvůj klid. Tvoření se může stát výstavou ega místo služby dílu. Dětem pak chybí pevná ruka, protože hra vítězí nad vedením.",
+  "hard": [
+   {
+    "topics": [
+     "loss",
+     "illness"
+    ],
+    "text": "Tradice tu mluví o potížích spojených s dětmi: o obtížném početí, komplikovaných těhotenstvích, starostech o zdraví potomků, v nejtěžší podobě i o ztrátě dítěte. Jindy jde o napjatý vztah, odcizení nebo zklamání z očekávání vložených do dětí. Jde o tradiční motiv, ne o jistotu."
+   },
+   {
+    "topics": [
+     "addiction",
+     "ruin"
+    ],
+    "text": "Tradice tu mluví o hazardu a sklonu k riskantním sázkám, spekulacím a hrám o vysoké vklady. Vzrušení z výhry se může změnit v nutkání, které přerůstá v závislost a vede k úpadku, dluhům a rozvratu domácnosti. Stejně tak tradice varuje před zálibou v rozkoších, která přesahuje míru."
+   }
+  ],
+  "traits": {
+   "text": [
+    "creativity",
+    "cheerfulness",
+    "risk_taking",
+    "charm",
+    "sensuality"
+   ],
+   "shadow": [
+    "addiction_tendency",
+    "drama",
+    "inconstancy",
+    "irresponsibility",
+    "vanity"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "emphasis/house/6",
+  "title": "Přemíra a nedostatek: tři a více planet v domě: 6. dům: práce, služba, každodennost, zdraví, zvířata. Tradice o těžkém: nemoci, vyčerpání.",
+  "keywords": [
+   "služba",
+   "pracovitost",
+   "každodenní řád",
+   "péče o tělo",
+   "zvířata"
+  ],
+  "themes": [
+   "work",
+   "health",
+   "character"
+  ],
+  "text": "Tři a více planet v šestém domě soustřeďují velkou část tvé energie do práce, služby a každodenního řádu. Život se ti skládá z úkolů, rutin a drobných povinností, které bereš vážně. Máš talent pro detail, organizaci a poctivé řemeslo. Všímáš si, co nefunguje, a umíš to opravit. Druzí se na tebe obracejí, když je potřeba něco dotáhnout. Tělo vnímáš jako nástroj, o který je třeba pečovat. Zajímá tě, jak strava, spánek a pohyb ovlivňují výkon. Ke zvířatům máš blízký vztah a péče o ně ti dává smysl. Užitečnost je pro tebe zdrojem klidu.",
+  "shadow": "Při takové koncentraci planet v šestém domě se práce snadno stává měřítkem tvé hodnoty. Odpočinek ti připadá jako selhání a volno vyplňuješ dalšími úkoly. Kritičnost míří na kolegy i na tebe. Drobné chyby tě zneklidňují víc, než si zaslouží. Máš sklon přebírat cizí povinnosti a pak tiše nést křivdu, že si toho nikdo neváží. Starost o zdraví se může měnit v neustálé sledování příznaků. Služba druhým občas zakrývá strach z vlastních potřeb.",
+  "hard": [
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o sklonu k nemocem a dlouhodobým potížím, zvlášť když jsou mezi planetami v šestém domě Saturn nebo Mars. Staré texty nazývají šestý dům domem nemoci. Silné obsazení čtou jako opakované oslabení těla, často spojené s přepracováním a zanedbanou péčí."
+   },
+   {
+    "topics": [
+     "illness",
+     "mental_crisis"
+    ],
+    "text": "Tradice tu mluví také o vyčerpání z nekonečné služby. Popisuje postavení člověka, který nese cizí břemena a zapomíná na sebe, až tělo i mysl vypoví. Starší výklady sem řadí i podřízenost, těžké pracovní podmínky a únavu, kterou běžný odpočinek nespraví."
+   }
+  ],
+  "traits": {
+   "text": [
+    "diligence",
+    "order",
+    "responsibility",
+    "self_sacrifice",
+    "realism"
+   ],
+   "shadow": [
+    "exhaustion",
+    "perfectionism",
+    "criticism",
+    "anxiety",
+    "guilt"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "emphasis/house/7",
+  "title": "Přemíra a nedostatek: tři a více planet v domě: 7. dům: partner, manželství, smlouvy, otevření nepřátelé. Tradice o těžkém: rozvody, spory, nepřátelé.",
+  "keywords": [
+   "partnerství",
+   "manželství",
+   "smlouvy",
+   "protivníci",
+   "rovnováha"
+  ],
+  "themes": [
+   "relationships",
+   "character",
+   "work"
+  ],
+  "text": "Tři a více planet v sedmém domě přesouvají těžiště tvého života k partnerům, spojencům a protějškům. Sebe poznáváš hlavně skrze druhé: v rozhovoru, ve vztahu, ve smlouvě. Máš cit pro rovnováhu, umíš vyjednávat a vidět věc očima druhé strany. Lidé za tebou chodí s nabídkou spolupráce, sňatku nebo společného podniku. Manželství a partnerství hrají v tvém osudu hlavní roli a často přicházejí brzy nebo opakovaně. Daří se ti tam, kde se jedná, radí, zastupuje nebo smiřuje. Silné protějšky tě formují a posouvají dál.",
+  "shadow": "Plný sedmý dům tě nutí hledat sebe v druhých tak usilovně, že vlastní vůle slábne. Bez partnera cítíš neúplnost a vztahy pak volíš z potřeby, ne z výběru. Rozhodnutí odkládáš, dokud je nepotvrdí někdo jiný. Kde chybí rovnováha, přichází opak: soupeření, přetahování o moc a promítání vlastních chyb do protějšku. Konflikty se ti dějí otevřeně a před svědky. Z blízkého člověka se snadno stává protivník a ze spojence soupeř.",
+  "hard": [
+   {
+    "topics": [
+     "loss"
+    ],
+    "text": "Tradice tu mluví o rozvodech, rozchodech a více manželstvích. Nahromadění planet v domě partnerství podle starých autorů přináší svazky, které začínají silně a končí bolestně, někdy opakovaně. Jde o sklon, ne o jistotu."
+   },
+   {
+    "topics": [
+     "violence",
+     "ruin"
+    ],
+    "text": "Tradice tu mluví o otevřených nepřátelích, sporech a soudních přích. Sedmý dům je domem protivníků, kteří útočí přímo. Při těžkých planetách se zmiňují hádky přerůstající v násilí a škody způsobené partnerem či společníkem, včetně ztrát ze smluv."
+   },
+   {
+    "topics": [
+     "death",
+     "loss"
+    ],
+    "text": "Tradice tu mluví také o ztrátě partnera, včetně ovdovění, zvlášť když mezi planetami v tomto domě stojí Saturn nebo Mars. Staří autoři to uvádějí jako možnost, kterou je třeba posoudit v celém horoskopu, ne jako danost."
+   }
+  ],
+  "traits": {
+   "text": [
+    "cooperation",
+    "charm",
+    "justice",
+    "sociability"
+   ],
+   "shadow": [
+    "dependence",
+    "indecision",
+    "competitiveness",
+    "aggression"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "emphasis/house/8",
+  "title": "Přemíra a nedostatek: tři a více planet v domě: 8. dům: krize, proměna, sexualita, dědictví, cizí peníze, smrt. Tradice o těžkém: smrt, dědictví, krach, operace.",
+  "keywords": [
+   "krize",
+   "proměna",
+   "intimita",
+   "dědictví",
+   "cizí peníze"
+  ],
+  "themes": [
+   "character",
+   "relationships",
+   "money",
+   "health",
+   "growth"
+  ],
+  "text": "Tři a více planet v osmém domě soustřeďují tvou energii tam, kde se věci rozpadají a znovu skládají. Krize tě nezaskočí tolik jako ostatní, protože v nich přirozeně hledáš jádro věci. Máš hluboký vhled do lidských motivů. Cítíš, co druzí skrývají, a umíš o tom mlčet. Intimita pro tebe znamená úplné splynutí, ne povrchní hru. Často pracuješ s cizími penězi, se společným majetkem nebo s dědictvím. Tvůj život prochází několika zásadními proměnami. Po každé z nich vychází silnější a pravdivější podoba tebe.",
+  "shadow": "Přeplněný osmý dům táhne tvůj život ke krajnostem: buď všechno, nebo nic. Snadno propadáš touze ovládat lidi a znát jejich tajemství. Důvěra ti dělá potíže, a tak čekáš zradu dřív, než přijde. Žárlivost a potřeba partnera vlastnit umí otrávit i dobrý vztah. Sexualita a moc se ti prolínají víc, než je zdravé. Spory o dědictví nebo společné peníze tě mohou dlouho svazovat. Krizi občas vyvoláváš i tam, kde by stačil klid.",
+  "hard": [
+   {
+    "topics": [
+     "death",
+     "loss"
+    ],
+    "text": "Tradice tu mluví o častém setkávání se smrtí blízkých a o ztrátách, které mění směr celého života. Starší autoři zmiňují i sklon k náhlé nebo násilné smrti. Výklad to však nikdy nebere jako jistotu, spíš jako téma, které se v životě opakovaně vrací."
+   },
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o operacích a chirurgických zákrocích, o nemocech pohlavních a vylučovacích orgánů a o dlouhých obdobích rekonvalescence. Tělo podle ní prochází stejnými krizemi a obnovami jako zbytek života."
+   },
+   {
+    "topics": [
+     "ruin",
+     "loss"
+    ],
+    "text": "Tradice tu mluví o krachu a finanční katastrofě spojené s cizími penězi, s dluhy, se společným podnikáním nebo se sporným dědictvím. Majetek podle ní může náhle přijít a stejně náhle zmizet."
+   },
+   {
+    "topics": [
+     "mental_crisis"
+    ],
+    "text": "Tradice tu mluví o hlubokých psychických krizích, obdobích temnoty a posedlosti. Popisuje je jako chvíle, kdy se vnitřní svět musí rozložit, aby se mohl znovu poskládat."
+   }
+  ],
+  "traits": {
+   "text": [
+    "depth",
+    "transformation",
+    "intuition",
+    "resilience",
+    "secrecy"
+   ],
+   "shadow": [
+    "obsession",
+    "jealousy",
+    "dominance",
+    "drama"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "emphasis/house/9",
+  "title": "Přemíra a nedostatek: tři a více planet v domě: 9. dům: víra, smysl, filozofie, vzdělání, dálky, cizina, právo. Tradice o těžkém: spory u soudu, potíže v cizině.",
+  "keywords": [
+   "víra",
+   "cizina",
+   "vzdělání",
+   "smysl",
+   "právo"
+  ],
+  "themes": [
+   "character",
+   "growth",
+   "work"
+  ],
+  "text": "Tři a více planet v devátém domě soustřeďují tvůj život kolem otázky, proč jsou věci takové, jaké jsou. Hledáš smysl a nestačí ti odpověď z druhé ruky. Máš chuť studovat, číst, debatovat a srovnávat různé pohledy na svět. Láká tě cizina, jiné jazyky a jiné zvyky. Dálka pro tebe není útěk, ale škola. Máš nadání učit, vysvětlovat a skládat drobnosti do velkého obrazu. Přitahuje tě víra, filozofie, právo nebo vysoké školy. Lidé u tebe hledají rozhled a radu, protože vidíš dál než za dnešek.",
+  "shadow": "Přemíra planet v devátém domě umí z hledání smyslu udělat dogma. Snadno se upneš na vlastní přesvědčení a hájíš ho i tam, kde stačí naslouchat. Kázání pak nahrazuje rozhovor. Vzdálené cíle a velké ideje tě odvádějí od všedních povinností i od blízkých lidí. Neklid tě žene dál, k dalšímu studiu, do další země, k dalšímu učení, a doma zůstávají věci nedotažené. Smysl pro spravedlnost se mění v potřebu mít pravdu za každou cenu.",
+  "hard": [
+   {
+    "topics": [
+     "ruin",
+     "loss"
+    ],
+    "text": "Tradice tu mluví o sporech u soudu. Silně obsazený devátý dům se podle starých výkladů pojí s právními tahanicemi, které se táhnou dlouho a berou čas, peníze i klid. U těžkých planet tu tradice zmiňuje prohrané spory a ztrátu dobré pověsti kvůli neústupné zásadovosti."
+   },
+   {
+    "topics": [
+     "loss",
+     "illness",
+     "death"
+    ],
+    "text": "Tradice tu mluví o potížích v cizině: o ztrátách na cestách, nemoci daleko od domova, odloučení od rodiny a nejistém postavení v cizí zemi. Starší výklady u těžkých planet uvádějí i nebezpečí na dlouhých cestách a smrt v cizině. Jde o tradiční motiv, ne o jistou předpověď."
+   },
+   {
+    "topics": [
+     "mental_crisis"
+    ],
+    "text": "Tradice tu mluví také o krizi víry. Když se zhroutí přesvědčení, na kterém stojí celý smysl života, může podle starých výkladů přijít období zmatku, beznaděje nebo náboženského zanícení, které přerůstá ve fanatismus."
+   }
+  ],
+  "traits": {
+   "text": [
+    "curiosity",
+    "wanderlust",
+    "spirituality",
+    "idealism",
+    "justice"
+   ],
+   "shadow": [
+    "rigidity",
+    "restlessness",
+    "pride",
+    "escapism"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "emphasis/house/10",
+  "title": "Přemíra a nedostatek: tři a více planet v domě: 10. dům: kariéra, poslání, pověst, autorita, společenské postavení. Tradice o těžkém: pád z výšky, ztráta postavení.",
+  "keywords": [
+   "kariéra",
+   "autorita",
+   "pověst",
+   "poslání",
+   "ctižádost"
+  ],
+  "themes": [
+   "work",
+   "character",
+   "growth"
+  ],
+  "text": "Tři a více planet v desátém domě soustřeďují velkou část tvé energie do kariéry, pověsti a místa ve společnosti. Život bereš jako výstup, který má mít viditelný cíl. Máš přirozenou autoritu a lidé ti snadno svěřují odpovědnost. Umíš dlouho pracovat na jednom poslání a pomalý postup tě neodradí. Záleží ti na tom, jak tě vidí veřejnost, a podle toho volíš slova i činy. Sedí ti vedení, správa, veřejné role a obory s jasnou hierarchií. Úspěch u tebe nebývá náhoda, ale výsledek vytrvalosti a promyšlené strategie.",
+  "shadow": "Při takové přemíře planet v desátém domě se tvoje hodnota snadno smrskne na titul, funkci a výsledky. Bez uznání ztrácíš pevnou půdu pod nohama. Soukromí, rodina a odpočinek pak stojí ve frontě za prací. Kritiku shora neseš těžce a vůči lidem pod sebou máš sklon k panovačnosti. Pod tlakem na pověst sahá ego po kontrole a strach z neúspěchu bývá silnější než radost z cesty. Nedostatek v ostatních oblastech života se ukáže až ve chvíli, kdy kariéra zakolísá.",
+  "hard": [
+   {
+    "topics": [
+     "loss",
+     "ruin"
+    ],
+    "text": "Tradice tu mluví o pádu z výšky: čím vyšší postavení, tím hlasitější bývá pád. Zmiňuje ztrátu funkce, veřejnou ostudu, skandál, který zničí pověst, nebo odvolání z místa, na kterém stojí celá identita. Jde o varování, že vše vsazené na jednu kartu se může zhroutit najednou."
+   },
+   {
+    "topics": [
+     "mental_crisis"
+    ],
+    "text": "Tradice tu mluví také o vnitřním zhroucení po ztrátě postavení. Popisuje pocit prázdnoty, ztrátu smyslu a hlubokou skleslost ve chvíli, kdy zmizí role, která dávala životu tvar. Starší autoři k tomu řadí i vyčerpání z dlouhodobé zátěže a odpovědnosti."
+   }
+  ],
+  "traits": {
+   "text": [
+    "ambition",
+    "leadership",
+    "responsibility",
+    "perseverance",
+    "discipline"
+   ],
+   "shadow": [
+    "dominance",
+    "pride",
+    "insecurity",
+    "exhaustion"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "emphasis/house/11",
+  "title": "Přemíra a nedostatek: tři a více planet v domě: 11. dům: přátelé, skupiny, naděje, plány, společenství. Tradice o těžkém: zrada přátel.",
+  "keywords": [
+   "přátelé",
+   "skupiny",
+   "naděje",
+   "společenství",
+   "plány"
+  ],
+  "themes": [
+   "relationships",
+   "character",
+   "growth"
+  ],
+  "text": "Tři a více planet v jedenáctém domě táhnou tvůj život k lidem, skupinám a společným plánům. Tvoje síla se rozvíjí v kruhu přátel, spolků a komunit. Máš talent spojovat lidi kolem jedné myšlenky. Přátelství pro tebe znamená víc než známost, je to druhý domov. Nosíš v sobě velké naděje a dlouhodobé vize, často pro celou skupinu. V týmu se ti daří, nápady sílí v rozhovoru s druhými. Známí ti otevírají dveře, které by jinak zůstaly zavřené. Síť kontaktů kolem tebe roste skoro bez námahy.",
+  "shadow": "Přeplněný jedenáctý dům umí rozpustit tvoje vlastní já ve skupině. Názor party pro tebe snadno váží víc než vlastní úsudek. Do přátel vkládáš tolik důvěry, že zklamání bolí dvojnásob. Plány a naděje se množí rychleji, než stačíš některý dotáhnout. Hodně známých ještě neznamená blízkost. Za ruchem kolem tebe se může skrývat osamělost. Občas od lidí čekáš víc, než dokážou dát.",
+  "hard": [
+   {
+    "topics": [
+     "loss"
+    ],
+    "text": "Tradice tu mluví o zradě přátel. Podle starých výkladů může člověk, kterému svěřuješ plány nebo tajemství, obrátit tvou důvěru proti tobě. Rozpad skupiny nebo spolku pak bere i kus opory a pocitu sounáležitosti."
+   },
+   {
+    "topics": [
+     "ruin"
+    ],
+    "text": "Tradice tu mluví také o škodě skrze falešné přátele a nespolehlivé příznivce. Velké společné plány se podle ní mohou zhroutit kvůli cizí nepoctivosti a naděje vložené do skupiny zůstávají nenaplněné."
+   }
+  ],
+  "traits": {
+   "text": [
+    "sociability",
+    "belonging",
+    "idealism",
+    "cooperation",
+    "optimism"
+   ],
+   "shadow": [
+    "trustfulness",
+    "dependence",
+    "conformity",
+    "loneliness",
+    "inconstancy"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "emphasis/house/12",
+  "title": "Přemíra a nedostatek: tři a více planet v domě: 12. dům: skryté, podvědomí, samota, oběť, ústraní, nemocnice, vězení. Tradice o těžkém: skrytí nepřátelé, nemocnice, vězení, osamělost, sebezničení.",
+  "keywords": [
+   "podvědomí",
+   "ústraní",
+   "intuice",
+   "oběť",
+   "skrytost"
+  ],
+  "themes": [
+   "character",
+   "health",
+   "work",
+   "growth"
+  ],
+  "text": "Tři a více planet ve dvanáctém domě přesouvají těžiště tvého života do zákulisí. Nejvíc síly čerpáš z ticha, ústraní a vnitřního světa. Máš silnou intuici a vnímáš nálady, které ostatní přehlížejí. Sny, tušení a obrazy z podvědomí k tobě mluví jasněji než hlučné události venku. Daří se ti práce mimo světla reflektorů, například v pomáhajících profesích, nemocnicích, klášterech, archivech, výzkumu nebo umění. Umíš se věnovat druhým bez nároku na uznání. Samota pro tebe není trest, ale zdroj. Část tvých schopností se ukazuje až s věkem, když přijmeš svou skrytou stránku.",
+  "shadow": "Přeplněný dvanáctý dům snadno stáhne tvou energii do neviditelna, kde se ztrácí bez stopy. Máš sklon utíkat před světem do snění, spánku nebo látek, které otupí citlivost. Obětavost se mění v roli oběti a v tichou křivdu. Skrýváš přání, strach i hněv, dokud se neobrátí proti tobě. Často nevíš, kdo ti nepřeje, a vlastní pochybnosti ti škodí víc než cizí lidé. Hrozí izolace, pocit viny bez jasné příčiny a podkopávání vlastních plánů.",
+  "hard": [
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o dlouhých nemocech, chronických obtížích a pobytech v nemocnici či ústavu. Potíže se podle ní hůř odhalují, bývají skryté a projevují se pozdě. Starší autoři spojují dvanáctý dům i s nemocemi, které člověka odloučí od běžného života."
+   },
+   {
+    "topics": [
+     "mental_crisis",
+     "addiction"
+    ],
+    "text": "Tradice tu mluví o sebezničení: o sklonu k depresím, úzkostem, zmatení mysli a útěku do alkoholu, drog nebo léků. Podvědomé síly podle ní mohou převážit nad vůlí a vést k činům, které škodí vlastnímu životu."
+   },
+   {
+    "topics": [
+     "ruin",
+     "loss"
+    ],
+    "text": "Tradice tu mluví o skrytých nepřátelích, pomluvách a intrikách za zády, o vězení, vyhnanství či nucené izolaci. Zmiňuje také osamělost, ztrátu postavení a pád způsobený tajnými činy, vlastními i cizími."
+   },
+   {
+    "topics": [
+     "death",
+     "loss"
+    ],
+    "text": "Tradice tu mluví i o konci života v ústraní, v nemocnici nebo v ústavu, mimo dohled blízkých. Jde o starý obraz dvanáctého domu jako místa odloučení, nikoli o jistou předpověď."
+   }
+  ],
+  "traits": {
+   "text": [
+    "intuition",
+    "spirituality",
+    "self_sacrifice",
+    "empathy",
+    "reclusiveness"
+   ],
+   "shadow": [
+    "escapism",
+    "guilt",
+    "loneliness",
+    "secrecy",
+    "addiction_tendency"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "emphasis/element_dominant/fire",
+  "title": "Přemíra a nedostatek: převládá živel oheň",
+  "keywords": [
+   "nadšení",
+   "odvaha",
+   "vznětlivost",
+   "tvořivost",
+   "vyhoření"
+  ],
+  "themes": [
+   "character",
+   "growth",
+   "relationships",
+   "health"
+  ],
+  "text": "Když v horoskopu převládá oheň, žene tě dopředu nadšení, víra a chuť začínat. Tvoje energie zapaluje okolí a lidé se k tobě přidávají. Jednáš dřív, než ostatní dořeknou otázku. Umíš nadchnout, vést a dodat odvahu tam, kde jiní váhají. Tvoje síla leží ve spontánnosti, hrdosti a velkorysosti. Potřebuješ cíl, pohyb a prostor k sebevyjádření. Nuda tě dusí, výzva tě probouzí. Tvořivost se u tebe projevuje rychle, s velkým gestem a s osobním vkladem.",
+  "shadow": "Přemíra ohně přináší netrpělivost a sklon hořet příliš rychle. Rozjedeš deset věcí a dokončení přenecháváš jiným. Vznětlivost přichází náhle, slova padají ostře a druhé pálí víc, než tušíš. Chybí ti země a voda: trpělivost s detaily, smysl pro praktickou stránku věcí a citlivost pro tiché nálady druhých. Pýcha ti brání přiznat chybu. Po velkých výbojích přichází vyčerpání, které neumíš včas rozpoznat.",
+  "hard": [
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o sklonu k horečkám, zánětům a náhlým akutním onemocněním, která přicházejí rychle a prudce. Starší autoři spojují přemíru ohně také s vyhořením, kdy tělo po dlouhém přepětí náhle vypoví službu."
+   },
+   {
+    "topics": [
+     "violence",
+     "death"
+    ],
+    "text": "Tradice tu mluví o hněvu, který může přerůst v hádky a fyzické střety, a o úrazech z unáhlenosti, ohně či ostrých předmětů. V krajních výkladech zmiňuje i nebezpečí náhlého konce při riskantním a zbrklém jednání."
+   }
+  ],
+  "traits": {
+   "text": [
+    "courage",
+    "optimism",
+    "leadership",
+    "creativity",
+    "vitality"
+   ],
+   "shadow": [
+    "impulsiveness",
+    "anger",
+    "pride",
+    "restlessness",
+    "exhaustion"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "emphasis/element_dominant/earth",
+  "title": "Přemíra a nedostatek: převládá živel země",
+  "keywords": [
+   "praktičnost",
+   "stabilita",
+   "vytrvalost",
+   "smyslovost",
+   "hmatatelnost"
+  ],
+  "themes": [
+   "character",
+   "work",
+   "money",
+   "health"
+  ],
+  "text": "Převaha živlu země ti dává povahu, která věří hlavně tomu, co se dá vidět, změřit a ohmatat. Myšlenka pro tebe platí až ve chvíli, kdy z ní vznikne něco skutečného. Máš smysl pro řád a trpělivost, kterou ostatní často podceňují. Práci dotahuješ do konce a sliby bereš vážně. Rozumíš tělu, řemeslu i času, který věci potřebují k dozrání. Lidé u tebe hledají oporu, protože tvoje přítomnost působí klidně a pevně. Smysly máš bystré. Jídlo, dotek, příroda a krásné předměty ti přinášejí skutečnou radost.",
+  "shadow": "Převaha země snadno přechází v těžkopádnost, kdy každá změna působí jako ohrožení. Držíš se zavedeného postupu i tehdy, když už nefunguje. Chybí ti oheň pro spontánnost, vzduch pro hravé nápady a voda pro citové odstíny. Pocity se proto ukládají do těla místo do slov. Potřeba jistoty může přerůst v lpění na majetku a v posuzování lidí podle výkonu. Na cizí nápady reaguješ skepsí dřív, než je vyslechneš. Tvrdohlavost pak vypadá jako stálost, ale ve skutečnosti brzdí růst.",
+  "hard": [
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o melancholickém temperamentu, tedy o převaze černé žluči. Podle starých lékařských nauk se projevuje zpomaleným trávením, ztuhlostí kloubů, únavou a sklonem k chronickým potížím. Nemoci podle tohoto pohledu přicházejí pomalu, nenápadně a drží se dlouho."
+   },
+   {
+    "topics": [
+     "mental_crisis"
+    ],
+    "text": "Tradice tu mluví také o sklonu k zádumčivosti a těžkomyslnosti. Melancholická povaha podle starých autorů snadno upadá do pochmurných nálad, do strachu z nedostatku a do pocitu, že život je jen břemeno. V krajní podobě tradice popisuje dlouhá období beznaděje a ztráty radosti."
+   }
+  ],
+  "traits": {
+   "text": [
+    "realism",
+    "patience",
+    "steadiness",
+    "diligence",
+    "sensuality"
+   ],
+   "shadow": [
+    "stubbornness",
+    "rigidity",
+    "materialism",
+    "stagnation",
+    "pessimism"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "emphasis/element_dominant/air",
+  "title": "Přemíra a nedostatek: převládá živel vzduch",
+  "keywords": [
+   "mysl",
+   "komunikace",
+   "nadhled",
+   "lehkost",
+   "neklid"
+  ],
+  "themes": [
+   "character",
+   "relationships",
+   "work",
+   "health"
+  ],
+  "text": "Převaha živlu vzduchu dává v tvé povaze hlavní slovo mysli. Svět vnímáš přes myšlenky, slova a souvislosti. Rychle chápeš, snadno navazuješ hovor a umíš propojit lidi i nápady, které by se jinak nepotkaly. Tradice tento živel spojuje se sangvinickou povahou, tedy s lehkostí, veselostí a otevřeností vůči druhým. Máš dar nadhledu a férového úsudku, protože se nenecháš strhnout prvním pocitem. Daří se ti všude, kde se mluví, píše, vyjednává, učí nebo vymýšlí. Potřebuješ prostor, rozhovor a nové podněty, jinak ztrácíš jiskru.",
+  "shadow": "Přemíra vzduchu tě snadno odvádí od těla, citů i pevné půdy pod nohama. Na pocity často odpovídáš rozborem a blízkým lidem to může připadat jako chlad. Myšlenky běží rychleji než činy. Plány zůstávají v hlavě a rozhodnutí se odkládají, protože vždy existuje další úhel pohledu. Ostatní živly ustupují, a tak ti chybí trpělivost s pomalými věcmi i hloubka ve vztazích. Hrozí rozptýlenost, povrchnost a neklid, který nedovolí nic dotáhnout.",
+  "hard": [
+   {
+    "topics": [
+     "mental_crisis"
+    ],
+    "text": "Tradice tu mluví o nervovém vyčerpání. Mysl, která se nedokáže zastavit, podle starších výkladů vede k nespavosti, úzkostem a pocitu vnitřní roztříštěnosti. Přetížený vzduch se má projevovat podrážděnými nervy, přeskakujícími myšlenkami a obtížným návratem do klidu."
+   },
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví také o slabinách dýchacích cest, plic a nervové soustavy, které staří astrologové přiřazovali vzdušným znamením. Sangvinickému temperamentu připisovali sklon k nemocem z nestřídmosti a z přemíry krve, například k návalům a zánětům."
+   }
+  ],
+  "traits": {
+   "text": [
+    "curiosity",
+    "eloquence",
+    "sociability",
+    "rationality",
+    "lightness"
+   ],
+   "shadow": [
+    "detachment",
+    "superficiality",
+    "restlessness",
+    "indecision",
+    "anxiety"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "emphasis/element_dominant/water",
+  "title": "Přemíra a nedostatek: převládá živel voda",
+  "keywords": [
+   "cit",
+   "intuice",
+   "soucit",
+   "nálady",
+   "hloubka"
+  ],
+  "themes": [
+   "character",
+   "relationships",
+   "health",
+   "growth"
+  ],
+  "text": "Převaha vodního živlu znamená, že svět vnímáš nejdřív citem a teprve potom rozumem. Náladu v místnosti zachytíš dřív, než kdokoli promluví. Máš silnou intuici, dobrou paměť na pocity a schopnost soucítit bez dlouhého vysvětlování. Lidé se ti svěřují, protože u tebe cítí bezpečí. Vztahy, domov a blízkost pro tebe znamenají víc než výkon. Tvoje nadání se projevuje v péči, v umění, v hudbě a všude, kde je potřeba porozumět nevyřčenému. Pracuješ v rytmu nálad, ne podle tabulky. Čemu dáš srdce, tomu se věnuješ celou bytostí.",
+  "shadow": "Přemíra vody s sebou nese nedostatek pevné země a jasného ohně. Cizí emoce do tebe vtékají a těžko je odlišíš od vlastních. Výkyvy nálad tě umí zaplavit na celé dny. Křivdy si dlouho pamatuješ a urážku necháváš doutnat v tichu. Rozhodnutí odkládáš, dokud se situace nevyřeší sama. Před tvrdou realitou se snadno stáhneš do snění nebo do mlčení. Na hranice dbáš málo, a proto tě péče o druhé vyčerpává.",
+  "hard": [
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o flegmatické povaze. Převaha studené a vlhké vody podle starých autorů oslabuje životní teplo. Spojovali ji se zadržováním tekutin, s otoky, se sklonem k nachlazení, s potížemi lymfy a ledvin a s pomalým zotavováním. Tělo podle tohoto výkladu silně odráží duševní stav."
+   },
+   {
+    "topics": [
+     "mental_crisis"
+    ],
+    "text": "Tradice tu mluví o nebezpečí, že citová záplava přeroste v melancholii a v dlouhá období skleslosti. Staré texty popisují stavy, kdy člověk ztrácí pevnou půdu pod nohama, uzavírá se před světem a z vnitřního smutku nenachází cestu ven."
+   },
+   {
+    "topics": [
+     "addiction"
+    ],
+    "text": "Tradice tu mluví o sklonu tlumit přecitlivělost alkoholem, léky, jídlem nebo jinými látkami. Voda podle ní touží po rozplynutí a úniku. Proto se v takovém horoskopu podle starých výkladů častěji objevuje riziko závislosti."
+   }
+  ],
+  "traits": {
+   "text": [
+    "sensitivity",
+    "intuition",
+    "empathy",
+    "depth",
+    "protectiveness"
+   ],
+   "shadow": [
+    "moodiness",
+    "sulking",
+    "escapism",
+    "indecision",
+    "exhaustion"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "emphasis/element_missing/fire",
+  "title": "Přemíra a nedostatek: chybí živel oheň (žádná planeta)",
+  "keywords": [
+   "chybějící oheň",
+   "uvážlivost",
+   "tichá vytrvalost",
+   "nedostatek elánu"
+  ],
+  "themes": [
+   "character",
+   "health",
+   "growth",
+   "work"
+  ],
+  "text": "Bez jediné planety v ohnivých znameních ti chybí vrozený plamen, který jiné žene do akce bez rozmýšlení. Nadšení u tebe nevzniká samo. Rodí se pomalu z porozumění, citu nebo praktické potřeby. Proto máš dar uvážlivosti: nejdřív vidíš souvislosti, pak teprve jednáš. Tvoje síla je tichá a vytrvalá a nestojí na okamžitém vzplanutí. Často tě přitahují lidé plní ohně, protože ti přinášejí jiskru a odvahu, kterou v sobě hledáš. Když si cíl jednou osvojíš, vydrží ti déle než mnohým nadšencům. Tradice také říká, že chybějící živel člověk vědomě hledá, a proto ho někdy nečekaně přehání.",
+  "shadow": "Chybějící oheň se ve stínu ukazuje jako potíž začít. Čekáš na správnou chvíli, na jistotu nebo na pobídku zvenčí, a příležitosti mezitím odcházejí. Důvěra ve vlastní sílu kolísá, takže se snadno podřizuješ hlasitějším povahám. Radost a hravost ti mohou připadat cizí a život pak plyne v povinnostech bez jiskry. Občas přichází opačný výkyv: náhlé, neuvážené vzplanutí, kterým se snažíš dohnat zameškané.",
+  "hard": [
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o slabší životní síle a menší tělesné odolnosti. Staré texty spojují nedostatek ohně s chladem v těle, pomalým zotavováním a dlouhou únavou. Mluví také o sklonu k vyčerpání, kdy tělo nemá z čeho brát."
+   },
+   {
+    "topics": [
+     "mental_crisis"
+    ],
+    "text": "Tradice tu mluví také o sklonu k melancholii a sklíčenosti. Bez vnitřního plamene může přijít období, kdy chybí chuť do života, smysl a víra v budoucnost. Takové stavy podle starých výkladů mohou přerůst v hlubší duševní krizi."
+   }
+  ],
+  "traits": {
+   "text": [
+    "caution",
+    "patience",
+    "perseverance",
+    "realism",
+    "depth"
+   ],
+   "shadow": [
+    "procrastination",
+    "insecurity",
+    "submissiveness",
+    "melancholy",
+    "exhaustion"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "emphasis/element_missing/earth",
+  "title": "Přemíra a nedostatek: chybí živel země (žádná planeta)",
+  "keywords": [
+   "nedostatek uzemnění",
+   "fantazie",
+   "nepraktičnost",
+   "tělo",
+   "hmotná nejistota"
+  ],
+  "themes": [
+   "character",
+   "work",
+   "money",
+   "health",
+   "growth"
+  ],
+  "text": "Bez jediné planety v zemském živlu stojí tvůj horoskop na ohni, vzduchu a vodě a chybí mu pevná půda. Tvoje mysl žije v nápadech, pocitech a možnostech dřív než v hmotě. Hranice reálného světa tě tolik nesvazují, proto vidíš řešení tam, kde jiní vidí jen překážky. Máš dar fantazie, přizpůsobivosti a odvahy začínat znovu. Peníze, majetek a pevné struktury pro tebe nejsou cílem samy o sobě. K zemi často tíhneš skrze lidi kolem a přitahují tě partneři a přátelé s praktickým smyslem. Tradice chápe chybějící živel jako výzvu, kterou celý život vědomě dobýváš. Právě tam se může zrodit neobvyklá zručnost.",
+  "shadow": "Nedostatek země se nejvíc projevuje při dotahování věcí do konce. Plány zůstávají v hlavě, termíny ujíždějí a každodenní povinnosti působí jako cizí jazyk. Tělo dává signály únavy a hladu, ale snadno je přeslechneš. Hmotný svět ti občas proklouzává mezi prsty: věci se ztrácejí a účty se odkládají. Někdy přichází opačný výkyv a z nejistoty vzniká úzkostné lpění na pořádku, rutině nebo jídle. Chybí střední míra, která by unesla tíhu běžného dne.",
+  "hard": [
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o sklonu přehlížet potřeby těla. Spánek, jídlo a pohyb ustupují myšlenkám a citům, dokud se neozve vyčerpání nebo dlouhodobé oslabení. Staré výklady spojují chybějící zemi s nemocemi, které vznikají z nedbalosti a z pozdě rozpoznaných potíží, ne z vrozené slabosti."
+   },
+   {
+    "topics": [
+     "ruin",
+     "loss"
+    ],
+    "text": "Tradice tu mluví také o hmotné nestabilitě. Majetek přichází a odchází bez pevného řádu. Nepřipravenost na všední povinnosti může vést ke ztrátě zázemí nebo k náhlému úpadku. Staré texty to líčí jako život bez kotvy, ve kterém stačí jediný otřes k velkému pádu."
+   }
+  ],
+  "traits": {
+   "text": [
+    "idealism",
+    "flexibility",
+    "creativity",
+    "curiosity"
+   ],
+   "shadow": [
+    "procrastination",
+    "carelessness",
+    "escapism",
+    "anxiety",
+    "exhaustion"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
+  "key": "emphasis/element_missing/air",
+  "title": "Přemíra a nedostatek: chybí živel vzduch (žádná planeta)",
+  "keywords": [
+   "prožitá zkušenost",
+   "chybějící odstup",
+   "nevyslovené pocity",
+   "praktický úsudek"
+  ],
+  "themes": [
+   "character",
+   "relationships",
+   "growth",
+   "health"
+  ],
+  "text": "Bez jediné planety ve vzduchových znameních prožíváš svět víc skrze zkušenost, cit a tělo než skrze pojmy. Neodstupuješ od věcí kvůli rozboru, vstupuješ do nich naplno. Tvoje úsudky vycházejí z toho, co vidíš, cítíš a zkusíš na vlastní kůži. Prázdné řeči tě nudí, máš smysl pro podstatné a mluvíš, až když máš co říct. Tvoje slova mají váhu, protože jsou prožitá. Často tě táhnou knihy, jazyky nebo debaty, jako by chybějící živel volal po doplnění. Vztahy stavíš na skutcích a společně prožitém čase, ne na dlouhých rozhovorech.",
+  "shadow": "Chybějící vzduch ti bere odstup: co se kolem děje, bereš osobně a těžko to vidíš očima druhého. Pocity a dojmy se ti obtížně převádějí do slov, takže zůstávají nevyslovené, nebo vyjdou najednou a příliš prudce. Druzí pak nerozumějí tvým pohnutkám a ty jejich. Nové myšlenky a cizí názory v tobě někdy vzbuzují nedůvěru a zatvrzelost. Jindy přichází opak: neustálé přemýšlení, mnohomluvnost a hromadění informací, které mají vyrovnat pocit, že ti něco uniká.",
+  "hard": [
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o citlivosti dýchacího ústrojí a nervové soustavy, tedy oblastí, které vzduch tradičně spravuje. Výklady zmiňují sklon k zadržování dechu při napětí a k vyčerpání nervů, když se pocity dlouho hromadí bez vyjádření. Jde o tradiční souvislost, ne o předpověď."
+   },
+   {
+    "topics": [
+     "mental_crisis"
+    ],
+    "text": "Tradice tu mluví o nebezpečí uzavření ve vlastních pocitech bez možnosti od nich odstoupit. Když chybí slova i odstup, tíživá nálada se může prohlubovat a trvat déle, než je nutné. Starší výklady varují před izolací, kdy se trápení nesdílí a roste v tichu."
+   }
+  ],
+  "traits": {
+   "text": [
+    "realism",
+    "depth",
+    "intuition",
+    "reticence",
+    "sensitivity"
+   ],
+   "shadow": [
+    "stubbornness",
+    "reclusiveness",
+    "moodiness",
+    "loneliness"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-20"
+  }
+ },
+ {
   "key": "emphasis/element_missing/water",
   "title": "Chybí živel vody",
   "keywords": [
@@ -13,7 +1776,6 @@
   ],
   "text": "V tvém horoskopu chybí živel vody. Neznamená to, že necítíš, ale city nejsou tvůj první jazyk. Svět poznáváš rozumem, činy nebo smysly a emoce si musíš přeložit. Vztahy pro tebe často znamenají učení: druzí ti ukazují, co v sobě nosíš, ale neumíš pojmenovat. Jasnost a odstup jsou tvoje síla v krizích, kdy jiní panikaří.",
   "shadow": "Ve stínu je citová nedostupnost: druzí mohou tvou věcnost vnímat jako chlad. Smutek a strach se nevyjádří a vrátí se jako tělesné napětí nebo jako nečekaný výbuch. Empatii je potřeba se učit.",
-  "hard": [],
   "traits": {
    "text": [
     "rationality",
