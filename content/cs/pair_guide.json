@@ -1,0 +1,87 @@
+[
+ {
+  "key": "pair_guide/cautions",
+  "title": "Na co si dát pozor",
+  "keywords": [
+   "tření",
+   "nedorozumění",
+   "zranitelnost",
+   "napětí",
+   "růst"
+  ],
+  "themes": [
+   "relationships",
+   "growth"
+  ],
+  "text": "V téhle kapitole najdete místa, kde se mezi vámi snadno objeví nedorozumění nebo zranění. Nejde o rozsudky. Ukazují, kde jeden z vás tlačí a druhý ustupuje a kde se míjíte v tempu nebo v potřebách. Tření patří k blízkosti. Když o něm víte, můžete ho pojmenovat dřív, než přeroste v hádku. Právě tady mezi vámi často roste nejvíc.",
+  "hard": [
+   {
+    "topics": [
+     "violence"
+    ],
+    "text": "Tradice tu mluví o kontaktech Marsu a Saturnu mezi dvěma horoskopy jako o znamení hádek a chladu. Krajní výklady zmiňují i hrubost nebo násilí. Je to stará varovná vrstva, ne předpověď. Pro vás z ní plyne hlavně jedno: všímejte si, kdy se napětí mezi vámi hromadí beze slov."
+   },
+   {
+    "topics": [
+     "loss",
+     "death",
+     "illness"
+    ],
+    "text": "Tradice tu mluví také o Saturnu a osmém domě ve vztahu jako o tématu ztráty a odloučení. Starší výklady zmiňují i smrt partnera nebo dlouhou nemoc, kterou jeden z vás nese za druhého. Jde o symbolickou řeč, ne o jistotu. Tyto pasáže v appce označujeme zvlášť, abyste se mohli rozhodnout, zda je číst."
+   }
+  ],
+  "traits": {
+   "text": [
+    "sensitivity",
+    "openness",
+    "cooperation",
+    "transformation"
+   ],
+   "shadow": []
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-22"
+  }
+ },
+ {
+  "key": "pair_guide/method",
+  "title": "Co průvodce je a co není",
+  "keywords": [
+   "metoda",
+   "synastrie",
+   "tranzity",
+   "nedoložený účinek",
+   "rozhovor"
+  ],
+  "themes": [
+   "relationships",
+   "growth"
+  ],
+  "text": "Tento průvodce čte vaše dva uložené profily tradiční metodou. Sleduje aspekty mezi vašimi planetami, znamení, ve kterých planety stojí, a tranzity pomalých planet. Účinek takového čtení není doložený. Srovnání napětí tranzitů se zlomovými událostmi osobností z katalogu appky žádnou souvislost neukázalo. Průvodce nedává verdikt o vašem vztahu a neslibuje, že nějaké období nastane. Rady berte jako návrhy k rozhovoru mezi vámi, ne jako pokyny.",
+  "hard": [
+   {
+    "topics": [
+     "death",
+     "illness",
+     "loss"
+    ],
+    "text": "Tradice tu mluví o smrti, nemoci a ztrátě. U některých aspektů a tranzitů je spojuje s obdobími odloučení, péče o blízkého v nemoci nebo úmrtí v rodině. Průvodce tyto pasáže uvádí celé, aby byl výklad úplný. Jsou to staré významy, ne předpověď. Nic z nich neříká, co se mezi vámi stane."
+   }
+  ],
+  "traits": {
+   "text": [
+    "rationality",
+    "realism",
+    "honesty",
+    "openness",
+    "cooperation"
+   ],
+   "shadow": []
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-22"
+  }
+ }
+]

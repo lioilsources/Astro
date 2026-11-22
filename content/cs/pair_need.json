@@ -1,0 +1,111 @@
+[
+ {
+  "key": "pair_need/moon/cancer",
+  "title": "Měsíc v Raku: co potřebuje",
+  "keywords": [
+   "domov",
+   "péče",
+   "bezpečí",
+   "paměť",
+   "útěcha"
+  ],
+  "themes": [
+   "relationships",
+   "family",
+   "character",
+   "health"
+  ],
+  "text": "Kdo má Měsíc v Raku, potřebuje u blízkého člověka najít místo, kam se dá vrátit a kde se nic nemusí vysvětlovat. Pocit bezpečí roste z drobností: z pravidelného zavolání, ze společného jídla, z toho, že si někdo pamatuje, co se minule stalo. Útěchu přijímá spíš skutky než slovy. Pomůže čaj, deka nebo tiché sezení vedle sebe. Při stresu se stahuje do ulity a čeká, jestli si toho někdo všimne. Očekává, že vztah bude mít paměť a že se budou ctít společné zvyky, výročí a sliby. Péči vrací štědře. Potřebuje ale cítit, že nepeče jen jedna strana.",
+  "shadow": "Měsíc v Raku si zranění pamatuje dlouho a místo výčitky často zvolí ticho. Člověk s tímto postavením umí zmizet do sebe a čekat, až to ten druhý uhodne. Nálady se mění s atmosférou doma a nevyslovená křivda pak prosakuje do drobných gest. Péče se může zvrhnout v lpění, tedy v kontrolu, kdo kdy přišel a proč nezavolal. Změny, stěhování nebo nové zvyky bere jako ohrožení. Uraženost někdy slouží jako zkouška, jestli druhé straně na vztahu opravdu záleží.",
+  "hard": [
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o citlivém žaludku, trávení a hrudníku. Starosti a napětí se podle starých výkladů u Měsíce v Raku ukládají do těla a projevují se nechutenstvím nebo zažívacími obtížemi, zvlášť v obdobích nejistoty doma."
+   },
+   {
+    "topics": [
+     "loss",
+     "death"
+    ],
+    "text": "Tradice tu mluví o hlubokém prožívání ztráty matky, domova nebo rodinného zázemí. Smrt blízkého člověka nebo rozpad domácnosti může podle starých výkladů zasáhnout silněji a na delší dobu, než je zvenku vidět."
+   },
+   {
+    "topics": [
+     "mental_crisis"
+    ],
+    "text": "Tradice tu mluví o sklonu k melancholii a uzavírání se do sebe. V těžkých obdobích se člověk s Měsícem v Raku může stáhnout od lidí a dlouho přemítat o minulosti. Okolí si toho přitom nemusí včas všimnout."
+   }
+  ],
+  "traits": {
+   "text": [
+    "security_need",
+    "family_attachment",
+    "protectiveness",
+    "empathy",
+    "loyalty"
+   ],
+   "shadow": [
+    "moodiness",
+    "sulking",
+    "reclusiveness",
+    "dependence",
+    "melancholy"
+   ]
+  },
+  "advice": "Pomáhá zeptat se přímo a jemně, co se děje, a nečekat, až to přijde samo. Funguje nabídnout drobnou praktickou péči a pak dát čas. Dobré je domluvit se na signálu, kterým se dá říct „potřebuji klid“, aniž by to druhou stranu urazilo. Nefunguje zesměšňovat citlivost ani rušit společné zvyky bez vysvětlení. Po hádce pomáhá výslovně říct, že vztah trvá.",
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-22"
+  }
+ },
+ {
+  "key": "pair_need/venus/libra",
+  "title": "Venuše ve Vahách: co potřebuje",
+  "keywords": [
+   "rovnováha",
+   "ohleduplnost",
+   "vkus",
+   "spravedlnost",
+   "zdvořilost"
+  ],
+  "themes": [
+   "relationships",
+   "character",
+   "health"
+  ],
+  "text": "Kdo má Venuši ve Vahách, potřebuje vztah, ve kterém se dává a bere ve stejné míře. Náklonnost pozná podle ohleduplnosti, třeba podle toho, jestli dostane prostor říct svůj názor dřív, než padne rozhodnutí za oba. Radost dělá pozornost k detailu: hezky prostřený stůl, uklizené prostředí, slušný tón i v obyčejný den. Péči vidí ve zdvořilosti, v poděkování a ve snaze podívat se na společnou věc z obou stran. Hrubost, křik a nespravedlnost zraňují víc než otevřený nesouhlas. Ocenění funguje, když je konkrétní. Může jít o pochvalu vkusu, citu pro míru nebo schopnosti urovnat spor.",
+  "shadow": "Potřeba vyváženého vztahu se u Venuše ve Vahách může zvrhnout v tiché počítání, kdo komu kolik dal. Kvůli klidu člověk s tímto postavením spolkne výhradu a usmívá se, i když uvnitř nesouhlasí. Rozhodnutí odkládá, dokud nezazní souhlas ostatních. Cizí nespokojenost bere jako vlastní selhání. Konflikt se pak neřeší, jen se přikryje příjemnou formou. Navenek vše vypadá v pořádku, ale nevyslovená křivda se hromadí. Nakonec vyjde najevo chladnou zdvořilostí nebo náhlým odstupem.",
+  "hard": [
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o citlivých ledvinách, bedrech a kůži. Zmiňuje také sklon k potížím z přemíry požitků, sladkostí a nepravidelného života. Spojuje to s touhou po pohodlí a harmonii, která někdy přehluší signály těla. Jde o tradiční symboliku, ne o jistotu ani diagnózu."
+   }
+  ],
+  "traits": {
+   "text": [
+    "justice",
+    "charm",
+    "cooperation",
+    "gentleness",
+    "sociability"
+   ],
+   "shadow": [
+    "indecision",
+    "dependence",
+    "superficiality",
+    "conformity",
+    "detachment"
+   ]
+  },
+  "partner": "V milostném vztahu přitahuje elegance, upravenost a půvab v chování. Svádění funguje přes pozornost, hezké prostředí, dotek ve správnou chvíli a rozhovor, který lehce plyne. Intimita roste s pocitem rovnosti, kdy se oba snaží potěšit jeden druhého stejnou měrou. Hrubost, spěch nebo nedbalý vzhled chuť rychle zchladí.",
+  "advice": "Pomáhá zeptat se na názor a nechat čas na odpověď místo nátlaku na okamžité rozhodnutí. Funguje říkat nesouhlas klidně, věcně a bez zvýšeného hlasu, protože spor pak nepůsobí jako ohrožení vztahu. Je dobré se domluvit, že upřímná výhrada je vítaná. Nefunguje brát úsměv automaticky jako souhlas ani nechat laskavosti proudit jen jedním směrem.",
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-22"
+  }
+ }
+]

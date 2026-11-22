@@ -1,0 +1,246 @@
+[
+ {
+  "key": "pair_period/saturn/venus",
+  "title": "Saturn k Venuši: zátěžové období",
+  "keywords": [
+   "zkouška lásky",
+   "odstup",
+   "pevnější závazek",
+   "dospění",
+   "citový chlad"
+  ],
+  "themes": [
+   "relationships",
+   "growth",
+   "health"
+  ],
+  "text": "Když tranzitující Saturn tlačí na Venuši jednoho z vás, láska se zkouší časem a povinnostmi. Ten, koho se období týká, cítí méně radosti a méně chuti ukazovat náklonnost. Víc pochybuje, zda si lásku zaslouží. Něha se ztišuje, drobná potěšení ustupují únavě a odpovědnosti. Druhý to vnímá jako odstup a snadno to bere osobně. Tradice čte toto období jako zkoušku toho, co mezi vámi už stojí. Co je postavené pevně, vydrží a zpevní se. Co stálo jen na okouzlení, začne slábnout. Období trvá měsíce, někdy roky, a nese i dospění: méně slov, víc skutečné věrnosti a jasnější představu, čeho si spolu ceníte.",
+  "shadow": "Saturn na Venuši umí z lásky udělat povinnost a z náklonnosti účetnictví. Ten, koho se období týká, se stahuje a šetří vlídností. Má pocit, že není k milování. Chlad se snadno čte jako odmítnutí, i když za ním bývá spíš strach. Druhý pak buď tlačí na důkazy lásky, nebo se uzavírá taky. Radost mizí z obyčejných dnů. Hodnoty se mění v měřítko, kterým se navzájem posuzujete. Hrozí strnulost: vztah drží pohromadě ze zvyku a pocitu viny, ne z blízkosti.",
+  "hard": [
+   {
+    "topics": [
+     "loss"
+    ],
+    "text": "Tradice tu mluví o ztrátě citové jistoty, o ochladnutí, odloučení nebo konci vztahu, který neunese tíhu doby. Čte to jako možnost, ne jako jistotu. Saturn podle ní odnímá to, co nebylo pevné, a osamělost uvnitř vztahu patří k jeho tradičním obrazům."
+   },
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o únavě těla, o chronických potížích, kostech a o stárnutí, které se v tomto období připomíná. Spojuje je s tím, že radost a pohodlí ustupují tíze. Nejde o předpověď nemoci, jen o starý obraz Saturnova působení na Venuši."
+   },
+   {
+    "topics": [
+     "death",
+     "loss"
+    ],
+    "text": "Tradice tu mluví i o smrti a stáří v blízkém okolí: o odchodu milovaného člověka, staršího příbuzného nebo o loučení, které zasáhne lásku a radost jednoho z vás. Čte to jako jednu z možností tohoto období, nikdy jako jistotu."
+   }
+  ],
+  "traits": {
+   "text": [
+    "responsibility",
+    "perseverance",
+    "loyalty",
+    "restraint",
+    "detachment"
+   ],
+   "shadow": [
+    "coldness",
+    "insecurity",
+    "pessimism",
+    "guilt",
+    "rigidity"
+   ]
+  },
+  "advice": "Domluvte si, že odstup jednoho z vás není verdikt o lásce, a řekněte to nahlas. Ten, koho se období týká, může únavu pojmenovat třeba větou: „Teď mám málo sil, ne málo citu.“ Druhý ať nežádá důkazy a nechá prostor. Zkuste malé pravidelné rituály, třeba společnou procházku nebo jedno klidné jídlo týdně. Velká rozhodnutí neřešte v nejhorší únavě. Únava ani odstup ale neomlouvají ponižování a to snášet nemusíte.",
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-22"
+  }
+ },
+ {
+  "key": "pair_period/neptune/moon",
+  "title": "Neptun k Měsíci: zátěžové období",
+  "keywords": [
+   "citová mlha",
+   "nejistý domov",
+   "zklamání",
+   "soucit",
+   "odpuštění"
+  ],
+  "themes": [
+   "relationships",
+   "family",
+   "health",
+   "growth"
+  ],
+  "text": "Neptun teď rozmývá citový svět jednoho z vás. Nálady přicházejí bez zjevného důvodu a pocit domova ztrácí pevné obrysy. Ten, koho se období týká, často neví, co přesně cítí. Hůř rozlišuje vlastní smutek od smutku okolí. Druhý to vnímá jako vzdálenost nebo mlhu, do které nevidí. Tradice čte toto období jako čas, kdy se citové jistoty rozpouštějí a starý pocit bezpečí přestává stačit. Mezi vámi snadno vznikají nevyslovená očekávání a tichá zklamání. Zároveň roste citlivost, soucit a schopnost odpouštět. Trvá to měsíce až roky a proměňuje, co pro vás oba znamená domov.",
+  "shadow": "Když Neptun zamlží Měsíc, city se snadno mění v útěk. Místo rozhovoru přichází stažení, dlouhý spánek nebo cokoli, co otupí. Ten, koho se období týká, může idealizovat minulost nebo domov, který nikdy neexistoval, a pak narážet na zklamání. Druhý snadno sklouzne do role zachránce a nese cizí nálady jako vlastní. Množí se polopravdy, nedorozumění a pocit, že jeden z vás je oběť. Hranice mezi soucitem a sebeobětováním mizí.",
+  "hard": [
+   {
+    "topics": [
+     "addiction"
+    ],
+    "text": "Tradice tu mluví o zvýšeném sklonu tišit citový neklid alkoholem, léky, jídlem nebo jinými látkami. Měsíc čte jako potřebu útěchy a Neptun jako touhu rozpustit bolest, což může vést ke vzniku nebo prohloubení závislosti."
+   },
+   {
+    "topics": [
+     "mental_crisis"
+    ],
+    "text": "Tradice tu mluví o duševní mlze, skleslosti a citovém zmatku. Uvádí, že se mohou objevit stavy, kdy se těžko rozlišuje skutečnost od obav a představ, a nálady se propadají do hlubokého smutku nebo úzkosti."
+   },
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o oslabení těla spojeném s Měsícem: o potížích s tekutinami, trávením, spánkem a hormonální rovnováhou. Neptunu přisuzuje nejasné příznaky, citlivost na látky, otravy a nemoci, které se obtížně rozpoznávají."
+   },
+   {
+    "topics": [
+     "loss",
+     "death"
+    ],
+    "text": "Tradice tu mluví o ztrátě nebo vzdalování blízké ženské postavy, nejčastěji matky, o její nemoci či odchodu, včetně úmrtí. Spojuje toto období také s rozpadem nebo ztrátou domova a s pocitem, že rodinné zázemí mizí."
+   }
+  ],
+  "traits": {
+   "text": [
+    "sensitivity",
+    "empathy",
+    "moodiness",
+    "insecurity",
+    "forgiveness"
+   ],
+   "shadow": [
+    "escapism",
+    "idealism",
+    "self_sacrifice",
+    "addiction_tendency",
+    "deceit"
+   ]
+  },
+  "advice": "Domluvte si jednoduchý signál, třeba číslo od jedné do deseti, který řekne, jak na tom kdo je, bez nutnosti vysvětlovat. Kdo období prožívá, ať zkusí říct „nevím, co cítím“ místo mlčení. Druhý ať se ptá, nehádá a nepřebírá roli zachránce. Důležité dohody si potvrzujte nahlas nebo písemně. Velká rozhodnutí o bydlení odložte na jasnější dny. Dopřejte si společný klid a drobnosti si odpouštějte.",
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-22"
+  }
+ },
+ {
+  "key": "pair_period/jupiter/sun",
+  "title": "Jupiter ke Slunci: příznivé období",
+  "keywords": [
+   "růst",
+   "sebevědomí",
+   "velkorysost",
+   "smysl",
+   "přehánění"
+  ],
+  "themes": [
+   "character",
+   "relationships",
+   "growth",
+   "health"
+  ],
+  "text": "Když tranzitující Jupiter stojí na Slunci jednoho z vás nebo k němu svírá trigon, tradice čte toto období jako čas, kdy roste vůle i sebevědomí. Kdo období prožívá, víc věří svým plánům, troufá si na větší cíle a hledá ve svém životě smysl. Často ho táhne studium, cesty nebo krok, který dlouho odkládal. Druhý to vidí zblízka: víc světla, víc velkorysosti, víc chuti odpouštět. Mezi vámi se snáz mluví o budoucnosti a snáz si děláte radost. Období trvá měsíce až roky. Není to jeden šťastný týden, ale delší vlna, která nese oba.",
+  "shadow": "Jupiter na Slunci jednoho z vás umí sebevědomí nafouknout víc, než unese skutečnost. Kdo období prožívá, snadno slibuje, přeceňuje své síly a bere úspěch jako samozřejmost. Z velkorysosti se stává okázalost, z víry nadutost. Druhý může mít pocit, že stojí ve stínu cizího rozmachu. Nebo musí krotit plány, které nikdo nepromyslel. Lehkomyslnost se ukazuje v drobnostech: zapomenuté dohody, rozhazování času i energie, pocit, že pravidla platí jen pro ostatní.",
+  "hard": [
+   {
+    "topics": [
+     "illness",
+     "addiction"
+    ],
+    "text": "Tradice tu mluví o játrech, tuku a přemíře. Jupiter, který zesiluje Slunce, čte jako sklon k přejídání, pití a nadbytku všeho druhu, který tělo časem nese hůř. Nejde o předpověď nemoci. Je to staré upozornění, že období hojnosti svádí k nestřídmosti."
+   },
+   {
+    "topics": [
+     "ruin"
+    ],
+    "text": "Tradice tu mluví také o pádu z výšky, kterou si člověk sám přisoudil. Přílišná důvěra ve vlastní štěstí, rozmařilost a velké sliby podle starých výkladů vedou ke ztrátě dobrého jména nebo toho, co se dlouho budovalo. Čte se to jako možnost, ne jako jistota."
+   }
+  ],
+  "traits": {
+   "text": [
+    "self_confidence",
+    "optimism",
+    "generosity",
+    "forgiveness",
+    "wanderlust"
+   ],
+   "shadow": [
+    "extravagance",
+    "pride",
+    "irresponsibility",
+    "indulgence",
+    "vanity"
+   ]
+  },
+  "advice": "Využijte tuto vlnu k něčemu společnému, co vás oba přesahuje: kurz, cesta, nový plán. Kdo období prožívá, ať své nápady nejdřív řekne druhému, a teprve potom je slíbí ostatním. Domluvte si jednoduché pravidlo: každý velký závazek nechte den uležet. Druhý nejvíc pomůže, když podporuje a nekrotí, ale klidně se zeptá: „A co pak?“ Neberte rozmach jako soutěž. Dejte prostor i plánům druhého.",
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-22"
+  }
+ },
+ {
+  "key": "pair_period/cycle/saturn_return",
+  "title": "Návrat Saturnu (kolem 29 a 58 let)",
+  "keywords": [
+   "bilance dospělosti",
+   "zralost",
+   "odpovědnost",
+   "hranice",
+   "čas"
+  ],
+  "themes": [
+   "growth",
+   "relationships",
+   "character",
+   "work",
+   "health"
+  ],
+  "text": "Jeden z vás prochází návratem Saturnu, bilancí kolem devětadvaceti nebo osmapadesáti let. Tradice čte toto období jako revizi dospělosti. Klade otázku, co v životě opravdu chci nést a co už jen vleču ze setrvačnosti. Na váhu se dostávají práce, domov, závazky i samotný vztah. Ten, koho se období týká, víc mlčí, víc zvažuje a méně slibuje. Druhý to může cítit jako odstup, i když jde hlavně o vnitřní třídění. Mezi vámi se zpomaluje tempo a roste váha slov. Co obstojí, to tradice čte jako pevnější základ na další roky.",
+  "shadow": "Při návratu Saturnu se bilance snadno mění v soud. Ten, koho se období týká, měří vlastní život přísným metrem a všude vidí nedostatek a zpoždění. Strach z promarněného času vede ke strnulosti, nebo naopak k prudkým škrtům bez rozhovoru. Chlad, pesimismus a pocit nedostatečnosti se pak přelévají do vztahu. Druhý slyší výčitky tam, kde jde o vnitřní úzkost. I druhá strana má svůj stín: tlačí na rychlé vyřešení, nebo se uraženě stahuje. Mezi vámi pak místo řádu vládne tíha a mlčení.",
+  "hard": [
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o těle, které připomíná čas. Jde o kosti, klouby, zuby, kůži a chronické potíže, které se v tomto období mohou ozvat nebo zhoršit. Kolem osmapadesáti let to tradice čte jako první zřetelné znamení stárnutí. Nejde o předpověď, ale o tradiční spojení Saturnu s tělem a jeho opotřebením."
+   },
+   {
+    "topics": [
+     "death",
+     "loss"
+    ],
+    "text": "Tradice tu mluví o ztrátách, které toto období provázejí: o odchodu rodičů nebo starších blízkých a o konci přátelství, vztahů či celé životní etapy. U druhého návratu Saturnu zmiňuje i smrt a vědomí vlastní konečnosti, které se stává hmatatelnějším. Tradice to nečte jako jistotu, ale jako téma, které se v této době často otevírá."
+   },
+   {
+    "topics": [
+     "mental_crisis"
+    ],
+    "text": "Tradice tu mluví o období tíhy. Pocit nedostatečnosti, pesimismus a osamělost mohou přerůst v dlouhou skleslost. Ten, koho se období týká, se může uzavírat i před nejbližšími a nevidět smysl v tom, co dřív neslo. Tradice to čte jako zkoušku zralosti, ne jako konečný stav."
+   }
+  ],
+  "traits": {
+   "text": [
+    "responsibility",
+    "realism",
+    "depth",
+    "restraint",
+    "perseverance"
+   ],
+   "shadow": [
+    "pessimism",
+    "rigidity",
+    "coldness",
+    "insecurity",
+    "loneliness"
+   ]
+  },
+  "advice": "Domluvte si, že bilance je dovolená a není útokem na vztah. Kdo období prožívá, ať nahlas říká, co zvažuje, dřív než to uzavře. Pomáhá věta „přemýšlím o tom“ místo hotového rozhodnutí. Druhý ať netlačí na rychlé řešení a nebere mlčení osobně. Zkuste si jednou týdně najít klidný čas a probrat, co chcete dál nést společně. Když se rozhovor mění v soud, dejte si pauzu a vraťte se k němu druhý den. Velké škrty nedělejte jeden bez druhého.",
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-22"
+  }
+ }
+]

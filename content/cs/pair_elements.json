@@ -1,0 +1,107 @@
+[
+ {
+  "key": "pair_elements/sun/fire/water",
+  "title": "Slunce: oheň a voda",
+  "keywords": [
+   "nadšení",
+   "citová blízkost",
+   "uznání",
+   "porozumění beze slov",
+   "pára"
+  ],
+  "themes": [
+   "relationships",
+   "character"
+  ],
+  "text": "Mezi vámi se potkává oheň, který chce být viděn v tom, co právě dělá, s vodou, která chce být pochopena v tom, co právě cítí. Oheň jedná hned, nadchne se a potřebuje slyšet, že jeho snaha má váhu. Voda potřebuje, aby si toho druhý všiml i bez vysvětlování. Oheň vnáší do vztahu pohyb, odvahu a chuť začít. Voda vnáší hloubku, cit pro náladu a pochopení pro to, co nikdo nevyslovil. Když to funguje, oheň dává vodě směr a voda ohni připomíná, proč to celé dělá. Každý z vás tak u druhého nachází to, co jeho vlastní povaha nemá.",
+  "shadow": "Oheň se cítí přehlížen, když jeho nadšení narazí na tiché stažení vody. Voda se cítí zraněna, když oheň její náladu přeběhne a jede dál. Oheň pak přidá na hlasitosti a tlaku. Voda se uzavře a čeká, že druhý sám pozná, co se stalo. Jeden z vás to čte jako trucování, druhý jako hrubost. Volnost ohně působí na vodu jako odstup. Potřeba blízkosti u vody působí na oheň jako břemeno. Nevyslovená křivda se hromadí a pak se vyvalí najednou. Vzniká pára: hodně horka, málo jasna.",
+  "hard": [
+   {
+    "topics": [
+     "mental_crisis"
+    ],
+    "text": "Tradice tu mluví o ohni, který vodu vysušuje, a o vodě, která oheň dusí. Ve vyhrocené podobě může jeden z vás upadat do dlouhé skleslosti a stažení do sebe, druhý do vyčerpávajícího neklidu. Nejde o jistotu, jen o starý obraz toho, kam může vést dlouhé vzájemné potlačování."
+   },
+   {
+    "topics": [
+     "violence"
+    ],
+    "text": "Tradice tu mluví také o výbušnosti ohně, která se při dlouhém mlčení druhého může změnit v prudká slova nebo výhrůžky. Voda podle starých výkladů pak snáší víc, než by měla. Není to předpověď. Je to připomínka, že vznětlivost a tiché snášení k sobě snadno tíhnou."
+   },
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o střetu horké a vlhké povahy. Staré texty ho spojují s vyčerpáním, horečnatými stavy a neklidným spánkem, když napětí mezi vámi trvá dlouho. Jde o tradiční obraz, ne o jistotu."
+   }
+  ],
+  "traits": {
+   "text": [
+    "vitality",
+    "courage",
+    "empathy",
+    "sensitivity",
+    "depth"
+   ],
+   "shadow": [
+    "impulsiveness",
+    "anger",
+    "sulking",
+    "moodiness",
+    "drama"
+   ]
+  },
+  "advice": "Domluvte si, že uznání i potřebu blízkosti řeknete nahlas, ne náznakem. Kdo z vás je ohněm, zkuste před reakcí chvíli počkat a zeptat se, co se děje. Kdo je vodou, zkuste křivdu pojmenovat dřív, než se nahromadí. Při hádce si dejte pauzu s jasným časem návratu, například hodinu. Nedělejte z ticha trest ani z hlasitosti zbraň.",
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-22"
+  }
+ },
+ {
+  "key": "pair_elements/mercury/earth/air",
+  "title": "Merkur: země a vzduch",
+  "keywords": [
+   "ověřování",
+   "výměna nápadů",
+   "tempo řeči",
+   "konkrétnost",
+   "lehkost myšlení"
+  ],
+  "themes": [
+   "relationships",
+   "character",
+   "work"
+  ],
+  "text": "Mezi vámi se potkává myšlení, které chce věci ověřit, s myšlením, které je chce hned rozebrat. Jeden z vás mluví pomaleji, váží slova a věří tomu, co jde ukázat. Druhý skáče od nápadu k nápadu, ptá se a přemýšlí nahlas. Kde jeden přináší otázky a nové úhly, druhý přináší ověření a dotažení. Porozumění pro jednoho z vás znamená čas a konkrétní příklad. Druhý potřebuje, aby rozhovor plynul a myšlenka mohla zaznít i nehotová. Spolu umíte nápad vymyslet i převést do praxe.",
+  "shadow": "Když se zemitý a vzdušný Merkur míjejí, jednomu z vás zní řeč druhého povrchně a druhému připadají odpovědi toho prvního pomalé. V hádce jeden z vás tuhne, opakuje fakta a chce důkazy. Druhý zrychluje, mění téma a přeskakuje k dalším argumentům. Jeden pak slyší chaos, druhý nezájem a odmítnutí. Hrozí, že jeden z vás zmlkne a druhý vyplní ticho dalšími slovy, takže nikdo neposlouchá. Nápady pak zůstávají nedotažené a jistoty nikdo nezpochybní.",
+  "hard": [
+   {
+    "topics": [
+     "mental_crisis"
+    ],
+    "text": "Tradice tu mluví o Merkuru jako o vládci nervů. U této dvojice popisuje napětí mezi myslí, která nepřestává přemýšlet, a myslí, která starosti nosí dlouho a potichu. Výsledkem může být podle ní nespavost, nervové vyčerpání a úzkostné kroužení myšlenek, hlavně když se nevyřčené věci hromadí. Jde o tradiční obraz, ne o jistotu."
+   }
+  ],
+  "traits": {
+   "text": [
+    "rationality",
+    "curiosity",
+    "realism",
+    "eloquence",
+    "cooperation"
+   ],
+   "shadow": [
+    "rigidity",
+    "superficiality",
+    "reticence",
+    "restlessness",
+    "criticism"
+   ]
+  },
+  "advice": "Domluvte si, že důležité věci neřešíte ve spěchu mezi dveřmi. Kdo potřebuje čas, řekne nahlas, kdy se k tématu vrátí, a dodrží to. Kdo myslí rychle, zkusí říct jednu myšlenku a počkat na odpověď. Nápady si zapisujte a vyberte z nich jeden, který opravdu uděláte. Když hádka zrychlí, dejte si dvacet minut pauzu. Nezesměšňujte pomalost ani nápady.",
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-22"
+  }
+ }
+]
