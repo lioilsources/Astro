@@ -15,6 +15,7 @@ dart run packages/astro_core/bin/chart.dart 2000-01-01 12:00 50.0833 14.4167 UT
 cd app && flutter run
 tools/golden/.venv/bin/python tools/golden/gen_golden.py   # přegenerovat golden + tabulku Pluta
 python3 tools/people/build_people.py && dart run tools/content/bin/people.dart   # katalog osobností
+app/tool/store_screenshots.sh && python3 app/tool/upload_store_screenshots.py ios   # screenshoty obchodu
 ```
 
 ## Mapa
@@ -25,7 +26,8 @@ python3 tools/people/build_people.py && dart run tools/content/bin/people.dart  
 - `tools/people/` — katalog osobností z Wikidat; časy narození jen ze `times.json` se zdrojem
 - `tools/golden/` — referenční vektory (skyfield + DE440, Swiss Ephemeris jen tady)
 - `tools/prototype/` — původní ověřovací prototyp
-- `docs/` — ephemeris, scoring, style, content
+- `docs/` — ephemeris, scoring, style, content; GitHub Pages (index, privacy, support)
+- `fastlane/metadata/` — texty a screenshoty obchodů (ios cs/en-US, android cs-CZ/en-US)
 
 ## Invarianty
 - Swiss Ephemeris (AGPL) se do appky nikdy nelinkuje; jen `tools/golden/`.

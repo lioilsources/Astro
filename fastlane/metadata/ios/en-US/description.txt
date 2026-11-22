@@ -1,0 +1,41 @@
+Astro calculates your natal chart from the date, time and place of birth and offers an interpretation for every element of it. Everything runs on your phone: no account, no ads, no internet connection.
+
+The app's interface and all interpretations are in Czech.
+
+CHART
+• chart wheel with planets, angles and aspects, aspect patterns and 32 fixed stars
+• tables of positions, houses and aspects; nine house systems and a comparison of them
+• interpretations of planets in signs and houses, aspects, angles and more
+• birth time unknown? The chart is calculated without houses and angles
+
+TRANSITS AND TIME
+• today's transits, the day hour by hour with the Moon and planetary hours, a calendar
+• secondary progressions and solar returns
+
+RELATIONSHIPS
+• synastry of two profiles: relationship guide, periods, combined wheel, tables and interpretation
+• partners, parent and child, siblings, friends and colleagues
+• saved pairs and sharing the reading as a PDF
+
+ASK
+• what in your chart explains a trait, and what was going on on a given day
+• horary questions judged by traditional 17th-century rules
+• electional search for a suitable time; windows can be added to your calendar
+
+PREDICTION JOURNAL
+• rate your days and check whether transit tension relates to how you actually feel
+• optional blind test, control against someone else's chart, and your own hypotheses
+• evening reminder as a local notification
+
+NOTABLE PEOPLE
+• a catalogue of nearly 300 notable people with birth data from Wikidata; birth time only where a source documents it
+
+DIFFICULT TOPICS UNDER YOUR CONTROL
+The readings also cover shadow sides and difficult topics that traditional astrology writes about: illness, loss, crisis. Gentle mode, or hiding individual topics, can be switched on at any time in the settings.
+
+PRIVACY
+Profiles, the journal and questions stay on your phone, stored encrypted. The app sends nothing and collects no data.
+
+Planet positions are calculated from VSOP87 and Meeus, Pluto from the JPL DE440 ephemeris.
+
+Astro describes the traditional interpretation of astrology, not proven connections. It is neither a prediction nor advice, and it does not replace medical or psychological help.
