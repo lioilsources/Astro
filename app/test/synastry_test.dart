@@ -1,9 +1,12 @@
 import 'dart:io';
 
 import 'package:astro/data/content_repository.dart';
+import 'package:astro/data/pairs.dart';
 import 'package:astro/data/profile.dart';
 import 'package:astro/l10n/app_localizations.dart';
+import 'package:astro/logic/filter.dart';
 import 'package:astro/logic/synastry_reading.dart';
+import 'package:astro/pair_state.dart';
 import 'package:astro/state.dart';
 import 'package:astro/ui/synastry/synastry_screen.dart';
 import 'package:astro_core/astro_core.dart';
@@ -32,17 +35,36 @@ final twinB = person('t2', 'Ela', 1990, 3, 10, 6, 25);
 
 const partnerMark = 'PARTNERSKÝ-DOVĚTEK';
 
-/// Every synastry key with a text and a marked `partner` layer.
+/// Every synastry and guide key with a text, an advice and a marked `partner` layer where allowed.
 ContentRepository markedContent() => ContentRepository({
-      for (final f in ['synastry', 'synastry_point', 'synastry_house'])
+      for (final f in ['synastry', 'synastry_point', 'synastry_house', 'pair_need', 'pair_elements', 'pair_period', 'pair_guide'])
         for (final k in allKeysByFamily()[f]!)
-          k: ContentEntry(key: k, title: 'Titul $k', text: 'Mezi vámi $k.', shadow: 'Stín $k.', partner: '$partnerMark $k'),
+          k: ContentEntry(
+            key: k,
+            title: 'Titul $k',
+            text: 'Mezi vámi $k.',
+            shadow: f == 'pair_guide' ? '' : 'Stín $k.',
+            hard: [HardPassage(const ['loss'], 'Tradice $k.')],
+            partner: allowsPartner(k) ? '$partnerMark $k' : '',
+            advice: adviceFamilies.contains(f) ? 'Rada $k.' : '',
+          ),
     }, const []);
 
-Widget wrap(Widget child, {ContentRepository? content}) => ProviderScope(
+/// Saved pairs in memory (the real store needs the platform keychain).
+class MemoryPairStore extends PairStore {
+  List<Pair> data = [];
+  @override
+  Future<List<Pair>> load() async => [...data];
+  @override
+  Future<void> save(List<Pair> pairs) async => data = [...pairs];
+}
+
+Widget wrap(Widget child, {ContentRepository? content, PairStore? pairs, ContentFilter? filter}) => ProviderScope(
       overrides: [
         contentProvider.overrideWith((ref) async => content ?? loadContent()),
         profilesProvider.overrideWith(_FakeProfiles.new),
+        pairStoreProvider.overrideWithValue(pairs ?? MemoryPairStore()),
+        if (filter != null) filterProvider.overrideWithValue(filter),
       ],
       child: MaterialApp(
         localizationsDelegates: AppLocalizations.localizationsDelegates,
@@ -88,15 +110,21 @@ void main() {
     expect(sections.expand((x) => x.items).every((i) => i.entry != null), isTrue);
   });
 
-  testWidgets('picker → bi-wheel, tables and reading', (t) async {
+  testWidgets('picker saves the pair → guide first, then bi-wheel, tables and reading', (t) async {
     bigScreen(t);
-    await t.pumpWidget(wrap(const SynastryScreen()));
+    final store = MemoryPairStore();
+    await t.pumpWidget(wrap(const SynastryScreen(), pairs: store));
     await t.pumpAndSettle();
     expect(find.text('Typ vztahu'), findsOneWidget);
     expect(find.widgetWithText(ChoiceChip, 'Rodič a dítě'), findsOneWidget);
     await t.tap(find.text('Porovnat'));
     await settle(t);
+    expect(store.data.single.firstId, 'a');
+    expect(store.data.single.relationship, Relationship.partner);
     expect(find.text('Anna a Petr'), findsOneWidget);
+    expect(find.text('V čem si vyhovíte'), findsOneWidget);
+    await t.tap(find.text('Kolo'));
+    await t.pumpAndSettle();
     expect(find.text('Vnitřní kruh: Anna · vnější kruh: Petr'), findsOneWidget);
     await t.tap(find.text('Tabulky'));
     await t.pumpAndSettle();
@@ -110,6 +138,8 @@ void main() {
   for (final r in Relationship.values) {
     testWidgets('partner layer for ${r.name}: ${r == Relationship.partner ? 'shown' : 'never shown'}', (t) async {
       bigScreen(t);
+      // Tall enough that the whole guide (needs at the end) is laid out.
+      t.view.physicalSize = const Size(1170, 60000);
       await t.pumpWidget(wrap(SynastryResultScreen(anna, petr, r), content: markedContent()));
       await settle(t);
       await t.tap(find.text('Výklad'));
@@ -122,6 +152,11 @@ void main() {
         expect(find.textContaining('Mezi vámi'), findsWidgets);
         expect(marks, findsNothing);
       }
+      // The guide follows the same rule, for needs and element pairs too.
+      await t.tap(find.text('Průvodce'));
+      await t.pumpAndSettle();
+      expect(find.text('Rada synastry/sun/venus/harmonious.'), findsOneWidget);
+      expect(find.textContaining('$partnerMark pair_'), r == Relationship.partner ? findsWidgets : findsNothing);
       // A row in the table opens the same text in a sheet.
       await t.tap(find.text('Tabulky'));
       await t.pumpAndSettle();
@@ -157,6 +192,8 @@ void main() {
     await t.tap(find.text('Tabulky'));
     await t.pumpAndSettle();
     expect(find.text('Slunce (Ema) konjunkce Slunce (Ela)'), findsNothing);
+    await t.tap(find.text('Kolo'));
+    await t.pumpAndSettle();
     await t.tap(find.text('Proč jsou dvojčata různá').first);
     await t.pumpAndSettle();
     expect(find.textContaining('Dvojčata narozená pár minut po sobě'), findsOneWidget);

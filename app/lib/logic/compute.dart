@@ -37,6 +37,10 @@ class Compute {
 
   /// Inter-chart aspects and house overlays of two people (plan 10.4).
   static Future<Synastry> synastry(Chart first, Chart second) => Isolate.run(() => Synastry.compute(first, second));
+
+  /// Slow transits to both charts (plan R9 4.2): 2 years back, 10 years ahead of [now].
+  static Future<PairTimeline> pairTimeline(Chart first, Chart second, double now) =>
+      Isolate.run(() => PairTimeline.compute(first, second, now - 2 * 365.25, now + 10 * 365.25));
 }
 
 /// R5 (plan 10.5): secondary progressions and solar returns.
