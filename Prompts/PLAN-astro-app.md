@@ -482,6 +482,9 @@ vrstvách, oddíl 4). Co neprošlo a proč, je v 10.9.
 Celkem zhruba 770 textů navíc. Každá fáze je jeden PR. Pořadí určují závislosti; R6 je nezávislá a smí jít dřív.
 R1 nezávisí na tranzitech a smí jít hned po F5.
 
+R9 (průvodce vztahem nad R4: čtení po kapitolách, rady, zátěžová období) má vlastní
+plán: `Prompts/PLAN-pruvodce-vztahem.md`.
+
 ### 10.1 R1 — Obrazce aspektů
 
 Hledání tvarů v hotovém seznamu aspektů, žádná nová astronomie.
