@@ -7,6 +7,7 @@ import '../data/places.dart';
 import '../data/profile.dart';
 import '../journal_state.dart';
 import '../l10n/app_localizations.dart';
+import '../pair_state.dart';
 import '../state.dart';
 import 'format.dart';
 
@@ -172,6 +173,7 @@ class _ProfileFormState extends ConsumerState<ProfileForm> {
     if (ok == true) {
       await ref.read(profilesProvider.notifier).remove(widget.existing!.id);
       await ref.read(journalStoreProvider).delete(widget.existing!.id);
+      await ref.read(pairsProvider.notifier).removeProfile(widget.existing!.id);
       if (mounted) Navigator.pop(context);
     }
   }

@@ -2181,4 +2181,187 @@ class AppLocalizationsCs extends AppLocalizations {
   @override
   String get catalogCheckMethod =>
       'Postup: každý den události se nahradí náhodným dnem života téže osobnosti a změří se, jak často vyjde průměr aspoň tak daleko od 50. Pod 0,05 je to jen signál k dalšímu zkoumání: výsledek ovlivňuje i to, které události se do katalogu dostaly. Napětí se tu počítá s hrubším krokem efemeridy než u jednotlivé události, čísla se mohou o bod lišit.';
+
+  @override
+  String get pairsTitle => 'Vztahy';
+
+  @override
+  String get pairAdd => 'Přidat vztah';
+
+  @override
+  String get pairDelete => 'Odebrat vztah';
+
+  @override
+  String pairDeleteConfirm(Object name) {
+    return 'Odebrat vztah $name? Profily zůstanou.';
+  }
+
+  @override
+  String get tabGuide => 'Průvodce';
+
+  @override
+  String get tabPeriods => 'Období';
+
+  @override
+  String pairArea(String area) {
+    String _temp0 = intl.Intl.selectLogic(area, {
+      'feeling': 'Cit',
+      'talk': 'Řeč',
+      'love': 'Láska',
+      'energy': 'Energie',
+      'respect': 'Respekt',
+      'other': '?',
+    });
+    return '$_temp0';
+  }
+
+  @override
+  String pairAreaCounts(int supportive, int straining) {
+    return 'souzní $supportive · tře se $straining';
+  }
+
+  @override
+  String get pairMethod => 'Co průvodce je a co není';
+
+  @override
+  String pairChapter(String id) {
+    String _temp0 = intl.Intl.selectLogic(id, {
+      'overview': 'Přehled',
+      'strengths': 'V čem si vyhovíte',
+      'cautions': 'Na co si dát pozor',
+      'talk': 'Jak spolu mluvit',
+      'respect': 'Jak se respektovat',
+      'needs': 'Co kdo potřebuje',
+      'periods': 'Zátěžová období',
+      'other': '?',
+    });
+    return '$_temp0';
+  }
+
+  @override
+  String pairShowMore(int n) {
+    return 'Zobrazit další ($n)';
+  }
+
+  @override
+  String signIn(String sign) {
+    String _temp0 = intl.Intl.selectLogic(sign, {
+      'aries': 'v Beranu',
+      'taurus': 'v Býku',
+      'gemini': 'v Blížencích',
+      'cancer': 'v Raku',
+      'leo': 've Lvu',
+      'virgo': 'v Panně',
+      'libra': 've Vahách',
+      'scorpio': 've Štíru',
+      'sagittarius': 've Střelci',
+      'capricorn': 'v Kozorohu',
+      'aquarius': 've Vodnáři',
+      'pisces': 'v Rybách',
+      'other': '?',
+    });
+    return '$_temp0';
+  }
+
+  @override
+  String pairNeedTitle(Object name, Object point, Object signIn) {
+    return '$name · $point $signIn';
+  }
+
+  @override
+  String get pairDescendant => 'Descendent';
+
+  @override
+  String pairElementsTitle(
+    Object body,
+    Object first,
+    Object firstElement,
+    Object second,
+    Object secondElement,
+  ) {
+    return '$body: $first $firstElement · $second $secondElement';
+  }
+
+  @override
+  String get pairSeeAlso => 'Souvisí s tím';
+
+  @override
+  String get pairOpenTimeline => 'Otevřít časovou osu';
+
+  @override
+  String get pairNextStrain => 'Nejbližší zátěžová období';
+
+  @override
+  String get pairNoStrain => 'V nejbližších letech žádné zátěžové období.';
+
+  @override
+  String periodFilter(String f) {
+    String _temp0 = intl.Intl.selectLogic(f, {
+      'strain': 'Zátěžová',
+      'support': 'Příznivá',
+      'all': 'Vše',
+      'other': '?',
+    });
+    return '$_temp0';
+  }
+
+  @override
+  String get periodPast => 'Minulost';
+
+  @override
+  String get periodNow => 'Právě probíhá';
+
+  @override
+  String get periodShared => 'oba najednou';
+
+  @override
+  String periodRange(Object from, Object to) {
+    return '$from – $to';
+  }
+
+  @override
+  String periodExacts(Object dates) {
+    return 'přesně: $dates';
+  }
+
+  @override
+  String get periodTransitText => 'Výklad tranzitu';
+
+  @override
+  String periodIngress(Object body, Object name) {
+    return '$body vstupuje do 7. domu: $name';
+  }
+
+  @override
+  String periodCalm(Object from, Object to) {
+    return 'Klidnější okno $from – $to';
+  }
+
+  @override
+  String get periodNone => 'V tomto výběru žádné období.';
+
+  @override
+  String periodTitle(Object transiting, Object aspect, Object target) {
+    return '$transiting $aspect $target';
+  }
+
+  @override
+  String periodOf(Object name, Object title) {
+    return '$name: $title';
+  }
+
+  @override
+  String get adviceTitle => 'Co s tím';
+
+  @override
+  String get pairSharePdf => 'Sdílet průvodce';
+
+  @override
+  String get pairPdfIntro =>
+      'Průvodce vztahem podle tradičního čtení dvou horoskopů. Obsah odpovídá filtru zapnutému v appce. Nejde o předpověď ani o verdikt o vztahu.';
+
+  @override
+  String pairPdfPeriods(int from, int to) {
+    return 'Období $from–$to';
+  }
 }

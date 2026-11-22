@@ -7,13 +7,19 @@ import '../../data/content_repository.dart';
 import '../../data/profile.dart';
 import '../../l10n/app_localizations.dart';
 import '../../logic/compute.dart';
+import '../../export/pair_pdf.dart';
 import '../../logic/synastry_reading.dart';
+import '../../pair_state.dart';
 import '../../state.dart';
 import '../entry_view.dart';
 import '../format.dart';
 import '../wheel.dart';
+import 'pair_guide_tab.dart';
+import 'pair_names.dart';
+import 'pair_periods_tab.dart';
 
-/// Picks two saved profiles and the kind of relationship (plan 10.4).
+/// Picks two saved profiles and the kind of relationship (plan 10.4);
+/// "Porovnat" saves the pair (plan R9 6.1) and opens it.
 class SynastryScreen extends ConsumerStatefulWidget {
   const SynastryScreen({super.key});
   @override
@@ -71,10 +77,12 @@ class _SynastryScreenState extends ConsumerState<SynastryScreen> {
             FilledButton(
               onPressed: first == second
                   ? null
-                  : () => Navigator.push(
-                        context,
-                        MaterialPageRoute(builder: (_) => SynastryResultScreen(byId(first), byId(second), _relationship)),
-                      ),
+                  : () async {
+                      final a = byId(first), b = byId(second), r = _relationship;
+                      final nav = Navigator.of(context);
+                      await ref.read(pairsProvider.notifier).add(a.id, b.id, r);
+                      nav.pushReplacement(MaterialPageRoute(builder: (_) => SynastryResultScreen(a, b, r)));
+                    },
               child: Text(l.synastryCompare),
             ),
           ]);
@@ -84,7 +92,7 @@ class _SynastryScreenState extends ConsumerState<SynastryScreen> {
   }
 }
 
-/// Bi-wheel, inter-chart tables and the pair reading.
+/// Guide, periods, bi-wheel, inter-chart tables and the pair reading (plan R9 6.2).
 class SynastryResultScreen extends ConsumerStatefulWidget {
   final Profile first;
   final Profile second;
@@ -96,23 +104,51 @@ class SynastryResultScreen extends ConsumerStatefulWidget {
 
 class _SynastryResultScreenState extends ConsumerState<SynastryResultScreen> {
   Future<Synastry>? _future;
+  PairTimeline? _timeline;
+  late final double _now = jdFromDateTimeUtc(DateTime.now().toUtc());
+
+  bool get _partner => widget.relationship.showsPartnerLayer;
 
   @override
   void initState() {
     super.initState();
-    _future = Compute.synastry(ref.read(chartProvider(widget.first)), ref.read(chartProvider(widget.second)));
+    final a = ref.read(chartProvider(widget.first)), b = ref.read(chartProvider(widget.second));
+    _future = Compute.synastry(a, b);
+    Compute.pairTimeline(a, b, _now).then((tl) {
+      if (mounted) setState(() => _timeline = tl);
+    });
   }
 
   @override
   Widget build(BuildContext context) {
     final l = AppLocalizations.of(context);
     final content = ref.watch(contentProvider).value ?? const ContentRepository({}, []);
+    final names = PairNames(widget.first.name, widget.second.name);
     return DefaultTabController(
-      length: 3,
+      length: 5,
       child: Scaffold(
         appBar: AppBar(
           title: Text(l.synastryPairTitle(widget.first.name, widget.second.name)),
-          bottom: TabBar(tabs: [Tab(text: l.tabWheel), Tab(text: l.tabTables), Tab(text: l.tabReading)]),
+          actions: [
+            FutureBuilder<Synastry>(
+              future: _future,
+              builder: (context, snap) => IconButton(
+                tooltip: l.pairSharePdf,
+                icon: const Icon(Icons.ios_share),
+                onPressed: snap.data == null || _timeline == null
+                    ? null
+                    : () => sharePairPdf(l, names, PairGuide.of(snap.data!), _timeline!, content, ref.read(filterProvider),
+                        relationship: widget.relationship, now: _now),
+              ),
+            ),
+          ],
+          bottom: TabBar(labelPadding: const EdgeInsets.symmetric(horizontal: 4), tabs: [
+            Tab(text: l.tabGuide),
+            Tab(text: l.tabPeriods),
+            Tab(text: l.tabWheel),
+            Tab(text: l.tabTables),
+            Tab(text: l.tabReading),
+          ]),
         ),
         body: FutureBuilder<Synastry>(
           future: _future,
@@ -121,7 +157,24 @@ class _SynastryResultScreenState extends ConsumerState<SynastryResultScreen> {
             final s = snap.data;
             if (s == null) return const Center(child: CircularProgressIndicator());
             final v = _PairView(s, widget.first.name, widget.second.name, widget.relationship, content);
-            return TabBarView(children: [v.wheel(context), v.tables(context), v.reading(context)]);
+            return TabBarView(children: [
+              Builder(
+                builder: (context) => PairGuideTab(
+                  guide: PairGuide.of(s),
+                  timeline: _timeline,
+                  names: names,
+                  content: content,
+                  showPartner: _partner,
+                  now: _now,
+                  onOpenTimeline: () => DefaultTabController.of(context).animateTo(1),
+                  leading: v._twins(context),
+                ),
+              ),
+              PairPeriodsTab(timeline: _timeline, names: names, content: content, now: _now),
+              v.wheel(context),
+              v.tables(context),
+              v.reading(context),
+            ]);
           },
         ),
       ),

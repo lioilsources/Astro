@@ -86,6 +86,19 @@ class EntryView extends ConsumerWidget {
           const SizedBox(height: 6),
           Text(e.text, style: t.bodyMedium),
           if (!shadowFirst && shadow != null) shadow,
+          // "Co s tím" (plan R9 5.2): advice on acting in the relationship, never filtered.
+          if (e.advice.isNotEmpty)
+            Padding(
+              padding: const EdgeInsets.only(top: 8),
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  Text(l.adviceTitle, style: t.labelLarge),
+                  const SizedBox(height: 4),
+                  Text(e.advice, style: t.bodyMedium),
+                ],
+              ),
+            ),
           if (showPartner && e.partner.isNotEmpty)
             Padding(
               padding: const EdgeInsets.only(top: 8),

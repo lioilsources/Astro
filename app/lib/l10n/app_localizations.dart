@@ -2668,6 +2668,222 @@ abstract class AppLocalizations {
   /// In cs, this message translates to:
   /// **'Postup: každý den události se nahradí náhodným dnem života téže osobnosti a změří se, jak často vyjde průměr aspoň tak daleko od 50. Pod 0,05 je to jen signál k dalšímu zkoumání: výsledek ovlivňuje i to, které události se do katalogu dostaly. Napětí se tu počítá s hrubším krokem efemeridy než u jednotlivé události, čísla se mohou o bod lišit.'**
   String get catalogCheckMethod;
+
+  /// No description provided for @pairsTitle.
+  ///
+  /// In cs, this message translates to:
+  /// **'Vztahy'**
+  String get pairsTitle;
+
+  /// No description provided for @pairAdd.
+  ///
+  /// In cs, this message translates to:
+  /// **'Přidat vztah'**
+  String get pairAdd;
+
+  /// No description provided for @pairDelete.
+  ///
+  /// In cs, this message translates to:
+  /// **'Odebrat vztah'**
+  String get pairDelete;
+
+  /// No description provided for @pairDeleteConfirm.
+  ///
+  /// In cs, this message translates to:
+  /// **'Odebrat vztah {name}? Profily zůstanou.'**
+  String pairDeleteConfirm(Object name);
+
+  /// No description provided for @tabGuide.
+  ///
+  /// In cs, this message translates to:
+  /// **'Průvodce'**
+  String get tabGuide;
+
+  /// No description provided for @tabPeriods.
+  ///
+  /// In cs, this message translates to:
+  /// **'Období'**
+  String get tabPeriods;
+
+  /// No description provided for @pairArea.
+  ///
+  /// In cs, this message translates to:
+  /// **'{area, select, feeling{Cit} talk{Řeč} love{Láska} energy{Energie} respect{Respekt} other{?}}'**
+  String pairArea(String area);
+
+  /// No description provided for @pairAreaCounts.
+  ///
+  /// In cs, this message translates to:
+  /// **'souzní {supportive} · tře se {straining}'**
+  String pairAreaCounts(int supportive, int straining);
+
+  /// No description provided for @pairMethod.
+  ///
+  /// In cs, this message translates to:
+  /// **'Co průvodce je a co není'**
+  String get pairMethod;
+
+  /// No description provided for @pairChapter.
+  ///
+  /// In cs, this message translates to:
+  /// **'{id, select, overview{Přehled} strengths{V čem si vyhovíte} cautions{Na co si dát pozor} talk{Jak spolu mluvit} respect{Jak se respektovat} needs{Co kdo potřebuje} periods{Zátěžová období} other{?}}'**
+  String pairChapter(String id);
+
+  /// No description provided for @pairShowMore.
+  ///
+  /// In cs, this message translates to:
+  /// **'Zobrazit další ({n})'**
+  String pairShowMore(int n);
+
+  /// No description provided for @signIn.
+  ///
+  /// In cs, this message translates to:
+  /// **'{sign, select, aries{v Beranu} taurus{v Býku} gemini{v Blížencích} cancer{v Raku} leo{ve Lvu} virgo{v Panně} libra{ve Vahách} scorpio{ve Štíru} sagittarius{ve Střelci} capricorn{v Kozorohu} aquarius{ve Vodnáři} pisces{v Rybách} other{?}}'**
+  String signIn(String sign);
+
+  /// No description provided for @pairNeedTitle.
+  ///
+  /// In cs, this message translates to:
+  /// **'{name} · {point} {signIn}'**
+  String pairNeedTitle(Object name, Object point, Object signIn);
+
+  /// No description provided for @pairDescendant.
+  ///
+  /// In cs, this message translates to:
+  /// **'Descendent'**
+  String get pairDescendant;
+
+  /// No description provided for @pairElementsTitle.
+  ///
+  /// In cs, this message translates to:
+  /// **'{body}: {first} {firstElement} · {second} {secondElement}'**
+  String pairElementsTitle(
+    Object body,
+    Object first,
+    Object firstElement,
+    Object second,
+    Object secondElement,
+  );
+
+  /// No description provided for @pairSeeAlso.
+  ///
+  /// In cs, this message translates to:
+  /// **'Souvisí s tím'**
+  String get pairSeeAlso;
+
+  /// No description provided for @pairOpenTimeline.
+  ///
+  /// In cs, this message translates to:
+  /// **'Otevřít časovou osu'**
+  String get pairOpenTimeline;
+
+  /// No description provided for @pairNextStrain.
+  ///
+  /// In cs, this message translates to:
+  /// **'Nejbližší zátěžová období'**
+  String get pairNextStrain;
+
+  /// No description provided for @pairNoStrain.
+  ///
+  /// In cs, this message translates to:
+  /// **'V nejbližších letech žádné zátěžové období.'**
+  String get pairNoStrain;
+
+  /// No description provided for @periodFilter.
+  ///
+  /// In cs, this message translates to:
+  /// **'{f, select, strain{Zátěžová} support{Příznivá} all{Vše} other{?}}'**
+  String periodFilter(String f);
+
+  /// No description provided for @periodPast.
+  ///
+  /// In cs, this message translates to:
+  /// **'Minulost'**
+  String get periodPast;
+
+  /// No description provided for @periodNow.
+  ///
+  /// In cs, this message translates to:
+  /// **'Právě probíhá'**
+  String get periodNow;
+
+  /// No description provided for @periodShared.
+  ///
+  /// In cs, this message translates to:
+  /// **'oba najednou'**
+  String get periodShared;
+
+  /// No description provided for @periodRange.
+  ///
+  /// In cs, this message translates to:
+  /// **'{from} – {to}'**
+  String periodRange(Object from, Object to);
+
+  /// No description provided for @periodExacts.
+  ///
+  /// In cs, this message translates to:
+  /// **'přesně: {dates}'**
+  String periodExacts(Object dates);
+
+  /// No description provided for @periodTransitText.
+  ///
+  /// In cs, this message translates to:
+  /// **'Výklad tranzitu'**
+  String get periodTransitText;
+
+  /// No description provided for @periodIngress.
+  ///
+  /// In cs, this message translates to:
+  /// **'{body} vstupuje do 7. domu: {name}'**
+  String periodIngress(Object body, Object name);
+
+  /// No description provided for @periodCalm.
+  ///
+  /// In cs, this message translates to:
+  /// **'Klidnější okno {from} – {to}'**
+  String periodCalm(Object from, Object to);
+
+  /// No description provided for @periodNone.
+  ///
+  /// In cs, this message translates to:
+  /// **'V tomto výběru žádné období.'**
+  String get periodNone;
+
+  /// No description provided for @periodTitle.
+  ///
+  /// In cs, this message translates to:
+  /// **'{transiting} {aspect} {target}'**
+  String periodTitle(Object transiting, Object aspect, Object target);
+
+  /// No description provided for @periodOf.
+  ///
+  /// In cs, this message translates to:
+  /// **'{name}: {title}'**
+  String periodOf(Object name, Object title);
+
+  /// No description provided for @adviceTitle.
+  ///
+  /// In cs, this message translates to:
+  /// **'Co s tím'**
+  String get adviceTitle;
+
+  /// No description provided for @pairSharePdf.
+  ///
+  /// In cs, this message translates to:
+  /// **'Sdílet průvodce'**
+  String get pairSharePdf;
+
+  /// No description provided for @pairPdfIntro.
+  ///
+  /// In cs, this message translates to:
+  /// **'Průvodce vztahem podle tradičního čtení dvou horoskopů. Obsah odpovídá filtru zapnutému v appce. Nejde o předpověď ani o verdikt o vztahu.'**
+  String get pairPdfIntro;
+
+  /// No description provided for @pairPdfPeriods.
+  ///
+  /// In cs, this message translates to:
+  /// **'Období {from}–{to}'**
+  String pairPdfPeriods(int from, int to);
 }
 
 class _AppLocalizationsDelegate
