@@ -30,6 +30,13 @@ final romantic = RegExp(
   unicode: true,
 );
 
+/// A verdict on the relationship does not belong in advice (plan R9 5.2).
+/// "odejděte na chvíli" is fine, so leaving as such is not listed.
+final _verdict = RegExp(r'\b(rozej\w*|rozchod\w*|rozv[eé]\w*|rozvod\w*|opus[tť]\w*)', caseSensitive: false, unicode: true);
+
+/// Third person with gender in `pair_need` (plan R9 5.3).
+final _genderedPronoun = RegExp(r'(?<![\p{L}])(on|ona|jeho|její)(?![\p{L}])', caseSensitive: false, unicode: true);
+
 List<Finding> validate(Map<String, ContentEntry> entries, List<Trait> traits, {bool requireComplete = false}) {
   final out = <Finding>[];
   final known = {for (final f in allKeysByFamily().values) ...f};
@@ -64,17 +71,31 @@ List<Finding> validate(Map<String, ContentEntry> entries, List<Trait> traits, {b
         if (!traitIds.contains(t)) err('trait $t not in vocabulary');
       }
     }
-    if (e.partner.trim().isNotEmpty && !partnerFamilies.contains(family)) {
-      err('`partner` layer only belongs to ${partnerFamilies.join(', ')}');
+    if (e.partner.trim().isNotEmpty && !allowsPartner(e.key)) {
+      err('`partner` layer only belongs to ${partnerFamilies.join(', ')} and Venus/Mars of pair_need, pair_elements');
     }
-    if (partnerFamilies.contains(family)) {
-      final base = [e.title, e.text, e.shadow, ...e.keywords, ...e.hard.map((h) => h.text)].join(' ');
+    final advice = e.advice.trim();
+    if (advice.isNotEmpty && !adviceFamilies.contains(family)) err('`advice` layer only belongs to ${adviceFamilies.join(', ')}');
+    if (advice.isEmpty && adviceRequiredFamilies.contains(family)) err('empty advice');
+    if (advice.isNotEmpty) {
+      final v = _verdict.firstMatch(advice);
+      if (v != null) err('verdict "${v[0]}" in advice (plan R9 5.2: no verdict on the relationship)');
+      final na = wordCount(advice);
+      final (lo, hi) = family == 'pair_period' ? (40, 80) : (30, 70);
+      if (na < lo - 5 || na > hi + 15) warn('advice $na words, expected $lo–$hi');
+    }
+    if (family == 'pair_need') {
+      final m = _genderedPronoun.firstMatch([e.text, e.shadow, advice].join(' '));
+      if (m != null) warn('pronoun "${m[0]}" in pair_need (style: "ten druhý", no gender)');
+    }
+    if (relationshipFamilies.contains(family)) {
+      final base = [e.title, e.text, e.shadow, advice, ...e.keywords, ...e.hard.map((h) => h.text)].join(' ');
       final m = romantic.firstMatch(base);
       if (m != null) err('romantic word "${m[0]}" outside `partner` (base layers are shown for parent and child too)');
       final np = wordCount(e.partner);
       if (np > 0 && (np < 20 || np > 90)) warn('partner $np words, expected 20–80');
     }
-    final all = [e.text, e.shadow, ...e.hard.map((h) => h.text), e.partner].join(' ');
+    final all = [e.text, e.shadow, ...e.hard.map((h) => h.text), e.partner, e.advice].join(' ');
     final eng = _english.allMatches(all).length;
     if (eng > 0) err('English words ($eng×): ${_english.allMatches(all).take(3).map((m) => m[0]).join(', ')}');
     if (wordCount(all) > 15 && !_diacritics.hasMatch(all)) err('no Czech diacritics');
@@ -102,6 +123,9 @@ List<Finding> validate(Map<String, ContentEntry> entries, List<Trait> traits, {b
   if (requireComplete) {
     for (final k in known) {
       if (!entries.containsKey(k)) out.add(Finding(k, 'missing text', error: true));
+    }
+    for (final e in entries.values) {
+      if (adviceFamilies.contains(familyOf(e.key)) && e.advice.trim().isEmpty) out.add(Finding(e.key, 'missing advice', error: true));
     }
   }
   return out;

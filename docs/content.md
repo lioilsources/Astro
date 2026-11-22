@@ -17,6 +17,10 @@ dart run tools/content/bin/validate.dart              # chyby → exit 1
 dart run tools/content/bin/validate.dart --complete   # navíc chybějící klíče jako chyby (po F3)
 ```
 
+Průvodce vztahem (R9, `Prompts/PLAN-pruvodce-vztahem.md`): skupiny `pair_need`,
+`pair_elements`, `pair_period`, `pair_guide` a vrstva `advice` („Co s tím“), povinná
+v `pair_*` a s `--complete` i v `synastry` a `synastry_point`.
+
 Chyby: neznámý klíč, prázdný text nebo stín, štítek `hard` mimo výčet, rys mimo
 slovník, angličtina, text bez diakritiky; pole `partner` mimo skupiny
 `synastry*` a milostná slova v základních vrstvách synastrie (patří do `partner`,
@@ -42,6 +46,12 @@ Claude API (záloha, když pilot na SPARKu nedá dobrou češtinu):
 ```
 LLM_PROVIDER=anthropic ANTHROPIC_API_KEY=… LLM_MODEL=claude-opus-5-5 \
   dart run tools/content/bin/generate.dart --family planet_in_sign --limit 20
+```
+
+Jen vrstva `advice` k hotovým textům (doplní pole, zbytek záznamu nemění):
+
+```
+bin/gen-content --layer advice --family synastry --batch
 ```
 
 Klíče patří do `.env` (gitignorované), nikdy do repa.

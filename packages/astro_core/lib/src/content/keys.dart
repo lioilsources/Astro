@@ -142,6 +142,46 @@ final synastryPointKeys = [
 ];
 final synastryHouseKeys = [for (final p in planetIds) for (final h in houseNumbers) 'synastry_house/$p/$h'];
 
+/// Relationship guide (plan R9): needs of a person, element pairs, periods, chapter intros.
+const pairNeedIds = ['sun', 'moon', 'mercury', 'venus', 'mars', 'dsc'];
+const pairElementPlanetIds = ['sun', 'moon', 'mercury', 'venus', 'mars'];
+const pairPeriodPlanetIds = ['saturn', 'uranus', 'neptune', 'pluto', 'jupiter'];
+const pairPeriodTargetIds = ['sun', 'moon', 'venus', 'mars', 'axis'];
+const pairCycleIds = [
+  'saturn_return', 'saturn_opposition', 'saturn_square', 'uranus_opposition', 'uranus_square',
+  'neptune_square', 'pluto_square', 'jupiter_return',
+];
+const pairGuideIds = [
+  'overview', 'strengths', 'cautions', 'talk', 'respect', 'needs', 'periods',
+  'calm_window', 'shared_period', 'no_birth_time', 'method',
+];
+final pairNeedKeys = [for (final p in pairNeedIds) for (final s in signIds) 'pair_need/$p/$s'];
+final pairElementsKeys = [
+  for (final p in pairElementPlanetIds)
+    for (var i = 0; i < elementIds.length; i++)
+      for (var j = i; j < elementIds.length; j++) 'pair_elements/$p/${elementIds[i]}/${elementIds[j]}',
+];
+final pairPeriodKeys = [
+  for (final p in pairPeriodPlanetIds) for (final t in pairPeriodTargetIds) 'pair_period/$p/$t',
+  for (final c in pairCycleIds) 'pair_period/cycle/$c',
+];
+
+/// Families with the optional `advice` layer ("Co s tím", plan R9 5.2).
+const adviceFamilies = {'synastry', 'synastry_point', 'pair_need', 'pair_elements', 'pair_period'};
+
+/// Families where `advice` is mandatory.
+const adviceRequiredFamilies = {'pair_need', 'pair_elements', 'pair_period'};
+
+/// Keys that may carry the `partner` layer: synastry, and needs and element pairs of Venus and Mars.
+bool allowsPartner(String key) {
+  final p = key.split('/');
+  if (partnerFamilies.contains(p.first)) return true;
+  return (p.first == 'pair_need' || p.first == 'pair_elements') && (p[1] == 'venus' || p[1] == 'mars');
+}
+
+/// Families shown for every kind of relationship: no romance outside `partner`.
+const relationshipFamilies = {...partnerFamilies, 'pair_need', 'pair_elements', 'pair_period', 'pair_guide'};
+
 /// Content id of a body (both nodes share the `node` texts).
 String contentIdOf(Body b) => b.isNode ? 'node' : b.name;
 
@@ -205,6 +245,10 @@ Map<String, List<String>> allKeysByFamily() {
     'synastry': synastryKeys,
     'synastry_point': synastryPointKeys,
     'synastry_house': synastryHouseKeys,
+    'pair_need': pairNeedKeys,
+    'pair_elements': pairElementsKeys,
+    'pair_period': pairPeriodKeys,
+    'pair_guide': [for (final g in pairGuideIds) 'pair_guide/$g'],
   };
 }
 
@@ -278,7 +322,12 @@ String familyOf(String key) => key.split('/').first;
       return (min: 70, max: 160);
     case 'synastry_point':
     case 'synastry_house':
+    case 'pair_need':
+    case 'pair_elements':
+    case 'pair_period':
       return (min: 50, max: 110);
+    case 'pair_guide':
+      return (min: 20, max: 80);
   }
   return (min: 1, max: 10000);
 }
@@ -309,6 +358,9 @@ bool expectsHard(String key) {
       return (p[3] == 'tense' || p[3] == 'conjunction') && (malefics.contains(p[1]) || malefics.contains(p[2]));
     case 'synastry_house':
       return p[2] == '8' || p[2] == '12';
+    case 'pair_period':
+      return const {'saturn', 'neptune', 'pluto'}.contains(p[1]) ||
+          (p[1] == 'cycle' && (p[2].startsWith('saturn') || p[2].startsWith('neptune') || p[2].startsWith('pluto')));
   }
   return false;
 }

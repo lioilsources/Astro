@@ -493,5 +493,63 @@
    "place": "noha Pegasa (β Pegasi)",
    "nature": "Mars a Merkur"
   }
+ },
+ "pair": {
+  "needs": {
+   "sun": {
+    "name": "Slunce",
+    "in_relationship": "za co chce být viděn a uznán, v čem potřebuje volnost být sám sebou, co ho uráží"
+   },
+   "moon": {
+    "name": "Měsíc",
+    "in_relationship": "co potřebuje k pocitu bezpečí a domova, jak přijímá útěchu, jak reaguje na stres"
+   },
+   "mercury": {
+    "name": "Merkur",
+    "in_relationship": "jak mluví a poslouchá, tempo řeči, co potřebuje, aby se cítil pochopen, jak se hádá"
+   },
+   "venus": {
+    "name": "Venuše",
+    "in_relationship": "jak dává a přijímá náklonnost, co vnímá jako projev péče a ocenění, co mu dělá radost"
+   },
+   "mars": {
+    "name": "Mars",
+    "in_relationship": "jak prosazuje své, jak se zlobí a jak vychladne, kolik potřebuje pohybu, akce a prostoru"
+   },
+   "dsc": {
+    "name": "descendent",
+    "in_relationship": "jakého partnera nebo protějšek hledá, co na druhých přitahuje a co v nich nevědomky přehlíží"
+   }
+  },
+  "elements": {
+   "fire": "jedná hned, nadchne se, potřebuje uznání a pohyb",
+   "earth": "potřebuje jistotu, čas a hmatatelné důkazy",
+   "air": "potřebuje rozhovor, myšlenky a lehkost",
+   "water": "potřebuje citovou blízkost a porozumění beze slov"
+  },
+  "periods": {
+   "saturn": "zkouška vydrží-li to, co je postavené; únava, povinnosti, odstup, ale i dospění a pevnější závazek",
+   "uranus": "neklid, potřeba změny a svobody, náhlé zvraty a rozhodnutí, která převracejí zavedený pořádek",
+   "neptune": "mlha, zklamání a ztráta jasných hranic; idealizace, únik, ale i soucit a odpuštění",
+   "pluto": "hluboká proměna, boj o moc a kontrolu, konec něčeho starého; síla, která vyžaduje upřímnost",
+   "jupiter": "podpora, růst a velkorysost; víc chuti dávat a odpouštět, ale i sklon přehánět"
+  },
+  "period_targets": {
+   "sun": "vůle a sebevědomí toho, koho se období týká",
+   "moon": "city, nálady, pocit bezpečí a domova",
+   "venus": "láska, náklonnost, radost a hodnoty ve vztahu",
+   "mars": "energie, chuť prosadit se, hněv a sexualita",
+   "axis": "osa vztahu (ascendent–descendent): to, jak se člověk staví k druhému a ke svazkům"
+  },
+  "cycles": {
+   "saturn_return": "návrat Saturnu (kolem 29 a 58 let): bilance dospělosti, co v životě opravdu chci nést",
+   "saturn_opposition": "opozice Saturnu (kolem 14, 44 a 73 let): střet s nároky okolí a s tím, co bylo založeno",
+   "saturn_square": "kvadrát Saturnu (kolem 7, 22, 36, 51 a 66 let): krize struktury, tlak na změnu zaběhnutého",
+   "uranus_opposition": "opozice Uranu (kolem 40–42 let): krize středního věku, touha po svobodě a jiném životě",
+   "uranus_square": "kvadrát Uranu (kolem 21 a 63 let): vzpoura proti tomu, co člověk zdědil nebo co ho svazuje",
+   "neptune_square": "kvadrát Neptunu (kolem 41 let): rozčarování z ideálů, hledání smyslu",
+   "pluto_square": "kvadrát Pluta (u generací 20. století kolem 36–45 let): hluboká proměna, konfrontace se strachem a mocí",
+   "jupiter_return": "návrat Jupitera (každých 12 let): nový cyklus růstu a příležitostí"
+  }
  }
 }

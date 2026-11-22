@@ -2,7 +2,7 @@ const hardTopics = ['death', 'illness', 'mental_crisis', 'addiction', 'violence'
 const themeIds = ['character', 'relationships', 'family', 'work', 'money', 'health', 'growth'];
 
 /// Families whose texts are fragments for composing (no shadow layer required).
-const shadowExempt = {'glossary', 'house_area', 'transit_modifier', 'star_target', 'journal', 'election', 'horary'};
+const shadowExempt = {'glossary', 'house_area', 'transit_modifier', 'star_target', 'journal', 'election', 'horary', 'pair_guide'};
 
 /// Families that may carry the optional `partner` layer (plan 10.4).
 const partnerFamilies = {'synastry', 'synastry_point', 'synastry_house'};
@@ -28,6 +28,10 @@ class ContentEntry {
   /// Optional synastry layer about attraction and intimacy (plan 10.4). Shown
   /// only for relationship type `partner`; never for parent and child.
   final String partner;
+
+  /// Optional "Co s tím" layer (plan R9 5.2): how to act in the relationship.
+  /// Only in `adviceFamilies`; never advice on health, money, law or a verdict.
+  final String advice;
   final Map<String, Object?> meta;
 
   const ContentEntry({
@@ -41,6 +45,7 @@ class ContentEntry {
     this.traitsText = const [],
     this.traitsShadow = const [],
     this.partner = '',
+    this.advice = '',
     this.meta = const {},
   });
 
@@ -61,6 +66,7 @@ class ContentEntry {
       traitsText: strs(traits['text']),
       traitsShadow: strs(traits['shadow']),
       partner: j['partner'] as String? ?? '',
+      advice: j['advice'] as String? ?? '',
       meta: (j['meta'] as Map?)?.cast<String, Object?>() ?? const {},
     );
   }
@@ -75,8 +81,16 @@ class ContentEntry {
         if (hard.isNotEmpty) 'hard': [for (final h in hard) h.toJson()],
         'traits': {'text': traitsText, 'shadow': traitsShadow},
         if (partner.isNotEmpty) 'partner': partner,
+        if (advice.isNotEmpty) 'advice': advice,
         if (meta.isNotEmpty) 'meta': meta,
       };
+}
+
+extension ContentEntryCopy on ContentEntry {
+  ContentEntry withAdvice(String advice) => ContentEntry(
+        key: key, title: title, keywords: keywords, themes: themes, text: text, shadow: shadow, hard: hard,
+        traitsText: traitsText, traitsShadow: traitsShadow, partner: partner, advice: advice, meta: meta,
+      );
 }
 
 class Trait {

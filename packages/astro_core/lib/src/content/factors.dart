@@ -40,6 +40,9 @@ const _bodyWeight = {
   Body.meanNode: 0.4, Body.trueNode: 0.4,
 };
 
+/// Weight of a body in readings (personal planets weigh more).
+double bodyWeight(Body b) => _bodyWeight[b]!;
+
 double _pointWeight(ChartPoint p) => p.isAngle ? (p.angle == Angle.asc ? 1.0 : 0.8) : _bodyWeight[p.body]!;
 
 String qualityId(AspectType t) => t.quality.name;

@@ -40,6 +40,54 @@ void main() {
     expect(k['synastry']!.length, 165);
     expect(k['synastry_point']!.length, 60);
     expect(k['synastry_house']!.length, 120);
+    // R9 (PLAN-pruvodce-vztahem.md 5.1)
+    expect(k['pair_need']!.length, 72);
+    expect(k['pair_elements']!.length, 50);
+    expect(k['pair_period']!.length, 33);
+    expect(k['pair_guide']!.length, 11);
+  });
+
+  group('advice layer (plan R9 5.2)', () {
+    const text = 'Kdo má Měsíc v Raku, potřebuje od blízkého člověka pocit domova. Teplo, jídlo, společné večery a jistotu, že ho nikdo neodstrčí stranou. Nálada se mění jako příliv a odliv.';
+    const shadow = 'Když péči nedostává, stahuje se do ulity, mlčí a čeká, až to ten druhý pozná sám. Za mlčením se skrývá stará křivda, která se vrací v drobných výčitkách.';
+    const advice = 'Pomáhá ptát se, jak se má, a poslouchat i to, co neřekne nahlas. Funguje pravidelný společný čas doma a drobná gesta péče. Nefunguje zesměšňovat nálady nebo je přecházet mlčením.';
+
+    List<String> errors(ContentEntry e) => [for (final f in validate({e.key: e}, const [])) if (f.error) f.message];
+    List<String> warnings(ContentEntry e) => [for (final f in validate({e.key: e}, const [])) if (!f.error) f.message];
+
+    test('belongs only to relationship families and is mandatory for pair_*', () {
+      const ok = ContentEntry(key: 'pair_need/moon/cancer', title: 'Měsíc v Raku', text: text, shadow: shadow, advice: advice);
+      expect(errors(ok), isEmpty);
+      const missing = ContentEntry(key: 'pair_need/moon/cancer', title: 'Měsíc v Raku', text: text, shadow: shadow);
+      expect(errors(missing), contains('empty advice'));
+      const outside = ContentEntry(key: 'planet_in_house/moon/4', title: 'Měsíc ve 4. domě', text: text, shadow: shadow, advice: advice);
+      expect(errors(outside).join(' '), contains('`advice` layer only belongs'));
+    });
+
+    test('a verdict, romance or a pronoun is caught', () {
+      const verdict = ContentEntry(key: 'pair_need/moon/cancer', title: 'Měsíc v Raku', text: text, shadow: shadow,
+          advice: '$advice Když to nejde, rozejděte se.');
+      expect(errors(verdict).join(' '), contains('verdict'));
+      const romance = ContentEntry(key: 'pair_period/saturn/venus', title: 'Saturn na Venuši', text: text, shadow: shadow,
+          advice: '$advice Pomáhá i polibek na dobrou noc.');
+      expect(errors(romance).join(' '), contains('romantic word'));
+      const pronoun = ContentEntry(key: 'pair_need/moon/cancer', title: 'Měsíc v Raku', text: '$text Ona to cítí.', shadow: shadow, advice: advice);
+      expect(warnings(pronoun).join(' '), contains('pronoun'));
+    });
+
+    test('partner allowed for Venus and Mars needs, not for the Moon', () {
+      const venus = ContentEntry(key: 'pair_need/venus/libra', title: 'Venuše ve Váze', text: text, shadow: shadow, advice: advice,
+          partner: 'Přitažlivost roste z elegance a z rozhovoru; v intimitě záleží na kráse prostředí a na pozornosti k drobnostem.');
+      expect(errors(venus), isEmpty);
+      const moon = ContentEntry(key: 'pair_need/moon/cancer', title: 'Měsíc v Raku', text: text, shadow: shadow, advice: advice, partner: 'Přitažlivost.');
+      expect(errors(moon).join(' '), contains('`partner` layer only belongs'));
+    });
+
+    test('--complete wants advice in synastry too', () {
+      const s = ContentEntry(key: 'synastry/sun/moon/harmonious', title: 'Slunce – Měsíc', text: text, shadow: shadow);
+      expect(validate({s.key: s}, const []).where((f) => f.error), isEmpty);
+      expect(validate({s.key: s}, const [], requireComplete: true).where((f) => f.key == s.key && f.error).map((f) => f.message), contains('missing advice'));
+    });
   });
 
   group('partner layer (plan 10.4)', () {
