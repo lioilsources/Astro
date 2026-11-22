@@ -114,6 +114,49 @@ class PromptBuilder {
           title: '${pn(p[1])} v ${p[2]}. domě druhého',
           facts: 'Srovnání horoskopů dvou lidí: planeta jednoho z vás padne do domu druhého.\n${_planet(p[1])}\n${_house(p[2])}',
         );
+      case 'pair_need':
+        final need = (a['pair']['needs'] as Map)[p[1]] as Map<String, dynamic>;
+        final sIn = _s(p[2])['in'] as String;
+        return (
+          title: p[1] == 'dsc' ? 'Descendent $sIn: koho hledá' : '${need['name']} $sIn: co potřebuje',
+          facts: 'Průvodce vztahem: co člověk s tímto postavením potřebuje od blízkého člověka (partnera, rodiče, '
+              'dítěte, sourozence, přítele, kolegy). Text čte ten druhý, aby mu to uměl dopřát.\n'
+              'Bod: ${need['name']}, ve vztahu: ${need['in_relationship']}.\n${_sign(p[2])}',
+        );
+      case 'pair_elements':
+        final pl = (a['pair']['needs'] as Map)[p[1]] as Map<String, dynamic>;
+        final el = a['pair']['elements'] as Map<String, dynamic>;
+        final same = p[2] == p[3];
+        return (
+          title: same ? '${pl['name']}: oba ${_elementCz(p[2])}' : '${pl['name']}: ${_elementCz(p[2])} a ${_elementCz(p[3])}',
+          facts: 'Průvodce vztahem: ${pl['name']} jednoho z vás ve znamení živlu ${_elementCz(p[2])}, druhého ve znamení '
+              'živlu ${_elementCz(p[3])}. ${pl['name']} ve vztahu: ${pl['in_relationship']}.\n'
+              '${_elementCz(p[2])}: ${el[p[2]]}.${same ? '' : '\n${_elementCz(p[3])}: ${el[p[3]]}.'}',
+        );
+      case 'pair_period':
+        final per = a['pair'] as Map<String, dynamic>;
+        if (p[1] == 'cycle') {
+          final c = (per['cycles'] as Map)[p[2]] as String;
+          final name = c.split(':').first;
+          return (
+            title: '${name[0].toUpperCase()}${name.substring(1)}',
+            facts: 'Průvodce vztahem, časová osa: období, kterým prochází jeden z vás a které se dotýká vztahu.\n'
+                'Přelom života: $c.\n${_planet(p[2].split('_').first)}',
+          );
+        }
+        const dative = {'sun': 'ke Slunci', 'moon': 'k Měsíci', 'venus': 'k Venuši', 'mars': 'k Marsu', 'axis': 'k ose vztahu'};
+        final support = p[1] == 'jupiter';
+        return (
+          title: '${pn(p[1])} ${dative[p[2]]}: ${support ? 'příznivé' : 'zátěžové'} období',
+          facts: 'Průvodce vztahem, časová osa: tranzitující ${pn(p[1])} tvoří ${support ? 'konjunkci nebo trigon' : 'konjunkci, kvadrát nebo opozici'} '
+              '${p[2] == 'axis' ? 'k ascendentu nebo descendentu' : 'k natální planetě'} jednoho z vás. Trvá měsíce až roky, '
+              'dotýká se jednoho a druhý to prožívá s ním.\n'
+              '${pn(p[1])} v období: ${(per['periods'] as Map)[p[1]]}.\n'
+              'Čeho se dotýká: ${(per['period_targets'] as Map)[p[2]]}.\n${_planet(p[1])}',
+        );
+      case 'pair_guide':
+        final g = _pairGuide[p[1]]!;
+        return (title: g.title, facts: 'Průvodce vztahem v appce (dva uložené profily). ${g.facts}');
       case 'transit_modifier':
         return (title: 'Modifikátor tranzitu: ${p[1]}', facts: 'Krátká vložená věta o fázi tranzitu: ${p[1]}');
       case 'glossary':
@@ -469,10 +512,66 @@ class PromptBuilder {
           'hodnocení. Hodnocení mimo test se vyhodnocují zvlášť.'
     ),
   };
+
+  /// Chapter intros and notes of the relationship guide (plan R9 5.1).
+  static const _pairGuide = {
+    'overview': (title: 'Přehled', facts: 'Úvod přehledu: appka ukazuje v pěti oblastech (cit, řeč, láska, energie, respekt), kolik kontaktů mezi horoskopy souzní a kolik se tře. Vysvětli, že to není skóre vztahu ani verdikt, jen mapa, kde jde vztah lehce a kde chce pozornost.'),
+    'strengths': (title: 'V čem si vyhovíte', facts: 'Úvod kapitoly o podpůrných kontaktech: co vám jde samo, na co se můžete spolehnout a co si navzájem dáváte.'),
+    'cautions': (title: 'Na co si dát pozor', facts: 'Úvod kapitoly o třecích kontaktech: místa, kde se snadno nedorozumíte nebo zraníte. Nejsou to rozsudky; tření je i zdroj růstu, když o něm víte.'),
+    'talk': (title: 'Jak spolu mluvit', facts: 'Úvod kapitoly o komunikaci: jak každý z vás mluví a poslouchá a co pomáhá, aby se slova potkala.'),
+    'respect': (title: 'Jak se respektovat', facts: 'Úvod kapitoly o respektu: za co chce být každý z vás viděn a uznán a kde snadno přešlapujete.'),
+    'needs': (title: 'Co kdo potřebuje', facts: 'Úvod kapitoly o potřebách: co každý z vás od druhého potřebuje a očekává (bezpečí, náklonnost, energie, protějšek) a jak mu to dopřát.'),
+    'periods': (title: 'Zátěžová období', facts: 'Úvod kapitoly o čase: pomalé planety procházejí citlivými body horoskopů a tradice taková období čte jako zkoušky. Nejsou to předpovědi, že něco nastane; vedle zátěže appka ukazuje i příznivá období a klidnější okna.'),
+    'calm_window': (title: 'Klidnější okno', facts: 'Jedna až dvě věty k oddělovači na časové ose: aspoň tři měsíce, kdy ani jeden z vás neprochází zátěžovým obdobím. Dobrý čas na rozhodnutí a společné plány.'),
+    'shared_period': (title: 'Oba najednou', facts: 'Jedna až dvě věty ke štítku: zátěžové období obou z vás se překrývá aspoň měsíc. Každý má méně sil pro toho druhého; pomáhá to vědět.'),
+    'no_birth_time': (title: 'Bez času narození', facts: 'Upozornění: u jednoho z vás chybí čas narození, takže chybí osy a domy a znamení Měsíce může být nejisté; průvodce je proto kratší.'),
+    'method': (title: 'Co průvodce je a co není', facts: 'Vysvětli metodu: tradiční čtení dvou horoskopů (aspekty mezi nimi, znamení planet, tranzity pomalých planet). Účinek není doložený; srovnání napětí tranzitů se zlomovými událostmi osobností z katalogu appky žádnou souvislost neukázalo. Průvodce nedává verdikt o vztahu a neslibuje, že období nastane. Rady jsou návrhy k rozhovoru, ne pokyny.'),
+  };
+
   String _qualityName(String q) =>
       {'conjunction': 'konjunkce', 'harmonious': 'harmonický aspekt (sextil, trigon)', 'tense': 'napěťový aspekt (kvadrát, opozice)'}[q] ?? q;
 
   String _elementCz(String e) => {'fire': 'oheň', 'earth': 'země', 'air': 'vzduch', 'water': 'voda'}[e] ?? e;
+
+
+  static const _singleVoice =
+      '- 2. osoba, tykání, přítomný čas. Bez rodových tvarů: žádné "jsi citlivý/citlivá",\n'
+      '  "byl jsi", "mohla bys". Použij podstatná jména nebo slovesa ("máš citlivou povahu").\n';
+
+  static const _needVoice =
+      '- Text čte ten druhý. O člověku s postavením piš ve 3. osobě bez rodu: "kdo má Měsíc v Raku,\n'
+      '  potřebuje…", "člověk s Venuší ve Váze". Žádné on, ona, jeho, její; místo toho "ten druhý",\n'
+      '  "blízký člověk". Jména nepiš, appka je dá do nadpisu.\n';
+
+  static String _adviceRule(String family) {
+    final (lo, hi) = family == 'pair_period' ? (40, 80) : (30, 70);
+    return '- "advice": $lo–$hi slov, vrstva "Co s tím": konkrétní jednání ve vztahu (jak to říct, na čem se\n'
+        '  domluvit, kdy si dát pauzu, co nedělat). ${family == 'pair_need' ? 'Neosobně: "Pomáhá…", "Funguje…", "Nefunguje…".' : 'Oslovuj oba ("domluvte si", "zkuste").'}\n'
+        '  ${family == 'pair_period' ? 'Co pomáhá tomu, kdo období prožívá, a co druhému. U Jupitera: jak období využít.\n  ' : ''}'
+        'Zakázáno: rady k léčbě, lékům, penězům a právu; verdikt o vztahu (zůstat, rozejít se); cokoli,\n'
+        '  co vede k snášení násilí nebo ponižování. Žádná romantika ani intimita.\n';
+  }
+
+  /// Prompt for the `advice` layer of an existing text (`generate --layer advice`).
+  String buildAdvice(ContentEntry e) {
+    final family = familyOf(e.key);
+    return """
+Doplň k hotovému českému textu astrologického výkladu vztahu vrstvu "Co s tím" (pole "advice").
+
+POSTAVENÍ: ${e.title}
+TEXT: ${e.text}
+STINNÁ STRÁNKA: ${e.shadow}
+
+PRAVIDLA:
+- Oslovuj oba: 2. osoba množného čísla, přítomný čas. "Jeden z vás", "druhý" místo jmen.
+  Bez rodových tvarů ("byli jste" ne). Text platí pro jakýkoli vztah: partneři, rodič a dítě,
+  sourozenci, přátelé, kolegové.
+${_adviceRule(family)}- Navaž na text a stín; neopakuj je. Krátké konkrétní věty.
+
+Odpověz jen JSON objektem:
+{"key": "${e.key}", "advice": ""}
+""";
+  }
 
   String build(String key) {
     final d = describe(key);
@@ -480,8 +579,21 @@ class PromptBuilder {
     final family = familyOf(key);
     final noShadow = isShadowExempt(key);
     final traitList = traits.map((t) => '${t.id} (${t.name})').join(', ');
-    final pair = partnerFamilies.contains(family);
-    final textRule = pair
+    final pair = relationshipFamilies.contains(family);
+    final withPartner = allowsPartner(key);
+    final withAdvice = adviceFamilies.contains(family);
+    final textRule = family == 'pair_need'
+        ? '- "text": ${len.min}–${len.max} slov: co člověk s tímto postavením potřebuje a očekává od blízkého člověka.\n'
+            '  Text platí pro jakýkoli vztah. Žádná romantika ani intimita v "text", "shadow", "advice", "hard".'
+        : family == 'pair_elements'
+        ? '- "text": ${len.min}–${len.max} slov: jak se ty dva způsoby potkávají, v čem se doplňují.\n'
+            '  Text platí pro jakýkoli vztah. Žádná romantika ani intimita v "text", "shadow", "advice", "hard".'
+        : family == 'pair_period'
+        ? '- "text": ${len.min}–${len.max} slov: čím prochází ten, koho se období týká, a co to dělá mezi vámi.\n'
+            '  Formulace tradice ("tradice čte toto období jako…"), nikdy "přijde krize" ani jistota. Platí pro jakýkoli vztah.'
+        : family == 'pair_guide'
+        ? '- "text": ${len.min}–${len.max} slov: krátký úvod nebo poznámka pro appku, věcně a vlídně.'
+        : pair
         ? '- "text": ${len.min}–${len.max} slov: co se mezi vámi děje, kde se doplňujete, co si navzájem dáváte.\n'
             '  Text platí pro jakýkoli vztah: partneři, rodič a dítě, sourozenci, přátelé, kolegové.\n'
             '  Žádná romantika, erotika, přitažlivost ani intimita v "text", "shadow", "hard",\n'
@@ -511,16 +623,14 @@ VÝZNAMY (ručně psaná tabulka archetypů, rozviň je vlastními slovy):
 ${d.facts}
 
 PRAVIDLA:
-${pair ? '- Oslovuj oba: 2. osoba množného čísla ("mezi vámi", "máte"), přítomný čas.\n  "Jeden z vás", "druhý" místo jmen. Bez rodových tvarů ("byli jste" ne).\n' : ''}- 2. osoba, tykání, přítomný čas. Bez rodových tvarů: žádné "jsi citlivý/citlivá",
-  "byl jsi", "mohla bys". Použij podstatná jména nebo slovesa ("máš citlivou povahu").
-- Krátké konkrétní věty, žádné fráze o hvězdách, žádné rady k léčbě, penězům ani právu.
+${family == 'pair_need' ? _needVoice : pair ? '- Oslovuj oba: 2. osoba množného čísla ("mezi vámi", "máte"), přítomný čas.\n  "Jeden z vás", "druhý" místo jmen. Bez rodových tvarů ("byli jste" ne).\n' : ''}${pair ? '' : _singleVoice}- Krátké konkrétní věty, žádné fráze o hvězdách, žádné rady k léčbě, penězům ani právu.
 - První věta textu i stínu patří jen téhle kombinaci. Žádná obecná věta o znamení
   nebo planetě ("Stálost se snadno mění v…"), kterou by šlo dát i jiné planetě.
 - Žádné "sám/sama", "rád/ráda" o čtenáři; "sám o sobě" o věci je v pořádku.
 - Úplný tradiční výklad. Nic nevynechávej ani nezměkčuj, včetně smrti a nemocí.
   Těžká témata věcně a s uvozením "tradice tu mluví o…", nikdy jako jistota.
 $textRule
-${noShadow ? '- "shadow": prázdný řetězec.' : '- "shadow": 40–100 slov: slabiny a odvrácená strana téhož.'}
+${withPartner && !partnerFamilies.contains(family) ? '- "partner": 30–80 slov: přitažlivost a intimita, jen pro milostný pár. Appka ho ukáže pouze\n  u typu vztahu partner, u rodiče a dítěte nikdy.\n' : ''}${withAdvice ? _adviceRule(family) : ''}${noShadow ? '- "shadow": prázdný řetězec.' : '- "shadow": 40–100 slov: slabiny a odvrácená strana téhož.'}
 - "hard": seznam pasáží o těžkých tématech, jen kde tradice něco říká; každá má
   "topics" z výčtu ${hardTopics.join(', ')} a "text" 20–80 slov.
 - "keywords": 3–5 hesel malými písmeny. "themes": z výčtu ${themeIds.join(', ')}.
@@ -528,7 +638,7 @@ ${noShadow ? '- "shadow": prázdný řetězec.' : '- "shadow": 40–100 slov: sl
   $traitList
 
 Odpověz jen JSON objektem:
-{"key": "$key", "title": "${d.title}", "keywords": [], "themes": [], "text": "", "shadow": "", "hard": [], "traits": {"text": [], "shadow": []}${pair ? ', "partner": ""' : ''}}
+{"key": "$key", "title": "${d.title}", "keywords": [], "themes": [], "text": "", "shadow": "", "hard": [], "traits": {"text": [], "shadow": []}${withPartner ? ', "partner": ""' : ''}${withAdvice ? ', "advice": ""' : ''}}
 ''';
   }
 }

@@ -5,3 +5,4 @@ library;
 export 'src/content/entry.dart';
 export 'src/content/factors.dart';
 export 'src/content/keys.dart';
+export 'src/content/pair_guide.dart';

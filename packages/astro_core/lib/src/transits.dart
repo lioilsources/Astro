@@ -130,9 +130,11 @@ class TransitEngine {
   double _dev(double lonT, double lonN, AspectType t, int side) => angDiff(angDiff(lonT, lonN), side * t.angle);
 
   /// Events whose stay overlaps [from, to] (Julian Days UT).
-  List<TransitEvent> events(double from, double to, {Iterable<Body>? bodies}) {
+  /// [only] narrows the natal targets and [types] the aspects (default: all major).
+  List<TransitEvent> events(double from, double to,
+      {Iterable<Body>? bodies, Iterable<ChartPoint>? only, Iterable<AspectType>? types}) {
     final out = <TransitEvent>[];
-    final tg = targets;
+    final tg = only == null ? targets : [for (final t in targets) if (only.contains(t)) t];
     for (final body in bodies ?? Body.planets) {
       if (!Ephemeris.available(body, from)) continue;
       final m = marginDays(body);
@@ -144,7 +146,7 @@ class TransitEngine {
       final lons = [for (final i in idx) track.sample(i)];
       for (final target in tg) {
         final lonN = natal.lonOf(target)!;
-        for (final type in AspectType.major) {
+        for (final type in types ?? AspectType.major) {
           for (final side in (type == AspectType.conjunction || type == AspectType.opposition) ? const [1] : const [1, -1]) {
             final raw = _stays(body, track, ts, lons, lonN, type, side);
             out.addAll(_number(body, target, type, side, raw, from, to, t0, t1));
@@ -303,6 +305,9 @@ class TransitEngine {
     final d2 = deviationAt(e, jd + 0.01).abs();
     return d2 < d ? TransitPhase.approaching : TransitPhase.separating;
   }
+
+  /// Strength points for the slowness of the transiting body (docs/scoring.md).
+  static int slowness(Body b) => _slowness[b] ?? 0;
 
   static const _slowness = {
     Body.pluto: 25, Body.neptune: 23, Body.uranus: 21, Body.saturn: 18, Body.jupiter: 14,

@@ -98,6 +98,36 @@ Bez času narození se polokoule nepočítají.
   `hard`) neobsahují milostná a sexuální slova, protože se ukazují i rodiči
   a dítěti. Test appky ověřuje, že se dovětek u ostatních typů nikdy nevykreslí.
 
+## Průvodce vztahem (`PairGuide`, `PairTimeline`, R9)
+
+Plán: `Prompts/PLAN-pruvodce-vztahem.md`. Žádné skóre vztahu; čísla níže jen řadí.
+
+- **Tón aspektu** (`toneOf`): harmonický podporuje, napěťový tře. Konjunkce tře,
+  když je v ní Saturn, Uran, Neptun nebo Pluto, nebo Mars s jinou planetou než
+  Venuší a Jupiterem; jinak podporuje.
+- **Oblasti přehledu** (`areasOf`): cit = Měsíc, řeč = Merkur, láska = Venuše,
+  energie = Mars, respekt = Slunce a Saturn. Aspekt se počítá do oblasti každé ze
+  svých planet; Jupiter, Uran, Neptun, Pluto a osy oblast nemají.
+- **Potřeby:** znamení Slunce, Měsíce, Merkuru, Venuše, Marsu a descendentu
+  (ASC + 180°). Mají-li obě osoby totéž znamení, text je jeden pro oba.
+- **Bez času narození:** Měsíc v poledne blíž než 7,7° (`moonUncertainDeg`, největší
+  pohyb za 12 hodin) k hranici znamení → znamení Měsíce se nepoužije. Descendent chybí.
+- **Odkazy** v kapitolách řeč, respekt, potřeby: nejvýš 5 (`maxGuideLinks`)
+  nejtěžších aspektů oblasti; plný text je jen v kapitole 1 nebo 2.
+- **Období:** Saturn, Uran, Neptun, Pluto konjunkcí, kvadrátem a opozicí na Slunce,
+  Měsíc, Venuši, Mars; konjunkcí a opozicí na ASC (osa vztahu). Přelomy: pomalá
+  planeta k vlastní natální poloze (`pairCycles`). Podpora: Jupiter konjunkcí
+  a trigonem na tytéž body, na ASC konjunkcí a opozicí; návrat Jupitera. Bez času
+  narození odpadá Měsíc, ASC i vstupy do 7. domu. Orb `transitOrb`.
+- **Série:** pobyty v orbu téže konfigurace s mezerou do `seriesGap` tvoří jedno období.
+- **Váha** (`pairPeriodWeight`): pomalost planety (`TransitEngine.slowness`) + 15 za
+  cíl Slunce, Měsíc, Venuše nebo osa (jinak 5, u přelomu 5) + 10 za zastávku + 5 za
+  tři a více průchodů.
+- **Souběh:** zátěž jedné osoby se aspoň 30 dní překrývá se zátěží druhé.
+  Zátěž = období `strain` a přelomy kromě návratu Jupitera.
+- **Klidnější okno:** aspoň 90 dní bez zátěže kohokoli z dvojice.
+- **Vstup do 7. domu:** Saturn a Jupiter, jen přímým pohybem, druhý vstup do roka se vynechá.
+
 ## Tranzity (`TransitEngine`)
 
 Hledání: polohy tranzitující planety se spočítají po krocích (Měsíc 1 h; Slunce,

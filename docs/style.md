@@ -12,6 +12,7 @@ opravy. Plán: oddíl 4.
   typické chyby a hlásí varování.
 - Věty krátké, konkrétní, bez frází typu „hvězdy ti říkají“.
 - Žádné rady: ani k léčbě, investicím, právním krokům. Text popisuje.
+  Výjimka: vrstva `advice` („Co s tím“) v průvodci vztahem, viz níže.
 
 ## Tři vrstvy
 
@@ -46,3 +47,16 @@ opravy. Plán: oddíl 4.
 | tranzity | 40–80 |
 | přemíra a nedostatek | 60–100 |
 | stinná stránka | 40–100 navíc |
+
+## Průvodce vztahem (R9)
+
+- Synastrie, dvojice živlů, období a `advice` u synastrie: 2. osoba množného čísla
+  („mezi vámi“, „domluvte si“, „jeden z vás“, „druhý“).
+- `pair_need` čte ten druhý: 3. osoba bez rodu („kdo má Měsíc v Raku, potřebuje…“,
+  „člověk s Venuší ve Váze“). Žádné on, ona, jeho, její; „ten druhý“, „blízký
+  člověk“. `advice` neosobně: „Pomáhá…“, „Funguje…“. Jména do textů nepatří.
+- `advice` (30–70 slov, u období 40–80): konkrétní jednání ve vztahu. Zakázáno:
+  léčba, léky, peníze, právo, verdikt o vztahu (zůstat, rozejít se) a cokoli, co
+  vede k snášení násilí nebo ponižování.
+- Období: „tradice čte toto období jako zkoušku“, nikdy „přijde krize“.
+- Romantika a intimita jen v `partner` (Venuše a Mars u potřeb a dvojic živlů, synastrie).

@@ -16,6 +16,7 @@ export 'src/location.dart';
 export 'src/model.dart';
 export 'src/moon.dart';
 export 'src/moon_aspects.dart';
+export 'src/pair_timeline.dart';
 export 'src/patterns.dart';
 export 'src/planetary_hours.dart';
 export 'src/progressions.dart';

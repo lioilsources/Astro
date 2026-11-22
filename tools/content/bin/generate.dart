@@ -4,6 +4,7 @@
 //   LLM_BASE_URL=… LLM_API_KEY=… LLM_MODEL=… dart run astro_content:generate --family aspect [--limit 20] [--keys k1,k2] [--jobs 6]
 //   … --batch            Message Batches API (half price); --collect <id> resumes polling
 //   LLM_PROVIDER=anthropic ANTHROPIC_API_KEY=… LLM_MODEL=claude-opus-5-5 dart run astro_content:generate …
+//   … --layer advice     adds only the "Co s tím" layer to existing texts without it (plan R9 5.4)
 import 'dart:convert';
 import 'dart:io';
 
@@ -26,13 +27,17 @@ Future<void> main(List<String> args) async {
   final limit = int.tryParse(opt('limit') ?? '') ?? 1 << 30;
   final explicit = opt('keys')?.split(',');
   final all = allKeysByFamily();
+  final adviceOnly = opt('layer') == 'advice';
+  if (opt('layer') != null && !adviceOnly) throw ArgumentError('--layer supports only advice');
   final todo =
       (explicit ??
               [
                 for (final f in all.entries)
                   if (family == null || f.key == family) ...f.value,
               ])
-          .where((k) => !entries.containsKey(k))
+          .where((k) => adviceOnly
+              ? entries[k] != null && adviceFamilies.contains(familyOf(k)) && entries[k]!.advice.trim().isEmpty
+              : !entries.containsKey(k))
           .take(limit)
           .toList();
   final env = Platform.environment;
@@ -43,22 +48,15 @@ Future<void> main(List<String> args) async {
   stdout.writeln('${todo.length} texts to generate with $provider/$model');
   final jobs = int.tryParse(opt('jobs') ?? '') ?? 1;
   final traits = loadTraits(contentDir);
+  final job = adviceOnly
+      ? _Job((k) => builder.buildAdvice(entries[k]!), (k, raw, m) => _storeAdvice(k, raw, m, entries, contentDir, traits))
+      : _Job(builder.build, (k, raw, m) => _store(k, raw, m, entries, contentDir, traits));
   final batchId = opt('collect');
   if (args.contains('--batch') || batchId != null) {
     if (provider != 'anthropic') {
       throw StateError('--batch needs LLM_PROVIDER=anthropic');
     }
-    await _batch(
-      batchId,
-      todo,
-      model,
-      builder,
-      env,
-      entries,
-      contentDir,
-      traits,
-      Directory('${root.path}/run'),
-    );
+    await _batch(batchId, todo, model, job, env, Directory('${root.path}/run'));
     return;
   }
   var ok = 0, failed = 0;
@@ -69,16 +67,7 @@ Future<void> main(List<String> args) async {
       final key = queue.current;
       for (var attempt = 1; ; attempt++) {
         try {
-          await _one(
-            key,
-            provider,
-            model,
-            builder,
-            env,
-            entries,
-            contentDir,
-            traits,
-          );
+          job.store(key, await _complete(provider, model, job.prompt(key), env), model);
           ok++;
           stdout.writeln('ok   $key');
           break;
@@ -104,18 +93,30 @@ Future<void> main(List<String> args) async {
   if (failed > 0 && ok == 0) exit(1);
 }
 
-Future<void> _one(
+class _Job {
+  final String Function(String key) prompt;
+  final void Function(String key, String raw, String model) store;
+  const _Job(this.prompt, this.store);
+}
+
+/// Merges an answer `{"key", "advice"}` into the existing entry, validates and writes it.
+void _storeAdvice(
   String key,
-  String provider,
+  String raw,
   String model,
-  PromptBuilder builder,
-  Map<String, String> env,
   Map<String, ContentEntry> entries,
   Directory contentDir,
   List<Trait> traits,
-) async {
-  final raw = await _complete(provider, model, builder.build(key), env);
-  _store(key, raw, model, entries, contentDir, traits);
+) {
+  final json = jsonDecode(_extractJson(raw)) as Map<String, dynamic>;
+  final advice = (json['advice'] as String? ?? '').trim();
+  if (advice.isEmpty) throw const FormatException('empty advice');
+  final entry = entries[key]!.withAdvice(advice);
+  final errors = validate({key: entry}, traits).where((f) => f.error).toList();
+  if (errors.isNotEmpty) throw FormatException(errors.join('; '));
+  entries[key] = entry;
+  final fam = familyOf(key);
+  writeFamily(contentDir, fam, entries.values.where((e) => familyOf(e.key) == fam));
 }
 
 /// Parses, validates and writes one answer; throws on any problem.
@@ -219,11 +220,8 @@ Future<void> _batch(
   String? batchId,
   List<String> todo,
   String model,
-  PromptBuilder builder,
+  _Job job,
   Map<String, String> env,
-  Map<String, ContentEntry> entries,
-  Directory contentDir,
-  List<Trait> traits,
   Directory runDir,
 ) async {
   const api = 'https://api.anthropic.com/v1/messages/batches';
@@ -246,7 +244,7 @@ Future<void> _batch(
                 'model': model,
                 'max_tokens': 16000,
                 'messages': [
-                  {'role': 'user', 'content': builder.build(e.value)},
+                  {'role': 'user', 'content': job.prompt(e.value)},
                 ],
               },
             },
@@ -296,14 +294,7 @@ Future<void> _batch(
       if (result['type'] != 'succeeded') {
         throw StateError('${result['type']} ${jsonEncode(result['error'])}');
       }
-      _store(
-        key,
-        _textOf(result['message'] as Map<String, dynamic>),
-        model,
-        entries,
-        contentDir,
-        traits,
-      );
+      job.store(key, _textOf(result['message'] as Map<String, dynamic>), model);
       ok++;
     } catch (e) {
       failed++;
