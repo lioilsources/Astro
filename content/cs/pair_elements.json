@@ -1,5 +1,160 @@
 [
  {
+  "key": "pair_elements/sun/fire/fire",
+  "title": "Slunce: oba oheň",
+  "keywords": [
+   "společné tempo",
+   "uznání",
+   "nadšení",
+   "soupeření",
+   "volnost jednat"
+  ],
+  "themes": [
+   "character",
+   "relationships",
+   "growth"
+  ],
+  "text": "Když se potkají dvě ohnivá Slunce, rozhoduje se mezi vámi rychle a nahlas. Jeden z vás přijde s nápadem a druhý ho během chvíle chytí a posune dál. Oba potřebujete, aby si druhý všiml vaší odvahy a toho, že do věci jdete první. Mezi vámi je hodně pohybu, plánů a spontánních rozhodnutí. Rozumíte si v tom, že čekání bere energii. Dáváte si navzájem prostor jednat bez dlouhého vysvětlování. Uznání tu funguje jako palivo. Když ho dostáváte, utáhnete spolu i těžkou věc. Nejvíc vás spojuje společný cíl, na kterém je vidět výsledek obou.",
+  "shadow": "Dvě ohnivá Slunce o uznání snadno soupeří, místo aby si ho dávala. Když jeden z vás sklízí pochvalu, druhý to může brát jako vlastní prohru. Hádky vzplanou rychle a nahlas a nikdo nechce ustoupit první. Uráží vás, když druhý přehlíží vaši snahu nebo vám skáče do rozhodnutí. Oba se nadchnete a oba zapomenete dotáhnout detaily, takže věci zůstávají rozjeté. Bez pauzy se z tempa stává vzájemné hnaní a vyčerpání.",
+  "hard": [
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o přehřátí. Dvojí oheň podle ní přináší sklon k horečkám, zánětům a vyčerpání z neustálého tempa. Starší autoři zmiňují i zátěž srdce a úrazy z unáhlenosti. Jde o tradiční obraz, ne o předpověď."
+   },
+   {
+    "topics": [
+     "violence"
+    ],
+    "text": "Tradice tu mluví o sporech, které se rozhoří rychleji, než je kdokoli stačí zastavit. U dvou ohnivých Sluncí varuje před slovní i fyzickou prudkostí a před pýchou, která nedovolí ustoupit. Popisuje sklon, ne jistotu."
+   }
+  ],
+  "traits": {
+   "text": [
+    "impulsiveness",
+    "courage",
+    "vitality",
+    "decisiveness",
+    "optimism"
+   ],
+   "shadow": [
+    "competitiveness",
+    "anger",
+    "pride",
+    "exhaustion",
+    "carelessness"
+   ]
+  },
+  "advice": "Domluvte si, kdo v které věci rozhoduje, ať si neskáčete do plánů. Uznání říkejte nahlas a konkrétně, třeba „tohle se ti povedlo“. Když hádka vzplane, dejte si dvacet minut pauzy a vraťte se k ní v klidu. Ke každému novému nápadu zkuste určit, kdo ho dotáhne do konce. Nepočítejte, kdo z vás udělal víc.",
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-22"
+  }
+ },
+ {
+  "key": "pair_elements/sun/fire/earth",
+  "title": "Slunce: oheň a země",
+  "keywords": [
+   "jiskra a půda",
+   "tempo",
+   "uznání",
+   "jistota",
+   "odvaha"
+  ],
+  "themes": [
+   "relationships",
+   "character",
+   "work"
+  ],
+  "text": "Jeden z vás chce uznání za odvahu a rychlý start, druhý za to, co vydrží a co se dá vzít do ruky. Mezi vámi se tak potkává jiskra a půda. Ohnivé Slunce přináší nápad, pohyb a chuť začít hned. Zemské Slunce se ptá, z čeho to bude a jak dlouho to vydrží. Jeden potřebuje volnost jednat, druhý čas ověřit. Když to funguje, máte rychlost i oporu. Plán nezůstane jen u nadšení a stabilita nezkostnatí. Oheň dodá zemi odvahu zkusit něco nového. Země dá ohni místo, kde jeho práce zůstane vidět.",
+  "shadow": "Ohnivé Slunce uráží, když jeho nadšení narazí na otázku „a máš to promyšlené?“. Zemské Slunce uráží, když jeho opatrnost někdo nazve brzdou. Jeden z vás pak tlačí, zvyšuje hlas a jedná bez dohody. Druhý zpomaluje, mlčí a čeká na důkazy, které nikdy nestačí. Oheň vidí v zemi chlad a strnulost, země v ohni ledabylost a honbu za potleskem. Každý se brání tím, co umí nejlíp. Jeden útokem, druhý tvrdohlavým stáním na místě. Uznání, které oba potřebujete, si pak navzájem odpíráte.",
+  "hard": [
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o ohni, který zemi vysušuje, a o zemi, která oheň dusí. Starší výklady to spojují s vyčerpáním a nemocemi z přepětí u ohnivé strany a s potížemi z dlouho drženého napětí u strany zemské. Je to symbolický obraz, ne předpověď zdraví."
+   },
+   {
+    "topics": [
+     "ruin",
+     "loss"
+    ],
+    "text": "Tradice tu mluví také o úpadku a ztrátě toho, co se společně budovalo. Hrozí to, když ohnivý spěch rozhodne o společných věcech bez souhlasu země. Stejně tak když zemská opatrnost promešká chvíli, kdy se dalo něco zachránit. Výklad to podává jako možné riziko, ne jako osud."
+   }
+  ],
+  "traits": {
+   "text": [
+    "courage",
+    "patience",
+    "realism",
+    "cooperation",
+    "impulsiveness"
+   ],
+   "shadow": [
+    "stubbornness",
+    "impulsiveness",
+    "criticism",
+    "rigidity",
+    "anger"
+   ]
+  },
+  "advice": "Domluvte si, o čem může jeden z vás rozhodnout hned a co počká na společné zvážení. Zkuste nápad vyslovit rovnou i s prvním konkrétním krokem. Pochybnost zase s tím, co by vás přesvědčilo. Uznání říkejte nahlas: jednomu za odvahu, druhému za vytrvalost. Když se spor točí v kruhu, dejte si pauzu do druhého dne. Nezesměšňujte tempo toho druhého.",
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-22"
+  }
+ },
+ {
+  "key": "pair_elements/sun/fire/air",
+  "title": "Slunce: oheň a vzduch",
+  "keywords": [
+   "nadšení",
+   "rozhovor",
+   "volnost",
+   "uznání",
+   "pohyb"
+  ],
+  "themes": [
+   "relationships",
+   "character",
+   "growth"
+  ],
+  "text": "Oheň a vzduch se mezi vámi živí navzájem. Jeden z vás chce jednat hned a stojí o uznání za odvahu a nadšení. Druhý potřebuje nápad nejdřív vyslovit, probrat ho v rozhovoru a dopřát mu lehkost. Vzduch dodává ohni kyslík: myšlenky jednoho rozpalují chuť druhého pustit se do akce. Oheň zase dává vzdušným plánům tah a směr. Oba potřebujete volnost a pohyb, takže vám nevadí, když každý chvíli jde svou cestou. Uznání tu přichází snadno: jeden obdivuje odvahu, druhý bystrost. Spolu umíte rozjet věci, které by jinak zůstaly jen v hlavě nebo vyhořely bez plánu.",
+  "shadow": "Vzduch, který ohni dodává kyslík, ho umí rozfoukat do požáru, nebo naopak ofouknout studeným komentářem. Ohnivou stranu urazí, když místo uznání slyší rozbor a pochybnosti. Vzdušnou stranu urazí, když na ni oheň tlačí a nenechá ji nic domyslet. Jeden pak hraje drama, druhý se stáhne do odtažitého vtipu. Oba snadno začínáte a hůř dotahujete. Když nikdo nehlídá pevnou zem, zůstává mezi vámi spousta rozdělaných věcí, slibů a nadšení bez pokračování.",
+  "hard": [
+   {
+    "topics": [
+     "illness",
+     "mental_crisis"
+    ],
+    "text": "Tradice tu mluví o přebytku horka. Oheň a vzduch podle starých výkladů rozdmýchávají životní sílu až k vyčerpání, horečnatým stavům a zánětům. Píše se také o nervovém přetížení, kdy neustálý pohyb a vzrušené debaty nedovolí odpočinout. Jde o tradiční obraz, ne o předpověď."
+   }
+  ],
+  "traits": {
+   "text": [
+    "optimism",
+    "curiosity",
+    "independence",
+    "sociability",
+    "vitality"
+   ],
+   "shadow": [
+    "drama",
+    "detachment",
+    "inconstancy",
+    "sulking",
+    "restlessness"
+   ]
+  },
+  "advice": "Domluvte si, že nadšený nápad nejdřív zazní a pak dostane chvíli na rozmyšlenou, než se z něj stane čin. Kdo chce něco kritizovat, ať nejdřív řekne, co se mu na nápadu líbí. Když debata začne pálit, dejte si pauzu a vraťte se k ní druhý den. Nedělejte si z každého nápadu soutěž. Jednou za čas spolu něco dotáhněte do konce.",
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-22"
+  }
+ },
+ {
   "key": "pair_elements/sun/fire/water",
   "title": "Slunce: oheň a voda",
   "keywords": [
@@ -58,6 +213,1112 @@
   }
  },
  {
+  "key": "pair_elements/sun/earth/earth",
+  "title": "Slunce: oba země",
+  "keywords": [
+   "spolehlivost",
+   "trpělivost",
+   "činy místo slov",
+   "společný řád"
+  ],
+  "themes": [
+   "relationships",
+   "character",
+   "work"
+  ],
+  "text": "Mezi vámi se uznání nepočítá ve slovech, ale v tom, co po vás zůstane hotové. Oba chcete, aby si druhý všiml vaší práce, spolehlivosti a dodrženého slova. Rozumíte si v tempu: nikdo netlačí na rychlé rozhodnutí a oba víte, že důvěra roste postupně. Volnost být sebou pro vás znamená klid, vlastní rytmus a prostor dělat věci pořádně. Doplňujete se v praktičnosti. Jeden z vás často drží základ, druhý ho zdokonaluje nebo rozšiřuje. Uráží vás oba totéž: zpochybnění vaší poctivé snahy a sliby, za kterými nic není.",
+  "shadow": "Když se potkají dvě zemská Slunce, uznání se snadno změní v tiché účtování, kdo udělal víc. Oba čekáte na hmatatelný důkaz a ani jeden nechce udělat první krok bez jistoty. Vztah tak může ustrnout v zavedeném pořádku, kde se nic neříká nahlas. Křivdy se neodpouštějí, jen se ukládají. Tvrdohlavost na obou stranách vede k zákopové válce, ve které nikdo neustoupí. Ocenění se dává skoupě a pochvala chybí právě tam, kde je jí nejvíc potřeba.",
+  "hard": [
+   {
+    "topics": [
+     "illness",
+     "mental_crisis"
+    ],
+    "text": "Tradice tu mluví o zemské povaze jako o chladné a suché, se sklonem k melancholii. Dvojí zemský důraz podle starých výkladů může znamenat, že se oba přetěžujete prací a únavu přehlížíte, dokud se neozve tělo nebo dlouhá tíseň. Jde o tradiční obraz, ne o předpověď."
+   },
+   {
+    "topics": [
+     "loss"
+    ],
+    "text": "Tradice tu mluví také o lpění na tom, co bylo vybudováno. Ztrátu domova, práce nebo jistoty podle ní dvě zemské povahy nesou těžce a dlouho, protože se s tím, o co přicházíte, vnitřně ztotožňujete."
+   }
+  ],
+  "traits": {
+   "text": [
+    "patience",
+    "steadiness",
+    "diligence",
+    "realism",
+    "loyalty"
+   ],
+   "shadow": [
+    "stubbornness",
+    "rigidity",
+    "stagnation",
+    "sulking",
+    "coldness"
+   ]
+  },
+  "advice": "Říkejte si nahlas, čeho si na druhém ceníte, a to konkrétně a hned, ne až při hádce. Jednou za čas si domluvte krátký rozhovor o tom, co vás tíží, dřív než se z toho stane tichá výčitka. Když se zaseknete v tom, kdo má pravdu, dejte si pauzu do druhého dne. Nepoužívejte vlastní práci jako důkaz, že ten druhý dělá málo.",
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-22"
+  }
+ },
+ {
+  "key": "pair_elements/sun/earth/air",
+  "title": "Slunce: země a vzduch",
+  "keywords": [
+   "jistota",
+   "rozhovor",
+   "uznání",
+   "slovo a čin"
+  ],
+  "themes": [
+   "relationships",
+   "character",
+   "work"
+  ],
+  "text": "Mezi vámi se potkává ten, kdo chce být uznán za to, co skutečně udělá, s tím, kdo chce být uznán za to, co vymyslí a řekne. Jeden z vás potřebuje jistotu, čas a hmatatelné důkazy. Druhý potřebuje rozhovor, myšlenky a lehkost. Země dává nápadům vzduchu pevný tvar a dotahuje je do konce. Vzduch přináší zemi nové úhly pohledu a uvolňuje ji, když uvízne v zaběhnutém. Jeden z vás staví, druhý pojmenovává. Když to funguje, z rozhovoru vzniká plán a z plánu výsledek. Oba se tak učíte, že slovo i čin mají svou váhu.",
+  "shadow": "Zemi uráží, když její práce zmizí pod proudem slov. Vzduch uráží, když jeho nápad dostane odpověď „to nejde“ dřív, než ho stihne dořeknout. Jeden z vás pak působí těžkopádně a nedůvěřivě, druhý roztěkaně a nespolehlivě. Země čeká na důkazy a mlčí. Vzduch mluví dál a má pocit, že ho nikdo neposlouchá. Volnost vzduchu vypadá pro zemi jako lehkomyslnost. Opatrnost země vypadá pro vzduch jako sevření. Každý se brání tím, co umí nejlíp, a druhého to vzdaluje.",
+  "hard": [
+   {
+    "topics": [
+     "illness",
+     "mental_crisis"
+    ],
+    "text": "Tradice tu mluví o setkání melancholického temperamentu země, chladného a suchého, se sangvinickým temperamentem vzduchu, teplého a vlhkého. Staré výklady spojují dlouhé napětí mezi nimi se sklonem k vyčerpání, nespavosti a zádumčivosti na straně země a s rozptýleností a nervovým neklidem na straně vzduchu. Jde o tradiční obraz, ne o předpověď."
+   }
+  ],
+  "traits": {
+   "text": [
+    "steadiness",
+    "curiosity",
+    "cooperation",
+    "realism",
+    "eloquence"
+   ],
+   "shadow": [
+    "stubbornness",
+    "inconstancy",
+    "criticism",
+    "superficiality",
+    "sulking"
+   ]
+  },
+  "advice": "Domluvte si, že nápad nejdřív dostane prostor, aby zazněl celý, a teprve potom přijde otázka, jak ho provést. Zkuste nahlas říct, co pro vás znamená uznání: jednomu z vás stačí dodržený slib, druhému skutečný zájem o jeho myšlenku. Když se rozhovor točí v kruhu, dejte si pauzu a vraťte se jen k jedné věci. Nesrovnávejte, čí přínos je cennější.",
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-22"
+  }
+ },
+ {
+  "key": "pair_elements/sun/earth/water",
+  "title": "Slunce: země a voda",
+  "keywords": [
+   "jistota",
+   "citová blízkost",
+   "trpělivost",
+   "porozumění beze slov",
+   "důvěra"
+  ],
+  "themes": [
+   "relationships",
+   "character"
+  ],
+  "text": "Slunce v zemi a Slunce ve vodě se potkávají jako břeh a řeka. Jeden z vás chce být uznán za to, co vydrží a co skutečně udělá. Druhý chce být viděn v tom, co cítí, i když to nevysloví. Země dává vodě pevný tvar, takže se city nerozlévají naprázdno. Voda dává zemi vláhu a připomíná, že spolehlivost bez citu je jen povinnost. Oba potřebujete čas a oba pečlivě vybíráte, komu se otevřete. Důvěra mezi vámi roste pomalu, ale drží. Volnost tu znamená, že jeden smí jednat ve svém tempu a druhý smí cítit bez vysvětlování.",
+  "shadow": "Země a voda se ve stínu mění v bažinu: jeden z vás čeká na důkazy, druhý na to, že ho někdo pochopí bez slov. Kdo potřebuje hmatatelné činy, snadno přehlédne tichou prosbu o blízkost. Kdo čte nálady, bere věcnost jako chlad. Každého z vás uráží něco jiného. Jednoho uráží zpochybnění jeho spolehlivosti, druhého přehlížení jeho citů. Místo hádky přichází mlčení, uraženost a stažení. Křivdy se ukládají jako usazenina a dlouho nevyplavou na povrch.",
+  "hard": [
+   {
+    "topics": [
+     "mental_crisis"
+    ],
+    "text": "Tradice tu mluví o setkání dvou studených živlů, které spolu mohou prohlubovat melancholii. Když se oba stáhnete, smutek se mezi vámi může usadit na dlouho a nikdo ho nerozčeří. Výklad to podává jako sklon, ne jako jistotu."
+   },
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Stará nauka o temperamentech spojuje převahu země a vody s těžkopádností, únavou a chladnými, vlhkými neduhy. Tradice tu mluví o tom, že se v takovém spojení síly obnovují pomalu. Jde o tradiční obraz, ne o předpověď."
+   },
+   {
+    "topics": [
+     "loss"
+    ],
+    "text": "Tradice tu mluví o tom, že obě znamení těžko pouštějí. Ztráta blízkého člověka, domova nebo jistoty může u této dvojice doznívat dlouho a ve dvou podobách: jeden z vás ji nese v mlčení, druhý v slzách."
+   }
+  ],
+  "traits": {
+   "text": [
+    "steadiness",
+    "empathy",
+    "patience",
+    "loyalty",
+    "security_need"
+   ],
+   "shadow": [
+    "sulking",
+    "reticence",
+    "coldness",
+    "melancholy",
+    "stagnation"
+   ]
+  },
+  "advice": "Domluvte si, že citlivé věci řeknete nahlas, i když se zdají zřejmé. Kdo potřebuje důkaz, ať řekne jaký. Kdo potřebuje blízkost, ať nečeká, až ji druhý uhodne. Když se jeden z vás stáhne, dejte si pauzu na den, ne na týden. Nepoužívejte mlčení jako trest a nezlehčujte to, co druhý cítí.",
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-22"
+  }
+ },
+ {
+  "key": "pair_elements/sun/air/air",
+  "title": "Slunce: oba vzduch",
+  "keywords": [
+   "rozhovor",
+   "myšlenky",
+   "volnost",
+   "lehkost",
+   "zvídavost"
+  ],
+  "themes": [
+   "relationships",
+   "character",
+   "growth"
+  ],
+  "text": "Dvě vzdušná Slunce stojí na rozhovoru. Každý z vás chce uznání za to, jak přemýšlí a jak věci pojmenuje. Mezi vámi rychle vznikají nápady, vtipy a plány. Jeden z vás nadhodí myšlenku, druhý ji hned rozvine nebo obrátí naruby. Každý z vás potřebuje volnost: vlastní přátele, vlastní zájmy a prostor změnit názor. Tohle si dáváte bez dlouhého vysvětlování. Uráží vás totéž: když druhý nenaslouchá, zlehčí váš nápad nebo vnucuje svůj pohled. Doplňujete se tak, že jeden vidí souvislosti a druhý detail. Spolu se tak k věci dostanete z více stran.",
+  "shadow": "Když spolu mluví dvě vzdušná Slunce, slova snadno nahradí čin. Rozebíráte věci tak dlouho, až se nic nestane. Těžké pocity odbýváte vtipem nebo rozborem a druhý pak neví, co se v tom prvním doopravdy děje. Lehkost se mění v odtažitost. Svobodu si chráníte tak pečlivě, že se nikdo nechce zavázat k ničemu konkrétnímu. Ve sporu soutěžíte o lepší argument, ne o pravdu. Uraženost tu nepřichází s křikem. Přichází jako chladný odstup a mlčení po dlouhém rozhovoru.",
+  "hard": [
+   {
+    "topics": [
+     "mental_crisis"
+    ],
+    "text": "Tradice tu mluví o přetížení nervů. Dvě vzdušná Slunce spolu dokážou přemýšlet a mluvit dlouho do noci a neklid jednoho roztáčí neklid druhého. Tradice zmiňuje nespavost, roztěkanost a úzkost, která zůstává v hlavě a nemá kam odejít. Jde o sklon, ne o jistotu."
+   },
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o nemocech dechu a nervové soustavy, které klasická astrologie přisuzuje živlu vzduchu. Když se tento živel u dvojice zdvojí, staré texty uvádějí sklon k vyčerpání z neustálého ruchu a nedostatku klidu. Je to tradiční symbolika, ne předpověď."
+   }
+  ],
+  "traits": {
+   "text": [
+    "curiosity",
+    "sociability",
+    "independence",
+    "lightness",
+    "eloquence"
+   ],
+   "shadow": [
+    "detachment",
+    "superficiality",
+    "restlessness",
+    "commitment_fear",
+    "competitiveness"
+   ]
+  },
+  "advice": "Domluvte si, že důležitý rozhovor skončí konkrétním krokem: kdo co udělá a do kdy. Když se spor změní v přetahování argumenty, zkuste nahlas říct: „Nechci vyhrát, chci pochopit.“ Pokud se rozhovor pozdě večer točí v kruhu, dejte si pauzu a vraťte se k němu ráno. Neodbývejte pocity vtipem. Zkuste je pojmenovat jednou prostou větou. Svobodu si nechte, ale dejte druhému vědět, kdy nejste k zastižení.",
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-22"
+  }
+ },
+ {
+  "key": "pair_elements/sun/air/water",
+  "title": "Slunce: vzduch a voda",
+  "keywords": [
+   "rozhovor",
+   "porozumění beze slov",
+   "lehkost a hloubka",
+   "uznání",
+   "mlha nedorozumění"
+  ],
+  "themes": [
+   "relationships",
+   "character",
+   "growth"
+  ],
+  "text": "Mezi vámi se potkává Slunce, které září v rozhovoru, se Sluncem, které září v tichém porozumění. Jeden z vás chce, aby druhý ocenil jeho myšlenky, vtip a nadhled. Druhý chce, aby si někdo všiml jeho nálady dřív, než ji vysloví. Vzduch přináší do vztahu lehkost a slova pro to, co se jinak jen tíživě cítí. Voda přináší hloubku a dává myšlenkám lidský rozměr. Jeden z vás učí druhého pocity pojmenovat, druhý učí prvního je opravdu prožít. Volnost pro vzduch znamená prostor přemýšlet a mluvit s lidmi. Pro vodu znamená prostor stáhnout se a cítit.",
+  "shadow": "Vzduch dokáže vodu zranit tím, že její city rozebírá jako argumenty. Voda zase vzduch zraňuje tím, že mlčí a čeká, až to druhý uhodne. Jednoho z vás uráží, když druhý jeho slova odbude jako chladná. Druhého uráží, když jeho cit někdo odbude jako přehnaný. Vzduch pak utíká do vtipu a odstupu, voda do uraženého ticha a starých křivd. Jeden z vás má pocit, že mluví do zdi, druhý, že mluví do větru. Z nedorozumění se snadno stane mlha, ve které nikdo neví, co platí.",
+  "hard": [
+   {
+    "topics": [
+     "mental_crisis"
+    ],
+    "text": "Tradice tu mluví o vodním Slunci, které se při dlouhém nepochopení stahuje do melancholie a skleslosti. U vzdušného Slunce mluví o nervózním kroužení v myšlenkách až k vyčerpání a nespavosti. Jde o možné riziko, ne o jistotu."
+   },
+   {
+    "topics": [
+     "addiction"
+    ],
+    "text": "Tradice tu mluví i o sklonu vody hledat útěchu v otupění, například v alkoholu, když slova vzduchu nedosahují k jejímu citu. Vzduch podle ní spíš uniká do roztěkanosti a neustálých podnětů. Popisuje to jako sklon, ne jako osud."
+   }
+  ],
+  "traits": {
+   "text": [
+    "eloquence",
+    "empathy",
+    "lightness",
+    "depth",
+    "curiosity"
+   ],
+   "shadow": [
+    "detachment",
+    "sulking",
+    "superficiality",
+    "moodiness",
+    "coldness"
+   ]
+  },
+  "advice": "Domluvte si, že pocit smí zaznít i neučesaně a myšlenka smí být vyslechnuta bez okamžité citové odpovědi. Když jeden z vás mlčí, zeptejte se jednoduše: „Chceš teď mluvit, nebo jen chvíli klid?“ Při hádce si dejte krátkou pauzu, ale řekněte, kdy se k tématu vrátíte. Nezesměšňujte rozum ani city toho druhého.",
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-22"
+  }
+ },
+ {
+  "key": "pair_elements/sun/water/water",
+  "title": "Slunce: oba voda",
+  "keywords": [
+   "citová blízkost",
+   "porozumění beze slov",
+   "vzájemná citlivost",
+   "sdílené nálady"
+  ],
+  "themes": [
+   "relationships",
+   "character",
+   "health"
+  ],
+  "text": "Slunce obou z vás stojí ve vodním znamení. Uznání pro vás neznamená potlesk, ale pocit, že druhý vnímá, co se ve vás děje. Mezi vámi to často funguje beze slov. Jeden z vás zachytí změnu nálady dřív, než ji druhý vysloví. Volnost být sebou pro vás znamená smět cítit naplno a nemuset nic vysvětlovat. Doplňujete se v tom, že si navzájem dáváte bezpečí a citový domov. Uráží vás chlad, zlehčování a nezájem. Protože to víte, dáváte si pozor na tón i na ticho. Vaše porozumění časem roste a prohlubuje se.",
+  "shadow": "Když se dvě vodní Slunce zraní, stáhnou se do sebe a čekají, až to druhé pochopí bez vysvětlení. Porozumění beze slov se pak mění v hádání myšlenek a tiché výčitky. Nálady se mezi vámi přelévají, takže smutek jednoho z vás snadno strhne i druhého. Uraženost trvá dlouho, protože nikdo nechce udělat první krok. Hrozí i uzavřený svět, do kterého okolí nemá přístup. Tam city nahrazují rozhodnutí. Citlivost se může zvrhnout v žárlivost na cokoli, co druhému bere pozornost.",
+  "hard": [
+   {
+    "topics": [
+     "mental_crisis"
+    ],
+    "text": "Tradice tu mluví o nebezpečí, že se dvě vodní povahy navzájem utápějí ve smutku. Melancholie jednoho z vás může prohloubit tíhu druhého. Z běžné skleslosti pak může vzniknout dlouhé období beznaděje. Nejde o jistotu, ale o sklon, který stojí za pozornost."
+   },
+   {
+    "topics": [
+     "addiction"
+    ],
+    "text": "Tradice tu mluví o sklonu vodních znamení unikat před bolestí do alkoholu, omamných látek nebo do snění. Když se tento sklon sejde u obou, jeden z vás ho snadno omlouvá. Druhý ho přehlíží, protože mu rozumí zevnitř."
+   },
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o tom, že vodní znamení mají sklon k potížím spojeným s tělesnými tekutinami, otoky a oslabenou obranyschopností. Dlouhé citové napětí se u nich podle starých výkladů ukládá do těla. U dvou vodních Sluncí se to může vzájemně zesilovat."
+   },
+   {
+    "topics": [
+     "loss"
+    ],
+    "text": "Tradice tu mluví o tom, že vodní znamení nesou ztrátu blízkého člověka dlouho a hluboko. Když truchlíte oba současně, chybí mezi vámi ten, kdo by držel pevnou půdu pod nohama."
+   }
+  ],
+  "traits": {
+   "text": [
+    "empathy",
+    "intuition",
+    "sensitivity",
+    "depth",
+    "protectiveness"
+   ],
+   "shadow": [
+    "moodiness",
+    "sulking",
+    "escapism",
+    "jealousy",
+    "melancholy"
+   ]
+  },
+  "advice": "Domluvte se, že pocity budete říkat nahlas, i když se zdají zřejmé. Stačí věta „Dnes je mi těžko.“ Když se jeden z vás stáhne, druhý se jednou zeptá a pak nechá prostor. Dejte si pravidlo, že uraženost nepřečká další den bez rozhovoru. Nehádejte myšlenky, ptejte se. Když vás nálady strhávají oba, dejte si krátkou pauzu a jděte ven.",
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-22"
+  }
+ },
+ {
+  "key": "pair_elements/moon/fire/fire",
+  "title": "Měsíc: oba oheň",
+  "keywords": [
+   "okamžitá reakce",
+   "společné nadšení",
+   "potřeba uznání",
+   "rychlý výbuch",
+   "pohyb jako útěcha"
+  ],
+  "themes": [
+   "relationships",
+   "character",
+   "health"
+  ],
+  "text": "Když jeden z vás potřebuje útěchu, druhý nečeká a jedná hned. Oba máte Měsíc v ohni a domov pro vás znamená pohyb, ne ticho. Bezpečí cítíte, když se něco děje: společný plán, rychlé rozhodnutí, nadšení, které druhý okamžitě zachytí. Útěchu přijímáte skrze čin a uznání, ne skrze dlouhé rozebírání. Na stres reagujete výbuchem energie. Druhý to zná a nebere to jako útok. Umíte se navzájem zvednout, povzbudit a připomenout si, co dokážete. Napětí se mezi vámi nedusí. Co přijde, to se řekne, a jde se dál.",
+  "shadow": "Pod tlakem hoří oba ohnivé Měsíce současně a nikdo z vás nezůstává v klidu, aby druhého podržel. Oba potřebujete uznání. Když chybí, soupeříte o to, čí potřeba je naléhavější. Hádka vzplane rychle a slova padají dřív, než je zvážíte. Útěcha se snadno mění v akci, která skutečný smutek přeskočí. Když nadšení opadne, přichází neklid a hledání nového podnětu. Na místě, kde něco bolí, nevydržíte. Tichá a pomalá zranění si tak navzájem snadno přehlížíte.",
+  "hard": [
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o sklonu k horečnatým stavům, zánětům a vyčerpání z přepětí, když se citové napětí vybíjí tělem. U dvou ohnivých Měsíců se podle ní stres sčítá: jeden strhává druhého k dalšímu výkonu a nikdo nezpomalí. Zmiňuje i úrazy ze spěchu. Jde o tradiční obraz, ne o předpověď."
+   },
+   {
+    "topics": [
+     "violence"
+    ],
+    "text": "Tradice tu mluví o hněvu, který ve dvou ohnivých povahách může přerůst v prudké výstupy, rozbíjení věcí nebo hrubost. Riziko vidí hlavně ve chvíli, kdy se dva výbuchy setkají naráz. Není to jistota ani omluva. Ohrožení či ponižování není přirozenou součástí tohoto spojení."
+   }
+  ],
+  "traits": {
+   "text": [
+    "impulsiveness",
+    "optimism",
+    "vitality",
+    "honesty",
+    "decisiveness"
+   ],
+   "shadow": [
+    "anger",
+    "competitiveness",
+    "restlessness",
+    "superficiality",
+    "exhaustion"
+   ]
+  },
+  "advice": "Domluvte si signál, kterým kdokoli z vás zastaví hádku dřív, než přeroste v křik. Pak si dejte dvacet minut pauzy v pohybu, třeba každý na vlastní procházce. Řekněte nahlas, co potřebujete: „Teď chci jen uznání, ne řešení.“ Po každém rozruchu zkuste chvíli zůstat u toho, co se stalo, než skočíte k dalšímu plánu. Nesoupeřte o to, kdo to má těžší.",
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-22"
+  }
+ },
+ {
+  "key": "pair_elements/moon/fire/earth",
+  "title": "Měsíc: oheň a země",
+  "keywords": [
+   "jiskra a půda",
+   "rozdílné tempo",
+   "uznání",
+   "jistota",
+   "útěcha činem"
+  ],
+  "themes": [
+   "relationships",
+   "character",
+   "family"
+  ],
+  "text": "Když přijde napětí, jeden z vás se hned zvedne k činu a druhý si nejdřív potřebuje ověřit, na čem stojí. Ohnivý Měsíc hledá útěchu v pohybu, povzbuzení a uznání. Zemský Měsíc ji nachází v klidu, pravidelnosti a ve věcech, které se dají vidět a vzít do ruky. Mezi vámi se tak potkává jiskra a půda. Jeden z vás přináší odvahu začít a radost z nového. Druhý dává tomu nadšení tvar a vytrvalost. Domov pro vás vzniká tam, kde má místo obojí: chuť vyrazit i jistota, že je kam se vrátit.",
+  "shadow": "Ohnivá netrpělivost a zemská opatrnost se mezi vámi snadno čtou jako nezájem. Jeden z vás vnímá pomalost jako odmítnutí a tlačí víc. Druhý vnímá tlak jako ohrožení jistoty a zavírá se. Ve stresu jeden vybuchne a hned zapomene, druhý si křivdu uloží a dlouho ji nosí. Ohnivá strana se pak cítí přehlížená, zemská přetížená. Útěcha, kterou jeden nabízí, druhému často nesedí. Jeden dostává věcné řešení tam, kde čeká ocenění. Druhý dostává nadšená slova tam, kde potřebuje čin.",
+  "hard": [
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o setkání cholerické a melancholické povahy, které jsou obě suché. Ohnivý Měsíc spojuje s horkem, horečnatými stavy a vyčerpáním z přehnaného tempa. Zemský Měsíc spojuje se ztuhlostí, potížemi s trávením a tíhou, která se ukládá do těla. Jde o staré schéma temperamentů, ne o předpověď."
+   },
+   {
+    "topics": [
+     "mental_crisis"
+    ],
+    "text": "Tradice tu mluví také o černé žluči, kterou váže k zemi. Při dlouhém napětí bez uvolnění může zemský Měsíc sklouzávat k zasmušilosti a melancholii. Ohnivý Měsíc může propadat výbuchům hněvu, po kterých přichází vyprahlost a prázdnota. Tradice to popisuje jako sklon, ne jako nevyhnutelnost."
+   }
+  ],
+  "traits": {
+   "text": [
+    "courage",
+    "patience",
+    "steadiness",
+    "vitality",
+    "cooperation"
+   ],
+   "shadow": [
+    "impulsiveness",
+    "stubbornness",
+    "sulking",
+    "anger",
+    "rigidity"
+   ]
+  },
+  "advice": "Když přijde stres, řekněte nahlas, co právě potřebujete. Jeden z vás se třeba potřebuje projít nebo slyšet ocenění, druhý chvíli klidu a konkrétní plán. Domluvte si, že důležitá rozhodnutí nepadají v prvním návalu. Zkuste ocenit slovy i činem. Nevyčítejte si navzájem tempo. Po hádce si dejte pauzu a rovnou se dohodněte, kdy se k věci vrátíte.",
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-22"
+  }
+ },
+ {
+  "key": "pair_elements/moon/fire/air",
+  "title": "Měsíc: oheň a vzduch",
+  "keywords": [
+   "nadšení",
+   "rozhovor",
+   "pohyb",
+   "lehkost",
+   "uznání"
+  ],
+  "themes": [
+   "relationships",
+   "character",
+   "health"
+  ],
+  "text": "Když se ohnivý Měsíc potká se vzdušným, domov mezi vámi vzniká z pohybu a slov. Jeden z vás se cítí v bezpečí, když se něco děje: když může hned jednat, nadchnout se a dostat uznání. Druhý se uklidní, když může věci vyslovit, promyslet nahlas a odlehčit je. Vzduch živí oheň: rozhovor dává nadšení směr a nové nápady. Oheň zase dodává vzduchu odvahu proměnit myšlenku v čin. Útěchu si dáváte hlavně tím, že spolu mluvíte a něco podnikáte. Ve stresu ani jeden z vás nestojí na místě, a proto se umíte rychle zvednout. Těžkosti mezi vámi neztuhnou, protože je oba rozhýbáváte.",
+  "shadow": "Ohnivý a vzdušný Měsíc spolu snadno přeletí přes city, které potřebují čas. Když jeden z vás chce uznání hned, druhý odpoví rozborem nebo vtipem a oheň to vnímá jako chlad. Když druhý chce situaci nejdřív probrat, první už jedná a vzduch se cítí přehlušený. Ve stresu se navzájem rozdmýcháváte: slova přiživují vznětlivost a vznětlivost zrychluje slova. Smutek a únava mezi vámi nemají moc místa. Odkládají se tak dlouho, dokud nevybuchnou, nebo dokud nevychladnou v odstup.",
+  "hard": [
+   {
+    "topics": [
+     "illness",
+     "mental_crisis"
+    ],
+    "text": "Tradice tu mluví o horkém a neklidném spojení, které vyčerpává nervy. Zmiňuje nespavost, přetížení, horečnatý neklid a sklon k nervovému vyčerpání, když se nic nezpomalí. Nejde o jistotu, spíš o upozornění: oba způsoby se dobíjejí pohybem a slovy a snadno zapomínají na klid."
+   }
+  ],
+  "traits": {
+   "text": [
+    "optimism",
+    "eloquence",
+    "vitality",
+    "curiosity",
+    "flexibility"
+   ],
+   "shadow": [
+    "restlessness",
+    "anger",
+    "detachment",
+    "superficiality",
+    "exhaustion"
+   ]
+  },
+  "advice": "Domluvte si jednoduché pravidlo: kdo je rozrušený, řekne nejdřív, co potřebuje, jestli uznání, nebo rozhovor. U důležitých věcí zkuste nejdřív deset minut mluvit a teprve potom jednat. Když se hlasy zrychlují, dejte si pauzu a projděte se zvlášť. Nezlehčujte únavu ani smutek vtipem. Raději se zeptejte, co by pomohlo ještě dnes večer.",
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-22"
+  }
+ },
+ {
+  "key": "pair_elements/moon/fire/water",
+  "title": "Měsíc: oheň a voda",
+  "keywords": [
+   "útěcha",
+   "teplo a hloubka",
+   "citová blízkost",
+   "uznání",
+   "reakce na stres"
+  ],
+  "themes": [
+   "relationships",
+   "family",
+   "character"
+  ],
+  "text": "Mezi vámi se potkává Měsíc, který se uklidňuje činem, s Měsícem, který se uklidňuje blízkostí. Jeden z vás při stresu hned jedná, hledá řešení a potřebuje pohyb. Druhý potřebuje nejdřív cítit porozumění, i bez vysvětlování. Útěchu přijímáte každý jinak. Jeden z vás ji bere jako povzbuzení a uznání, druhý jako tichou přítomnost. Právě tady se doplňujete. Ohnivá strana přináší odvahu, teplo a chuť jít dál, když druhého pohltí nálada. Vodní strana vnímá, co se pod povrchem skutečně děje. Umí zpomalit, když první hoří příliš rychle. Domov mezi vámi vzniká tam, kde je místo pro nadšení i pro tiché chvíle.",
+  "shadow": "Ohnivá rychlost a vodní citlivost se ve stresu snadno minou. Jeden z vás nabízí řešení, druhý v tom slyší, že jeho pocity nikoho nezajímají. Jeden vybuchne a za chvíli je po všem. Druhý si křivdu nese dlouho a stahuje se do mlčení. Oheň pak vnímá uraženost jako výčitku a přitlačí. Voda ustupuje ještě hlouběji. Uznání, které jeden z vás potřebuje, se ztrácí v náladách druhého. Zbude pára: hodně napětí, málo tepla a málo útěchy.",
+  "hard": [
+   {
+    "topics": [
+     "mental_crisis"
+    ],
+    "text": "Tradice tu mluví o páře, která vzniká, když se oheň a voda dlouho tlačí do sebe. Popisuje citové vyčerpání a období, kdy jeden z vás upadá do hluboké sklíčenosti a druhý vyhoří vlastním neklidem. Nejde o jistotu. Je to upozornění, že u téhle dvojice se dlouhodobý stres snadno hromadí beze slov."
+   },
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o tom, že nevyrovnaný ohnivý Měsíc se v těle ukazuje horečkami a záněty, vodní spíš potížemi s trávením a zadržováním tekutin. Nevyslovené napětí mezi vámi se podle ní ukládá do těla. Jde o starý obraz, ne o jistotu ani diagnózu."
+   }
+  ],
+  "traits": {
+   "text": [
+    "courage",
+    "empathy",
+    "vitality",
+    "intuition",
+    "sensitivity"
+   ],
+   "shadow": [
+    "anger",
+    "sulking",
+    "moodiness",
+    "impulsiveness",
+    "reticence"
+   ]
+  },
+  "advice": "Domluvte si, co kdo potřebuje ve chvíli stresu. Jeden z vás třeba krátký pohyb nebo konkrétní krok, druhý nejdřív pár vět o tom, jak se cítí. Zkuste to říct přímo: „Teď chci jen slyšet, že tomu rozumíš.“ Nebo: „Teď potřebuju něco udělat.“ Když emoce vřou, dejte si dvacet minut pauzu a pak se vraťte. Nezlehčujte slzy ani nadšení toho druhého.",
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-22"
+  }
+ },
+ {
+  "key": "pair_elements/moon/earth/earth",
+  "title": "Měsíc: oba země",
+  "keywords": [
+   "jistota",
+   "trpělivost",
+   "hmatatelná péče",
+   "rutina",
+   "společné zázemí"
+  ],
+  "themes": [
+   "relationships",
+   "family",
+   "character"
+  ],
+  "text": "Oba se cítíte v bezpečí teprve tehdy, když něco vidíte a můžete se toho dotknout, a proto mluvíte stejným citovým jazykem. Útěchu mezi vámi nepřinášejí dlouhé řeči, ale uvařený čaj, opravená věc nebo dodržený slib. Ve stresu oba zpomalujete a hledáte pevný bod: rutinu, práci rukama, známé místo. Jeden z vás možná víc potřebuje pořádek, druhý víc pohodlí. Oba ale chápete, že důvěra roste pomalu. Nemusíte si vysvětlovat, proč potřebujete čas. Pravidelné zvyky, společné zázemí a drobné spolehlivé činy pro vás znamenají to, co pro jiné znamenají slova.",
+  "shadow": "Dva Měsíce, které čekají na důkazy, mohou čekat jeden na druhého donekonečna. Když nikdo neudělá první krok, city zůstávají nevyslovené a vztah běží jen na povinnostech. Ve stresu se oba stahujete do práce a mlčíte, takže se napětí hromadí pod povrchem. Hrozí strnulost: držíte se stejných zvyků, i když už nevyhovují, bráníte se změně a místo rozhovoru přicházejí tiché výčitky. Péče se snadno začne měřit věcmi a výkonem. Citová potřeba, kterou nejde ukázat rukama, pak zůstává bez odpovědi.",
+  "hard": [
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o tom, že zemský Měsíc ukládá napětí do těla. Když oba dlouho potlačujete starosti a jen pracujete, může se nevyslovený stres podle tradice projevit únavou, potížemi s trávením nebo bolestí zad a šíje. Jde o tradiční obraz, ne o předpověď."
+   },
+   {
+    "topics": [
+     "loss",
+     "ruin"
+    ],
+    "text": "Tradice tu mluví o tom, že ztráta hmotné jistoty zasahuje dva zemské Měsíce mimořádně hluboko. Může jít o domov, práci nebo zázemí. Bezpečí vás obou totiž stojí na stejném základu. Když se otřese to hmatatelné, může se podle tradice otřást i pocit, že vztah drží pohromadě."
+   },
+   {
+    "topics": [
+     "mental_crisis"
+    ],
+    "text": "Tradice tu mluví o sklonu k melancholii a tíze. U dvou zemských Měsíců se smutek může prohlubovat tiše a bez výkyvů, takže si ho ani jeden z vás dlouho nevšimne. Tradiční výklad varuje před obdobími, kdy se život zúží jen na povinnosti a radost z něj pomalu mizí."
+   }
+  ],
+  "traits": {
+   "text": [
+    "security_need",
+    "patience",
+    "steadiness",
+    "loyalty",
+    "realism"
+   ],
+   "shadow": [
+    "rigidity",
+    "stagnation",
+    "reticence",
+    "melancholy",
+    "materialism"
+   ]
+  },
+  "advice": "Domluvte si jednoduchý signál, kterým dáte najevo, že potřebujete útěchu, třeba krátkou větu „dnes je toho moc“. Zkuste nahlas říct i to, co obvykle jen uděláte. Jednou za čas si sedněte a projděte, které zvyky vám ještě slouží a které už jen držíte ze setrvačnosti. Když jeden z vás mlčí a jen pracuje, nečekejte, až to přejde. Zeptejte se dřív.",
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-22"
+  }
+ },
+ {
+  "key": "pair_elements/moon/earth/air",
+  "title": "Měsíc: země a vzduch",
+  "keywords": [
+   "bezpečí",
+   "rozhovor",
+   "jistota",
+   "útěcha",
+   "odstup"
+  ],
+  "themes": [
+   "relationships",
+   "character",
+   "family",
+   "health"
+  ],
+  "text": "Mezi vámi se potkává Měsíc, který hledá bezpečí v pevné zemi, s Měsícem, který ho nachází v rozhovoru. Jeden z vás se uklidní, když věci drží na svém místě, sliby platí a útěcha má podobu činu: hrnek čaje, opravená věc, tichá přítomnost. Druhý se uklidní, když může nahlas pojmenovat, co se děje, a podívat se na to z odstupu. Ve stresu jeden zpomalí a opře se o rutinu. Druhý mluví, přemýšlí a hledá souvislosti. Doplňujete se tím, že jeden dává klidu tvar a druhý mu dává slova. Spolu umíte z pocitu udělat pochopení i plán.",
+  "shadow": "Mezi zemským a vzdušným Měsícem snadno vzniká dojem, že jeden útěchu nabízí špatně a druhý ji špatně přijímá. Zemský Měsíc bere slova jako prázdná, dokud nevidí čin, a na dlouhé rozebírání odpovídá mlčením nebo tvrdohlavým stažením. Vzdušný Měsíc čte pomalost a ticho jako chlad a utíká do rozumování, vtipu nebo k jiným lidem. Jeden se pak cítí nepochopený, druhý odstrčený. Pod tlakem se z jistoty stává strnulost a z lehkosti odtažitost.",
+  "hard": [
+   {
+    "topics": [
+     "mental_crisis"
+    ],
+    "text": "Tradice tu mluví o tom, že Měsíc ve vzdušném znamení souvisí s nervovým napětím a neklidnou myslí, zatímco Měsíc v zemském znamení spojovali staří autoři s melancholií a tíhou. Při dlouhém stresu se tak mezi vámi může potkat přetížení myšlenkami s uzavřením do smutku. Nejde o jistotu, jen o místo, kde se vyplatí dávat pozor."
+   },
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o citlivosti, kterou Měsíc přenáší do těla. U zemského Měsíce jde o zažívání, ztuhlost a pomalou únavu, u vzdušného o nervy, dech a nespavost. Starý výklad říká, že nevyslovené napětí se u jednoho z vás ukládá do těla a u druhého do spánku. Je to tradiční obraz, ne předpověď."
+   }
+  ],
+  "traits": {
+   "text": [
+    "steadiness",
+    "security_need",
+    "eloquence",
+    "curiosity",
+    "cooperation"
+   ],
+   "shadow": [
+    "stubbornness",
+    "detachment",
+    "rigidity",
+    "reticence",
+    "superficiality"
+   ]
+  },
+  "advice": "Domluvte se, jak vypadá útěcha pro každého z vás. V těžké chvíli zkuste obojí: nejdřív krátce pojmenujte, co se děje, pak udělejte jednu konkrétní věc. Kdo potřebuje ticho, řekne to větou „Potřebuju hodinu, pak se vrátím“ a opravdu se vrátí. Kdo potřebuje mluvit, nežádá hned řešení. Nevyčítejte si, že ten druhý utěšuje jinak.",
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-22"
+  }
+ },
+ {
+  "key": "pair_elements/moon/earth/water",
+  "title": "Měsíc: země a voda",
+  "keywords": [
+   "bezpečí",
+   "porozumění beze slov",
+   "hmatatelná péče",
+   "tichá hloubka",
+   "společný domov"
+  ],
+  "themes": [
+   "relationships",
+   "family",
+   "character",
+   "health"
+  ],
+  "text": "Měsíc v zemi a Měsíc ve vodě se mezi vámi potkávají jako břeh a řeka. Jeden z vás hledá bezpečí v tom, co se dá vidět a na co se dá spolehnout: pravidelnost, splněný slib, uvařené jídlo, opravenou věc. Druhý hledá bezpečí v citové blízkosti a v porozumění beze slov. Oba živly jsou tiché a obracejí se dovnitř, proto mezi vámi nebývá mnoho hluku. Země dává citům tvar a pevnou půdu. Voda dává pevnosti teplo a smysl. Když si tyhle dva jazyky péče vzájemně přeložíte, vzniká domov, kde je klid i hloubka.",
+  "shadow": "Mezi zemí a vodou se v těžkých chvílích snadno usadí bažina. Jeden z vás odpovídá na stres praktičností a mlčením, což druhý může číst jako chlad. Druhý odpovídá smutkem a stažením, což první může vnímat jako náladovost bez důvodu. Země čeká na důkazy, voda na vycítění, a oba čekáte, až začne ten druhý. Křivdy se neříkají nahlas, jen se ukládají. Hrozí tichá uraženost, lpění na zvycích a pocit, že se točíte v kruhu.",
+  "hard": [
+   {
+    "topics": [
+     "mental_crisis"
+    ],
+    "text": "Tradice tu mluví o sklonu k melancholii. Země i voda patří ke studeným živlům a podle starých autorů se dva studené Měsíce mohou navzájem stahovat do tíživých nálad. Když smutek trvá dlouho a nikdo z vás ho nepojmenuje, může se prohloubit ve sklíčenost, ze které je těžké vyjít bez pomoci zvenčí."
+   },
+   {
+    "topics": [
+     "addiction"
+    ],
+    "text": "Tradice tu mluví o hledání útěchy v návycích, které otupují: v jídle, pití nebo jiných zvycích. Země je spojuje s pohodlím a stereotypem, voda s únikem od bolesti. Ve dvojici se snadno stane, že si tyto návyky tiše tolerujete místo rozhovoru o tom, co bolí."
+   },
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o tom, že potlačené starosti se u studených živlů ukládají do těla. Spojuje tuto kombinaci s únavou, potížemi se zažíváním a pomalým zotavováním. Bere to jako znamení, že dlouhé mlčení o tom, co tíží, si vybírá daň i fyzicky."
+   }
+  ],
+  "traits": {
+   "text": [
+    "steadiness",
+    "empathy",
+    "security_need",
+    "depth",
+    "protectiveness"
+   ],
+   "shadow": [
+    "sulking",
+    "reticence",
+    "stagnation",
+    "melancholy",
+    "rigidity"
+   ]
+  },
+  "advice": "Domluvte si jednoduchý signál pro chvíli, kdy jednomu z vás není dobře. Kdo potřebuje důkazy, ať řekne konkrétně, co by pomohlo. Kdo potřebuje blízkost, ať nečeká, že to druhý uhodne. Zkuste dávat útěchu oběma způsoby: jeden čin a k tomu pár vět o tom, co cítíte. Když se oba stáhnete, dejte si pauzu, ale určete si, kdy se k rozhovoru vrátíte.",
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-22"
+  }
+ },
+ {
+  "key": "pair_elements/moon/air/air",
+  "title": "Měsíc: oba vzduch",
+  "keywords": [
+   "rozhovor",
+   "lehkost",
+   "myšlenky",
+   "odstup",
+   "neklid"
+  ],
+  "themes": [
+   "relationships",
+   "character",
+   "family",
+   "health"
+  ],
+  "text": "Když je Měsíc jednoho z vás i druhého ve vzdušném znamení, domovem je pro vás oba rozhovor. Bezpečí cítíte tam, kde se dá o všem mluvit a nic se nemusí dusit v sobě. Útěchu přijímáte slovy, vtipem a novým pohledem na věc. Ve stresu oba nejdřív přemýšlíte, třídíte a hledáte vysvětlení. Rozumíte si v tom, že ani jeden netlačí na druhého těžkými scénami. Jeden z vás často přinese otázku, druhý nápad, a z toho vzniká klid. Doma u vás bývá živo, otevřeně a lehce. Prostor pro vlastní myšlenky si dopřáváte navzájem a samozřejmě.",
+  "shadow": "Dva vzdušné Měsíce snadno udělají z citu téma k rozboru. Místo věty „bolí mě to“ zazní analýza, proč to bolí. Rozhovor běží dál, ale to podstatné zůstává nevyslovené. Když přijde skutečná tíha, oba můžete sáhnout po vtipu nebo odstupu a druhý zůstane bez opory. Ve stresu se myšlenky točí v kruhu a neklid jednoho přiživuje neklid druhého. Lehkost se pak mění v povrchnost a odtažitost, kterou si oba vykládáte jako svobodu.",
+  "hard": [
+   {
+    "topics": [
+     "mental_crisis",
+     "illness"
+    ],
+    "text": "Tradice tu mluví o napjatých nervech, nespavosti a úzkosti, které vznikají, když se city zpracovávají jen hlavou. U dvou vzdušných Měsíců se neklid může navzájem zesilovat až do vyčerpání. Tradice tu mluví i o nervové soustavě a dechu jako o místech, kde se dlouhé napětí projevuje. Jde o sklon, ne o jistotu."
+   }
+  ],
+  "traits": {
+   "text": [
+    "eloquence",
+    "lightness",
+    "openness",
+    "curiosity",
+    "independence"
+   ],
+   "shadow": [
+    "detachment",
+    "superficiality",
+    "anxiety",
+    "restlessness",
+    "escapism"
+   ]
+  },
+  "advice": "Domluvte si, že kromě toho, co si myslíte, řeknete i to, co cítíte, třeba jen jednou krátkou větou. Když se rozhovor točí v kruhu, zkuste ho na hodinu přerušit a jít se projít. Nevtipkujte o tom, co druhého zrovna tíží. Ptejte se: „Chceš řešení, nebo jen poslouchat?“ Těžká témata neotvírejte těsně před spaním.",
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-22"
+  }
+ },
+ {
+  "key": "pair_elements/moon/air/water",
+  "title": "Měsíc: vzduch a voda",
+  "keywords": [
+   "rozhovor",
+   "citová blízkost",
+   "nadhled",
+   "porozumění beze slov"
+  ],
+  "themes": [
+   "relationships",
+   "character",
+   "family"
+  ],
+  "text": "Mezi vámi se potkává Měsíc, který se uklidňuje slovy, s Měsícem, který se uklidňuje blízkostí beze slov. Jeden z vás potřebuje věc pojmenovat, rozebrat a odlehčit. Druhý potřebuje, aby jeho nálada byla zachycena i bez vysvětlování. Vzduch přináší odstup a nadhled, když se city vaří. Voda přináší jemnost a vnímavost tam, kde slova nestačí. Když to funguje, jeden z vás pomáhá druhému nahlas porozumět tomu, co cítí. Druhý zase učí prvního všímat si toho, co se neříká. Domov mezi vámi vzniká z rozhovoru i z tichého bytí vedle sebe.",
+  "shadow": "Ve stresu se Měsíc ve vzduchu a Měsíc ve vodě míjejí přesně tam, kde se nejvíc potřebují. Jeden z vás začne mluvit, vysvětlovat a hledat logiku. Druhý ztichne, stáhne se a čeká, že si toho druhá strana všimne bez upozornění. Rozbor pak působí chladně a mlčení jako výčitka. Vzduch má pocit zahlcení náladami, které nedávají smysl. Voda zažívá, že slova míjejí podstatu. Hrozí uraženost, odtažitost a dlouhé nevyslovené napětí.",
+  "hard": [
+   {
+    "topics": [
+     "mental_crisis"
+    ],
+    "text": "Tradice tu mluví o sklonu k melancholii a úzkosti, když vodní Měsíc dlouho nenachází odezvu a vzdušný Měsíc uniká do hlavy. Staré výklady popisují nebezpečí, že se nevyslovený smutek hromadí až k vyčerpání duše. Nejde o jistotu, spíš o upozornění, že dlouhodobé míjení v citech může jednoho z vás výrazně tížit."
+   }
+  ],
+  "traits": {
+   "text": [
+    "eloquence",
+    "empathy",
+    "rationality",
+    "intuition",
+    "sensitivity"
+   ],
+   "shadow": [
+    "detachment",
+    "sulking",
+    "moodiness",
+    "coldness",
+    "reticence"
+   ]
+  },
+  "advice": "Domluvte si jednoduchý signál pro chvíle, kdy jeden z vás potřebuje mluvit a druhý ticho. Zkuste nejdřív pár minut jen být spolu a teprve potom věc rozebírat. Tomu, kdo potřebuje slova, říkejte nahlas, co prožíváte, třeba jen jednou větou. Kdo potřebuje blízkost, nedostane ji z analýzy, proto nehodnoťte pocity jako nelogické. Když se rozhovor točí v kruhu, dejte si pauzu a vraťte se k němu později.",
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-22"
+  }
+ },
+ {
+  "key": "pair_elements/moon/water/water",
+  "title": "Měsíc: oba voda",
+  "keywords": [
+   "porozumění beze slov",
+   "citové naladění",
+   "tiché bezpečí",
+   "společné zázemí"
+  ],
+  "themes": [
+   "relationships",
+   "family",
+   "character"
+  ],
+  "text": "Když mají oba vaše Měsíce vodní živel, domov mezi vámi vzniká z naladění, ne z pravidel. Jeden z vás pozná únavu druhého podle toho, jak zavírá dveře nebo jak dlouho mlčí u stolu. Útěcha k vám přichází tiše: hrnek čaje, podaná deka, společné ticho bez vysvětlování. Bezpečí cítíte tam, kde nemusíte své pocity obhajovat. Ve stresu se oba stahujete dovnitř. Proto si umíte dát prostor a druhý to nebere jako odmítnutí. Doplňujete se v hloubce: jeden zachytí náladu, druhý ji pomůže unést. Vzniká tak zázemí, kde se dá vydechnout.",
+  "shadow": "Dva vodní Měsíce si navzájem zesilují nálady jako dvě spojené nádoby. Když jednoho z vás přepadne smutek, brzy zasáhne i druhého a nikdo nezůstává na pevném břehu. Porozumění beze slov svádí k domněnkám. Čekáte, že to druhý pozná, a když ne, přichází tiché zklamání. Křivdy se neříkají nahlas, ale ukládají. Místo hádky přichází uraženost a stažení, které může trvat dny. Domov se pak snadno mění v uzavřenou bublinu, kam nepronikne nikdo zvenku.",
+  "hard": [
+   {
+    "topics": [
+     "mental_crisis"
+    ],
+    "text": "Tradice tu mluví o sklonu k melancholii, která se u dvou vodních Měsíců může prohlubovat. Když oba procházíte těžkým obdobím současně, chybí ten, kdo by držel pevnou půdu. Starší výklady zmiňují skleslost, která přichází ve vlnách a může přerůst v hlubší duševní krizi."
+   },
+   {
+    "topics": [
+     "addiction"
+    ],
+    "text": "Tradice tu mluví o vodním sklonu utíkat před bolestí do alkoholu, omamných látek nebo snění. Dva vodní Měsíce mohou takový únik nevědomky sdílet a navzájem omlouvat, protože si rozumějí i v tom, co jim škodí."
+   },
+   {
+    "topics": [
+     "loss",
+     "death"
+    ],
+    "text": "Tradice tu mluví o tom, že ztráta blízkého člověka nebo domova zasahuje vodní Měsíc velmi hluboko. Když truchlíte oba zároveň, smutek se může dlouho nevracet do běžného života a staré ztráty se znovu vynořují."
+   }
+  ],
+  "traits": {
+   "text": [
+    "empathy",
+    "intuition",
+    "sensitivity",
+    "belonging",
+    "gentleness"
+   ],
+   "shadow": [
+    "moodiness",
+    "sulking",
+    "reclusiveness",
+    "escapism",
+    "melancholy"
+   ]
+  },
+  "advice": "Domluvte si jednoduchý signál, kterým dáte najevo, že potřebujete klid, a jiný, kterým řeknete, že potřebujete blízkost. Zkuste aspoň jednou týdně nahlas pojmenovat, co vás tíží, i když tušíte, že to druhý ví. Když nemáte sílu oba, nečekejte, kdo začne. Stačí říct: „Dnes to nezvládám.“ Udržujte si i lidi a místa mimo společný domov.",
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-22"
+  }
+ },
+ {
+  "key": "pair_elements/mercury/fire/fire",
+  "title": "Merkur: oba oheň",
+  "keywords": [
+   "rychlá řeč",
+   "nadšení",
+   "uznání",
+   "hlasitá hádka",
+   "pohyb"
+  ],
+  "themes": [
+   "relationships",
+   "character",
+   "work"
+  ],
+  "text": "Když se potkají dva ohniví Merkurové, rozhovor mezi vámi běží rychle a nahlas. Jeden z vás začne větu, druhý ji dokončí a hned přidává další nápad. Nečekáte na dokonalou formulaci, mluvíte okamžitě a s chutí. Pochopení pro vás znamená, že ten druhý reaguje živě, chytí myšlenku a rozvine ji dál. Oba potřebujete slyšet uznání a oba ho umíte dát. Plány mezi vámi vznikají za pochodu, často při chůzi nebo v pohybu. Hádka bývá krátká a hlasitá, vzduch se pak rychle pročistí a křivda mezi vámi dlouho nezůstává.",
+  "shadow": "Dva ohniví Merkurové si navzájem skáčou do řeči a soutěží o poslední slovo. Mezi vámi chybí ten, kdo zpomalí a opravdu poslouchá. Jeden z vás vystřelí ostrou větu, druhý odpoví ještě ostřeji a z drobnosti je během minuty spor. Slova padají dřív, než je promyslíte, a některá zraní víc, než bylo v úmyslu. Nadšení rychle hasne a rozjeté plány zůstávají nedotažené. Když jeden z vás nedostane uznání, ozve se to hned a nahlas.",
+  "hard": [
+   {
+    "topics": [
+     "violence"
+    ],
+    "text": "Tradice tu mluví o jazyku jako o zbrani. Dva ohniví Merkurové podle ní snadno přecházejí od sporu k urážkám a výhrůžkám a ve vyhrocených chvílích i k hrubosti. Nejde o jistotu, spíš o varování před rychlostí, s jakou se hádka mezi vámi rozhoří."
+   },
+   {
+    "topics": [
+     "illness",
+     "mental_crisis"
+    ],
+    "text": "Tradice tu mluví o přehřátých nervech. Merkur v ohni podle ní souvisí s neklidem, nespavostí, bolestmi hlavy a horečným přepětím mysli. U dvojice se toto napětí může vzájemně stupňovat až k vyčerpání z neustálého vzrušení. Jde o tradiční obraz, ne o předpověď."
+   }
+  ],
+  "traits": {
+   "text": [
+    "eloquence",
+    "cheerfulness",
+    "curiosity",
+    "forgiveness",
+    "decisiveness"
+   ],
+   "shadow": [
+    "impulsiveness",
+    "competitiveness",
+    "anger",
+    "bluntness",
+    "inconstancy"
+   ]
+  },
+  "advice": "Domluvte si jednoduché pravidlo: kdo mluví, domluví, a druhý pak shrne, co slyšel. Když hlas stoupá, dejte si deset minut pauzu v pohybu, každý zvlášť, a pak se vraťte jen k jedné věci. Ostré věty neposílejte ve zprávách hned, počkejte do večera. Zkuste si říkat i drobné uznání, nejen výtky. U společných plánů si zapište, kdo co dotáhne.",
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-22"
+  }
+ },
+ {
+  "key": "pair_elements/mercury/fire/earth",
+  "title": "Merkur: oheň a země",
+  "keywords": [
+   "tempo řeči",
+   "nadšení a důkazy",
+   "naslouchání",
+   "trpělivost",
+   "nápad a čin"
+  ],
+  "themes": [
+   "relationships",
+   "character",
+   "work"
+  ],
+  "text": "Jeden z vás mluví rychle a nadšeně, druhý odpovídá až po rozvážení. Ohnivý Merkur vysloví nápad dřív, než je hotový, a čeká okamžitou odezvu. Zemský Merkur chce slyšet podrobnosti, příklady a fakta a potřebuje čas, aby si věc ověřil. Mezi vámi tak vzniká užitečná dělba. Jeden přináší jiskru a odvahu začít, druhý dává nápadům tvar a pevnou půdu. Ohnivému Merkuru k porozumění stačí uznání a pohyb. Zemskému stačí, když jeho otázky nikdo nebere jako brzdu. Pak máte rozhovory, které končí činem.",
+  "shadow": "Ohnivý Merkur slyší v zemském mlčení odmítnutí, zemský slyší v ohnivém spěchu neúctu k faktům. Jeden z vás skáče do řeči, dokončuje věty za druhého a ztrácí trpělivost u podrobností. Druhý odpovídá zkratkou „uvidíme“, drží se osvědčeného postupu a nadšení zchladí dřív, než ho vyslechne. Při hádce oheň zvyšuje hlas a tempo, země se uzavírá a mlčí. Čím víc jeden tlačí, tím víc druhý brzdí. Zůstávají nevyřčené výčitky: jednomu chybí ocenění, druhému klid.",
+  "hard": [
+   {
+    "topics": [
+     "illness",
+     "mental_crisis"
+    ],
+    "text": "Tradice tu mluví o napětí nervů. Merkur vládne řeči a nervové soustavě a střet rychlého a pomalého rytmu se v ní popisuje jako zdroj podrážděnosti, nespavosti a vyčerpání z neustálého vyjednávání. Jde o starý obraz, ne o jistou předpověď."
+   }
+  ],
+  "traits": {
+   "text": [
+    "impulsiveness",
+    "patience",
+    "creativity",
+    "realism",
+    "cooperation"
+   ],
+   "shadow": [
+    "restlessness",
+    "stubbornness",
+    "bluntness",
+    "reticence",
+    "rigidity"
+   ]
+  },
+  "advice": "Domluvte se, že nápad nejdřív zazní celý a teprve pak přijdou otázky. Kdo potřebuje čas, řekne, kdy odpoví, třeba „zítra večer“, a slovo dodrží. Kdo je rychlejší, nebere mlčení jako ne. Důležité věci si zapište nebo ukažte na příkladu. Když se jeden z vás zrychluje a druhý ztichne, dejte si dvacet minut pauzu a pak se k tématu vraťte.",
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-22"
+  }
+ },
+ {
+  "key": "pair_elements/mercury/fire/air",
+  "title": "Merkur: oheň a vzduch",
+  "keywords": [
+   "jiskra a vítr",
+   "rychlé rozhovory",
+   "nadšení",
+   "nápady",
+   "tempo řeči"
+  ],
+  "themes": [
+   "relationships",
+   "character",
+   "work"
+  ],
+  "text": "Mezi vámi se potkává jiskra a vítr. Jeden z vás mluví rychle a hned jedná. Druhý myšlenku obrací, rozvíjí a hledá k ní souvislosti. Oheň přináší nadšení a odvahu říct věci naplno. Vzduch přináší slova, nápady a nadhled. Vaše rozhovory mají tempo a málokdy se v nich nudíte. Jeden z vás potřebuje slyšet uznání a vidět, že se něco děje. Druhý potřebuje mluvit volně a bez tíhy. Vzduch rozdmýchává oheň, takže nápad jednoho rychle chytne u druhého. Spolu umíte plánovat, vtipkovat, přesvědčovat a rozhodovat se za pochodu.",
+  "shadow": "Stejná rychlost, která vás spojuje, umí rozhovor přehřát. Jeden z vás se urazí, když nadšení narazí na otázky a rozbor. Druhý se při výbuchu stáhne do ironie nebo odbočí k jinému tématu. Hádky jsou hlasité, rychlé a plné slov, která padnou dřív, než je někdo zváží. Oheň slyší chlad tam, kde je jen přemýšlení. Vzduch slyší útok tam, kde je jen zápal. Snadno mluvíte jeden přes druhého a nikdo neposlouchá do konce. Sliby se dávají rychle a stejně rychle se zapomínají.",
+  "hard": [
+   {
+    "topics": [
+     "illness",
+     "mental_crisis"
+    ],
+    "text": "Tradice tu mluví o nervovém přepětí. Když se dva rychlé způsoby myšlení dlouho jen dráždí slovy, může podle ní přijít nespavost, neklid a vyčerpání. Starší výklady zmiňují i sklon k horečnatému myšlení, které se v napjatých obdobích mění v úzkost nebo v náhlé zhroucení sil. Nejde o jistotu, spíš o varování před tempem bez odpočinku."
+   }
+  ],
+  "traits": {
+   "text": [
+    "eloquence",
+    "curiosity",
+    "optimism",
+    "decisiveness",
+    "creativity"
+   ],
+   "shadow": [
+    "impulsiveness",
+    "anger",
+    "detachment",
+    "superficiality",
+    "restlessness"
+   ]
+  },
+  "advice": "Když debata zrychlí, zkuste nahlas říct: „Teď potřebuju chvilku.“ Domluvte si, že ten, kdo mluví, dokončí větu. Druhý ji nejdřív shrne a teprve pak odpoví. Ohnivému z vás pomáhá slyšet, co se mu na nápadu líbí. Vzdušnému pomáhá, když může věc nejdřív promyslet. Hádku po desáté večer odložte na ráno. Nesahejte k ironii ani ke křiku.",
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-22"
+  }
+ },
+ {
+  "key": "pair_elements/mercury/fire/water",
+  "title": "Merkur: oheň a voda",
+  "keywords": [
+   "přímá řeč",
+   "naslouchání",
+   "tón slov",
+   "nevyřčené",
+   "tempo rozhovoru"
+  ],
+  "themes": [
+   "relationships",
+   "character"
+  ],
+  "text": "Mezi vámi se potkává řeč, která hoří, s řečí, která naslouchá pod povrchem. Jeden z vás mluví rychle, rovnou a s nadšením. Myšlenku vysloví dřív, než ji domyslí. Druhý vnímá hlavně tón, pauzy a to, co zůstává nevyřčené. Ohnivý Merkur přináší do rozhovoru odvahu a směr, vodní Merkur cit pro to, jak slova dopadnou. Jeden z vás potřebuje slyšet uznání a vidět, že se věci hýbou. Druhý potřebuje cítit porozumění i bez dlouhého vysvětlování. Když to funguje, oheň dodává vodě odvahu promluvit a voda učí oheň poslouchat. Spolu umíte říct pravdu přímo i laskavě.",
+  "shadow": "Ohnivá rychlost a vodní citlivost se mezi vámi snadno míjejí. Jeden z vás řekne ostrou větu v zápalu a hned na ni zapomene. Druhý ji nese dál a hledá v ní skrytý význam. Při hádce jeden zvyšuje hlas a tlačí na rychlé řešení, druhý se stahuje do mlčení nebo uraženosti. Oheň pak ticho čte jako odmítnutí a voda ostrost jako útok. Nevyřčené křivdy se hromadí a vybuchují ve chvíli, kdy to nikdo nečeká.",
+  "hard": [
+   {
+    "topics": [
+     "mental_crisis"
+    ],
+    "text": "Tradice tu mluví o ohni, který přivádí vodu do varu. Merkur v ní vládne nervům. Při dlouhém napětí v řeči se podle ní může objevit nervové vyčerpání, nespavost nebo úzkostné stavy, častěji na vodní straně. Nejde o jistotu. Je to tradiční upozornění na to, co dělá trvalé míjení slov."
+   }
+  ],
+  "traits": {
+   "text": [
+    "eloquence",
+    "empathy",
+    "intuition",
+    "courage",
+    "openness"
+   ],
+   "shadow": [
+    "impulsiveness",
+    "bluntness",
+    "sulking",
+    "reticence",
+    "anger"
+   ]
+  },
+  "advice": "Domluvte si, že ostré věty řečené v zápalu neplatí, dokud je nezopakujete v klidu. Kdo mluví rychle, zkuste se po důležité větě zastavit a zeptat se: „Jak to na tebe působí?“ Kdo víc cítí, zkuste nahlas říct, co zabolelo, a nečekejte, že to druhý pozná. Při hádce si dejte dvacet minut pauzu a pak se k tématu vraťte.",
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-22"
+  }
+ },
+ {
+  "key": "pair_elements/mercury/earth/earth",
+  "title": "Merkur: oba země",
+  "keywords": [
+   "věcnost",
+   "dané slovo",
+   "pomalé tempo",
+   "důkazy",
+   "nevyslovené pocity"
+  ],
+  "themes": [
+   "relationships",
+   "character",
+   "work"
+  ],
+  "text": "Když se potkají dva zemští Merkurové, rozhovor stojí na pevné půdě. Oba mluvíte pomaleji a raději o tom, co se dá ověřit. Jeden z vás přinese fakta, druhý je promyslí a doptá se na podrobnosti. Nikdo nemusí nic dokazovat hlasitostí. Pochopení mezi vámi roste z opakované zkušenosti: co jeden řekne, to druhý uvidí splněné. Dáváte si čas na odpověď a ticho vás neznervózňuje. Domluvy u vás platí, plány mají termíny a slib znamená úkol. Hádky bývají věcné a vedené příklady, ne výčitkami. Spolu umíte řešit praktické věci rychle a spolehlivě.",
+  "shadow": "Dva zemští Merkurové se snadno zaseknou v tom, že ani jeden neustoupí, dokud nemá důkaz. Když oba čekáte na hmatatelný doklad, rozhovor se zastaví a nikdo neudělá první krok. Pomalé tempo se mění v odkládání. Těžké téma se odsune na „až bude jasno“ a jasno nepřijde. Pocity se překládají do praktických úkolů, takže to, co bolí, zůstává nevyslovené. Hádka nekončí výbuchem, ale tichým trváním na svém a výčtem chyb. Nápad bez záruky mezi vámi často zanikne dřív, než ho někdo domyslí.",
+  "hard": [
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o tom, že nevyslovené starosti dvou zemských Merkurů se ukládají do těla. Zmiňuje napětí, únavu nervů, potíže se zažíváním a nespavost z neustálého přemítání. Nejde o jistotu. Je to spíš upozornění, že dlouhé mlčení o obavách může dostat i tělesnou podobu."
+   }
+  ],
+  "traits": {
+   "text": [
+    "patience",
+    "realism",
+    "steadiness",
+    "honesty",
+    "responsibility"
+   ],
+   "shadow": [
+    "stubbornness",
+    "procrastination",
+    "criticism",
+    "reticence",
+    "rigidity"
+   ]
+  },
+  "advice": "Domluvte si pevný čas, kdy probíráte i věci, které nejdou změřit, třeba obavy nebo pocity. Zkuste je říct jednou větou a nedokazovat je. Když se hádka točí v kruhu, dejte si pauzu a vraťte se k ní ve sjednaný den. Nedělejte z výčtu chyb argument. Nový nápad druhého si nejdřív vyslechněte do konce a teprve potom hledejte slabá místa.",
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-22"
+  }
+ },
+ {
   "key": "pair_elements/mercury/earth/air",
   "title": "Merkur: země a vzduch",
   "keywords": [
@@ -99,6 +1360,1240 @@
    ]
   },
   "advice": "Domluvte si, že důležité věci neřešíte ve spěchu mezi dveřmi. Kdo potřebuje čas, řekne nahlas, kdy se k tématu vrátí, a dodrží to. Kdo myslí rychle, zkusí říct jednu myšlenku a počkat na odpověď. Nápady si zapisujte a vyberte z nich jeden, který opravdu uděláte. Když hádka zrychlí, dejte si dvacet minut pauzu. Nezesměšňujte pomalost ani nápady.",
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-22"
+  }
+ },
+ {
+  "key": "pair_elements/mercury/earth/water",
+  "title": "Merkur: země a voda",
+  "keywords": [
+   "trpělivý rozhovor",
+   "řeč beze slov",
+   "fakta a city",
+   "tiché spory"
+  ],
+  "themes": [
+   "relationships",
+   "character"
+  ],
+  "text": "Když jeden z vás mluví řečí země a druhý řečí vody, potkává se věcnost s citem a obojí plyne pomalu. Jeden z vás potřebuje slyšet konkrétní fakta. Potřebuje mít čas na promyšlení a vidět, že slova mají pokrytí v činech. Druhý vnímá hlavně tón, pauzy a to, co zůstává nevyslovené. Mezi vámi málokdy vzniká spěch nebo křik. Země dává rozhovorům pevný rámec a vodě jistotu, že se o věcech dá mluvit klidně. Voda zemi učí poslouchat i to, co stojí mezi větami. Ve sporu oba spíš mlčíte, než útočíte.",
+  "shadow": "Mezi zemí a vodou se nedorozumění neozývá nahlas, ale usazuje se v tichu. Jeden z vás chce důkazy a jasné odpovědi. Druhý čeká, že porozumění přijde beze slov. Věcná otázka pak působí chladně a mlčení zase jako výčitka. Země umí trvat na svém a odbýt city jako nepraktické. Voda se uráží, stahuje se a pamatuje si křivdy, které nikdy nezazněly. Hádky proto nebývají hlasité, ale táhnou se dlouho.",
+  "hard": [
+   {
+    "topics": [
+     "mental_crisis"
+    ],
+    "text": "Tradice tu mluví o chladném a těžkém spojení. Země i voda patří k chladným živlům, a myšlení se proto snadno stáčí k zádumčivosti. Když spolu dlouho mlčíte a necháváte starosti narůstat, může se z obyčejné tíhy stát období skleslosti, které jeden z vás nese za oba. Jde o sklon, ne o jistotu."
+   }
+  ],
+  "traits": {
+   "text": [
+    "patience",
+    "empathy",
+    "realism",
+    "calm",
+    "steadiness"
+   ],
+   "shadow": [
+    "sulking",
+    "reticence",
+    "stubbornness",
+    "coldness",
+    "melancholy"
+   ]
+  },
+  "advice": "Domluvte si, že důležité věci říkáte nahlas, i když se zdají jasné. Kdo potřebuje čas, řekne, kdy se k tématu vrátí, a dodrží to. Zkuste nejdřív pojmenovat pocit a teprve potom fakta. Na mlčení nereagujte otázkami jako u výslechu, ale nenechávejte ho trvat celé dny. Když jeden z vás ztichne, druhý se zeptá: „Co teď potřebuješ?“",
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-22"
+  }
+ },
+ {
+  "key": "pair_elements/mercury/air/air",
+  "title": "Merkur: oba vzduch",
+  "keywords": [
+   "rychlý rozhovor",
+   "výměna nápadů",
+   "humor",
+   "debata",
+   "neklid"
+  ],
+  "themes": [
+   "relationships",
+   "character"
+  ],
+  "text": "Dva vzdušné Merkury znamenají, že se rozhovor mezi vámi rozjede během pár vteřin a málokdy se zastaví. Jeden z vás nadhodí myšlenku, druhý ji okamžitě rozvine nebo otočí. Mluvíte rychle, skáčete z tématu na téma a baví vás to oba. Cítit se pochopeni pro vás znamená, že druhý drží krok a chytá i nedořečené věci. Nepotřebujete dlouhé vysvětlování, stačí narážka nebo vtip. Doplňujete se tak, že jeden přinese nápad a druhý k němu dodá souvislosti. Hádky mívají podobu debaty: argument proti argumentu. Když padne dobrá pointa, napětí se často rozpustí smíchem.",
+  "shadow": "Se dvěma vzdušnými Merkury se rozhovor snadno změní v soutěž chytrosti. Mluvíte hodně, ale ne vždy o tom, co vás opravdu tíží. Pocity převádíte do teorií a rozebíráte je, místo abyste je prostě vyslovili. Při hádce vyhrává ostřejší argument, ne ten, komu jde o víc. Jeden z vás skáče druhému do řeči a druhý se pak stáhne do ironie. Hodně věcí zůstává rozpracovaných, protože pozornost už je u dalšího tématu.",
+  "hard": [
+   {
+    "topics": [
+     "mental_crisis"
+    ],
+    "text": "Tradice tu mluví o nervovém přetížení. Dva vzdušné Merkury si mohou navzájem přiživovat neklid, nespavost z přemíry myšlenek a přemítání, které se točí v kruhu. Podle starších výkladů se u citlivějších povah může rozvinout úzkostné vyčerpání. Nejde o jistotu, spíš o upozornění na sklon, který je dobré znát."
+   }
+  ],
+  "traits": {
+   "text": [
+    "curiosity",
+    "eloquence",
+    "lightness",
+    "sociability",
+    "flexibility"
+   ],
+   "shadow": [
+    "superficiality",
+    "restlessness",
+    "detachment",
+    "inconstancy",
+    "competitiveness"
+   ]
+  },
+  "advice": "Domluvte si, že u důležitých věcí nejdřív jeden dořekne celou myšlenku a druhý ji zopakuje vlastními slovy, než odpoví. Zkuste se ptát „co z toho cítíš?“, ne jen „co si o tom myslíš?“. Když se debata začne točit v kruhu nebo sklouzne do ironie, dejte si pauzu a vraťte se k tématu druhý den. Nedělejte z hádky soutěž o lepší argument.",
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-22"
+  }
+ },
+ {
+  "key": "pair_elements/mercury/air/water",
+  "title": "Merkur: vzduch a voda",
+  "keywords": [
+   "slova a tušení",
+   "rozhovor",
+   "porozumění beze slov",
+   "tempo řeči",
+   "nevyřčené pocity"
+  ],
+  "themes": [
+   "relationships",
+   "character",
+   "growth"
+  ],
+  "text": "Jeden z vás myslí nahlas a druhý nejdřív vnímá, co zaznívá mezi řádky. Merkur ve vzduchu potřebuje rozhovor, otázky a lehkost. Přeskakuje od tématu k tématu a věci si ujasňuje slovy. Merkur ve vodě poslouchá tón hlasu, pauzy a výraz tváře. Odpovídá pomaleji a otevírá se, až když cítí bezpečí. Vzduch dává rozhovoru jasnost a pojmenovává to, co voda jen tuší. Voda přináší citlivost a pozornost k tomu, co zůstává nevyslovené. Spolu umíte věci pochopit hlavou i citem.",
+  "shadow": "Ve sporu mezi vámi jeden z vás argumentuje a druhý zmlkne. Vzduch pak mluví rychleji a logičtěji, voda v tom slyší chlad a stahuje se. Ticho vodního Merkuru působí na vzdušný jako trest nebo nezájem. Vzdušný vtip a odbíhání od tématu zase působí jako zlehčování. Voda čeká, že druhý pozná, co se děje, bez vysvětlování. Vzduch čeká, že se všechno řekne nahlas. Nevyřčené křivdy se hromadí a pak vyplavou najednou, často u nesouvisející drobnosti.",
+  "hard": [
+   {
+    "topics": [
+     "mental_crisis"
+    ],
+    "text": "Tradice tu mluví o neklidné mysli a nervovém vyčerpání, když se rychlé myšlenky střetávají s nezpracovanými pocity. U vodního Merkuru zmiňuje sklon k úzkostem a zádumčivosti, u vzdušného roztěkanost a nespavost z přemýšlení. Jde o obraz napětí v komunikaci, ne o jistou předpověď."
+   }
+  ],
+  "traits": {
+   "text": [
+    "eloquence",
+    "sensitivity",
+    "empathy",
+    "curiosity",
+    "intuition"
+   ],
+   "shadow": [
+    "detachment",
+    "sulking",
+    "superficiality",
+    "reticence",
+    "moodiness"
+   ]
+  },
+  "advice": "Domluvte si, že u těžkého tématu nejdřív řeknete, jak vám je, a teprve potom přijdou argumenty. Kdo mluví rychle, ať zpomalí a zeptá se: „Co teď cítíš?“ Kdo mlčí, ať řekne aspoň: „Potřebuju čas, vrátím se k tomu večer.“ Když se rozhovor točí v kruhu, dejte si hodinu pauzu. Nevtipkujte o tom, co druhého bolí.",
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-22"
+  }
+ },
+ {
+  "key": "pair_elements/mercury/water/water",
+  "title": "Merkur: oba voda",
+  "keywords": [
+   "porozumění beze slov",
+   "citlivé naslouchání",
+   "tichá hádka",
+   "sdílená nálada"
+  ],
+  "themes": [
+   "relationships",
+   "character"
+  ],
+  "text": "Když se potkají dva vodní Merkurové, rozhovor mezi vámi běží hlavně pod povrchem. Jeden z vás zachytí změnu tónu dřív, než druhý dopoví větu. Mluvíte pomaleji, s pauzami, a ticho mezi vámi nebývá prázdné. Oba potřebujete cítit, že druhý slyší i to, co zůstalo nevyslovené. Často to funguje bez námahy: stačí pohled nebo krátká poznámka a víte, kde jste. Hádka se u vás nerozhoří nahlas, spíš se stáhne do odmlky. Doplňujete se v trpělivosti a v citu pro náladu druhého. Pamatujete si nejen to, co kdo řekl, ale i to, jak to řekl.",
+  "shadow": "Dva vodní Merkurové si snadno namluví, že slova nejsou potřeba. Čekáte, že druhý vycítí, co je špatně, a když se to nestane, berete to jako nezájem. Domněnky se hromadí rychleji než otázky. Výčitky přicházejí oklikou, v narážkách nebo v tónu hlasu. Uraženost umí trvat dny a nikdo nechce udělat první krok. Oba si pamatujete staré křivdy do detailu a vytahujete je v nečekaných chvílích. Nálada jednoho rychle přeteče na druhého, takže se obava místo uklidnění zdvojí.",
+  "hard": [
+   {
+    "topics": [
+     "mental_crisis"
+    ],
+    "text": "Tradice tu mluví o mysli, která snadno nasákne strachem a smutkem. U dvou vodních Merkurů se podle ní úzkost jednoho může přelévat do druhého, až se oba ocitnou ve sdílené chmuře, ze které se slovy těžko hledá cesta ven. Jde o sklon, ne o jistotu."
+   },
+   {
+    "topics": [
+     "addiction"
+    ],
+    "text": "Tradice tu mluví také o sklonu unikat před nepříjemným rozhovorem do mlhy: do snění, mlčení nebo látek, které otupí. Když se oba vyhýbáte jasnému pojmenování věcí, může se únik stát společným zvykem. Je to tradiční varování, ne předpověď."
+   }
+  ],
+  "traits": {
+   "text": [
+    "intuition",
+    "empathy",
+    "sensitivity",
+    "patience",
+    "depth"
+   ],
+   "shadow": [
+    "sulking",
+    "moodiness",
+    "anxiety",
+    "secrecy",
+    "escapism"
+   ]
+  },
+  "advice": "Domluvte si jednoduchou větu pro chvíle napětí, například „něco mě tíží, zatím nevím co“. Ptejte se místo hádání: „Myslíš to takhle?“ Když se odmlka táhne déle než den, zkuste ji přerušit krátkým vzkazem. Nevytahujte staré křivdy do nové hádky. Když nálada mezi vámi zhoustne, dejte si pauzu a vraťte se k rozhovoru v klidu.",
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-22"
+  }
+ },
+ {
+  "key": "pair_elements/venus/fire/fire",
+  "title": "Venuše: oba oheň",
+  "keywords": [
+   "nadšení",
+   "uznání",
+   "spontánnost",
+   "společný pohyb",
+   "prudkost"
+  ],
+  "themes": [
+   "relationships",
+   "character",
+   "growth"
+  ],
+  "text": "Když se potkají dvě ohnivé Venuše, náklonnost mezi vámi teče rychle a nahlas. Oba dáváte zájem najevo hned, činem, ne dlouhým rozmýšlením. Péči čtete v nadšení: kdo se přidá k nápadu, kdo pochválí, kdo vytáhne ven. Jeden z vás zažehne plán, druhý ho bez váhání podpoří a ještě přiloží. Radost vám dělá společný pohyb, výlety, hry a spontánní nápady. Uznání si dokážete dávat štědře a bez okolků. Nemusíte si vysvětlovat, proč je potřeba jednat teď. Doplňujete se v odvaze: jeden dodá druhému chuť zkusit něco nového.",
+  "shadow": "Dvě ohnivé Venuše chtějí uznání ve stejnou chvíli a nikdo nechce stát v publiku. Když pochvala nepřijde hned, snadno to berete jako chlad. Zájem rychle vzplane a stejně rychle slábne, jakmile chybí novost. Hádky přicházejí prudce, slova padají dřív než úvaha. Každý z vás čeká, že ten druhý ustoupí první. Klidné, všední projevy péče, jako drobná pomoc nebo trpělivé naslouchání, mezi vámi snadno zapadnou. Hrozí i tiché soupeření o to, kdo je víc vidět.",
+  "hard": [
+   {
+    "topics": [
+     "violence"
+    ],
+    "text": "Tradice tu mluví o spojení dvou prudkých povah, kde hádky mohou přerůst ve výbuchy hněvu a ostrá slova. Nejde o jistotu, spíš o upozornění na sklon. Pokud se hádky mění v zastrašování nebo fyzické ubližování, nejde o projev temperamentu a nikdo to nemusí snášet."
+   },
+   {
+    "topics": [
+     "loss"
+    ],
+    "text": "Tradice tu mluví také o náhlém odcizení. Zájem, který rychle vzplál, může podle ní stejně rychle pohasnout a blízkost pak skončí bez dlouhého varování. Bere se to jako možnost, ne jako předpověď."
+   }
+  ],
+  "traits": {
+   "text": [
+    "impulsiveness",
+    "generosity",
+    "courage",
+    "vitality",
+    "cheerfulness"
+   ],
+   "shadow": [
+    "anger",
+    "pride",
+    "inconstancy",
+    "competitiveness",
+    "drama"
+   ]
+  },
+  "partner": "Přitažlivost mezi vámi je okamžitá a hravá. Láká vás odvaha, smích a pocit, že ten druhý se ničeho nebojí. Flirt má podobu výzvy a škádlení. V intimitě převládá spontánnost a vášeň, které potřebují obměnu, aby nevyhasly. Oba chcete cítit, že jste žádoucí, a slyšet to nahlas.",
+  "advice": "Domluvte si, že pochvalu nebudete šetřit a řeknete ji hned a konkrétně. Když se hádka rozhoří, dejte si deset minut pauzu a pak se vraťte k věci. Zkuste střídat, kdo vymýšlí program a kdo ho přijímá. Neberte ticho druhého jako nezájem, raději se zeptejte. Plánujte pravidelně něco nového, aby nadšení mělo kam jít.",
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-22"
+  }
+ },
+ {
+  "key": "pair_elements/venus/fire/earth",
+  "title": "Venuše: oheň a země",
+  "keywords": [
+   "nadšení",
+   "jistota",
+   "tempo",
+   "slova a činy"
+  ],
+  "themes": [
+   "relationships",
+   "character"
+  ],
+  "text": "Venuše v ohni a Venuše v zemi dávají náklonnost dvěma tempy: jeden z vás hned, nahlas a s nadšením, druhý pomalu, ale tak, aby to vydrželo. Ohnivá strana ukazuje péči gestem, nápadem nebo společnou akcí. Potřebuje slyšet, že si jí druhý váží. Zemitá strana ukazuje péči tím, co udělá: připraví jídlo, opraví, co je rozbité, přijde včas. Radost jí dělá klid a jistota, že slovo platí. Doplňujete se dobře. Oheň přináší pohyb a odvahu zkusit něco nového. Země dává nadšení pevný tvar, takže se z nápadu stane něco skutečného. Jeden učí druhého radovat se, druhý učí prvního vydržet.",
+  "shadow": "Když se Venuše v ohni a Venuše v zemi míjejí, jeden z vás vidí v druhém pomalost a chlad. Druhý vidí v prvním povrchnost a nespolehlivost. Ohnivá strana čeká na nadšenou odezvu a ticho bere jako nezájem. Zemitá strana nevěří velkým slovům, dokud nevidí činy. Spontánní gesto pak snadno odbude jako rozmar. Ohnivá strana netrpělivě tlačí, zemitá tvrdohlavě brzdí. Oba pak dáváte péči tak, jak ji chcete dostávat, a ne tak, aby ji ten druhý poznal.",
+  "hard": [
+   {
+    "topics": [
+     "loss"
+    ],
+    "text": "Tradice tu mluví o ohni, který zemi vysušuje, a o zemi, která oheň dusí. Když se nepochopení dlouho hromadí, může náklonnost mezi vámi pozvolna vyhasnout. Vztah se pak rozpadá tiše, bez velké hádky. Jde o tradiční obraz, ne o jistotu."
+   }
+  ],
+  "traits": {
+   "text": [
+    "optimism",
+    "patience",
+    "steadiness",
+    "cooperation",
+    "vitality"
+   ],
+   "shadow": [
+    "restlessness",
+    "stubbornness",
+    "coldness",
+    "superficiality",
+    "rigidity"
+   ]
+  },
+  "partner": "V lásce vás k sobě táhne právě rozdíl tempa. Ohnivou stranu přitahuje klid a smyslná jistota té druhé. Zemitou stranu přitahuje jiskra a odvaha. Ohnivá strana chce cítit, že po ní ten druhý touží, hned a viditelně. Zemitá strana chce dotek, pomalost a pocit bezpečí. Intimita mezi vámi potřebuje obojí: náhlý nápad i dost času. Když se v tom sladíte, je mezi vámi teplo, které rychle nevyhasíná.",
+  "advice": "Domluvte se, podle čeho každý z vás pozná ocenění: jednomu stačí slovo a nápad, druhému čin. Zkuste dávat oběma způsoby. Ohnivá strana ať nežádá okamžitou odpověď a nechá druhému den na rozmyšlenou. Zemitá strana ať řekne nahlas, co oceňuje, i když jí to přijde zbytečné. Nevysmívejte se tempu toho druhého. Když se spor zasekne, dejte si pauzu a vraťte se k němu druhý den.",
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-22"
+  }
+ },
+ {
+  "key": "pair_elements/venus/fire/air",
+  "title": "Venuše: oheň a vzduch",
+  "keywords": [
+   "nadšení",
+   "rozhovor",
+   "uznání",
+   "lehkost",
+   "společné plány"
+  ],
+  "themes": [
+   "relationships",
+   "character",
+   "growth"
+  ],
+  "text": "Jeden z vás projevuje náklonnost činem a nadšením, druhý slovem a nápadem. Mezi vámi to funguje jako vítr a plamen. Myšlenka vzdušné strany rozdmýchá zápal té ohnivé a ohnivá strana ji hned promění v akci. Oheň potřebuje slyšet, že jeho snaha má smysl. Vzduch umí uznání pojmenovat přesně a s vtipem. Vzdušná strana zase oceňuje, že druhý nečeká a jde do toho. Radost vám dělají společné plány, výlety, debaty a spontánní nápady. Péči vnímáte jako zájem a pohyb, ne jako těžkou povinnost. Oba potřebujete volnost a ani jeden druhého nesvazuje.",
+  "shadow": "Ohnivé nadšení a vzdušná lehkost spolu snadno přeletí přes to, co je potřeba dotáhnout nebo unést. Jeden z vás chce uznání hned a nahlas, druhý ho rozebírá slovy a odkládá. Když ohnivá strana jedná bez řeči, vzdušná má pocit, že ji druhý přeskočil. Když vzdušná strana jen mluví, ohnivé straně dochází trpělivost. Rychle se nadchnete a stejně rychle vychladnete. Těžké chvíle umíte obejít vtipem nebo novým plánem a nezůstat u nich. Náklonnost pak působí jasně, ale mělce.",
+  "traits": {
+   "text": [
+    "optimism",
+    "curiosity",
+    "lightness",
+    "sociability",
+    "independence"
+   ],
+   "shadow": [
+    "superficiality",
+    "impulsiveness",
+    "inconstancy",
+    "restlessness",
+    "procrastination"
+   ]
+  },
+  "partner": "Přitažlivost mezi vámi jiskří rychle. Slovo, pohled a hravé škádlení vzdušné strany zažehnou ohnivou touhu a ta odpovídá přímo a s chutí. Flirt je pro vás hra, která nekončí ani po letech. Intimitu oživuje překvapení, změna místa a odvaha zkusit něco nového. Vzdušná strana potřebuje i v blízkosti prostor pro slova. Ohnivá chce cítit, že je žádoucí. Když se to potká, je mezi vámi lehkost i žár.",
+  "advice": "Domluvte si, jak si navzájem dáváte najevo ocenění. Ohnivá strana chce slyšet konkrétní pochvalu, vzdušná chce rozhovor bez spěchu. Než se jeden z vás pustí do akce, zkuste si dát pět minut na krátkou domluvu. Když debata začne pálit, udělejte pauzu a vraťte se k ní po procházce. Nerozhodujte za druhého. Jednou týdně spolu dotáhněte do konce jeden plán.",
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-22"
+  }
+ },
+ {
+  "key": "pair_elements/venus/fire/water",
+  "title": "Venuše: oheň a voda",
+  "keywords": [
+   "nadšení a hloubka",
+   "uznání nahlas",
+   "porozumění beze slov",
+   "tempo a ticho"
+  ],
+  "themes": [
+   "relationships",
+   "character"
+  ],
+  "text": "Mezi vámi se potkává náklonnost, která se ukazuje hned a nahlas, s náklonností, která roste tiše a zevnitř. Jeden z vás dává najevo zájem činem: nápadem, pozváním, pochvalou. Druhý pozná péči podle toho, zda mu někdo rozumí bez dlouhého vysvětlování. Ohnivá strana přináší pohyb a odvahu ukázat radost. Vodní strana přináší hloubku a citlivost na drobné změny nálady. Jeden z vás učí druhého neodkládat projevy náklonnosti. Druhý zase učí zpomalit a naslouchat. Když se to sejde, máte vřelost i hloubku zároveň.",
+  "shadow": "Nadšení jednoho z vás může na druhého působit hlučně a necitlivě. Tiché čekání druhého zase připadá ohnivé straně jako chlad. Ohnivá strana potřebuje slyšet uznání nahlas. Když nepřichází, ztrácí zájem nebo začne tlačit. Vodní strana čeká, že druhý vytuší, co se v ní děje. Když se to nestane, stáhne se do uraženého mlčení. Jeden pak dělá víc hluku, druhý víc ticha. Oheň vodu vysušuje, voda oheň dusí.",
+  "hard": [
+   {
+    "topics": [
+     "mental_crisis"
+    ],
+    "text": "Tradice tu mluví o spojení, kde se oheň a voda mohou navzájem vyčerpávat. Zmiňuje dlouhá období smutku a citového stažení u vodní strany a neklid či výbuchy u ohnivé. Nejde o jistotu. Je to upozornění, že dlouhé nevyslovené napětí může doléhat i na duševní rovnováhu."
+   }
+  ],
+  "traits": {
+   "text": [
+    "empathy",
+    "depth",
+    "vitality",
+    "cooperation"
+   ],
+   "shadow": [
+    "sulking",
+    "impulsiveness",
+    "moodiness",
+    "drama"
+   ]
+  },
+  "partner": "Ve dvojici vás přitahuje právě rozdíl. Jeden z vás přináší žár a odvahu, druhý hloubku a odevzdanost. Ohnivá strana se nadchne rychle a chce to hned ukázat. Vodní strana se otevírá pomaleji, ale pak úplně. Blízkost mezi vámi roste, když spěch dostane čas a citlivost dostane odvahu se ukázat.",
+  "advice": "Domluvte si jednoduchý signál pro chvíle, kdy jeden z vás potřebuje uznání a druhý porozumění. Kdo z vás má Venuši v ohni, ať se před velkým nápadem zeptá, jak se druhý má. Kdo ji má ve vodě, ať řekne nahlas, co ho potěšilo, místo čekání, že to druhý vytuší. Když napětí roste, dejte si krátkou pauzu a vraťte se k tomu, až opadne první vlna.",
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-22"
+  }
+ },
+ {
+  "key": "pair_elements/venus/earth/earth",
+  "title": "Venuše: oba země",
+  "keywords": [
+   "jistota",
+   "věrnost",
+   "hmatatelná péče",
+   "trpělivost",
+   "zvyky"
+  ],
+  "themes": [
+   "relationships",
+   "character",
+   "family"
+  ],
+  "text": "Když jsou obě Venuše v zemi, náklonnost mezi vámi má podobu činů, které se dají vidět a vzít do ruky. Jeden z vás ocení opravenou věc, druhý připravené jídlo nebo uklizený prostor, a oba tomu rozumíte bez vysvětlování. Péči si nemusíte dokazovat velkými slovy. Stačí dodržet slib, přijít včas a pamatovat si, co ten druhý potřebuje. Důvěra mezi vámi roste pomalu, ale drží. Oba potřebujete čas a oba ho druhému dáváte. Společné rituály a opakované zvyky vám nepřipadají nudné, ale bezpečné. Radost vám dělá klid, poctivě odvedená věc a jistota, že zítřek bude stát na tom, co platí dnes.",
+  "shadow": "Dvě zemské Venuše si snadno zamění péči za povinnost a pohodlí za blízkost. Projevy náklonnosti zevšední: věci jsou obstarané, slova chybějí. Jeden z vás čeká na důkaz, druhý ho podává mlčky a ani jeden se nezeptá, jestli to stačí. Změny vnímáte jako ohrožení, takže i drobné přání něčeho nového se odkládá. Křivdy si oba pamatujete dlouho a místo rozhovoru se stáhnete. Hodnotu vztahu pak měříte tím, co se dá spočítat, a to, co spočítat nejde, zůstává bez povšimnutí.",
+  "hard": [
+   {
+    "topics": [
+     "loss"
+    ],
+    "text": "Tradice tu mluví o tom, že dvě zemské Venuše těžko pouštějí, co jednou přijmou za své. Ztráta společného domova, blízkého člověka nebo zavedeného řádu se mezi vámi podle ní může nést dlouho a tiše, jako rána, o které se nemluví a která se proto pomalu hojí."
+   },
+   {
+    "topics": [
+     "mental_crisis"
+    ],
+    "text": "Tradice spojuje zemský živel s melancholickým temperamentem a mluví o tom, že dvojice dvou zemských Venuší může společně upadnout do dlouhé zasmušilosti. Radost se pak vytrácí z obou stran zároveň a nikdo z vás nepřináší podnět, který by tu tíhu prolomil."
+   }
+  ],
+  "traits": {
+   "text": [
+    "steadiness",
+    "loyalty",
+    "patience",
+    "security_need",
+    "realism"
+   ],
+   "shadow": [
+    "stagnation",
+    "stubbornness",
+    "reticence",
+    "materialism",
+    "sulking"
+   ]
+  },
+  "partner": "V milostném páru se mezi vámi přitažlivost probouzí přes smysly: dotek, vůně, chuť a tělesná blízkost bez spěchu. Intimita roste s důvěrou a s časem. Oba potřebujete vědět, že druhý zůstává. Svádění nemusí být hlasité, stačí pozornost k tělu a k pohodlí. Věrnost a stálost pro vás nejsou omezení, ale základ touhy.",
+  "advice": "Domluvte si jednou za čas krátký rozhovor o tom, co vám dělá radost, a řekněte to nahlas, ne jen činem. Zkuste do zavedeného řádu občas pustit jednu malou novinku, kterou vybere pokaždé jiný z vás. Když se jeden z vás stáhne do mlčení, nečekejte týdny. Řekněte klidně: „Vidím, že něco nesedí, promluvme si o tom dnes večer.“",
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-22"
+  }
+ },
+ {
+  "key": "pair_elements/venus/earth/air",
+  "title": "Venuše: země a vzduch",
+  "keywords": [
+   "slova a činy",
+   "jistota",
+   "lehkost",
+   "jazyk péče"
+  ],
+  "themes": [
+   "relationships",
+   "character",
+   "growth"
+  ],
+  "text": "Mezi vámi se potkává Venuše země a Venuše vzduchu. Jeden z vás ukazuje náklonnost činy a vytrvalostí, druhý slovy, zájmem a nápady. Pro jednoho z vás je oceněním, když slib platí i za měsíc, když druhý přijde včas a pamatuje si drobnosti. Druhý cítí péči, když spolu mluvíte a je prostor pro otázky, vtip a změnu plánu. Doplňujete se: zemská Venuše dává vztahu pevnou půdu, vzdušná mu přináší pohyb a nadhled. Jeden z vás učí druhého, že péče se dá chytit do ruky. Druhý zase ukazuje, že i dobrý rozhovor je dar.",
+  "shadow": "Tady se slova a činy snadno minou: jeden z vás čeká důkazy, druhý nabízí věty a myšlenky. Zemské straně pak rozhovory připadají prázdné a nezávazné. Vzdušné straně se péče zdá těžkopádná a málo mluvná. Jeden z vás může tlačit na jistotu a pevné plány, až to druhý cítí jako svazování. Druhý může odbíhat, měnit dohody a nechávat věci v rovině nápadů. Vzniká tichá nespokojenost. Každý dává, ale jiným jazykem, než kterému druhý rozumí.",
+  "hard": [
+   {
+    "topics": [
+     "loss"
+    ],
+    "text": "Tradice tu mluví o živlech, které se samy od sebe nemísí. Země a vzduch bývají popisovány jako dvojice, v níž náklonnost pomalu vychládá. Klasické výklady u takového spojení zmiňují odcizení a postupnou ztrátu blízkosti, pokud se nikdo nesnaží porozumět druhému. Nejde o jistotu, jen o starý obraz."
+   }
+  ],
+  "traits": {
+   "text": [
+    "steadiness",
+    "curiosity",
+    "lightness",
+    "patience",
+    "eloquence"
+   ],
+   "shadow": [
+    "rigidity",
+    "inconstancy",
+    "security_need",
+    "superficiality",
+    "detachment"
+   ]
+  },
+  "partner": "V lásce vás přitahuje právě rozdíl. Jednoho z vás okouzlí lehkost, vtip a zvídavost druhého. Druhého uklidňuje pevnost, vůně a dotek. Zemská Venuše touží po pomalé, smyslné blízkosti. Vzdušná ji probouzí slovy, flirtem a hrou. Intimita roste, když si na sebe necháte čas a zároveň si nahlas řeknete, co chcete.",
+  "advice": "Zkuste si každý říct, co vám v posledních dnech udělalo radost. Všímejte si, jestli to byl čin, nebo slovo. Domluvte si jednu pevnou věc týdně, na které se dá stavět, a kolem ní nechte volnost pro nápady. Když jeden z vás potřebuje ticho a druhý rozhovor, dejte si krátkou pauzu a pak se k tématu vraťte. Neshazujte řeči ani praktické drobnosti.",
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-22"
+  }
+ },
+ {
+  "key": "pair_elements/venus/earth/water",
+  "title": "Venuše: země a voda",
+  "keywords": [
+   "péče v činech",
+   "citová blízkost",
+   "věrnost",
+   "bezpečí",
+   "tiché porozumění"
+  ],
+  "themes": [
+   "relationships",
+   "family",
+   "character"
+  ],
+  "text": "Venuše v zemi a Venuše ve vodě se potkávají v tichosti: jeden z vás ukazuje náklonnost činy, druhý ji vnímá a vrací citem. Jeden z vás oceňuje uvařené jídlo, opravenou věc, dodržený slib a pravidelně sdílený čas. Druhý potřebuje cítit porozumění i bez vysvětlování a pozná náladu dřív, než padne slovo. Doplňujete se přirozeně. Země dává vodě pevný břeh, kde je bezpečí. Voda dává zemi vláhu, díky které péče není jen povinností. Společně si ceníte věrnosti, domova a malých každodenních gest.",
+  "shadow": "Venuše v zemi a Venuše ve vodě se mohou míjet právě v tom, co pro sebe dělají. Jeden z vás nosí péči v činech a nechápe, proč to nestačí. Druhý čeká na citové naladění a praktickou pomoc bere jako únik od rozhovoru. Země pak působí chladně a voda přecitlivěle. Křivdy se mezi vámi neřeší nahlas, ale ukládají se. Jeden z vás mlčí a tvrdne, druhý se uráží a stahuje. Lpění na jistotě a citová závislost umí vztah uzavřít před světem.",
+  "hard": [
+   {
+    "topics": [
+     "death",
+     "loss"
+    ],
+    "text": "Tradice tu mluví o spojení dvou chladných živlů, které ztráty prožívá těžce a dlouho. Při úmrtí blízkého člověka nebo rozpadu domova se podle ní smutek snadno mění v melancholii a uzavření do sebe. Jeden z vás může truchlit mlčky a v práci, druhý v slzách a vzpomínkách, a tak se ve smutku míjet."
+   }
+  ],
+  "traits": {
+   "text": [
+    "steadiness",
+    "empathy",
+    "loyalty",
+    "security_need",
+    "sensitivity"
+   ],
+   "shadow": [
+    "sulking",
+    "reclusiveness",
+    "dependence",
+    "stubbornness",
+    "coldness"
+   ]
+  },
+  "partner": "V milostném páru vás k sobě táhne klid a hloubka. Jeden z vás přináší smyslnost, dotek a trpělivost, druhý citovou odevzdanost a jemné vycítění přání. Intimita mezi vámi roste pomalu a s důvěrou. Tělesná blízkost je pro zemi důkazem lásky, pro vodu cestou k citovému splynutí. Když se tyto dvě řeči potkají, vzniká pouto, které vydrží dlouho.",
+  "advice": "Zkuste si říct, co pro každého z vás znamená péče: jeden z vás jmenuje konkrétní činy, druhý pocity, které potřebuje zažít. Když se mezi vámi něco nahromadí, domluvte si klidnou chvíli na rozhovor a nečekejte, až to druhý vycítí. Nehodnoťte praktickou pomoc jako chlad ani citlivost jako přehánění. Při napětí si dejte krátkou pauzu, ale vždy řekněte, kdy se k tématu vrátíte.",
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-22"
+  }
+ },
+ {
+  "key": "pair_elements/venus/air/air",
+  "title": "Venuše: oba vzduch",
+  "keywords": [
+   "rozhovor",
+   "lehkost",
+   "zvídavost",
+   "volný prostor",
+   "sdílené nápady"
+  ],
+  "themes": [
+   "relationships",
+   "character"
+  ],
+  "text": "Náklonnost mezi vámi plyne hlavně rozhovorem. Jeden z vás ukazuje péči otázkou, druhý tím, že si pamatuje, co minule zaznělo. Oba oceňujete, když se můžete vzájemně překvapit nápadem, článkem nebo vtipem. Těžké chvíle umíte odlehčit a nepotřebujete velká gesta, stačí pozornost. Necháváte si navzájem prostor a nikdo nikoho nedrží zkrátka. Ve sporu hledáte argumenty, ne vítěze, a rychle se vracíte k normálu. Radost vám dělají společné plány, nová místa a lidé, o kterých se dá pak dlouho mluvit.",
+  "shadow": "Dvě vzdušné Venuše snadno mluví o všem kromě toho, co bolí. Pocity převádíte na úvahy a místo věty „je mi smutno“ zazní rozbor situace. Jeden z vás může čekat, že druhý pozná nevyřčené, jenže ten odpovídá na slova, ne na tón. Lehkost se mění v uhýbání: nepříjemné téma odložíte vtipem a už se k němu nevrátíte. Hrozí i chladná vzdálenost. V názorech si rozumíte, ale chybí obyčejná blízkost a praktická pomoc.",
+  "hard": [
+   {
+    "topics": [
+     "mental_crisis"
+    ],
+    "text": "Tradice tu mluví o nervovém přetížení. Vzduch spojuje s myslí a nervy a u dvojice, která všechno zpracovává hlavou, varuje před nespavostí, roztěkaností a úzkostí, kterou si oba přiživujete neustálým probíráním a domýšlením."
+   },
+   {
+    "topics": [
+     "loss"
+    ],
+    "text": "Tradice tu mluví také o vztazích, které nekončí hádkou, ale tiše vyprchají. Dva lidé se vzdušnou Venuší se podle ní mohou vzdálit nenápadně: zájem se přesune k jiným lidem a myšlenkám a nikdo nenabídne pevný bod, ke kterému se vracet."
+   }
+  ],
+  "traits": {
+   "text": [
+    "sociability",
+    "curiosity",
+    "eloquence",
+    "lightness",
+    "independence"
+   ],
+   "shadow": [
+    "superficiality",
+    "detachment",
+    "inconstancy",
+    "restlessness",
+    "coldness"
+   ]
+  },
+  "partner": "Přitažlivost mezi vámi začíná v hlavě. Jiskru zapálí dobrá debata, škádlení a pocit, že vás ten druhý pořád umí překvapit. Flirt je pro vás hra se slovy a pohledy. Intimita roste z rozhovorů pozdě do noci a ze svobody, kterou si navzájem dáváte. Když konverzace utichne, umí ochladnout i tělesná blízkost. Proto ji živí zvědavost a nové zážitky.",
+  "advice": "Domluvte si jednoduché pravidlo: kdo řekne „teď nechci rozbor“, ten chce jen vyslechnout. Zkuste jednou týdně pojmenovat jednu věc, která vás potěšila, a jednu, která vadila, a to bez vtipkování. Když téma odložíte, určete konkrétní čas, kdy se k němu vrátíte. Kromě slov si občas ukažte péči i činem: uvařit, odvézt, pomoct.",
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-22"
+  }
+ },
+ {
+  "key": "pair_elements/venus/air/water",
+  "title": "Venuše: vzduch a voda",
+  "keywords": [
+   "rozhovor",
+   "citová blízkost",
+   "porozumění beze slov",
+   "lehkost a hloubka"
+  ],
+  "themes": [
+   "relationships",
+   "character"
+  ],
+  "text": "Mezi vámi se potkává slovo a tiché vycítění. Jeden z vás projevuje náklonnost rozhovorem, nápadem, vtipem a zájmem o to, co si druhý myslí. Druhý ji projevuje tím, že pozná náladu dřív, než padne slovo, a zůstává nablízku. Jeden z vás vnáší do vztahu nadhled, takže těžké věci dostávají jasnější tvar. Druhý přidává vřelost, takže myšlenky dostávají citovou váhu. Když to funguje, máte mezi sebou prostor, kde se dá mluvit i mlčet. Ocenění tu má dvě podoby: pozorné naslouchání a pochopení bez vysvětlování.",
+  "shadow": "Slovo a tiché vycítění se mezi vámi snadno minou. Jeden z vás chce pocity pojmenovat, rozebrat a pak jít dál. Druhý to prožívá jako chlad nebo odbytí. Druhý zase čeká na porozumění beze slov, a když nepřijde, stáhne se do uraženého ticha. Jeden z vás pak nerozumí, co se stalo, a hledá vysvětlení, které nedostane. Lehkost jednoho působí jako povrchnost, citlivost druhého jako náladovost. Oba pak máte pocit, že vaše péče zůstává bez povšimnutí.",
+  "hard": [
+   {
+    "topics": [
+     "mental_crisis",
+     "addiction"
+    ],
+    "text": "Tradice tu mluví o smutku a melancholii, které vznikají, když citová potřeba dlouho zůstává bez odezvy. Starší výklady spojují vodní Venuši se sklonem unikat do snění, někdy i k omamným látkám, a vzdušnou se sklonem odcházet od tíživých citů do myšlenek. Jde o obraz sklonu, ne o předpověď."
+   }
+  ],
+  "traits": {
+   "text": [
+    "eloquence",
+    "empathy",
+    "lightness",
+    "depth",
+    "intuition"
+   ],
+   "shadow": [
+    "detachment",
+    "sulking",
+    "moodiness",
+    "superficiality",
+    "insecurity"
+   ]
+  },
+  "partner": "Přitažlivost mezi vámi stojí na kontrastu. Jeden z vás okouzluje slovy, hravostí a dlouhými rozhovory do noci. Druhý přitahuje vřelostí, pohledem a tím, jak umí být blízko. V intimitě jeden potřebuje lehkost a hru, druhý hloubku a pocit bezpečí. Když se slova a dotek propojí, vzniká blízkost, kde je místo pro smích i pro ticho.",
+  "advice": "Domluvte si, že pocity pojmenujete nahlas, i když to jde ztěžka. Kdo potřebuje mluvit, ať se zeptá a pak nechá chvíli ticha na odpověď. Kdo cítí beze slov, ať řekne aspoň jednu větu typu „teď je mi smutno“. Když se rozhovor zamotá, dejte si pauzu a vraťte se k němu ještě ten den. Nedělejte z mlčení trest.",
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-22"
+  }
+ },
+ {
+  "key": "pair_elements/venus/water/water",
+  "title": "Venuše: oba voda",
+  "keywords": [
+   "porozumění beze slov",
+   "citová blízkost",
+   "tichá péče",
+   "vzájemné naladění"
+  ],
+  "themes": [
+   "relationships",
+   "character",
+   "growth"
+  ],
+  "text": "Oba dáváte i přijímáte náklonnost stejným vodním jazykem: tichou pozorností a citovým naladěním. Jeden z vás pozná, že druhého něco tíží, dřív než to zazní. Druhý to vrací drobností ve správnou chvíli: hrnkem čaje, krátkou zprávou nebo nabídnutou společností. Péči mezi vámi neměří velká gesta. Měří ji pocit, že vás ten druhý chápe bez vysvětlování. Radost vám dělá společný klid, sdílená vzpomínka a chvíle, kdy se nemusí nic dokazovat. Doplňujete se tak, že jeden umí jemně vycítit a druhý umí trpělivě podržet. Vzniká mezi vámi bezpečné místo, kam se dá přinést i zranitelnost.",
+  "shadow": "Když se oba spoléháte na porozumění beze slov, snadno si začnete číst myšlenky a mýlit se. Jeden z vás čeká, že druhý křivdu vycítí bez řečí. Když se to nestane, přichází tiché stažení místo rozhovoru. Nálady se mezi vámi přelévají a zesilují. Smutek jednoho rychle zaplaví oba. Hrozí uraženost, mlčení trvající dny a vyčítání nevyslovených očekávání. Blízkost se může změnit v uzavřený svět, kam nikdo jiný nemá přístup, a v citovou závislost, ve které se těžko dýchá.",
+  "hard": [
+   {
+    "topics": [
+     "mental_crisis"
+    ],
+    "text": "Tradice tu mluví o riziku, že se smutek a úzkost mezi vámi navzájem posilují. Když se oba noříte do stejné nálady, chybí ten, kdo drží pevnou půdu. Sklíčenost pak může přerůst v delší období těžkých duševních stavů, které na sebe přenášíte."
+   },
+   {
+    "topics": [
+     "addiction"
+    ],
+    "text": "Tradice tu mluví o sklonu hledat úlevu od citového přetlaku v úniku: v alkoholu, jiných látkách nebo v uzavřeném snění. U dvou vodních Venuší se takový sklon může stát společným zvykem, který si navzájem omlouváte a přehlížíte."
+   },
+   {
+    "topics": [
+     "loss",
+     "death"
+    ],
+    "text": "Tradice tu mluví o hlubokém žalu při ztrátě. Pouto bývá tak těsné, že odloučení, rozchod nebo smrt jednoho z vás druhý prožívá jako ztrátu části sebe. Vyrovnávání se s takovou ztrátou podle tradice trvá dlouho a nese se tiše."
+   }
+  ],
+  "traits": {
+   "text": [
+    "empathy",
+    "intuition",
+    "sensitivity",
+    "gentleness",
+    "depth"
+   ],
+   "shadow": [
+    "sulking",
+    "moodiness",
+    "dependence",
+    "escapism",
+    "reclusiveness"
+   ]
+  },
+  "partner": "V milostném páru se přitažlivost rodí z pocitu, že vás ten druhý vidí až do hloubky. Intimita je pro vás citové splynutí, ne výkon. Dotyk, pohled a tichá něha říkají víc než slova. Touha roste s důvěrou a bezpečím. Slábne ve chvíli, kdy chybí pochopení nebo když se jeden z vás citově vzdálí.",
+  "advice": "Domluvte si, že důležité věci řeknete nahlas, i když vám připadají zřejmé. Zkuste jednoduchou větu „Dnes potřebuju…“ místo čekání, až to druhý pozná. Když na jednoho z vás padne smutek, ať ho druhý nepřebírá, ale nabídne klidnou přítomnost. Po hádce si dejte krátkou pauzu a hned určete, kdy se k rozhovoru vrátíte. Nepoužívejte mlčení jako trest.",
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-22"
+  }
+ },
+ {
+  "key": "pair_elements/mars/fire/fire",
+  "title": "Mars: oba oheň",
+  "keywords": [
+   "společné tempo",
+   "rychlá zlost",
+   "nadšení",
+   "soupeření",
+   "potřeba uznání"
+  ],
+  "themes": [
+   "relationships",
+   "character",
+   "health"
+  ],
+  "text": "Mezi vámi se oba pouštíte do věcí okamžitě a ani jeden z vás nečeká, až mu ten druhý dodá odvahu. Máte podobné tempo. Rozhodnutí padne rychle, plán se mění za chodu a nuda vás oba dráždí. Jeden z vás nadchne druhého a ten mu nadšení vrátí ještě silnější. Spolu zvládáte stěhování, sport, projekty i krize, kde je potřeba jednat hned. Zlost u vás vzplane rychle a stejně rychle vyprchá. Křivdu si málokdy nesete do dalšího týdne. Oba potřebujete, aby si ten druhý všiml, co se vám povedlo. Umíte si to navzájem dát nahlas.",
+  "shadow": "Když se potkají dva rychlé ohně, nikdo z vás nechce ustoupit první. Hádka naskočí během vteřiny a slova padají dřív, než je kdokoli zváží. Z drobnosti se stává souboj o to, kdo má pravdu a kdo velí. Oba snadno přeslechnete, co druhý potřebuje, protože už jednáte. Když chybí uznání, nastupuje uražená pýcha a místo spolupráce soutěžení. Neklid vás žene od jednoho plánu k dalšímu a dokončování zůstává ležet. Únava pak přichází náhle, po dlouhém jedení na plný plyn.",
+  "hard": [
+   {
+    "topics": [
+     "violence"
+    ],
+    "text": "Tradice tu mluví o sklonu k prudkým střetům, kdy se zlost mění v křik, bouchání dveřmi nebo strkání. Podle ní dvojitý oheň na Marsu zvyšuje riziko, že spor přeroste ve fyzickou agresi. Nejde o jistotu. Je to varování před chvílemi, kdy oba přestáváte brzdit."
+   },
+   {
+    "topics": [
+     "illness",
+     "death"
+    ],
+    "text": "Tradice tu mluví o horečkách, zánětech a úrazech z ukvapenosti, zvlášť při sportu nebo za volantem. Společné riskování a hecování může podle starých výkladů vést ke zraněním. Ve výjimečných případech tradice zmiňuje i náhlou smrt při nehodě. Jde o obraz z výkladové tradice, ne o předpověď."
+   }
+  ],
+  "traits": {
+   "text": [
+    "impulsiveness",
+    "decisiveness",
+    "vitality",
+    "courage",
+    "forgiveness"
+   ],
+   "shadow": [
+    "anger",
+    "competitiveness",
+    "pride",
+    "restlessness",
+    "aggression"
+   ]
+  },
+  "partner": "V milostném páru mezi vámi přeskočí jiskra hned od začátku. Přitahuje vás odvaha a tempo toho druhého. Touha přichází rychle a otevřeně, bez dlouhého naznačování. Hádka a usmíření jsou u vás blízko sebe a vášeň často roste právě z napětí. Oba chcete cítit, že vás ten druhý chce. Potřebujete to slyšet i vidět.",
+  "advice": "Domluvte si signál pro chvíli, kdy hádka zrychlí. Po něm si dejte dvacet minut pauzy, každý v jiné místnosti. Zkuste si dopřávat pohyb společně i zvlášť, ať se energie nevybíjí v konfliktech. Říkejte nahlas, čeho si na tom druhém vážíte. Nesoutěžte o poslední slovo a velké věci nerozhodujte ve vzteku.",
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-22"
+  }
+ },
+ {
+  "key": "pair_elements/mars/fire/earth",
+  "title": "Mars: oheň a země",
+  "keywords": [
+   "rozdílné tempo",
+   "nadšení a vytrvalost",
+   "výbuch a zatvrzelost",
+   "start a dotažení"
+  ],
+  "themes": [
+   "relationships",
+   "character",
+   "work"
+  ],
+  "text": "Když se ohnivý Mars potká se zemským, jeden z vás chce vyrazit hned a druhý se nejdřív potřebuje přesvědčit, že to má smysl. Jeden se nadchne během minuty, druhý si žádá plán, čas a něco, na co si může sáhnout. Ohnivý Mars přináší start, odvahu a energii. Zemský Mars přináší vytrvalost a dotažení. Ve sporu se jeden rozhoří rychle a rychle vychladne, druhý se zlobí pomalu, ale dlouho. Když spolupracujete, jeden otevírá cestu a druhý na ní staví. Co oheň začne, země dokončí. Co země promyslí, oheň rozhýbe.",
+  "shadow": "Mezi ohnivým a zemským Marsem se snadno střídá plyn s brzdou. Jeden z vás vnímá opatrnost druhého jako odpor nebo nedůvěru, druhý vnímá spěch jako lehkomyslnost. Ohnivý hněv vybuchne a za hodinu je pryč. Zemský hněv se ukládá a vrací se po týdnech. Jeden pak nechápe, proč je spor ještě otevřený, druhý nechápe, jak lze tak rychle zapomenout. Tlak na rychlost vyvolává zatvrzelost a zatvrzelost vyvolává další tlak. Jednoho to dusí, druhého to zraňuje.",
+  "hard": [
+   {
+    "topics": [
+     "violence"
+    ],
+    "text": "Tradice tu mluví o napětí, kdy rychlý vznět jednoho narazí na tvrdý, nehybný odpor druhého. Hádka pak může přerůst v hrubost, rozbíjení věcí nebo fyzickou srážku. Staré texty to popisují jako sklon této kombinace, ne jako jistotu."
+   },
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o úrazech ze spěchu a horečnatých stavech u ohnivého Marsu. U zemského Marsu mluví o potlačeném hněvu, který se podle starých textů ukládá v těle jako ztuhlost, bolesti zad či kloubů. Je to tradiční obraz, ne diagnóza."
+   }
+  ],
+  "traits": {
+   "text": [
+    "impulsiveness",
+    "perseverance",
+    "courage",
+    "patience",
+    "cooperation"
+   ],
+   "shadow": [
+    "anger",
+    "stubbornness",
+    "sulking",
+    "restlessness"
+   ]
+  },
+  "partner": "V lásce vás k sobě táhne právě kontrast. Žár jednoho probouzí tělo druhého. Klid a smyslnost druhého dávají ohni hloubku a trvání. Jeden z vás svádí přímo a rychle, druhý se otevírá pozvolna, přes dotek a pocit jistoty. Když oheň zpomalí a země se nechá strhnout, má intimita mezi vámi sílu i vytrvalost.",
+  "advice": "Domluvte si, kdo v čem udává rychlost a kdo hlídá kontrolu. U větších rozhodnutí si dejte lhůtu, třeba den na rozmyšlenou. Zkuste vztek říkat hned a krátce, ne výbuchem ani mlčením. Kdo se rozpálí, ať si dá pauzu v pohybu. Kdo se zatvrdí, ať pojmenuje, co vadí, dřív než se to nahromadí. Nevyčítejte si navzájem tempo.",
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-22"
+  }
+ },
+ {
+  "key": "pair_elements/mars/fire/air",
+  "title": "Mars: oheň a vzduch",
+  "keywords": [
+   "jiskra",
+   "tempo",
+   "slovo a čin",
+   "rychlá zlost",
+   "prostor"
+  ],
+  "themes": [
+   "relationships",
+   "character",
+   "health"
+  ],
+  "text": "Mars ohně a Mars vzduchu se potkávají jako plamen a průvan. Jeden z vás jedná hned, druhý nejdřív mluví a přemýšlí. Ohnivý Mars se nadchne, rozběhne se a potřebuje vidět, že jeho snaha má ohlas. Vzdušný Mars potřebuje vysvětlit proč a jak. Lehkost hledá i v hádce. Spolu tvoříte rychlou dvojici. Jeden přináší odvahu a tah, druhý nápady a slova, která dávají činům směr. Zlost u vás vzplane rychle a rychle odezní. Oba potřebujete pohyb a prostor a stojatá voda vám nesedí. Když se doplníte, myšlenka se u vás hned mění v čin.",
+  "shadow": "Vzduch rozdmýchává oheň, a tak se mezi vámi spor rozhoří víc, než by musel. Jeden z vás vybuchne a čeká rychlou odpověď. Druhý odpovídá chytrými slovy, ironií nebo rozborem. Ohnivý Mars to bere jako výsměch. Vzdušný Mars v tom výbuchu vidí jen nedostatek rozumu. Hádka pak běží rychle a nikdo nezpomalí. Ohnivý Mars netrpělivě tlačí a vyžaduje uznání. Vzdušný se umí vzdálit, odbýt věc vtipem nebo utéct do řečí. Hodně se u vás začne, ale málo dotáhne.",
+  "hard": [
+   {
+    "topics": [
+     "violence"
+    ],
+    "text": "Tradice tu mluví o hádkách, které slovo za slovem přerůstají v prudkost. U ohnivého Marsu, kterého vzduch rozdmýchává, zmiňuje riziko, že zlost přejde od slov k rozbíjení věcí nebo k násilí. Je to sklon, ne jistota. Fyzické ohrožení je hranice, kterou nic v tomto výkladu neomlouvá."
+   },
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu u ohnivého Marsu mluví o horečkách, zánětech, spáleninách a úrazech z ukvapenosti. U vzdušného Marsu zmiňuje nervové vyčerpání, nespavost a potíže s dechem. Společné tempo bez odpočinku může podle tradice obojí přiživovat."
+   }
+  ],
+  "traits": {
+   "text": [
+    "impulsiveness",
+    "vitality",
+    "curiosity",
+    "courage",
+    "eloquence"
+   ],
+   "shadow": [
+    "anger",
+    "bluntness",
+    "inconstancy",
+    "superficiality",
+    "detachment"
+   ]
+  },
+  "partner": "V lásce vás k sobě táhne jiskra a hra. Ohnivý Mars dobývá přímo a s vášní. Vzdušný Mars svádí slovem, vtipem a zvědavostí. Rozhovor je pro vás předehrou a škádlení palivem. Intimita u vás potřebuje tempo, novost a smích. Jeden z vás chce víc ohně, druhý víc slov. Nejlépe vám je, když se obojí spojí.",
+  "advice": "Domluvte si signál pro chvíli, kdy hádka zrychluje. Pak si dejte dvacet minut pauzu, třeba každý zvlášť na procházce. Kdo z vás má Mars v ohni, ať řekne přímo, co chce, bez výbuchu. Kdo má Mars ve vzduchu, ať odpovídá bez ironie a rozborů. U každého plánu se dohodněte, kdo ho dotáhne. Nepoužívejte vtip ani křik jako zbraň.",
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-22"
+  }
+ },
+ {
+  "key": "pair_elements/mars/fire/water",
+  "title": "Mars: oheň a voda",
+  "keywords": [
+   "pára",
+   "tempo a cit",
+   "výbuch a stažení",
+   "nevyslovené křivdy"
+  ],
+  "themes": [
+   "relationships",
+   "character",
+   "growth"
+  ],
+  "text": "Mezi vámi se potkává Mars, který hoří, a Mars, který cítí. Jeden z vás jedná hned. Nadchne se, vyrazí, řekne, co chce, a potřebuje, aby to druhý viděl a ocenil. Druhý se prosazuje tišeji, přes náladu a cit, a čeká porozumění i beze slov. Oheň dodává vztahu pohyb a odvahu začít. Voda přináší vnímavost. Pozná, kdy je tah na branku příliš prudký a kdy za ním stojí nejistota. Když se zlobíte, jeden z vás vzplane a rychle vychladne, druhý nese zranění déle. Doplňujete se tam, kde energie jednoho najde směr v citu druhého.",
+  "shadow": "Když se ohnivý a vodní Mars střetnou ve sporu, vzniká pára: hodně emocí a málo jasnosti. Jeden z vás řekne ostrou větu a za hodinu je klid. Druhý si ji pamatuje dny. Rychlost jednoho působí jako necitlivost, mlčení druhého jako trest. Oheň se cítí bržděný a neoceněný, voda přehlížená. Snadno se roztočí kruh: čím víc tlaku, tím hlubší stažení, čím hlubší stažení, tím hlasitější tlak. Výbuchy a uraženost se pak střídají místo rozhovoru.",
+  "hard": [
+   {
+    "topics": [
+     "violence"
+    ],
+    "text": "Tradice tu mluví o hádkách, které z prudkosti ohně a dlouho držené křivdy vody mohou přerůst v hrubost, rozbíjení věcí nebo fyzické napadení. Nejde o jistotu, ale o tradiční varování před eskalací. Pokud se jeden z vás bojí, bezpečí má vždy přednost před usmířením."
+   },
+   {
+    "topics": [
+     "mental_crisis"
+    ],
+    "text": "Tradice tu mluví také o hněvu, který se u vodního Marsu obrací dovnitř. Dlouho nevyslovené křivdy mohou přejít ve sklíčenost, pocit bezmoci a citové vyčerpání. U ohně se nevybitá energie mění v neklid a podrážděnost. Je to tradiční obraz, ne předpověď."
+   }
+  ],
+  "traits": {
+   "text": [
+    "impulsiveness",
+    "sensitivity",
+    "courage",
+    "empathy",
+    "intuition"
+   ],
+   "shadow": [
+    "anger",
+    "sulking",
+    "moodiness",
+    "drama",
+    "aggression"
+   ]
+  },
+  "partner": "V milostném páru je mezi vámi silné napětí. Oheň přitahuje vodu svou odvahou a přímostí, voda oheň hloubkou a tím, co nevysloví. Touha jednoho je okamžitá a hravá, druhý potřebuje nejdřív cítit blízkost a bezpečí. Když oheň zpomalí a voda dá najevo, co chce, vzniká intimita plná vášně i něhy.",
+  "advice": "Domluvte si signál pro chvíli, kdy je toho moc. Kdo z vás vzplane, dá si dvacet minut pohybu. Kdo se stahuje, dostane čas v klidu. Pak se k věci vraťte, nejlépe týž den. Zkuste říkat „cítím“ místo „ty vždycky“. Oheň ať ocení, co druhý vnímá. Voda ať pojmenuje, co potřebuje, místo čekání, že to druhý uhodne.",
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-22"
+  }
+ },
+ {
+  "key": "pair_elements/mars/earth/earth",
+  "title": "Mars: oba země",
+  "keywords": [
+   "vytrvalost",
+   "pomalý hněv",
+   "činy místo slov",
+   "tvrdohlavost"
+  ],
+  "themes": [
+   "relationships",
+   "character",
+   "work"
+  ],
+  "text": "Mars obou z vás stojí v zemi, takže spor mezi vámi nevzplane z ničeho nic. Oba prosazujete své pomalu, vytrvale a činy, ne slovy. Než se jeden z vás pohne, chce vědět proč a k čemu to povede. Druhý to chápe, protože to má stejně. Hněv se u vás hromadí potichu a vychládá dlouho, pak ale opravdu zmizí. Pohyb potřebujete praktický: práci rukama, chůzi, úkol s viditelným koncem. Společně dotáhnete věci, které jiní opustí v polovině. Slovo jednoho z vás platí pro druhého jako hotová věc.",
+  "shadow": "Když se dva zemské Marsy zaseknou, nikdo neustoupí. Spor se nevede křikem, ale mlčením a odmítáním. Jeden z vás prostě neudělá, co se od něj čeká, a druhý vyčkává, kdo vydrží déle. Křivdy si pamatujete věcně a dlouho, někdy roky. Změna plánu vás oba vyvádí z míry, takže snadno ustrnete v zaběhnutém i tam, kde už to nefunguje. Zlost se ukládá do těla a do práce místo do rozhovoru. Když nakonec praskne, je tvrdá a nečekaná.",
+  "hard": [
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o hněvu, který se neprojeví a ukládá se do těla. Popisuje napětí v zádech, šíji a čelistech a vyčerpání z přepracování, kdy oba táhnete dál, i když tělo už žádá zastavení. Je to obraz tradice, ne předpověď."
+   },
+   {
+    "topics": [
+     "violence"
+    ],
+    "text": "Tradice tu mluví o pozdním, ale prudkém výbuchu: o zlosti, která se dlouho hromadí a pak se obrátí proti věcem nebo lidem v okolí. Zemský Mars bývá popisován jako pomalý k hněvu, ale těžký v jeho projevu. Nejde o jistotu, jen o varování tradice."
+   },
+   {
+    "topics": [
+     "ruin"
+    ],
+    "text": "Tradice tu mluví o tvrdohlavém lpění na práci, plánu nebo věci, která se už rozpadá. Dva zemské Marsy podle ní umějí společně vytrvat i tam, kde by bylo moudřejší přestat, a ztrácet tak roky úsilí."
+   }
+  ],
+  "traits": {
+   "text": [
+    "perseverance",
+    "patience",
+    "diligence",
+    "steadiness",
+    "realism"
+   ],
+   "shadow": [
+    "stubbornness",
+    "rigidity",
+    "sulking",
+    "reticence",
+    "stagnation"
+   ]
+  },
+  "partner": "Přitažlivost mezi vámi roste pomalu a drží. Těla si rozumějí beze slov: dotek, čas, opakování a jistota, že druhý nikam nespěchá. Smyslnost má u vás váhu i trpělivost. Vzrušuje vás spolehlivost a ruce, které umějí pracovat. Intimita se může změnit v rutinu, pokud ji oba berete jako samozřejmost. Obnoví ji nové prostředí nebo vědomé zpomalení.",
+  "advice": "Domluvte si, že nevyřčenou zlost řeknete nejpozději druhý den, klidně jednou větou: „Tohle mi vadí, vrátím se k tomu večer.“ Při sporu si dejte pauzu v pohybu, ne mlčením v jedné místnosti. Zkuste změny plánovat dopředu a dát druhému čas. Nečekejte, kdo ustoupí první. Ustupovat střídavě je férová dohoda.",
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-22"
+  }
+ },
+ {
+  "key": "pair_elements/mars/earth/air",
+  "title": "Mars: země a vzduch",
+  "keywords": [
+   "tempo",
+   "slova a činy",
+   "vytrvalost",
+   "lehkost",
+   "vychladnutí"
+  ],
+  "themes": [
+   "relationships",
+   "character"
+  ],
+  "text": "Když se mezi vámi potká Mars v zemi a Mars ve vzduchu, jeden z vás jedná až po důkladném zvážení a druhý potřebuje věc nejdřív vyslovit. Jeden prosazuje své vytrvale a potichu, druhý argumenty, otázkami a nápady. Při sporu se jeden stáhne a zatvrdí, druhý mluví rychleji a hledá řešení slovy. Vychladnutí trvá jednomu z vás dny, druhému minuty. Přesto se dobře doplňujete. Vzduch přináší nové možnosti a uvolňuje zaseknuté situace. Země dává nápadům tvar, plán a dotažení. Jeden potřebuje klid a stálý rytmus, druhý změnu a prostor k pohybu i debatě.",
+  "shadow": "Mars v zemi a Mars ve vzduchu si v hádce snadno přestanou rozumět, protože každý z vás bojuje jinou zbraní. Jeden mlčí, odkládá a drží zášť. Druhý zahlcuje slovy, ironií nebo rychlou změnou tématu. Země pak působí jako zeď, vzduch jako někdo, kdo nic nebere vážně. Jeden vyčítá nestálost a sliby bez činů, druhý strnulost a pomalost. Spor se pak točí dokola. Jeden čeká na důkaz, druhý na odpověď.",
+  "hard": [
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o napětí, které se nevybije. U Marsu v zemi se podle ní hromadí v těle jako ztuhlost, únava a potíže s trávením. U Marsu ve vzduchu se projevuje jako nervozita, nespavost a vyčerpání. Dlouhé nevyřešené spory mezi vámi tak podle tohoto pohledu oslabují oba."
+   },
+   {
+    "topics": [
+     "violence"
+    ],
+    "text": "Tradice tu mluví o náhlém výbuchu po dlouhém tichu. Když se jeden z vás dusí v mlčení a druhý dráždí slovy, může přijít nečekaně ostrá reakce: ponižující poznámka, křik nebo prudké gesto. Nebezpečí podle ní neleží v jednom sporu, ale v napětí, které se dlouho hromadí bez vyslovení."
+   }
+  ],
+  "traits": {
+   "text": [
+    "patience",
+    "rationality",
+    "flexibility",
+    "perseverance",
+    "cooperation"
+   ],
+   "shadow": [
+    "stubbornness",
+    "sulking",
+    "inconstancy",
+    "detachment",
+    "criticism"
+   ]
+  },
+  "partner": "V milostném páru vás láká právě rozdíl. Jednoho z vás přitahuje hravost, vtip a slovní jiskra. Druhého přitahuje klid, tělesná jistota a vytrvalost. Intimita roste, když jeden z vás smí zpomalit a vnímat dotek a druhý může mluvit o svých přáních a představách. Napětí ze sporů se tu snadno mění v přitažlivost, pokud po něm přijde skutečné usmíření.",
+  "advice": "Domluvte si, jak se budete hádat. Kdo potřebuje mluvit, řekne to hned, ale krátce a bez ironie. Kdo potřebuje čas, řekne, kdy se k věci vrátí, a slib dodrží. Zkuste se v debatě držet konkrétního kroku, ne obecného principu. Nedělejte z mlčení trest ani ze slov zbraň. Po prudké výměně si dejte pauzu a rozhovor dokončete nejpozději druhý den.",
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-22"
+  }
+ },
+ {
+  "key": "pair_elements/mars/earth/water",
+  "title": "Mars: země a voda",
+  "keywords": [
+   "tichý hněv",
+   "pomalé usmíření",
+   "pevnost a cit",
+   "nevyslovené napětí"
+  ],
+  "themes": [
+   "relationships",
+   "character",
+   "health"
+  ],
+  "text": "Když se mezi vámi něco zadrhne, jeden z vás zpomalí a zatvrdí se, druhý ztichne a stáhne se do sebe. Hlasitá hádka bývá mezi vámi vzácná. Jeden z vás prosazuje své vytrvale a krok za krokem. Chce vidět, že se věci opravdu mění. Druhý jedná podle nálady a vycítí napětí dřív, než padne první slovo. Doplňujete se: jeden dává sporu pevný rámec a klid, druhý přináší cit pro to, co zůstalo nevyslovené. Oba potřebujete vychladnout pomalu, ale každý jinak. Jeden se uklidní prací nebo pohybem, druhý v ústraní nebo v blízkosti někoho, kdo nic nevyžaduje.",
+  "shadow": "Mezi vámi se zlost spíš hromadí, než aby vybuchla. Jeden z vás mlčí tvrdohlavě a čeká na důkaz, že se druhý změní. Druhý mlčí uraženě a čeká, že to první pochopí bez vysvětlování. Tak se můžete míjet celé dny. Tomu, kdo reaguje citem, připadá klid druhého jako chlad. Tomu, kdo potřebuje důkazy, připadá stažení jako trucování. Staré křivdy se ukládají a vynoří se v nečekané chvíli, často kvůli úplné maličkosti.",
+  "hard": [
+   {
+    "topics": [
+     "violence"
+    ],
+    "text": "Tradice tu mluví o hněvu, který se dlouho drží pod pokličkou a pak se uvolní najednou a nepřiměřeně. U Marsu tradice zmiňuje i zranění a násilné jednání. U této dvojice jde spíš o výbuch po dlouhém tichu než o každodenní hrubost."
+   },
+   {
+    "topics": [
+     "illness",
+     "mental_crisis"
+    ],
+    "text": "Tradice tu mluví o zlosti obrácené dovnitř. Podle starých výkladů se potlačený hněv ukládá do těla jako napětí, zánět nebo vyčerpání a do mysli jako sklíčenost. Neznamená to jistou nemoc. Je to jen místo, kde se nevyslovené může projevit."
+   }
+  ],
+  "traits": {
+   "text": [
+    "steadiness",
+    "empathy",
+    "patience",
+    "intuition"
+   ],
+   "shadow": [
+    "stubbornness",
+    "sulking",
+    "reticence",
+    "coldness"
+   ]
+  },
+  "partner": "V milostném páru se tu potkává tělesná vytrvalost s citovou hloubkou. Jeden z vás vyjadřuje touhu dotykem, péčí a stálostí. Druhý potřebuje nejdřív cítit, že je mezi vámi bezpečno. Přitažlivost roste pomalu a bez spěchu. Intimita má mezi vámi velkou sílu, když se před ní dokážete usmířit. Nevyřešená křivda chladí touhu víc než únava.",
+  "advice": "Domluvte si signál, kterým dáte najevo, že vás něco trápí, i když na rozhovor ještě nemáte síly. Kdo se stahuje, ať řekne, kdy se k tématu vrátí. Kdo potřebuje důkazy, ať pojmenuje jeden konkrétní krok, který by mu stačil. Nečekejte, až se křivdy nahromadí. Drobnosti řešte nejpozději druhý den.",
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-22"
+  }
+ },
+ {
+  "key": "pair_elements/mars/air/air",
+  "title": "Mars: oba vzduch",
+  "keywords": [
+   "spor slovy",
+   "rychlé vychladnutí",
+   "prostor pro názor",
+   "neklid hlavy",
+   "lehkost"
+  ],
+  "themes": [
+   "relationships",
+   "character",
+   "health"
+  ],
+  "text": "Když mezi vámi vznikne napětí, oba sáhnete nejdřív po slovech, ne po činu. Spor se u vás odehrává v rozhovoru: argument proti argumentu, otázka proti otázce. Jeden z vás prosazuje své vtipem nebo logikou, druhý hledá slabé místo v úvaze. Tahle výměna vás spíš povzbudí, než zraní. Zlost se rychle vznítí a stejně rychle vyprchá, jakmile se věc vysloví. Nikdo z vás nepotřebuje druhého přetlačit silou. Oba potřebujete prostor pro vlastní názor, změnu tempa a nové podněty. Vaše společná energie roste, když máte o čem přemýšlet a o čem mluvit.",
+  "shadow": "Když oba bojujete slovy, hádka snadno přejde v soutěž o poslední slovo. Místo pocitu zazní chytrý argument. Místo omluvy přijde ironická poznámka. Debata se může točit v kruhu celé hodiny, a přitom se nic nezmění. Jeden z vás rozebírá, druhý odbíhá k jinému tématu, a skutečný problém zůstane nevyřešený. Neklid se přelévá z jednoho na druhého. Sliby padají lehce a stejně lehce se zapomínají. Když toho je moc, oba se stáhnete do hlavy a mezi vámi zavládne chladný odstup.",
+  "hard": [
+   {
+    "topics": [
+     "illness",
+     "mental_crisis"
+    ],
+    "text": "Tradice tu mluví o napětí, které se ukládá do nervů a dechu. Zmiňuje přetížení myšlenkami, nespavost, roztěkanost a vyčerpání z neustálého rozebírání. U dvou vzdušných Marsů se neklid může navzájem zesilovat, až žádný z vás nenajde klid. Tradice to popisuje jako sklon, ne jako jistotu."
+   },
+   {
+    "topics": [
+     "violence"
+    ],
+    "text": "Tradice tu mluví o ranách slovem. Ostrý jazyk, posměch a zesměšňování mohou podle ní zranit hlouběji než křik. Opakované ponižování v hádkách už není hra myšlenek. Je to forma násilí a tak se k němu i staví."
+   }
+  ],
+  "traits": {
+   "text": [
+    "eloquence",
+    "curiosity",
+    "flexibility",
+    "forgiveness",
+    "lightness"
+   ],
+   "shadow": [
+    "restlessness",
+    "detachment",
+    "superficiality",
+    "inconstancy",
+    "criticism"
+   ]
+  },
+  "partner": "Přitažlivost mezi vámi začíná v hlavě. Rozpálí vás rozhovor, škádlení, slovní přestřelka plná narážek. Touhu probouzí hra, nápad a překvapení víc než těžká vášeň. V blízkosti potřebujete lehkost, smích a střídání. Rutina vás rychle ochladí. Úskalí je v tom, že můžete zůstat jen u slov a flirtu a vyhnout se tělu i skutečné blízkosti.",
+  "advice": "Domluvte si, že každý spor má konec. Jeden z vás nahlas shrne, na čem se shodnete, a druhý to potvrdí. Když se debata točí v kruhu, dejte si pauzu, třeba procházku zvlášť, a vraťte se k tomu za hodinu. Nepoužívejte ironii jako zbraň. Místo „ty vždycky“ zkuste říct, co konkrétně potřebujete. Domluvené věci si zapište.",
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-22"
+  }
+ },
+ {
+  "key": "pair_elements/mars/air/water",
+  "title": "Mars: vzduch a voda",
+  "keywords": [
+   "slova a ticho",
+   "rozdílné tempo hněvu",
+   "pojmenování a cítění",
+   "odstup a blízkost"
+  ],
+  "themes": [
+   "relationships",
+   "character",
+   "growth"
+  ],
+  "text": "Když mezi vámi vznikne napětí, jeden z vás o něm chce hned mluvit a druhý ho nejdřív potřebuje procítit. Vzdušný Mars se prosazuje slovem, argumentem a nápadem. Vodní Mars se prosazuje tiše, náladou a vytrvalým tlakem pod povrchem. Jeden z vás se zlobí nahlas a rychle vychladne, jakmile se věc vysvětlí. Druhý se zlobí dovnitř a vychládá pomalu, až když cítí porozumění. Vzdušná strana potřebuje volnost, změnu prostředí a lehkost. Vodní strana potřebuje klidné zázemí a jistotu blízkosti. Doplňujete se v tom, že jeden z vás věci pojmenuje a druhý vnímá i to, co zůstalo nevyřčené. Spor tak umíte nejen vyřešit, ale i dobře uzavřít.",
+  "shadow": "Hádka se mezi vámi snadno rozpadne na dvě různé řeči. Jeden z vás argumentuje, druhý cítí zranění a přestává poslouchat. Vzdušná strana pak působí chladně a povýšeně, vodní strana uraženě a nevyzpytatelně. Slova se mění v rozbor, mlčení v trest. Jeden z vás utíká do vysvětlování a ironie, druhý do stažení a dlouhých nálad. Křivdy se nevyřčené hromadí a vyplavou ve chvíli, kdy je nikdo nečeká. Pak se zdá, že si nerozumíte vůbec.",
+  "hard": [
+   {
+    "topics": [
+     "mental_crisis"
+    ],
+    "text": "Tradice tu mluví o hněvu, který se nemá kudy vybít. U vodního Marsu se obrací dovnitř a může přejít v dlouhou sklíčenost. U vzdušného Marsu se mění v nervový neklid a vyčerpání. Tradiční výklad varuje před obdobími, kdy se oba způsoby vzájemně zesilují a napětí doléhá na duševní rovnováhu obou."
+   },
+   {
+    "topics": [
+     "addiction"
+    ],
+    "text": "Tradice tu mluví o sklonu vodního Marsu hledat úlevu v opojení, když hněv nejde vyslovit a slova druhé strany působí příliš ostře. Starší výklady to uvádějí jako možné riziko, ne jako jistotu. Vzdušná strana podle nich může utíkat spíš do neustálé zaneprázdněnosti a rozptýlení."
+   }
+  ],
+  "traits": {
+   "text": [
+    "rationality",
+    "sensitivity",
+    "eloquence",
+    "intuition",
+    "empathy"
+   ],
+   "shadow": [
+    "sulking",
+    "detachment",
+    "coldness",
+    "moodiness",
+    "secrecy"
+   ]
+  },
+  "partner": "Vzdušnou stranu přitahuje hloubka a tajemství toho druhého. Vodní stranu přitahuje lehkost, vtip a odvaha mluvit nahlas. V intimitě jeden z vás svádí slovy, pohledem a hrou. Druhý touží po blízkosti, která se obejde bez vysvětlování. Nejvíc se sbližujete tam, kde slova postupně utichnou a dotyk řekne zbytek.",
+  "advice": "Domluvte si, že po ostré výměně si dáte pauzu, třeba hodinu, a pak se k věci vrátíte. Zkuste začínat větou o pocitu, ne o vině: „Je mi z toho smutno“ místo „Ty vždycky“. Kdo potřebuje mluvit, ať se ptá a nechá prostor tichu. Kdo potřebuje ticho, ať řekne, kdy se k tomu vrátí. Mlčení ani ironii nepoužívejte jako zbraň.",
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-22"
+  }
+ },
+ {
+  "key": "pair_elements/mars/water/water",
+  "title": "Mars: oba voda",
+  "keywords": [
+   "tichý hněv",
+   "porozumění beze slov",
+   "citová blízkost",
+   "uraženost",
+   "smíření"
+  ],
+  "themes": [
+   "relationships",
+   "character",
+   "health"
+  ],
+  "text": "Když se potkají dva vodní Marsové, spor mezi vámi začíná v tichu a teprve potom ve slovech. Oba vnímáte napětí dřív, než ho někdo vysloví. Jeden z vás pozná podle tónu hlasu, že druhého něco tíží, a druhý to ví také. Prosazujete se nepřímo: náladou, ústupem, vytrvalým čekáním. Zlost u vás nevybuchne hned, nejdřív se usadí. Vychladnete, až když cítíte, že vám druhý opravdu rozumí. Nepotřebujete hlučnou akci ani velký prostor. Stačí vám klid a jistota, že se k sobě můžete vrátit. V tom se doplňujete: jeden z vás vycítí, kdy ustoupit, druhý kdy podat ruku.",
+  "shadow": "Dva vodní Marsové umí mlčet o zlosti tak dlouho, až se z ní stane křivda. Oba čekáte, že druhý pochopí bez vysvětlování. Když nepochopí, berete to jako důkaz lhostejnosti. Uraženost se mezi vámi táhne dny. Staré křivdy si pamatujete přesně a vytahujete je, i když jde o něco jiného. Místo přímého „ne“ přichází chlad, ústup nebo drobné píchnutí. Nálada jednoho stáhne druhého a nikdo neřekne, co se vlastně stalo.",
+  "hard": [
+   {
+    "topics": [
+     "mental_crisis"
+    ],
+    "text": "Tradice tu mluví o hněvu, který se obrací dovnitř. Mars ve vodě je podle starých autorů oslabený a jeho síla se snadno mění v trápení a sklíčenost. Když potlačenou zlost nosíte oba, může se mezi vámi usadit dlouhá tíseň, která vyčerpává víc než otevřený spor."
+   },
+   {
+    "topics": [
+     "addiction"
+    ],
+    "text": "Tradice tu mluví o sklonu utíkat před napětím do pití nebo jiných úniků, zvlášť u Marsu v Rybách. U dvou vodních Marsů hrozí, že se únik stane společným zvykem místo rozhovoru."
+   },
+   {
+    "topics": [
+     "violence"
+    ],
+    "text": "Tradice tu mluví o skryté zlobě a pomstychtivosti, spojované hlavně s Marsem ve Štíru. Dlouho držený hněv může jednou vyjít naráz a prudce, slovy, která zasáhnou přesně tam, kde to nejvíc bolí."
+   },
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Tradice tu mluví o tom, že nevyslovený hněv vodního Marsu se ukládá do těla. Staří autoři spojovali Mars v Raku se žaludkem a trávením, ve Štíru s pohlavními a vylučovacími orgány. Nejde o jistotu, spíš o obraz napětí, které nenachází cestu ven."
+   }
+  ],
+  "traits": {
+   "text": [
+    "intuition",
+    "empathy",
+    "sensitivity",
+    "patience",
+    "depth"
+   ],
+   "shadow": [
+    "sulking",
+    "moodiness",
+    "secrecy",
+    "melancholy"
+   ]
+  },
+  "partner": "V milostném páru vás k sobě táhne hloubka a pocit, že se navzájem čtete beze slov. Touha tu roste z citové blízkosti, ne z vyzývání. Intimita bývá silná, když se cítíte v bezpečí, a po smíření ještě silnější. Stačí ale jedna nevyřčená křivda a dveře se tiše zavřou.",
+  "advice": "Domluvte si jednoduchou větu, kterou řeknete, když vás něco zlobí, třeba „potřebuju o něčem mluvit“. Nečekejte, až to druhý vycítí. Řešte jednu věc naráz a staré křivdy nechte stranou. Když jeden z vás potřebuje ticho, domluvte se, kdy se k tématu vrátíte, nejlépe ještě týž den. Mlčení nepoužívejte jako trest.",
   "meta": {
    "model": "claude-opus-5-5",
    "generated": "2026-11-22"

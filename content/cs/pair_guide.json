@@ -1,5 +1,64 @@
 [
  {
+  "key": "pair_guide/overview",
+  "title": "Přehled",
+  "keywords": [
+   "mapa vztahu",
+   "souznění",
+   "tření",
+   "pět oblastí",
+   "pozornost"
+  ],
+  "themes": [
+   "relationships",
+   "growth"
+  ],
+  "text": "Tenhle přehled staví vaše dva horoskopy vedle sebe v pěti oblastech: cit, řeč, láska, energie a respekt. U každé vidíte, kolik kontaktů mezi vámi souzní a kolik se tře. Není to skóre vztahu ani verdikt. Je to mapa toho, kde vám to spolu jde lehce a kde vztah chce víc pozornosti. Tření neznamená chybu. Často ukazuje místo, kde se od sebe nejvíc učíte.",
+  "traits": {
+   "text": [
+    "cooperation",
+    "openness",
+    "tolerance",
+    "realism"
+   ],
+   "shadow": []
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-22"
+  }
+ },
+ {
+  "key": "pair_guide/strengths",
+  "title": "V čem si vyhovíte",
+  "keywords": [
+   "soulad",
+   "opora",
+   "vzájemnost",
+   "důvěra"
+  ],
+  "themes": [
+   "relationships",
+   "character",
+   "growth"
+  ],
+  "text": "Tahle kapitola ukazuje, co mezi vámi funguje bez námahy. Jsou to místa, kde si rozumíte dřív, než cokoli vysvětlíte. Najdete tu, na co se můžete spolehnout, když je jinak těžko, a co si navzájem dáváte i bez plánování. Jeden z vás často přináší klid, druhý chuť jít dál. Berte to jako připomínku, ne jako záruku. I to, co jde samo, potřebuje vaši pozornost.",
+  "traits": {
+   "text": [
+    "cooperation",
+    "trustfulness",
+    "belonging",
+    "calm",
+    "loyalty"
+   ],
+   "shadow": []
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-22"
+  }
+ },
+ {
   "key": "pair_guide/cautions",
   "title": "Na co si dát pozor",
   "keywords": [
@@ -36,6 +95,274 @@
     "openness",
     "cooperation",
     "transformation"
+   ],
+   "shadow": []
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-22"
+  }
+ },
+ {
+  "key": "pair_guide/talk",
+  "title": "Jak spolu mluvit",
+  "keywords": [
+   "rozhovor",
+   "naslouchání",
+   "porozumění",
+   "slova",
+   "tempo"
+  ],
+  "themes": [
+   "relationships",
+   "character",
+   "growth"
+  ],
+  "text": "Tahle kapitola patří tomu, jak spolu mluvíte. Možná jeden z vás myslí nahlas a hledá slova za pochodu, zatímco druhý je nejdřív váží v tichu. Obojí má svou cenu. Na dalších stránkách najdete, jak každý z vás mluví, jak poslouchá a co pomáhá, aby se vaše slova potkala dřív, než se z nich stane spor. Čtěte spolu a berte si, co sedí právě vám.",
+  "traits": {
+   "text": [
+    "openness",
+    "empathy",
+    "cooperation",
+    "curiosity"
+   ],
+   "shadow": [
+    "reticence",
+    "bluntness",
+    "sulking"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-22"
+  }
+ },
+ {
+  "key": "pair_guide/respect",
+  "title": "Jak se respektovat",
+  "keywords": [
+   "respekt",
+   "uznání",
+   "hranice",
+   "ocenění",
+   "přehlížení"
+  ],
+  "themes": [
+   "relationships",
+   "character",
+   "growth"
+  ],
+  "text": "Tahle kapitola mapuje, za co každý z vás touží po uznání a kde mezi vámi snadno vzniká pocit přehlížení. Jeden z vás může čekat ocenění za výkon a odvahu, druhý za péči nebo za klid, který do vztahu nese. Respekt tu neznamená souhlas. Znamená, že berete vážně, na čem druhému záleží, i když to sami cítíte jinak. Čtěte pomalu a ptejte se navzájem, co opravdu sedí.",
+  "traits": {
+   "text": [
+    "tolerance",
+    "empathy",
+    "justice",
+    "cooperation"
+   ],
+   "shadow": [
+    "pride",
+    "criticism",
+    "sulking",
+    "dominance"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-22"
+  }
+ },
+ {
+  "key": "pair_guide/needs",
+  "title": "Co kdo potřebuje",
+  "keywords": [
+   "potřeby",
+   "bezpečí",
+   "náklonnost",
+   "energie",
+   "protějšek"
+  ],
+  "themes": [
+   "relationships",
+   "character",
+   "growth"
+  ],
+  "text": "Tahle kapitola srovnává, co každý z vás od druhého potřebuje, aby mu ve vztahu bylo dobře. Projdete čtyři oblasti: bezpečí, náklonnost, energii a obraz protějšku, který si každý nese. Jeden z vás může hledat klid a jistotu, druhý pohyb a výzvu. Nejde o to, kdo má pravdu. Jde o to vědět, co druhému dát a jak to říct, aby to opravdu došlo.",
+  "traits": {
+   "text": [
+    "security_need",
+    "empathy",
+    "cooperation",
+    "openness"
+   ],
+   "shadow": []
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-22"
+  }
+ },
+ {
+  "key": "pair_guide/periods",
+  "title": "Zátěžová období",
+  "keywords": [
+   "zkoušky",
+   "pomalé planety",
+   "časová osa",
+   "napětí ve vztahu"
+  ],
+  "themes": [
+   "relationships",
+   "family",
+   "health",
+   "growth"
+  ],
+  "text": "V této kapitole appka sleduje, kdy pomalé planety procházejí citlivými body vašich dvou horoskopů. Tradice taková období čte jako zkoušky. Vztah se v nich víc napíná, únava a staré spory vystupují na povrch. Nejde o předpověď, že něco nastane. Vedle zátěžových období vidíte i příznivá období a klidnější okna. Časovou osu tak čtete celou, ne jen její těžší části.",
+  "hard": [
+   {
+    "topics": [
+     "death",
+     "loss"
+    ],
+    "text": "Když Saturn nebo Pluto procházejí citlivými body jednoho z vás, tradice tu mluví o úmrtí v rodině nebo o odchodu blízkého člověka. Mluví i o konci jedné životní etapy. Smutek pak nese celý vztah, ne jen jeden z vás. Appka to ukazuje jako možný tón období, ne jako jistotu."
+   },
+   {
+    "topics": [
+     "illness"
+    ],
+    "text": "Při přechodech přes ascendent a šestý dům tradice tu mluví o nemoci, oslabení a dlouhé rekonvalescenci jednoho z vás. Druhý v takovém období přebírá víc péče a role ve vztahu se dočasně mění. Je to čtení symbolů, ne diagnóza ani předpověď."
+   },
+   {
+    "topics": [
+     "mental_crisis"
+    ],
+    "text": "Tradice tu mluví také o obdobích tísně: o depresi, úzkosti a vyčerpání, kdy jeden z vás ztrácí oporu v sobě i ve vztahu. Neptun a Pluto se v klasických výkladech spojují s rozpadem jistot a pocitem prázdnoty. Mezi vámi to může znít jako ticho nebo vzdálenost."
+   },
+   {
+    "topics": [
+     "violence"
+    ],
+    "text": "Když Pluto nebo Uran zasahují citlivé body obou horoskopů, tradice tu mluví o prudkých střetech, úrazech a násilí, ať už mezi vámi, nebo zvenčí. Napětí se v takových obdobích hromadí rychleji a výbuchy jsou ostřejší. Jde o tradiční symbol vypjatosti, ne o jistotu, že k něčemu dojde."
+   },
+   {
+    "topics": [
+     "loss",
+     "ruin"
+    ],
+    "text": "Pro vztah samotný tradice tu mluví o rozchodu, odloučení nebo dlouhé vzdálenosti. Platí to hlavně tehdy, když Saturn a Uran zasahují body sdílené oběma horoskopy. Jiné výklady spojují taková období s hmotnou ztrátou, ztrátou domova či zhroucením společných plánů. Appka tyto symboly uvádí kvůli úplnosti obrazu, ne jako předpověď."
+   }
+  ],
+  "traits": {
+   "text": [
+    "patience",
+    "perseverance",
+    "resilience",
+    "realism",
+    "calm"
+   ],
+   "shadow": []
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-22"
+  }
+ },
+ {
+  "key": "pair_guide/calm_window",
+  "title": "Klidnější okno",
+  "keywords": [
+   "klid",
+   "společné plány",
+   "rozhodnutí",
+   "oddech"
+  ],
+  "themes": [
+   "relationships",
+   "growth"
+  ],
+  "text": "Tady začíná klidnější okno: aspoň tři měsíce, kdy ani jeden z vás neprochází zátěžovým obdobím. Máte prostor na rozhodnutí a společné plány, které potřebují klidnou hlavu obou. Hodí se otevřít, co dosud čekalo na vhodnou chvíli.",
+  "traits": {
+   "text": [
+    "calm",
+    "decisiveness",
+    "cooperation",
+    "steadiness"
+   ],
+   "shadow": []
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-22"
+  }
+ },
+ {
+  "key": "pair_guide/shared_period",
+  "title": "Oba najednou",
+  "keywords": [
+   "souběžná zátěž",
+   "únava",
+   "trpělivost",
+   "ohleduplnost"
+  ],
+  "themes": [
+   "relationships",
+   "health",
+   "growth"
+  ],
+  "text": "Zátěžové období každého z vás se teď aspoň měsíc překrývá. Oba nesete vlastní tíhu, a proto zbývá méně sil pro toho druhého. Není to chlad ani konec blízkosti, jen únava ve stejnou chvíli. Pomáhá to vědět. Když jeden z vás méně odpovídá nebo méně nabízí, neberete to osobně. Stačí malá gesta a trpělivost s tempem toho druhého.",
+  "hard": [
+   {
+    "topics": [
+     "loss",
+     "illness",
+     "death"
+    ],
+    "text": "Tradice tu mluví o době, kdy na oba doléhají ztráty nebo starosti o zdraví v blízkém okolí. Někdy zmiňuje i nemoc jednoho z vás nebo smutek po někom blízkém. Není to jistota, spíš upozornění. Těžké zprávy mohou přijít ve chvíli, kdy ani jeden z vás nemá mnoho rezervy."
+   },
+   {
+    "topics": [
+     "mental_crisis"
+    ],
+    "text": "Tradice tu mluví také o sklíčenosti, která se mezi dvěma unavenými lidmi snadno násobí. Když oběma docházejí síly, může se jeden z vás propadat do beznaděje a druhý to nemusí včas zachytit. Jako jistotu to brát nelze. Je to spíš důvod všímat si změn nálady u sebe i u toho druhého."
+   }
+  ],
+  "traits": {
+   "text": [
+    "exhaustion",
+    "patience",
+    "empathy",
+    "tolerance"
+   ],
+   "shadow": [
+    "detachment",
+    "sulking",
+    "melancholy",
+    "loneliness"
+   ]
+  },
+  "meta": {
+   "model": "claude-opus-5-5",
+   "generated": "2026-11-22"
+  }
+ },
+ {
+  "key": "pair_guide/no_birth_time",
+  "title": "Bez času narození",
+  "keywords": [
+   "čas narození",
+   "chybějící domy",
+   "nejistý měsíc",
+   "zkrácený průvodce"
+  ],
+  "themes": [
+   "relationships"
+  ],
+  "text": "U jednoho z vás chybí čas narození, a proto tento průvodce nepracuje s ascendentem, osami ani domy. Nevidíte tak, ve kterých oblastech života se vaše spojení projevuje nejsilněji. Znamení Měsíce může být u tohoto profilu nejisté, pokud Měsíc ten den přechází do dalšího znamení. Výklad je proto kratší a drží se jen toho, co je jisté. Když čas doplníte, průvodce se rozšíří.",
+  "traits": {
+   "text": [
+    "caution",
+    "realism",
+    "patience"
    ],
    "shadow": []
   },
