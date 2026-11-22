@@ -2884,6 +2884,18 @@ abstract class AppLocalizations {
   /// In cs, this message translates to:
   /// **'Období {from}–{to}'**
   String pairPdfPeriods(int from, int to);
+
+  /// No description provided for @readingPdfIntro.
+  ///
+  /// In cs, this message translates to:
+  /// **'Úplný výklad bez filtru, včetně stinných stránek a těžkých témat (nemoc, duševní krize, ztráta, smrt…). Těžká témata jsou v rámečku s názvem tématu. Jde o tradiční výklad postavení, ne o předpověď.'**
+  String get readingPdfIntro;
+
+  /// No description provided for @hardPassageTitle.
+  ///
+  /// In cs, this message translates to:
+  /// **'Těžké téma: {topics}'**
+  String hardPassageTitle(Object topics);
 }
 
 class _AppLocalizationsDelegate
