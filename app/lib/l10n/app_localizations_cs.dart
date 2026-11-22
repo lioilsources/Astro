@@ -2364,4 +2364,13 @@ class AppLocalizationsCs extends AppLocalizations {
   String pairPdfPeriods(int from, int to) {
     return 'Období $from–$to';
   }
+
+  @override
+  String get readingPdfIntro =>
+      'Úplný výklad bez filtru, včetně stinných stránek a těžkých témat (nemoc, duševní krize, ztráta, smrt…). Těžká témata jsou v rámečku s názvem tématu. Jde o tradiční výklad postavení, ne o předpověď.';
+
+  @override
+  String hardPassageTitle(Object topics) {
+    return 'Těžké téma: $topics';
+  }
 }

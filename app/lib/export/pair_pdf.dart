@@ -13,6 +13,7 @@ import '../l10n/app_localizations.dart';
 import '../logic/filter.dart';
 import '../ui/format.dart';
 import '../ui/synastry/pair_names.dart';
+import 'pdf_blocks.dart';
 
 /// "Sdílet průvodce" (plan R9 6.2): the guide and the periods as PDF, as shown
 /// under the current filter (owner decision 29: it goes to the other person).
@@ -48,7 +49,7 @@ Future<Uint8List> buildPairPdf(AppLocalizations l, PairNames names, PairGuide gu
       if (!shadowFirst) ...shadow,
       if (e.advice.isNotEmpty) pw.Paragraph(text: '${l.adviceTitle}: ${e.advice}'),
       if (showPartner && e.partner.isNotEmpty) pw.Paragraph(text: '${l.synastryPartnerTitle}: ${e.partner}'),
-      for (final h in f.visibleHard) pw.Paragraph(text: '[${l.topics(h.topics)}] ${h.text}'),
+      for (final h in f.visibleHard) hardPassageBlock(l, h),
       if (f.hiddenCount > 0) pw.Paragraph(text: l.hiddenPassages(f.hiddenCount, l.topics(f.hiddenTopics))),
     ];
   }
