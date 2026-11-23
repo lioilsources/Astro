@@ -1,0 +1,39 @@
+Astro spočítá tvůj nativní horoskop z data, času a místa narození a ke každému údaji nabídne český výklad. Všechno běží v telefonu: bez účtu, bez reklam a bez internetu.
+
+HOROSKOP
+• kolo horoskopu s planetami, osami a aspekty, obrazce aspektů a 32 stálic
+• tabulky poloh, domů a aspektů; devět systémů domů a jejich srovnání
+• výklad planet ve znameních a domech, aspektů, os a dalších prvků
+• neznáš čas narození? Horoskop se spočítá bez domů a os
+
+TRANZITY A ČAS
+• tranzity dnes, den po hodinách s Měsícem a planetárními hodinami, kalendář
+• progrese a solár (horoskop návratu Slunce)
+
+VZTAHY
+• partnerský horoskop dvou profilů: průvodce vztahem, období, společné kolo, tabulky a výklad
+• partneři, rodič a dítě, sourozenci, přátelé i kolegové
+• uložené dvojice a sdílení výkladu jako PDF
+
+ZEPTEJ SE
+• co ve tvém horoskopu vysvětluje určitý rys a co se dělo v daný den
+• horární otázka čtená podle tradičních pravidel 17. století
+• hledání vhodného termínu (elekce), okna jde přidat do kalendáře
+
+DENÍK PŘEDPOVĚDÍ
+• hodnoť dny a ověř si, jestli napětí tranzitů souvisí s tím, jak den prožíváš
+• volitelný slepý test, kontrola cizím horoskopem a vlastní hypotézy
+• večerní připomínka jako místní oznámení
+
+OSOBNOSTI
+• katalog téměř 300 osobností s daty narození z Wikidat; čas narození jen tam, kde je doložený zdroj
+
+TĚŽKÁ TÉMATA POD TVOU KONTROLOU
+Výklad mluví i o stinných stránkách a těžkých tématech, o kterých tradiční astrologie píše: nemoc, ztráta, krize. Šetrný režim nebo skrytí jednotlivých témat zapneš kdykoli v nastavení.
+
+SOUKROMÍ
+Profily, deník a otázky zůstávají jen v telefonu, uložené šifrovaně. Appka nic neodesílá a nesbírá žádná data.
+
+Polohy planet počítá appka podle VSOP87 a Meeuse, Pluto z efemeridy JPL DE440.
+
+Astro popisuje tradiční výklad astrologie, ne prokázané souvislosti. Není to předpověď ani rada a nenahrazuje lékařskou ani psychologickou pomoc.
