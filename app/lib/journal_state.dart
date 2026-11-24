@@ -1,5 +1,6 @@
 import 'package:astro_core/astro_core.dart';
 import 'package:astro_core/journal.dart';
+import 'package:flutter/foundation.dart' show kIsWeb;
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 import 'data/journal_store.dart';
@@ -62,7 +63,7 @@ class JournalNotifier extends AsyncNotifier<Journal> {
 
 final journalProvider = AsyncNotifierProvider.family<JournalNotifier, Journal, String>(JournalNotifier.new);
 
-final remindersProvider = Provider<Reminders>((ref) => LocalReminders());
+final remindersProvider = Provider<Reminders>((ref) => kIsWeb ? NoReminders() : LocalReminders());
 
 class ReminderNotifier extends AsyncNotifier<ReminderSettings> {
   @override

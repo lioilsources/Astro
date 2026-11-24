@@ -1,27 +1,21 @@
-import 'dart:io';
-
 import 'package:astro_core/astro_core.dart';
 import 'package:flutter/material.dart' show BuildContext;
 import 'package:flutter/services.dart';
-import 'package:path_provider/path_provider.dart';
 import 'package:pdf/pdf.dart';
 import 'package:pdf/widgets.dart' as pw;
-import 'package:share_plus/share_plus.dart';
 
 import '../data/content_repository.dart';
 import '../data/profile.dart';
 import '../l10n/app_localizations.dart';
 import '../logic/reading.dart';
 import 'pdf_blocks.dart';
+import '../platform/share_bytes.dart';
 
 /// "Sdílet celý výklad": the unfiltered reading as PDF, without opening hidden
 /// passages on screen (plan 5.1). Meant to be handed to a therapist.
 Future<void> shareFullReading(BuildContext context, Profile profile, Chart chart, ContentRepository content) async {
   final bytes = await buildReadingPdf(AppLocalizations.of(context), profile, chart, content);
-  final dir = await getTemporaryDirectory();
-  final f = File('${dir.path}/vyklad-${profile.id}.pdf');
-  await f.writeAsBytes(bytes, flush: true);
-  await SharePlus.instance.share(ShareParams(files: [XFile(f.path, mimeType: 'application/pdf')], subject: profile.name));
+  await shareBytes(bytes, 'vyklad-${profile.id}.pdf', 'application/pdf', subject: profile.name);
 }
 
 Future<Uint8List> buildReadingPdf(AppLocalizations l, Profile profile, Chart chart, ContentRepository content) async {

@@ -1,25 +1,19 @@
-import 'dart:io';
-
 import 'package:astro_core/astro_core.dart';
 import 'package:flutter/services.dart';
-import 'package:path_provider/path_provider.dart';
 import 'package:pdf/pdf.dart';
 import 'package:pdf/widgets.dart' as pw;
-import 'package:share_plus/share_plus.dart';
 
 import '../data/content_repository.dart';
 import '../l10n/app_localizations.dart';
 import '../ui/format.dart';
 import '../ui/horary/horary_screens.dart' show horaryTimingText;
+import '../platform/share_bytes.dart';
 
 /// One horary question as PDF. The question text goes in only when the user
 /// ticks it explicitly (plan 10.8, privacy).
 Future<void> shareHoraryPdf(AppLocalizations l, HoraryRecord r, HoraryJudgement j, ContentRepository content, {required bool includeText}) async {
   final bytes = await buildHoraryPdf(l, r, j, content, includeText: includeText);
-  final dir = await getTemporaryDirectory();
-  final f = File('${dir.path}/otazka-${r.id}.pdf');
-  await f.writeAsBytes(bytes, flush: true);
-  await SharePlus.instance.share(ShareParams(files: [XFile(f.path, mimeType: 'application/pdf')], subject: l.horaryTopicName(r.topic ?? '')));
+  await shareBytes(bytes, 'otazka-${r.id}.pdf', 'application/pdf', subject: l.horaryTopicName(r.topic ?? ''));
 }
 
 Future<Uint8List> buildHoraryPdf(AppLocalizations l, HoraryRecord r, HoraryJudgement j, ContentRepository content, {required bool includeText}) async {

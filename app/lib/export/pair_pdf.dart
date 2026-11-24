@@ -1,12 +1,8 @@
-import 'dart:io';
-
 import 'package:astro_core/astro_core.dart';
 import 'package:astro_core/content.dart';
 import 'package:flutter/services.dart';
-import 'package:path_provider/path_provider.dart';
 import 'package:pdf/pdf.dart';
 import 'package:pdf/widgets.dart' as pw;
-import 'package:share_plus/share_plus.dart';
 
 import '../data/content_repository.dart';
 import '../l10n/app_localizations.dart';
@@ -14,6 +10,7 @@ import '../logic/filter.dart';
 import '../ui/format.dart';
 import '../ui/synastry/pair_names.dart';
 import 'pdf_blocks.dart';
+import '../platform/share_bytes.dart';
 
 /// "Sdílet průvodce" (plan R9 6.2): the guide and the periods as PDF, as shown
 /// under the current filter (owner decision 29: it goes to the other person).
@@ -21,13 +18,7 @@ Future<void> sharePairPdf(AppLocalizations l, PairNames names, PairGuide guide, 
     ContentFilter filter,
     {required Relationship relationship, required double now}) async {
   final bytes = await buildPairPdf(l, names, guide, timeline, content, filter, relationship: relationship, now: now);
-  final dir = await getTemporaryDirectory();
-  final f = File('${dir.path}/pruvodce-vztahem.pdf');
-  await f.writeAsBytes(bytes, flush: true);
-  await SharePlus.instance.share(ShareParams(
-    files: [XFile(f.path, mimeType: 'application/pdf')],
-    subject: l.synastryPairTitle(names.first, names.second),
-  ));
+  await shareBytes(bytes, 'pruvodce-vztahem.pdf', 'application/pdf', subject: l.synastryPairTitle(names.first, names.second));
 }
 
 Future<Uint8List> buildPairPdf(AppLocalizations l, PairNames names, PairGuide guide, PairTimeline timeline, ContentRepository content,

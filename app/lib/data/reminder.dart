@@ -38,6 +38,14 @@ abstract interface class Reminders {
   Future<void> cancel();
 }
 
+/// The browser build has no local notifications: the reminder reports "not allowed" and stays off.
+class NoReminders implements Reminders {
+  @override
+  Future<bool> schedule(int minutes, {required String title, required String body}) async => false;
+  @override
+  Future<void> cancel() async {}
+}
+
 class LocalReminders implements Reminders {
   static const _id = 1003;
   final _plugin = FlutterLocalNotificationsPlugin();

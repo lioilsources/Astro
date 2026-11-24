@@ -1,0 +1,83 @@
+# Flutter app (app/) built for the web → GitHub Pages: docs/ stays at the root (privacy.html,
+# support.html, index.html linked from the store listings), the app under /app/.
+# Deploys only once Settings → Pages → Source is "GitHub Actions" (build_type "workflow"); while the
+# repo still serves docs/ from the branch (legacy), the deploy job is skipped and nothing changes.
+# The switch is the repo owner's decision, not this workflow's.
+name: Web
+
+on:
+  push:
+    branches: [main]
+    paths: ['app/**', 'packages/**', 'content/**', 'docs/**', '.github/workflows/web.yml']
+  pull_request:
+    paths: ['app/**', 'packages/**', '.github/workflows/web.yml']
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: web-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build:
+    name: Flutter web build
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - uses: subosito/flutter-action@v2
+        with:
+          flutter-version: '3.50.x'
+          channel: stable
+          cache: true
+      - name: Build
+        working-directory: app
+        run: |
+          flutter pub get
+          flutter build web --release --base-href "/${{ github.event.repository.name }}/app/"
+      - name: Assemble site (docs/ at root, app under /app/)
+        run: |
+          mkdir -p _site
+          cp -R docs/. _site/
+          mkdir -p _site/app
+          cp -R app/build/web/. _site/app/
+          # The legacy site serves these; the new one must too.
+          for f in index.html privacy.html support.html icon.png app/index.html app/main.dart.js; do
+            test -f "_site/$f" || { echo "missing $f"; exit 1; }
+          done
+      - if: github.event_name != 'pull_request'
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+  pages-mode:
+    name: Pages source is GitHub Actions?
+    if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    permissions:
+      pages: read
+    outputs:
+      build_type: ${{ steps.mode.outputs.build_type }}
+    steps:
+      - id: mode
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          t=$(gh api "repos/${{ github.repository }}/pages" --jq .build_type 2>/dev/null || echo unknown)
+          echo "Pages build_type: $t"
+          echo "build_type=$t" >> "$GITHUB_OUTPUT"
+
+  deploy:
+    if: needs.pages-mode.outputs.build_type == 'workflow'
+    needs: [build, pages-mode]
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}app/
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

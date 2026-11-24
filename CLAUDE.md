@@ -13,6 +13,7 @@ bin/gate                                   # analyze + testy všech balíčků
 cd packages/astro_core && dart test        # jen engine
 dart run packages/astro_core/bin/chart.dart 2000-01-01 12:00 50.0833 14.4167 UT
 cd app && flutter run
+cd app && flutter build web --base-href /Astro/app/   # web (CI .github/workflows/web.yml → Pages /app/)
 tools/golden/.venv/bin/python tools/golden/gen_golden.py   # přegenerovat golden + tabulku Pluta
 python3 tools/people/build_people.py && dart run tools/content/bin/people.dart   # katalog osobností
 app/tool/store_screenshots.sh && python3 app/tool/upload_store_screenshots.py ios   # screenshoty obchodu
@@ -30,6 +31,8 @@ app/tool/store_screenshots.sh && python3 app/tool/upload_store_screenshots.py io
 - `fastlane/metadata/` — texty a screenshoty obchodů (ios cs/en-US, android cs-CZ/en-US)
 
 ## Invarianty
+- Web: žádné `Isolate.run`, `dart:io` soubory ani `path_provider` přímo; přes `app/lib/platform/`
+  (`background`, `BlobStore`, `shareBytes`). Připomínky na webu nejsou (`NoReminders`).
 - Swiss Ephemeris (AGPL) se do appky nikdy nelinkuje; jen `tools/golden/`.
 - `astronomia` je připnutá na 1.1.1; změnu verze kryjí golden testy.
 - Osobní data narození do repa nepatří (repo je veřejné). Lokální kontrolní
