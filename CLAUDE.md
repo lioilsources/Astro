@@ -31,8 +31,8 @@ app/tool/store_screenshots.sh && python3 app/tool/upload_store_screenshots.py io
 - `fastlane/metadata/` — texty a screenshoty obchodů (ios cs/en-US, android cs-CZ/en-US)
 
 ## Invarianty
-- Web: žádné `Isolate.run`, `dart:io` soubory ani `path_provider` přímo; přes `app/lib/platform/`
-  (`background`, `BlobStore`, `shareBytes`). Připomínky na webu nejsou (`NoReminders`).
+- Appka běží i na webu: izoláty, ukládání a sdílení souborů jen přes `app/lib/platform/` (`background`,
+  `BlobStore`, `shareBytes`), ne `Isolate.run`, `File` ani `path_provider` napřímo. Připomínky na webu nejsou (`NoReminders`).
 - Swiss Ephemeris (AGPL) se do appky nikdy nelinkuje; jen `tools/golden/`.
 - `astronomia` je připnutá na 1.1.1; změnu verze kryjí golden testy.
 - Osobní data narození do repa nepatří (repo je veřejné). Lokální kontrolní
