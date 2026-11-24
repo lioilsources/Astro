@@ -1,19 +1,19 @@
 import 'dart:convert';
 import 'dart:io';
-import 'dart:isolate';
 
 import 'package:astro_core/astro_core.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 import '../data/journal_store.dart';
+import '../platform/background.dart';
 
 /// Horary rules bundled from `content/rules/horary.json` (plan 10.8).
 final horaryBookProvider = FutureProvider<HoraryBook>((ref) async =>
     HoraryBook.fromJson((jsonDecode(await rootBundle.loadString('assets/rules/horary.json')) as Map).cast<String, Object?>()));
 
 /// Judges a question off the UI thread.
-Future<HoraryJudgement> judgeHorary(HoraryQuestion q, HoraryBook book) => Isolate.run(() => HoraryEngine.judge(q, book));
+Future<HoraryJudgement> judgeHorary(HoraryQuestion q, HoraryBook book) => background(() => HoraryEngine.judge(q, book));
 
 /// The question to recompute a judgement from a logged question.
 HoraryQuestion questionOf(HoraryRecord r) => HoraryQuestion(jdUt: r.jdUt!, place: r.place!, topic: r.topic!, person: r.person ?? 'self');

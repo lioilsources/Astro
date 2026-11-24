@@ -1,9 +1,10 @@
 import 'dart:io' show Platform;
-import 'dart:isolate';
 import 'dart:math' as math;
 
 import 'package:astro_core/astro_core.dart';
 import 'package:astro_core/journal.dart';
+
+import '../platform/background.dart';
 
 /// One dated event of a catalog person (Prompts/KATALOG-osobnosti.md, oddíl 6).
 class CatalogEvent {
@@ -178,7 +179,7 @@ List<({double from, double to})> lifeSpans(List<LifeInput> lives, double now, {d
 /// planet and span of lives (Pluto per life, its tables do not cover every century), built
 /// in parallel isolates; the lives are then scored in parallel isolates.
 Future<CatalogCheck> computeCatalogCheck(List<LifeInput> lives, double now, {int? workers}) async {
-  final w = workers ?? Platform.numberOfProcessors.clamp(2, 8);
+  final w = workers ?? backgroundWorkers(() => Platform.numberOfProcessors.clamp(2, 8));
   final spans = lifeSpans(lives, now);
   final bodies = [for (final b in Body.planets) if (b != Body.moon && b != Body.pluto) b];
   // Pieces of about 40 years on one sampling grid per body, built in parallel and joined.
@@ -229,9 +230,9 @@ Future<CatalogCheck> computeCatalogCheck(List<LifeInput> lives, double now, {int
 
 // Top-level helpers so the isolate closures capture only their arguments.
 Future<LongitudeTrack> _trackIn(Body body, double from, double to, double step) =>
-    Isolate.run(() => LongitudeTrack.build(body, from, to, step));
+    background(() => LongitudeTrack.build(body, from, to, step));
 
 Future<List<List<EventDaySample>>> _scoreIn(List<({LifeInput p, Map<Body, LongitudeTrack> shared})> inputs, double now) =>
-    Isolate.run(() => [for (final x in inputs) lifeSamples(x.p, now, shared: x.shared)]);
+    background(() => [for (final x in inputs) lifeSamples(x.p, now, shared: x.shared)]);
 
-Future<EventDaySummary?> _summarizeIn(List<EventDaySample> samples) => Isolate.run(() => summarizeEventDays(samples));
+Future<EventDaySummary?> _summarizeIn(List<EventDaySample> samples) => background(() => summarizeEventDays(samples));

@@ -1,5 +1,3 @@
-import 'dart:isolate';
-
 import 'package:astro_core/astro_core.dart';
 import 'package:astro_core/content.dart';
 import 'package:flutter/material.dart';
@@ -12,6 +10,7 @@ import 'chart/chart_screen.dart';
 import 'entry_view.dart';
 import 'format.dart';
 import 'people_screen.dart';
+import '../platform/background.dart';
 
 String _date(CatalogEvent e) => '${e.day}. ${e.month}. ${e.year}';
 
@@ -86,7 +85,7 @@ class _EventDayScreenState extends ConsumerState<EventDayScreen> {
     final jd = widget.event.noonJd(widget.person.profile.birth);
     final death = widget.person.deathJd;
     final now = _now();
-    _day = Isolate.run(() => computeEventDay(chart, jd, death, now));
+    _day = background(() => computeEventDay(chart, jd, death, now));
   }
 
   @override

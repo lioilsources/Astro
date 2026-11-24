@@ -1,8 +1,9 @@
-import 'dart:isolate';
 import 'dart:math' as math;
 
 import 'package:astro_core/astro_core.dart';
 import 'package:astro_core/journal.dart';
+
+import '../platform/background.dart';
 
 /// Everything the journal screen shows from the statistics (plan 10.3).
 class JournalReport {
@@ -21,7 +22,7 @@ int journalSeed(Journal j) => Object.hashAll([for (final r in j.evaluated) r.id]
 /// persons (the profile itself excluded); 20 of them are drawn at random.
 Future<JournalReport> computeJournalReport(Chart natal, Journal journal, List<BirthData> catalog, {int? seed}) {
   final s = seed ?? journalSeed(journal);
-  return Isolate.run(() {
+  return background(() {
     final picked = pickRandom(catalog, controlPersons, math.Random(s));
     final controls = [for (final b in picked) Chart.compute(b)];
     final eval = evaluateJournal(natal, journal, controls, seed: s);

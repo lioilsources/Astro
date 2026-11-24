@@ -1,12 +1,10 @@
-import 'dart:io';
+import 'dart:convert';
 
 import 'package:astro_core/astro_core.dart';
 import 'package:astro_core/content.dart';
 import 'package:astro_core/journal.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:path_provider/path_provider.dart';
-import 'package:share_plus/share_plus.dart';
 
 import '../../data/content_repository.dart';
 import '../../data/profile.dart';
@@ -19,6 +17,7 @@ import '../format.dart';
 import '../people_screen.dart' show Person, peopleProvider;
 import 'journal_format.dart';
 import 'rating_sheet.dart';
+import '../../platform/share_bytes.dart';
 
 /// Prediction journal of one profile (plan 10.3).
 class JournalScreen extends ConsumerWidget {
@@ -28,10 +27,7 @@ class JournalScreen extends ConsumerWidget {
 
   Future<void> _export(BuildContext context, Journal j) async {
     final subject = AppLocalizations.of(context).journalTitle;
-    final dir = await getTemporaryDirectory();
-    final f = File('${dir.path}/denik-${profile.id}.csv');
-    await f.writeAsString(journalCsv(j), flush: true);
-    await SharePlus.instance.share(ShareParams(files: [XFile(f.path, mimeType: 'text/csv')], subject: subject));
+    await shareBytes(utf8.encode(journalCsv(j)), 'denik-${profile.id}.csv', 'text/csv', subject: subject);
   }
 
   @override

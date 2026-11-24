@@ -5,7 +5,8 @@ import 'dart:math';
 import 'package:astro_core/journal.dart';
 import 'package:cryptography/cryptography.dart';
 import 'package:flutter_secure_storage/flutter_secure_storage.dart';
-import 'package:path_provider/path_provider.dart';
+
+import '../platform/blob_store.dart';
 
 /// Where the encryption key lives (keychain/keystore in the app, a map in tests).
 abstract interface class KeyVault {
@@ -22,18 +23,18 @@ class SecureKeyVault implements KeyVault {
   Future<void> write(String name, String value) => _s.write(key: name, value: value);
 }
 
-/// One AES-GCM encrypted JSON document per file, key kept in a [KeyVault].
+/// One AES-GCM encrypted JSON document per file (local storage on the web), key kept in a [KeyVault].
 /// Shared by the journal and later append-only logs (horary questions, R8).
 class EncryptedJsonFiles {
   final String keyName;
   final KeyVault _vault;
-  final Future<Directory> Function() _dir;
+  final BlobStore _blobs;
   final _algo = AesGcm.with256bits();
   Future<SecretKey>? _key;
 
   EncryptedJsonFiles(this.keyName, {KeyVault? vault, Future<Directory> Function()? dir})
       : _vault = vault ?? const SecureKeyVault(),
-        _dir = dir ?? getApplicationSupportDirectory;
+        _blobs = BlobStore.platform(dir);
 
   // Cached so two concurrent first uses never create two different keys.
   Future<SecretKey> _secret() => _key ??= () async {
@@ -45,38 +46,30 @@ class EncryptedJsonFiles {
         return SecretKey(bytes);
       }();
 
-  Future<File> file(String relative) async => File('${(await _dir()).path}/$relative');
-
   Future<Object?> read(String relative) async {
-    final f = await file(relative);
-    if (!f.existsSync()) return null;
-    final box = SecretBox.fromConcatenation(await f.readAsBytes(), nonceLength: 12, macLength: 16);
+    final bytes = await _blobs.read(relative);
+    if (bytes == null) return null;
+    final box = SecretBox.fromConcatenation(bytes, nonceLength: 12, macLength: 16);
     final clear = await _algo.decrypt(box, secretKey: await _secret());
     return jsonDecode(utf8.decode(clear));
   }
 
   Future<void> write(String relative, Object? json) async {
     final box = await _algo.encrypt(utf8.encode(jsonEncode(json)), secretKey: await _secret());
-    final f = await file(relative);
-    await f.parent.create(recursive: true);
-    final tmp = File('${f.path}.tmp');
-    await tmp.writeAsBytes(box.concatenation(), flush: true);
-    await tmp.rename(f.path);
+    await _blobs.write(relative, box.concatenation());
   }
 
-  Future<void> delete(String relative) async {
-    final f = await file(relative);
-    if (f.existsSync()) await f.delete();
-  }
+  Future<void> delete(String relative) => _blobs.delete(relative);
 }
 
 /// Prediction journals, one encrypted file per profile (plan 10.3). Nothing leaves the device.
 class JournalStore {
   final EncryptedJsonFiles files;
   JournalStore({KeyVault? vault, Future<Directory> Function()? dir})
-      : files = EncryptedJsonFiles('astro_journal_key_v1', vault: vault, dir: dir);
+    : files = EncryptedJsonFiles('astro_journal_key_v1', vault: vault, dir: dir);
 
-  static String pathOf(String profileId) => 'journal/${base64Url.encode(utf8.encode(profileId)).replaceAll('=', '')}.bin';
+  static String pathOf(String profileId) =>
+      'journal/${base64Url.encode(utf8.encode(profileId)).replaceAll('=', '')}.bin';
 
   /// Throws [JournalSchemaError] for a file written by a newer app; the caller must not save over it.
   Future<Journal> load(String profileId) async {

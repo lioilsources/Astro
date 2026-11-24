@@ -1,8 +1,8 @@
-import 'dart:io';
+import 'dart:convert';
 
 import 'package:astro_core/astro_core.dart';
-import 'package:path_provider/path_provider.dart';
-import 'package:share_plus/share_plus.dart';
+
+import '../platform/share_bytes.dart';
 
 /// One calendar event of an election window.
 class IcsEvent {
@@ -63,8 +63,5 @@ String buildIcs(List<IcsEvent> events, {DateTime? now}) {
 
 /// Writes the calendar file and opens the share sheet.
 Future<void> shareIcs(List<IcsEvent> events, String subject) async {
-  final dir = await getTemporaryDirectory();
-  final f = File('${dir.path}/termin.ics');
-  await f.writeAsString(buildIcs(events));
-  await SharePlus.instance.share(ShareParams(files: [XFile(f.path, mimeType: 'text/calendar')], subject: subject));
+  await shareBytes(utf8.encode(buildIcs(events)), 'termin.ics', 'text/calendar', subject: subject);
 }
